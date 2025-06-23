@@ -102,10 +102,18 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'docSidebar',
+          sidebarId: 'boardSidebar',
           position: 'left',
-          label: 'Docs',
+          label: 'Board',
         },
+        
+        {
+          type: 'docSidebar',
+          sidebarId: 'moduleSidebar',
+          position: 'left',
+          label: 'Module',
+        },
+
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/bigtreetech/docs',
