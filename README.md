@@ -1,7 +1,19 @@
 # Bigtreetech WiKi 
 
+### install requirement 
+
+``` shell
+sudo pacman -S yarn git
+```
+### install package 
+
+``` shell
+cd ~/wiki-dev
+yarn install 
+```
+
 ### run wiki 
 
 ```shell
-pnpm run start
+yarn run start
 ```
