@@ -17,14 +17,14 @@ import TabItem from '@theme/TabItem';
 
 <img
     src={require('./img/max-ez-size-v1.png').default}
-    alt="max ez size" width="550"
+    alt="max ez size" width="800"
 />
 
 ## Pinout
 
 <img
     src={require('./img/max-ez-pinout-v1.png').default}
-    alt="max ez pinout" width="550"
+    alt="max ez pinout" width="800"
 />
 
 ## 硬件功能配置
