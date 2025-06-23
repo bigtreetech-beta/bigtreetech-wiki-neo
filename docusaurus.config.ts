@@ -4,6 +4,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 import {default as custom_code_themes} from './src/theme/prism-custom-code-themes';
 
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
@@ -44,6 +47,10 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          
+          // math
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -69,6 +76,13 @@ const config: Config = {
         },
       } satisfies Preset.Options,
     ],
+  ],
+
+  stylesheets: [
+    {
+      href: '/katex/katex.min.css',
+      type: 'text/css',
+    },
   ],
 
   themes: [
