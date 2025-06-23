@@ -1,4 +1,4 @@
-# Bigtreetech WiKi 
+# Bigtreetech WiKi NEO
 
 ### install requirement 
 
