@@ -1,0 +1,8 @@
+{
+  "label": "SKR Pico",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "SKR Pico Docs"
+  }
+}
