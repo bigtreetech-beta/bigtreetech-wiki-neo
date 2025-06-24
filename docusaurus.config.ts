@@ -123,6 +123,13 @@ const config: Config = {
         
         {
           type: 'docSidebar',
+          sidebarId: 'extruderSidebar',
+          position: 'left',
+          label: 'Extruder',
+        },
+
+        {
+          type: 'docSidebar',
           sidebarId: 'moduleSidebar',
           position: 'left',
           label: 'Module',
