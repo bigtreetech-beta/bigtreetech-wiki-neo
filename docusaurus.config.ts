@@ -10,8 +10,8 @@ import rehypeKatex from 'rehype-katex';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Bigtreetech WiKi Demo',
-  tagline: 'demo version',
+  title: 'Bigtreetech WiKi NEO',
+  tagline: 'NEO version wiki',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
