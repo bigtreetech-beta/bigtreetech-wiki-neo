@@ -11,6 +11,22 @@ import TabItem from '@theme/TabItem';
 
 <!-- import lib end -->
 
+## 模型下载
+
+:::info 3D 参考文件
+
+Nebula 3D 建模参考文件 [bigtreetech/Nebula/3D Model/Reference Cad Model](https://github.com/bigtreetech/Nebula/tree/master/3D%20Model/Reference%20Cad%20Model)
+
+:::
+
+:::info 挤出机适配件下载 
+
+Stealthburner 适配件 [bigtreetech/Nebula/3D Model/Stealthburner](https://github.com/bigtreetech/Nebula/tree/master/3D%20Model/Stealthburner)
+
+EVA3 适配件 [bigtreetech/Nebula/3D Model/EVA3](https://github.com/bigtreetech/Nebula/tree/master/3D%20Model/EVA3)
+
+:::
+
 ## 外观尺寸
 
 XYZ 尺寸: $52.73 mm * 36.5 mm * 54.82 mm$
