@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
 
 <img
   src={require('./img/nebula_title.png').default}
-  alt="nebula" width="400"
+  alt="nebula" width="50%"
 />
 
 ## 产品简介

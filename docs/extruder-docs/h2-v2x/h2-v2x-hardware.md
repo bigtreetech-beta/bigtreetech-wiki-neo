@@ -35,12 +35,12 @@ XYZ尺寸: $53.9 mm * 37.88 mm * 51.52 mm$
 
 <img
     src={require('./img/H2V2X_Dimension1.png').default}
-    alt="h2 v2x" width="550"
+    alt="h2 v2x" width="60%"
 />
 
 <img
     src={require('./img/H2V2X_Dimension2.png').default}
-    alt="h2 v2x" width="550"
+    alt="h2 v2x" width="60%"
 />
 
 ## 挤出机调节
@@ -52,7 +52,7 @@ XYZ尺寸: $53.9 mm * 37.88 mm * 51.52 mm$
 <div class="div-table">
     <img
     src={require('./img/H2V2X_Filament1.png').default}
-    alt="h2 v2x" width="300" class="right-image"
+    alt="h2 v2x" width="35%" class="right-image"
     />
     挤出齿轮的松紧可调节，以适应不同的耗材，逆时针方向转动螺杆为夹紧，顺时针方向转动螺杆为松弛(当螺杆停止转动时，请勿用力，以免造成挤出机损坏）
 </div>
@@ -70,7 +70,7 @@ XYZ尺寸: $53.9 mm * 37.88 mm * 51.52 mm$
 
 <img
     src={require('./img/H2V2X_motor1.png').default}
-    alt="h2 v2x" width="550" class="right-image"
+    alt="h2 v2x" width="60%" class="right-image"
 />
 
 | H2 V2X       | 电机规格                              |

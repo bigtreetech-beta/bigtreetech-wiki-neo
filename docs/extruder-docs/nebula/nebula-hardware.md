@@ -17,7 +17,7 @@ XYZ 尺寸: $52.73 mm * 36.5 mm * 54.82 mm$
 
 <img
     src={require('./img/nebula_dimensions.png').default}
-    alt="nebula" width="550"
+    alt="nebula" width="60%"
 />
 
 ## 挤出机调节
@@ -29,7 +29,7 @@ XYZ 尺寸: $52.73 mm * 36.5 mm * 54.82 mm$
 <div class="div-table">
     <img
     src={require('./img/nebula_adjusting.png').default}
-    alt="nebula" width="300" class="right-image"
+    alt="nebula" width="35%" class="right-image"
     />
     逆时针旋转调节螺钉（朝标记 `–` 的方向）可以减小间距、增加夹紧力，适合`较硬`的耗材使用；顺时针旋转（朝标记 `+` 的方向）可以增大间距、降低夹紧力，更适合`柔性`耗材。
 </div>
@@ -39,7 +39,7 @@ XYZ 尺寸: $52.73 mm * 36.5 mm * 54.82 mm$
 <div class="div-table">
     <img
         src={require('./img/nebula_pin.png').default}
-        alt="nebula" width="550" class="right-image"
+        alt="nebula" width="60%" class="right-image"
     />
 
 | Nebula | PIN              |
@@ -58,7 +58,7 @@ XYZ 尺寸: $52.73 mm * 36.5 mm * 54.82 mm$
 <div class="div-table">
     <img
         src={require('./img/nebula_motor.png').default}
-        alt="nebula" width="550" class="right-image"
+        alt="nebula" width="60%" class="right-image"
     />
 
 
@@ -83,7 +83,7 @@ XYZ 尺寸: $52.73 mm * 36.5 mm * 54.82 mm$
 
 <img
     src={require('./img/nebula_view.png').default}
-    alt="nebula" width="550" class="right-image"
+    alt="nebula" width="60%" class="right-image"
 />
 
 	

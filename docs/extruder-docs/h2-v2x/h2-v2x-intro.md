@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
 
 <img
   src={require('./img/h2-v2x-title.png').default}
-  alt="h2 v2x" width="400"
+  alt="h2 v2x" width="50%"
 />
 
 ## 产品简介
