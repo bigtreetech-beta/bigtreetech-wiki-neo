@@ -40,6 +40,11 @@
     margin-right: 20px;
 }
 
+.left-image {
+    float: left; 
+    margin-left: 20px; 
+    margin-right: 20px;
+}
 .image-margin {
     margin-left: 20px; 
     margin-right: 20px;
