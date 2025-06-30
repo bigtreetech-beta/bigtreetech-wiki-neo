@@ -12,9 +12,18 @@ import TabItem from '@theme/TabItem';
 
 <!-- import lib end -->
 
+<div class="div-table">
+
+<img
+    src={require('./img/TMC5160TPlus_Title.png').default}
+    alt="" width="35%" class="right-image"
+/>
+
 ## 产品简介
 
 TMC 5160 T Plus 是一个外置步进电机驱动。使用大功率 MOSFET 最大电压为 56V。
+
+</div>
 
 ## Specifications
 
