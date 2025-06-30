@@ -3,7 +3,7 @@ sidebar_position: 3
 description: EZ 5160 T Plus 软件配置
 ---
 
-# EZ 5160 T Plus Firmware
+# TMC 5160 T Plus Firmware
 
 <!-- import lib start -->
 
@@ -27,3 +27,10 @@ interpolate: False
 stealthchop_threshold: 0
 driver_SGT: 0
 ```
+
+## Marlin 配置
+
+:::info[Marlin 最低版本]
+只有 Marlin 2.0 及更高版本的固件支持 TMC5160 的 SPI 模式
+:::
+
