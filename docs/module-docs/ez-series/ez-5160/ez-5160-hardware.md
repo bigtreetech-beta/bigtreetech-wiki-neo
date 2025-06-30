@@ -12,9 +12,13 @@ import TabItem from '@theme/TabItem';
 
 <!-- import lib end -->
 
-## EZ 5160 Pro 模型
+## 模型下载
+
+:::info[3D 参考文件]
 
 [bigtreetech/BIGTREETECH-EZ-Driver/BIGTREETECH EZ5160 Pro V1.0](https://github.com/bigtreetech/BIGTREETECH-EZ-Driver/tree/main/BIGTREETECH%20EZ5160%20Pro%20V1.0)
+
+:::
 
 ## EZ 系列引脚参考 
 
