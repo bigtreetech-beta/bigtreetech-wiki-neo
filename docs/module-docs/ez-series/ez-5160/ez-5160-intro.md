@@ -12,9 +12,17 @@ import TabItem from '@theme/TabItem';
 
 <!-- import lib end -->
 
+<div class="div-table">
+
+import EZ5160Pro from "./img/EZ5160_title.svg";
+
+<EZ5160Pro class="right-image" width="30%" height="auto"/>
+
 ## 产品简介
 
 EZ 5160 Pro 使用 TMC 5160 步进电机控制芯片，外置 MOSFET，最大电压可以达到 48V。
+
+</div>
 
 ## Specification
 
