@@ -8,6 +8,7 @@ sidebar_position: 2
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import ThemedImage from '@theme/ThemedImage';
 
 <!-- import lib end -->
 
@@ -96,9 +97,13 @@ XYZ 尺寸: $52.73 mm * 36.5 mm * 54.82 mm$
 
 ## Nebula 结构
 
-import Nebula from "./img/nebula-component.svg";
-
-<Nebula class="" width="auto" height="auto"/>
+<ThemedImage
+    alt="Docusaurus themed image"
+    sources={{
+        light: require('./img/nebula-component-light.png').default,
+        dark: require('./img/nebula-component-dark.png').default,
+    }}
+/>
 
 <br/><br/>
 

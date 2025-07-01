@@ -10,6 +10,7 @@ H2 V2X 硬件文档
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import ThemedImage from '@theme/ThemedImage';
 
 <!-- import lib end -->
 
@@ -90,9 +91,13 @@ XYZ尺寸: $53.9 mm * 37.88 mm * 51.52 mm$
 
 ## H2 V2X 结构图
 
-import H2V2XComponent from "./img/h2-v2x-component.svg";
-
-<H2V2XComponent class="themedDocusaurus" width="auto" height="auto"/>
+<ThemedImage
+    alt="Docusaurus themed image"
+    sources={{
+        light: require('./img/h2-v2x-component-light.png').default,
+        dark: require('./img/h2-v2x-component-dark.png').default,
+    }}
+/>
 
 | H2 V2X        | 结构图                 |             |                          |
 | ------------- | ---------------------- | ----------- | ------------------------ |
