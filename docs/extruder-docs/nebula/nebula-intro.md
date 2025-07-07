@@ -13,14 +13,18 @@ import TabItem from '@theme/TabItem';
 
 <!-- import lib end -->
 
+<div class="div-table">
+
 <img
   src={require('./img/nebula_title.png').default}
-  alt="nebula" width="50%"
+  alt="nebula" width="35%" class="right-image" 
 />
 
 ## 产品简介
 
 Nebula 是一款智能挤出机，专为提升性价比而设计，内置 `RGB` 背光灯，让打印头更具科技感。产品具备强大的耗材挤出能力、内置耗材传感器，以及可自定义的 G-code 控制按钮，支持自动进料和一键退料等多种实用功能。
+
+</div>
 
 ## 产品参数
 

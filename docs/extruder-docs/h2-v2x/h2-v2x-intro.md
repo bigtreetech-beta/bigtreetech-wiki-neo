@@ -13,14 +13,18 @@ import TabItem from '@theme/TabItem';
 
 <!-- import lib end -->
 
+<div class="div-table">
+
 <img
   src={require('./img/h2-v2x-title.png').default}
-  alt="h2 v2x" width="50%"
+  alt="h2 v2x" width="35%" class="right-image" 
 />
 
 ## 产品简介
 
 H2 V2X 为一款超轻型（重量仅145克）近程挤出机，选用经阳极氧化处理的铝合金材质，并采用CNC精密加工技术制成。它具有优异的电机散热性能，配备双齿轮挤出机构，能够平稳挤出耗材。此外，有多组安装孔位，简化了适配件设计难度。
+
+</div>
 
 ## 参数
 
