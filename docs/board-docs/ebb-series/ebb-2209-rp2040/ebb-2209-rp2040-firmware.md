@@ -1,0 +1,102 @@
+---
+sidebar_position: 3
+description: EBB 2209 RP2040 Klipper 固件配置 
+---
+
+# EBB 2209 RP2040 Firmware
+
+<!-- import lib start -->
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<!-- import lib end -->
+
+## 写入 Klipper 固件
+
+写入 Klipper 固件参考 [EBB 系列固件 (RP2040)](../ebb-firmware-rp2040.md)
+
+## Klipper 配置文件参考
+
+``` klipper_cfg title="printer.cfg"
+# This file contains common pin mappings for the BIGTREETECH EBBCan
+# Canbus board. To use this config, the firmware should be compiled for the
+# RP2040 with "USB" or "CAN bus (on gpio4/gpio5)".
+# The "EBB Can" micro-controller will be used to control the components on the nozzle.
+
+# See docs/Config_Reference.md for a description of parameters.
+
+[mcu EBBCan]
+canbus_uuid: 11aa22bb33cc
+
+[temperature_sensor EBB_NTC]
+sensor_type: Generic 3950
+sensor_pin: EBBCan:gpio28
+
+[adxl345]
+cs_pin: EBBCan:gpio1
+spi_software_sclk_pin: EBBCan:gpio2
+spi_software_mosi_pin: EBBCan:gpio0
+spi_software_miso_pin: EBBCan:gpio3
+axes_map: z,-y,x
+
+[resonance_tester]
+probe_points: 100, 100, 20
+accel_chip: adxl345
+
+[extruder]
+step_pin: EBBCan:gpio18
+dir_pin: !EBBCan:gpio19
+enable_pin: !EBBCan:gpio17
+microsteps: 16
+rotation_distance: 33.500
+nozzle_diameter: 0.400
+filament_diameter: 1.750
+heater_pin: EBBCan:gpio7
+sensor_type: EPCOS 100K B57560G104F
+sensor_pin: EBBCan:gpio27
+control: pid
+pid_Kp: 21.527
+pid_Ki: 1.063
+pid_Kd: 108.982
+min_temp: 0
+max_temp: 250
+
+# sensor_type: MAX31865
+# sensor_pin: EBBCan:gpio9
+# spi_software_sclk_pin: EBBCan:gpio10
+# spi_software_mosi_pin: EBBCan:gpio8
+# spi_software_miso_pin: EBBCan:gpio11
+# rtd_nominal_r: 100
+# rtd_reference_r: 430
+# rtd_num_of_wires: 2
+
+[tmc2209 extruder]
+uart_pin: EBBCan:gpio20
+run_current: 0.650
+stealthchop_threshold: 999999
+
+[fan]
+pin: EBBCan:gpio13
+
+[heater_fan hotend_fan]
+pin: EBBCan:gpio14
+heater: extruder
+heater_temp: 50.0
+
+[fan_generic 4W_FAN0]
+pin: EBBCan:gpio15
+tachometer_pin: EBBCan:gpio12
+#tachometer_ppr: 1
+
+[neopixel hotend_rgb]
+pin: EBBCan:gpio16
+
+[bltouch]
+sensor_pin: ^EBBCan:gpio21
+control_pin: EBBCan:gpio22
+
+## NPN and PNP proximity switch types can be set by jumper
+#[probe]
+#pin: ^EBBCan:gpio6
+```
