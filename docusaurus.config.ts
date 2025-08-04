@@ -11,7 +11,7 @@ import rehypeKatex from 'rehype-katex';
 
 const config: Config = {
   title: 'Bigtreetech WiKi NEO',
-  tagline: 'NEO version wiki',
+  tagline: '新文档还在迁移中',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -144,7 +144,7 @@ const config: Config = {
 
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/bigtreetech/wiki',
+          href: 'https://github.com/bigtreetech-beta/bigtreetech-wiki-neo',
           label: 'GitHub',
           position: 'right',
         },
@@ -188,7 +188,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/bigtreetech/wiki',
+              href: 'https://github.com/bigtreetech',
             }
           ]
         },

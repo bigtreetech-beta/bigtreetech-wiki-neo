@@ -5,48 +5,39 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  // Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '文档还在迁移中',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '文档迁移中',
+    // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        文档还在迁移中... 部分内容可能不存在
+        <a href="./docs/extruder">
+          <img
+            src={require('@site/static/img/h2-v2x.png').default}
+            alt=""
+          />
+          <br/>
+          
+          文档还在迁移中... 部分内容可能不存在
+        </a>
       </>
     ),
   },
-  // {
-  //   title: 'Focus on What Matters',
-  //   Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-  //   description: (
-  //     <>
-  //       Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-  //       ahead and move your docs into the <code>docs</code> directory.
-  //     </>
-  //   ),
-  // },
-  // {
-  //   title: 'Powered by React',
-  //   Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-  //   description: (
-  //     <>
-  //       Extend or customize your website layout by reusing React. Docusaurus can
-  //       be extended while reusing the same header and footer.
-  //     </>
-  //   ),
-  // },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+// function Feature({title, Svg, description}: FeatureItem) {
+
+function Feature({title, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
+      {/* <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
-      </div>
+      </div> */}
+
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>

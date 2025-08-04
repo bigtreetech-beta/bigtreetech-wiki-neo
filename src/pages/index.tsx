@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-              Bigtreetech WiKi 
+              查看文档
           </Link>
         </div>
       </div>
@@ -37,6 +37,11 @@ export default function Home(): ReactNode {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
+        <br />
+        <div className="text--center padding-horiz--md"d>
+          文档还在迁移中... 部分内容可能不存在
+        </div>
+        
         <HomepageFeatures />
       </main>
     </Layout>
