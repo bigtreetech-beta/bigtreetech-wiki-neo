@@ -210,7 +210,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} By Bigtreetech`,
+      copyright: `Copyright © ${new Date().getFullYear()} By Bigtreetech </br> <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>`,
     },
     prism: {
       theme: custom_code_themes,
