@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# EBB 36 CAN Firmware
+# EBB 36 CAN 固件配置
 
 <!-- import lib start -->
 

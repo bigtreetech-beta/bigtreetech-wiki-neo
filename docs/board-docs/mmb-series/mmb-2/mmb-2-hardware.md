@@ -3,7 +3,7 @@ sidebar_position: 2
 description: MMB CAN V2.0 硬件功能
 ---
 
-# MMB CAN V2.0 Hardware
+# MMB CAN V2.0 硬件功能
 
 <!-- import lib start -->
 

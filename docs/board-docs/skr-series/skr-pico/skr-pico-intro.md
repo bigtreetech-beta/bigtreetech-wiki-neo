@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# SKR Pico Intro
+# SKR Pico 简介
 
 SKR PICO 说明文档
 

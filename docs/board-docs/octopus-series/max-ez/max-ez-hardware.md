@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Octopus Max EZ Hardware
+# Octopus Max EZ 硬件功能
 
 Max EZ 硬件详细
 

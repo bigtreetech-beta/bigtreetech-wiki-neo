@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# EBB 36 CAN Intro
+# EBB 36 CAN 简介
 
 EBB 36 CAN 板说明文档
 

@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Octopus Max EZ Intro
+# Octopus Max EZ 简介
 
 Octopus Max EZ 说明文档
 

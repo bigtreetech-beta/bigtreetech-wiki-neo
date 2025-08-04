@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# SKR Pico Hardware
+# SKR Pico 硬件功能
 
 SKR Pico 硬件详细
 

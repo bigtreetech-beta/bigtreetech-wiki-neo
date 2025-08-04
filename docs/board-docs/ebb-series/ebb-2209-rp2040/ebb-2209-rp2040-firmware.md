@@ -3,7 +3,7 @@ sidebar_position: 3
 description: EBB 2209 RP2040 Klipper 固件配置 
 ---
 
-# EBB 2209 RP2040 Firmware
+# EBB 2209 RP2040 固件配置
 
 <!-- import lib start -->
 

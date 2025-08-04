@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# SKR Pico Firmware
+# SKR Pico 固件配置
 
 SKR Pico 固件配置
 

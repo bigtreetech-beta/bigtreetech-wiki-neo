@@ -3,7 +3,7 @@ sidebar_position: 1
 description: MMB CAN V1.0 简介
 ---
 
-# MMB CAN V1.0 Intro
+# MMB CAN V1.0 简介
 
 <!-- import lib start -->
 

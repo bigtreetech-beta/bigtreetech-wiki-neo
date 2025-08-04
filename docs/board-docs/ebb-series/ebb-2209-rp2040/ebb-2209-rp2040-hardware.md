@@ -3,7 +3,7 @@ sidebar_position: 2
 description: EBB 2209 RP2040 硬件功能
 ---
 
-# EBB 2209 RP2040 Hardware
+# EBB 2209 RP2040 硬件功能
 
 <!-- import lib start -->
 

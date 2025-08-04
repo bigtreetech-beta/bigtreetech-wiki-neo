@@ -3,7 +3,7 @@ sidebar_position: 1
 description: EBB 2209 RP2040 简介
 ---
 
-# EBB 2209 RP2040 Intro
+# EBB 2209 RP2040 简介
 
 ## 简介
 

@@ -3,7 +3,7 @@ sidebar_position: 3
 description: MMB CAN V2.0 软件配置 
 ---
 
-# MMB CAN V2.0 Firmware
+# MMB CAN V2.0 固件配置
 
 <!-- import lib start -->
 

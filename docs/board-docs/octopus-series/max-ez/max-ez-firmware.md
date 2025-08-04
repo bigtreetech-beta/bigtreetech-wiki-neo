@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Octopus Max EZ Firmware
+# Octopus Max EZ 固件配置
 
 Max EZ 固件配置
 

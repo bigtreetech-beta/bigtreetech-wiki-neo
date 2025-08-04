@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# EBB 36 CAN Hardware
+# EBB 36 CAN 硬件功能
 
 <!-- import lib start -->
 
