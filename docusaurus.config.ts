@@ -142,7 +142,7 @@ const config: Config = {
           label: 'Panda Series',
         },
 
-        // {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/bigtreetech-beta/bigtreetech-wiki-neo',
           label: 'GitHub',
