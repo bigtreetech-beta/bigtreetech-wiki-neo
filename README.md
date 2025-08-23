@@ -2,9 +2,12 @@
 
 ### install requirement 
 
+#### ArchLinux
+
 ``` shell
 sudo pacman -S yarn git
 ```
+
 ### install package 
 
 ``` shell
