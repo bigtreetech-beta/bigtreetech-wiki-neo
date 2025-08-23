@@ -5,18 +5,40 @@
 #### ArchLinux
 
 ``` shell
-sudo pacman -S yarn git
+sudo pacman -S yarn
 ```
 
-### install package 
+#### Debian
+
+``` shell
+sudo apt install yarn
+```
+
+#### Windows
+
+First, download and install Node.js
+
+Then in PowerShell use following command install yarn
+
+``` shell
+npm install --global yarn
+```
+
+### Install Package 
 
 ``` shell
 cd ~/wiki-dev
 yarn install 
 ```
 
-### run wiki 
+### Run wiki
 
-```shell
+``` shell
 yarn run start
+```
+
+### Build wiki
+
+``` shell
+yarn run build
 ```
