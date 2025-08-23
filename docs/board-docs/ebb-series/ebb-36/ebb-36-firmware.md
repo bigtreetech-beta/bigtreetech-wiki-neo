@@ -11,6 +11,10 @@ import TabItem from '@theme/TabItem';
 
 <!-- import lib end -->
 
+:::info[固件支持]
+EBB 36 V1.0/V1.1/V1.2 目前只支持 Klipper 固件
+:::
+
 ## 写入 Klipper 固件
 
 EBB 36 v1.1 / v1.2 写入 Klipper 固件参考 [EBB 系列固件 (STM32G0B1)](../ebb-firmware-g0b1.md)

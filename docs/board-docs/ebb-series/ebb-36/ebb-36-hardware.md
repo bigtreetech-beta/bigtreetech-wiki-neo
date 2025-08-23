@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
 EBB 36 V1.0/V1.1/V1.2 目前只支持 Klipper 固件
 :::
 
-## Dimensions
+## 外观尺寸
 
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>

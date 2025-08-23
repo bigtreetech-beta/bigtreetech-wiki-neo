@@ -22,9 +22,13 @@ import TabItem from '@theme/TabItem';
 
 BIGTREETECH EBB36 CAN V1.0/V1.1/v1.2 是一个用于简化工具头接线的工具头 CAN 板。EBB 36 可以通过 USB 端口或 CAN 总线进行通信，极大的简化了 3D 打印机工具头的接线和走线。
 
-## Specification
+:::info[固件支持]
+EBB 36 V1.0/V1.1/V1.2 目前只支持 Klipper 固件
+:::
 
-|Specification||
+## 硬件规格
+
+|EBB 36 CAN|Specification|
 |-|-|
 |外形尺寸|51.5mm x 37mm|
 |MCU|ARM Cortex-M0+STM32G0B1CBT6 64MHz (v1.1/v1.2) ARM Cortex-M0 STM32F072C8T6 48MHz (v1.0)|
