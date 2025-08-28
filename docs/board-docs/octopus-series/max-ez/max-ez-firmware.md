@@ -22,15 +22,16 @@ Octopus Max EZ 写入 Klipper 固件参考 [Octopus 系列固件 (STM32H723)](..
 ### Klipper 配置文件参考
 
 ``` klipper_cfg title="printer.cfg"
-# This file contains common pin mappings for the BIGTREETECH Octopus Max EZ.
-# To use this config, the firmware should be compiled for the
-# STM32H723 with a "128KiB bootloader", "25 MHz crystal",
-# and one of:
-# Communication interface: "USB (on PA11/PA12)",
-# Communication interface: "CAN bus (on PD0/PD1)", or
-# Communication interface: "USB to CAN bus bridge (USB on PA11/PA12))" and CAN bus interface: "CAN bus (on PD0/PD1)".
+[mcu]
+canbus_uuid: 11aa22bb33cc
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
 
-# See docs/Config_Reference.md for a description of parameters.
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+max_z_velocity: 5
+max_z_accel: 100
 
 # Motor-1
 [stepper_x]
@@ -71,12 +72,11 @@ position_max: 200
 # The Octopus only has 4 heater outputs which leaves an extra stepper
 # This can be used for a second Z stepper, dual_carriage, extruder co-stepper,
 # or other accesory such as an MMU
-#[stepper_]
-#step_pin: PB8
-#dir_pin: PB9
-#enable_pin: PB7
-#endstop_pin: PF3
-#...
+# [stepper_]
+# step_pin: PB8
+# dir_pin: PB9
+# enable_pin: PB7
+# endstop_pin: PF3
 
 # Motor-5
 [extruder]
@@ -97,52 +97,47 @@ pid_Kd: 114
 min_temp: 0
 max_temp: 250
 
-#[filament_switch_sensor material_0]
-#switch_pin: PF1
+# [filament_switch_sensor material_0]
+# switch_pin: PF1
 
 # Motor-6
-#[extruder1]
-#step_pin: PG15
-#dir_pin: PB3
-#enable_pin: !PD5
-#heater_pin: PA0 # HE1
-#sensor_pin: PC5 # T1
-#...
+# [extruder1]
+# step_pin: PG15
+# dir_pin: PB3
+# enable_pin: !PD5
+# heater_pin: PA0 # HE1
+# sensor_pin: PC5 # T1
 
-#[filament_switch_sensor material_1]
-#switch_pin: PC15
+# [filament_switch_sensor material_1]
+# switch_pin: PC15
 
 # Motor-7
-#[extruder2]
-#step_pin: PD3
-#dir_pin: PD2
-#enable_pin: !PD4
-#heater_pin: PF9 # HE2
-#sensor_pin: PC4 # T2
-#...
+# [extruder2]
+# step_pin: PD3
+# dir_pin: PD2
+# enable_pin: !PD4
+# heater_pin: PF9 # HE2
+# sensor_pin: PC4 # T2
 
 # Motor-8
-#[extruder3]
-#step_pin: PA10
-#dir_pin: PA9
-#enable_pin: !PA15
-#heater_pin: PF7 # HE3
-#sensor_pin: PA7 # T3
-#...
+# [extruder3]
+# step_pin: PA10
+# dir_pin: PA9
+# enable_pin: !PA15
+# heater_pin: PF7 # HE3
+# sensor_pin: PA7 # T3
 
 # Motor-9
-#[extruder4]
-#step_pin: PA8
-#dir_pin: PC7
-#enable_pin: !PC9
-#...
+# [extruder4]
+# step_pin: PA8
+# dir_pin: PC7
+# enable_pin: !PC9
 
 # Motor-10
-#[extruder5]
-#step_pin: PG6
-#dir_pin: PC6
-#enable_pin: !PC8
-#...
+# [extruder5]
+# step_pin: PG6
+# dir_pin: PC6
+# enable_pin: !PC8
 
 [heater_bed]
 heater_pin: PF5
@@ -155,156 +150,146 @@ max_temp: 130
 [fan]
 pin: PA6
 
-#[heater_fan fan1]
-#pin: PA5
+# [heater_fan fan1]
+# pin: PA5
 
-#[heater_fan fan2]
-#pin: PA4
+# [heater_fan fan2]
+# pin: PA4
 
-#[heater_fan fan3]
-#pin: PA3
+# [heater_fan fan3]
+# pin: PA3
 
-#[heater_fan fan4]
-#pin: PA1
-#tachometer_pin: PC3
+# [heater_fan fan4]
+# pin: PA1
+# tachometer_pin: PC3
 
-#[heater_fan fan5]
-#pin: PF8
-#tachometer_pin: PC1
+# [heater_fan fan5]
+# pin: PF8
+# tachometer_pin: PC1
 
-#[heater_fan fan6]
-#pin: PA2
-#tachometer_pin: PC2
-
-[mcu]
-serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
-
-[printer]
-kinematics: cartesian
-max_velocity: 300
-max_accel: 3000
-max_z_velocity: 5
-max_z_accel: 100
+# [heater_fan fan6]
+# pin: PA2
+# tachometer_pin: PC2
 
 ########################################
 # TMC2209 configuration
 ########################################
 
-#[tmc2209 stepper_x]
-#uart_pin: PG14
-##diag_pin: PF0
-#run_current: 0.800
-#stealthchop_threshold: 999999
+# [tmc2209 stepper_x]
+# uart_pin: PG14
+# diag_pin: PF0
+# run_current: 0.800
+# stealthchop_threshold: 999999
 
-#[tmc2209 stepper_y]
-#uart_pin: PG13
-##diag_pin: PF2
-#run_current: 0.800
-#stealthchop_threshold: 999999
+# [tmc2209 stepper_y]
+# uart_pin: PG13
+# diag_pin: PF2
+# run_current: 0.800
+# stealthchop_threshold: 999999
 
-#[tmc2209 stepper_z]
-#uart_pin: PG12
-##diag_pin: PF4
-#run_current: 0.650
-#stealthchop_threshold: 999999
+# [tmc2209 stepper_z]
+# uart_pin: PG12
+# diag_pin: PF4
+# run_current: 0.650
+# stealthchop_threshold: 999999
 
-#[tmc2209 stepper_]
-#uart_pin: PG11
-##diag_pin: PF3
-#run_current: 0.650
-#stealthchop_threshold: 999999
+# [tmc2209 stepper_]
+# uart_pin: PG11
+# diag_pin: PF3
+# run_current: 0.650
+# stealthchop_threshold: 999999
 
-#[tmc2209 extruder]
-#uart_pin: PG10
-#run_current: 0.800
-#stealthchop_threshold: 999999
+# [tmc2209 extruder]
+# uart_pin: PG10
+# run_current: 0.800
+# stealthchop_threshold: 999999
 
-#[tmc2209 extruder1]
-#uart_pin: PG9
-#run_current: 0.800
-#stealthchop_threshold: 999999
+# [tmc2209 extruder1]
+# uart_pin: PG9
+# run_current: 0.800
+# stealthchop_threshold: 999999
 
-#[tmc2209 extruder2]
-#uart_pin: PD7
-#run_current: 0.800
-#stealthchop_threshold: 999999
+# [tmc2209 extruder2]
+# uart_pin: PD7
+# run_current: 0.800
+# stealthchop_threshold: 999999
 
-#[tmc2209 extruder3]
-#uart_pin: PD6
-#run_current: 0.800
-#stealthchop_threshold: 999999
+# [tmc2209 extruder3]
+# uart_pin: PD6
+# run_current: 0.800
+# stealthchop_threshold: 999999
 
-#[tmc2209 extruder4]
-#uart_pin: PG8
-#run_current: 0.800
-#stealthchop_threshold: 999999
+# [tmc2209 extruder4]
+# uart_pin: PG8
+# run_current: 0.800
+# stealthchop_threshold: 999999
 
-#[tmc2209 extruder5]
-#uart_pin: PG7
-#run_current: 0.800
-#stealthchop_threshold: 999999
+# [tmc2209 extruder5]
+# uart_pin: PG7
+# run_current: 0.800
+# stealthchop_threshold: 999999
 
 ########################################
 # TMC2130 configuration
 ########################################
 
-#[tmc2130 stepper_x]
-#cs_pin: PG14
-#spi_bus: spi4
-##diag1_pin: PF0
-#run_current: 0.800
-#stealthchop_threshold: 999999
+# [tmc2130 stepper_x]
+# cs_pin: PG14
+# spi_bus: spi4
+# diag1_pin: PF0
+# run_current: 0.800
+# stealthchop_threshold: 999999
 
-#[tmc2130 stepper_y]
-#cs_pin: PG13
-#spi_bus: spi4
-##diag1_pin: PF2
-#run_current: 0.800
-#stealthchop_threshold: 999999
+# [tmc2130 stepper_y]
+# cs_pin: PG13
+# spi_bus: spi4
+# diag1_pin: PF2
+# run_current: 0.800
+# stealthchop_threshold: 999999
 
-#[tmc2130 stepper_z]
-#cs_pin: PG12
-#spi_bus: spi4
-##diag1_pin: PF4
-#run_current: 0.650
-#stealthchop_threshold: 999999
+# [tmc2130 stepper_z]
+# cs_pin: PG12
+# spi_bus: spi4
+# diag1_pin: PF4
+# run_current: 0.650
+# stealthchop_threshold: 999999
 
-#[tmc2130 stepper_]
-#cs_pin: PG11
-#spi_bus: spi4
-##diag1_pin: PF3
-#run_current: 0.800
-#stealthchop_threshold: 999999
+# [tmc2130 stepper_]
+# cs_pin: PG11
+# spi_bus: spi4
+# diag1_pin: PF3
+# run_current: 0.800
+# stealthchop_threshold: 999999
 
-#[tmc2130 extruder]
-#cs_pin: PG10
-#spi_bus: spi4
-#run_current: 0.800
-#stealthchop_threshold: 999999
+# [tmc2130 extruder]
+# cs_pin: PG10
+# spi_bus: spi4
+# run_current: 0.800
+# stealthchop_threshold: 999999
 
-#[tmc2130 extruder1]
-#cs_pin: PG9
-#spi_bus: spi4
-#run_current: 0.800
-#stealthchop_threshold: 999999
+# [tmc2130 extruder1]
+# cs_pin: PG9
+# spi_bus: spi4
+# run_current: 0.800
+# stealthchop_threshold: 999999
 
-#[tmc2130 extruder2]
-#cs_pin: PD7
-#spi_bus: spi4
-#run_current: 0.800
-#stealthchop_threshold: 999999
+# [tmc2130 extruder2]
+# cs_pin: PD7
+# spi_bus: spi4
+# run_current: 0.800
+# stealthchop_threshold: 999999
 
-#[tmc2130 extruder3]
-#cs_pin: PD6
-#spi_bus: spi4
-#run_current: 0.800
-#stealthchop_threshold: 999999
+# [tmc2130 extruder3]
+# cs_pin: PD6
+# spi_bus: spi4
+# run_current: 0.800
+# stealthchop_threshold: 999999
 
-#[tmc2130 extruder4]
-#cs_pin: PG8
-#spi_bus: spi4
-#run_current: 0.800
-#stealthchop_threshold: 999999
+# [tmc2130 extruder4]
+# cs_pin: PG8
+# spi_bus: spi4
+# run_current: 0.800
+# stealthchop_threshold: 999999
 
 #[tmc2130 extruder5]
 #cs_pin: PG7
@@ -330,33 +315,33 @@ aliases:
 
 # See the sample-lcd.cfg file for definitions of common LCD displays.
 
-#[bltouch]
-#sensor_pin: PB15
-#control_pin: PB14
+# [bltouch]
+# sensor_pin: PB15
+# control_pin: PB14
 
 # Proximity switch
-#[probe]
-#pin: PF11
+# [probe]
+# pin: PF11
 
-#[output_pin ps_on_pin]
-#pin: PF13
+# [output_pin ps_on_pin]
+# pin: PF13
 
-#[output_pin pf12_pin]
-#pin: PF12
+# [output_pin pf12_pin]
+# pin: PF12
 
-#[neopixel my_neopixel_1]
-#pin: PE10
+# [neopixel my_neopixel_1]
+# pin: PE10
 
-#[neopixel my_neopixel_2]
-#pin: PE9
+# [neopixel my_neopixel_2]
+# pin: PE9
 
-#[hall_filament_width_sensor]
-#adc1: PC0
-#adc2: PF10
+# [hall_filament_width_sensor]
+# adc1: PC0
+# adc2: PF10
 
-#[adxl345]
-#cs_pin: PF14
-#spi_bus: spi4
+# [adxl345]
+# cs_pin: PF14
+# spi_bus: spi4
 ```
 
 ## Marlin
