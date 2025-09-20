@@ -6,8 +6,8 @@ title: 接下来的更新计划
 
 - [x] Manta M8P
 - [ ] bigtreetee pi2
-- [ ] ebb 2209/ ebb2240
-- [ ] skr pico
+- [x] ebb 2209/ ebb2240
+- [x] skr pico
 - [ ] octopus pro
 - [ ] octopus 
 - [ ] kraken
