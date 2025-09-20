@@ -4,7 +4,7 @@ title: 接下来的更新计划
 
 ### board
 
-- [ ] Manta M8P
+- [x] Manta M8P
 - [ ] bigtreetee pi2
 - [ ] ebb 2209/ ebb2240
 - [ ] skr pico
@@ -16,8 +16,8 @@ title: 接下来的更新计划
 
 ### 扩展模块
 
-- [ ] lis2dw
-- [ ] adxl345
+- [x] lis2dw
+- [x] adxl345
 - [ ] TD1s
 - [x] eddy
 - [ ] microprobe
@@ -30,3 +30,4 @@ title: 接下来的更新计划
 - [ ] tmc 2240 
 - [ ] tmc 2208
   
+<!-- truncate -->
