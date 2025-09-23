@@ -119,23 +119,25 @@ import TabItem from '@theme/TabItem';
 
 * 中国用户使用手机号码，而全球地区的用户使用电子邮件地址。
 
-* 如果您找不到登录凭据，请参阅以下部分：[如何找到我的拓竹账号信息](#bambu_account)
+::::info 如何找到我的拓竹账号信息
 
-    <img src={require('./img/login.png').default} alt="" width="600" />
- 
-    :::info 已知问题
+<img src={require('./img/login.png').default} alt="" width="600" />
 
-    目前，需要关闭2步身份验证才能在Panda Touch上启用云模式。如果你想保持启用状态，那么你可以关闭它，在Panda Touch上启用云模式，然后再重新打开。请注意，你可能需要每三个月重复一次此过程，因为在此期间之后，Panda Touch上的登录详细信息将过期。
-    
-    :::
+:::warning 已知问题
 
-    <img src={require('./img/input_account.png').default} alt="" width="600" />
+目前，需要关闭2步身份验证才能在Panda Touch上启用云模式。如果你想保持启用状态，那么你可以关闭它，在Panda Touch上启用云模式，然后再重新打开。请注意，你可能需要每三个月重复一次此过程，因为在此期间之后，Panda Touch上的登录详细信息将过期。
+
+:::
+
+<img src={require('./img/input_account.png').default} alt="" width="600" />
+
+::::
 
 #### 将帐户下的打印机同步到本地设备
 
 * 成功登录后，您可以选择将所有现有打印机与PandaTouch的通信方式转换为云模式。
 
-* 我们建议，只有您的所有打印机都使用云模式运行时，才执行此操作，如果打印机打开了`仅局域网`模式，则可以跳过此操作。如果要改变PandaTouch与打印机之间的通信方式请查看 [如何切换PandaTouch和打印机之间的通信方式](#communication_mode)
+* 只有所有打印机都使用云模式运行时，才执行此操作，如果打印机打开了`仅局域网`模式，则可以跳过此操作。如果要改变PandaTouch与打印机之间的通信方式请查看 [如何切换PandaTouch和打印机之间的通信方式](#如何切换pandatouch和打印机之间的通信方式)
 
     <img src={require('./img/login_ok.png').default} alt="" width="600" />
 
