@@ -55,14 +55,14 @@ Octopus Max EZ 上电后，MCU 左侧的红灯 `D32` 将亮起，表示电源已
     <TabItem value="VBB" label="Max EZ VBB" default>
         当使用 `VBB` 进行供电的时候。来源为主板 `Power` 输入。最高电压为 `24V`。
         <img
-            src={require('./img/Octopus_MAX_EZ_Hardware4.png').default}
+            src={require('./img/max-ez-driver-vbb.png').default}
             alt="max ez vbb" width="550"
         />
     </TabItem>
     <TabItem value="high-oltage" label="Max EZ High Voltage">
         当使用 `High Voltage` 进行供电的时候。来源为主板 `Motor Power` 输入。最高电压为 `56V`。需要注意驱动最大电压范围。
         <img
-            src={require('./img/Octopus_MAX_EZ_Hardware3.png').default}
+            src={require('./img/max-ez-driver-hv.png').default}
             alt="max ez high voltage" width="550"
         />
     </TabItem>

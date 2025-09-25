@@ -13,13 +13,21 @@ import TabItem from '@theme/TabItem';
 
 <!-- import lib end -->
 
+<div class="div-table">
+
+<img 
+    src={require('./img/maxez-main.png').default} 
+    width="45%" class="right-image"
+/>
+
+
 ## 产品简介
 
 Octopus MAX EZ 是针对 Octopus Pro 优化升级的 32 位打印机主板，采用自主研发的步进电机驱动座子，增强安全性及用户体验，并且新增一系列Octopus Pro 不具有的功能。
 
 ## Specification
 
-| Specification    |                                    |
+| Specification    | Octopus Max EZ                     |
 | ---------------- | ---------------------------------- |
 | MCU              | Arm Cortex-M7 STM32H723ZET6 550MHz |
 | 主板供电         | DC 12V - DC 24V                    |
@@ -28,3 +36,4 @@ Octopus MAX EZ 是针对 Octopus Pro 优化升级的 32 位打印机主板，采
 | 热床最大电流     | 10A (峰值 12A)                     |
 | 热端加热最大电流 | 5.5A (峰值 6A)                     |
 
+</div>
