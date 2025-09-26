@@ -13,6 +13,10 @@ import TabItem from '@theme/TabItem';
 
 <!-- import lib end -->
 
+### [v1.0.7.3](https://github.com/bigtreetech/PandaTouch/releases/tag/release%2Fv1.0.7.3)
+
+- 添加固件不兼容提示
+
 ### [V1.0.7.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.7.1/panda_touch-v1.0.7.1.bin)
 
 #### Bug修复
