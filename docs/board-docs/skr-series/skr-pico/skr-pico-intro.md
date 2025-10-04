@@ -13,17 +13,29 @@ import TabItem from '@theme/TabItem';
 
 <!-- import lib end -->
 
-BTT SKR Pico V1.0 是必趣创新科技（深圳）有限公司 3D 打印团队推出的一款专门为 VORON V0 打印机设计的主板。
+<div class="div-table">
 
-## **规格**
+<img 
+    src={require('./img/skr-pico-main.png').default} 
+    width="45%" class="right-image"
+/>
 
-| 外观尺寸                       |        85*56mm        |
-| ------------------------------ | :-------------------: |
-| 板层                           |          4层          |
+## 简介
+
+SKR Pico 是一块专门为 Voron 0 系列设计的板子。可以直接和 Raspberry Pi 系列直接堆叠安装。减少所需要的安装空间。
+
+## Specification
+
+| Specification                  | SKR Pico              |
+| ------------------------------ | --------------------- |
 | MCU                            | ARM Cortex-M0+ RP2040 |
-| 电源输入                       |       DC 12/24V       |
-| 逻辑电压                       |         3.3V          |
-| 电机驱动器                     |     $4*$ TMC2209      |
-| 电机驱动接口                   |  X / Y / Z1 / Z2 / E  |
-| 温度传感器接口                 |       TH0、 THB       |
-| 与Raspberry Pi(树莓派)通信接口 |   USB TYPE-C / 串口   |
+| 外观尺寸                       | 85 * 56mm             |
+| 板层                           | 4层                   |
+| 电源输入                       | DC 12/24V             |
+| 逻辑电压                       | 3.3V                  |
+| 电机驱动器                     | $4*$ TMC2209          |
+| 电机驱动接口                   | X / Y / Z1 / Z2 / E   |
+| 温度传感器接口                 | TH0、 THB             |
+| 与Raspberry Pi(树莓派)通信接口 | USB TYPE-C / 串口     |
+
+</div>
