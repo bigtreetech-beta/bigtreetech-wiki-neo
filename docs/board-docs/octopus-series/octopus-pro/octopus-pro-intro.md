@@ -12,9 +12,6 @@ import TabItem from '@theme/TabItem';
 
 <!-- import lib end -->
 
-## 产品简介
-
-
 ## Specification
 
 | Octopus Pro H7 version | Specification                      |
