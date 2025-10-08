@@ -22,6 +22,8 @@ Octopus Pro H723 写入 Klipper 固件参考 [Octopus 系列固件 (STM32H723)](
 
 ### Klipper 配置文件参考
 
+#### 基本配置
+
 ``` klipper_cfg title="printer.cfg"
 # Driver0
 [stepper_x]
@@ -88,9 +90,6 @@ pid_Kd: 114
 min_temp: 0
 max_temp: 250
 
-#[filament_switch_sensor material_0]
-#switch_pin: PG12
-
 # Driver5
 #[extruder1]
 #step_pin: PC13
@@ -99,9 +98,6 @@ max_temp: 250
 #heater_pin: PA3 # HE1
 #sensor_pin: PF5 # T1
 #...
-
-#[filament_switch_sensor material_1]
-#switch_pin: PG13
 
 # Driver6
 #[extruder2]
@@ -112,9 +108,6 @@ max_temp: 250
 #sensor_pin: PF6 # T2
 #...
 
-#[filament_switch_sensor material_2]
-#switch_pin: PG14
-
 # Driver7
 #[extruder3]
 #step_pin: PE6
@@ -123,10 +116,27 @@ max_temp: 250
 #heater_pin: PB11 # HE3
 #sensor_pin: PF7 # T3
 #...
+```
 
-#[filament_switch_sensor material_3]
-#switch_pin: PG15
+#### 耗材传感器
 
+``` klipper_cfg title="printer.cfg"
+[filament_switch_sensor material_0]
+switch_pin: PG12
+
+[filament_switch_sensor material_1]
+switch_pin: PG13
+
+[filament_switch_sensor material_2]
+switch_pin: PG14
+
+[filament_switch_sensor material_3]
+switch_pin: PG15
+```
+
+#### 热床
+
+``` klipper_cfg title="printer.cfg"
 [heater_bed]
 heater_pin: PA1
 sensor_pin: PF3 # TB
@@ -134,7 +144,11 @@ sensor_type: ATC Semitec 104GT-2
 control: watermark
 min_temp: 0
 max_temp: 130
+```
 
+### 风扇
+
+``` klipper_cfg title="printer.cfg"
 [fan]
 pin: PA8
 
@@ -153,21 +167,11 @@ pin: PA8
 #[controller_fan fan5]
 #pin: PD15
 
-[mcu]
-serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
-# CAN bus is also available on this board
+```
 
-[printer]
-kinematics: cartesian
-max_velocity: 300
-max_accel: 3000
-max_z_velocity: 5
-max_z_accel: 100
+#### 驱动配置
 
-########################################
-# TMC2209 configuration
-########################################
-
+``` klipper_cfg title="printer.cfg"
 #[tmc2209 stepper_x]
 #uart_pin: PC4
 ##diag_pin: PG6
@@ -267,32 +271,4 @@ max_z_accel: 100
 #spi_bus: spi1
 #run_current: 0.800
 #stealthchop_threshold: 999999
-
-[board_pins]
-aliases:
-    # EXP1 header
-    EXP1_1=PE8, EXP1_2=PE7,
-    EXP1_3=PE9, EXP1_4=PE10,
-    EXP1_5=PE12, EXP1_6=PE13,    # Slot in the socket on this side
-    EXP1_7=PE14, EXP1_8=PE15,
-    EXP1_9=<GND>, EXP1_10=<5V>,
-
-    # EXP2 header
-    EXP2_1=PA6, EXP2_2=PA5,
-    EXP2_3=PB1, EXP2_4=PA4,
-    EXP2_5=PB2, EXP2_6=PA7,      # Slot in the socket on this side
-    EXP2_7=PC15, EXP2_8=<RST>,
-    EXP2_9=<GND>, EXP2_10=PC5
-
-# See the sample-lcd.cfg file for definitions of common LCD displays.
-
-# A [probe] section can be defined instead with a pin: setting identical
-# to the sensor_pin: for a bltouch
-#[bltouch]
-#sensor_pin: PB7
-#control_pin: PB6
-#z_offset: 0
-
-#[neopixel my_neopixel]
-#pin: PB10
 ```
