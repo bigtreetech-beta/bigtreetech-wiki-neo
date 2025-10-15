@@ -109,6 +109,10 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    'docusaurus-plugin-image-zoom',
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -222,6 +226,14 @@ const config: Config = {
       darkTheme: custom_code_themes,
       additionalLanguages: ['bash'],
     },
+    zoom: {
+      selector: '.markdown > img',
+      background: {
+        light: 'rgb(255, 255, 255)',
+        dark: 'rgb(20, 20, 20)'
+      },
+      config: {}
+    }
   } satisfies Preset.ThemeConfig,
 };
 
