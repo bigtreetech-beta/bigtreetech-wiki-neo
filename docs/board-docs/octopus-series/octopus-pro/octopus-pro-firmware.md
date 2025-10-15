@@ -146,7 +146,7 @@ min_temp: 0
 max_temp: 130
 ```
 
-### 风扇
+#### 风扇
 
 ``` klipper_cfg title="printer.cfg"
 [fan]
