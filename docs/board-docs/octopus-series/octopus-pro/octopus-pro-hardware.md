@@ -90,7 +90,7 @@ Octopus Pro 支持连接到树莓派进行打印。有几种连接方式可用�
             src={require('./img/octopus-pro-driver-step-dir.png').default}
             alt="" width="100%"
         />
-        以下是跳线参考
+        以下是跳线参考，不同的驱动会有不同的跳线配置
         <img
             src={require('./img/octopus-pro-driver-step-dir-config.png').default}
             alt="" width="100%"
@@ -98,3 +98,81 @@ Octopus Pro 支持连接到树莓派进行打印。有几种连接方式可用�
     </TabItem>
 </Tabs>
 
+### 电机驱动电压选择
+
+:::warning 
+
+请勿在通电状态下插拔跳线帽
+
+:::
+
+<Tabs groupId="octopus-driver-v">
+    <TabItem value="VBB" label="Octopus Pro VBB" default>
+        当使用 `VBB` 进行供电的时候。来源为主板 `Power` 输入。最高电压为 `24V`。
+        <img
+            src={require('./img/octopus-pro-driver-vbb.png').default}
+            alt="octo pro vbb" width="60%"
+        />
+    </TabItem>
+    <TabItem value="high-oltage" label="Octopus Pro High Voltage">
+        当使用 `High Voltage` 进行供电的时候。来源为主板 `Motor Power` 输入。最高电压为 `56V`。需要注意驱动最大电压范围。
+        <img
+            src={require('./img/octopus-pro-driver-hv.png').default}
+            alt="octo pro high voltage" width="60%"
+        />
+    </TabItem>
+</Tabs>
+
+### 风扇电压选择
+
+Octopus_Pro具有6个PWM风扇输出和两个“常开”风扇输出。还有一个用于接近传感器或探针的专用针头。
+
+所有风扇输出和接近传感器输入都可以通过配置与每个插头相关的跳线来分别选择由其引脚插头提供的电压。
+
+按以下方式配置跳线以选择24V（注意，所有跳线都显示在相同的配置中，即使它们可以单独配置）。
+
+<Tabs groupId="octopus-fan-v">
+    <TabItem value="24v-fan" label="24V 风扇 / 接近开关" default>
+        <img
+            src={require('./img/octopus-pro-fan-24.png').default}
+            alt="octo pro fan 24" width="100%"
+        />
+    </TabItem>
+    <TabItem value="12v-fan" label="12V 风扇 / 接近开关">
+        <img
+            src={require('./img/octopus-pro-fan-12.png').default}
+            alt="octo pro fan 12" width="100%"
+        />
+    </TabItem>
+    <TabItem value="5v-fan" label=" 5V 风扇 / 接近开关">
+        <img
+            src={require('./img/octopus-pro-fan-5.png').default}
+            alt="octo pro fan 5" width="100%"
+        />
+    </TabItem>
+</Tabs>
+
+### TMC STALLGUARD 跳线设置
+
+可在下图所示的位置找到用于将诊断输出引脚连接到支持安装保护功能（TMC2209/TMC2226等）的驱动器端部停止输入的“diag”跳线。
+
+确切的diag编号可以通过查看引脚文件或板下的丝印来找到。
+
+<img src={require('./img/octopus-pro-driver-spi.png').default} width="80%"/>
+
+### MAX 31865
+
+<div class="div-table">
+
+<img src={require('./img/octopus-pro-max-31865.png').default} width="50%" class="right-image"/>
+
+MAX 31865 选择 PT100/PT1000 2线或4线配置
+
+| 1   | 2   | 3   | 4   | Sensor Model  |
+| --- | --- | --- | --- | ------------- |
+| ON  | ON  | ON  | OFF | 2 wire PT100  |
+| ON  | ON  | OFF | ON  | 2 wire PT1000 |
+| OFF | OFF | ON  | OFF | 4 wire PT100  |
+| OFF | OFF | OFF | ON  | 4 wire PT1000 |
+
+</div>
