@@ -16,7 +16,7 @@ import TabItem from '@theme/TabItem';
 <div class="div-table">
 
 <img 
-    src={require('./img/m8p-main.png').default} 
+    src={require('./img/m8p-v1-main.png').default} 
     width="45%" class="right-image"
 />
 
