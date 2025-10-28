@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-description: HDMI 7 V1 文档
+description: HDMI 7 V1.0 文档
 ---
 
-# HDMI 7 V1
+# HDMI 7 V1.0
 
 <!-- import lib start -->
 
