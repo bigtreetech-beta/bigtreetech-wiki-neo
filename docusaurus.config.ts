@@ -224,7 +224,7 @@ const config: Config = {
     prism: {
       theme: custom_code_themes,
       darkTheme: custom_code_themes,
-      additionalLanguages: ['bash'],
+      additionalLanguages: ['bash','systemd'],
     },
     zoom: {
       selector: '.markdown > img',
