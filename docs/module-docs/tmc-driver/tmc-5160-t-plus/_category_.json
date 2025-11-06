@@ -1,8 +1,0 @@
-{
-  "label": "TMC 5160 T Plus",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description": "TMC 5160 T Plus 外置步进电机驱动"
-  }
-}
