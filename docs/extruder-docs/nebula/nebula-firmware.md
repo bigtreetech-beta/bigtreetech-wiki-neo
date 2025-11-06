@@ -11,6 +11,29 @@ import TabItem from '@theme/TabItem';
 
 ## Nebula Klipper 配置文件参考
 
+### 挤出机配置
+
+``` klipper_cfg title="printer.cfg"
+[extruder]
+rotation_distance: 51.75
+gear_ratio: 11.25:1
+max_extrude_only_distance: 200.0
+```
+
+### 挤出机 Neopixel
+
+``` klipper_cfg title="printer.cfg"
+[neopixel nebula_neopixel]
+pin: EBBCan:PD3 # Neopixel 引脚
+chain_count: 2
+color_order: GRB
+initial_RED: 1.0
+initial_GREEN: 1.0
+initial_BLUE: 1.0
+```
+
+### 挤出机 macro
+
 ``` klipper_cfg title="nebula.cfg"
 [gcode_macro _NEBULA_VARIABLE]
 # unload
@@ -24,11 +47,6 @@ variable_load_speed:            1500 # (mm/min) load speed
 variable_load_purge_distance:   70   # (mm) purge a distance after load
 variable_load_purge_speed:      300  # (mm/min) purge speed
 gcode:
-
-[extruder]
-rotation_distance: 51.75
-gear_ratio: 11.25:1
-max_extrude_only_distance: 200.0 # must be greater than the distance of the single segment above 
 
 [respond]
 default_type: echo
@@ -70,14 +88,6 @@ gcode:
   G1 E{load_purge_distance} F{load_purge_speed}
   M400
   RESTORE_GCODE_STATE NAME=tmp_unload_state
-
-[neopixel nebula_neopixel]
-pin: EBBCan:PD3 # RGB pin（marked as RGB on extruder）, Modify this to match your mainboard！
-chain_count: 2
-color_order: GRB
-initial_RED: 1.0
-initial_GREEN: 1.0
-initial_BLUE: 1.0
 
 [gcode_button nebula_unload_button]
 pin: ^!EBBCan:PB4 # Gcode Button pin（marked as GB on extruder）, Modify this to match your mainboard！
