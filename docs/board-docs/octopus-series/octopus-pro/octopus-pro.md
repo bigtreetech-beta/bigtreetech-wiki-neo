@@ -1,14 +1,15 @@
 ---
 sidebar_position: 1
-description: Octopus Pro 说明文档
+description: Octopus Pro
 ---
 
-# Octopus Pro 简介
+# Octopus Pro
 
 <!-- import lib start -->
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import DocCardList from '@theme/DocCardList';
 
 <!-- import lib end -->
 
@@ -40,3 +41,5 @@ import TabItem from '@theme/TabItem';
 | 热床接口供电             | DC 12V - DC 24V                    |  |
 | 热床最大电流             | 10A (峰值 12A)                     |
 | 热端加热最大电流         | 5.5A (峰值 6A)                     |
+
+<DocCardList />

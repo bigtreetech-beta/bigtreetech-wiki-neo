@@ -13,8 +13,13 @@ import ThemedImage from '@theme/ThemedImage';
 
 <!-- import lib end -->
 
-## 外观尺寸
+## 尺寸
 
+:::info
+
+尺寸参考 GitHub Repo [bigtreetech/BIGTREETECH-OCTOPUS-Pro/Hardware/BIGTREETECH Octopus Pro - SIZE](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro/blob/master/Hardware/BIGTREETECH%20Octopus%20Pro%20-%20SIZE.pdf)
+
+:::
 
 ## Pinout 
 

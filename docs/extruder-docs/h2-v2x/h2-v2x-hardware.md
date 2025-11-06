@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# H2 V2X Hardware
+# H2 V2X 硬件
 
 H2 V2X 硬件文档
 

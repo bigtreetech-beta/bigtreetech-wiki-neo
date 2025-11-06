@@ -35,7 +35,7 @@ Octopus Max EZ 上电后，MCU 左侧的红灯 `D32` 将亮起，表示电源已
 
 <img
     src={require('./img/Octopus_MAX_EZ_Hardware1.png').default}
-    alt="max ez vusb" width="550"
+    alt="max ez vusb" width="70%"
 />
 
 ### EZ 驱动模式配置
@@ -46,7 +46,7 @@ Octopus Max EZ 上电后，MCU 左侧的红灯 `D32` 将亮起，表示电源已
 
 <img
     src={require('./img/Octopus_MAX_EZ_Hardware2.png').default}
-    alt="max ez tmc" width="550"
+    alt="max ez tmc" width="70%"
 />
 
 ### 驱动供电
@@ -56,14 +56,14 @@ Octopus Max EZ 上电后，MCU 左侧的红灯 `D32` 将亮起，表示电源已
         当使用 `VBB` 进行供电的时候。来源为主板 `Power` 输入。最高电压为 `24V`。
         <img
             src={require('./img/max-ez-driver-vbb.png').default}
-            alt="max ez vbb" width="550"
+            alt="max ez vbb" width="70%"
         />
     </TabItem>
     <TabItem value="high-oltage" label="Max EZ High Voltage">
         当使用 `High Voltage` 进行供电的时候。来源为主板 `Motor Power` 输入。最高电压为 `56V`。需要注意驱动最大电压范围。
         <img
             src={require('./img/max-ez-driver-hv.png').default}
-            alt="max ez high voltage" width="550"
+            alt="max ez high voltage" width="70%"
         />
     </TabItem>
 </Tabs>
@@ -78,7 +78,7 @@ Octopus Max EZ 上电后，MCU 左侧的红灯 `D32` 将亮起，表示电源已
 
 <img
     src={require('./img/Octopus_MAX_EZ_Hardware5.png').default}
-    alt="max ez fan" width="550"
+    alt="max ez fan" width="70%"
 />
 
 ### 100K NTC 或 PT1000 跳线配置
@@ -91,42 +91,42 @@ Octopus Max EZ 上电后，MCU 左侧的红灯 `D32` 将亮起，表示电源已
 
 <img
     src={require('./img/Octopus_MAX_EZ_Hardware6.png').default}
-    alt="max ez ntc" width="550"
+    alt="max ez ntc" width="70%"
 />
 
 ### BLTouch 接线
 
 <img
     src={require('./img/Octopus_MAX_EZ_Hardware7.png').default}
-    alt="max ez bltouch" width="550"
+    alt="max ez bltouch" width="70%"
 />
 
 ### 自动断电模块 (v1.2) 接线
 
 <img
     src={require('./img/Octopus_MAX_EZ_Hardware8.png').default}
-    alt="max ez auto power" width="550"
+    alt="max ez auto power" width="70%"
 />
 
 ### MINI12864 / TFT 屏幕
 
 <img
     src={require('./img/Octopus_MAX_EZ_Hardware9.png').default}
-    alt="max ez screen" width="550"
+    alt="max ez screen" width="70%"
 />
 
 ### Neopixel
 
 <img
     src={require('./img/Octopus_MAX_EZ_Hardware10.png').default}
-    alt="max ez Neopixel" width="550"
+    alt="max ez Neopixel" width="70%"
 />
 
 ### 耗材传感器
 
 <img
     src={require('./img/Octopus_MAX_EZ_Hardware11.png').default}
-    alt="max ez Filament sensor" width="550"
+    alt="max ez Filament sensor" width="70%"
 />
 
 ### 接近开关
@@ -135,13 +135,13 @@ Octopus Max EZ 上电后，MCU 左侧的红灯 `D32` 将亮起，表示电源已
     <TabItem value="VBB" label="常开 NPN 接近开关" default>
         <img
             src={require('./img/Octopus_MAX_EZ_Hardware12.png').default}
-            alt="max ez npn" width="550"
+            alt="max ez npn" width="70%"
         />
     </TabItem>
     <TabItem value="high-oltage" label="常闭 PNP 接近开关">
         <img
             src={require('./img/Octopus_MAX_EZ_Hardware13.png').default}
-            alt="max ez pnp" width="550"
+            alt="max ez pnp" width="70%"
         />
     </TabItem>
 </Tabs>
@@ -152,5 +152,5 @@ Octopus Max EZ 上电后，MCU 左侧的红灯 `D32` 将亮起，表示电源已
 
 <img
     src={require('./img/Octopus_MAX_EZ_Hardware14.png').default}
-    alt="max ez pnp" width="550"
+    alt="max ez pnp" width="70%"
 />

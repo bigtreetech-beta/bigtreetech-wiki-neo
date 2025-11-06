@@ -1,15 +1,15 @@
 ---
 sidebar_position: 1
+description: H2 V2X 挤出机
 ---
 
-# H2 V2X Intro
-
-H2 V2X 说明文档
+# H2 V2X
 
 <!-- import lib start -->
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import DocCardList from '@theme/DocCardList';
 
 <!-- import lib end -->
 
@@ -37,3 +37,5 @@ H2 V2X 为一款超轻型（重量仅145克）近程挤出机，选用经阳极�
 | 推荐电机电流      | $650 mA$                  |
 | 挤出轮周长        | $24.5 mm$                 |
 | 耗材直径及公差    | $1.75 mm \pm 0.05 mm$     |
+
+<DocCardList />
