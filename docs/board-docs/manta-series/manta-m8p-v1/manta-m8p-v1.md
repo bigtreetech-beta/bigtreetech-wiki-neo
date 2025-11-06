@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+description: Manta M8P V1 一体打印板
 ---
 
-# Manta M8P v1 简介
+# Manta M8P V1
 
 Manta M8P 板说明文档
 
@@ -10,6 +11,7 @@ Manta M8P 板说明文档
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import DocCardList from '@theme/DocCardList';
 
 <!-- import lib end -->
 
@@ -37,3 +39,5 @@ M8P 亦是在解决 Klipper 接线过于复杂的问题。一体化的 Klipper �
 | 尺寸         | $170mm \times 102.7mm$             |
 
 </div>
+
+<DocCardList />

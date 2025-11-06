@@ -1,15 +1,15 @@
 ---
 sidebar_position: 1
+description: SKR Pico
 ---
 
-# SKR Pico 简介
-
-SKR PICO 说明文档
+# SKR Pico
 
 <!-- import lib start -->
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import DocCardList from '@theme/DocCardList';
 
 <!-- import lib end -->
 
@@ -39,3 +39,5 @@ SKR Pico 是一块专门为 Voron 0 系列设计的板子。可以直接和 Rasp
 | 与Raspberry Pi(树莓派)通信接口 | USB TYPE-C / 串口     |
 
 </div>
+
+<DocCardList />
