@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+description: Octopus Max EZ
 ---
 
-# Octopus Max EZ 简介
+# Octopus Max EZ
 
 Octopus Max EZ 说明文档
 
@@ -10,6 +11,7 @@ Octopus Max EZ 说明文档
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import DocCardList from '@theme/DocCardList';
 
 <!-- import lib end -->
 
@@ -37,3 +39,5 @@ Octopus MAX EZ 是针对 Octopus Pro 优化升级的 32 位打印机主板，采
 | 热端加热最大电流 | 5.5A (峰值 6A)                     |
 
 </div>
+
+<DocCardList />
