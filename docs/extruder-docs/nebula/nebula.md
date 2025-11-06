@@ -1,15 +1,15 @@
 ---
 sidebar_position: 1
+description: Nebula 挤出机
 ---
 
-# Nebula Intro
-
-Nebula 说明文档
+# Nebula
 
 <!-- import lib start -->
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import DocCardList from '@theme/DocCardList';
 
 <!-- import lib end -->
 
@@ -39,3 +39,5 @@ Nebula 是一款智能挤出机，专为提升性价比而设计，内置 `RGB` 
 | 挤出轮周长        | $50.4 mm$               |
 | 耗材直径及公差    | $1.75 mm \pm 0.05 mm$   |
 | 电压              | $24V$                   |
+
+<DocCardList />

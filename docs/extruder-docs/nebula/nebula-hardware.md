@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Nebula hardware
+# Nebula 硬件
 
 <!-- import lib start -->
 

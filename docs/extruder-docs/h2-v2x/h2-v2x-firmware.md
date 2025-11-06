@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# H2 V2X Firmware
+# H2 V2X 固件配置
 
 <!-- import lib start -->
 
