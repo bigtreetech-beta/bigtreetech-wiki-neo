@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Nebula Firmware
+# Nebula 固件配置
 
 <!-- import lib start -->
 
