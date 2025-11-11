@@ -26,7 +26,7 @@ TMC 5160 T Plus 是一个外置步进电机驱动。使用大功率 MOSFET 最�
 
 ## Specifications
 
-| TMC 5160 T Plus                | 参数                |
+| Specifications                 | TMC 5160 T Plus     |
 | ------------------------------ | ------------------- |
 | TMC5160T Plus 包括散热器的尺寸 | 64 x 56 x 32.55mm   |
 | TMC5160T Plus 板子尺寸         | 58 x 50 x 28mm      |
