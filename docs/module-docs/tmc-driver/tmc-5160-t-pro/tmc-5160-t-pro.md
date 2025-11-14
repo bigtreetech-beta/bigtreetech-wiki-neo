@@ -35,7 +35,7 @@ import TabItem from '@theme/TabItem';
 
 :::info[原理图 / Schematic]
 
-TMC 5160 T Pro 原理图 [BIGTREETECH-Stepper-Motor-Driver/TMC5160(T) Pro V1.1/Hardware/BIGTREETECH TMC5160T_Pro-SCH.pdf](https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC5160(T)%20Pro%20V1.1/Hardware/BIGTREETECH%20TMC5160T_Pro-SCH.pdf)
+TMC 5160 T Pro 原理图 [BIGTREETECH TMC5160T_Pro-SCH.pdf](https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC5160(T)%20Pro%20V1.1/Hardware/BIGTREETECH%20TMC5160T_Pro-SCH.pdf)
 :::
 
 <img
@@ -48,7 +48,7 @@ TMC 5160 T Pro 原理图 [BIGTREETECH-Stepper-Motor-Driver/TMC5160(T) Pro V1.1/H
 
 :::info[STEP 模型]
 
-TMC 5160 T Pro 模型 [BIGTREETECH-Stepper-Motor-Driver/TMC5160(T) Pro V1.1/3D/TMC5160_Pro V1.1.step](https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC5160(T)%20Pro%20V1.1/3D/TMC5160_Pro%20V1.1.step)
+TMC 5160 T Pro 模型 [TMC5160_Pro V1.1.step](https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC5160(T)%20Pro%20V1.1/3D/TMC5160_Pro%20V1.1.step)
 
 :::
 
