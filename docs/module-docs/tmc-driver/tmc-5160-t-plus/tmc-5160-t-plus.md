@@ -3,12 +3,13 @@ sidebar_position: 1
 description: TMC 5160 T Plus 简介
 ---
 
-# TMC 5160 T Plus intro
+# TMC 5160 T Plus
 
 <!-- import lib start -->
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import DocCardList from '@theme/DocCardList';
 
 <!-- import lib end -->
 
@@ -23,11 +24,9 @@ import TabItem from '@theme/TabItem';
 
 TMC 5160 T Plus 是一个外置步进电机驱动。使用大功率 MOSFET 最大电压为 56V。
 
-</div>
-
 ## Specifications
 
-| TMC 5160 T Plus                | 参数                |
+| Specifications                 | TMC 5160 T Plus     |
 | ------------------------------ | ------------------- |
 | TMC5160T Plus 包括散热器的尺寸 | 64 x 56 x 32.55mm   |
 | TMC5160T Plus 板子尺寸         | 58 x 50 x 28mm      |
@@ -37,3 +36,7 @@ TMC 5160 T Plus 是一个外置步进电机驱动。使用大功率 MOSFET 最�
 | 板载电容                       | 2 x $560uF$         |
 | 驱动模式                       | SPI, Step/DIR       |
 | 采样电阻                       | $22 m\Omega$        |
+
+</div>
+
+<DocCardList />

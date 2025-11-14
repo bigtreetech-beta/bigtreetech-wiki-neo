@@ -3,7 +3,7 @@ sidebar_position: 3
 description: EZ 5160 T Plus 软件配置
 ---
 
-# TMC 5160 T Plus Firmware
+# TMC 5160 T Plus 软件
 
 <!-- import lib start -->
 
