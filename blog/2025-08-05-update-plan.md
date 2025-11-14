@@ -4,30 +4,30 @@ title: 接下来的更新计划
 
 ### board
 
-- [x] Manta M8P
 - [ ] bigtreetee pi2
-- [x] ebb 2209/ ebb2240
-- [x] skr pico
-- [ ] octopus pro
 - [ ] octopus 
 - [ ] kraken
-- [ ] mmb2
-- [ ] mmb1
+- [ ] mmb2 (进行中)
+- [ ] mmb1 (进行中)
 
 ### 扩展模块
 
-- [x] lis2dw
-- [x] adxl345
-- [ ] TD1s
-- [x] eddy
-- [ ] microprobe
+- [ ] microprobe (进行中)
 - [ ] sfsv2
 
-### 驱动模块 
+### 已完成
 
-- [ ] tmc 5160 t pro
-- [ ] tmc 2209 
-- [ ] tmc 2240 
-- [ ] tmc 2208
-  
 <!-- truncate -->
+
+- [x] tmc 5160 t pro
+- [x] tmc 2209 
+- [x] tmc 2240 
+- [x] tmc 2208
+- [x] lis2dw
+- [x] adxl345
+- [x] eddy
+- [x] ebb 2209/ ebb2240
+- [x] skr pico
+- [x] octopus pro
+- [x] octopus max ez
+- [x] Manta M8P
