@@ -25,7 +25,7 @@ import TabItem from '@theme/TabItem';
 | -------------- | ------------------ |
 | 驱动芯片       | TMC 5160           |
 | 驱动电压       | 8V - 48V DC        |
-| 驱动电流       | 2.1A RMS 3.0A peak |
+| 驱动电流       | 3.1A RMS 4.4A peak |
 | 采样电阻       | 0.075 ohms         |
 | MOSFET 型号    | JMSL0615AUD        |
 
