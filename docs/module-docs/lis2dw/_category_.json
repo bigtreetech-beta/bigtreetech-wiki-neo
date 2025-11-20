@@ -1,8 +1,0 @@
-{
-  "label": "LIS2DW",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "LIS2DW 加速度计"
-  }
-}
