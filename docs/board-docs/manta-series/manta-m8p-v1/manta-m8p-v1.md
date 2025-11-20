@@ -9,8 +9,6 @@ Manta M8P 板说明文档
 
 <!-- import lib start -->
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 import DocCardList from '@theme/DocCardList';
 
 <!-- import lib end -->
@@ -27,11 +25,6 @@ import DocCardList from '@theme/DocCardList';
 M8P 亦是在解决 Klipper 接线过于复杂的问题。一体化的 Klipper 电路控制。并且保留 Octopus 系列的部分功能，使得拓展性得到提升。
 
 ## 硬件规格
-
-| Manta M8P v1.1 | Specification                      |
-| -------------- | ---------------------------------- |
-| MCU            | Arm Cortex-M7 STM32H723ZET6 550MHz |
-| 尺寸           | $170mm \times 102.7mm$             |
 
 | Manta M8P v1 | Specification                      |
 | ------------ | ---------------------------------- |
