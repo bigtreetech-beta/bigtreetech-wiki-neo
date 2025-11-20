@@ -1,10 +1,9 @@
 ---
 sidebar_position: 1
+description: LIS2DW 加速度传感器
 ---
 
-# LIS2DW 简介
-
-LIS2DW 说明文档
+# LIS2DW
 
 <!-- import lib start -->
 

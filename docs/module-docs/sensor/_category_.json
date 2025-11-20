@@ -1,8 +1,8 @@
 {
-  "label": "ADXL 345",
+  "label": "Sensor",
   "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "ADXL 345 加速度计"
+    "description": "传感器"
   }
 }

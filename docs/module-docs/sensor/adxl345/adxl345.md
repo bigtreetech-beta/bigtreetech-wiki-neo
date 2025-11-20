@@ -1,10 +1,9 @@
 ---
 sidebar_position: 1
+description: ADXL345 加速度传感器
 ---
 
-# ADXL345 简介
-
-ADXL345 说明文档
+# ADXL345
 
 <!-- import lib start -->
 
