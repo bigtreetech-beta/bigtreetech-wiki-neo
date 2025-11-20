@@ -14,9 +14,21 @@ import TabItem from '@theme/TabItem';
 
 ## 外观尺寸
 
+:::info[STEP 模型]
+
+Manta M8P v2 模型 [BIGTREETECH MANTA M8P V2.0.zip](https://github.com/bigtreetech/Manta-M8P/blob/master/V2.0/3D/BIGTREETECH%20MANTA%20M8P%20V2.0.zip)
+
+:::
+
 <img src={require('./img/m8p-v2-dimensions.png').default} width="100%"/>
 
 ## Pinout
+
+:::info[原理图 / Schematic]
+
+Manta M8P v2 原理图 [BIGTREETECH MANTA M8P V2.0-SCH.pdf](https://github.com/bigtreetech/Manta-M8P/blob/master/V2.0/Hardware/BIGTREETECH%20MANTA%20M8P%20V2.0-SCH.pdf)
+
+:::
 
 <img src={require('./img/m8p-v2-pinout.png').default} width="100%"/>
 

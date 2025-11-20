@@ -13,6 +13,14 @@ import TabItem from '@theme/TabItem';
 
 ## 外观尺寸
 
+:::info[STEP 模型]
+
+Manta M8P v1.0 模型 [BIGTREETECH MANTA M8P V1.0.step](https://github.com/bigtreetech/Manta-M8P/blob/master/V1.0_V1.1/3D/BIGTREETECH%20MANTA%20M8P%20V1.0.step)
+
+Manta M8P v1.1 模型 [BIGTREETECH MANTA M8P V1.1.step.zip](https://github.com/bigtreetech/Manta-M8P/blob/master/V1.0_V1.1/3D/BIGTREETECH%20MANTA%20M8P%20V1.1.step.zip)
+
+:::
+
 <Tabs groupId="m8p-dim">
     <TabItem value="m8p-dim-1" label="正面尺寸" default>
         <img src={require('./img/M8P_dimensions_1.png').default} width="100%"/>
@@ -23,6 +31,14 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 
 ## Pinout
+
+:::info[原理图 / Schematic]
+
+Manta M8P v1.0 原理图 [BIGTREETECH MANTA M8P V1.0-SCH.pdf](https://github.com/bigtreetech/Manta-M8P/blob/master/V1.0_V1.1/Hardware/BIGTREETECH%20MANTA%20M8P%20V1.0-SCH.pdf)
+
+Manta M8P v1.1 原理图 [BIGTREETECH MANTA M8P V1.1-SCH.pdf](https://github.com/bigtreetech/Manta-M8P/blob/master/V1.0_V1.1/Hardware/BIGTREETECH%20MANTA%20M8P%20V1.1-SCH.pdf)
+
+:::
 
 <Tabs groupId="m8p-pinout">
     <TabItem value="m8p-pinout-1_1" label="Manta M8P v1.1" default>
