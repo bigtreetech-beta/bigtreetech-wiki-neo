@@ -11,6 +11,10 @@ import TabItem from '@theme/TabItem';
 
 <!-- import lib end -->
 
+## 核心板固件写入
+
+Manta M8P v2 搭配 CM4/CM5 核心板写入系统参考 [Manta 系列核心板 Raspberry CM4/CM5](../manta-core-image-rpi.md)
+
 ## Klipper
 
 :::info[开始之前]
