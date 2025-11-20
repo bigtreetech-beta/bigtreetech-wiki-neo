@@ -31,3 +31,6 @@ title: 接下来的更新计划
 - [x] octopus pro
 - [x] octopus max ez
 - [x] Manta M8P
+- [x] Manta M8P v2
+- [ ] Manta M4P
+- [ ] Manta M5P
