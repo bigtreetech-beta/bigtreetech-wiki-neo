@@ -22,7 +22,7 @@ cd ~/klipper
 make menuconfig 
 ```
 
-<!-- <Tabs groupId="octopus-make-connect">
+<Tabs groupId="octopus-make-connect">
     <TabItem value="bridge" label="CAN 桥接固件" default>
         按照以下选项构建使用 `STM32F446` 为 `MCU` 的 `Octopus` CAN 桥接固件
         <img
@@ -37,7 +37,7 @@ make menuconfig
             alt="octopus with h723 usb"
         />
     </TabItem>
-</Tabs> -->
+</Tabs>
 
 当配置完成使用 `q` 来退出。使用 `y` 来保存编译选项。
 
