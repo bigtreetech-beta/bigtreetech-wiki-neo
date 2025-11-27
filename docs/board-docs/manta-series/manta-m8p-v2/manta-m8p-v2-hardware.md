@@ -32,15 +32,9 @@ Manta M8P v2 原理图 [BIGTREETECH MANTA M8P V2.0-SCH.pdf](https://github.com/b
 
 <img src={require('./img/m8p-v2-pinout.png').default} width="100%"/>
 
-## 硬件功能配置
+## 步进电机驱动
 
-### USB 供电
-
-M8P主板上电之后，板子左下角的灯会亮起，表示供电正常。板子中部的VUSB是电源选择端，仅当使用USB给主板供电或需通过USB向外供电时，才需要使用跳帽将它短接。
-
-<img src={require('./img/m8p_v2_0_usb.png').default} width="50%"/>
-
-### 步进电机驱动
+### 电机驱动配置 (SPI / Uart)
 
 <Tabs groupId="m8p-v2-stepper-driver">
     <TabItem value="tmc-uart" label="Uart 模式" default>
@@ -78,6 +72,12 @@ M8P主板上电之后，板子左下角的灯会亮起，表示供电正常。�
     </TabItem>
 </Tabs>
 
+### TMC Sensorless
+
+<img src={require('./img/m8p_v2_0_tmc_sensorless.png').default} width="100%"/>
+
+## 核心板
+
 ### 核心板安装
 
 <Tabs groupId="m8p-v2-cm">
@@ -88,6 +88,24 @@ M8P主板上电之后，板子左下角的灯会亮起，表示供电正常。�
         <img src={require('./img/M8P-v2_cm_cb.png').default} width="100%"/>
     </TabItem>
 </Tabs>
+
+### USB 供电
+
+M8P主板上电之后，板子左下角的灯会亮起，表示供电正常。板子中部的VUSB是电源选择端，仅当使用USB给主板供电或需通过USB向外供电时，才需要使用跳帽将它短接。
+
+<img src={require('./img/m8p_v2_0_usb.png').default} width="50%"/>
+
+### DSI / CSI连接
+
+:::info[需要硬件支持]
+
+DSI / CSI 需要核心板硬件支持
+
+:::
+
+<img src={require('./img/m8p_v2_0_dsi.png').default} width="100%"/>
+
+## 风扇
 
 ### 风扇电压选择
 
@@ -104,6 +122,8 @@ M8P主板上电之后，板子左下角的灯会亮起，表示供电正常。�
 ### 4Pin PWM 风扇接线
 
 <img src={require('./img/m8p_v2_0_4pin_fan.png').default} width="60%"/>
+
+## 传感器
 
 ### 100K NTC 或 PT1000 设置
 
@@ -134,6 +154,12 @@ M8P主板上电之后，板子左下角的灯会亮起，表示供电正常。�
     </TabItem>
 </Tabs>
 
+### I2C接线 (温湿度传感器)
+
+<img src={require('./img/m8p_v2_0_i2c.png').default} width="80%"/>
+
+## 其他硬件
+
 ### Neopixel 
 
 <img src={require('./img/m8p_v2_0_rgb.png').default} width="80%"/>
@@ -142,16 +168,3 @@ M8P主板上电之后，板子左下角的灯会亮起，表示供电正常。�
 
 <img src={require('./img/m8p_v2_0_servo.png').default} width="80%"/>
 
-### I2C接线 (温湿度传感器)
-
-<img src={require('./img/m8p_v2_0_i2c.png').default} width="80%"/>
-
-### DSI / CSI连接
-
-:::info[需要硬件支持]
-
-DSI / CSI 需要核心板硬件支持
-
-:::
-
-<img src={require('./img/m8p_v2_0_dsi.png').default} width="100%"/>
