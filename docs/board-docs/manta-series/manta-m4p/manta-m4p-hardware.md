@@ -64,10 +64,10 @@ Manta M4P v2 原理图 [bigtreetech_manta_m4p_v2.1_220608_SCH.pdf](https://githu
 ### 驱动电压选择
 
 <Tabs groupId="m4p-driver-power">
-    <TabItem value="m8p-power-24" label="使用 24V 电源" default>
+    <TabItem value="m4p-power-24" label="使用 24V 电源" default>
         <img src={require('./img/M4P_driver_24.png').default} width="100%"/>
     </TabItem>
-    <TabItem value="m8p-power-48" label="使用 48V 电源">
+    <TabItem value="m4p-power-48" label="使用 48V 电源">
         <img src={require('./img/M4P_driver_48.png').default} width="100%"/>
     </TabItem>
 </Tabs>
@@ -77,10 +77,10 @@ Manta M4P v2 原理图 [bigtreetech_manta_m4p_v2.1_220608_SCH.pdf](https://githu
 ### 核心板安装
 
 <Tabs groupId="m4p-cm">
-    <TabItem value="m8p-cm-rpi" label="使用树莓派 CM4/CM5" default>
+    <TabItem value="m4p-cm-rpi" label="使用树莓派 CM4/CM5" default>
         <img src={require('./img/m4p_cm_rpi.png').default} width="100%"/>
     </TabItem>
-    <TabItem value="m8p-cm-cb" label="使用 CB1/CB2">
+    <TabItem value="m4p-cm-cb" label="使用 CB1/CB2">
         <img src={require('./img/m4p_cm_cb.png').default} width="100%"/>
     </TabItem>
 </Tabs>
