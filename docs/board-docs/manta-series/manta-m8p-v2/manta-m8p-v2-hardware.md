@@ -14,21 +14,27 @@ import TabItem from '@theme/TabItem';
 
 ## 外观尺寸
 
+:::info[STEP 模型]
+
+Manta M8P v2 模型 [BIGTREETECH MANTA M8P V2.0.zip](https://github.com/bigtreetech/Manta-M8P/blob/master/V2.0/3D/BIGTREETECH%20MANTA%20M8P%20V2.0.zip)
+
+:::
+
 <img src={require('./img/m8p-v2-dimensions.png').default} width="100%"/>
 
 ## Pinout
 
+:::info[原理图 / Schematic]
+
+Manta M8P v2 原理图 [BIGTREETECH MANTA M8P V2.0-SCH.pdf](https://github.com/bigtreetech/Manta-M8P/blob/master/V2.0/Hardware/BIGTREETECH%20MANTA%20M8P%20V2.0-SCH.pdf)
+
+:::
+
 <img src={require('./img/m8p-v2-pinout.png').default} width="100%"/>
 
-## 硬件功能配置
+## 步进电机驱动
 
-### USB 供电
-
-M8P主板上电之后，板子左下角的灯会亮起，表示供电正常。板子中部的VUSB是电源选择端，仅当使用USB给主板供电或需通过USB向外供电时，才需要使用跳帽将它短接。
-
-<img src={require('./img/m8p_v2_0_usb.png').default} width="50%"/>
-
-### 步进电机驱动
+### 电机驱动配置 (SPI / Uart)
 
 <Tabs groupId="m8p-v2-stepper-driver">
     <TabItem value="tmc-uart" label="Uart 模式" default>
@@ -66,6 +72,12 @@ M8P主板上电之后，板子左下角的灯会亮起，表示供电正常。�
     </TabItem>
 </Tabs>
 
+### TMC Sensorless
+
+<img src={require('./img/m8p_v2_0_tmc_sensorless.png').default} width="100%"/>
+
+## 核心板
+
 ### 核心板安装
 
 <Tabs groupId="m8p-v2-cm">
@@ -76,6 +88,24 @@ M8P主板上电之后，板子左下角的灯会亮起，表示供电正常。�
         <img src={require('./img/M8P-v2_cm_cb.png').default} width="100%"/>
     </TabItem>
 </Tabs>
+
+### USB 供电
+
+M8P主板上电之后，板子左下角的灯会亮起，表示供电正常。板子中部的VUSB是电源选择端，仅当使用USB给主板供电或需通过USB向外供电时，才需要使用跳帽将它短接。
+
+<img src={require('./img/m8p_v2_0_usb.png').default} width="50%"/>
+
+### DSI / CSI连接
+
+:::info[需要硬件支持]
+
+DSI / CSI 需要核心板硬件支持
+
+:::
+
+<img src={require('./img/m8p_v2_0_dsi.png').default} width="100%"/>
+
+## 风扇
 
 ### 风扇电压选择
 
@@ -92,6 +122,8 @@ M8P主板上电之后，板子左下角的灯会亮起，表示供电正常。�
 ### 4Pin PWM 风扇接线
 
 <img src={require('./img/m8p_v2_0_4pin_fan.png').default} width="60%"/>
+
+## 传感器
 
 ### 100K NTC 或 PT1000 设置
 
@@ -113,14 +145,20 @@ M8P主板上电之后，板子左下角的灯会亮起，表示供电正常。�
 
 ### 接近开关接线
 
-<Tabs groupId="m8p-proximity">
-    <TabItem value="m8p-proximity-npn" label="NPN 接近开关" default>
+<Tabs groupId="m8p-v2-proximity">
+    <TabItem value="m8p-v2-proximity-npn" label="NPN 接近开关" default>
         <img src={require('./img/m8p_v2_0_proximity1.png').default} width="80%"/>
     </TabItem>
-    <TabItem value="m8p-proximity-pnp" label="PNP 接近开关">
+    <TabItem value="m8p-v2-proximity-pnp" label="PNP 接近开关">
         <img src={require('./img/m8p_v2_0_proximity.png').default} width="80%"/>
     </TabItem>
 </Tabs>
+
+### I2C接线 (温湿度传感器)
+
+<img src={require('./img/m8p_v2_0_i2c.png').default} width="80%"/>
+
+## 其他硬件
 
 ### Neopixel 
 
@@ -130,16 +168,3 @@ M8P主板上电之后，板子左下角的灯会亮起，表示供电正常。�
 
 <img src={require('./img/m8p_v2_0_servo.png').default} width="80%"/>
 
-### I2C接线 (温湿度传感器)
-
-<img src={require('./img/m8p_v2_0_i2c.png').default} width="80%"/>
-
-### DSI / CSI连接
-
-:::info[需要硬件支持]
-
-DSI / CSI 需要核心板硬件支持
-
-:::
-
-<img src={require('./img/m8p_v2_0_dsi.png').default} width="100%"/>
