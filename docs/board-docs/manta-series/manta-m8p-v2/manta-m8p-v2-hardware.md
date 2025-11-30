@@ -145,11 +145,11 @@ DSI / CSI 需要核心板硬件支持
 
 ### 接近开关接线
 
-<Tabs groupId="m8p-proximity">
-    <TabItem value="m8p-proximity-npn" label="NPN 接近开关" default>
+<Tabs groupId="m8p-v2-proximity">
+    <TabItem value="m8p-v2-proximity-npn" label="NPN 接近开关" default>
         <img src={require('./img/m8p_v2_0_proximity1.png').default} width="80%"/>
     </TabItem>
-    <TabItem value="m8p-proximity-pnp" label="PNP 接近开关">
+    <TabItem value="m8p-v2-proximity-pnp" label="PNP 接近开关">
         <img src={require('./img/m8p_v2_0_proximity.png').default} width="80%"/>
     </TabItem>
 </Tabs>
