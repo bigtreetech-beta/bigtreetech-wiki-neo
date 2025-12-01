@@ -11,7 +11,22 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '文档迁移中',
+    title: '主板',
+    // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        <a href="./docs/intro">
+          <img
+            src={require('@site/static/img/maxez-main.png').default}
+            alt=""
+          />
+          <br/>
+        </a>
+      </>
+    ),
+  },
+  {
+    title: '挤出机',
     // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -21,8 +36,21 @@ const FeatureList: FeatureItem[] = [
             alt=""
           />
           <br/>
-          
-          文档还在迁移中... 部分内容可能不存在
+        </a>
+      </>
+    ),
+  },
+  {
+    title: '模块',
+    // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        <a href="./docs/module">
+          <img
+            src={require('@site/static/img/lis2dw-main.png').default}
+            alt=""
+          />
+          <br/>
         </a>
       </>
     ),
