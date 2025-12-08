@@ -38,8 +38,8 @@ export default function Home(): ReactNode {
       <HomepageHeader />
       <main>
         <br />
-        <div className="text--center padding-horiz--md"d>
-          文档还在迁移中... 部分内容可能不存在
+        <div className="text--center padding-horiz--md">
+          Wiki 试运行中... 部分内容可能不存在
         </div>
         
         <HomepageFeatures />

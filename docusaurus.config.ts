@@ -11,7 +11,7 @@ import rehypeKatex from 'rehype-katex';
 
 const config: Config = {
   title: 'Bigtreetech WiKi NEO',
-  tagline: '新文档还在迁移中',
+  tagline: 'WiKi 试运行中...',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -20,7 +20,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://bttwiki.com',
+  url: 'https://neo.bttwiki.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -166,8 +166,16 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Board',
               to: '/docs/intro',
+            },
+            {
+              label: 'Extruder',
+              to: '/docs/extruder',
+            },
+            {
+              label: 'Module',
+              to: '/docs/module',
             },
           ],
         },
