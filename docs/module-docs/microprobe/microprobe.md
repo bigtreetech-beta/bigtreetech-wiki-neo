@@ -1,9 +1,9 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 description: Microprobe 探针简介
 ---
 
-# Microprobe Intro
+# Microprobe
 
 <!-- import lib start -->
 
