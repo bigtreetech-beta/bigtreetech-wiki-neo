@@ -3,7 +3,7 @@ sidebar_position: 2
 description: EZ 5160 T Plus 硬件
 ---
 
-# TMC 5160 T Plus Hardware
+# TMC 5160 T Plus 硬件
 
 <!-- import lib start -->
 

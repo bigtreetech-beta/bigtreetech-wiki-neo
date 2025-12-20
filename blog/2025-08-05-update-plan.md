@@ -2,32 +2,39 @@
 title: 接下来的更新计划
 ---
 
-### board
+文档更新进度
 
-- [x] Manta M8P
-- [ ] bigtreetee pi2
-- [x] ebb 2209/ ebb2240
-- [x] skr pico
-- [ ] octopus pro
-- [ ] octopus 
-- [ ] kraken
-- [ ] mmb2
-- [ ] mmb1
-
-### 扩展模块
-
-- [x] lis2dw
-- [x] adxl345
-- [ ] TD1s
-- [x] eddy
-- [ ] microprobe
-- [ ] sfsv2
-
-### 驱动模块 
-
-- [ ] tmc 5160 t pro
-- [ ] tmc 2209 
-- [ ] tmc 2240 
-- [ ] tmc 2208
-  
 <!-- truncate -->
+
+### 已经完成的部分
+
+- [x] ADXL345
+- [x] EBB 2209 CAN RP2040
+- [x] EBB 36 CAN
+- [x] Eddy
+- [x] EZ5160 Pro
+- [x] H2 V2X
+- [x] HDMI5
+- [x] HDMI7 V1.0
+- [x] HDMI7 V1.2
+- [x] M4P
+- [x] M8P-V2_0
+- [x] M8P
+- [x] Nebula
+- [x] Octopus MAX EZ
+- [x] Octopus Pro
+- [x] PandaSense
+- [x] PandaTouch
+- [x] SKR Pico
+- [x] TFT24
+- [x] TFT35 E3
+- [x] TFT35 SPI
+- [x] TFT35
+- [x] TFT43-DIP
+- [x] TMC2130
+- [x] TMC2208
+- [x] TMC2209
+- [x] TMC2240
+- [x] TMC5160
+- [x] TMC5160T Pro V1.0
+- [x] TMC5160TPlus

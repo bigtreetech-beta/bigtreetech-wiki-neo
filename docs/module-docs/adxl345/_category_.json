@@ -1,8 +1,0 @@
-{
-  "label": "ADXL 345",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "ADXL 345 加速度计"
-  }
-}
