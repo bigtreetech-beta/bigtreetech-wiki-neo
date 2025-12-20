@@ -17,7 +17,7 @@ const FeatureList: FeatureItem[] = [
       <>
         <a href="./docs/intro">
           <img
-            src={require('@site/static/img/maxez-main.png').default}
+            src={require('@site/static/img/maxez-main.webp').default}
             alt=""
           />
           <br/>
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
       <>
         <a href="./docs/extruder">
           <img
-            src={require('@site/static/img/h2-v2x.png').default}
+            src={require('@site/static/img/h2-v2x.webp').default}
             alt=""
           />
           <br/>
@@ -47,7 +47,7 @@ const FeatureList: FeatureItem[] = [
       <>
         <a href="./docs/module">
           <img
-            src={require('@site/static/img/lis2dw-main.png').default}
+            src={require('@site/static/img/lis2dw-main.webp').default}
             alt=""
           />
           <br/>
