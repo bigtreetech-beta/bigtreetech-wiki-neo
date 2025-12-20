@@ -38,3 +38,4 @@ title: 接下来的更新计划
 - [x] TMC5160
 - [x] TMC5160T Pro V1.0
 - [x] TMC5160TPlus
+- [x] Microprobe
