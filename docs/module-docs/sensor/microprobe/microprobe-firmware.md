@@ -1,9 +1,9 @@
 ---
 sidebar_position: 3
-description: Microprobe 软件配置
+description: Microprobe 固件配置
 ---
 
-# Microprobe 软件配置
+# Microprobe 固件配置
 
 <!-- import lib start -->
 
