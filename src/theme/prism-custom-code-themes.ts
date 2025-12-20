@@ -101,5 +101,12 @@ export default {
         color: '#66ccff',
       },
     },
+    // bash function
+    {
+      types: ['function'],
+      style: {
+        color: '#99ffcc',
+      },
+    },
   ],
 } satisfies PrismTheme;
