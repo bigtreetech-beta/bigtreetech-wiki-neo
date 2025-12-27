@@ -10,6 +10,7 @@ on:
 jobs:
   build:
     name: Build wiki
+    if: github.repository == 'bigtreetech-beta/bigtreetech-wiki-neo'
     
     runs-on: ubuntu-latest
 
