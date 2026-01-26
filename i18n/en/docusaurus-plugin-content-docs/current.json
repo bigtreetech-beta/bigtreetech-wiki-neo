@@ -1,0 +1,166 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.boardSidebar.category.Manta series": {
+    "message": "Manta series",
+    "description": "The label for category 'Manta series' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.Manta series.link.generated-index.description": {
+    "message": "Manta series all in one board",
+    "description": "The generated-index page description for category 'Manta series' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.Manta M4P": {
+    "message": "Manta M4P",
+    "description": "The label for category 'Manta M4P' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.Manta M5P": {
+    "message": "Manta M5P",
+    "description": "The label for category 'Manta M5P' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.Manta M8P V1": {
+    "message": "Manta M8P V1",
+    "description": "The label for category 'Manta M8P V1' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.Manta M8P V2": {
+    "message": "Manta M8P V2",
+    "description": "The label for category 'Manta M8P V2' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.Octopus series": {
+    "message": "Octopus series",
+    "description": "The label for category 'Octopus series' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.Octopus series.link.generated-index.description": {
+    "message": "Octopus series",
+    "description": "The generated-index page description for category 'Octopus series' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.Octopus Max EZ": {
+    "message": "Octopus Max EZ",
+    "description": "The label for category 'Octopus Max EZ' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.Octopus Pro": {
+    "message": "Octopus Pro",
+    "description": "The label for category 'Octopus Pro' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.SKR series": {
+    "message": "SKR series",
+    "description": "The label for category 'SKR series' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.SKR series.link.generated-index.description": {
+    "message": "SRK series",
+    "description": "The generated-index page description for category 'SKR series' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.SKR Pico": {
+    "message": "SKR Pico",
+    "description": "The label for category 'SKR Pico' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.EBB series": {
+    "message": "EBB series",
+    "description": "The label for category 'EBB series' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.EBB series.link.generated-index.description": {
+    "message": "EBB series CAN board",
+    "description": "The generated-index page description for category 'EBB series' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.EBB 2209 (RP 2040)": {
+    "message": "EBB 2209 (RP 2040)",
+    "description": "The label for category 'EBB 2209 (RP 2040)' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.EBB 36 Gen 1": {
+    "message": "EBB 36 Gen 1",
+    "description": "The label for category 'EBB 36 Gen 1' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.MMB series": {
+    "message": "MMB series",
+    "description": "The label for category 'MMB series' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.MMB series.link.generated-index.description": {
+    "message": "MMB series Multi-color Expansion Board",
+    "description": "The generated-index page description for category 'MMB series' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.MMB CAN V1": {
+    "message": "MMB CAN V1",
+    "description": "The label for category 'MMB CAN V1' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.MMB CAN V1.link.generated-index.description": {
+    "message": "MMB CAN V1 多色扩展板",
+    "description": "The generated-index page description for category 'MMB CAN V1' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.MMB CAN V2": {
+    "message": "MMB CAN V2",
+    "description": "The label for category 'MMB CAN V2' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.MMB CAN V2.link.generated-index.description": {
+    "message": "MMB CAN V2 多色扩展板",
+    "description": "The generated-index page description for category 'MMB CAN V2' in sidebar 'boardSidebar'"
+  },
+  "sidebar.extruderSidebar.category.H2 V2X": {
+    "message": "H2 V2X",
+    "description": "The label for category 'H2 V2X' in sidebar 'extruderSidebar'"
+  },
+  "sidebar.extruderSidebar.category.Nebula": {
+    "message": "Nebula",
+    "description": "The label for category 'Nebula' in sidebar 'extruderSidebar'"
+  },
+  "sidebar.moduleSidebar.category.EZ Series": {
+    "message": "EZ Series",
+    "description": "The label for category 'EZ Series' in sidebar 'moduleSidebar'"
+  },
+  "sidebar.moduleSidebar.category.EZ Series.link.generated-index.description": {
+    "message": "EZ stepper motor driver",
+    "description": "The generated-index page description for category 'EZ Series' in sidebar 'moduleSidebar'"
+  },
+  "sidebar.moduleSidebar.category.EZ 5160 Pro": {
+    "message": "EZ 5160 Pro",
+    "description": "The label for category 'EZ 5160 Pro' in sidebar 'moduleSidebar'"
+  },
+  "sidebar.moduleSidebar.category.EZ 5160 Pro.link.generated-index.description": {
+    "message": "EZ 5160 Pro Stepper motor driver",
+    "description": "The generated-index page description for category 'EZ 5160 Pro' in sidebar 'moduleSidebar'"
+  },
+  "sidebar.moduleSidebar.category.TMC Driver": {
+    "message": "TMC Driver",
+    "description": "The label for category 'TMC Driver' in sidebar 'moduleSidebar'"
+  },
+  "sidebar.moduleSidebar.category.TMC Driver.link.generated-index.description": {
+    "message": "TMC Stepper motor driver",
+    "description": "The generated-index page description for category 'TMC Driver' in sidebar 'moduleSidebar'"
+  },
+  "sidebar.moduleSidebar.category.TMC 5160 T Plus": {
+    "message": "TMC 5160 T Plus",
+    "description": "The label for category 'TMC 5160 T Plus' in sidebar 'moduleSidebar'"
+  },
+  "sidebar.moduleSidebar.category.Sensor": {
+    "message": "Sensor",
+    "description": "The label for category 'Sensor' in sidebar 'moduleSidebar'"
+  },
+  "sidebar.moduleSidebar.category.Sensor.link.generated-index.description": {
+    "message": "Sensor",
+    "description": "The generated-index page description for category 'Sensor' in sidebar 'moduleSidebar'"
+  },
+  "sidebar.moduleSidebar.category.ADXL345": {
+    "message": "ADXL345",
+    "description": "The label for category 'ADXL345' in sidebar 'moduleSidebar'"
+  },
+  "sidebar.moduleSidebar.category.Eddy": {
+    "message": "Eddy",
+    "description": "The label for category 'Eddy' in sidebar 'moduleSidebar'"
+  },
+  "sidebar.moduleSidebar.category.LIS2DW": {
+    "message": "LIS2DW",
+    "description": "The label for category 'LIS2DW' in sidebar 'moduleSidebar'"
+  },
+  "sidebar.moduleSidebar.category.Microprobe": {
+    "message": "Microprobe",
+    "description": "The label for category 'Microprobe' in sidebar 'moduleSidebar'"
+  },
+  "sidebar.moduleSidebar.category.Display": {
+    "message": "Display",
+    "description": "The label for category 'Display' in sidebar 'moduleSidebar'"
+  },
+  "sidebar.moduleSidebar.category.Display.link.generated-index.description": {
+    "message": "display",
+    "description": "The generated-index page description for category 'Display' in sidebar 'moduleSidebar'"
+  }
+}

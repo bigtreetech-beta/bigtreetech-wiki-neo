@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "Bigtreetech Wiki",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "bigtreetech-logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Board": {
+    "message": "Board",
+    "description": "Navbar item with label Board"
+  },
+  "item.label.Extruder": {
+    "message": "Extruder",
+    "description": "Navbar item with label Extruder"
+  },
+  "item.label.Module": {
+    "message": "Module",
+    "description": "Navbar item with label Module"
+  },
+  "item.label.Accessory": {
+    "message": "Accessory",
+    "description": "Navbar item with label Accessory"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  }
+}
