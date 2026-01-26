@@ -1,8 +1,8 @@
 {
-  "label": "Display 屏幕",
+  "label": "Display",
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "display 屏幕"
+    "description": "display"
   }
 }

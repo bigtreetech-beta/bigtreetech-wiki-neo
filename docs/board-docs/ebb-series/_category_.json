@@ -1,8 +1,8 @@
 {
-  "label": "EBB 系列",
+  "label": "EBB series",
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "EBB 系列 CAN 板"
+    "description": "EBB series CAN board"
   }
 }
