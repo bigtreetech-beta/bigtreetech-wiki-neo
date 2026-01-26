@@ -158,13 +158,8 @@ const config: Config = {
           position: 'left',
           label: 'Module',
         },
-
-        {
-          type: 'docSidebar',
-          sidebarId: 'pandaSidebar',
-          position: 'left',
-          label: 'Panda Series',
-        },
+      
+        { to: 'https://global.biquwiki.com', label: 'Accessory', position: 'left' },
 
         {to: '/blog', label: 'Blog', position: 'left'},
         
