@@ -156,11 +156,12 @@ const config: Config = {
         },
 
         {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/bigtreetech-beta/bigtreetech-wiki-neo',
-          label: 'GitHub',
-          position: 'right',
-        },
+        
+        // {
+        //   href: 'https://github.com/bigtreetech-beta/bigtreetech-wiki-neo',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
