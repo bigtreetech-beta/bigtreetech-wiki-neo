@@ -161,7 +161,12 @@ const config: Config = {
       
         { to: 'https://global.biquwiki.com', label: 'Accessory', position: 'left' },
 
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/blog', label: 'Blog', position: 'left' },
+        
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        }
         
         // {
         //   href: 'https://github.com/bigtreetech-beta/bigtreetech-wiki-neo',
