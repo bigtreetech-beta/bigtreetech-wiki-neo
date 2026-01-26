@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Eddy Intro
+# Eddy
 
 Eddy Duo 说明文档
 
