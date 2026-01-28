@@ -37,7 +37,18 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    locales: ['zh-Hans', 'en'],
+    localeConfigs: {
+      "zh-Hans": {
+        label: '简体中文',
+        baseUrl: '/zh',
+      },
+      "en": {
+        label: 'English',
+        baseUrl: '/en',
+        htmlLang: 'en',
+      },
+    }
   },
 
   markdown: {
@@ -147,15 +158,15 @@ const config: Config = {
           position: 'left',
           label: 'Module',
         },
+      
+        { to: 'https://global.biquwiki.com', label: 'Accessory', position: 'left' },
 
+        { to: '/blog', label: 'Blog', position: 'left' },
+        
         {
-          type: 'docSidebar',
-          sidebarId: 'pandaSidebar',
-          position: 'left',
-          label: 'Panda Series',
-        },
-
-        {to: '/blog', label: 'Blog', position: 'left'},
+          type: 'localeDropdown',
+          position: 'right',
+        }
         
         // {
         //   href: 'https://github.com/bigtreetech-beta/bigtreetech-wiki-neo',
