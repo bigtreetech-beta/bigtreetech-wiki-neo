@@ -2,7 +2,7 @@
 sidebar_position: 11
 ---
 
-# EBB 系列固件 (STM32F072)
+# EBB Series Firmware (STM32F072)
 
 使用 `STM32F072` MCU 的 EBB
 

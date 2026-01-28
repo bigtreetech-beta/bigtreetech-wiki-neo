@@ -4,6 +4,6 @@ sidebar_position: 1
 
 # Bigtreetech Wiki NEO
 
-## 模块文档
+## Module
 
-文档还在迁移中... 部分内容可能不存在
+Documentation is still being migrated... Some content may not exist

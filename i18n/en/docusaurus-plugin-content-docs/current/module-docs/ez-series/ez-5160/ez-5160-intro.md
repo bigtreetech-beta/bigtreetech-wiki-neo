@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 
 <div class="div-table">
 
-import EZ5160Pro from "./img/EZ5160_title.svg";
+import EZ5160Pro from "@site/docs/module-docs/ez-series/ez-5160/img/EZ5160_title.svg";
 
 <EZ5160Pro class="right-image" width="30%" height="auto"/>
 

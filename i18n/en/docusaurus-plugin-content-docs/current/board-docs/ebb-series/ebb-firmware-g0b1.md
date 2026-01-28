@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# EBB 系列固件 (STM32G0B1)
+# EBB Series Firmware (STM32G0B1)
 
 使用 `STM32G0B1` MCU 的 EBB
 

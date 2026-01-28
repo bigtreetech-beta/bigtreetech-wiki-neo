@@ -2,47 +2,47 @@
 sidebar_position: 10
 ---
 
-# EBB 系列固件 (RP2040)
+# EBB Series Firmware (RP2040)
 
-使用 `RP2040` MCU 的 EBB
+EBB use `RP2040` MCU
 
-## 构建固件
+## Build Firmware
 
-使用 ssh 连接到 Klipper Host. 然后使用以下命令进入 Klipper 目录。并且使用 `make menuconfig` 配置固件。
+Use SSH to connect to the Klipper host. Then use the following command to enter the Klipper directory, and run `make menuconfig` to configure the firmware.
 
 ``` shell
 cd ~/klipper
 make menuconfig 
 ```
 
-然后按照以下选项构建使用 `RP2040` 为 `MCU` 的 `EBB` 固件
+Then build the EBB firmware using `RP2040` as the `MCU` according to the following options.
 
 <img
     src={require('@site/docs/board-docs/ebb-series/img/ebb-g0b1-make-can.png').default}
     alt="EBB with RP2040 build config"
 />
 
-当配置完成使用 `q` 来退出。使用 `y` 来保存编译选项。
+After the configuration is complete, press `q` to exit and press `y` to save the build options.
 
-然后使用 `make` 命令来开始编译 Klipper 固件
+Then use the `make` command to start compiling the Klipper firmware.
 
 ``` shell
 make
 ```
 
-## 写入固件
+## Flash Firmware
 
-:::note USB 供电
-如果你在写入固件的时候使用 USB Type-C 接口进行供电。`VUSB` 跳线需要接上。
+:::note[Power via USB]
+If you are powering the board via the USB Type-C port when flashing the firmware, the `VUSB` jumper needs to be installed.
 :::
 
-当使用 Klipper 固件编译完成后。使用 USB Type-C 连接线连接到 Klipper Host 上。
+After the Klipper firmware has been compiled, use a USB Type-C cable to connect the EBB to the Klipper host.
 
-然后按住 `EBB` 的 `boot` 按钮。然后按一下 `reset` 然后松开 `boot` 按钮进入 `Boot` 模式。
+Then press and hold the `boot` button on the EBB, press the `reset` button once, and then release the `boot` button to enter `Boot` mode.
 
-然后可以使用 `lsusb` 命令来确认 `EBB` 是否在 `DFU` 模式中。
+After that, you can use the `lsusb` command to verify whether the EBB is in `DFU` mode.
 
-当确认 EBB 在 DFU 模式中后。可以使用以下命令来写入固件。
+Once you have confirmed that the EBB is in DFU mode, you can use the following command to flash the firmware.
 
 ``` shell
 make flash FLASH_DEVICE=2e8a:0003
