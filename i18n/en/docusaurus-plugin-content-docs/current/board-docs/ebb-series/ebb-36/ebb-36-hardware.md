@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# EBB 36 CAN 硬件功能
+# EBB 36 CAN Hardware 
 
 <!-- import lib start -->
 
@@ -11,11 +11,13 @@ import TabItem from '@theme/TabItem';
 
 <!-- import lib end -->
 
-:::info[固件支持]
-EBB 36 V1.0/V1.1/V1.2 目前只支持 Klipper 固件
+:::info[Firmware support]
+
+EBB 36 V1.0/V1.1/V1.2 currently only supports Klipper firmware
+
 :::
 
-## 外观尺寸
+## Dimensions
 
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
@@ -37,29 +39,29 @@ EBB 36 V1.0/V1.1/V1.2 目前只支持 Klipper 固件
     </TabItem>
 </Tabs>
 
-## 硬件功能配置
+## Hardware Function Configuration
 
-### USB 接口供电
+### USB Power
 
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
-        当 `EBB 36 v1.1 / v1.2` 通电的时候 LED1 才会亮起。`EBB 36` 右侧的 `VUSB` 是选择使用 USB 接口对 MCU 进行供电。
+        LED1 lights up only when `EBB 36 v1.1 / v1.2` is powered on. The `VUSB` on the right side of `EBB 36` is used to select USB interface power for the MCU.
         <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_USB_Power.png').default} width="450"/>
     </TabItem>
     <TabItem value="ebb-36-1_0" label="EBB 36 V1.0">
-        当 `EBB 36 v1.0` 通电的时候 `D1 LED` 才会亮起。`EBB 36` 上的 `VUSB` 是选择使用 USB 接口对 MCU 进行供电。
+        The `D1 LED` lights up only when `EBB 36 v1.0` is powered on. The `VUSB` on `EBB 36` is used to select USB interface power for the MCU.
         <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_USB_Power.png').default} width="450"/>
     </TabItem>
 </Tabs>
 
-## 硬件安装
+## Hardware Installation
 
-### NTC 100K 或 PT1000 
+### NTC 100K or PT1000
 
-不带 31865 的版本： 使用 100K NTC 热敏电阻时无需插入跳线帽，`TH0`上拉电阻值为 `4.7K`。使用 `PT1000` 时，需要使用跳线帽将两个引脚短接，如下图所示。此时，`TH0`上拉电阻值为`2.2K`。
+For versions without 31865: When using a 100K NTC thermistor, no jumper is needed, and the `TH0` pull-up resistor value is `4.7K`. When using a `PT1000`, a jumper must short the two pins as shown below. At this point, the `TH0` pull-up resistor value is `2.2K`.
 
-:::info[温度准确性]
-这样使用 `PT1000` 的温度准确性会比使用 `MAX31865` 低
+:::info[Temperature Accuracy]
+Using PT1000 in this way results in lower temperature accuracy compared to using `MAX31865`.
 :::
 
 <Tabs groupId="ebb-version">
@@ -87,7 +89,7 @@ EBB 36 V1.0/V1.1/V1.2 目前只支持 Klipper 固件
 </div>
 
 :::info
-MAX 31865 选择 PT100/PT1000 2线或4线配置
+MAX 31865 selects PT100/PT1000 2-wire or 4-wire configuration
 
 | 1   | 2   | 3   | 4   | Sensor Model  |
 | --- | --- | --- | --- | ------------- |
@@ -97,7 +99,7 @@ MAX 31865 选择 PT100/PT1000 2线或4线配置
 | OFF | OFF | OFF | ON  | 4 wire PT1000 |
 :::
 
-### BL-Touch 接线
+### BL-Touch wire
 
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
@@ -108,7 +110,7 @@ MAX 31865 选择 PT100/PT1000 2线或4线配置
     </TabItem>
 </Tabs>
 
-### 耗材传感器
+### Filament Sensor
 
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>

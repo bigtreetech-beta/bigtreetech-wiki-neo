@@ -1,9 +1,9 @@
 ---
 sidebar_position: 3
-description: EBB 2209 RP2040 Klipper 固件配置 
+description: EBB 2209 RP2040 Klipper Firmware Configuration 
 ---
 
-# EBB 2209 RP2040 固件配置
+# EBB 2209 RP2040 Firmware Configuration
 
 <!-- import lib start -->
 
@@ -12,11 +12,11 @@ import TabItem from '@theme/TabItem';
 
 <!-- import lib end -->
 
-## 写入 Klipper 固件
+## Flash Klipper Firmware
 
-写入 Klipper 固件参考 [EBB 系列固件 (RP2040)](../ebb-firmware-rp2040.md)
+For flashing the Klipper firmware, refer to [EBB Series Firmware (RP2040)](../ebb-firmware-rp2040.md)
 
-## Klipper 配置文件参考
+## Klipper Configuration File Reference
 
 ``` klipper_cfg title="printer.cfg"
 # This file contains common pin mappings for the BIGTREETECH EBBCan

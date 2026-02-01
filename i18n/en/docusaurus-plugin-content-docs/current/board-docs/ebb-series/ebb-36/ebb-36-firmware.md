@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# EBB 36 CAN 固件配置
+# EBB 36 CAN Firmware
 
 <!-- import lib start -->
 
@@ -11,15 +11,15 @@ import TabItem from '@theme/TabItem';
 
 <!-- import lib end -->
 
-:::info[固件支持]
-EBB 36 V1.0/V1.1/V1.2 目前只支持 Klipper 固件
+:::info[Firmware Support]
+EBB 36 V1.0/V1.1/V1.2 currently only supports Klipper firmware
 :::
 
-## 写入 Klipper 固件
+## Flashing Klipper Firmware
 
-EBB 36 v1.1 / v1.2 写入 Klipper 固件参考 [EBB 系列固件 (STM32G0B1)](../ebb-firmware-g0b1.md)
+For EBB 36 v1.1 / v1.2, refer to [EBB Series Firmware (STM32G0B1)](../ebb-firmware-g0b1.md) for flashing Klipper firmware.
 
-EBB 36 v1.0 写入 Klipper 固件参考 [EBB 系列固件 (STM32F072)](../ebb-firmware-f072.md)
+For EBB 36 v1.0, refer to [EBB Series Firmware (STM32F072)](../ebb-firmware-f072.md) for flashing Klipper firmware.
 
 ## Klipper 配置文件参考
 

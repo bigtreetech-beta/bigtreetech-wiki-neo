@@ -4,45 +4,45 @@ sidebar_position: 11
 
 # EBB Series Firmware (STM32F072)
 
-使用 `STM32F072` MCU 的 EBB
+EBB using the `STM32F072` MCU
 
-## 构建固件
+## Build Firmware
 
-使用 ssh 连接到 Klipper Host. 然后使用以下命令进入 Klipper 目录。并且使用 `make menuconfig` 配置固件。
+Use SSH to connect to the Klipper Host. Then use the following command to enter the Klipper directory, and use `make menuconfig` to configure the firmware.
 
 ``` shell
 cd ~/klipper
 make menuconfig 
 ```
 
-然后按照以下选项构建使用 `STM32F072` 为 `MCU` 的 `EBB` 固件
+Then build the `EBB` firmware using `STM32F072` as the `MCU` according to the following options.
 
 <img
-    src={require('@site/docs/board-docs/ebb-series/img/ebb-f072-make-can.png').default}
+    src={require('./img/ebb-f072-make-can.png').default}
     alt="EBB with f072 build config"
 />
 
-当配置完成使用 `q` 来退出。使用 `y` 来保存编译选项。
+After the configuration is complete, use `q` to exit. Use `y` to save the compilation options.
 
-然后使用 `make` 命令来开始编译 Klipper 固件
+Then use the `make` command to start compiling the Klipper firmware.
 
 ``` shell
 make
 ```
 
-## 写入固件
+## Flash Firmware
 
-:::note USB 供电
-如果你在写入固件的时候使用 USB Type-C 接口进行供电。`VUSB` 跳线需要接上。
+:::note USB Power Supply
+If you use the USB Type-C interface for power supply when flashing the firmware, the `VUSB` jumper needs to be connected.
 :::
 
-当使用 Klipper 固件编译完成后。使用 USB Type-C 连接线连接到 Klipper Host 上。
+After the Klipper firmware compilation is complete, use a USB Type-C cable to connect to the Klipper Host.
 
-然后按住 `EBB` 的 `boot` 按钮。然后按一下 `reset` 然后松开 `boot` 按钮进入 `DFU` 模式。
+Then press and hold the `boot` button on the `EBB`. Then press the `reset` button once and release the `boot` button to enter `DFU` mode.
 
-然后可以使用 `lsusb` 命令来确认 `EBB` 是否在 `DFU` 模式中。
+Then you can use the `lsusb` command to confirm whether the `EBB` is in `DFU` mode.
 
-当确认 EBB 在 DFU 模式中后。可以使用以下命令来写入固件。
+After confirming that the EBB is in DFU mode, you can use the following command to flash the firmware.
 
 ``` shell
 make flash FLASH_DEVICE=0483:df11

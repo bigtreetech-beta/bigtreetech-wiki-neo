@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-description: EBB 36 Gen 1 工具板
+description: EBB 36
 ---
 
-# EBB 36 Gen 1
+# EBB 36
 
-EBB 36 CAN 板说明文档
+EBB 36 CAN Board Documentation
 
 <!-- import lib start -->
 
@@ -16,28 +16,24 @@ import DocCardList from '@theme/DocCardList';
 <!-- import lib end -->
 
 <img
-    src={require('@site/docs/board-docs/ebb-series/ebb-36/img/ebb_36_title.png').default}
-    alt="ebb 36 title" width="550"
+src={require('@site/docs/board-docs/ebb-series/ebb-36/img/ebb_36_title.png').default}
+alt="ebb 36 title" width="550"
 />
 
-## 产品简介
+## Product Introduction
 
-BIGTREETECH EBB36 CAN V1.0/V1.1/v1.2 是一个用于简化工具头接线的工具头 CAN 板。EBB 36 可以通过 USB 端口或 CAN 总线进行通信，极大的简化了 3D 打印机工具头的接线和走线。
+BIGTREETECH EBB36 CAN V1.0/V1.1/V1.2 is a toolhead CAN board designed to simplify toolhead wiring. The EBB 36 can communicate via USB port or CAN bus, greatly simplifying 3D printer toolhead wiring and routing.
 
-:::info[固件支持]
-EBB 36 V1.0/V1.1/V1.2 目前只支持 Klipper 固件
-:::
+## Hardware Specifications
 
-## 硬件规格
-
-| EBB 36 CAN       | Specification                                                                          |
-| ---------------- | -------------------------------------------------------------------------------------- |
-| 外形尺寸         | 51.5mm x 37mm                                                                          |
-| MCU              | ARM Cortex-M0+STM32G0B1CBT6 64MHz (v1.1/v1.2) ARM Cortex-M0 STM32F072C8T6 48MHz (v1.0) |
-| 输入电压         | DC 12V - DC 24V 6A                                                                     |
-| 逻辑电压         | DC 3.3V                                                                                |
-| 热端加热接口     | 5A                                                                                     |
-| 板载加速度传感器 | ADXL345                                                                                |
-| 电机驱动         | TMC 2209                                                                               |
+| EBB 36 CAN            | Specification                                                                           |
+| --------------------- | --------------------------------------------------------------------------------------- |
+| Dimensions            | 51.5mm x 37mm                                                                           |
+| MCU                   | ARM Cortex-M0+ STM32G0B1CBT6 64MHz (v1.1/v1.2) ARM Cortex-M0 STM32F072C8T6 48MHz (v1.0) |
+| Input Voltage         | DC 12V - DC 24V 6A                                                                      |
+| Logic Voltage         | DC 3.3V                                                                                 |
+| Hotend Heating Port   | 5A                                                                                      |
+| Onboard Accelerometer | ADXL345                                                                                 |
+| Motor Driver          | TMC 2209                                                                                |
 
 <DocCardList />
