@@ -1,9 +1,9 @@
 ---
 sidebar_position: 10
-description: Manta 系列核心板系统写入
+description: Manta Series Core Board System Writing
 ---
 
-# Manta 系列核心板 Raspberry CM4/CM5
+# Manta Series Core Board Raspberry CM4/CM5
 
 <!-- import lib start -->
 
@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 
 <!-- import lib end -->
 
-### 在开始之前
+### Before Start 
 
 :::info[Raspberry Pi Imager]
 
@@ -20,7 +20,7 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-:::info[Raspberry Pi 系统]
+:::info[Raspberry Pi System]
 
 [software/operating-systems](https://www.raspberrypi.com/software/operating-systems/)
 
@@ -28,64 +28,64 @@ import TabItem from '@theme/TabItem';
 
 :::info[rpiboot]
 
-eMMC 版本需要这个工具来读写 eMMC
+The eMMC version requires this tool to read and write to eMMC.
 
 [rpiboot](https://github.com/raspberrypi/usbboot/tree/master/win32)
 :::
 
-### 写入系统
+### Flash System
 
 <Tabs groupId="cm-system-flash">
-    <TabItem value="sd-card" label="使用 SD 卡" default>
-        将 Micro SD 卡通过读卡器插入到电脑, 然后选择系统。
+    <TabItem value="sd-card" label="Use SD Card" default>
+        Insert the Micro SD card into the computer using a card reader, then select the system.
 
         <img src={require('@site/docs/board-docs/manta-series/img/cm-flash-1.png').default} width="65%"/>
 
-        选择 `Use custom` 然后选择下载到电脑中的镜像。
+        Select `Use custom`, then choose the image downloaded to the computer.
 
         <img src={require('@site/docs/board-docs/manta-series/img/cm-flash-2.png').default} width="65%"/>
 
-        选择需要写入的 Micro SD。然后写入系统镜像。
+        Select the Micro SD card to be written, then write the system image.
 
         :::warning
 
-        写入镜像会格式化 SD 卡内的所有数据。请在格式化前确保数据已备份。
+        Writing the image will format all data on the SD card. Please make sure your data is backed up before formatting.
 
         :::
 
         <img src={require('@site/docs/board-docs/manta-series/img/cm-flash-3.png').default} width="65%"/>
 
-        等待系统写入完成
+        Wait for the system writing to complete
         
         <img src={require('@site/docs/board-docs/manta-series/img/cm-flash-4.png').default} width="65%"/>
     </TabItem>
-    <TabItem value="emmc" label="使用 eMMC">
-        首先将开关的 3 `RPIBOOT` 和 4 `USBOTG` 调整到 `ON` 进入 BOOT 模式
+    <TabItem value="emmc" label="Use eMMC">
+        First, set switches 3 `RPIBOOT` and 4 `USBOTG` to `ON` to enter BOOT mode
 
-        然后将 Type-C 线连接到电脑。推荐使用外置 24V 电源进行供电。
+        Then connect the Type-C cable to the computer. It is recommended to use an external 24V power supply.
 
-        使用 `rpiboot` 让 Raspberry Pi 进入 BOOT 模式。这时候 eMMC 会被识别成大容量储存设备。
+        Use `rpiboot` to put the Raspberry Pi into BOOT mode. At this time, the eMMC will be recognized as a mass storage device.
         
-        然后使用 Raspberry Pi Imager 选择系统
+        Then use Raspberry Pi Imager to select the system
 
         <img src={require('@site/docs/board-docs/manta-series/img/cm-flash-1.png').default} width="65%"/>
 
-        选择 `Use custom` 然后选择下载到电脑中的镜像。
+        Select `Use custom`, then choose the image downloaded to the computer.
 
         <img src={require('@site/docs/board-docs/manta-series/img/cm-flash-2.png').default} width="65%"/>
 
-        选择需要写入的 eMMC 设备。然后写入系统镜像。
+        Select the eMMC device to be written, then write the system image.
 
         :::warning
 
-        写入镜像会格式化 eMMC 内的所有数据。请在格式化前确保数据已备份。
+        Writing the image will format all data on the eMMC. Please make sure your data is backed up before formatting.
 
         :::
 
         <img src={require('@site/docs/board-docs/manta-series/img/cm-flash-3.png').default} width="65%"/>
 
-        等待系统写入完成
-        
+        Wait for the system writing to complete
+
         <img src={require('@site/docs/board-docs/manta-series/img/cm-flash-4.png').default} width="65%"/>
     </TabItem>
 </Tabs>
