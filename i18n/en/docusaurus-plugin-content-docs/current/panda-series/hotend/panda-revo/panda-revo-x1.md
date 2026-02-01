@@ -1,0 +1,188 @@
+# Panda Revo X1 Hotend
+
+<div class="div-table">
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_Title.webp').default} width="40%" class="right-image"/>
+
+## **Product Profile**
+
+The Panda Revo, co-developed with E3D, features tool-free, 30-second nozzle changes and a Revo™ HF nozzle for blazing flow rates up to 40mm³/s, along with a powerful 60W HeaterCore. Perfectly compatible with Bambu Lab's X1 printers. Elevate your printing experience!
+
+## **Features Highlights**
+
+- Co-developed with E3D, integrated E3D RapidChange Revo™ Ecosystem, compatible with all Revo™ nozzles except the Revo™ Belt Nozzle.
+- 60W HeaterCore with NTC100k thermistor, custom-made by E3D, to satisfy the power requirement for high-speed high-flow printing.
+- Comes with a 0.4mm Revo™ High Flow nozzle, ultra high flow.
+- 30s rapid nozzle change with bare hands.
+- Replaceable nozzle, no need to replace the entire hotend.
+- Compatible with X1 series printer from Bambu Lab.
+
+</div>
+
+:::warning
+
+During use and cooldown, there is a potential to burn your hands.
+
+Your HotEnd and printer are your responsibility. We cannot be held responsible for damages caused by our products use, misuse or abuse.
+
+Revo nozzles are to be fastened by hand without the use of tools，make sure the nozzle is fully tightened before starting a print
+
+Revo Nozzles must be fastened at room temperature to avoid burn injuries.
+
+:::
+
+## **Specifications**
+
+| Length                  | 47.3mm                  |
+| ----------------------- | ----------------------- |
+| **Package Dimension**   | **95x66x28mm**          |
+| **Maximum Temperature** | **300℃**                |
+| **Maximum Flow Rate**   | **40mm³/s**             |
+| **Nozzle Material**     | **Brass**               |
+| **Nozzle Diameter**     | **0.4mm**               |
+| **Nozzle Model**        | **E3D Revo™ High Flow** |
+| **Heater Voltage**      | **24V**                 |
+| **Heater Power**        | **60W**                 |
+| **Thermistor**          | **NTC100k**             |
+| **Compatibility**       | **Bambu Lab X1C**       |
+
+| Packing List                                         | Qty   |
+| ---------------------------------------------------- | ----- |
+| **Heatsink**                                         | **1** |
+| **HeaterCore Assembly For X1(With Spring and Sock)** | **1** |
+| **0.4mm Revo™ High Flow Nozzle**                     | **1** |
+| **BIQU X E3D Sticker**                               | **1** |
+
+:::info[3D Model]
+
+https://github.com/bigtreetech/Panda_Revo/tree/master/3D
+
+:::
+
+### Installation Video Tutorial For X1
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OCwElVVaNM4?si=Ruw3254ZWJbgP8c_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Complete Hotend Assembly
+
+(Cooling fan not included) for X1 Series Printer.
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In1.webp').default} width="80%"/>
+
+The image displays the "Complete Hotend Assembly" for the X1 Series Printer, with the cooling fan excluded for reference in subsequent assembly.
+
+:::warning
+
+Before performing any maintenance on the printer or its electronics, always power off and disconnect the printer to prevent short circuits and potential damage. This is especially important when disassembling parts like the hotend, as exposed wires and components can cause electrical damage if the printer is on. For any concerns or questions, contact our support team for assistance.
+
+:::
+
+### Tools and Parts Needed
+
+- H2.0 Hex Key
+- Stock Hotend Cooling Fan
+- Stock Mounting Screws(for heatsink and cooling fan)
+
+### Preparation
+
+Cut the filament manually with the cutter lever and ensure the nozzle temperature has cooled to below 50℃ and the power to the printer is turned off.
+
+### Disassembly
+
+**Step 1 - Remove the Front Housing**
+
+Remove the front housing assembly completely by disconnecting the fan connector.
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In2.webp').default} width="80%"/>
+
+**Step 2 - Disconnect Cables**
+
+:::note
+
+Before attempting to disconnect the thermistor connector on the X1/X1C, please ensure that you press the buckle/latch to open it. The thermistor plug is equipped with a buckle/latch, which is different from the fan and heater connectors. Neglecting to open the buckle/latch before disconnecting the thermistor connector could result in damage to the thermistor plug and/or the PCB connector.
+
+:::
+
+Disconnect the hotend fan and the heater connectors from the board, and remove the wires by sliding them out of the clip shown in the image below (indicated by a red arrow).  
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In3.webp').default} width="80%"/>
+
+**Step 3 - Remove Hotend Assembly**
+
+Remove the 2 screws with the H2.0 hex key, then proceed to remove the hotend assembly by gently pulling downwards. 
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In4.webp').default} width="80%"/>
+
+**Step 4 – Transfer the Heatsink Fan**
+
+Loosen the two screws holding the fan to remove the heatsink fan.
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In5.webp').default} width="80%"/>
+
+And install it onto your brand new Panda Revo.
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In6.webp').default} width="80%"/>
+
+Make sure you position the cable in the cable guide channel according to the picture with the flat face of the HeaterCore socks parallel to the side of the heatsink.
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In7.webp').default} width="80%"/>
+
+The images below show the "Complete Hotend Assembly" for your reference.
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In8.webp').default} width="80%"/>
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In9.webp').default} width="80%"/>
+
+### Assembly 
+
+**Step 1 - Install the Panda Revo Hotend Assembly**
+
+Insert the Panda Revo hotend assembly into the extruder and tighten the 2 screws. 
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In10.webp').default} width="80%"/>
+
+:::warning
+
+Make sure to securely tighten the hotend screws using an H2.0 hex key, and avoid over-tightening.
+
+:::
+
+**Step 2 - Connect the Hotend Cables**
+
+Tuck in the heater cable wires back into the clip
+Connect the very small 2-pin thermistor plug, the 4-pin hotend cooling fan plug, and finally, the larger 2-pin ceramic heater plug.
+Tuck the wires back into the clip.
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In11.webp').default} width="80%"/>
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In12.webp').default} width="80%"/>
+
+**Step 3 - Install the Front Housing**
+
+Connect the housing assembly by reconnecting the fan connector onto the front housing, then close the front housing assembly cover.
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In13.webp').default} width="80%"/>
+
+## How to Verify
+
+Power on the printer and run the device’s **Calibration** process. If the process passes, it means the operation has been successful.
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In14.webp').default} width="80%"/>
+
+## Slicer Settings
+
+**Nozzle Size Parameter**
+
+Please find more detailed slicer setting guide here:
+https://e3d-online.zendesk.com/hc/en-us/articles/4777443097757-Filament-Starter-Settings
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_Nozzle.webp').default} width="80%"/>
+
+Click the "Edit Icon" and enter your filament settings. 
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In15.webp').default} width="80%"/>
+
+Change the "Max volumetric speed" under "Filament" to around 35-40, depending on the filament you are using. 
+If you observe signs of under-extrusion, lower this number until print quality is restored.
+
+<img src={require('@site/docs/panda-series/hotend/panda-revo/img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In16.webp').default} width="80%"/>
