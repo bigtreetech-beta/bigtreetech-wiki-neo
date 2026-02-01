@@ -162,5 +162,53 @@
   "sidebar.moduleSidebar.category.Display.link.generated-index.description": {
     "message": "display",
     "description": "The generated-index page description for category 'Display' in sidebar 'moduleSidebar'"
+  },
+  "sidebar.boardSidebar.category.EBB 36": {
+    "message": "EBB 36",
+    "description": "The label for category 'EBB 36' in sidebar 'boardSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Series Extruders": {
+    "message": "Panda Series Extruders",
+    "description": "The label for category 'Panda Series Extruders' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Series Extruders.link.generated-index.description": {
+    "message": "Panda Series Extruders",
+    "description": "The generated-index page description for category 'Panda Series Extruders' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Series Hotend": {
+    "message": "Panda Series Hotend",
+    "description": "The label for category 'Panda Series Hotend' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Series Hotend.link.generated-index.description": {
+    "message": "Panda Series Hotend",
+    "description": "The generated-index page description for category 'Panda Series Hotend' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Revo": {
+    "message": "Panda Revo",
+    "description": "The label for category 'Panda Revo' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Revo.link.generated-index.description": {
+    "message": "Panda Revo",
+    "description": "The generated-index page description for category 'Panda Revo' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Series Module": {
+    "message": "Panda Series Module",
+    "description": "The label for category 'Panda Series Module' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Series Module.link.generated-index.description": {
+    "message": "Panda Series Module",
+    "description": "The generated-index page description for category 'Panda Series Module' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Touch": {
+    "message": "Panda Touch",
+    "description": "The label for category 'Panda Touch' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Touch expansion module": {
+    "message": "Panda Touch expansion module",
+    "description": "The label for category 'Panda Touch expansion module' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Touch expansion module.link.generated-index.description": {
+    "message": "Panda Touch expansion module",
+    "description": "The generated-index page description for category 'Panda Touch expansion module' in sidebar 'pandaSidebar'"
   }
 }
