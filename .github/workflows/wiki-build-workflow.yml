@@ -30,7 +30,8 @@ jobs:
     # to cloudflare R2
     - name: Install rclone
       run: |
-        curl https://rclone.org/install.sh | sudo bash
+        sudo apt update
+        sudo apt install -y rclone
 
     - name: Configure rclone (Cloudflare R2 only)
       run: |
