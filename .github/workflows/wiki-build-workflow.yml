@@ -27,16 +27,28 @@ jobs:
     - name: build wiki 
       run: yarn run build
 
-    - name: upload to cloudflare r2
-      uses: ryand56/r2-upload-action@latest
-      with:
-        r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
-        r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-        r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-        r2-bucket: ${{ secrets.R2_BUCKET }}
-        source-dir: build
-        destination-dir: ./
+    # to cloudflare R2
+    - name: Install rclone
+      run: |
+        curl https://rclone.org/install.sh | sudo bash
 
+    - name: Configure rclone (Cloudflare R2 only)
+      run: |
+        rclone config create r2 s3 \
+          provider=Cloudflare \
+          access_key_id=${{ secrets.R2_ACCESS_KEY_ID }} \
+          secret_access_key=${{ secrets.R2_SECRET_ACCESS_KEY }} \
+          endpoint=https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+
+    - name: Copy build to Cloudflare R2
+      run: |
+        rclone copy build r2:${{ secrets.R2_BUCKET }} \
+          --fast-list \
+          --checkers=32 \
+          --transfers=16 \
+          --progress
+
+    # to aliyun oss 
     - name: setup aliyun oss
       uses: manyuanrong/setup-ossutil@master
       with:
