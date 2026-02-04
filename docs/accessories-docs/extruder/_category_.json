@@ -1,0 +1,8 @@
+{
+  "label": "Extruder",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Extruder"
+  }
+}

@@ -24,16 +24,16 @@ const FeatureList: FeatureItem[] = [
   {
     title: <Translate>Extruder</Translate>,
     prod_img: require('@site/static/img/h2-v2x.webp').default,
-    url: 'docs/extruder',
+    url: 'docs/category/extruder',
     description: (
       <>
       </>
     ),
   },
   {
-    title: <Translate>Module</Translate>,
+    title: <Translate>Sensor</Translate>,
     prod_img: require('@site/static/img/lis2dw-main.webp').default,
-    url: 'docs/module',
+    url: 'docs/category/sensor',
     description: (
       <>
       </>
