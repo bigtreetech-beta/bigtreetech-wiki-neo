@@ -191,13 +191,10 @@ const config: Config = {
               to: '/docs/intro',
             },
             {
-              label: 'Extruder',
-              to: '/docs/extruder',
+              label: 'Accessories',
+              to: '/docs/accessories',
             },
-            {
-              label: 'Module',
-              to: '/docs/module',
-            },
+
           ],
         },
         {
