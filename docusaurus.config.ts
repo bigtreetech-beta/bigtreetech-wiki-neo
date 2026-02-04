@@ -144,19 +144,12 @@ const config: Config = {
           position: 'left',
           label: 'Board',
         },
-        
-        {
-          type: 'docSidebar',
-          sidebarId: 'extruderSidebar',
-          position: 'left',
-          label: 'Extruder',
-        },
 
         {
           type: 'docSidebar',
-          sidebarId: 'moduleSidebar',
+          sidebarId: 'accessoriesSidebar',
           position: 'left',
-          label: 'Module',
+          label: 'Accessories',
         },
 
         {
