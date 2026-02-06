@@ -94,13 +94,6 @@ const config: Config = {
     ],
   ],
 
-  stylesheets: [
-    {
-      href: '/katex/katex.min.css',
-      type: 'text/css',
-    },
-  ],
-
   themes: [
     // ... Your other themes.
     [
