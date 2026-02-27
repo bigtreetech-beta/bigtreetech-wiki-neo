@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 
 <div class="div-table">
 
-<img 
+<ImageView 
     src={require('./img/adxl-main.png').default} 
     width="45%" class="right-image"
 />

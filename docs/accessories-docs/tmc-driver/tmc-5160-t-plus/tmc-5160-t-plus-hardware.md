@@ -22,7 +22,7 @@ TMC 5160 T Plus 建模参考文件 [bigtreetech/BIGTREETECH-Stepper-Motor-Driver
 
 ## 接口和功能
 
-<img
+<ImageView
     src={require('./img/TMC5160TPlus_Pin.png').default}
     alt="" width="60%"
 />
@@ -35,7 +35,7 @@ TMC 5160 T Plus 建模参考文件 [bigtreetech/BIGTREETECH-Stepper-Motor-Driver
 TMC 驱动转换模块只支持 24V
 :::
 
-<img
+<ImageView
     src={require('./img/TMC5160TPlus_Ins1.png').default}
     alt="" width="60%"
 />
@@ -46,7 +46,7 @@ TMC 驱动转换模块只支持 24V
 EZ 驱动转换模块只支持 24V
 :::
 
-<img
+<ImageView
     src={require('./img/TMC5160TPlus_Ins2.png').default}
     alt="" width="60%"
 />

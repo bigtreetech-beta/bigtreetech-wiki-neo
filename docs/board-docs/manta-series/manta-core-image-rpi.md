@@ -39,11 +39,11 @@ eMMC 版本需要这个工具来读写 eMMC
     <TabItem value="sd-card" label="使用 SD 卡" default>
         将 Micro SD 卡通过读卡器插入到电脑, 然后选择系统。
 
-        <img src={require('./img/cm-flash-1.png').default} width="65%"/>
+        <ImageView src={require('./img/cm-flash-1.png').default} width="65%"/>
 
         选择 `Use custom` 然后选择下载到电脑中的镜像。
 
-        <img src={require('./img/cm-flash-2.png').default} width="65%"/>
+        <ImageView src={require('./img/cm-flash-2.png').default} width="65%"/>
 
         选择需要写入的 Micro SD。然后写入系统镜像。
 
@@ -53,11 +53,11 @@ eMMC 版本需要这个工具来读写 eMMC
 
         :::
 
-        <img src={require('./img/cm-flash-3.png').default} width="65%"/>
+        <ImageView src={require('./img/cm-flash-3.png').default} width="65%"/>
 
         等待系统写入完成
         
-        <img src={require('./img/cm-flash-4.png').default} width="65%"/>
+        <ImageView src={require('./img/cm-flash-4.png').default} width="65%"/>
     </TabItem>
     <TabItem value="emmc" label="使用 eMMC">
         首先将开关的 3 `RPIBOOT` 和 4 `USBOTG` 调整到 `ON` 进入 BOOT 模式
@@ -68,11 +68,11 @@ eMMC 版本需要这个工具来读写 eMMC
         
         然后使用 Raspberry Pi Imager 选择系统
 
-        <img src={require('./img/cm-flash-1.png').default} width="65%"/>
+        <ImageView src={require('./img/cm-flash-1.png').default} width="65%"/>
 
         选择 `Use custom` 然后选择下载到电脑中的镜像。
 
-        <img src={require('./img/cm-flash-2.png').default} width="65%"/>
+        <ImageView src={require('./img/cm-flash-2.png').default} width="65%"/>
 
         选择需要写入的 eMMC 设备。然后写入系统镜像。
 
@@ -82,10 +82,10 @@ eMMC 版本需要这个工具来读写 eMMC
 
         :::
 
-        <img src={require('./img/cm-flash-3.png').default} width="65%"/>
+        <ImageView src={require('./img/cm-flash-3.png').default} width="65%"/>
 
         等待系统写入完成
         
-        <img src={require('./img/cm-flash-4.png').default} width="65%"/>
+        <ImageView src={require('./img/cm-flash-4.png').default} width="65%"/>
     </TabItem>
 </Tabs>

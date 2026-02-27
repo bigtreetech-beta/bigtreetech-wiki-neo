@@ -25,14 +25,14 @@ make menuconfig
 <Tabs groupId="octopus-make-connect">
     <TabItem value="bridge" label="CAN 桥接固件" default>
         按照以下选项构建使用 `STM32H723` 为 `MCU` 的 `Octopus` CAN 桥接固件
-        <img
+        <ImageView
             src={require('@site/docs/board-docs/octopus-series/img/octopus-h723-make-bridge.png').default}
             alt="octopus with h723 bridge"
         />
     </TabItem>
     <TabItem value="usb" label="USB 串口固件">
         按照以下选项构建使用 `STM32H723` 为 `MCU` 的 `Octopus` USB 串口固件
-        <img
+        <ImageView
             src={require('@site/docs/board-docs/octopus-series/img/octopus-h723-make-usb.png').default}
             alt="octopus with h723 usb"
         />

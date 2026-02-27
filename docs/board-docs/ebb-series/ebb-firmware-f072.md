@@ -17,7 +17,7 @@ make menuconfig
 
 然后按照以下选项构建使用 `STM32F072` 为 `MCU` 的 `EBB` 固件
 
-<img
+<ImageView
     src={require('./img/ebb-f072-make-can.png').default}
     alt="EBB with f072 build config"
 />

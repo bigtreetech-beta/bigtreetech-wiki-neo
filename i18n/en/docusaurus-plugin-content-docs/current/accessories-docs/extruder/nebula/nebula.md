@@ -15,7 +15,7 @@ import DocCardList from '@theme/DocCardList';
 
 <div class="div-table">
 
-<img
+<ImageView
   src={require('@site/docs/accessories-docs/extruder/nebula/img/nebula_title.png').default}
   alt="nebula" width="35%" class="right-image" 
 />

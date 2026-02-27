@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 
 <div class="div-table">
 
-<img src={require('./img/TFT43_DIP_Title.png').default} width="45%" class="right-image"/>
+<ImageView src={require('./img/TFT43_DIP_Title.png').default} width="45%" class="right-image"/>
 
 ## 产品简介
 

@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 
 <div class="div-table">
 
-<img
+<ImageView
     src={require('@site/docs/accessories-docs/tmc-driver/tmc-5160-t-pro/img/tmc-5160-t-pro-title.png').default}
     alt="" width="35%" class="right-image"
 />
@@ -38,7 +38,7 @@ import TabItem from '@theme/TabItem';
 TMC 5160 T Pro 原理图 [BIGTREETECH TMC5160T_Pro-SCH.pdf](https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC5160(T)%20Pro%20V1.1/Hardware/BIGTREETECH%20TMC5160T_Pro-SCH.pdf)
 :::
 
-<img
+<ImageView
     src={require('@site/docs/accessories-docs/tmc-driver/tmc-5160-t-pro/img/tmc-5160-t-pro-pinout.png').default}
     alt="" width="45%"
 />
@@ -52,7 +52,7 @@ TMC 5160 T Pro 模型 [TMC5160_Pro V1.1.step](https://github.com/bigtreetech/BIG
 
 :::
 
-<img
+<ImageView
     src={require('@site/docs/accessories-docs/tmc-driver/tmc-5160-t-pro/img/tmc-5160-t-pro-size.png').default}
     alt="" width="45%"
 />

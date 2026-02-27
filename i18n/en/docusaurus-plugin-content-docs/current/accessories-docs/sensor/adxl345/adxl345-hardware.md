@@ -24,14 +24,14 @@ import ThemedImage from '@theme/ThemedImage';
 
 ## Pinout
 
-<img src={require('@site/docs/accessories-docs/sensor/adxl345/img/adxl-pinout.png').default} width="60%"/>
+<ImageView src={require('@site/docs/accessories-docs/sensor/adxl345/img/adxl-pinout.png').default} width="60%"/>
 
 ## 连接 Klipper Host
 
 ### 使用 PI2 / Raspberry Pi
 
-<img src={require('@site/docs/accessories-docs/sensor/adxl345/img/adxl-connect-rpi.png').default} width="60%"/>
+<ImageView src={require('@site/docs/accessories-docs/sensor/adxl345/img/adxl-connect-rpi.png').default} width="60%"/>
 
 ### 使用 USB 连接 Manta M8P / Manta M5P / Manta M4P
 
-<img src={require('@site/docs/accessories-docs/sensor/adxl345/img/adxl-connect-manta-usb.png').default} width="60%"/>
+<ImageView src={require('@site/docs/accessories-docs/sensor/adxl345/img/adxl-connect-manta-usb.png').default} width="60%"/>

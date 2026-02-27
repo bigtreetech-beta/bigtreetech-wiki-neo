@@ -15,7 +15,7 @@ import DocCardList from '@theme/DocCardList';
 
 <div class="div-table">
 
-<img
+<ImageView
     src={require('@site/docs/accessories-docs/tmc-driver/tmc-5160-t-plus/img/TMC5160TPlus_Title.png').default}
     alt="" width="35%" class="right-image"
 />

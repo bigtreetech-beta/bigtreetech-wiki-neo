@@ -15,7 +15,7 @@ import DocCardList from '@theme/DocCardList';
 
 <div class="div-table">
 
-<img
+<ImageView
   src={require('./img/h2-v2x-title.png').default}
   alt="h2 v2x" width="35%" class="right-image" 
 />

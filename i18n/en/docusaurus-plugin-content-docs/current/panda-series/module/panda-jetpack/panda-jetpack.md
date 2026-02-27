@@ -2,7 +2,7 @@
 
 <div class="div-table">
 
-<img src={require('@site/docs/panda-series/module/panda-jetpack/img/Panda_Jetpack_title.webp').default} width="40%" class="right-image"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-jetpack/img/Panda_Jetpack_title.webp').default} width="40%" class="right-image"/>
 
 ## **Introduction**
 
@@ -31,32 +31,32 @@ The BIQU Panda Jetpack is a lightweight printhead upgrade solution designed for 
 
 Panda Jetpack, Small Hex Keys H1.5 and H2.0, as shown in the image below.
 
-<img src={require('@site/docs/panda-series/module/panda-jetpack/img/Panda_Jetpack_Installation1.webp').default} width="600"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-jetpack/img/Panda_Jetpack_Installation1.webp').default} width="600"/>
 
 **Assembly of P1** 
 
 1. Turn off the printer and remove the outer casing. Disconnect the fan connector (as indicated by the red circle).
 
-<img src={require('@site/docs/panda-series/module/panda-jetpack/img/Panda_Jetpack_Installation2.webp').default} width="600"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-jetpack/img/Panda_Jetpack_Installation2.webp').default} width="600"/>
 
 2. Use the H2.0 hex key to remove the fan, then install it inside the Panda Jetpack. Secure the screws.
 
-<img src={require('@site/docs/panda-series/module/panda-jetpack/img/Panda_Jetpack_Installation3.webp').default} width="600"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-jetpack/img/Panda_Jetpack_Installation3.webp').default} width="600"/>
 
 3. Reconnect the fan connector to finish the assembly.
 
-<img src={require('@site/docs/panda-series/module/panda-jetpack/img/Panda_Jetpack_Installation4.webp').default} width="600"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-jetpack/img/Panda_Jetpack_Installation4.webp').default} width="600"/>
 
 **Assembly of X1**
 
 1. Turn off the printer and remove the outer casing. Disconnect the fan connector (as indicated by the red circle).
 
-<img src={require('@site/docs/panda-series/module/panda-jetpack/img/Panda_Jetpack_Installation5.webp').default} width="600"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-jetpack/img/Panda_Jetpack_Installation5.webp').default} width="600"/>
 
 2. Loosen the screws that secure the original light board and fan. Place the fan and light board inside the Panda Jetpack, then secure the screws.
 
-<img src={require('@site/docs/panda-series/module/panda-jetpack/img/Panda_Jetpack_Installation6.webp').default} width="600"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-jetpack/img/Panda_Jetpack_Installation6.webp').default} width="600"/>
 
 3. Reconnect the light board connector to complete the assembly.
 
-<img src={require('@site/docs/panda-series/module/panda-jetpack/img/Panda_Jetpack_Installation7.webp').default} width="600"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-jetpack/img/Panda_Jetpack_Installation7.webp').default} width="600"/>

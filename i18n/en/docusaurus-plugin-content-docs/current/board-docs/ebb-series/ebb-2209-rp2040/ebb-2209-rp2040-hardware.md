@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 
 ## Pin Diagram
 
-<img src={require('@site/docs/board-docs/ebb-series/ebb-2209-rp2040/img/ebb-2209-rp2040-pinout.png').default} width="70%"/>
+<ImageView src={require('@site/docs/board-docs/ebb-series/ebb-2209-rp2040/img/ebb-2209-rp2040-pinout.png').default} width="70%"/>
 
 ## Hardware Functions
 

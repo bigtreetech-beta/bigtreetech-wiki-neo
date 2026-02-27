@@ -32,7 +32,7 @@ EVA3 适配件 [bigtreetech/Nebula/3D Model/EVA3](https://github.com/bigtreetech
 
 XYZ 尺寸: $52.73 mm * 36.5 mm * 54.82 mm$
 
-<img
+<ImageView
     src={require('@site/docs/accessories-docs/extruder/nebula/img/nebula_dimensions.png').default}
     alt="nebula" width="60%"
 />
@@ -44,7 +44,7 @@ XYZ 尺寸: $52.73 mm * 36.5 mm * 54.82 mm$
 :::
 
 <div class="div-table">
-    <img
+    <ImageView
     src={require('@site/docs/accessories-docs/extruder/nebula/img/nebula_adjusting.png').default}
     alt="nebula" width="35%" class="right-image"
     />
@@ -54,7 +54,7 @@ XYZ 尺寸: $52.73 mm * 36.5 mm * 54.82 mm$
 ## Nebula Pin 
 
 <div class="div-table">
-    <img
+    <ImageView
         src={require('@site/docs/accessories-docs/extruder/nebula/img/nebula_pin.png').default}
         alt="nebula" width="60%" class="right-image"
     />
@@ -73,7 +73,7 @@ XYZ 尺寸: $52.73 mm * 36.5 mm * 54.82 mm$
 ## Nebula 电机规格
 
 <div class="div-table">
-    <img
+    <ImageView
         src={require('@site/docs/accessories-docs/extruder/nebula/img/nebula_motor.png').default}
         alt="nebula" width="60%" class="right-image"
     />

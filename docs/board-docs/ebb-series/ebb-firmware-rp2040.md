@@ -17,7 +17,7 @@ make menuconfig
 
 然后按照以下选项构建使用 `RP2040` 为 `MCU` 的 `EBB` 固件
 
-<img
+<ImageView
     src={require('./img/ebb-g0b1-make-can.png').default}
     alt="EBB with RP2040 build config"
 />

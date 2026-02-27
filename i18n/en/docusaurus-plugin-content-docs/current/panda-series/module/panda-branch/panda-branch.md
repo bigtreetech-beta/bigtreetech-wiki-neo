@@ -2,7 +2,7 @@
 
 <div class="div-table">
 
-<img src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Title.webp').default} width="40%" class="right-image"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Title.webp').default} width="40%" class="right-image"/>
 
 ## **Product Profile**
 
@@ -28,20 +28,20 @@ The BIGTREETECH Panda Branch V1.0 is a power expansion board designed for X1/P1/
 
 ## **Dimensions**
 
-<img src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Dimensions.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Dimensions.webp').default} width="80%"/>
 
 ## **Interface**
 
 ### Interface Diagram
 
-<img src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Interface1.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Interface1.webp').default} width="80%"/>
 
 ### Pin Description
 
-<img src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Pin.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Pin.webp').default} width="80%"/>
 
 ### Connection Diagram
 
 **Panda Branch + Panda Touch + AMS/AMS Lite + 3D Printer**
 
-<img src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Diagram1.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Diagram1.webp').default} width="80%"/>

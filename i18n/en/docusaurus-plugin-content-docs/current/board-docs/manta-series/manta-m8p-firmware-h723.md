@@ -25,14 +25,14 @@ make menuconfig
 <Tabs groupId="m8p-v2-make-connect">
     <TabItem value="bridge" label="CAN 桥接固件" default>
         按照以下选项构建使用 `STM32H723` 为 `MCU` 的 `Manta M8P` CAN 桥接固件
-        <img
+        <ImageView
             src={require('@site/docs/board-docs/manta-series/img/manta-h723-make-bridge.png').default}
             alt="manta m8p with h723 bridge"
         />
     </TabItem>
     <TabItem value="usb" label="USB 串口固件">
         按照以下选项构建使用 `STM32H723` 为 `MCU` 的 `Manta M8P` USB 串口固件
-        <img
+        <ImageView
             src={require('@site/docs/board-docs/manta-series/img/manta-h723-make-usb.png').default}
             alt="manta m8p with h723 usb"
         />

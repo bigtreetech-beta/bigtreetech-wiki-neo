@@ -13,15 +13,15 @@ import TabItem from '@theme/TabItem';
 
 ## **产品尺寸及接口**
 
-<img src={require('./img/Eddy_Dimensions.png').default} alt="" width="600" />
+<ImageView src={require('./img/Eddy_Dimensions.png').default} alt="" width="600" />
 
 用于计算 XY 偏移的线圈中心点如下：
 
-<img src={require('./img/Eddy_Dimensions1.png').default} alt="" width="600" />
+<ImageView src={require('./img/Eddy_Dimensions1.png').default} alt="" width="600" />
 
 ## **BOOT 按键位置**
 
-<img src={require('./img/eddy_boot_1.png').default} alt="" width="600" />
+<ImageView src={require('./img/eddy_boot_1.png').default} alt="" width="600" />
 
 BOOT 按钮在首次对 Eddy 烧录 Klipper 固件时使用；之后 Klipper 可以自动进入BOOT 模式并重新烧录固件。
 
@@ -41,9 +41,9 @@ BOOT 按钮在首次对 Eddy 烧录 Klipper 固件时使用；之后 Klipper 可
 安装位置，完全替代原有 PL-08N 安装位
 使用两颗 M3*25 螺丝（包装内附）将模块固定再 X Carriage 打印件上，如视图
 
-<img src={require('./img/Eddy_Installation1.png').default} alt="" width="600" />
+<ImageView src={require('./img/Eddy_Installation1.png').default} alt="" width="600" />
 
-<img src={require('./img/Eddy_Installation2.png').default} alt="" width="600" />
+<ImageView src={require('./img/Eddy_Installation2.png').default} alt="" width="600" />
 
 ### 在其他机器上的安装
 
@@ -51,56 +51,56 @@ BOOT 按钮在首次对 Eddy 烧录 Klipper 固件时使用；之后 Klipper 可
 
 ### Eddy + Manta M5P
 
-<img src={require('./img/Eddy_Connection.png').default} alt="" width="600" />
+<ImageView src={require('./img/Eddy_Connection.png').default} alt="" width="600" />
 
 ### Eddy + Manta M8P V2.0
 
-<img src={require('./img/Eddy_Connection1.png').default} alt="" width="600" />
+<ImageView src={require('./img/Eddy_Connection1.png').default} alt="" width="600" />
 
 ### Eddy Coil + EBB36 V1.2
 
-<img src={require('./img/Eddy_Connection2.png').default} alt="" width="600" />
+<ImageView src={require('./img/Eddy_Connection2.png').default} alt="" width="600" />
 
 ### Eddy Coil + EBB42 V1.2
 
-<img src={require('./img/Eddy_Connection3.png').default} alt="" width="600" />
+<ImageView src={require('./img/Eddy_Connection3.png').default} alt="" width="600" />
 
 ### Eddy Duo + MANTA M5P（USB）
 
-<img src={require('./img/eddy_connection4.png').default} alt="" width="600" />
+<ImageView src={require('./img/eddy_connection4.png').default} alt="" width="600" />
 
 ### Eddy Duo + MANTA M8P V2.0（USB）
 
-<img src={require('./img/eddy_connection6.png').default} alt="" width="600" />
+<ImageView src={require('./img/eddy_connection6.png').default} alt="" width="600" />
 
 ### Eddy Duo + MANTA M8P V2.0（CAN）
 
-<img src={require('./img/eddy_connection7.png').default} alt="" width="600" />
+<ImageView src={require('./img/eddy_connection7.png').default} alt="" width="600" />
 
 ### Eddy Duo + EBB36
 
-<img src={require('./img/eddy_connection8.png').default} alt="" width="600" />
+<ImageView src={require('./img/eddy_connection8.png').default} alt="" width="600" />
 
 ### Eddy Duo + EBB42
 
-<img src={require('./img/eddy_connection9.png').default} alt="" width="600" />
+<ImageView src={require('./img/eddy_connection9.png').default} alt="" width="600" />
 
 ### Eddy Duo + EBB SB
 
-<img src={require('./img/eddy_connection10.png').default} alt="" width="600" />
+<ImageView src={require('./img/eddy_connection10.png').default} alt="" width="600" />
 
 ### Octopus V1.1/Pro V1.0/Pro V1.0.1 + Eddy Duo（USB）
 
-<img src={require('./img/eddy_connection11.png').default} alt="" width="600" />
+<ImageView src={require('./img/eddy_connection11.png').default} alt="" width="600" />
 
 ### Octopus V1.1/Pro V1.0/Pro V1.0.1 + Eddy Duo（CAN）
 
-<img src={require('./img/eddy_connection12.png').default} alt="" width="600" />
+<ImageView src={require('./img/eddy_connection12.png').default} alt="" width="600" />
 
 ### Octopus Pro V1.1 + Eddy Duo（USB）
 
-<img src={require('./img/eddy_connection13.png').default} alt="" width="600" />
+<ImageView src={require('./img/eddy_connection13.png').default} alt="" width="600" />
 
 ### Octopus Pro V1.1 + Eddy Duo（CAN）
 
-<img src={require('./img/eddy_connection14.png').default} alt="" width="600" />
+<ImageView src={require('./img/eddy_connection14.png').default} alt="" width="600" />

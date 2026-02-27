@@ -34,4 +34,4 @@ Terminator 工具头 [Microprobe Bracket for Terminator](https://github.com/bigt
 
 ## 硬件连接
 
-<img src={require('./img/microprobe-connect.png').default} width="50%"/>
+<ImageView src={require('./img/microprobe-connect.png').default} width="50%"/>

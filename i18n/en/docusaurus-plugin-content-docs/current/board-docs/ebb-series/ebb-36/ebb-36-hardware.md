@@ -21,10 +21,10 @@ EBB 36 V1.0/V1.1/V1.2 currently only supports Klipper firmware
 
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
-        <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_Diagram.png').default} width="450"/>
+        <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_Diagram.png').default} width="450"/>
     </TabItem>
     <TabItem value="ebb-36-1_0" label="EBB 36 V1.0">
-        <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_Diagram.png').default} width="450"/>
+        <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_Diagram.png').default} width="450"/>
     </TabItem>
 </Tabs>
 
@@ -32,10 +32,10 @@ EBB 36 V1.0/V1.1/V1.2 currently only supports Klipper firmware
 
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
-        <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_Pin.png').default} width="450"/>
+        <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_Pin.png').default} width="450"/>
     </TabItem>
     <TabItem value="ebb-36-1_0" label="EBB 36 V1.0">
-        <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_Pin.png').default} width="450"/>
+        <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_Pin.png').default} width="450"/>
     </TabItem>
 </Tabs>
 
@@ -46,11 +46,11 @@ EBB 36 V1.0/V1.1/V1.2 currently only supports Klipper firmware
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
         LED1 lights up only when `EBB 36 v1.1 / v1.2` is powered on. The `VUSB` on the right side of `EBB 36` is used to select USB interface power for the MCU.
-        <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_USB_Power.png').default} width="450"/>
+        <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_USB_Power.png').default} width="450"/>
     </TabItem>
     <TabItem value="ebb-36-1_0" label="EBB 36 V1.0">
         The `D1 LED` lights up only when `EBB 36 v1.0` is powered on. The `VUSB` on `EBB 36` is used to select USB interface power for the MCU.
-        <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_USB_Power.png').default} width="450"/>
+        <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_USB_Power.png').default} width="450"/>
     </TabItem>
 </Tabs>
 
@@ -66,10 +66,10 @@ Using PT1000 in this way results in lower temperature accuracy compared to using
 
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
-        <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_PT100.png').default} width="450"/>
+        <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_PT100.png').default} width="450"/>
     </TabItem>
     <TabItem value="ebb-36-1_0" label="EBB 36 V1.0">
-        <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_PT100.png').default} width="450"/>
+        <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_PT100.png').default} width="450"/>
     </TabItem>
 </Tabs>
 
@@ -78,12 +78,12 @@ Using PT1000 in this way results in lower temperature accuracy compared to using
 <div class="div-table">
     <Tabs groupId="ebb-version">
         <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
-            <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_TwoW.png').default} width="300" class="image-margin"/>
-            <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_FourW.png').default} width="300" class="image-margin"/>
+            <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_TwoW.png').default} width="300" class="image-margin"/>
+            <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_FourW.png').default} width="300" class="image-margin"/>
         </TabItem>
         <TabItem value="ebb-36-1_0" label="EBB 36 V1.0">
-            <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_TwoW.png').default} width="300" class="image-margin"/>
-            <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_FourW.png').default} width="300" class="image-margin"/>
+            <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_TwoW.png').default} width="300" class="image-margin"/>
+            <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_FourW.png').default} width="300" class="image-margin"/>
         </TabItem>
     </Tabs>
 </div>
@@ -103,10 +103,10 @@ MAX 31865 selects PT100/PT1000 2-wire or 4-wire configuration
 
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
-        <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_BLTouch.png').default} width="450"/>
+        <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_BLTouch.png').default} width="450"/>
     </TabItem>
     <TabItem value="ebb-36-1_0" label="EBB 36 V1.0">
-        <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_BLTouch.png').default} width="450"/>
+        <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_BLTouch.png').default} width="450"/>
     </TabItem>
 </Tabs>
 
@@ -114,10 +114,10 @@ MAX 31865 selects PT100/PT1000 2-wire or 4-wire configuration
 
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
-        <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_Broke.png').default} width="450"/>
+        <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_Broke.png').default} width="450"/>
     </TabItem>
     <TabItem value="ebb-36-1_0" label="EBB 36 V1.0">
-        <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_Broke.png').default} width="450"/>
+        <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_Broke.png').default} width="450"/>
     </TabItem>
 </Tabs>
 
@@ -125,9 +125,9 @@ MAX 31865 selects PT100/PT1000 2-wire or 4-wire configuration
 
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
-        <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_RGB.png').default} width="450"/>
+        <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/G0B1/EBB_G0B1_RGB.png').default} width="450"/>
     </TabItem>
     <TabItem value="ebb-36-1_0" label="EBB 36 V1.0">
-        <img src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_RGB.png').default} width="450"/>
+        <ImageView src={require('@site/docs/board-docs/ebb-series/ebb-36/img/072/EBB_072_RGB.png').default} width="450"/>
     </TabItem>
 </Tabs>

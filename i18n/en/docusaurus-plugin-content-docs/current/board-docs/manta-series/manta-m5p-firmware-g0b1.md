@@ -25,14 +25,14 @@ make menuconfig
 <Tabs groupId="M5P-v1-make-connect">
     <TabItem value="bridge" label="CAN Bridge Firmware" default>
         Build the CAN bridge firmware for `Manta M5P` using `STM32G0B1` as the `MCU` according to the following options.
-        <img
+        <ImageView
             src={require('@site/docs/board-docs/manta-series/img/manta-m5p-make-bridge.png').default}
             alt="manta M5P with g0b1 bridge"
         />
     </TabItem>
     <TabItem value="usb" label="USB Serial Firmware">
         Build the USB serial firmware for `Manta M5P` using `STM32G0B1` as the `MCU` according to the following options.
-        <img
+        <ImageView
             src={require('@site/docs/board-docs/manta-series/img/manta-m5p-make-usb.png').default}
             alt="manta M5P with g0b1 usb"
         />

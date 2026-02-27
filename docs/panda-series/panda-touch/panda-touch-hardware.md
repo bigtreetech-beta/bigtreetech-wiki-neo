@@ -23,7 +23,7 @@ Panda Touch 的 CAD 文件可以在 GitHub repo [bigtreetech/PandaTouch/3D](http
 
 ### 概述
 
-<img
+<ImageView
     src={require('./img/pt_back.png').default}
     alt="" width="550"
 />
@@ -36,7 +36,7 @@ Panda Touch 的 CAD 文件可以在 GitHub repo [bigtreetech/PandaTouch/3D](http
 
 ### 充电座
 
-<img
+<ImageView
     src={require('./img/charging_dock.png').default}
     alt="" width="550"
 />
@@ -61,28 +61,28 @@ Panda Touch 的 CAD 文件可以在 GitHub repo [bigtreetech/PandaTouch/3D](http
 
 * 如图所示，使用六角/内六角扳手和两个M3x6 FHCS组装充电座和安装支架。
 
-<img
+<ImageView
     src={require('./img/pt_1_1.png').default}
     alt="" width="300"
 />
 
 * 从安装支架的底部剥离薄膜。
 
-<img
+<ImageView
     src={require('./img/pt_1_2.png').default}
     alt="" width="300"
 />
 
 * 确保打印机表面清洁、无油、油脂等，将组装好的充电座固定在原始屏幕的中央。施加压力使其完全粘附，并等待12小时以获得最佳粘附力。
 
-<img
+<ImageView
     src={require('./img/pt_1_3.png').default}
     alt="" width="300"
 />
 
 * 将Panda Touch连接到充电座。
 
-<img
+<ImageView
     src={require('./img/pt_1_4.png').default}
     alt="" width="300"
 />
@@ -91,18 +91,18 @@ Panda Touch 的 CAD 文件可以在 GitHub repo [bigtreetech/PandaTouch/3D](http
 
 - 卸下打印机USB端口上的泡沫，即可访问该端口。
 
-    <img src={require('./img/pt_2_1.png').default} alt="" width="300" />
+    <ImageView src={require('./img/pt_2_1.png').default} alt="" width="300" />
 
 - 将充电电缆穿过打印机右侧的孔，然后将USB-C端插入充电底座的电源输入。
     
-    <img src={require('./img/pt_2_2.png').default} alt="" width="300" />
+    <ImageView src={require('./img/pt_2_2.png').default} alt="" width="300" />
 
 - 将充电电缆的USB-A端插入打印机上的USB端口以连接电源。然后如图所示将电缆布置在夹子中。
 
 > 提示:
 > 请 100% 确定您已将电缆拧入夹子，以防止工具头在归位过程中卡住电缆。
 
-    <img src={require('./img/pt_2_3.png').default} alt="" width="300" />
+    <ImageView src={require('./img/pt_2_3.png').default} alt="" width="300" />
 
 - 后部电源开关上有三个选项。
   * 在`关闭`位置，电池将充电，但Panda Touch不会通电。
@@ -111,8 +111,8 @@ Panda Touch 的 CAD 文件可以在 GitHub repo [bigtreetech/PandaTouch/3D](http
 
   * 当切换到DC 5V位置时，Panda Touch直接由USB输入供电，同时仍在为电池充电。将其从底座上卸下将关闭电源，而Panda Touch不会耗尽电池电量。建议经常打开和关闭打印机的用户使用此模式，因为它可以保持电池充电周期。如果这些用户希望在便携式模式下使用Panda Touch，那么他们可以在将其从底座上取下后将开关切换到电池电源。
 
-    <img src={require('./img/pt_2_4.png').default} alt="" width="300" />
+    <ImageView src={require('./img/pt_2_4.png').default} alt="" width="300" />
 
 - Panda Touch已成功安装并通电。请按照屏幕上的说明进行下一步设置。
   
-    <img src={require('./img/pt_2_5.png').default} alt="" width="300" />
+    <ImageView src={require('./img/pt_2_5.png').default} alt="" width="300" />

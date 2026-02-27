@@ -31,14 +31,14 @@ M8P v1.0 不能使用 CAN Bridge
 <Tabs groupId="m8p-v1-make-connect">
     <TabItem value="bridge" label="CAN 桥接固件" default>
         按照以下选项构建使用 `STM32G0B1` 为 `MCU` 的 `Manta M8P` CAN 桥接固件
-        <img
+        <ImageView
             src={require('./img/manta-m8p-v1-make-bridge.png').default}
             alt="manta m8p with g0b1 bridge"
         />
     </TabItem>
     <TabItem value="usb" label="USB 串口固件">
         按照以下选项构建使用 `STM32G0B1` 为 `MCU` 的 `Manta M8P` USB 串口固件
-        <img
+        <ImageView
             src={require('./img/manta-m8p-v1-make-usb.png').default}
             alt="manta m8p with g0b1 usb"
         />

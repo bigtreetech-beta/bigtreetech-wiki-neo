@@ -15,7 +15,7 @@ import DocCardList from '@theme/DocCardList';
 
 <div class="div-table">
 
-<img 
+<ImageView 
     src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/m8p-v1-main.png').default} 
     width="45%" class="right-image"
 />

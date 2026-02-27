@@ -15,7 +15,7 @@ import DocCardList from '@theme/DocCardList';
 
 <!-- import lib end -->
 
-<img
+<ImageView
     src={require('./img/ebb_36_title.png').default}
     alt="ebb 36 title" width="550"
 />
