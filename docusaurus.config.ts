@@ -114,7 +114,7 @@ const config: Config = {
   ],
 
   plugins: [
-    'docusaurus-plugin-image-zoom',
+
   ],
 
   themeConfig: {
@@ -245,14 +245,6 @@ const config: Config = {
       darkTheme: custom_code_themes,
       additionalLanguages: ['bash','systemd'],
     },
-    zoom: {
-      selector: '.markdown > img',
-      background: {
-        light: 'rgb(255, 255, 255)',
-        dark: 'rgb(20, 20, 20)'
-      },
-      config: {}
-    }
   } satisfies Preset.ThemeConfig,
 };
 
