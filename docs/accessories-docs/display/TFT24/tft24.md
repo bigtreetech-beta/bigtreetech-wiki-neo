@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 
 <div class="div-table">
 
-<img src={require('./img/TFT24_Title.png').default} width="45%" class="right-image"/>
+<ImageView src={require('./img/TFT24_Title.png').default} width="45%" class="right-image"/>
 
 ## 产品规格
 
@@ -29,11 +29,11 @@ import TabItem from '@theme/TabItem';
 
 ## 尺寸
 
-<img src={require('./img/TFT24_Diagram.png').default} width="50%"/>
+<ImageView src={require('./img/TFT24_Diagram.png').default} width="50%"/>
 
 ## 接口示意图
 
-<img src={require('./img/TFT24_Interface.png').default} width="50%"/>
+<ImageView src={require('./img/TFT24_Interface.png').default} width="50%"/>
 
 :::info[固件与功能选择]
 

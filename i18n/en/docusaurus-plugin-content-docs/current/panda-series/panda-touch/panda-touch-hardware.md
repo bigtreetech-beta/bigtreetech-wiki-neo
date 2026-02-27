@@ -23,7 +23,7 @@ Panda Touch CAD files are available in the GitHub repository [bigtreetech/PandaT
 
 ### Overview
 
-<img
+<ImageView
     src={require('@site/docs/panda-series/panda-touch/img/pt_back.png').default}
     alt="" width="550"
 />
@@ -36,7 +36,7 @@ Slide the power switch to `Battery Power` to operate Panda Touch on its lithium 
 
 ### Charging Dock
 
-<img
+<ImageView
     src={require('@site/docs/panda-series/panda-touch/img/charging_dock.png').default}
     alt="" width="550"
 />
@@ -61,28 +61,28 @@ The power input features hot-swap protection, allowing users to hot-swap the pow
 
 * Assemble the charging dock and mounting bracket using a hex/Allen wrench and two M3x6 FHCS screws, as shown in the diagram.
 
-<img
+<ImageView
     src={require('@site/docs/panda-series/panda-touch/img/pt_1_1.png').default}
     alt="" width="300"
 />
 
 * Peel the film from the bottom of the mounting bracket.
 
-<img
+<ImageView
     src={require('@site/docs/panda-series/panda-touch/img/pt_1_2.png').default}
     alt="" width="300"
 />
 
 Ensure the printer surface is clean and free of oil, grease, or other contaminants. Secure the assembled charging dock at the center of the original screen. Apply pressure to ensure complete adhesion, and allow 12 hours for optimal bonding strength.
 
-<img
+<ImageView
     src={require('@site/docs/panda-series/panda-touch/img/pt_1_3.png').default}
     alt="" width="300"
 />
 
 * Connect Panda Touch to the charging dock.
 
-<img
+<ImageView
     src={require('@site/docs/panda-series/panda-touch/img/pt_1_4.png').default}
     alt="" width="300"
 />
@@ -91,18 +91,18 @@ Ensure the printer surface is clean and free of oil, grease, or other contaminan
 
 - Remove the foam cover from the printer's USB port to access it.
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/pt_2_1.png').default} alt="" width="300" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/pt_2_1.png').default} alt="" width="300" />
 
 - Thread the charging cable through the hole on the right side of the printer, then insert the USB-C end into the power input of the charging dock.
     
-    <img src={require('@site/docs/panda-series/panda-touch/img/pt_2_2.png').default} alt="" width="300" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/pt_2_2.png').default} alt="" width="300" />
 
 - Connect the power supply by inserting the USB-A end of the charging cable into the printer's USB port. Then route the cable through the clip as shown in the illustration.
 
 > Tip:
 > Ensure the cable is fully secured in the clip to prevent the tool head from snagging it during retraction.
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/pt_2_3.png').default} alt="" width="300" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/pt_2_3.png').default} alt="" width="300" />
 
 - The rear power switch offers three positions.
   * In the `Off` position, the battery charges but Panda Touch remains powered off.
@@ -111,8 +111,8 @@ Ensure the printer surface is clean and free of oil, grease, or other contaminan
 
 * When switched to the DC 5V position, Panda Touch is powered directly by the USB input while continuing to charge the battery. Removing it from the dock will turn off the power, and Panda Touch will not drain the battery. This mode is recommended for users who frequently power the printer on and off, as it maintains the battery charge cycle. Should these users wish to operate Panda Touch in portable mode, they can switch the power source to battery power after removing it from the dock.
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/pt_2_4.png').default} alt="" width="300" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/pt_2_4.png').default} alt="" width="300" />
 
 - Panda Touch has been successfully installed and powered on. Please follow the on-screen instructions to complete the setup.
   
-    <img src={require('@site/docs/panda-series/panda-touch/img/pt_2_5.png').default} alt="" width="300" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/pt_2_5.png').default} alt="" width="300" />

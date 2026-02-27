@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 
 ## 引脚图
 
-<img src={require('./img/ebb-2209-rp2040-pinout.png').default} width="70%"/>
+<ImageView src={require('./img/ebb-2209-rp2040-pinout.png').default} width="70%"/>
 
 ## 硬件功能
 

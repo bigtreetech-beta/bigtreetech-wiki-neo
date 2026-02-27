@@ -21,7 +21,7 @@ make menuconfig
 
 Build the USB serial firmware for `Manta M4P` using `STM32G0B1` as the `MCU` according to the following options.
 
-<img src={require('@site/docs/board-docs/manta-series/img/manta-m4p-make-usb.png').default} alt="manta m4p with g0b1 usb"/>
+<ImageView src={require('@site/docs/board-docs/manta-series/img/manta-m4p-make-usb.png').default} alt="manta m4p with g0b1 usb"/>
 
 After configuration, use `q` to exit and `y` to save the build options.
 

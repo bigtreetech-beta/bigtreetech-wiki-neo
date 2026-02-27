@@ -34,12 +34,12 @@ EVA3 适配件 [bigtreetech/H2-V2X/3D Model/EVA3](https://github.com/bigtreetech
 
 XYZ尺寸: $53.9 mm * 37.88 mm * 51.52 mm$
 
-<img
+<ImageView
     src={require('@site/docs/accessories-docs/extruder/h2-v2x/img/H2V2X_Dimension1.png').default}
     alt="h2 v2x" width="60%"
 />
 
-<img
+<ImageView
     src={require('@site/docs/accessories-docs/extruder/h2-v2x/img/H2V2X_Dimension2.png').default}
     alt="h2 v2x" width="60%"
 />
@@ -51,7 +51,7 @@ XYZ尺寸: $53.9 mm * 37.88 mm * 51.52 mm$
 :::
 
 <div class="div-table">
-    <img
+    <ImageView
     src={require('@site/docs/accessories-docs/extruder/h2-v2x/img/H2V2X_Filament1.png').default}
     alt="h2 v2x" width="35%" class="right-image"
     />
@@ -69,7 +69,7 @@ XYZ尺寸: $53.9 mm * 37.88 mm * 51.52 mm$
 
 <div class="div-table">
 
-<img
+<ImageView
     src={require('@site/docs/accessories-docs/extruder/h2-v2x/img/H2V2X_motor1.png').default}
     alt="h2 v2x" width="60%" class="right-image"
 />

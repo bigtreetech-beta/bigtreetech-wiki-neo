@@ -20,7 +20,7 @@ cd ~/klipper
 make menuconfig 
 ```
 
-<img src={require('@site/docs/accessories-docs/sensor/adxl345/img/adxl-firmware-config.png').default} width="80%"/>
+<ImageView src={require('@site/docs/accessories-docs/sensor/adxl345/img/adxl-firmware-config.png').default} width="80%"/>
 
 当配置完成使用 `q` 来退出。使用 `y` 来保存编译选项。
 

@@ -13,7 +13,7 @@ import DocCardList from '@theme/DocCardList';
 
 <div class="div-table">
 
-<img 
+<ImageView 
     src={require('@site/docs/board-docs/manta-series/manta-m4p/img/M4P_Title.webp').default} 
     width="45%" class="right-image"
 />

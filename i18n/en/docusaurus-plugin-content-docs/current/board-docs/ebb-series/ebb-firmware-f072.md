@@ -17,7 +17,7 @@ make menuconfig
 
 Then build the `EBB` firmware using `STM32F072` as the `MCU` according to the following options.
 
-<img
+<ImageView
     src={require('@site/docs/board-docs/ebb-series/img/ebb-f072-make-can.png').default}
     alt="EBB with f072 build config"
 />

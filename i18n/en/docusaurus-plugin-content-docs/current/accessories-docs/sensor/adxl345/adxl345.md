@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 
 <div class="div-table">
 
-<img 
+<ImageView 
     src={require('@site/docs/accessories-docs/sensor/adxl345/img/adxl-main.png').default} 
     width="45%" class="right-image"
 />

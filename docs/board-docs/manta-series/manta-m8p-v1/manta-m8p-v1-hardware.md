@@ -23,10 +23,10 @@ Manta M8P v1.1 模型 [BIGTREETECH MANTA M8P V1.1.step.zip](https://github.com/b
 
 <Tabs groupId="m8p-dim">
     <TabItem value="m8p-dim-1" label="正面尺寸" default>
-        <img src={require('./img/M8P_dimensions_1.png').default} width="100%"/>
+        <ImageView src={require('./img/M8P_dimensions_1.png').default} width="100%"/>
     </TabItem>
     <TabItem value="m8p-dim-2" label="反面尺寸">
-        <img src={require('./img/M8P_dimensions_2.png').default} width="100%"/>
+        <ImageView src={require('./img/M8P_dimensions_2.png').default} width="100%"/>
     </TabItem>
 </Tabs>
 
@@ -42,10 +42,10 @@ Manta M8P v1.1 原理图 [BIGTREETECH MANTA M8P V1.1-SCH.pdf](https://github.com
 
 <Tabs groupId="m8p-pinout">
     <TabItem value="m8p-pinout-1_1" label="Manta M8P v1.1" default>
-        <img src={require('./img/M8P_pinout-v1_1.png').default} width="100%"/>
+        <ImageView src={require('./img/M8P_pinout-v1_1.png').default} width="100%"/>
     </TabItem>
     <TabItem value="m8p-pinout-1_0" label="Manta M8P v1.0">
-        <img src={require('./img/M8P_pinout-v1_0.png').default} width="100%"/>
+        <ImageView src={require('./img/M8P_pinout-v1_0.png').default} width="100%"/>
     </TabItem>
 </Tabs>
 
@@ -59,7 +59,7 @@ Pi FAN（由GPIO26控制）
 
 FAN4成为2线CNC风扇。
 
-<img src={require('./img/M8P_Add_Func1.png').default} width="80%"/>
+<ImageView src={require('./img/M8P_Add_Func1.png').default} width="80%"/>
 
 :::
 
@@ -69,21 +69,21 @@ FAN4成为2线CNC风扇。
 
 M8P主板通电后，MCU左侧的D32红灯亮起，表示电源正常。电路板中间的VUSB是电源选择端子。只有在使用USB向主板供电或需要通过USB供电时，才需要使用跳线将其短路。
 
-<img src={require('./img/M8P_USB_PS.png').default} width="80%"/>
+<ImageView src={require('./img/M8P_USB_PS.png').default} width="80%"/>
 
 ### 步进电机驱动
 
 #### TMC 2208 / TMC 2209 UART 模式
 
-<img src={require('./img/M8P_uart.png').default} width="80%"/>
+<ImageView src={require('./img/M8P_uart.png').default} width="80%"/>
 
 #### TMC 2130 / TMC 5160 SPI 模式
 
-<img src={require('./img/M8P_spi.png').default} width="80%"/>
+<ImageView src={require('./img/M8P_spi.png').default} width="80%"/>
 
 #### TMC Sensorless
 
-<img src={require('./img/M8P_Dri_sensorless.png').default} width="80%"/>
+<ImageView src={require('./img/M8P_Dri_sensorless.png').default} width="80%"/>
 
 #### 仅使用 STEP/DIR 驱动
 
@@ -93,16 +93,16 @@ A4988 / DRV8825 使用跳线帽短接 MS0-MS2 以调整细分
 如果使用 `A4988` 或 `DRV8825` 需要短接 `RST` 和 `SLP` 才能正常工作
 :::
 
-<img src={require('./img/M8P_Dri_Step.png').default} width="80%"/>
+<ImageView src={require('./img/M8P_Dri_Step.png').default} width="80%"/>
 
 ### 驱动电压选择
 
 <Tabs groupId="m8p-driver-power">
     <TabItem value="m8p-power-24" label="使用 24V 电源" default>
-        <img src={require('./img/M8P_driver_24.png').default} width="80%"/>
+        <ImageView src={require('./img/M8P_driver_24.png').default} width="80%"/>
     </TabItem>
     <TabItem value="m8p-power-48" label="使用 48V 电源">
-        <img src={require('./img/M8P_driver_48.png').default} width="80%"/>
+        <ImageView src={require('./img/M8P_driver_48.png').default} width="80%"/>
     </TabItem>
 </Tabs>
 
@@ -110,10 +110,10 @@ A4988 / DRV8825 使用跳线帽短接 MS0-MS2 以调整细分
 
 <Tabs groupId="m8p-cm">
     <TabItem value="m8p-cm-rpi" label="使用树莓派 CM4/CM5" default>
-        <img src={require('./img/M8P_cm_rpi.png').default} width="80%"/>
+        <ImageView src={require('./img/M8P_cm_rpi.png').default} width="80%"/>
     </TabItem>
     <TabItem value="m8p-cm-cb" label="使用 CB1/CB2">
-        <img src={require('./img/M8P_cm_cb.png').default} width="80%"/>
+        <ImageView src={require('./img/M8P_cm_cb.png').default} width="80%"/>
     </TabItem>
 </Tabs>
 
@@ -127,11 +127,11 @@ A4988 / DRV8825 使用跳线帽短接 MS0-MS2 以调整细分
 
 :::
 
-<img src={require('./img/M8P_fan.png').default} width="60%"/>
+<ImageView src={require('./img/M8P_fan.png').default} width="60%"/>
 
 ### 4Pin PWM 风扇接线
 
-<img src={require('./img/M8P_4_pin_pwm.png').default} width="60%"/>
+<ImageView src={require('./img/M8P_4_pin_pwm.png').default} width="60%"/>
 
 ### 100K NTC 或 PT1000 设置
 
@@ -143,22 +143,22 @@ A4988 / DRV8825 使用跳线帽短接 MS0-MS2 以调整细分
 
 这样读取的温度精度将远不如MAX31865读取的精度
 
-<img src={require('./img/M8P_pt1000.png').default} width="30%"/>
+<ImageView src={require('./img/M8P_pt1000.png').default} width="30%"/>
 
 :::
 
 ### BLTouch
 
-<img src={require('./img/M8P_BLTouch.png').default} width="80%"/>
+<ImageView src={require('./img/M8P_BLTouch.png').default} width="80%"/>
 
 ### 接近开关接线
 
 <Tabs groupId="m8p-proximity">
     <TabItem value="m8p-proximity-npn" label="NPN 接近开关" default>
-        <img src={require('./img/M8P_Proximity_npn.png').default} width="80%"/>
+        <ImageView src={require('./img/M8P_Proximity_npn.png').default} width="80%"/>
     </TabItem>
     <TabItem value="m8p-proximity-pnp" label="PNP 接近开关">
-        <img src={require('./img/M8P_Proximity_pnp.png').default} width="80%"/>
+        <ImageView src={require('./img/M8P_Proximity_pnp.png').default} width="80%"/>
     </TabItem>
 </Tabs>
 
@@ -172,19 +172,19 @@ Manta M8P ADXL 345 配置文件参考 [Manta M8P ADXL 配置文件](./manta-m8p-
 
 :::
 
-<img src={require('./img/M8P_ADXL345.png').default} width="80%"/>
+<ImageView src={require('./img/M8P_ADXL345.png').default} width="80%"/>
 
 ### Neopixel 
 
-<img src={require('./img/M8P_RGB.png').default} width="80%"/>
+<ImageView src={require('./img/M8P_RGB.png').default} width="80%"/>
 
 ### 断料检测
 
-<img src={require('./img/M8P_Filament.png').default} width="80%"/>
+<ImageView src={require('./img/M8P_Filament.png').default} width="80%"/>
 
 ### 40 Pin GPIO
 
-<img src={require('./img/M8P_40_Pin.png').default} width="60%"/>
+<ImageView src={require('./img/M8P_40_Pin.png').default} width="60%"/>
 
 ### DSI/CSI 接线
 
@@ -194,4 +194,4 @@ DSI/CSI 需要核心板硬件支持
 
 :::
 
-<img src={require('./img/M8P_DSI.png').default} width="80%"/>
+<ImageView src={require('./img/M8P_DSI.png').default} width="80%"/>

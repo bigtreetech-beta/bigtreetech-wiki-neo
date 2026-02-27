@@ -19,10 +19,10 @@ EBB 36 V1.0/V1.1/V1.2 目前只支持 Klipper 固件
 
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
-        <img src={require('./img/G0B1/EBB_G0B1_Diagram.png').default} width="450"/>
+        <ImageView src={require('./img/G0B1/EBB_G0B1_Diagram.png').default} width="450"/>
     </TabItem>
     <TabItem value="ebb-36-1_0" label="EBB 36 V1.0">
-        <img src={require('./img/072/EBB_072_Diagram.png').default} width="450"/>
+        <ImageView src={require('./img/072/EBB_072_Diagram.png').default} width="450"/>
     </TabItem>
 </Tabs>
 
@@ -30,10 +30,10 @@ EBB 36 V1.0/V1.1/V1.2 目前只支持 Klipper 固件
 
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
-        <img src={require('./img/G0B1/EBB_G0B1_Pin.png').default} width="450"/>
+        <ImageView src={require('./img/G0B1/EBB_G0B1_Pin.png').default} width="450"/>
     </TabItem>
     <TabItem value="ebb-36-1_0" label="EBB 36 V1.0">
-        <img src={require('./img/072/EBB_072_Pin.png').default} width="450"/>
+        <ImageView src={require('./img/072/EBB_072_Pin.png').default} width="450"/>
     </TabItem>
 </Tabs>
 
@@ -44,11 +44,11 @@ EBB 36 V1.0/V1.1/V1.2 目前只支持 Klipper 固件
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
         当 `EBB 36 v1.1 / v1.2` 通电的时候 LED1 才会亮起。`EBB 36` 右侧的 `VUSB` 是选择使用 USB 接口对 MCU 进行供电。
-        <img src={require('./img/G0B1/EBB_G0B1_USB_Power.png').default} width="450"/>
+        <ImageView src={require('./img/G0B1/EBB_G0B1_USB_Power.png').default} width="450"/>
     </TabItem>
     <TabItem value="ebb-36-1_0" label="EBB 36 V1.0">
         当 `EBB 36 v1.0` 通电的时候 `D1 LED` 才会亮起。`EBB 36` 上的 `VUSB` 是选择使用 USB 接口对 MCU 进行供电。
-        <img src={require('./img/072/EBB_072_USB_Power.png').default} width="450"/>
+        <ImageView src={require('./img/072/EBB_072_USB_Power.png').default} width="450"/>
     </TabItem>
 </Tabs>
 
@@ -64,10 +64,10 @@ EBB 36 V1.0/V1.1/V1.2 目前只支持 Klipper 固件
 
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
-        <img src={require('./img/G0B1/EBB_G0B1_PT100.png').default} width="450"/>
+        <ImageView src={require('./img/G0B1/EBB_G0B1_PT100.png').default} width="450"/>
     </TabItem>
     <TabItem value="ebb-36-1_0" label="EBB 36 V1.0">
-        <img src={require('./img/072/EBB_072_PT100.png').default} width="450"/>
+        <ImageView src={require('./img/072/EBB_072_PT100.png').default} width="450"/>
     </TabItem>
 </Tabs>
 
@@ -76,12 +76,12 @@ EBB 36 V1.0/V1.1/V1.2 目前只支持 Klipper 固件
 <div class="div-table">
     <Tabs groupId="ebb-version">
         <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
-            <img src={require('./img/G0B1/EBB_G0B1_TwoW.png').default} width="300" class="image-margin"/>
-            <img src={require('./img/G0B1/EBB_G0B1_FourW.png').default} width="300" class="image-margin"/>
+            <ImageView src={require('./img/G0B1/EBB_G0B1_TwoW.png').default} width="300" class="image-margin"/>
+            <ImageView src={require('./img/G0B1/EBB_G0B1_FourW.png').default} width="300" class="image-margin"/>
         </TabItem>
         <TabItem value="ebb-36-1_0" label="EBB 36 V1.0">
-            <img src={require('./img/072/EBB_072_TwoW.png').default} width="300" class="image-margin"/>
-            <img src={require('./img/072/EBB_072_FourW.png').default} width="300" class="image-margin"/>
+            <ImageView src={require('./img/072/EBB_072_TwoW.png').default} width="300" class="image-margin"/>
+            <ImageView src={require('./img/072/EBB_072_FourW.png').default} width="300" class="image-margin"/>
         </TabItem>
     </Tabs>
 </div>
@@ -101,10 +101,10 @@ MAX 31865 选择 PT100/PT1000 2线或4线配置
 
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
-        <img src={require('./img/G0B1/EBB_G0B1_BLTouch.png').default} width="450"/>
+        <ImageView src={require('./img/G0B1/EBB_G0B1_BLTouch.png').default} width="450"/>
     </TabItem>
     <TabItem value="ebb-36-1_0" label="EBB 36 V1.0">
-        <img src={require('./img/072/EBB_072_BLTouch.png').default} width="450"/>
+        <ImageView src={require('./img/072/EBB_072_BLTouch.png').default} width="450"/>
     </TabItem>
 </Tabs>
 
@@ -112,10 +112,10 @@ MAX 31865 选择 PT100/PT1000 2线或4线配置
 
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
-        <img src={require('./img/G0B1/EBB_G0B1_Broke.png').default} width="450"/>
+        <ImageView src={require('./img/G0B1/EBB_G0B1_Broke.png').default} width="450"/>
     </TabItem>
     <TabItem value="ebb-36-1_0" label="EBB 36 V1.0">
-        <img src={require('./img/072/EBB_072_Broke.png').default} width="450"/>
+        <ImageView src={require('./img/072/EBB_072_Broke.png').default} width="450"/>
     </TabItem>
 </Tabs>
 
@@ -123,9 +123,9 @@ MAX 31865 选择 PT100/PT1000 2线或4线配置
 
 <Tabs groupId="ebb-version">
     <TabItem value="ebb-36-1_2" label="EBB 36 V1.1 / V1.2" default>
-        <img src={require('./img/G0B1/EBB_G0B1_RGB.png').default} width="450"/>
+        <ImageView src={require('./img/G0B1/EBB_G0B1_RGB.png').default} width="450"/>
     </TabItem>
     <TabItem value="ebb-36-1_0" label="EBB 36 V1.0">
-        <img src={require('./img/072/EBB_072_RGB.png').default} width="450"/>
+        <ImageView src={require('./img/072/EBB_072_RGB.png').default} width="450"/>
     </TabItem>
 </Tabs>

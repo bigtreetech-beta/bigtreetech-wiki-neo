@@ -15,7 +15,7 @@ import DocCardList from '@theme/DocCardList';
 
 <div class="div-table">
 
-<img 
+<ImageView 
     src={require('./img/skr-pico-main.png').default} 
     width="45%" class="right-image"
 />

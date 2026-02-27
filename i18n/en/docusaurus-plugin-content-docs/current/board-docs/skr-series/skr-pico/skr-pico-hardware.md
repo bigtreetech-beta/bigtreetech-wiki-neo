@@ -15,14 +15,14 @@ import TabItem from '@theme/TabItem';
 
 ## 外观尺寸
 
-<img
+<ImageView
     src={require('@site/docs/board-docs/skr-series/skr-pico/img/skr-pico-size.png').default}
     alt="size" width="800"
 />
 
 ## Pinout
 
-<img
+<ImageView
     src={require('@site/docs/board-docs/skr-series/skr-pico/img/skr-pico-pin.png').default}
     alt="pinout" width="800"
 />
@@ -37,21 +37,21 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-<img
+<ImageView
     src={require('@site/docs/board-docs/skr-series/skr-pico/img/SKR_Pico_Sensorless.png').default}
     alt="sensorless" width="550"
 />
 
 ### Neopixel
 
-<img
+<ImageView
     src={require('@site/docs/board-docs/skr-series/skr-pico/img/SKR_Pico_RGB.png').default}
     alt="neopixel" width="550"
 />
 
 ### BLTouch 
 
-<img
+<ImageView
     src={require('@site/docs/board-docs/skr-series/skr-pico/img/SKR_Pico_BLtouch.png').default}
     alt="bltouch" width="550"
 />
@@ -64,21 +64,21 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-<img
+<ImageView
     src={require('@site/docs/board-docs/skr-series/skr-pico/img/SKR_Pico_Proximity.png').default}
     alt="proximity" width="550"
 />
 
 ### USB 连接
 
-<img
+<ImageView
     src={require('@site/docs/board-docs/skr-series/skr-pico/img/SKR_Pico_Rasp.png').default}
     alt="rpi_usb" width="550"
 />
 
 ### UART 连接
 
-<img
+<ImageView
     src={require('@site/docs/board-docs/skr-series/skr-pico/img/SKR_Pico_Rasp3.png').default}
     alt="rpi_uart" width="550"
 />

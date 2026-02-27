@@ -39,11 +39,11 @@ The eMMC version requires this tool to read and write to eMMC.
     <TabItem value="sd-card" label="Use SD Card" default>
         Insert the Micro SD card into the computer using a card reader, then select the system.
 
-        <img src={require('@site/docs/board-docs/manta-series/img/cm-flash-1.png').default} width="65%"/>
+        <ImageView src={require('@site/docs/board-docs/manta-series/img/cm-flash-1.png').default} width="65%"/>
 
         Select `Use custom`, then choose the image downloaded to the computer.
 
-        <img src={require('@site/docs/board-docs/manta-series/img/cm-flash-2.png').default} width="65%"/>
+        <ImageView src={require('@site/docs/board-docs/manta-series/img/cm-flash-2.png').default} width="65%"/>
 
         Select the Micro SD card to be written, then write the system image.
 
@@ -53,11 +53,11 @@ The eMMC version requires this tool to read and write to eMMC.
 
         :::
 
-        <img src={require('@site/docs/board-docs/manta-series/img/cm-flash-3.png').default} width="65%"/>
+        <ImageView src={require('@site/docs/board-docs/manta-series/img/cm-flash-3.png').default} width="65%"/>
 
         Wait for the system writing to complete
         
-        <img src={require('@site/docs/board-docs/manta-series/img/cm-flash-4.png').default} width="65%"/>
+        <ImageView src={require('@site/docs/board-docs/manta-series/img/cm-flash-4.png').default} width="65%"/>
     </TabItem>
     <TabItem value="emmc" label="Use eMMC">
         First, set switches 3 `RPIBOOT` and 4 `USBOTG` to `ON` to enter BOOT mode
@@ -68,11 +68,11 @@ The eMMC version requires this tool to read and write to eMMC.
         
         Then use Raspberry Pi Imager to select the system
 
-        <img src={require('@site/docs/board-docs/manta-series/img/cm-flash-1.png').default} width="65%"/>
+        <ImageView src={require('@site/docs/board-docs/manta-series/img/cm-flash-1.png').default} width="65%"/>
 
         Select `Use custom`, then choose the image downloaded to the computer.
 
-        <img src={require('@site/docs/board-docs/manta-series/img/cm-flash-2.png').default} width="65%"/>
+        <ImageView src={require('@site/docs/board-docs/manta-series/img/cm-flash-2.png').default} width="65%"/>
 
         Select the eMMC device to be written, then write the system image.
 
@@ -82,10 +82,10 @@ The eMMC version requires this tool to read and write to eMMC.
 
         :::
 
-        <img src={require('@site/docs/board-docs/manta-series/img/cm-flash-3.png').default} width="65%"/>
+        <ImageView src={require('@site/docs/board-docs/manta-series/img/cm-flash-3.png').default} width="65%"/>
 
         Wait for the system writing to complete
 
-        <img src={require('@site/docs/board-docs/manta-series/img/cm-flash-4.png').default} width="65%"/>
+        <ImageView src={require('@site/docs/board-docs/manta-series/img/cm-flash-4.png').default} width="65%"/>
     </TabItem>
 </Tabs>

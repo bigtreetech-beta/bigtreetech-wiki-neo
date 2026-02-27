@@ -25,14 +25,14 @@ make menuconfig
 <Tabs groupId="M5P-v1-make-connect">
     <TabItem value="bridge" label="CAN 桥接固件" default>
         按照以下选项构建使用 `STM32G0B1` 为 `MCU` 的 `Manta M5P` CAN 桥接固件
-        <img
+        <ImageView
             src={require('./img/manta-m5p-make-bridge.png').default}
             alt="manta M5P with g0b1 bridge"
         />
     </TabItem>
     <TabItem value="usb" label="USB 串口固件">
         按照以下选项构建使用 `STM32G0B1` 为 `MCU` 的 `Manta M5P` USB 串口固件
-        <img
+        <ImageView
             src={require('./img/manta-m5p-make-usb.png').default}
             alt="manta M5P with g0b1 usb"
         />

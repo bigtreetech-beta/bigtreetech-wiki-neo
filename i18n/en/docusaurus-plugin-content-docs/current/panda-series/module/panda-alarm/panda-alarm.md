@@ -2,7 +2,7 @@
 
 <div class="div-table">
 
-<img src={require('@site/docs/panda-series/module/panda-alarm/img/panda_alarm.jpg').default} width="40%" class="right-image"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/panda_alarm.jpg').default} width="40%" class="right-image"/>
 
 ## Product Overview
 
@@ -62,7 +62,7 @@ The plug-and-play device sends real-time notifications for print completion, fai
 
 ## Product Dimensions
 
-<img src={require('@site/docs/panda-series/module/panda-alarm/img/size.jpg').default} width="70%"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/size.jpg').default} width="70%"/>
 
 ## Installation Guide
 
@@ -72,41 +72,41 @@ Panda Alarm is designed for installation on the P1 series printer.
 
 **Panda Alarm Accessory List**
 
-<img src={require('@site/docs/panda-series/module/panda-alarm/img/en/list.jpg').default} width="70%"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/list.jpg').default} width="70%"/>
 
 #### Installation Steps
 
 - Remove the transparent Panda Alarm main unit from its packaging. Secure it to the control box using the two supplied **M3×8 countersunk self-tapping screws**.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/install_1.jpg').default} width="60%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/install_1.jpg').default} width="60%"/>
 
 - Plug the light strip connector on the Panda Alarm into the 3-pin interface on the control box, as shown below.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/install_2.jpg').default} width="60%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/install_2.jpg').default} width="60%"/>
 
 - lug the USB power cable into the printer's **USB-A port**, located in the upper groove of the P1 door panel. Access may require removing the printer's cover.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/install_3.jpg').default} width="60%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/install_3.jpg').default} width="60%"/>
 
 - Feed the **Type-C connector** from the other end of the USB cable through the small hole on the upper-right side of the printer.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/install_4.jpg').default} width="60%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/install_4.jpg').default} width="60%"/>
 
 - Insert the exposed **Type-C connector** into the **Type-C port** on the control box,  ensuring the cable is routed appropriately, as shown.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/install_5.jpg').default} width="60%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/install_5.jpg').default} width="60%"/>
 
 - Determine the position for the metal sheet: Position the Panda Alarm unit on the printer's upper-right side, aligning the lightboard's curvature with the printer's. Secure the control box by attaching the included metal sheet over it.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/install_6.jpg').default} width="60%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/install_6.jpg').default} width="60%"/>
 
 - Peel off the protective backing from the double-sided tape on the Panda Alarm main unit.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/install_7.jpg').default} width="60%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/install_7.jpg').default} width="60%"/>
 
 - Position the Panda Alarm unit along the upper-right curvature of the printer. Press it firmly to secure the top with the integrated double-sided tape.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/install_8.jpg').default} width="60%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/install_8.jpg').default} width="60%"/>
 
 > Once the installation is complete, power on the Panda Alarm and proceed to configure it. Please refer to the [First-Time Use Guide](#first-connection) for configuration instructions.
 
@@ -124,7 +124,7 @@ Panda Alarm is designed for installation on the P1 series printer.
 
     - Turn on **WLAN**. Your device will automatically search for available networks.
 
-        <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/wlan.jpg').default} width="45%"/>
+        <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/wlan.jpg').default} width="45%"/>
 
     - Tap on the network starting with **Panda_Alarm**, then enter the default password: **987654321**.
 
@@ -136,15 +136,15 @@ Panda Alarm is designed for installation on the P1 series printer.
 
 - Upon first connection, you will be directed to the **Select Language** screen. Choose your language and click **Next**.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/language.jpg').default} width="45%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/language.jpg').default} width="45%"/>
 
 - The system will automatically scan for available Wi-Fi networks. Select the same network your printer uses. If the network is not listed, click **Scan** to rescan.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/wifi.jpg').default} width="45%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/wifi.jpg').default} width="45%"/>
 
 - After the connection is established, a confirmation pop-up will appear. Click **Bind Printer** to finalize the setup.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/goto_printer.jpg').default} width="45%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/goto_printer.jpg').default} width="45%"/>
 
 ### Bind Printer
 
@@ -154,7 +154,7 @@ Panda Alarm is designed for installation on the P1 series printer.
 
 - In the Web UI, go to the **Printer** screen. Clicking **Scan** will search for Bambu printers on the same local network. The scan takes about 30 seconds, with an additional 20 seconds for each printer detected. Panda Alarm can recognize up to 20 printers per scan. If more than 20 printers are present, some may not be detected. If the scan does not detect the desired printer, click **Scan** again or use **Manual Input** to enter the information.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/printer.jpg').default} width="45%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/printer.jpg').default} width="45%"/>
 
 - After scanning, select the printer you wish to connect to. The printer’s **SN** and **IP** will be automatically populated. Locate the **Access Code** on the printer and enter it into the **Printer Access Code** field on the Web UI.
 
@@ -162,15 +162,15 @@ Panda Alarm is designed for installation on the P1 series printer.
 
         - 1	`Settings`-> 2 `WLAN` -> 3 `OK`
 
-            <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/p1_1_2_3.webp').default} width="600"/>
+            <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/p1_1_2_3.webp').default} width="600"/>
 
         - 5 `Access Code`
 
-            <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/p1_4_5.webp').default} width="600"/>
+            <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/p1_4_5.webp').default} width="600"/>
 
 - Click **Bind** to start the connection. If a **Binding Successful** pop-up appears, Panda Alarm has successfully connected to the printer.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/bind_ok.jpg').default} width="45%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/bind_ok.jpg').default} width="45%"/>
 
 - Congratulations! Your Panda Alarm is now ready for use.
 
@@ -186,24 +186,24 @@ Panda Alarm is designed for installation on the P1 series printer.
         - `SN`
             - 1	`Settings` -> 2 `Device`
 
-                <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/p1_1_2.webp').default} width="600"/>
+                <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/p1_1_2.webp').default} width="600"/>
 
             - 3 `Printer` is the `SN`
 
-                <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/p1_3.webp').default} width="600"/>
+                <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/p1_3.webp').default} width="600"/>
 
         - `Access Code` and `IP`          
             - 1	`Settings`-> 2 `LAN` -> 3
 
-                <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/p1_1_2_3.webp').default} width="600"/>
+                <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/p1_1_2_3.webp').default} width="600"/>
 
             - 4 `IP`, ⑤ `Access Code`
 
-                <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/p1_4_5.webp').default} width="600"/>
+                <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/p1_4_5.webp').default} width="600"/>
 
 - Click **Bind** to begin the connection. If a **Binding Successful** pop-up appears, Panda Alarm has successfully connected to the printer.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/bind_ok.jpg').default} width="45%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/bind_ok.jpg').default} width="45%"/>
 
 - Congratulations! You can now enjoy your Panda Alarm.
 
@@ -237,7 +237,7 @@ The following **7 printer statuses** share light effects and default **colors** 
 
 ### Control Panel
 
-<img src={require('@site/docs/panda-series/module/panda-alarm/img/en/panel.jpg').default} width="45%"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/panel.jpg').default} width="45%"/>
 
 1. Enter the Control Panel Interface
 
@@ -247,7 +247,7 @@ The following **7 printer statuses** share light effects and default **colors** 
 
     Use this mode to test the device's **light** and **sound** effects. Select a **simulated status** to activate its corresponding alerts.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/preview.jpg').default} width="45%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/preview.jpg').default} width="45%"/>
 
     - a) Toggle **Preview Mode** on/off.
 
@@ -270,7 +270,7 @@ The following **7 printer statuses** share light effects and default **colors** 
 
 4. Set the Device’s Light Effects
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/light.jpg').default} width="45%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/light.jpg').default} width="45%"/>
 
     - a) Toggle **light effects** on/off. This will only disable **printer status light effects**, but **system-level status light effects** will remain active.
 
@@ -282,7 +282,7 @@ The following **7 printer statuses** share light effects and default **colors** 
 
         After clicking the corresponding button, an HSL color picker will appear, allowing you to set the color for each state.
 
-        <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/picker.jpg').default} width="45%"/>
+        <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/picker.jpg').default} width="45%"/>
 
         - 1) **HSL Color Picker** ([What is HSL?](https://zh.wikipedia.org/wiki/HSL%E5%92%8CHSV%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4))
 
@@ -309,7 +309,7 @@ The following **7 printer statuses** share light effects and default **colors** 
 
 5. Set the Device’s Sound Effects
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/sound.jpg').default} width="45%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/sound.jpg').default} width="45%"/>
 
     - a) Toggle **sound effects** on/off. This will disable all **printer status sound effects**, including **Print Complete** and **Error** sounds.
 
@@ -343,7 +343,7 @@ The following **7 printer statuses** share light effects and default **colors** 
 
 > The first screen displayed in the Panda Alarm Web UI is the **Wi-Fi & IP** settings page.
 
-<img src={require('@site/docs/panda-series/module/panda-alarm/img/en/wifi_ip.jpg').default} width="45%"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/wifi_ip.jpg').default} width="45%"/>
 
 1. Enter the **Wi-Fi & IP** interface
 
@@ -363,7 +363,7 @@ The following **7 printer statuses** share light effects and default **colors** 
 
     - After changing, click **Set Hostname** to apply the new hostname to Panda Alarm. A pop-up confirms the update was successful. The new hostname will take effect after a reboot. Click **OK** to reboot Panda Alarm immediately, or click the **x** button to close the window without rebooting.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/hostname.jpg').default} width="45%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/hostname.jpg').default} width="45%"/>
 
 ### AP Interface
 
@@ -375,7 +375,7 @@ If your device is connected to the Web UI through the Panda Alarm AP hotspot, di
 
 :::
 
-<img src={require('@site/docs/panda-series/module/panda-alarm/img/en/ap.jpg').default} width="45%"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/ap.jpg').default} width="45%"/>
 
 1. Enter the **AP** interface.
 
@@ -393,11 +393,11 @@ If your device is connected to the Web UI through the Panda Alarm AP hotspot, di
 
     After modifying the **Hotspot IP**, you must reboot the device for the new settings to take effect. If the following pop-up appears, the **Hotspot IP** has been successfully updated. Click **OK** to reboot Panda Alarm immediately, or click the **x** in the upper-right corner to close the pop-up without rebooting. 
 
-<img src={require('@site/docs/panda-series/module/panda-alarm/img/en/hotspot_ip.jpg').default} width="45%"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/hotspot_ip.jpg').default} width="45%"/>
 
 ### Settings
 
-<img src={require('@site/docs/panda-series/module/panda-alarm/img/en/settings.jpg').default} width="45%"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/settings.jpg').default} width="45%"/>
 
 1. Enter the `Settings` interface
 
@@ -421,17 +421,17 @@ Restoring Panda Alarm to factory settings will erase all configurations, includi
 
 - Enter ① the `Settings` interface, and click ② the `Restore Factory Settings` button.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/factory_1.jpg').default} width="45%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/factory_1.jpg').default} width="45%"/>
 
 - A confirmation pop-up will appear. Click ③ `Yes` to confirm the restoration of factory settings, and Panda Alarm will restore to factory settings and reboot.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/factory_2.jpg').default} width="45%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/factory_2.jpg').default} width="45%"/>
 
 ### Restore Factory Settings via Button
 
 Use a sharp object to press and hold down the Recovery button for 5 seconds to initiate a factory reset and reboot.
 
-<img src={require('@site/docs/panda-series/module/panda-alarm/img/recovery.jpg').default} width="45%"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/recovery.jpg').default} width="45%"/>
 
 ## Firmware
 
@@ -465,7 +465,7 @@ To request new features for future firmware, please submit them to the Panda Ala
 
             - Turn on `Wi-Fi`. Your device will automatically search for available Wi-Fi networks.
 
-                <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/wlan.jpg').default} width="45%"/>
+                <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/wlan.jpg').default} width="45%"/>
 
             * Tap the network name starting with `Panda_Alarm`, and enter the default password: `987654321`.
 
@@ -477,7 +477,7 @@ To request new features for future firmware, please submit them to the Panda Ala
 
 * In the Web UI configuration interface, go to ① `Settings`, click ② `Select .bin File`, then choose the firmware to update. After the update, the device will automatically reboot.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/firmware.jpg').default} width="45%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/firmware.jpg').default} width="45%"/>
 
 #### Flash Download Tool (Type-C Flash)
 
@@ -487,13 +487,13 @@ To request new features for future firmware, please submit them to the Panda Ala
 
 - Download [Flash Download Tool](https://www.espressif.com/en/support/download/other-tools)
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/en/download_esp_tool.webp').default} width="70%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/en/download_esp_tool.webp').default} width="70%"/>
 
 - Download the [Panda Alarm Firmware](https://github.com/bigtreetech/PandaAlarm)
 
 - Connect Panda Alarm to your computer using a `Type-C` cable. The device manager should automatically recognize a new COM port.
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/type_c.jpg').default} width="45%"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/type_c.jpg').default} width="45%"/>
 
 -  Open `flash_download_tool_3.9.8_6.exe`, and configure it as shown below:
 
@@ -503,11 +503,11 @@ To request new features for future firmware, please submit them to the Panda Ala
 
     LoadMode: `UART`
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/open_esp_tool.webp').default} width="400"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/open_esp_tool.webp').default} width="400"/>
 
 - The flash tool configuration is as follows:
 
-    <img src={require('@site/docs/panda-series/module/panda-alarm/img/set_esp_tool.webp').default} width="400"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-alarm/img/set_esp_tool.webp').default} width="400"/>
 
     1. Set the `.bin` file burn address, and ensure the checkboxes are selected:
 

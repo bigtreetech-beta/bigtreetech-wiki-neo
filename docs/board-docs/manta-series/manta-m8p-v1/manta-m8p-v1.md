@@ -15,7 +15,7 @@ import DocCardList from '@theme/DocCardList';
 
 <div class="div-table">
 
-<img 
+<ImageView 
     src={require('./img/m8p-v1-main.png').default} 
     width="45%" class="right-image"
 />

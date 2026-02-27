@@ -21,7 +21,7 @@ make menuconfig
 
 按照以下选项构建使用 `STM32G0B1` 为 `MCU` 的 `Manta M4P` USB 串口固件
 
-<img src={require('./img/manta-m4p-make-usb.png').default} alt="manta m4p with g0b1 usb"/>
+<ImageView src={require('./img/manta-m4p-make-usb.png').default} alt="manta m4p with g0b1 usb"/>
 
 当配置完成使用 `q` 来退出。使用 `y` 来保存编译选项。
 

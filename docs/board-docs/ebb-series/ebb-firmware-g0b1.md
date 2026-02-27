@@ -17,7 +17,7 @@ make menuconfig
 
 然后按照以下选项构建使用 `STM32G0B1` 为 `MCU` 的 `EBB` 固件
 
-<img
+<ImageView
     src={require('./img/ebb-g0b1-make-can.png').default}
     alt="EBB with G0B1 build config"
 />

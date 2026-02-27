@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 
 <div class="div-table">
 
-<img src={require('@site/docs/accessories-docs/display/HDMI7-v1_2-display/img/HDMI7V1.2_Title.png').default} width="50%" class="right-image"/>
+<ImageView src={require('@site/docs/accessories-docs/display/HDMI7-v1_2-display/img/HDMI7V1.2_Title.png').default} width="50%" class="right-image"/>
 
 ## 产品规格
 
@@ -32,11 +32,11 @@ import TabItem from '@theme/TabItem';
 
 ## 尺寸
 
-<img src={require('@site/docs/accessories-docs/display/HDMI7-v1_2-display/img/HDMI7V1.2_Dimension.png').default} width="80%"/>
+<ImageView src={require('@site/docs/accessories-docs/display/HDMI7-v1_2-display/img/HDMI7V1.2_Dimension.png').default} width="80%"/>
 
 ## 接口示意图
 
-<img src={require('@site/docs/accessories-docs/display/HDMI7-v1_2-display/img/HDMI7V1.2_Interface.png').default} width="80%"/>
+<ImageView src={require('@site/docs/accessories-docs/display/HDMI7-v1_2-display/img/HDMI7V1.2_Interface.png').default} width="80%"/>
 
 ## 硬件配置
 
@@ -52,19 +52,19 @@ import TabItem from '@theme/TabItem';
 
 将3.5毫米耳机/扬声器插入AUDIO接口，实现音频输出。
 
-<img src={require('@site/docs/accessories-docs/display/HDMI7-v1_2-display/img/HDMI7V1.2_Audio.png').default} width="80%"/>
+<ImageView src={require('@site/docs/accessories-docs/display/HDMI7-v1_2-display/img/HDMI7V1.2_Audio.png').default} width="80%"/>
 
 ### 屏幕亮度调整
 
 BIGTREETECH HDMI7 V1.2 支持亮度调节，可以通过 `Ks1` 按钮增加亮度，通过 `Ks3` 按钮降低亮度。
 
-<img src={require('@site/docs/accessories-docs/display/HDMI7-v1_2-display/img/HDMI7V1.2_Screen.png').default} width="80%"/>
+<ImageView src={require('@site/docs/accessories-docs/display/HDMI7-v1_2-display/img/HDMI7V1.2_Screen.png').default} width="80%"/>
 
 ### 显示方向调整
 
 BIGTREETECH HDMI7 V1.0 支持通过 `Ks2` 按钮进行水平显示方向调整。
 
-<img src={require('@site/docs/accessories-docs/display/HDMI7-v1_2-display/img/HDMI7V1.2_Display.png').default} width="80%"/>
+<ImageView src={require('@site/docs/accessories-docs/display/HDMI7-v1_2-display/img/HDMI7V1.2_Display.png').default} width="80%"/>
 
 ### 指示灯
 
@@ -94,4 +94,4 @@ hdmi_drive=1
 
 进入系统桌面后，右键单击右上角的音频源图标，然后选择HDMI。
 
-<img src={require('@site/docs/accessories-docs/display/HDMI7-v1_2-display/img/HDMI7V1.2_RPI.png').default} width="80%"/>
+<ImageView src={require('@site/docs/accessories-docs/display/HDMI7-v1_2-display/img/HDMI7V1.2_RPI.png').default} width="80%"/>

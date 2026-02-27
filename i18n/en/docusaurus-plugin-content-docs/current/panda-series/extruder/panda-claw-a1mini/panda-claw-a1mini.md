@@ -6,7 +6,7 @@ sidebar_position: 1
 
 <div class="div-table">
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Title.webp').default} width="40%" class="right-image"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Title.webp').default} width="40%" class="right-image"/>
 
 ## **Introduction**
 
@@ -43,7 +43,7 @@ Press the Toolhead Cover from both sides to unlock and remove it.
 
 Pull the protrusion on the side of the Hotend Silicone Sock by hand and remove the Sock.
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide.webp').default} width="80%"/>
 
 Remove the rotating wheel.
 
@@ -51,23 +51,23 @@ Use an H1.5 hex key to remove the two screws.
 
 Take off pressure block.
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide1.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide1.webp').default} width="80%"/>
 
 Release the hotend latch, then hold the heat sink with your hands and carefully remove the hotend.
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide2.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide2.webp').default} width="80%"/>
 
 2.Loosen the Filament Cutter
 
 Use an H2.0 hex key to remove the screw and release the filament cutter. 
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide3.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide3.webp').default} width="80%"/>
 
 Clean the Internal Filament Debris: Use tweezers and a blower to clean out any filament debris and residue.
 
 Manually rotate the yellow gear clockwise for cleaning while the power is off, or alternatively press the "retract" button on the screen while the power is on to rotate the extruder wheel to the specified angle for cleaning. 
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide4.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide4.webp').default} width="80%"/>
 
 3.Remove the Extrusion Gear
 
@@ -75,25 +75,25 @@ Manually rotate the yellow gear clockwise for cleaning while the power is off, o
 
   Be careful not to damage the black FPC cable. After removing the filament hub, you can place it on top of the tool head as shown in the picture below. 
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide5.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide5.webp').default} width="80%"/>
 
 2)Remove the Extruder Front Cover: Use an H2.0 hex key to unscrew the four screws on the front cover of the extruder.
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide6.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide6.webp').default} width="80%"/>
 
 When removing the front cover, first, slightly loosen the screw on the side, hold the top of the bracket, and remove the front cover while holding the other side.
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide7.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide7.webp').default} width="80%"/>
 
 3）Remove the Driven Wheel Bracket: Use an H2.0 hex key to unscrew the side screw and carefully remove the bracket.
 
 Be cautious as the internal spring and end cap can easily fall off. Use tweezers to carefully remove them to prevent loss.
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide8.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide8.webp').default} width="80%"/>
 
 4）Remove the Extrusion Gear: Remove the extruder gear assembly directly.
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide9.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide9.webp').default} width="80%"/>
 
 Now that you've removed the stock extruder gear, we can start installing the Panda Claw.
 
@@ -105,7 +105,7 @@ Lubricate the gear (highlighted in green in the image below) before installing t
 
 <font  color="red">**Notes: Make sure you don’t get any grease on the filament gear teeth(highlighted in blue in the image below). If you do, just wiping it off won’t help. You’ll need to wash the gear with soap to remove the grease and then apply new grease after that.**</font>
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide20.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide20.webp').default} width="80%"/>
 
 2.Install the Driven Wheel Bracket
 
@@ -115,42 +115,42 @@ Install the driven wheel bracket to the corresponding shaft. Assemble the spring
 
 Ensure that the spring and end cap are installed properly. Incorrect installation may result in the gear failing to grip the filament, leading to print failure.
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide11.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide11.webp').default} width="80%"/>
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide12.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide12.webp').default} width="80%"/>
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide13.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide13.webp').default} width="80%"/>
 
 3.Install the Extruder Front Cover
 
 Tighten the four screws located on the front cover of the extruder.
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide14.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide14.webp').default} width="80%"/>
 
 4.Tighten the Screw on the Side of the Extruder
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide15.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide15.webp').default} width="80%"/>
 
 5.Install the Filament Hub Assembly
 
 Install the filament hub assembly, ensuring that the black FPC cable is not folded and is smoothly positioned in the designated vacant space. Then, tighten the two screws to secure the filament hub in place. 
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide16.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide16.webp').default} width="80%"/>
 
 6.Install the Filament Cutter
 
 Lift the lever and slide the cutter into position along the blade groove. Secure the lever by tightening the screw.
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide17.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide17.webp').default} width="80%"/>
 
 7.Install the Hotend Assembly
 
 Hold the nozzle heat sink and align it with the mounting position. Mount the nozzle in place and engage the quick-release device. Install the Hotend Silicone Sock, then tighten the two screws to secure the pressure block in place.
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide18.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide18.webp').default} width="80%"/>
 
 Install the rotating wheel and attach the tool head front cover.
 
-<img src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide19.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/panda-series/extruder/panda-claw-a1mini/img/Panda_Claw_A1mini_Guide19.webp').default} width="80%"/>
 
 Congratulations! You've successfully upgraded to the Panda Claw. Enjoy enhanced performance and precision in your printing.

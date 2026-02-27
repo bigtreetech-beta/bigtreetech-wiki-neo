@@ -17,7 +17,7 @@ import DocCardList from '@theme/DocCardList';
 
 <div class="div-table">
 
-<img 
+<ImageView 
     src={require('@site/docs/board-docs/octopus-series/max-ez/img/maxez-main.png').default} 
     width="45%" class="right-image"
 />

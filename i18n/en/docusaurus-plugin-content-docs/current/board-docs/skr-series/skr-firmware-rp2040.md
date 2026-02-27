@@ -17,7 +17,7 @@ make menuconfig
 
 然后按照以下选项构建使用 `RP2040` 为 `MCU` 的 `SKR` 固件
 
-<img
+<ImageView
     src={require('@site/docs/board-docs/skr-series/img/skr-rp2040-make-usb.png').default}
     alt="skr rp2040 usb"
 />

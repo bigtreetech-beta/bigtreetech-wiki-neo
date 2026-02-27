@@ -17,7 +17,7 @@ make menuconfig
 
 Then build the `EBB` firmware using `STM32G0B1` as the `MCU` according to the following options.
 
-<img
+<ImageView
     src={require('@site/docs/board-docs/ebb-series/img/ebb-g0b1-make-can.png').default}
     alt="EBB with G0B1 build config"
 />

@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 
 <div class="div-table">
 
-<img src={require('./img/TFT35_E3_Title.png').default} width="45%" class="right-image"/>
+<ImageView src={require('./img/TFT35_E3_Title.png').default} width="45%" class="right-image"/>
 
 ## 产品简介
 
@@ -42,7 +42,7 @@ TFT35-E3 是一款中等尺寸、双模、超清晰的3D打印机显示器，可
 
 ## 尺寸
 
-<img src={require('./img/TFT35_E3_Diagram.png').default} width="50%"/>
+<ImageView src={require('./img/TFT35_E3_Diagram.png').default} width="50%"/>
 
 ## 接口示意图
 
@@ -56,7 +56,7 @@ TFT35-E3 是一款中等尺寸、双模、超清晰的3D打印机显示器，可
 
 :::
 
-<img src={require('./img/TFT35_E3_Interface.png').default} width="50%"/>
+<ImageView src={require('./img/TFT35_E3_Interface.png').default} width="50%"/>
 
 ## 软件配置
 

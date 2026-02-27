@@ -22,14 +22,14 @@ MMB CAN V2.0 模型 [bigtreetech/MMB/3D/BIGTREETECH MMB CAN V2.0-3D.step](https:
 
 ## 外观尺寸
 
-<img
+<ImageView
     src={require('./img/mmb_can_v2_0_dimensions.png').default}
     alt="mmb can v2" width="80%"
 />
 
 ## 引脚说明
 
-<img
+<ImageView
     src={require('./img/mmb_can_v2_0_pin.png').default}
     alt="mmb can v2" width="80%"
 />
@@ -40,42 +40,42 @@ MMB CAN V2.0 模型 [bigtreetech/MMB/3D/BIGTREETECH MMB CAN V2.0-3D.step](https:
 
 主板上电之后， 电源灯会亮起，表示供电正常。板上标识VUSB是电源选择端，仅当使用USB给主板供电时，才需要使用跳帽将VUSB短接。
 
-<img
+<ImageView
     src={require('./img/mmb_can_v2_0_usb.png').default}
     alt="mmb can v2" width="80%"
 />
 
 ### 舵机接口
 
-<img
+<ImageView
     src={require('./img/mmb_can_v2_0_mot.png').default}
     alt="mmb can v2" width="80%"
 />
 
 ### Neopixel
 
-<img
+<ImageView
     src={require('./img/mmb_can_v2_0_rgb.png').default}
     alt="mmb can v2" width="80%"
 />
 
 ### 编码器接线 
 
-<img
+<ImageView
     src={require('./img/mmb_can_v2_0_sensor.png').default}
     alt="mmb can v2" width="80%"
 />
 
 ### IIC 接线
 
-<img
+<ImageView
     src={require('./img/mmb_can_v2_0_i2c.png').default}
     alt="mmb can v2" width="80%"
 />
 
 ### 限位开关
 
-<img
+<ImageView
     src={require('./img/mmb_can_v2_0_endstop.png').default}
     alt="mmb can v2" width="80%"
 />

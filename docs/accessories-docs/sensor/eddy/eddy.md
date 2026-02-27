@@ -13,7 +13,7 @@ import TabItem from '@theme/TabItem';
 
 <!-- import lib end -->
 
-<img src={require('./img/eddy_title_1.png').default} alt="" width="600" />
+<ImageView src={require('./img/eddy_title_1.png').default} alt="" width="600" />
 
 ## **功能亮点**
 

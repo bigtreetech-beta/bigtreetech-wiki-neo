@@ -27,15 +27,15 @@ import TabItem from '@theme/TabItem';
 
 ## 尺寸
 
-<img src={require('./img/TFT35_SPI_Dimension.png').default} width="50%"/>
+<ImageView src={require('./img/TFT35_SPI_Dimension.png').default} width="50%"/>
 
 ## 接口示意图
 
-<img src={require('./img/TFT35_SPI_Interface.png').default} width="50%"/>
+<ImageView src={require('./img/TFT35_SPI_Interface.png').default} width="50%"/>
 
 ## Pinout
 
-<img src={require('./img/TFT35_SPI_Pinout.png').default} width="50%"/>
+<ImageView src={require('./img/TFT35_SPI_Pinout.png').default} width="50%"/>
 
 ## 软件安装
 
@@ -49,13 +49,13 @@ V2.2.0及更早版本的操作系统不支持 TFT35 SPI。需要使用 V2.2.1 �
 
 CB1 系统 img [bigtreetech/CB1/releases](https://github.com/bigtreetech/CB1/releases)
 
-<img src={require('./img/TFT35_SPI_Soft1.png').default} width="80%"/>
+<ImageView src={require('./img/TFT35_SPI_Soft1.png').default} width="80%"/>
 
 操作系统写入SD卡后，有一个名为 `BOOT` 的 `FAT32` 分区，用 VSCode 打开 `BoardEnv.txt` 文件。
 
 取消注释覆盖 `=tft35_spi` 以启用 tft35 spi 屏幕
 
-<img src={require('./img/TFT35_SPI_Soft2.png').default} width="80%"/>
+<ImageView src={require('./img/TFT35_SPI_Soft2.png').default} width="80%"/>
 
 :::warning[已知问题]
 
@@ -65,4 +65,4 @@ CB1 系统 img [bigtreetech/CB1/releases](https://github.com/bigtreetech/CB1/rel
 
 :::
 
-<img src={require('./img/TFT35_SPI_Soft3.png').default} width="80%"/>
+<ImageView src={require('./img/TFT35_SPI_Soft3.png').default} width="80%"/>

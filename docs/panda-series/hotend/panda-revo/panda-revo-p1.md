@@ -2,7 +2,7 @@
 
 <div class="div-table">
 
-<img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_Title.webp').default} width="40%" class="right-image"/>
+<ImageView src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_Title.webp').default} width="40%" class="right-image"/>
 
 ## **产品简介**
 
@@ -69,7 +69,7 @@ https://github.com/bigtreetech/Panda_Revo/tree/master/3D
 
 （不包括冷却风扇）用于P1系列打印机。
 
-<img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In1.webp').default} width="80%"/>
+<ImageView src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In1.webp').default} width="80%"/>
 
 该图像显示P1系列打印机的“完整热端部件”，不包括冷却风扇以供后续部件参考。
 
@@ -95,37 +95,37 @@ https://github.com/bigtreetech/Panda_Revo/tree/master/3D
 
 断开风扇连接器，完全拆下前壳体总成。
 
-<img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In2.webp').default} width="80%"/>
+<ImageView src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In2.webp').default} width="80%"/>
 
 **步骤2-断开电缆**
 
 断开hotend风扇和加热器连接器与板的连接，然后将电线从下图所示的夹子中滑出（用红色箭头指示），将其拆下。
 
-<img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In3.webp').default} width="80%"/>
+<ImageView src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In3.webp').default} width="80%"/>
 
 **步骤3-拆除热端组件**
 
 用H2.0六角扳手拆下2个螺钉，然后轻轻向下拉，继续拆下杆和组件。
 
-<img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In4.webp').default} width="80%"/>
+<ImageView src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In4.webp').default} width="80%"/>
 
 **步骤4–转移散热器风扇**
 
 拧松固定风扇的两个螺钉以卸下散热器风扇。
 
-<img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In5.webp').default} width="80%"/>
+<ImageView src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In5.webp').default} width="80%"/>
 
 并将其安装到您的全新Panda Revo上。
 
-<img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In6.webp').default} width="80%"/>
+<ImageView src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In6.webp').default} width="80%"/>
 
 确保根据图片将电缆放置在电缆导槽中，使HeaterCore套管的平面与散热器的侧面平行。
 
-<img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In7.webp').default} width="80%"/>
+<ImageView src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In7.webp').default} width="80%"/>
 
 下图显示了“完整的热端组件”，供您参考。
 
-<img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In8.webp').default} width="80%"/>
+<ImageView src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In8.webp').default} width="80%"/>
 
 ### 装配
 
@@ -133,7 +133,7 @@ https://github.com/bigtreetech/Panda_Revo/tree/master/3D
 
 将Panda Revo hotend组件插入挤出机，然后拧紧2个螺钉。
 
-<img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In9.webp').default} width="80%"/>
+<ImageView src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In9.webp').default} width="80%"/>
 
 :::info
 
@@ -145,19 +145,19 @@ https://github.com/bigtreetech/Panda_Revo/tree/master/3D
 
 将电线重新插入夹子（将连接器重新插入板上加热器的下部插槽和hotend风扇的中间插槽）。
 
-<img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In10.webp').default} width="80%"/>
+<ImageView src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In10.webp').default} width="80%"/>
 
 **步骤3-安装前壳体**
 
 通过将风扇连接器重新连接到板上（最上面的插槽）来连接外壳组件，然后关闭前外壳组件盖。
 
-<img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In11.webp').default} width="80%"/>
+<ImageView src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In11.webp').default} width="80%"/>
 
 ## 如何验证
 
 打开打印机电源并运行设备的**校准**过程。如果流程通过，则表示操作已成功。
 
-<img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In12.webp').default} width="80%"/>
+<ImageView src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In12.webp').default} width="80%"/>
 
 ## 切片器设置
 
@@ -166,14 +166,14 @@ https://github.com/bigtreetech/Panda_Revo/tree/master/3D
 请在此处找到更详细的切片机设置指南:
 https://e3d-online.zendesk.com/hc/en-us/articles/4777443097757-Filament-Starter-Settings
 
-<img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_Nozzle.webp').default} width="80%"/>
+<ImageView src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_Nozzle.webp').default} width="80%"/>
 
 单击“编辑图标”并输入断料检测设置。
 
-<img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In13.webp').default} width="80%"/>
+<ImageView src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In13.webp').default} width="80%"/>
 
 将“耗材”下的“最大体积速度”更改为35-40左右，具体取决于您使用的耗材。
 
 如果观察到挤出不足的迹象，请降低此数字，直到恢复打印质量。
 
-<img src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In14.webp').default} width="80%"/>
+<ImageView src={require('./img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In14.webp').default} width="80%"/>

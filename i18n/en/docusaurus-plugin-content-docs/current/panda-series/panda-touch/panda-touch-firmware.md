@@ -19,13 +19,13 @@ After initial startup or executing the `factory reset` command, you will see the
 
 ### Language Selection Guide
 
-<img src={require('@site/docs/panda-series/panda-touch/img/language_guide.png').default} alt="" width="600" />
+<ImageView src={require('@site/docs/panda-series/panda-touch/img/language_guide.png').default} alt="" width="600" />
 
 * Select a language for Panda Touch, then tap `Next`
 
 ### WiFi Connection Guide
 
-<img src={require('@site/docs/panda-series/panda-touch/img/guide_wifi.png').default} alt="" width="600" />
+<ImageView src={require('@site/docs/panda-series/panda-touch/img/guide_wifi.png').default} alt="" width="600" />
 
 During the initial setup process, Panda Touch will scan for WiFi networks and display up to 20 networks with the strongest signal strength. If you cannot find the desired network in the list, tap `Refresh`, and Panda Touch will rescan for WiFi networks.
 >Note:
@@ -41,7 +41,7 @@ Translated with DeepL.com (free version)
 
 ### 打印机连接菜单
 
-<img src={require('@site/docs/panda-series/panda-touch/img/guide_printer.png').default} alt="" width="600" />
+<ImageView src={require('@site/docs/panda-series/panda-touch/img/guide_printer.png').default} alt="" width="600" />
 
 There are two possible methods to connect Panda Touch to a printer.
     1. Automatic scanning (recommended).
@@ -55,19 +55,19 @@ During this process, you may need to enter connection details. These can be foun
 
 * Navigate to `Settings -> WLAN` on the LCD menu, then click `OK`.
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/p1_1.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/p1_1.png').default} alt="" width="600" />
 
 * Enter the IP address and access code in the corresponding Panda Touch input fields (the access code is used for automatic scanning only).
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/p1_2.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/p1_2.png').default} alt="" width="600" />
 
 * In the screen menu, locate `Settings -> Device`, then click `OK`.
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/p1_3.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/p1_3.png').default} alt="" width="600" />
 
 * Enter the serial number code in the corresponding Panda Touch input field.
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/p1_4.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/p1_4.png').default} alt="" width="600" />
 
 #### Auto Scan
 
@@ -116,7 +116,7 @@ Please follow the steps below to switch the communication method between Panda T
 #### Log in to your Takitake account
 * Click to jump to the setting page, and then click the `Login to Takitake Account` button. 
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/add_account.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/add_account.png').default} alt="" width="600" />
 
 * Select your region by clicking the arrow in the upper right corner of the pop-up window.
 
@@ -124,7 +124,7 @@ Please follow the steps below to switch the communication method between Panda T
 
 ::::info How to find bambulab account
 
-<img src={require('@site/docs/panda-series/panda-touch/img/login.png').default} alt="" width="600" />
+<ImageView src={require('@site/docs/panda-series/panda-touch/img/login.png').default} alt="" width="600" />
 
 :::warning know issue
 
@@ -132,7 +132,7 @@ Currently, 2-step authentication needs to be turned off to enable Cloud Mode on 
 
 :::
 
-<img src={require('@site/docs/panda-series/panda-touch/img/input_account.png').default} alt="" width="600" />
+<ImageView src={require('@site/docs/panda-series/panda-touch/img/input_account.png').default} alt="" width="600" />
 
 ::::
 
@@ -142,18 +142,18 @@ Currently, 2-step authentication needs to be turned off to enable Cloud Mode on 
 
 * Perform this action only if all printers are running in Cloud Mode, if the printer has `LAN Only` mode turned on, this action can be skipped. To change the communication method between PandaTouch and printers see [How to switch the communication method between PandaTouch and printers](#How to switch the communication method between pandatouch and printers)
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/login_ok.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/login_ok.png').default} alt="" width="600" />
 
 * Click `Yes' if you want to convert the communication between your existing printer and PandaTouch to cloud mode. 
 
 * The printer must be on the same network as the PandaTouch during this process. If the network connection is poor, you may need to re-edit the printer's IP address.
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/sync_ok.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/sync_ok.png').default} alt="" width="600" />
 
 * Once the printer is working in cloud mode, you will notice a green cloud associated with its card in the multi-printer view. The cloud indicates how the printer is communicating with PandaTouch.
 
 * You will also notice a pair of green arrows indicating the connection status to that printer.
-    <img src={require('@site/docs/panda-series/panda-touch/img/cloud_mode.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/cloud_mode.png').default} alt="" width="600" />
 
 #### How to delete a logged in account
 
@@ -161,7 +161,7 @@ Currently, 2-step authentication needs to be turned off to enable Cloud Mode on 
 
 * After deleting the account information, the communication mode between the PandaTouch and the printer will be changed to local mode. Please note that this will not set the printer itself to `LAN only` mode, but will tell the Panda Touch to only use LAN mode to talk to the printer, which may result in some loss of functionality.
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/del_account.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/del_account.png').default} alt="" width="600" />
 
 #### How to switch the communication between PandaTouch and the printer
 
@@ -174,7 +174,7 @@ Currently, 2-step authentication needs to be turned off to enable Cloud Mode on 
 
 The cloud account must be enabled in the setup menu or the communication method between this printer and PandaTouch will not be set to cloud mode.
 
-<img src={require('@site/docs/panda-series/panda-touch/img/switch_work_mode.png').default} alt="" width="600" />
+<ImageView src={require('@site/docs/panda-series/panda-touch/img/switch_work_mode.png').default} alt="" width="600" />
 
 :::
 
@@ -187,19 +187,19 @@ The cloud account must be enabled in the setup menu or the communication method 
 
 - Letters Input 
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/keyboard_letter.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/keyboard_letter.png').default} alt="" width="600" />
 
 - Symbol Input
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/keyboard_symbol.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/keyboard_symbol.png').default} alt="" width="600" />
 
 - Number Inputs
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/keyboard_number.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/keyboard_number.png').default} alt="" width="600" />
 
 ## Print jobs and thumbnail displays
 
-<img src={require('@site/docs/panda-series/panda-touch/img/thumbnail_preview.png').default} alt="" width="600" />
+<ImageView src={require('@site/docs/panda-series/panda-touch/img/thumbnail_preview.png').default} alt="" width="600" />
 
 :::info
 
@@ -217,18 +217,18 @@ The Panda Touch allows the user to configure the type and color of consumables u
 
 When performing any operation, make sure the correct AMS unit and filament slot are selected. You will know that a consumable is selected when it has a red border around it. If nothing is selected, the `Load` and `Unload` buttons will be grayed out.
 
-<img src={require('@site/docs/panda-series/panda-touch/img/filament_screen.png').default} alt="" width="600" />
+<ImageView src={require('@site/docs/panda-series/panda-touch/img/filament_screen.png').default} alt="" width="600" />
 
 ## Supplies Drying 
 The Panda Touch allows the user to dry supplies on the X1 Series and P1S. 
 
 * Click on the Dry button
 
-<img src={require('@site/docs/panda-series/panda-touch/img/drying.png').default} alt="" width="500" />
+<ImageView src={require('@site/docs/panda-series/panda-touch/img/drying.png').default} alt="" width="500" />
 
 * Follow the steps on the right
 
-<img src={require('@site/docs/panda-series/panda-touch/img/filament_dry.png').default} alt="" width="500" />
+<ImageView src={require('@site/docs/panda-series/panda-touch/img/filament_dry.png').default} alt="" width="500" />
 
 ## Part Skip
 
@@ -242,11 +242,11 @@ Not available in the following cases
 
 :::
 
-<img src={require('@site/docs/panda-series/panda-touch/img/skip_objects.gif').default} alt="" width="500" />
+<ImageView src={require('@site/docs/panda-series/panda-touch/img/skip_objects.gif').default} alt="" width="500" />
 
 ## HMS (Health Management System)
 
-<img src={require('@site/docs/panda-series/panda-touch/img/hms.png').default} alt="" width="600" />
+<ImageView src={require('@site/docs/panda-series/panda-touch/img/hms.png').default} alt="" width="600" />
 
 * Tap the title bar of Panda Touch and the HMS Notification Center menu will expand.
 * The Panda Touch will automatically expand the HMS Notification Center when a new HMS notification is detected.
@@ -263,19 +263,19 @@ Panda Touch allows you to create up to 10 groups, each of which can contain sing
 
 * Click + in the list of connected printers to bring up the multifunction menu.
     
-    <img src={require('@site/docs/panda-series/panda-touch/img/press_plus.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/press_plus.png').default} alt="" width="600" />
 
 * Select the Add Group option.
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/press_add_group.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/press_add_group.png').default} alt="" width="600" />
 
 * Select the printers to be added to the group and make sure that one of them is selected as the host (the other printers in the group will follow the commands sent to the host).
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/group_choose_printer.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/group_choose_printer.png').default} alt="" width="600" />
 
 * Click Next, enter a group name, and click `OK'.
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/group_name.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/group_name.png').default} alt="" width="600" />
 
 * Now you can see the group in the list of printers, clicking on the group will allow you to control the entire group, but the controls displayed will be those of the group leader.
 
@@ -285,7 +285,7 @@ Panda Touch allows you to create up to 10 groups, each of which can contain sing
 * If you send a command to an individual printer that takes some time (such as homing) and then send a command to the group it belongs to, the second command will be ignored if the first one is still busy.
 * To control an entire group, simply click on the card that corresponds to that group and you will notice that the name in the top bar changes to the name of the group and the name of the host, separated by a forward slash. You can now send commands to the group leader and the other printers in the group will follow.
 
-<img src={require('@site/docs/panda-series/panda-touch/img/add_group_ok.png').default} alt="" width="600" />
+<ImageView src={require('@site/docs/panda-series/panda-touch/img/add_group_ok.png').default} alt="" width="600" />
 
 ### Precautions for printing from USB
 
@@ -294,7 +294,7 @@ Please note the following points when attempting to print from USB.
 * Ensure that the file system of the USB flash drive is formatted as `FAT32`.
 * Use the `Export All Disks` option to export `.3mf` files from Bambu Studio or Orca Slicer.
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/export_3mf.png').default} alt="" width="300" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/export_3mf.png').default} alt="" width="300" />
 
 * Write the sliced `.3mf` file to the root directory of the USB storage device.
 
@@ -304,7 +304,7 @@ Please note the following points when attempting to print from USB.
 
 * Insert a USB storage device into Panda Touch and go to the `USB Storage Device` menu.
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/usb_flash_drive.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/usb_flash_drive.png').default} alt="" width="600" />
 
 ### Start printing using one printer
 
@@ -317,7 +317,7 @@ Please note the following points when attempting to print from USB.
     * `Auto Power Off` (Automatically recognizes the online Panda PWR and turns on the auto power off feature)
     * `Clear Power Usage` (Automatically recognizes the Panda PWR online and resets the power usage of the Panda PWR).
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/start_print_one.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/start_print_one.png').default} alt="" width="600" />
 
 * Make sure that the `.3mf` file of the slice is compatible with the selected printer.
 * If using AMS, make sure that the consumables in the AMS tray match the consumables in the sliced `.3mf` file, as consumables cannot be dynamically mapped at the start of printing.
@@ -326,13 +326,13 @@ Please note the following points when attempting to print from USB.
     1. a MicroSD card is inserted in the printer.
     2. the remaining capacity of the MicroSD card is sufficient to write the files to be uploaded.
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/uploading.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/uploading.png').default} alt="" width="600" />
 
 * When uploading is complete, printing will begin. For very large `.3mf` files, the transfer to each printer may take several minutes.
 
 * Once printing has started, Panda Touch will automatically jump to the main screen and display the printer data.
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/start_print_one_ing.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/start_print_one_ing.png').default} alt="" width="600" />
 
 ### Group printing
 
@@ -348,7 +348,7 @@ Please note the following points when attempting to print from USB.
 
 * Checkbox print options for a particular group will be based on the features available on the most powerful machine in the group. For example, if you are using a group that contains X1C\P1P\P1S, you will have the Lidar Scan option available, but this option will only be sent to printers in the group that support it.
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/start_print.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/start_print.png').default} alt="" width="600" />
 
 * Panda Touch will generate a list of available printers for you to choose from.
 * Printers and groups that are already busy will be excluded from this list. This means that if a single printer in a group is already busy, you will not be able to print to any of the printers in that group. This allows groups to always stay synchronized with each other.
@@ -360,12 +360,12 @@ Please note the following points when attempting to print from USB.
     1. a MicroSD card is inserted in the printer.
     2. the remaining capacity of the MicroSD card is sufficient to write the files to be uploaded.
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/udisk_upload.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/udisk_upload.png').default} alt="" width="600" />
 
 
 * When uploading is complete, printing will begin. For very large `.3mf' files, transfer to each printer may take several minutes.
 
-    <img src={require('@site/docs/panda-series/panda-touch/img/group_printing.png').default} alt="" width="600" />
+    <ImageView src={require('@site/docs/panda-series/panda-touch/img/group_printing.png').default} alt="" width="600" />
 
 * After you start printing, you will be taken to the Print Summary page where the status of each printer in the group is summarized on a separate card.
 
@@ -373,7 +373,7 @@ Please note the following points when attempting to print from USB.
 
 When a group is selected and multiple printers in the group are busy printing, the Panda Touch displays the `Multiple Printing` menu as shown below.
 
-<img src={require('@site/docs/panda-series/panda-touch/img/multi_printing.png').default} alt="" width="600" />
+<ImageView src={require('@site/docs/panda-series/panda-touch/img/multi_printing.png').default} alt="" width="600" />
 
 The following groups of controls exist in this menu:
 
@@ -385,4 +385,4 @@ The following groups of controls exist in this menu:
 
 The delay is based on this time during group printing, so that if the current printer heats up or the time is up, the print job is sent to the next one.
 
-<img src={require('@site/docs/panda-series/panda-touch/img/group_delay.png').default} alt="" width="600" />
+<ImageView src={require('@site/docs/panda-series/panda-touch/img/group_delay.png').default} alt="" width="600" />
