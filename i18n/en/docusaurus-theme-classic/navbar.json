@@ -34,5 +34,9 @@
   "item.label.Panda Series": {
     "message": "Panda Series",
     "description": "Navbar item with label Panda Series"
+  },
+  "item.label.Accessories": {
+    "message": "Accessories",
+    "description": "Navbar item with label Accessories"
   }
 }
