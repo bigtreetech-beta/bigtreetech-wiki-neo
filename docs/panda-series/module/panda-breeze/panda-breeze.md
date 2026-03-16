@@ -78,7 +78,7 @@ BIQU Panda Breeze 专为 Bambu Lab A1 打印机设计，安装于 X 轴，采用
 
 <ImageView src={require('./img/panda_breeze_installation14.webp').default} width="80%"/>
 
-10、打印makerworld（[https://makerworld.com/en/models/1698174-panda-breeze-printed-parts#profileId-1800624](#profileId-1800624)）上提供的侧盖，安装回走线槽，固定线材
+10、打印 [makerworld](https://makerworld.com/en/models/1698174-panda-breeze-printed-parts#profileId-1800624) 上提供的侧盖，安装回走线槽，固定线材
 
 <ImageView src={require('./img/panda_breeze_installation16.webp').default} width="80%"/>
 

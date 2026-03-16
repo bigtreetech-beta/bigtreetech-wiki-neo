@@ -143,15 +143,11 @@ Panda RGB Controller是一款用于无线控制RGB灯带的产品，搭配外接
 
     <img src={require('./img/panda_rgb_controller_install18.webp').default} width="60%"/>
 
-## 用户首次使用WebUI指南
-
-<a id="first-connection"></a>
+## 用户首次使用WebUI指南 {#first-connection}
 
 首次连接电源后或执行“恢复出厂设置”命令后，您将看到蓝色跑马灯，代表此时Panda_RGB_Controller没有绑定打印机。
 
-### WiFi连接指南
-
-<a id="ap-connect"></a>
+### WiFi连接指南 {#wifi-connect}
 
 - 连接设备WiFi_AP热点
   
@@ -168,8 +164,6 @@ Panda RGB Controller是一款用于无线控制RGB灯带的产品，搭配外接
     - 选择语言后可点击下一步
 
         <img src={require('./img/panda_rgb_controller_language.webp').default} width="60%"/>
-
-<a id="wifi-connect"></a>
   
 - WiFi连接界面
 
@@ -203,9 +197,7 @@ Panda RGB Controller是一款用于无线控制RGB灯带的产品，搭配外接
 
             <img src={require('./img/panda_rgb_controller_wifi_ok.webp').default} width="60%"/>  
 
-<a id="printer-bind"></a>
-
-### 绑定打印机
+### 绑定打印机 {#printer-bind}
 
 - 功能介绍
 
@@ -284,7 +276,7 @@ Panda RGB Controller是一款用于无线控制RGB灯带的产品，搭配外接
 
 - 5.热点IP(默认的热点 IP 为: 192.168.254.1, 如果您自己路由器的 IP 号段也为 192.168.254.xxx, Panda RGB Controller 与路由器的 IP 号段相同就会产生冲突, 并且导致 Panda RGB Controller 无法正常绑定到打印机, 请手动修改 Panda RGB Controller 的热点 IP 使其与路由器使用不同的 IP 号段)
 
-- 6.点击确认会重启设备，重启完成后可连接ap热点。([如何连接ap热点](#ap-connect))
+- 6.点击确认会重启设备，重启完成后可连接ap热点。([如何连接ap热点](#wifi-connect))
 
 ### 设置界面
 
@@ -342,11 +334,9 @@ Panda RGB Controller是一款用于无线控制RGB灯带的产品，搭配外接
 
         <img src={require('./img/panda_rgb_controller_warning_mode.webp').default} width="60%"/>
 
-    - 6.选择后，可以根据打印机调整灯光的颜色。你可以点击idle[自定义RGB](#Customizing-Light-Color)在打印机空闲时的颜色
+    - 6.选择后，可以根据打印机调整灯光的颜色。你可以点击idle`自定义RGB`在打印机空闲时的颜色
 
         <img src={require('./img/panda_rgb_controller_h2d_mode.webp').default} width="60%"/>
-
-<a id="Customizing-Light-Color"></a>
 
 - 自定义灯光颜色（以静态模式为例）
 
