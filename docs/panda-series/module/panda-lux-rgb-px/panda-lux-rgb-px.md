@@ -130,65 +130,55 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
 
 <img src={require('./img/panda_lux_rgb_px_install13.webp').default} width="60%"/>
 
-## 用户首次连接指南
-
-<a id="first-connection"></a>
+## 用户首次连接指南 {#first-connection}
 
 首次连接电源后或执行“恢复出厂设置”命令后，您将看到蓝色跑马灯，代表此时Panda_Lux_RGB PX 没有绑定打印机。
 
-<a id="ap-connect"></a>
+### 连接设备WiFi_AP热点 {#ap-connect}
 
-- 连接设备WiFi_AP热点
+连接上Panda_Lux_RGB PX 发出来的AP热点: `Panda_Lux_RGB_XXXXXXXXXX`. 默认密码是 `987654321`.
 
-    - 连接上Panda_Lux_RGB PX 发出来的AP热点: `Panda_Lux_RGB_XXXXXXXXXX`. 默认密码是 `987654321`.
+<img src={require('./img/panda_lux_rgb_px_guide1.webp').default} width="60%"/>
 
-        <img src={require('./img/panda_lux_rgb_px_guide1.webp').default} width="60%"/>
+### 连接设备WiFi_AP热点 {#ap-connect}
 
-<a id="ap-connect"></a>
+连接上Panda_Lux_RGB PX 发出来的AP热点: `Panda_Lux_RGB_XXXXXXXXXX`. 默认密码是 `987654321`.
 
-- 连接设备WiFi_AP热点
+<img src={require('./img/panda_lux_rgb_px_guide2.webp').default} width="60%"/>
 
-    - 连接上Panda_Lux_RGB PX 发出来的AP热点: `Panda_Lux_RGB_XXXXXXXXXX`. 默认密码是 `987654321`.
+### WiFi连接界面 {#wifi-connect}
 
-        <img src={require('./img/panda_lux_rgb_px_guide2.webp').default} width="60%"/>
+- 首次出厂或恢复出厂设置后，进入此页面会自动扫描周围WiFi，或者手动点击扫描。
 
-<a id="wifi-connect"></a>
+    <img src={require('./img/panda_lux_rgb_px_guide3.webp').default} width="60%"/>
 
-- WiFi连接界面
+- 扫描完成后会弹出`扫描完成`弹窗提示，点击OK关闭提示。
 
-    - 首次出厂或恢复出厂设置后，进入此页面会自动扫描周围WiFi，或者手动点击扫描。
+    <img src={require('./img/panda_lux_rgb_px_guide4.webp').default} width="60%"/>
 
-        <img src={require('./img/panda_lux_rgb_px_guide3.webp').default} width="60%"/>
+- 点击Wi-Fi下方的选项，选择想要连接的WiFi
 
-    - 扫描完成后会弹出`扫描完成`弹窗提示，点击OK关闭提示。
+    <img src={require('./img/panda_lux_rgb_px_guide5.webp').default} width="60%"/>
 
-        <img src={require('./img/panda_lux_rgb_px_guide4.webp').default} width="60%"/>
+- 输入密码，可点击密码框内右侧的`眼睛`图标来显示输入的密码
 
-    - 点击Wi-Fi下方的选项，选择想要连接的WiFi
+    <img src={require('./img/panda_lux_rgb_px_guide6.webp').default} width="60%"/>
 
-        <img src={require('./img/panda_lux_rgb_px_guide5.webp').default} width="60%"/>
+- 点击连接，界面会自动跳转到操作界面中的`WiFi`界面, 并显示WiFi连接中
 
-    - 输入密码，可点击密码框内右侧的`眼睛`图标来显示输入的密码
+    <img src={require('./img/panda_lux_rgb_px_guide7.webp').default} width="60%"/>
 
-        <img src={require('./img/panda_lux_rgb_px_guide6.webp').default} width="60%"/>
+- 等待连接一段时间后，会弹出WiFi连接的状态弹窗
 
-    - 点击连接，界面会自动跳转到操作界面中的`WiFi`界面, 并显示WiFi连接中
+    - 连接失败:
 
-        <img src={require('./img/panda_lux_rgb_px_guide7.webp').default} width="60%"/>
+        <img src={require('./img/panda_lux_rgb_px_guide8.webp').default} width="60%"/>
 
-    - 等待连接一段时间后，会弹出WiFi连接的状态弹窗
+    - 连接成功，可选择点击[绑定打印机](#printer-bind)跳转到`打印机界面`，也可点击`取消`，继续待在`WiFi界面`
 
-        - 连接失败:
+        <img src={require('./img/panda_lux_rgb_px_guide9.webp').default} width="60%"/>
 
-            <img src={require('./img/panda_lux_rgb_px_guide8.webp').default} width="60%"/>
-
-        - 连接成功，可选择点击[绑定打印机](#printer-bind)跳转到`打印机界面`，也可点击`取消`，继续待在`WiFi界面`
-
-            <img src={require('./img/panda_lux_rgb_px_guide9.webp').default} width="60%"/>
-
-<a id="printer-bind"></a>
-
-### 绑定打印机
+### 绑定打印机 {#printer-bind}
 
 - 功能介绍
 

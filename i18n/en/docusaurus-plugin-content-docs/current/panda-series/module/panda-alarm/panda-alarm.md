@@ -522,8 +522,6 @@ To request new features for future firmware, please submit them to the Panda Ala
     3. Click `START` to begin flashing. Wait for the process to complete, then turn the device off and on to restart.
 
 
-<a id="firmware_history"></a>
-
 ### Firmware History
 
 #### [V1.0.0](https://github.com/bigtreetech/PandaAlarm/tree/master/Firmware/v1.0.0)
