@@ -51,7 +51,7 @@ jobs:
 
     # to aliyun oss 
     - name: setup aliyun oss
-      uses: manyuanrong/setup-ossutil@master
+      uses: Neko-vecter/actions-ossutil@main
       with:
         endpoint: oss-cn-shenzhen.aliyuncs.com
         access-key-id: ${{ secrets.OSS_KEY_ID }}
