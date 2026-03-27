@@ -92,7 +92,7 @@ ssh 软件 [mobaxterm](https://mobaxterm.mobatek.net/download-home-edition.html)
 
 <ImageView src={require('./img/AngryIP.webp').default} width="60%"/>
 
-打开已经安装的 Mobaxterm 软件，点击“Session”，在弹出的窗口中点击“SSH”，在Remote host 一栏中输入设备的 IP 地址，点击“OK”（
+打开已经安装的 Mobaxterm 软件，点击“Session”，在弹出的窗口中点击“SSH”，在Remote host 一栏中输入设备的 IP 地址，点击“OK”
 
 :::note
 
