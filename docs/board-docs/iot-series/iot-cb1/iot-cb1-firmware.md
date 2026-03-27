@@ -15,23 +15,23 @@ description: CB1 固件配置
 
 系统镜像烧录完成后，Micro SD 卡会有一个被电脑识别的 FAT32 分区，此分区下有个名为 `system.cfg` 的配置文件
 
-<ImageView src={require("./img/system.webp").default} width="60%"/>
+<ImageView src={require('./img/system.webp').default} width="60%"/>
 
 用记事本打开，将 WIFI-SSID 替换为实际的 WIFI 名称，PASSWORD 替换为实际的密码
 
 例如: `WIFI_SSID="CB1 Tester"`
 
-<ImageView src={require("./img/wifi.webp").default} width="60%"/>
+<ImageView src={require('./img/wifi.webp').default} width="60%"/>
 
 ## Overlays Settings
 
 操作系统写入SD卡后，有一个名为 `BOOT` 的FAT32分区。`VSCode` 打开 `BoardEnv.txt` 文件。
 
-<ImageView src={require("./img/BoardEnv.webp").default} width="60%"/>
+<ImageView src={require('./img/BoardEnv.webp').default} width="60%"/>
 
 根据需要进行设置，如下图所示。
 
-<ImageView src={require("./img/overlays.webp").default} width="60%"/>
+<ImageView src={require('./img/overlays.webp').default} width="60%"/>
 
 默认值为“console=display”，这意味着CB1的“UART0”默认用作调试端口。我们可以使用“MobaXterm”通过UART0连接到CB1并进行调试。如果klipper想要使用`UART0`来控制主板，我们需要将其设置为`console=serial`，现在klippe可以将`UART0'用作`/dev/ttyS0`。
 
@@ -86,11 +86,11 @@ ssh 软件 [mobaxterm](https://mobaxterm.mobatek.net/download-home-edition.html)
 
 进入路由器管理界面找到设备的 IP
 
-<ImageView src={require("./img/Router.webp").default} width="60%"/>
+<ImageView src={require('./img/Router.webp').default} width="60%"/>
 
 或者使用 [angryip](https://angryip.org)，扫描当前网络中的所有IP地址，找到名为 BTT-CB1 的IP。
 
-<ImageView src={require("./img/AngryIP.webp").default} width="60%"/>
+<ImageView src={require('./img/AngryIP.webp').default} width="60%"/>
 
 打开已经安装的 Mobaxterm 软件，点击“Session”，在弹出的窗口中点击“SSH”，在Remote host 一栏中输入设备的 IP 地址，点击“OK”（
 
@@ -100,7 +100,7 @@ ssh 软件 [mobaxterm](https://mobaxterm.mobatek.net/download-home-edition.html)
 
 :::
 
-<ImageView src={require("./img/MobaXterm_Login.webp").default} width="60%"/>
+<ImageView src={require('./img/MobaXterm_Login.webp').default} width="60%"/>
 
 输入登录名和登录密码进入 SSH 终端界面
 
@@ -125,7 +125,7 @@ CB1 系统镜像 [CB1/release](https://github.com/bigtreetech/CB1/releases)
 
 选择下载到电脑中的镜像
 
-<ImageView src={require("./img/Etcher_1.webp").default} width="600"/>
+<ImageView src={require('./img/Etcher_1.webp').default} width="600"/>
 
 选择待烧录的 Micro SD 卡。点击 `Flash`
 
@@ -135,8 +135,8 @@ CB1 系统镜像 [CB1/release](https://github.com/bigtreetech/CB1/releases)
 
 :::
 
-<ImageView src={require("./img/Etcher_2.webp").default} width="600"/>
+<ImageView src={require('./img/Etcher_2.webp').default} width="600"/>
 
 等待烧录完成
 
-<ImageView src={require("./img/Etcher_3.webp").default} width="600"/>
+<ImageView src={require('./img/Etcher_3.webp').default} width="600"/>

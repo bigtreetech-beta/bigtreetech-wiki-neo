@@ -7,7 +7,7 @@ description: CB1 硬件
 
 ## 外观尺寸
 
-<ImageView src={require("./img/cb1-size.webp").default} width="80%"/>
+<ImageView src={require('./img/cb1-size.webp').default} width="80%"/>
 
 ## 原理图
 

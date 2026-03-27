@@ -9,7 +9,7 @@ import DocCardList from '@theme/DocCardList';
 
 <div class="div-table">
 
-<ImageView src={require("./img/cb1-title.webp").default} width="40%" class="right-image"/>
+<ImageView src={require('./img/cb1-title.webp').default} width="40%" class="right-image"/>
 
 ## 产品简介
 
