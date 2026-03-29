@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-description: CB1 固件配置
+description: CB1 软件配置
 ---
 
 # CB1 软件配置
