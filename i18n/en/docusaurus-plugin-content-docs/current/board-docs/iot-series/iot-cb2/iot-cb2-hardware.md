@@ -1,17 +1,17 @@
 ---
 sidebar_position: 2
-description: CB2 硬件
+description: CB2 Hardware
 ---
 
-# CB2 硬件
+# CB2 Hardware
 
-## 尺寸图
+## Size
 
-<ImageView src={require('./img/cb2-dimensions.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/cb2-dimensions.webp').default} width="80%"/>
 
-## 外设接口
+## Pinout
 
-### Pin 脚说明
+### Pin info
 
 | <font  color="red">PIN</font> | <font  color="red">Connector</font> |        <font  color="red">Signal</font>        |      <font  color="red">Description</font>      |
 | :---------------------------: | :---------------------------------: | :--------------------------------------------: | :---------------------------------------------: |
@@ -216,21 +216,21 @@ description: CB2 硬件
 |              199              |           B connector_99            |        <font  color="green">HSDA</font>        |      <font  color="green">HDMI I2C</font>       |
 |              200              |           B connector_100           |        <font  color="green">HSCL</font>        |      <font  color="green">HDMI I2C</font>       |
 
-## 接口介绍
+## Interface Overview
 
-### SW1 按键说明
+### SW1 Button Description
 
-SW1 按住会将 eMMC 信号线与 GND 短路，禁止主控与 eMMC 通信。
+Pressing and holding SW1 shorts the eMMC signal line to GND, preventing communication between the controller and the eMMC.
 
-<ImageView src={require('./img/cb2-interface1.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/cb2-interface1.webp').default} width="80%"/>
 
-<ImageView src={require('./img/cb2-interface2.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/cb2-interface2.webp').default} width="80%"/>
 
 ### 40 pin GPIO
 
-<ImageView src={require('./img/pi2-gpio.webp').default} width="80%"/>
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/pi2-gpio.webp').default} width="80%"/>
 
-GPIO 引脚的计算方式如下：
+The GPIO pins are calculated as follows:
 
 GPIO4_B2 = (‘B’ - ‘A’) * 8 + 2 = 1 * 8 + 2 = gpiochip4/gpio10
 

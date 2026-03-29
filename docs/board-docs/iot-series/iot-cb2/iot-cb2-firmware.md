@@ -16,7 +16,7 @@ import TabItem from '@theme/TabItem';
 
 ### 下载系统镜像
 
-:::info[CB1 系统]
+:::info[CB2 系统]
 
 CB2 系统镜像 [CB2/releases](https://github.com/bigtreetech/releases)
 
@@ -236,7 +236,7 @@ aplay -l
 <ImageView src={require('./img/CB2_System29.webp').default} width="60%"/>
 
 ```shll
-amixer -c 0 contents **(0 表示的上述的 aplay -l 所找到的 card 0)**
+amixer -c 0 contents # 0 表示的上述的 aplay -l 所找到的 card 0
 ```
 
 查看播放通道和录音通道设置，如下图所示：
