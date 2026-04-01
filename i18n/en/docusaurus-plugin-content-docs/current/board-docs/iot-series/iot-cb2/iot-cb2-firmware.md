@@ -18,7 +18,7 @@ import TabItem from '@theme/TabItem';
 
 :::info[CB2 System]
 
-CB2 System image [CB2/releases](https://github.com/bigtreetech/releases)
+CB2 System image [CB2/releases](https://github.com/bigtreetech/CB2/releases)
 
 :::
 
@@ -35,7 +35,7 @@ CB2 System image [CB2/releases](https://github.com/bigtreetech/releases)
             <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System1.webp').default} width="60%"/>
 
         4. Select the Micro SD card you want to flash, then click "Flash"
-        
+
             :::warning
 
             Flashing the image will format the microSD card
@@ -44,66 +44,226 @@ CB2 System image [CB2/releases](https://github.com/bigtreetech/releases)
 
             <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System2.webp').default} width="60%"/>
 
-        5. Wait for the burn process to complete
+        5. Wait for the write process to complete
 
             <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System3.webp').default} width="60%"/>
     </TabItem>
     <TabItem value="cb2-emmc" label="Using eMMC">
-        Use RKDevTool (Windows) to flash the system to the eMMC
+        :::info
 
-        Download RKDevTool to your computer and extract it. Make sure not to insert a MicroSD card.
+        We can write the system to eMMC using either the `Computer (Windows) Flashing` or `SD Card Flashing` steps. Just choose a way that suits you.
 
-        https://github.com/bigtreetech/CB2
+        :::
+        <Tabs groupId="emmc-write">
+            <TabItem value="emmc-windows" label="Computer (Windows) Flashing" default>
+                :::note
 
-        6. Set DIP switches 4 (USBOTG) and 3 (RPIBOOT) to ON to enter BOOT mode
+                Do not insert a Micro SD card into the device.
 
-        <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System4.webp').default} width="60%"/>
+                :::
 
-        7. Then connect it to your computer using a Type-C cable.
+                1. Set DIP switches `USBOTG` and `RPIBOOT` to `ON` to enter BOOT mode (as shown in the example of Pad5 V2 in the figure below).
 
-        8. Install the driver
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/boot.webp').default} width="60%"/>
 
-        If you see "Unknown Device" in "Device Manager," it means your computer is missing the driver
+                2. Connect the USB OTG of the device to the computer
 
-        <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System5.webp').default} width="60%"/>
+                    :::note
 
-        Open the Driver Assistant tool in the downloaded RKDevTool, click "Uninstall Drivers" first, then click "Install Drivers." This ensures that the drivers installed are the latest versions.
+                    To avoid problems caused by insufficient USB power supply to the computer, it is best to use a USB Hub with external power supply, or use an external power source to power the device first
 
-        <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System6.webp').default} width="60%"/>
+                    :::
 
-        Once the installation is complete, hold down the "Recovery" button and unplug and reinsert the Type-C cable. "Device Manager" will recognize "Rockusb Device," indicating that the driver has been successfully installed.
+                3. If a V3.0.1 or later version of the system has already been written into eMMC, the computer will recognize eMMC as a UMS device (USB Mass Storage device). Otherwise, it will be recognized as a LOADER device. UMS has the following advantages compared to LOADER:
 
-        <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System7.webp').default} width="60%"/>
+                    1. We can directly modify the configuration in /boot/ partition
 
-        Open RKDevTool
+                    2. We can directly write the system image to eMMC like a Micro SD card
 
-        <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System8.webp').default} width="60%"/>
+                    3. All content in eMMC can be erased through software
+
+                4. If the device is identified as a UMS device, refer to the `UMS` steps below. If it is identified as a LOADER device, refer to the `LOADER` steps below.
+                <Tabs groupId="device-mode">
+                    <TabItem value="ums-mode" label="UMS" default>
+                        Refer to the steps in `Write system`->`Using SD Card` and use balenaEtcher software to write the system
+                    </TabItem>
+                    <TabItem value="loader-mode" label="LOADER">
+                        1. Download [RKDevTool](https://github.com/bigtreetech/CB2) to your computer and extract it. Make sure not to insert a MicroSD card.
+
+                        2. Install the driver
+
+                            1. If you see "Unknown Device" in "Device Manager," it means your computer is missing the driver
+
+                                <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System5.webp').default} width="60%"/>
+
+                            2. Open the Driver Assistant tool in the downloaded RKDevTool, click "Uninstall Drivers" first, then click "Install Drivers." This ensures that the drivers installed are the latest versions.
+
+                                <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System6.webp').default} width="60%"/>
+
+                            3. Once the installation is complete, hold down the "Recovery" button and unplug and reinsert the Type-C cable. "Device Manager" will recognize "Rockusb Device," indicating that the driver has been successfully installed.
+
+                                <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System7.webp').default} width="60%"/>
+
+                        3. Open RKDevTool
+
+                            <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System8.webp').default} width="60%"/>
+
+                            :::info
+
+                            The default settings in the software are shown in the figure. Under normal circumstances, you only need to set the actual path to the .img file. If the settings in your software differ from those shown in the figure, please manually adjust them to match.
+
+                            :::
+
+                            <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System9.webp').default} width="60%"/>
+
+                            1. Find the path where the downloaded RKDevTool is located.
+
+                            2. Open the RKDevTool tool.
+
+                            3. The software will detect a device named "LOADER" or "MASKROOM"
+
+                            4. Select the system you want to flash (the system image must be extracted to an .img file beforehand; this tool does not support flashing compressed .xz files directly)
+
+                            5. Check the "Write by Address" box
+
+                            6. Click "Run" to begin flashing the system
+
+                            7. `Download image OK` indicates that the system has been successfully flashed
+                    </TabItem>
+                </Tabs>
+            </TabItem>
+            <TabItem value="emmc-micro-sd" label="SD Card Flashing">
+                1. Write the system onto the MicroSD card. Then, insert the MicroSD card into the motherboard's card slot and wait for the system to boot.
+
+                2. Connect to the system terminal via Ethernet cable, WiFi, or USB to UART, and log in to the system.
+
+                    ```shell title="biqu User"
+                    Login: biqu
+                    Password: biqu
+                    ```
+
+                3. Run `sudo nand-sata-install `, Select `2 Boot From eMMC - system on eMMC`, and then select `OK`
+
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System36.webp').default} width="60%"/>
+
+                4. Select `Yes`, Start erasing and writing the system to eMMC
+
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System37.webp').default} width="60%"/>
+
+                5. Select `1 ext4`, and then select `OK`
+
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System38.webp').default} width="60%"/>
+
+                6. Wait for the write process to complete
+
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System39.webp').default} width="60%"/>
+
+                7. After writing is completed, it will prompt whether to power off. Please select `Power off`.
+
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System40.webp').default} width="60%"/>
+
+                8. After power off, unplug the MicroSD card and turn it back on to start from eMMC.
+            </TabItem>
+        </Tabs>
+    </TabItem>
+    <TabItem value="cb2-nvme" label="Using NVMe">
 
         :::info
 
-        The default settings in the software are shown in the figure. Under normal circumstances, you only need to set the actual path to the .img file. If the settings in your software differ from those shown in the figure, please manually adjust them to match.
+        NVMe boot is only supported on systems V3.0.2 and later versions
+
+        RK3566 cannot boot directly from NVMe, so we need to first write u-boot (bootloader) to eMMC. After running u-boot (bootloader) from eMMC and detecting NVMe, it can jump to the NVMe boot system.
 
         :::
 
-        <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System9.webp').default} width="60%"/>
+        1. Start the system from the SD card first.
 
-        9. The software will detect a device named "LOADER" or "MASKROOM"
+        2. Erase the entire eMMC to prevent the system from booting from eMMC, as eMMC has a higher boot priority than NVMe.
 
-        10. Select the system you want to flash (the system image must be extracted to an .img file beforehand; this tool does not support flashing compressed .xz files directly)
+            ```shell
+            sudo mkfs /dev/mmcblk1
+            ```
 
-        11. Check the "Write by Address" box
+            And then enter "y" to confirm.
 
-        12. Click "Run" to begin flashing the system
+            <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System42.webp').default} width="60%"/>
 
-        13. `Download image OK` indicates that the system has been successfully flashed
+        3. Write u-boot(bootloader) to eMMC
 
-        14. Once flashing is complete, set the USB OTG DIP switch to the OFF position. The device can now be powered on and used normally.
-        
-        :::info
+            ```shell
+            sudo armbian-install
+            ```
 
-        Files stored on the eMMC cannot be accessed directly by a computer in the same way as those on a MicroSD card. Therefore, you cannot configure the Wi-Fi network by editing the system.cfg configuration file. Instead, you must connect to the device via an Ethernet cable or a USB-to-UART adapter and configure it through the terminal.
+            And then select `Install/Update the bootloader on eMMC (/dev/mmcblk1)`
 
-        :::
+        4. Poweroff the system after writing is complete
+
+            ```shell
+            sudo poweroff
+            ```
+
+        5. Refer to the steps in `Write system`->`Using eMMC`->`Computer (Windows) Flashing`, connect the device to the computer, and the u-boot (bootloader) in eMMC will mount NVMe as UMS (USB Mass Storage) on the computer.
+
+        6. Refer to the steps in `Write system`->`Using SD Card` and use balenaEtcher software to write the system
+    </TabItem>
+</Tabs>
+
+### Erasing eMMC
+
+:::info
+
+If your hardware is the eMMC version and you have previously written the system into eMMC, but now you do not want to boot from eMMC but prefer to boot from a MicroSD card. We need to erase the system data previously written to eMMC to prevent the device from erroneously booting from eMMC.
+
+:::
+
+<Tabs groupId="emmc-write">
+    <TabItem value="emmc-windows" label="Using Computer to Erase (Windows)" default>
+        1. Refer to the steps in `Write system`->`Using eMMC`->`Computer (Windows) Flashing`, connect the device to the computer.
+
+        2. If the device is identified as a UMS device, refer to the `UMS` steps below. If it is identified as a LOADER device, refer to the `LOADER` steps below.
+        <Tabs groupId="device-mode">
+            <TabItem value="ums-mode" label="UMS (Windows)" default>
+                Install [SD Card Formatter](https://www.sdcard.org/downloads/formatter/) software to format UMS devices for eMMC.
+
+                :::info
+
+                Please do not directly use the formatting function provided by the Windows system, as it cannot completely erase the data in eMMC
+
+                :::
+            </TabItem>
+            <TabItem value="loader-mode" label="LOADER">
+                1. Refer to the steps in `Computer (Windows) Flashing`->`LOADER`, download RKDevTool, install the driver, identify the device as a LOADER device.
+
+                2. Use RKDevTool software to erase data.
+
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System41.webp').default} width="60%"/>
+
+                    1. Find the path where the downloaded RKDevTool is located.
+
+                    2. Open the RKDevTool.
+
+                    3. The software will recognize a "LOADER" device. If it recognizes "MASKROOM," it indicates there is no data in the eMMC, hence no erase operation is necessary.
+
+                    4. Click "Advanced Function."
+
+                    5. Click "EraseAll" to begin erasing data from the eMMC.
+
+                    6. "Erasing sectors success" indicates the erasure is complete.
+            </TabItem>
+        </Tabs>
+    </TabItem>
+    <TabItem value="emmc-micro-sd" label="Using Micro SD Card Erase">
+        1. Refer to the steps in `Write system`->`Using eMMC`->`SD Card Flashing` to log into the system terminal.
+
+        2. Run the following command to erase data
+
+            ```shell
+            sudo mkfs /dev/mmcblk1
+            ```
+
+            And then enter "y" to confirm.
+
+            <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System42.webp').default} width="60%"/>
     </TabItem>
 </Tabs>
 
@@ -170,9 +330,9 @@ Open the armbianEnv.txt file in the BOOT partition and add "mcp2515" to the over
 Whether it's the OV5647 on the Raspberry Pi V1.3 or the IMX219 on the Raspberry Pi V2, there is no need to configure overlays in the armbianEnv.txt file; they are plug-and-play.
 
 ```systemd title="crowsnest.conf"
-device: /dev/video0 # CSI 相机的节点固定为 video0
+device: /dev/video0 # The node of CSI camera is fixed as `video0`
 
-custom_flags: --format=UYVY # 当前系统 CSI 相机不支持默认的 YUYV，需要设置为支持的 UYVY 格式
+custom_flags: --format=UYVY # The current system CSI camera does not support the default `YUYV` and needs to be set to the supported `UYVY` format
 ```
 
 <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System22.webp').default} width="60%"/>
@@ -285,7 +445,7 @@ aplay -D plughw:0,0 /xxx/xxxx.wav
 
 3. Once the device connects to Wi-Fi or an Ethernet cable, it will be automatically assigned an IP address.
 
-4. Go to the router’s management interface and locate the device’s IP address (which should be BTT-CB2).
+4. Go to the router's management interface and locate the device’s IP address (which should be `BIGTREETECH-CB2`/`BTT-CB2`).
 
     <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System33.webp').default} width="60%"/>
 
