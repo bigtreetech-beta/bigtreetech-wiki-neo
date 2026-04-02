@@ -29,9 +29,9 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'bigtreetech', // Usually your GitHub org/user name.
   projectName: 'wiki', // Usually your repo name.
-  
+
   onBrokenLinks: 'throw',
-  
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -63,7 +63,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          
+
           // math
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
@@ -151,7 +151,7 @@ const config: Config = {
           position: 'left',
           label: 'Filament',
         },
-      
+
         {
           type: 'docSidebar',
           sidebarId: 'pandaSidebar',
@@ -159,13 +159,20 @@ const config: Config = {
           label: 'Panda Series',
         },
 
+        {
+          type: 'docSidebar',
+          sidebarId: 'popSidebar',
+          position: 'left',
+          label: 'Pop Series',
+        },
+
         { to: '/blog', label: 'Blog', position: 'left' },
-        
+
         {
           type: 'localeDropdown',
           position: 'right',
         }
-        
+
         // {
         //   href: 'https://github.com/bigtreetech-beta/bigtreetech-wiki-neo',
         //   label: 'GitHub',

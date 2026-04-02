@@ -314,5 +314,21 @@
   "sidebar.boardSidebar.category.CB2": {
     "message": "CB2",
     "description": "The label for category 'CB2' in sidebar 'boardSidebar'"
+  },
+  "sidebar.popSidebar.category.Panda Series Module": {
+    "message": "Panda Series Module",
+    "description": "The label for category 'Panda Series Module' in sidebar 'popSidebar'"
+  },
+  "sidebar.popSidebar.category.Panda Series Module.link.generated-index.description": {
+    "message": "Panda Series Module",
+    "description": "The generated-index page description for category 'Panda Series Module' in sidebar 'popSidebar'"
+  },
+  "sidebar.popSidebar.category.Pop Series Module": {
+    "message": "Pop Series Module",
+    "description": "The label for category 'Pop Series Module' in sidebar 'popSidebar'"
+  },
+  "sidebar.popSidebar.category.Pop Series Module.link.generated-index.description": {
+    "message": "Pop Series Module",
+    "description": "The generated-index page description for category 'Pop Series Module' in sidebar 'popSidebar'"
   }
 }
