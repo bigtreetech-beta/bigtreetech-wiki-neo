@@ -11,19 +11,6 @@
 
 回转料架下载链接：[回转轴料架](https://makerworld.com/zh/models/2472284-rotary-spool-holder-for-bmcu-370#profileId-2714571)
 
-## 修订历史
-
-| 版本号 | 日期 | 更新内容 |
-| --- | --- | --- |
-| v1.0.0 | 2026年03月10号 | 初始版本 |
-
-## 固件版本
-
-| BMCU-370固件版本 | 兼容 A1 固件版本 | 兼容 A1 mini 固件版本 | 兼容P1S固件版本 | 兼容X1固件版本 | BMCU-370固件下载链接 |
-| --- | --- | --- | --- | --- | --- |
-| BMCU-V0.1-0027改(本产品已烧录该版本固件) | 01.04.00.00 01.05.00.00 01.06.00.00 01.07.00.00   01.07.02.00  | 01.04.00.00 01.05.00.00 01.06.00.00 01.07.00.00 01.07.02.00 |  |  |  [BMCU-V0.1-0027-upgrade](https://github.com/bigtreetech/BMCU/tree/master/BMCU-V0.1-0027-upgrade) |
-| BMCU-CV0.1-0020-Auto Direction 745 Retract Distance | -- | -- | 01.07.00.00 | 01.08.50.32 | [BMCU-CV0.1-0020-Auto Direction 745 Retract Distance](https://github.com/bigtreetech/BMCU/blob/master/BMCU-CV0.1-0020-Auto%20Direction%20745%20Retract%20Distance.bin) |
-
 ## 产品简介
 
 BMCU 是根据开源资料设计的模拟 AMS 运行的多材料控制系统，适用于 Bambu Lab A系列/X系列/P系列（P2S暂未适配）。BMCU 设计为四通道单元，目前设计方案以CH32微控制器为主控制单元。暂不支持 RFID 材料识别。
@@ -41,6 +28,19 @@ BMCU 的稳定性不如 AMS Lite，作为第三方DIY配件，后续可能因为
 - BMCU探索出了光电探测设计，允许光电开关探测透明耗材，杜绝了微动探测方式造成的耗材阻力和其不稳定性。光电的设计将另行使用其他开源协议，允许借用。
 
 </div>
+
+## 修订历史
+
+| 版本号 | 日期 | 更新内容 |
+| --- | --- | --- |
+| v1.0.0 | 2026年03月10号 | 初始版本 |
+
+## 固件版本
+
+| BMCU-370固件版本 | 兼容 A1 固件版本 | 兼容 A1 mini 固件版本 | 兼容P1S固件版本 | 兼容X1固件版本 | BMCU-370固件下载链接 |
+| --- | --- | --- | --- | --- | --- |
+| BMCU-V0.1-0027改(本产品已烧录该版本固件) | 01.04.00.00 01.05.00.00 01.06.00.00 01.07.00.00   01.07.02.00  | 01.04.00.00 01.05.00.00 01.06.00.00 01.07.00.00 01.07.02.00 |  |  |  [BMCU-V0.1-0027-upgrade](https://github.com/bigtreetech/BMCU/releases/download/v1.0.0/BMCU-V0.1-0027-upgrade.zip) |
+| BMCU-CV0.1-0020-Auto Direction 745 Retract Distance | -- | -- | 01.07.00.00 | 01.08.50.32 | [BMCU-CV0.1-0020-Auto Direction 745 Retract Distance](https://github.com/bigtreetech/BMCU/releases/download/v1.0.0/BMCU-CV0.1-0020-Auto.Direction.745.Retract.Distance.bin) |
 
 ## 产品参数
 

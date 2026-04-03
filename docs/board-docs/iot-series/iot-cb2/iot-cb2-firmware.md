@@ -18,7 +18,7 @@ import TabItem from '@theme/TabItem';
 
 :::info[CB2 系统]
 
-CB2 系统镜像 [CB2/releases](https://github.com/bigtreetech/releases)
+CB2 系统镜像 [CB2/releases](https://github.com/bigtreetech/CB2/releases)
 
 :::
 
@@ -48,62 +48,222 @@ CB2 系统镜像 [CB2/releases](https://github.com/bigtreetech/releases)
 
             <ImageView src={require('./img/CB2_System3.webp').default} width="60%"/>
     </TabItem>
-    <TabItem value="cb2-emmc" label="使用emmc">
-        使用 RKDevTool (Windows) 烧录系统到 eMMC
+    <TabItem value="cb2-emmc" label="使用eMMC">
+        :::info
 
-        下载 RKDevTool 到电脑上并解压。并且注意不要插 MicroSD 卡。
+        使用 `电脑 (Windows) 烧录` 或者 `MicroSD卡烧录` 步骤，均可正常的将系统烧录到eMMC中，任选一种适合您的方式即可。
 
-        https://github.com/bigtreetech/CB2
+        :::
+        <Tabs groupId="emmc-write">
+            <TabItem value="emmc-windows" label="电脑 (Windows) 烧录" default>
+                :::note
 
-        6. 将拨码开关的 4 `USBOTG` 3 `RPIBOOT` 拨到 ON 进入 BOOT 模式
+                设备中不要插入 Micro SD 卡。
 
-        <ImageView src={require('./img/CB2_System4.webp').default} width="60%"/>
+                :::
 
-        7. 然后用 Type-C 线插到电脑上。
+                1. 首先将设备的拨码开关`nRPIBOOT`，`USB_OTG`拨到 `ON` 使设备进入BOOT模式(如下图以 Pad5 V2 为例)。
 
-        8. 安装驱动
+                    <ImageView src={require('./img/boot.webp').default} width="60%"/>
 
-        在 “设备管理器” 中，如果发现“未知设备”意味着电脑缺少驱动
+                2. 将设备的 USB OTG 连接到电脑上
 
-        <ImageView src={require('./img/CB2_System5.webp').default} width="60%"/>
+                    :::note
 
-        打开下载的 RKDevTool 中的 DriverAssitant 工具，先点击 “驱动卸载”，再点击 “驱动安装”，这样可以保证安装的驱动为最新版本的。
+                    为了避免出现电脑 USB 供电不足导致的问题，最好使用带有外部供电的 USB-Hub，或者先使用外部的电源给设备供电
 
-        <ImageView src={require('./img/CB2_System6.webp').default} width="60%"/>
+                    :::
 
-        等待安装完成后，按住 “Recovery” 键，重新拔插一下 Type-C 线，“设备管理器” 会识别出 “Rockusb Device”，意味着驱动已经安装成功
+                3. 若eMMC中已经烧录过V3.0.1及其之后版本的系统，电脑会将eMMC识别为UMS设备（类似U盘一样的设备），否则会识别为LOADER设备。UMS相对于LOADER有以下好处：
 
-        <ImageView src={require('./img/CB2_System7.webp').default} width="60%"/>
+                    1. 可以直接修改 /boot/ 分区中的配置信息。
 
-        打开 RKDevTool
+                    2. 可以直接像Micro SD卡那样，直接烧录系统到eMMC。
 
-        <ImageView src={require('./img/CB2_System8.webp').default} width="60%"/>
+                    3. 可以通过软件擦除eMMC中的所有内容。
+
+                4. 若设备被识别为UMS设备，则参考下面的`UMS`步骤，若识别为LOADER设备吗，则参考下面的`LOADER`步骤
+                <Tabs groupId="device-mode">
+                    <TabItem value="ums-mode" label="UMS" default>
+                        参考`写入系统`->`使用SD卡`中的步骤使用balenaEtcher软件烧录系统
+                    </TabItem>
+                    <TabItem value="loader-mode" label="LOADER">
+                        1. 下载 [RKDevTool](https://github.com/bigtreetech/CB2) 到电脑上并解压。
+
+                        2. 安装驱动
+
+                            1. 在 “设备管理器” 中，如果发现“未知设备”意味着电脑缺少驱动
+
+                                <ImageView src={require('./img/CB2_System5.webp').default} width="60%"/>
+
+                            2. 打开下载的 RKDevTool 中的 DriverAssitant 工具，先点击 “驱动卸载”，再点击 “驱动安装”，这样可以保证安装的驱动为最新版本的。
+
+                                <ImageView src={require('./img/CB2_System6.webp').default} width="60%"/>
+
+                            3. 等待安装完成后，重新拔插一下 Type-C 线，“设备管理器” 会识别出 “Rockusb Device”，意味着驱动已经安装成功
+
+                                <ImageView src={require('./img/CB2_System7.webp').default} width="60%"/>
+
+                        3. 打开 RKDevTool
+
+                            <ImageView src={require('./img/CB2_System8.webp').default} width="60%"/>
+
+                            :::info
+
+                            软件中的参数默认如图所示，正常情况下仅需要设置 .img 系统实际的路径”即可。如果您软件中的参数与图中不一致，请手动修改为一致。
+
+                            :::
+
+                            <ImageView src={require('./img/CB2_System9.webp').default} width="60%"/>
+
+                            1. 找到下载的工具所在的路径
+
+                            2. 打开 RKDevTool 工具
+
+                            3. 软件会识别出一个“LOADER”或者“MASKROOM”的设备
+
+                            4. 选择要烧录的系统（系统镜像需要提前解压为.img 文件，此工具不支持直接烧录压缩后的.xz 文件）
+
+                            5. 勾选“Write by Address”
+
+                            6. 点击“Run”，开始烧录系统
+
+                            7. `Download image OK` 意味着系统已经烧录成功
+                    </TabItem>
+                </Tabs>
+            </TabItem>
+            <TabItem value="emmc-micro-sd" label="MicroSD卡烧录">
+                1. 先将系统烧录到MicroSD卡中，然后将MicroSD卡插到主板的卡槽，然后等待系统启动。
+
+                2. 通过网线，WiFi或者USB转UART连接到系统的终端，登录系统
+
+                    ```shell title="biqu 普通用户"
+                    Login: biqu
+                    Password: biqu
+                    ```
+
+                3. 运行 `sudo nand-sata-install `命令，在弹出的界面中，选择 `2 Boot From eMMC - system on eMMC`, 然后选择 `OK`
+
+                    <ImageView src={require('./img/CB2_System36.webp').default} width="60%"/>
+
+                4. 选择 `Yes`，开始擦除并烧录系统到eMMC
+
+                    <ImageView src={require('./img/CB2_System37.webp').default} width="60%"/>
+
+                5. 选择文件系统为 `1 ext4`，然后选择 `OK`
+
+                    <ImageView src={require('./img/CB2_System38.webp').default} width="60%"/>
+
+                6. 等待烧录完成
+
+                    <ImageView src={require('./img/CB2_System39.webp').default} width="60%"/>
+
+                7. 烧录完成后会弹窗提示是否关机，选择`Power off`关机
+
+                    <ImageView src={require('./img/CB2_System40.webp').default} width="60%"/>
+
+                8. 关机后断电，然后拔出MicroSD卡，重新再通电即可从eMMC启动
+            </TabItem>
+        </Tabs>
+    </TabItem>
+    <TabItem value="cb2-nvme" label="使用NVMe">
 
         :::info
 
-        软件中的参数默认如图所示，正常情况下仅需要设置 .img 系统实际的路径”即可。如果您软件中的参数与图中不一致，请手动修改为一致。
+        需要 V3.0.2 及其之后版本的系统才支持 NVMe 启动。
+
+        RK3566 不能直接从 NVMe 启动，所以我们需要先写入 u-boot(bootloader) 到 eMMC, u-boot(bootloader) 从 eMMC 运行后，检测到 NVMe 后，可以跳转到 NVMe 启动系统。
 
         :::
 
-        <ImageView src={require('./img/CB2_System9.webp').default} width="60%"/>
+        1. 先从SD卡启动系统。
 
-        9. 软件会识别出一个“LOADER”或者“MASKROOM”的设备
+        2. 清除整个eMMC以防止系统从eMMC启动，因为eMMC的启动优先级高于NVMe。
 
-        10. 选择要烧录的系统（系统镜像需要提前解压为.img 文件，此工具不支持直接烧录压缩后的.xz 文件）
+            ```shell
+            sudo mkfs /dev/mmcblk1
+            ```
 
-        11. 勾选“Write by Address”
+            然后输入`y`确认。
 
-        12. 点击“Run”，开始烧录系统
+            <ImageView src={require('./img/CB2_System42.webp').default} width="60%"/>
 
-        13. `Download image OK` 意味着系统已经烧录成功
+        3. 写入 u-boot(bootloader) 到 eMMC
 
-        14. 烧录完成后，请将 USB OTG 的拨码开关拨到 OFF 挡位，此时即可正常开机使用了。
-        
-        :::info
+            ```shell
+            sudo armbian-install
+            ```
 
-        eMMC 内的文件无法像 MicroSD 卡那样直接被电脑访问，所以无法通过修改 system.cfg 配置文件的方式配置 WiFi 网络，只能用网线或者 USB 转 UART连接终端，然后通过终端配置。
+            在弹窗中选择 `Install/Update the bootloader on eMMC (/dev/mmcblk1)`
 
-        :::
+        4. 写入完成后关闭系统
+
+            ```shell
+            sudo poweroff
+            ```
+
+        5. 参照 `写入系统`->`使用eMMC`->`电脑 (Windows) 烧录` 中的步骤，将设备连接到电脑，eMMC中的 u-boot(bootloader) 会把 NVMe 当作 UMS (USB大容量存储)挂在到电脑上。
+
+        6. 参考`写入系统`->`使用SD卡`中的步骤使用balenaEtcher软件烧录系统
+    </TabItem>
+</Tabs>
+
+### 擦除eMMC
+
+:::info
+
+如果您的硬件是eMMC版本，并且之前写入过系统到eMMC中，现在不想从eMMC中启动而是希望从MicroSD卡启动。我们需要将之前写入到eMMC的系统数据擦除，以免设备错误的从eMMC启动。
+
+:::
+
+<Tabs groupId="emmc-write">
+    <TabItem value="emmc-windows" label="使用电脑擦除 (Windows)" default>
+        1. 参照 `写入系统`->`使用eMMC`->`电脑 (Windows) 烧录` 中的步骤，将主板连接到电脑。
+
+        2. 若设备被识别为UMS设备，则参考下面的`UMS`步骤，若识别为LOADER设备吗，则参考下面的`LOADER`步骤
+        <Tabs groupId="device-mode">
+            <TabItem value="ums-mode" label="UMS (Windows)" default>
+                安装 [SD Card Formatter](https://www.sdcard.org/downloads/formatter/) 软件，格式化eMMC的UMS设备。
+
+                :::info
+
+                请不要直接使用windows系统提供的格式化功能，因为它无法完全擦除eMMC中的数据
+
+                :::
+            </TabItem>
+            <TabItem value="loader-mode" label="LOADER">
+                1. 参照 `电脑 (Windows) 烧录`->`LOADER` 中的步骤，下载软件、安装驱动、识别设备为LOADER设备。
+
+                2. 使用 `RKDevTool` 软件擦除数据
+
+                    <ImageView src={require('./img/CB2_System41.webp').default} width="60%"/>
+
+                    1. 找到下载的工具所在的路径
+
+                    2. 打开 RKDevTool 工具
+
+                    3. 软件会识别出一个`LOADER`的设备，如果是`MASKROOM`则说明eMMC中没有数据，不需要擦除
+
+                    4. 点击`Advanced Function`
+
+                    5. 点击`EraseAll`开始擦除eMMC中的数据
+
+                    6. `Erasing sectors success`擦除完成
+            </TabItem>
+        </Tabs>
+    </TabItem>
+    <TabItem value="emmc-micro-sd" label="从MicroSD卡启动系统后擦除">
+        1. 参照`写入系统`->`使用eMMC`->`MicroSD卡烧录`中的步骤，登录到系统终端
+
+        2. 执行以下命令擦除数据
+
+            ```shell
+            sudo mkfs /dev/mmcblk1
+            ```
+
+            然后输入`y`确认。
+
+            <ImageView src={require('./img/CB2_System42.webp').default} width="60%"/>
     </TabItem>
 </Tabs>
 
@@ -170,9 +330,9 @@ overlays=dsi mcp2515 i2c1
 无论是 rpi v1.3 的 ov5647 还是 rpi v2 的 imx219 均不需要在 armbianEnv.txt 文件中配置 overlays，即插即用。
 
 ```systemd title="crowsnest.conf"
-device: /dev/video0 # CSI 相机的节点固定为 video0
+device: /dev/video0 # CSI 相机的节点固定为 `video0`
 
-custom_flags: --format=UYVY # 当前系统 CSI 相机不支持默认的 YUYV，需要设置为支持的 UYVY 格式
+custom_flags: --format=UYVY # 当前系统 CSI 相机不支持默认的 `YUYV`，需要设置为支持的 `UYVY` 格式
 ```
 
 <ImageView src={require('./img/CB2_System22.webp').default} width="60%"/>
@@ -285,7 +445,7 @@ aplay -D plughw:0,0 /xxx/xxxx.wav
 
 3. 设备连上 WIFI 或者插上网线后，会被自动分配一个 IP
 
-4. 进入路由器管理界面找到设备的 IP（这里应为 BTT-CB2）
+4. 进入路由器管理界面找到设备的 IP（这里应为 `BIGTREETECH-CB2`/`BTT-CB2`）
 
     <ImageView src={require('./img/CB2_System33.webp').default} width="60%"/>
 

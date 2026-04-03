@@ -11,19 +11,6 @@ Structural Components: [Download Here](https://makerworld.com/zh/models/2472248-
 
 Rotary Spool Holder for BMCU-370: [Download Here](https://makerworld.com/zh/models/2472284-rotary-spool-holder-for-bmcu-370#profileId-2714571)
 
-## Revision History
-
-| Version | Date           | Update          |
-| ------- | -------------- | --------------- |
-| v1.0.0  | March 10, 2026 | Initial release |
-
-## Firmware Versions
-
-| BMCU-370 Firmware Version | A1 Firmware | A1 mini Firmware | P1S Firmware | X1 Firmware | Download Link |
-| --- | --- | --- | --- | --- | --- |
-| BMCU-V0.1-0027 | 01.04.00.00 01.05.00.00 01.06.00.00 01.07.00.00   01.07.02.00  | 01.04.00.00 01.05.00.00 01.06.00.00 01.07.00.00 01.07.02.00 |  |  |  [BMCU-V0.1-0027-upgrade](https://github.com/bigtreetech/BMCU/tree/master/BMCU-V0.1-0027-upgrade) |
-| BMCU-CV0.1-0020-Auto Direction 745 Retract Distance | -- | -- | 01.07.00.00 | 01.08.50.32 | [BMCU-CV0.1-0020-Auto Direction 745 Retract Distance](https://github.com/bigtreetech/BMCU/blob/master/BMCU-CV0.1-0020-Auto%20Direction%20745%20Retract%20Distance.bin) |
-
 ## Product Overview
 
 The BMCU is a multi-material control system based on open-source designs, engineered to replicate AMS functionality. It is compatible with Bambu Lab A-series, X-series, and P-series printers (Note: The P2S is not currently supported). Designed as a 4-channel system, the BMCU utilizes a CH32 microcontroller. Please note that RFID material identification is not currently supported.
@@ -41,6 +28,19 @@ The BMCU is intended for DIY enthusiasts and educational purposes. Special thank
 - Advanced Photoelectric Detection: The BMCU features a photoelectric detection system capable of sensing transparent filaments. This eliminates the drag and instability commonly associated with microswitch sensors. This photoelectric module will also be released separately under an open-source license.
 
 </div>
+
+## Revision History
+
+| Version | Date           | Update          |
+| ------- | -------------- | --------------- |
+| v1.0.0  | March 10, 2026 | Initial release |
+
+## Firmware Versions
+
+| BMCU-370 Firmware Version | A1 Firmware | A1 mini Firmware | P1S Firmware | X1 Firmware | Download Link |
+| --- | --- | --- | --- | --- | --- |
+| BMCU-V0.1-0027 | 01.04.00.00 01.05.00.00 01.06.00.00 01.07.00.00   01.07.02.00  | 01.04.00.00 01.05.00.00 01.06.00.00 01.07.00.00 01.07.02.00 |  |  |  [BMCU-V0.1-0027-upgrade](https://github.com/bigtreetech/BMCU/releases/download/v1.0.0/BMCU-V0.1-0027-upgrade.zip) |
+| BMCU-CV0.1-0020-Auto Direction 745 Retract Distance | -- | -- | 01.07.00.00 | 01.08.50.32 | [BMCU-CV0.1-0020-Auto Direction 745 Retract Distance](https://github.com/bigtreetech/BMCU/releases/download/v1.0.0/BMCU-CV0.1-0020-Auto.Direction.745.Retract.Distance.bin) |
 
 ## Product Specifications
 

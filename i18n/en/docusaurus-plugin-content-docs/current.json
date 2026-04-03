@@ -302,5 +302,33 @@
   "sidebar.accessoriesSidebar.category.Display.link.generated-index.description": {
     "message": "display",
     "description": "The generated-index page description for category 'Display' in sidebar 'accessoriesSidebar'"
+  },
+  "sidebar.boardSidebar.category.BIGTREETECH Pad5 V2": {
+    "message": "BIGTREETECH Pad5 V2",
+    "description": "The label for category 'BIGTREETECH Pad5 V2' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.CB1": {
+    "message": "CB1",
+    "description": "The label for category 'CB1' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.CB2": {
+    "message": "CB2",
+    "description": "The label for category 'CB2' in sidebar 'boardSidebar'"
+  },
+  "sidebar.popSidebar.category.Panda Series Module": {
+    "message": "Panda Series Module",
+    "description": "The label for category 'Panda Series Module' in sidebar 'popSidebar'"
+  },
+  "sidebar.popSidebar.category.Panda Series Module.link.generated-index.description": {
+    "message": "Panda Series Module",
+    "description": "The generated-index page description for category 'Panda Series Module' in sidebar 'popSidebar'"
+  },
+  "sidebar.popSidebar.category.Pop Series Module": {
+    "message": "Pop Series Module",
+    "description": "The label for category 'Pop Series Module' in sidebar 'popSidebar'"
+  },
+  "sidebar.popSidebar.category.Pop Series Module.link.generated-index.description": {
+    "message": "Pop Series Module",
+    "description": "The generated-index page description for category 'Pop Series Module' in sidebar 'popSidebar'"
   }
 }
