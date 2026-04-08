@@ -5,12 +5,12 @@ description: Manta 系列核心板系统写入
 
 # Manta 系列核心板 Raspberry CM4/CM5
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ### 在开始之前
 

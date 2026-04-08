@@ -4,12 +4,12 @@ sidebar_position: 2
 
 # Manta M8P v1 硬件功能
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 外观尺寸
 

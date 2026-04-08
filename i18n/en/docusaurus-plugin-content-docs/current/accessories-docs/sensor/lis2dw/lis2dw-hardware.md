@@ -4,13 +4,13 @@ sidebar_position: 2
 
 # LIS2DW 硬件
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ThemedImage from '@theme/ThemedImage';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 外观尺寸
 

@@ -130,23 +130,23 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
 
 <img src={require('./img/panda_lux_rgb_px_install13.webp').default} width="60%"/>
 
-## 用户首次连接指南 {#first-connection}
+## 用户首次连接指南 {/* #first-connection */}
 
 首次连接电源后或执行“恢复出厂设置”命令后，您将看到蓝色跑马灯，代表此时Panda_Lux_RGB PX 没有绑定打印机。
 
-### 连接设备WiFi_AP热点 {#ap-connect}
+### 连接设备WiFi_AP热点 {/* #ap-connect */}
 
 连接上Panda_Lux_RGB PX 发出来的AP热点: `Panda_Lux_RGB_XXXXXXXXXX`. 默认密码是 `987654321`.
 
 <img src={require('./img/panda_lux_rgb_px_guide1.webp').default} width="60%"/>
 
-### 连接设备WiFi_AP热点 {#ap-connect}
+### 连接设备WiFi_AP热点 {/* #ap-connect */}
 
 连接上Panda_Lux_RGB PX 发出来的AP热点: `Panda_Lux_RGB_XXXXXXXXXX`. 默认密码是 `987654321`.
 
 <img src={require('./img/panda_lux_rgb_px_guide2.webp').default} width="60%"/>
 
-### WiFi连接界面 {#wifi-connect}
+### WiFi连接界面 {/* #wifi-connect */}
 
 - 首次出厂或恢复出厂设置后，进入此页面会自动扫描周围WiFi，或者手动点击扫描。
 
@@ -178,7 +178,7 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
 
         <img src={require('./img/panda_lux_rgb_px_guide9.webp').default} width="60%"/>
 
-### 绑定打印机 {#printer-bind}
+### 绑定打印机 {/* #printer-bind */}
 
 - 功能介绍
 

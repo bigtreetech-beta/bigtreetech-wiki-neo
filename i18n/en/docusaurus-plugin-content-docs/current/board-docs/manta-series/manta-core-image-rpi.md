@@ -5,12 +5,12 @@ description: Manta Series Core Board System Writing
 
 # Manta Series Core Board Raspberry CM4/CM5
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ### Before Start 
 

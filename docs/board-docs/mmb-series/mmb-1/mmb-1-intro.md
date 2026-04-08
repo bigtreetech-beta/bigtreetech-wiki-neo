@@ -5,9 +5,9 @@ description: MMB CAN V1.0 简介
 
 # MMB CAN V1.0 简介
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}

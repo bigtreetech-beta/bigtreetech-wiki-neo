@@ -6,12 +6,12 @@ sidebar_position: 3
 
 Panda Touch Firmware Config
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## First-Time Connection Guide
 
@@ -122,11 +122,11 @@ Please follow the steps below to switch the communication method between Panda T
 
 * Users in China use cell phone numbers, while users in global regions use email addresses.
 
-::::info How to find bambulab account
+::::info[How to find bambulab account]
 
 <ImageView src={require('@site/docs/panda-series/panda-touch/img/login.png').default} alt="" width="600" />
 
-:::warning know issue
+:::warning[know issue]
 
 Currently, 2-step authentication needs to be turned off to enable Cloud Mode on Panda Touch. If you want to keep it enabled then you can turn it off, enable Cloud Mode on Panda Touch and then turn it back on again. Please note that you may need to repeat this process every three months as the login details on Panda Touch will expire after this period.
 

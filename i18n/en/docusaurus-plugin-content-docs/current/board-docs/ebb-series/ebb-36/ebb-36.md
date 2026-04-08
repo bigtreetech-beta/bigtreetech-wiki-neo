@@ -7,13 +7,13 @@ description: EBB 36
 
 EBB 36 CAN Board Documentation
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import DocCardList from '@theme/DocCardList';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 <ImageView
 src={require('@site/docs/board-docs/ebb-series/ebb-36/img/ebb_36_title.png').default}

@@ -5,12 +5,12 @@ description: TFT 43 DIP 文档
 
 # TFT 43 DIP
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 <div class="div-table">
 
@@ -66,7 +66,7 @@ dtoverlay=gt911_btt_tft43_dip
 dtparam=rotate_0
 ```
 
-:::info [旋转触摸]
+:::info[旋转触摸]
 
 `rotate_*` 是触摸旋转，可设置为 `rotate_0`, `rotate_90`, `rotate_180`, `rotate_270` 与显示器旋转相对应
 

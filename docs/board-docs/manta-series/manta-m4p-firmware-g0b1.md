@@ -6,9 +6,9 @@ sidebar_position: 10
 
 使用 `STM32G0B1` MCU 的 Manta M4P
 
-<!-- import lib start -->
+{/* import lib start */}
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 构建固件
 

@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Nebula 固件配置
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

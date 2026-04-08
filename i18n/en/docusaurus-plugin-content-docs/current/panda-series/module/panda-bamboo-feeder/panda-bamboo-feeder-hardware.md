@@ -5,7 +5,7 @@ description: Panda Bamboo Feeder Hardware
 
 # Panda Bamboo Feeder Hardware
 
-## Dimensions {#p_size}
+## Dimensions {/* #p_size */}
 
 :::info[models]
 

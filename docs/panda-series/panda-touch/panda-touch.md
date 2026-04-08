@@ -6,14 +6,14 @@ sidebar_position: 1
 
 Panda Touch 说明文档
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
-:::warning 已知固件兼容性问题
+:::warning[已知固件兼容性问题]
 
 拓竹可能会在未来发布影响Panda Touch可用功能的固件版本。Bigtreetech将监控所有测试版固件版本，如果我们发现影响Panda Touch功能的固件版本，我们将通过电子邮件、速卖通聊天和我们的社交渠道发出警报。然后，购买者可以决定是否要冒着失去功能的风险执行更新。请注意，Panda Touch保修不包括由于执行Bambu Lab固件更新而导致的功能损失。
 
@@ -37,7 +37,7 @@ A1 Mini: 01.04.00.00
 
 :::
 
-:::warning 重要信息
+:::warning[重要信息]
 
 当 P1P 或 P1S 使用“仅限局域网”模式时，无需将 Panda Touch 连接到云账户，所有打印机功能都可以从 Panda Touch 上使用。
 

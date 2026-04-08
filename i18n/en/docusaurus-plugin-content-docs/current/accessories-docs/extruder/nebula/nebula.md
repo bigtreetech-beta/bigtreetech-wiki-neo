@@ -5,13 +5,13 @@ description: Nebula 挤出机
 
 # Nebula
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import DocCardList from '@theme/DocCardList';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 <div class="div-table">
 

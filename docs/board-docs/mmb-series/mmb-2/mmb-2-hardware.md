@@ -5,16 +5,16 @@ description: MMB CAN V2.0 硬件功能
 
 # MMB CAN V2.0 硬件功能
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 模型下载
 
-:::info 3D 参考文件
+:::info[3D 参考文件]
 
 MMB CAN V2.0 模型 [bigtreetech/MMB/3D/BIGTREETECH MMB CAN V2.0-3D.step](https://github.com/bigtreetech/MMB/blob/master/3D/BIGTREETECH%20MMB%20CAN%20V2.0-3D.step)
 

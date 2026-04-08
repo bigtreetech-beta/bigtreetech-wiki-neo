@@ -4,12 +4,12 @@ sidebar_position: 3
 
 # Manta M8P v1 固件配置
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 核心板固件写入
 

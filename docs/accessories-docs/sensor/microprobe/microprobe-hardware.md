@@ -5,12 +5,12 @@ description: Microprobe 硬件
 
 # Microprobe 硬件
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 3D 模型
 

@@ -4,12 +4,12 @@ sidebar_position: 3
 
 # EBB 36 CAN Firmware
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 :::info[Firmware Support]
 EBB 36 V1.0/V1.1/V1.2 currently only supports Klipper firmware

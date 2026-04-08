@@ -6,23 +6,23 @@ sidebar_position: 2
 
 H2 V2X 硬件文档
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ThemedImage from '@theme/ThemedImage';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 模型下载
 
-:::info 3D 参考文件
+:::info[3D 参考文件]
 
 H2 V2X 3D 建模参考文件 [bigtreetech/H2-V2X/3D Model/Reference Cad Model](https://github.com/bigtreetech/H2-V2X/tree/master/3D%20Model/Reference%20Cad%20Model)
 
 :::
 
-:::info 挤出机适配件下载 
+:::info[挤出机适配件下载]
 
 Stealthburner 适配件 [bigtreetech/H2-V2X/3D Model/Stealthburner](https://github.com/bigtreetech/H2-V2X/tree/master/3D%20Model/Stealthburner)
 

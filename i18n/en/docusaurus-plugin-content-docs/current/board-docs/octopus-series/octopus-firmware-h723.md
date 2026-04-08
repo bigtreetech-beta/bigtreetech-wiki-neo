@@ -6,12 +6,12 @@ sidebar_position: 10
 
 使用 `STM32H723` MCU 的 Octopus 
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 构建固件
 
@@ -49,7 +49,7 @@ make
 
 ## 写入固件
 
-:::note USB 供电
+:::note[USB 供电]
 如果你在写入固件的时候使用 USB Type-C 接口进行供电。`VUSB` 跳线需要接上。
 :::
 

@@ -6,12 +6,12 @@ sidebar_position: 2
 
 SKR Pico 硬件详细
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 外观尺寸
 
@@ -31,7 +31,7 @@ import TabItem from '@theme/TabItem';
 
 ### TMC 2209 Sensorless
 
-:::warning 
+:::warning
 
 对应轴使用了 Sensorless 后。不能使用外部ENDSTOP。
 

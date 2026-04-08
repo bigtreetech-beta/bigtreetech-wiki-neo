@@ -6,12 +6,12 @@ sidebar_position: 2
 
 Max EZ 硬件详细
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 外观尺寸
 
@@ -70,7 +70,7 @@ Octopus Max EZ 上电后，MCU 左侧的红灯 `D32` 将亮起，表示电源已
 
 ### 风扇电压选择
 
-:::warning 
+:::warning
 选择电压前需要注意风扇最高电压。过高的电压可能导致风扇损坏。
 :::
 

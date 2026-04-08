@@ -17,6 +17,7 @@ const config: Config = {
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    faster: true,
   },
 
   // Set the production url of your site here
@@ -55,6 +56,12 @@ const config: Config = {
     hooks: {
       onBrokenMarkdownLinks: 'warn',
     },
+    format: 'mdx',
+    mdx1Compat: {
+        comments: false,
+        admonitions: false,
+        headingIds: false,
+    }
   },
 
   presets: [
@@ -245,7 +252,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} 必趣创新科技(深圳)有限公司 </br> <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>`,
+      copyright: `Copyright © ${new Date().getFullYear()} 必趣创新科技(深圳)有限公司 <br> <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>`,
     },
     prism: {
       theme: custom_code_themes,

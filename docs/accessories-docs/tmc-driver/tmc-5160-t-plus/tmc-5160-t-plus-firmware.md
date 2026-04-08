@@ -5,12 +5,12 @@ description: EZ 5160 T Plus 软件配置
 
 # TMC 5160 T Plus 软件
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## Klipper 配置文件参考
 

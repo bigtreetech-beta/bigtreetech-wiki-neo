@@ -5,12 +5,12 @@ description: TFT 35 文档
 
 # TFT 35
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 <div class="div-table">
 
@@ -35,7 +35,7 @@ import TabItem from '@theme/TabItem';
 
 <ImageView src={require('@site/docs/accessories-docs/display/TFT35/img/TFT35_V3.0_Interface.png').default} width="50%"/>
 
-:::info 
+:::info
 
 1. 使用12864屏幕模式时，将端口EXP1和EXP2连接到主板。此模式下没有触摸功能。（使用SKR MINI E3或SKR E3 DIP，只需将EXP3连接到主板即可）
 

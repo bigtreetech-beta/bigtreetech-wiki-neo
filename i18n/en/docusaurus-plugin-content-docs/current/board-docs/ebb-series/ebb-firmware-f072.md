@@ -32,7 +32,7 @@ make
 
 ## Flash Firmware
 
-:::note USB Power Supply
+:::note[USB Power Supply]
 If you use the USB Type-C interface for power supply when flashing the firmware, the `VUSB` jumper needs to be connected.
 :::
 
