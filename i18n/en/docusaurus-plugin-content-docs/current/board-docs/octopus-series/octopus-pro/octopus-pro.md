@@ -5,13 +5,13 @@ description: Octopus Pro
 
 # Octopus Pro
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import DocCardList from '@theme/DocCardList';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## Specification
 

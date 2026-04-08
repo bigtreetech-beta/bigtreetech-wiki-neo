@@ -6,9 +6,9 @@ sidebar_position: 10
 
 Manta M4P using the `STM32G0B1` MCU
 
-<!-- import lib start -->
+{/* import lib start */}
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## Build Firmware
 

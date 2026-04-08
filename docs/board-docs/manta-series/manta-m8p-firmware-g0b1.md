@@ -6,12 +6,12 @@ sidebar_position: 10
 
 使用 `STM32G0B1` MCU 的 Manta M8P 
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 构建固件
 

@@ -7,13 +7,13 @@ description: EBB 36 Gen 1 工具板
 
 EBB 36 CAN 板说明文档
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import DocCardList from '@theme/DocCardList';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 <ImageView
     src={require('./img/ebb_36_title.png').default}

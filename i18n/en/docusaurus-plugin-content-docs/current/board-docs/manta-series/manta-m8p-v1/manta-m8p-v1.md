@@ -7,11 +7,11 @@ description: Manta M8P V1 一体打印板
 
 Manta M8P 板说明文档
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import DocCardList from '@theme/DocCardList';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 <div class="div-table">
 

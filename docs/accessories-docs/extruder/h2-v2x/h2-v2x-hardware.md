@@ -6,13 +6,13 @@ sidebar_position: 2
 
 H2 V2X 硬件文档
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ThemedImage from '@theme/ThemedImage';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 模型下载
 

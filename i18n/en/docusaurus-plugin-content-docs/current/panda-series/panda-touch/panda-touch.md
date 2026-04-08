@@ -6,12 +6,12 @@ sidebar_position: 1
 
 Panda Touch intro
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 :::warning[Known firmware compatibility issues]
 

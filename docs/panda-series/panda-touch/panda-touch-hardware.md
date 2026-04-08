@@ -6,12 +6,12 @@ sidebar_position: 2
 
 Panda Touch 硬件
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 :::info Panda Touch CAD 文件
 

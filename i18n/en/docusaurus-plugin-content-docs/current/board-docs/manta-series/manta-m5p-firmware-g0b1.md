@@ -6,12 +6,12 @@ sidebar_position: 10
 
 Manta M5P using the `STM32G0B1` MCU
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## Build Firmware
 

@@ -5,12 +5,12 @@ description: Manta M5P 固件配置
 
 # Manta M5P 固件配置
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 核心板固件写入
 

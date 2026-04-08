@@ -6,12 +6,12 @@ sidebar_position: 1
 
 Eddy Duo 说明文档
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 <ImageView src={require('./img/eddy_title_1.png').default} alt="" width="600" />
 

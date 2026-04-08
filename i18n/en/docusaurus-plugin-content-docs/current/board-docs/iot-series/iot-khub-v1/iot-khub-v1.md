@@ -5,12 +5,12 @@ description: K HUB
 
 # K HUB
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 <div class="div-table">
 

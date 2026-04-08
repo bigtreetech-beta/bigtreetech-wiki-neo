@@ -5,11 +5,11 @@ description: Manta M4P 一体打印板
 
 # Manta M4P
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import DocCardList from '@theme/DocCardList';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 <div class="div-table">
 

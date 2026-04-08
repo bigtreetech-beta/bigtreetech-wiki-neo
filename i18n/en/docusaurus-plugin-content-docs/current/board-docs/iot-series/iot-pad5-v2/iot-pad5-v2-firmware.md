@@ -5,12 +5,12 @@ description: Pad5 V2 Firmware Configuration
 
 # Pad5 V2 Firmware
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## Flashing the System
 

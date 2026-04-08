@@ -5,12 +5,12 @@ description: HDMI 7 V1.0 文档
 
 # HDMI 7 V1.0
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 <div class="div-table">
 

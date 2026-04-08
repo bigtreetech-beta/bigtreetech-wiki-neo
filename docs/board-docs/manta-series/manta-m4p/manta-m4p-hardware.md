@@ -5,12 +5,12 @@ description: Manta M4P 硬件功能配置
 
 # Manta M4P 硬件功能
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 外观尺寸
 

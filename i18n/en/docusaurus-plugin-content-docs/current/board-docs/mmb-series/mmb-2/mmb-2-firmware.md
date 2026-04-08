@@ -5,12 +5,12 @@ description: MMB CAN V2.0 软件配置
 
 # MMB CAN V2.0 固件配置
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 使用 Happy Hare
 

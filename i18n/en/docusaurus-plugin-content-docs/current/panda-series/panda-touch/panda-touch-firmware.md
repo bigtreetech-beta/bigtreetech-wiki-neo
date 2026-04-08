@@ -6,12 +6,12 @@ sidebar_position: 3
 
 Panda Touch Firmware Config
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## First-Time Connection Guide
 

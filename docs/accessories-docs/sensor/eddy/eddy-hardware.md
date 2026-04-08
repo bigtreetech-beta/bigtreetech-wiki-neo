@@ -4,12 +4,12 @@ sidebar_position: 2
 
 # Eddy Duo Hardware
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## **产品尺寸及接口**
 

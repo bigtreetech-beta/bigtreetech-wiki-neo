@@ -5,12 +5,12 @@ description: MMB CAN V2.0 硬件功能
 
 # MMB CAN V2.0 硬件功能
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 模型下载
 

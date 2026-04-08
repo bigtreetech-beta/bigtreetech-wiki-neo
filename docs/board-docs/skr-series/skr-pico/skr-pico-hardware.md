@@ -6,12 +6,12 @@ sidebar_position: 2
 
 SKR Pico 硬件详细
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 外观尺寸
 

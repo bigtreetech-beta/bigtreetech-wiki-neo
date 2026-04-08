@@ -5,12 +5,12 @@ description: EBB 2209 RP2040 Hardware Functions
 
 # EBB 2209 RP2040 Hardware Functions
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## Pin Diagram
 

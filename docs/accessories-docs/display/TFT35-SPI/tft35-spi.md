@@ -5,12 +5,12 @@ description: TFT 35 SPI 文档
 
 # TFT 35 SPI
 
-<!-- import lib start -->
+{/* import lib start */}
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- import lib end -->
+{/* import lib end */}
 
 ## 规格
 
