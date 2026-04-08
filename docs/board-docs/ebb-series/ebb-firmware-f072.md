@@ -32,7 +32,7 @@ make
 
 ## 写入固件
 
-:::note USB 供电
+:::note[USB 供电]
 如果你在写入固件的时候使用 USB Type-C 接口进行供电。`VUSB` 跳线需要接上。
 :::
 

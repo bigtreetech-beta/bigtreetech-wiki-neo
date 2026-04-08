@@ -31,7 +31,7 @@ import TabItem from '@theme/TabItem';
 
 ### TMC 2209 Sensorless
 
-:::warning 
+:::warning
 
 对应轴使用了 Sensorless 后。不能使用外部ENDSTOP。
 

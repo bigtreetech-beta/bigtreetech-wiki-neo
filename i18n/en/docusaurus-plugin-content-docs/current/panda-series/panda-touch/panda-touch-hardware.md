@@ -13,7 +13,7 @@ import TabItem from '@theme/TabItem';
 
 {/* import lib end */}
 
-:::info Panda Touch CAD Files
+:::info[Panda Touch CAD Files]
 
 Panda Touch CAD files are available in the GitHub repository [bigtreetech/PandaTouch/3D](https://github.com/bigtreetech/PandaTouch/tree/master/3D)
 

@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 
 ## 模型下载
 
-:::info 3D 参考文件
+:::info[3D 参考文件]
 
 MMB CAN V2.0 模型 [bigtreetech/MMB/3D/BIGTREETECH MMB CAN V2.0-3D.step](https://github.com/bigtreetech/MMB/blob/master/3D/BIGTREETECH%20MMB%20CAN%20V2.0-3D.step)
 

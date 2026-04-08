@@ -119,11 +119,11 @@ import TabItem from '@theme/TabItem';
 
 * 中国用户使用手机号码，而全球地区的用户使用电子邮件地址。
 
-::::info 如何找到我的拓竹账号信息
+::::info[如何找到我的拓竹账号信息]
 
 <ImageView src={require('./img/login.png').default} alt="" width="600" />
 
-:::warning 已知问题
+:::warning[已知问题]
 
 目前，需要关闭2步身份验证才能在Panda Touch上启用云模式。如果你想保持启用状态，那么你可以关闭它，在Panda Touch上启用云模式，然后再重新打开。请注意，你可能需要每三个月重复一次此过程，因为在此期间之后，Panda Touch上的登录详细信息将过期。
 

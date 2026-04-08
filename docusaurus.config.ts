@@ -58,8 +58,8 @@ const config: Config = {
     },
     format: 'mdx',
     mdx1Compat: {
-        comments: true,
-        admonitions: true,
+        comments: false,
+        admonitions: false,
         headingIds: true,
     }
   },

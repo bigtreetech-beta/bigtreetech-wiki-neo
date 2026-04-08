@@ -13,7 +13,7 @@ import TabItem from '@theme/TabItem';
 
 {/* import lib end */}
 
-:::info Panda Touch CAD 文件
+:::info[Panda Touch CAD 文件]
 
 Panda Touch 的 CAD 文件可以在 GitHub repo [bigtreetech/PandaTouch/3D](https://github.com/bigtreetech/PandaTouch/tree/master/3D)
 

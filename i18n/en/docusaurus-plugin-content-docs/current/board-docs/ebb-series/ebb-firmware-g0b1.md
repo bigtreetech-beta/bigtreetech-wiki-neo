@@ -32,11 +32,11 @@ make
 
 ## Flash Firmware
 
-:::note USB Power Supply
+:::note[USB Power Supply]
 If you use the USB Type-C interface for power supply when flashing the firmware, the `VUSB` jumper needs to be connected.
 :::
 
-:::warning Known Issue
+:::warning[Known Issue]
 If the EBB you are using is `EBB 36 v1.1` or `EBB 42 v1.1`, the hotend heater output pin `PA2` will be enabled when entering `DFU` mode.
 :::
 

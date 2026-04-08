@@ -35,7 +35,7 @@ import TabItem from '@theme/TabItem';
 
 <ImageView src={require('./img/TFT35_V3.0_Interface.png').default} width="50%"/>
 
-:::info 
+:::info
 
 1. 使用12864屏幕模式时，将端口EXP1和EXP2连接到主板。此模式下没有触摸功能。（使用SKR MINI E3或SKR E3 DIP，只需将EXP3连接到主板即可）
 
