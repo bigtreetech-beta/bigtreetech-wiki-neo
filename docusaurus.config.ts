@@ -60,7 +60,7 @@ const config: Config = {
     mdx1Compat: {
         comments: false,
         admonitions: false,
-        headingIds: true,
+        headingIds: false,
     }
   },
 

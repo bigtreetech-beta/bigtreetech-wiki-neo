@@ -5,7 +5,7 @@ description: Panda Bamboo Feeder 硬件
 
 # Panda Bamboo Feeder 硬件
 
-## 产品外观尺寸 {#p_size}
+## 产品外观尺寸 {/* #p_size */}
 
 :::info[模型]
 

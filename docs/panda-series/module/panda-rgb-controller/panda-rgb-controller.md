@@ -143,11 +143,11 @@ Panda RGB Controller是一款用于无线控制RGB灯带的产品，搭配外接
 
     <img src={require('./img/panda_rgb_controller_install18.webp').default} width="60%"/>
 
-## 用户首次使用WebUI指南 {#first-connection}
+## 用户首次使用WebUI指南 {/* #first-connection */}
 
 首次连接电源后或执行“恢复出厂设置”命令后，您将看到蓝色跑马灯，代表此时Panda_RGB_Controller没有绑定打印机。
 
-### WiFi连接指南 {#wifi-connect}
+### WiFi连接指南 {/* #wifi-connect */}
 
 - 连接设备WiFi_AP热点
   
@@ -197,7 +197,7 @@ Panda RGB Controller是一款用于无线控制RGB灯带的产品，搭配外接
 
             <img src={require('./img/panda_rgb_controller_wifi_ok.webp').default} width="60%"/>  
 
-### 绑定打印机 {#printer-bind}
+### 绑定打印机 {/* #printer-bind */}
 
 - 功能介绍
 
