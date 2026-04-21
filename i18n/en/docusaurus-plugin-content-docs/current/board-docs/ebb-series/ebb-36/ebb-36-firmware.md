@@ -21,7 +21,7 @@ For EBB 36 v1.1 / v1.2, refer to [EBB Series Firmware (STM32G0B1)](../ebb-firmwa
 
 For EBB 36 v1.0, refer to [EBB Series Firmware (STM32F072)](../ebb-firmware-f072.md) for flashing Klipper firmware.
 
-## Klipper 配置文件参考
+## Klipper Configuration Reference
 
 ``` klipper_cfg title="printer.cfg"
 [mcu EBBCan]
