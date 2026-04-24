@@ -330,5 +330,9 @@
   "sidebar.popSidebar.category.Pop Series Module.link.generated-index.description": {
     "message": "Pop Series Module",
     "description": "The generated-index page description for category 'Pop Series Module' in sidebar 'popSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Bamboo Feeder": {
+    "message": "Panda Bamboo Feeder",
+    "description": "The label for category 'Panda Bamboo Feeder' in sidebar 'pandaSidebar'"
   }
 }
