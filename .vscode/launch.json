@@ -18,6 +18,12 @@
       "name": "full build wiki",
       "request": "launch",
       "command": "yarn build && yarn run serve"
+    },
+    {
+      "type": "node-terminal",
+      "name": "install dependency",
+      "request": "launch",
+      "command": "yarn install"
     }
   ]
 }
