@@ -372,5 +372,8 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "Wiki 迁移中...": {
+    "message": "Wiki migration in progress..."
   }
 }
