@@ -1,12 +1,15 @@
 {
+  "查看文档": {
+    "message": "View Documentation"
+  },
   "Board": {
     "message": "Board"
   },
   "Extruder": {
     "message": "Extruder"
   },
-  "Module": {
-    "message": "Module"
+  "Sensor": {
+    "message": "Sensor"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
@@ -48,6 +51,10 @@
     "message": "Older post",
     "description": "The blog post button label to navigate to the older/next post"
   },
+  "theme.tags.tagsPageLink": {
+    "message": "View all tags",
+    "description": "The label of the link targeting the tag list page"
+  },
   "theme.colorToggle.ariaLabel.mode.system": {
     "message": "system mode",
     "description": "The name for the system color mode"
@@ -64,17 +71,9 @@
     "message": "Switch between dark and light mode (currently {mode})",
     "description": "The ARIA label for the color mode toggle"
   },
-  "theme.tags.tagsPageLink": {
-    "message": "View all tags",
-    "description": "The label of the link targeting the tag list page"
-  },
   "theme.docs.breadcrumbs.navAriaLabel": {
     "message": "Breadcrumbs",
     "description": "The ARIA label for the breadcrumbs"
-  },
-  "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 item|{count} items",
-    "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "Docs pages",
@@ -211,6 +210,10 @@
     "message": "On this page",
     "description": "The label used by the button on the collapsible TOC component"
   },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "One min read|{readingTime} min read",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
   "theme.blog.post.readMore": {
     "message": "Read more",
     "description": "The label used in blog post item excerpts to link to full blog posts"
@@ -218,10 +221,6 @@
   "theme.blog.post.readMoreLabel": {
     "message": "Read more about {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
-  },
-  "theme.blog.post.readingTime.plurals": {
-    "message": "One min read|{readingTime} min read",
-    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.CodeBlock.copy": {
     "message": "Copy",
@@ -243,6 +242,10 @@
     "message": "Home page",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "Collapse sidebar",
     "description": "The title attribute for collapse button of doc sidebar"
@@ -250,10 +253,6 @@
   "theme.docs.sidebar.collapseButtonAriaLabel": {
     "message": "Collapse sidebar",
     "description": "The title attribute for collapse button of doc sidebar"
-  },
-  "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
-    "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
     "message": "Close navigation bar",
@@ -283,22 +282,6 @@
     "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
-  "theme.SearchBar.noResultsText": {
-    "message": "No results"
-  },
-  "theme.SearchBar.seeAllOutsideContext": {
-    "message": "See all results outside \"{context}\""
-  },
-  "theme.SearchBar.searchInContext": {
-    "message": "See all results within \"{context}\""
-  },
-  "theme.SearchBar.seeAll": {
-    "message": "See all results"
-  },
-  "theme.SearchBar.label": {
-    "message": "Search",
-    "description": "The ARIA label and placeholder for search button"
-  },
   "theme.SearchPage.existingResultsTitle": {
     "message": "Search results for \"{query}\"",
     "description": "The search page title for non-empty query"
@@ -317,6 +300,22 @@
   "theme.SearchPage.noResultsText": {
     "message": "No documents were found",
     "description": "The paragraph for empty search result"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "No results"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "See all results outside \"{context}\""
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "See all results within \"{context}\""
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "See all results"
+  },
+  "theme.SearchBar.label": {
+    "message": "Search",
+    "description": "The ARIA label and placeholder for search button"
   },
   "theme.blog.post.plurals": {
     "message": "One post|{count} posts",
@@ -358,6 +357,10 @@
     "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
     "description": "The draft content banner message"
   },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 item|{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
   "theme.ErrorPageContent.tryAgain": {
     "message": "Try again",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
@@ -370,7 +373,7 @@
     "message": "Tags",
     "description": "The title of the tag list page"
   },
-  "Sensor": {
-    "message": "Sensor"
+  "Wiki 迁移中...": {
+    "message": "Wiki migration in progress..."
   }
 }

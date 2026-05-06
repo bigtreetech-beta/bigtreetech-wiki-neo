@@ -67,9 +67,9 @@
     "message": "EBB 2209 (RP 2040)",
     "description": "The label for category 'EBB 2209 (RP 2040)' in sidebar 'boardSidebar'"
   },
-  "sidebar.boardSidebar.category.EBB 36 Gen 1": {
-    "message": "EBB 36 Gen 1",
-    "description": "The label for category 'EBB 36 Gen 1' in sidebar 'boardSidebar'"
+  "sidebar.boardSidebar.category.EBB 36": {
+    "message": "EBB 36",
+    "description": "The label for category 'EBB 36' in sidebar 'boardSidebar'"
   },
   "sidebar.boardSidebar.category.MMB series": {
     "message": "MMB series",
@@ -95,122 +95,6 @@
     "message": "MMB CAN V2 多色扩展板",
     "description": "The generated-index page description for category 'MMB CAN V2' in sidebar 'boardSidebar'"
   },
-  "sidebar.extruderSidebar.category.H2 V2X": {
-    "message": "H2 V2X",
-    "description": "The label for category 'H2 V2X' in sidebar 'extruderSidebar'"
-  },
-  "sidebar.extruderSidebar.category.Nebula": {
-    "message": "Nebula",
-    "description": "The label for category 'Nebula' in sidebar 'extruderSidebar'"
-  },
-  "sidebar.moduleSidebar.category.EZ Series": {
-    "message": "EZ Series",
-    "description": "The label for category 'EZ Series' in sidebar 'moduleSidebar'"
-  },
-  "sidebar.moduleSidebar.category.EZ Series.link.generated-index.description": {
-    "message": "EZ stepper motor driver",
-    "description": "The generated-index page description for category 'EZ Series' in sidebar 'moduleSidebar'"
-  },
-  "sidebar.moduleSidebar.category.EZ 5160 Pro": {
-    "message": "EZ 5160 Pro",
-    "description": "The label for category 'EZ 5160 Pro' in sidebar 'moduleSidebar'"
-  },
-  "sidebar.moduleSidebar.category.EZ 5160 Pro.link.generated-index.description": {
-    "message": "EZ 5160 Pro Stepper motor driver",
-    "description": "The generated-index page description for category 'EZ 5160 Pro' in sidebar 'moduleSidebar'"
-  },
-  "sidebar.moduleSidebar.category.TMC Driver": {
-    "message": "TMC Driver",
-    "description": "The label for category 'TMC Driver' in sidebar 'moduleSidebar'"
-  },
-  "sidebar.moduleSidebar.category.TMC Driver.link.generated-index.description": {
-    "message": "TMC Stepper motor driver",
-    "description": "The generated-index page description for category 'TMC Driver' in sidebar 'moduleSidebar'"
-  },
-  "sidebar.moduleSidebar.category.TMC 5160 T Plus": {
-    "message": "TMC 5160 T Plus",
-    "description": "The label for category 'TMC 5160 T Plus' in sidebar 'moduleSidebar'"
-  },
-  "sidebar.moduleSidebar.category.Sensor": {
-    "message": "Sensor",
-    "description": "The label for category 'Sensor' in sidebar 'moduleSidebar'"
-  },
-  "sidebar.moduleSidebar.category.Sensor.link.generated-index.description": {
-    "message": "Sensor",
-    "description": "The generated-index page description for category 'Sensor' in sidebar 'moduleSidebar'"
-  },
-  "sidebar.moduleSidebar.category.ADXL345": {
-    "message": "ADXL345",
-    "description": "The label for category 'ADXL345' in sidebar 'moduleSidebar'"
-  },
-  "sidebar.moduleSidebar.category.Eddy": {
-    "message": "Eddy",
-    "description": "The label for category 'Eddy' in sidebar 'moduleSidebar'"
-  },
-  "sidebar.moduleSidebar.category.LIS2DW": {
-    "message": "LIS2DW",
-    "description": "The label for category 'LIS2DW' in sidebar 'moduleSidebar'"
-  },
-  "sidebar.moduleSidebar.category.Microprobe": {
-    "message": "Microprobe",
-    "description": "The label for category 'Microprobe' in sidebar 'moduleSidebar'"
-  },
-  "sidebar.moduleSidebar.category.Display": {
-    "message": "Display",
-    "description": "The label for category 'Display' in sidebar 'moduleSidebar'"
-  },
-  "sidebar.moduleSidebar.category.Display.link.generated-index.description": {
-    "message": "display",
-    "description": "The generated-index page description for category 'Display' in sidebar 'moduleSidebar'"
-  },
-  "sidebar.boardSidebar.category.EBB 36": {
-    "message": "EBB 36",
-    "description": "The label for category 'EBB 36' in sidebar 'boardSidebar'"
-  },
-  "sidebar.pandaSidebar.category.Panda Series Extruders": {
-    "message": "Panda Series Extruders",
-    "description": "The label for category 'Panda Series Extruders' in sidebar 'pandaSidebar'"
-  },
-  "sidebar.pandaSidebar.category.Panda Series Extruders.link.generated-index.description": {
-    "message": "Panda Series Extruders",
-    "description": "The generated-index page description for category 'Panda Series Extruders' in sidebar 'pandaSidebar'"
-  },
-  "sidebar.pandaSidebar.category.Panda Series Hotend": {
-    "message": "Panda Series Hotend",
-    "description": "The label for category 'Panda Series Hotend' in sidebar 'pandaSidebar'"
-  },
-  "sidebar.pandaSidebar.category.Panda Series Hotend.link.generated-index.description": {
-    "message": "Panda Series Hotend",
-    "description": "The generated-index page description for category 'Panda Series Hotend' in sidebar 'pandaSidebar'"
-  },
-  "sidebar.pandaSidebar.category.Panda Revo": {
-    "message": "Panda Revo",
-    "description": "The label for category 'Panda Revo' in sidebar 'pandaSidebar'"
-  },
-  "sidebar.pandaSidebar.category.Panda Revo.link.generated-index.description": {
-    "message": "Panda Revo",
-    "description": "The generated-index page description for category 'Panda Revo' in sidebar 'pandaSidebar'"
-  },
-  "sidebar.pandaSidebar.category.Panda Series Module": {
-    "message": "Panda Series Module",
-    "description": "The label for category 'Panda Series Module' in sidebar 'pandaSidebar'"
-  },
-  "sidebar.pandaSidebar.category.Panda Series Module.link.generated-index.description": {
-    "message": "Panda Series Module",
-    "description": "The generated-index page description for category 'Panda Series Module' in sidebar 'pandaSidebar'"
-  },
-  "sidebar.pandaSidebar.category.Panda Touch": {
-    "message": "Panda Touch",
-    "description": "The label for category 'Panda Touch' in sidebar 'pandaSidebar'"
-  },
-  "sidebar.pandaSidebar.category.Panda Touch expansion module": {
-    "message": "Panda Touch expansion module",
-    "description": "The label for category 'Panda Touch expansion module' in sidebar 'pandaSidebar'"
-  },
-  "sidebar.pandaSidebar.category.Panda Touch expansion module.link.generated-index.description": {
-    "message": "Panda Touch expansion module",
-    "description": "The generated-index page description for category 'Panda Touch expansion module' in sidebar 'pandaSidebar'"
-  },
   "sidebar.boardSidebar.category.IOT series": {
     "message": "IOT series",
     "description": "The label for category 'IOT series' in sidebar 'boardSidebar'"
@@ -218,6 +102,18 @@
   "sidebar.boardSidebar.category.IOT series.link.generated-index.description": {
     "message": "IOT Compute Module and Base Board",
     "description": "The generated-index page description for category 'IOT series' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.CB1": {
+    "message": "CB1",
+    "description": "The label for category 'CB1' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.CB2": {
+    "message": "CB2",
+    "description": "The label for category 'CB2' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.BIGTREETECH Pad5 V2": {
+    "message": "BIGTREETECH Pad5 V2",
+    "description": "The label for category 'BIGTREETECH Pad5 V2' in sidebar 'boardSidebar'"
   },
   "sidebar.accessoriesSidebar.category.Build Plate": {
     "message": "Build Plate",
@@ -303,25 +199,53 @@
     "message": "display",
     "description": "The generated-index page description for category 'Display' in sidebar 'accessoriesSidebar'"
   },
-  "sidebar.boardSidebar.category.BIGTREETECH Pad5 V2": {
-    "message": "BIGTREETECH Pad5 V2",
-    "description": "The label for category 'BIGTREETECH Pad5 V2' in sidebar 'boardSidebar'"
+  "sidebar.pandaSidebar.category.Panda Series Extruders": {
+    "message": "Panda Series Extruders",
+    "description": "The label for category 'Panda Series Extruders' in sidebar 'pandaSidebar'"
   },
-  "sidebar.boardSidebar.category.CB1": {
-    "message": "CB1",
-    "description": "The label for category 'CB1' in sidebar 'boardSidebar'"
+  "sidebar.pandaSidebar.category.Panda Series Extruders.link.generated-index.description": {
+    "message": "Panda Series Extruders",
+    "description": "The generated-index page description for category 'Panda Series Extruders' in sidebar 'pandaSidebar'"
   },
-  "sidebar.boardSidebar.category.CB2": {
-    "message": "CB2",
-    "description": "The label for category 'CB2' in sidebar 'boardSidebar'"
+  "sidebar.pandaSidebar.category.Panda Series Hotend": {
+    "message": "Panda Series Hotend",
+    "description": "The label for category 'Panda Series Hotend' in sidebar 'pandaSidebar'"
   },
-  "sidebar.popSidebar.category.Panda Series Module": {
+  "sidebar.pandaSidebar.category.Panda Series Hotend.link.generated-index.description": {
+    "message": "Panda Series Hotend",
+    "description": "The generated-index page description for category 'Panda Series Hotend' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Revo": {
+    "message": "Panda Revo",
+    "description": "The label for category 'Panda Revo' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Revo.link.generated-index.description": {
+    "message": "Panda Revo",
+    "description": "The generated-index page description for category 'Panda Revo' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Series Module": {
     "message": "Panda Series Module",
-    "description": "The label for category 'Panda Series Module' in sidebar 'popSidebar'"
+    "description": "The label for category 'Panda Series Module' in sidebar 'pandaSidebar'"
   },
-  "sidebar.popSidebar.category.Panda Series Module.link.generated-index.description": {
+  "sidebar.pandaSidebar.category.Panda Series Module.link.generated-index.description": {
     "message": "Panda Series Module",
-    "description": "The generated-index page description for category 'Panda Series Module' in sidebar 'popSidebar'"
+    "description": "The generated-index page description for category 'Panda Series Module' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Bamboo Feeder": {
+    "message": "Panda Bamboo Feeder",
+    "description": "The label for category 'Panda Bamboo Feeder' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Touch": {
+    "message": "Panda Touch",
+    "description": "The label for category 'Panda Touch' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Touch expansion module": {
+    "message": "Panda Touch expansion module",
+    "description": "The label for category 'Panda Touch expansion module' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Touch expansion module.link.generated-index.description": {
+    "message": "Panda Touch expansion module",
+    "description": "The generated-index page description for category 'Panda Touch expansion module' in sidebar 'pandaSidebar'"
   },
   "sidebar.popSidebar.category.Pop Series Module": {
     "message": "Pop Series Module",
@@ -330,9 +254,5 @@
   "sidebar.popSidebar.category.Pop Series Module.link.generated-index.description": {
     "message": "Pop Series Module",
     "description": "The generated-index page description for category 'Pop Series Module' in sidebar 'popSidebar'"
-  },
-  "sidebar.pandaSidebar.category.Panda Bamboo Feeder": {
-    "message": "Panda Bamboo Feeder",
-    "description": "The label for category 'Panda Bamboo Feeder' in sidebar 'pandaSidebar'"
   }
 }

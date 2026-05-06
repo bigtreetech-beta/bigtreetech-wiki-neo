@@ -8,7 +8,7 @@ export const ImageView: React.FC<ImageViewProps> = ({ src, children, ...rest }) 
   if (!src) return null;
 
   return (
-    <PhotoProvider>
+    <PhotoProvider maskOpacity={0.5}>
       <PhotoView src={src}>
         <img
           src={src}

@@ -39,6 +39,33 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
+  {
+    title: <Translate>Stepper Driver</Translate>,
+    prod_img: require('@site/static/img/stepper-driver.webp').default,
+    url: 'docs/category/tmc-driver',
+    description: (
+      <>
+      </>
+    ),
+  },
+  {
+    title: <Translate>Edge Computing</Translate>,
+    prod_img: require('@site/static/img/edge-compute.webp').default,
+    url: 'docs/category/iot-series',
+    description: (
+      <>
+      </>
+    ),
+  },
+  {
+    title: <Translate>Build Plate</Translate>,
+    prod_img: require('@site/static/img/build-plate.webp').default,
+    url: 'docs/category/build-plate',
+    description: (
+      <>
+      </>
+    ),
+  },
 ];
 
 function Feature({title, prod_img, url, description}: FeatureItem) {
