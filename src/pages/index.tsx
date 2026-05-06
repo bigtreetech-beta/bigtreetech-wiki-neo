@@ -7,6 +7,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
+import Translate, {translate} from '@docusaurus/Translate';
 
 function HomepageHeader() {
     const { siteConfig } = useDocusaurusContext();
@@ -39,7 +40,7 @@ export default function Home(): ReactNode {
             <main>
                 <br />
                 <div className="text--center padding-horiz--md">
-                    <Translate>Wiki 试运行中... 部分内容可能不存在</Translate>
+
                 </div>
 
                 <HomepageFeatures />

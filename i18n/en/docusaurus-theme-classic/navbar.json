@@ -11,21 +11,9 @@
     "message": "Board",
     "description": "Navbar item with label Board"
   },
-  "item.label.Extruder": {
-    "message": "Extruder",
-    "description": "Navbar item with label Extruder"
-  },
-  "item.label.Module": {
-    "message": "Module",
-    "description": "Navbar item with label Module"
-  },
-  "item.label.Accessory": {
-    "message": "Accessory",
-    "description": "Navbar item with label Accessory"
-  },
-  "item.label.Blog": {
-    "message": "Blog",
-    "description": "Navbar item with label Blog"
+  "item.label.Accessories": {
+    "message": "Accessories",
+    "description": "Navbar item with label Accessories"
   },
   "item.label.Filament": {
     "message": "Filament",
@@ -35,12 +23,12 @@
     "message": "Panda Series",
     "description": "Navbar item with label Panda Series"
   },
-  "item.label.Accessories": {
-    "message": "Accessories",
-    "description": "Navbar item with label Accessories"
-  },
   "item.label.Pop Series": {
     "message": "Pop Series",
     "description": "Navbar item with label Pop Series"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
   }
 }
