@@ -369,5 +369,23 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "Wiki 迁移中...": {
+    "message": "Wiki 迁移中..."
+  },
+  "查看文档": {
+    "message": "查看文档"
+  },
+  "Sensor": {
+    "message": "Sensor"
+  },
+  "Stepper Driver": {
+    "message": "Stepper Driver"
+  },
+  "Edge Computing": {
+    "message": "Edge Computing"
+  },
+  "Build Plate": {
+    "message": "Build Plate"
   }
 }
