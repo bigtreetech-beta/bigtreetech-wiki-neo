@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# Pop Series
+# 更多系列
 
 ##

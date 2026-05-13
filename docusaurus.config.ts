@@ -168,9 +168,9 @@ const config: Config = {
 
         {
           type: 'docSidebar',
-          sidebarId: 'popSidebar',
+          sidebarId: 'moreSidebar',
           position: 'left',
-          label: 'Pop Series',
+          label: 'More Series',
         },
 
         { to: '/blog', label: 'Blog', position: 'left' },
