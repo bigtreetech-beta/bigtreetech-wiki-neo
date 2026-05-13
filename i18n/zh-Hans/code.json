@@ -5,9 +5,6 @@
   "Extruder": {
     "message": "Extruder"
   },
-  "Module": {
-    "message": "Module"
-  },
   "theme.ErrorPageContent.title": {
     "message": "页面已崩溃。",
     "description": "The title of the fallback page when the page crashed"

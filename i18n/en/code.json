@@ -375,5 +375,14 @@
   },
   "Wiki 迁移中...": {
     "message": "Wiki migration in progress..."
+  },
+  "Stepper Driver": {
+    "message": "Stepper Driver"
+  },
+  "Edge Computing": {
+    "message": "Edge Computing"
+  },
+  "Build Plate": {
+    "message": "Build Plate"
   }
 }

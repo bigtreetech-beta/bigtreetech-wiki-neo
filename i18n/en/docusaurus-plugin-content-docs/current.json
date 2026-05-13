@@ -247,12 +247,12 @@
     "message": "Panda Touch expansion module",
     "description": "The generated-index page description for category 'Panda Touch expansion module' in sidebar 'pandaSidebar'"
   },
-  "sidebar.popSidebar.category.Pop Series Module": {
+  "sidebar.moreSidebar.category.Pop Series Module": {
     "message": "Pop Series Module",
-    "description": "The label for category 'Pop Series Module' in sidebar 'popSidebar'"
+    "description": "The label for category 'Pop Series Module' in sidebar 'moreSidebar'"
   },
-  "sidebar.popSidebar.category.Pop Series Module.link.generated-index.description": {
+  "sidebar.moreSidebar.category.Pop Series Module.link.generated-index.description": {
     "message": "Pop Series Module",
-    "description": "The generated-index page description for category 'Pop Series Module' in sidebar 'popSidebar'"
+    "description": "The generated-index page description for category 'Pop Series Module' in sidebar 'moreSidebar'"
   }
 }
