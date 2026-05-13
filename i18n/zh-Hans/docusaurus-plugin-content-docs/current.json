@@ -223,14 +223,6 @@
     "message": "Panda Touch expansion module",
     "description": "The generated-index page description for category 'Panda Touch expansion module' in sidebar 'pandaSidebar'"
   },
-  "sidebar.popSidebar.category.Pop Series Module": {
-    "message": "Pop Series Module",
-    "description": "The label for category 'Pop Series Module' in sidebar 'popSidebar'"
-  },
-  "sidebar.popSidebar.category.Pop Series Module.link.generated-index.description": {
-    "message": "Pop Series Module",
-    "description": "The generated-index page description for category 'Pop Series Module' in sidebar 'popSidebar'"
-  },
   "sidebar.boardSidebar.category.MMB series.link.generated-index.description": {
     "message": "MMB series Multi-color Expansion Board",
     "description": "The generated-index page description for category 'MMB series' in sidebar 'boardSidebar'"
@@ -254,5 +246,13 @@
   "sidebar.accessoriesSidebar.category.Sensor.link.generated-index.description": {
     "message": "Sensor",
     "description": "The generated-index page description for category 'Sensor' in sidebar 'accessoriesSidebar'"
+  },
+  "sidebar.moreSidebar.category.Pop Series Module": {
+    "message": "Pop 系列模块",
+    "description": "The label for category 'Pop Series Module' in sidebar 'moreSidebar'"
+  },
+  "sidebar.moreSidebar.category.Pop Series Module.link.generated-index.description": {
+    "message": "Pop 系列模块",
+    "description": "The generated-index page description for category 'Pop Series Module' in sidebar 'moreSidebar'"
   }
 }

@@ -27,8 +27,8 @@
     "message": "Panda 系列",
     "description": "Navbar item with label Panda Series"
   },
-  "item.label.Pop Series": {
-    "message": "Pop 系列",
-    "description": "Navbar item with label Pop Series"
+  "item.label.More Series": {
+    "message": "更多系列",
+    "description": "Navbar item with label More Series"
   }
 }
