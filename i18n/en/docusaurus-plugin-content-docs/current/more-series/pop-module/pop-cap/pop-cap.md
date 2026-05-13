@@ -2,7 +2,7 @@
 
 <div class="div-table">
 
-<ImageView src={require('@site/docs/pop-series/module/pop-cap/img/pop-popcap-1.webp').default} width="40%" class="right-image"/>
+<ImageView src={require('@site/docs/more-series/pop-module/pop-cap/img/pop-popcap-1.webp').default} width="40%" class="right-image"/>
 
 Product Link: [Buy Here](https://biqu.equipment/products/biqu-popcop-clear-acrylic-filament-drying-storage-box?_pos=1&_sid=ba19a1ee0&_ss=r&variant=42589800890466)
 
@@ -36,7 +36,7 @@ PopCap transforms your Snapmaker U1 into a fully enclosed printing environment â
 | Material     | Polycarbonate (PC)                                  |
 | Compatibility   | Designed for Snapmaker U1; includes reserved cable-routing holes for Panda Breath and PopStatus, and mounting holes for PopTouch.  |
 
-<ImageView src={require('@site/docs/pop-series/module/pop-cap/img/pop-popcap-2.webp').default} width="70%"/>
+<ImageView src={require('@site/docs/more-series/pop-module/pop-cap/img/pop-popcap-2.webp').default} width="70%"/>
 
 ## Package Contents
 
@@ -48,19 +48,19 @@ PopCap transforms your Snapmaker U1 into a fully enclosed printing environment â
 
 - Step 2: Install the handle: Use the included M4 Ã— 6 screws and Phillips screwdriver to attach the handle to the hatch, as shown in the illustration. Then place the hatch onto the PopCap opening.
 
-    <ImageView src={require('@site/docs/pop-series/module/pop-cap/img/pop-popcap-4.webp').default} width="70%"/>
+    <ImageView src={require('@site/docs/more-series/pop-module/pop-cap/img/pop-popcap-4.webp').default} width="70%"/>
 
-    <ImageView src={require('@site/docs/pop-series/module/pop-cap/img/pop-popcap-5.webp').default} width="70%"/>
+    <ImageView src={require('@site/docs/more-series/pop-module/pop-cap/img/pop-popcap-5.webp').default} width="70%"/>
 
 - Step 3: Position PopCap directly on top of the Snapmaker U1. Installation is now complete.
 
-    <ImageView src={require('@site/docs/pop-series/module/pop-cap/img/pop-popcap-6.webp').default} width="70%"/>
+    <ImageView src={require('@site/docs/more-series/pop-module/pop-cap/img/pop-popcap-6.webp').default} width="70%"/>
 
 ## Accessory Installation
 
 ### Panda Breath Installation Guide
 
-<ImageView src={require('@site/docs/pop-series/module/pop-cap/img/pop-popcap-7.webp').default} width="70%"/>
+<ImageView src={require('@site/docs/more-series/pop-module/pop-cap/img/pop-popcap-7.webp').default} width="70%"/>
 
 Panda Breath: [Buy Here](https://biqu.equipment/products/biqu-panda-breath-smart-air-filtration-and-heating?_pos=1&_sid=3a4ce2d06&_ss=r&variant=42353406279778)
 
