@@ -1,0 +1,51 @@
+---
+sidebar_position: 1
+description: MMB CAN V2.0 Introduction
+---
+
+# MMB CAN V2.0
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<ImageView
+	src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-title.webp').default}
+	width="40%"
+	class="right-image"
+/>
+
+## Product Introduction
+
+The BIGTREETECH MMB CAN V2.0 is a buddy board designed specifically for the ERCF V2, co-developed by BIGTREETECH and the ERCF Team. 
+It is optimized to enhance the stability and responsiveness of multi-color operation in the ERCF V2, ensuring excellent compatibility and performance for this kit.
+
+## Product Features
+
+- The board contains BOOT and RESET buttons to enter DFU mode when updating firmware using USB.
+- An I2C interface is provided for filament detection or DIY capabilities.
+- The power input interface is equipped with reverse polarity protection to prevent damage to the board if the power supply is connected incorrectly during DIY projects.
+- The board supports both CAN and USB communication protocols. The CAN terminal resistor (120Ω) can be selected via a jumper, and a CAN expansion interface is reserved.
+- The USB port features an ESD protection chip to safeguard the MCU against potential static discharge damage.
+- The board utilizes an XT30 interface for both CAN communication and power supply, streamlining the wiring process.
+- The stepper motor driver interface supports high-voltage operation, enabling enhanced DIY customization options.
+
+## Specifications
+
+| **Dimensions** | **108.26mm x 59mm** |
+| :--- | :---: |
+| **Mounting Dimensions** | **For details, please refer to: BIGTREETECH MMB CAN V2.0-SIZE.pdf** |
+| **Microprocessor** | **ARM Cortex-M0+ STM32G0B1RET6 64MHz** |
+| **Input Voltage** | **DC12V-DC60V** |
+| **Input Current** | **9A** |
+| **Logic Voltage** | **DC 3.3V** |
+| **Servo (MOT) Max Output** | **5V 2A, peak 2.5A** |
+| **Expansion Interfaces** | **STP1-STP11, I2C, RGB, Sensor (IR sensor interface), USB port, CAN port** |
+| **Motor Driver Support** | **EZ Series Drivers** |
+| **Driver Operating Modes** | **STEP/DIR, UART, SPI** |
+| **Motor Interfaces** | **M1, M2, M3, M4** |
+| **USB Communication** | **USB Type-C** |
+| **DCDC 5V Max Current** | **7A** |

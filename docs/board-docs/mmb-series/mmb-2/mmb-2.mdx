@@ -1,0 +1,51 @@
+---
+sidebar_position: 1
+description: MMB CAN V2.0 简介
+---
+
+# MMB CAN V2.0
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<ImageView
+	src={require('./img/mmb-can-v2-0-title.webp').default}
+	width="40%"
+	class="right-image"
+/>
+
+## 产品简介
+
+BIGTREETECH MMB CAN V2.0是深圳市必趣创新科技有限公司3D打印团队针对多色挤出机制作的挤出控制板，可以通过USB或者CAN进行通讯，大大简化接线。
+针对MMB CAN V1遇到的同时控制多个舵机时可能会出现电流不足的问题进行了改良，将5V供电的最大输出电流提升至7A，并增加了一些必要的防护。
+
+## 产品特点
+
+- 主板预留BOOT和RESET按键，用户可以通过USB进入DFU模式更新固件。
+- 预留I2C接口，此端口也可用于耗材检测，或者进行其它功能的DIY操作。
+- 电源接口有防反接保护，避免客户在DIY时接反电源线导致板子烧毁。
+- 支持CAN或USB通讯，其中CAN的终端电阻120R可通过跳线帽选择，且预留CAN拓展接口。
+- USB口增设ESD保护芯片，防止主控被USB口静电击穿。
+- 采用艾迈斯接口进行CAN通讯及主板供电，让接线简单化。
+- 步进电机驱动支持高压，方便客户DIY使用
+
+## 产品参数
+
+| **外观尺寸**                |                         **108.26mm x 59mm**                          |
+| :--------------------------- | :------------------------------------------------------------------: |
+| **安装尺寸**                |          **详情请参考：BIGTREETECH MMB CAN V2.0-SIZE.pdf**           |
+| **微处理器**                |                **ARM Cortex-M0+ STM32G0B1RET6 64MHz**                |
+| **输入电压**                |                           **DC12V-DC60V**                            |
+| **输入电流**                |                                **9A**                                |
+| **逻辑电压**                |                             **DC 3.3V**                              |
+| **舵机接口（MOT）最大输出** |                         **5V 2A，峰值2.5A**                          |
+| **拓展接口**                | **STP1-STP11，I2C，RGB，Sensor（红外传感器接口），USB接口，CAN接口** |
+| **电机驱动支持**            |                            **EZ系列驱动**                            |
+| **驱动工作模式**            |                       **STEP/DIR, UART, SPI**                        |
+| **步进电机接口**            |                          **M1，M2，M3，M4**                          |
+| **USB通信接口**             |                            **USB Type-C**                            |
+| **DCDC 5V输出最大电流**     |                                **7A**                                |

@@ -1,0 +1,64 @@
+---
+sidebar_position: 1
+description: MMB CAN V1.0 Hardware Features
+---
+
+# MMB CAN V1.0 Hardware Features
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+## Dimensions
+
+<ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-dimension.webp').default} />
+:::tip[3D STEP File]
+
+MMB CAN V1.0 Model [bigtreetech/MMB/3D/BIGTREETECH MMB CAN V1.0-3D.step](https://github.com/bigtreetech/MMB/blob/master/3D/BIGTREETECH%20MMB%20CAN%20V1.0-3D.step)
+
+:::
+## Pin Description
+
+<ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-pin.webp').default} />
+:::tip[Schematic Diagram]
+
+MMB CAN V1.0 Schematic Diagram [BIGTREETECH MMB CAN V1.0-SCH.pdf](https://github.com/bigtreetech/MMB/blob/master/Hardware/V1.0/BIGTREETECH%20MMB%20CAN%20V1.0-SCH.pdf)
+
+:::
+
+## Interface Introduction
+
+### USB Power Supply
+
+When the board is powered on, the power indicator light will turn on to confirm that the power supply is functioning correctly. The VUSB terminal on the board is the power selection terminal, which should only be shorted with a jumper when powering through USB.
+
+<ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-usb.webp').default} />
+
+### Servo Wiring
+
+:::warning[Note]
+This demonstration shows using the MMB's onboard DC-DC module to power the servo.
+
+While the MMB is capable of handling this task, any damage to the servo will force the MMB's 5V power supply to trigger short-circuit protection, causing the MCU to go offline.
+:::
+
+<ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-servo.webp').default} />
+
+### RGB-WS2812 Wiring
+
+<ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-ws2812.webp').default} />
+
+### Sensor (e.g., binky/TCRT5000 IR Sensor) Wiring
+
+<ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-sensor.webp').default} />
+
+### I2C (e.g., AHT10 Temperature and Humidity Sensor) Wiring
+
+<ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-iic.webp').default} />
+
+### Endstop (e.g., Hall Effect Sensor) Wiring
+
+<ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-endstop.webp').default} />

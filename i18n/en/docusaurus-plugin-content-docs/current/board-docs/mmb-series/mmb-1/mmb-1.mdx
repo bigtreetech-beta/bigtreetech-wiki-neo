@@ -1,0 +1,49 @@
+---
+sidebar_position: 1
+description: MMB CAN V1.0 Introduction
+---
+
+# MMB CAN V1.0
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<ImageView
+	src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-title.webp').default}
+	width="40%"
+	class="right-image"
+/>
+
+## Product Introduction
+
+The BIGTREETECH MMB CAN V1.0 is a control board for multi-material 3D printing system, e.g., ERCF. It simplifies wiring by communicating via USB or CAN.
+
+## Feature Highlights
+
+- Equipped with onboard BOOT and RESET buttons, allowing users to enter DFU mode via USB to update firmware.
+- Features a reserved I2C interface, which can be utilized for filament detection or other custom DIY functionalities.
+- The power interface includes reverse polarity protection to prevent the board from burning out due to incorrect wiring during DIY setup.
+- Supports both CAN and USB communication. The 120R CAN termination resistor is selectable via a jumper, and a CAN expansion interface is reserved.
+- An ESD protection chip is integrated into the USB port to prevent the MCU from being damaged by electrostatic discharge.
+- Utilizes an XT30 interface for CAN communication and power supply to simplify wiring.
+- Stepper motor drivers support high and low voltage selection, providing flexibility for DIY applications.
+
+## Specifications
+
+| Dimensions | 125mm x 54mm |
+| :--- | :---: |
+| **Mounting Dimensions** | **For details, please refer to: BIGTREETECH MMB CAN V1.0-SIZE.pdf** |
+| **Microprocessor** | **ARM Cortex-M0+ STM32G0B1CBT6 64MHz** |
+| **Input Voltage** | **DC12V-DC24V 9A** |
+| **Logic Voltage** | **DC 3.3V** |
+| **Servo (MOT) Max Output** | **5V 2A, peak 2.5A** |
+| **Expansion Interfaces** | **STP1-STP11, I2C, RGB, Sensor (IR sensor interface), USB port, CAN port** |
+| **Motor Driver Support** | **EZ Series Drivers (supports voltage selection)** |
+| **Driver Operating Modes** | **STEP/DIR, UART, SPI** |
+| **Motor Interfaces** | **M1, M2, M3, M4** |
+| **USB Communication** | **USB Type-C** |
+| **DCDC 5V Max Current** | **3.6A** |
