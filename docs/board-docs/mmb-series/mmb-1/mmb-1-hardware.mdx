@@ -1,0 +1,64 @@
+---
+sidebar_position: 1
+description: MMB CAN V1.0 硬件功能
+---
+
+# MMB CAN V1.0 硬件功能
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+## 外观尺寸
+
+<ImageView src={require('./img/mmb-can-dimension.webp').default} />
+:::tip[3D 参考文件]
+
+MMB CAN V1.0 模型 [bigtreetech/MMB/3D/BIGTREETECH MMB CAN V1.0-3D.step](https://github.com/bigtreetech/MMB/blob/master/3D/BIGTREETECH%20MMB%20CAN%20V1.0-3D.step)
+
+:::
+## 引脚说明
+
+<ImageView src={require('./img/mmb-can-pin.webp').default} />
+:::tip[原理图 / SCHEMATIC]
+
+MMB CAN V1.0 原理图 [BIGTREETECH MMB CAN V1.0-SCH.pdf](https://github.com/bigtreetech/MMB/blob/master/Hardware/V1.0/BIGTREETECH%20MMB%20CAN%20V1.0-SCH.pdf)
+
+:::
+
+## 接口介绍
+
+### USB 供电
+
+主板上电之后， 电源灯会亮起，表示供电正常。板上标识 VUSB 是电源选择端，仅当使用USB 给主板供电时，才需要使用跳帽将 VUSB 短接。
+
+<ImageView src={require('./img/mmb-can-usb.webp').default} />
+
+### Servo 接线
+
+:::warning[警告]
+此处演示为使用MMB的板载DC-DC为舵机供电。
+
+MMB可以胜任这项工作，但如果舵机出现损坏，将迫使MMB的5V供电触发短路保护，致使MCU离线。
+:::
+
+<ImageView src={require('./img/mmb-can-servo.webp').default} />
+
+### RGB-WS2812 接线
+
+<ImageView src={require('./img/mmb-can-ws2812.webp').default} />
+
+### Sensor（如 binky/TCRT5000 红外传感器）接线
+
+<ImageView src={require('./img/mmb-can-sensor.webp').default} />
+
+### I2C（如 AHT10 温湿度传感器）接线
+
+<ImageView src={require('./img/mmb-can-iic.webp').default} />
+
+### Endstop（如霍尔传感器）接线
+
+<ImageView src={require('./img/mmb-can-endstop.webp').default} />

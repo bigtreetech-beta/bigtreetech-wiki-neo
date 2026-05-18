@@ -1,0 +1,97 @@
+---
+sidebar_position: 2
+description: MMB CAN V2.0 Hardware Features
+---
+
+# MMB CAN V2.0 Hardware Features
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+## Dimensions
+
+<ImageView
+	src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-dimensions.webp').default}
+	alt="mmb can v2"
+	width="80%"
+/>
+:::tip[3D STEP File]
+
+MMB CAN V2.0 Model [bigtreetech/MMB/3D/BIGTREETECH MMB CAN V2.0-3D.step](https://github.com/bigtreetech/MMB/blob/master/3D/BIGTREETECH%20MMB%20CAN%20V2.0-3D.step)
+
+:::
+
+## Pin Description
+
+<ImageView
+	src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-pin.webp').default}
+	alt="mmb can v2"
+	width="80%"
+/>
+:::tip[Schematic Diagram]
+
+MMB CAN V2.0 Schematic Diagram [BIGTREETECH MMB CAN V2.0-SCH.pdf](https://github.com/bigtreetech/MMB/blob/master/Hardware/V2.0/BIGTREETECH%20MMB%20CAN%20V2.0-SCH.pdf)
+
+:::
+
+## Interface Introduction
+
+### USB Power Supply
+
+When the board is powered on, the power indicator light will turn on to confirm that the power supply is functioning correctly. The VUSB terminal on the board is the power selection terminal, which should only be shorted with a jumper when powering through USB.
+
+<ImageView
+	src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-usb.webp').default}
+	alt="mmb can v2"
+	width="80%"
+/>
+
+### Servo Interface
+
+:::info[Note]
+This demonstration shows using the MMB's onboard DC-DC module to power the servo.
+
+The MMB CAN V2 features an added 3A resettable fuse at the servo output port to prevent the power supply from triggering short-circuit protection, making it fully capable of handling this application. However, please ensure it is connected to the MOT1 or MOT2 connector, minimize simultaneous movements, or enable `servo_always_active: 1` to maintain continuous control signals even after a servo reset.
+:::
+
+<ImageView
+	src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-mot.webp').default}
+	alt="mmb can v2"
+	width="80%"
+/>
+
+### Neopixel Wiring
+
+<ImageView
+	src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-rgb.webp').default}
+	alt="mmb can v2"
+	width="80%"
+/>
+
+### Encoder Wiring
+
+<ImageView
+	src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-sensor.webp').default}
+	alt="mmb can v2"
+	width="80%"
+/>
+
+### I2C Wiring
+
+<ImageView
+	src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-i2c.webp').default}
+	alt="mmb can v2"
+	width="80%"
+/>
+
+### Endstops Wiring
+
+<ImageView
+	src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-endstop.webp').default}
+	alt="mmb can v2"
+	width="80%"
+/>
