@@ -1,0 +1,316 @@
+---
+sidebar_position: 3
+description: MMB CAN V2.0 Firmware Configuration
+---
+
+# MMB CAN V2.0 Firmware Configuration
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+## Compilation and Flashing
+
+## Klipper Firmware
+
+### Flashing CANBOOT
+
+Note: CANBOOT is for direct firmware updates via CAN bus. Skip this step if using DFU.
+
+"To flash CanBoot via Raspberry Pi or CB1"，refer to the instructions here to download：
+
+Katapult (CanBoot) GitHub Repo: [Arksine/katapult](https://github.com/Arksine/katapult)
+
+Hereafter, it will be referred to collectively as **Katapult**
+
+1. Enter: 
+
+    ```shell
+    cd ~
+    ```
+
+    to go to the home directory, enter:
+
+    ```shell
+    git clone https://github.com/Arksine/katapult.git
+    ```
+
+    to download the Katapult project, then enter:
+
+    ```shell
+    cd katapult
+    ```
+
+    to navigate to the Katapult directory.
+
+2. Enter `make menuconfig` and configure as shown in the image below:
+
+    ```shell
+    make menuconfig
+    ```
+
+    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-klipper1.webp').default} />
+
+    Once the configuration is complete, press `q` to exit, use the arrow keys to select `Yes`, and press Enter to save.
+
+3. Enter `make` to compile the firmware. When `make` is completed, the required `katapult.bin` firmware will be generated in the `home/biqu/katapult/out` folder.
+
+    ```shell
+    make
+    ```
+
+    {/* <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_klipper2.webp').default} /> */}
+
+4. Hold down the **Boot** button and connect to Raspberry Pi/CB1 with a Type-C cable. This allows the chip to enter DFU mode.
+
+5. Enter `lsusb` in the SSH terminal command line to query the DFU device ID.
+
+    ```shell
+    lsusb
+    ```
+
+    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-klipper2.webp').default} />
+
+6. Enter the following command to flash Katapult:
+
+    ```shell
+    make flash FLASH_DEVICE=0483:df11
+    ```
+
+    Replace `0483:df11`  with the actual device ID obtained in the previous step.
+
+7. After flashing, unplug the Type-C data cable.
+
+### Compiling Klipper Firmware
+
+1. After SSH connects to CB1/Raspberry Pi, enter the following in the command line:
+
+    ```shell
+    cd ~/klipper/
+    make menuconfig
+    ```
+
+    ​Compile the firmware using the configuration below (should these options not be available, update the Klipper firmware source code to the latest version).
+    <Tabs groupId="mmb-can-v1-make-config">
+		<TabItem value="katapult" label="Using Katapult" default>
+                <Tabs>
+                    <TabItem value="katapult-with-usb" label="CAN" default>
+                        <ImageView
+                            src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-klipper-config-kc.webp').default}
+                        />
+                    </TabItem>
+                    <TabItem value="katapult-with-can" label="USB">
+
+                        <ImageView
+                            src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-klipper-config-ku.webp').default}
+                        />
+                    </TabItem>
+                </Tabs>
+		</TabItem>
+		<TabItem value="normal" label="Without Katapult">
+			    <Tabs>
+                    <TabItem value="CAN" label="CAN" default>
+                        <ImageView
+                            src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-klipper-config-nc.webp').default}
+                        />
+                    </TabItem>
+                    <TabItem value="USB" label="USB">
+
+                        <ImageView
+                            src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-klipper-config-nu.webp').default}
+                        />
+                    </TabItem>
+                </Tabs>
+		</TabItem>
+	</Tabs>
+
+2. After configuring, enter `q` to exit the configuration interface. When asked to save configuration, select `Yes`.
+
+3. Enter `make` to compile the firmware. When `make` is completed, the required `klipper.bin` firmware will be generated in the `home/pi/klipper/out` folder.
+
+    ```shell
+    make
+    ```
+
+    {/* <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_klipper5.webp').default} /> */}
+
+### Firmware Update via KATAPULT
+
+1. To use the CAN bus, ensure that the CAN bus cables are properly connected and that the jumper is inserted at the position of the 120R termination resistor.
+
+2. Enter:
+
+    ```shell
+    python3 ~/katapult/scripts/flash_can.py -i can0 -q
+    ```
+
+    to query the CAN bus ID (connect the CAN cable and power-on in advance). As shown in the image below, the UUID of the device is found.
+
+    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-klipper4.webp').default} />
+
+3. Enter:
+
+    ```shell
+    python3 ~/katapult/scripts/flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u be69315a613c
+    ```
+
+    ::::info[Note]
+
+        Replace the UUID parameter `be69315a613c` with the actual UUID on your board. 
+
+        :::warning[Note]
+
+            At this point, you should have already compiled `klipper.bin` using `make`. 
+        :::
+        :::warning[Note]
+
+            The **Application start offset** for `katapult` is **8KiB offset**.
+
+            Therefore, the **Bootloader offset** in `Klipper`'s **menuconfig** must also be set to **8KiB bootloader**.
+        :::
+    ::::
+    Flashing is successful, as shown in the figure below.
+
+    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-klipper5.webp').default} />
+
+4. Enter the query command again:
+
+    ```shell
+    python3 flash_can.py -i can0 -q
+    ```
+
+    At this point, the **Application** has changed from **katapult** to **Klipper**, indicating that Klipper is running normally.
+
+    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-klipper6.webp').default} />
+
+### Firmware Update via DFU
+
+Raspberry Pi or CB1 firmware update through DFU:
+
+1. Hold down the **`Boot`** button and connect to Raspberry Pi/CB1 with a Type-C cable. This allows the chip to enter DFU mode.
+
+2. In the SSH terminal command line, enter `lsusb` to query the DFU device ID.
+
+    ```shell
+    lsusb
+    ```
+
+    {/* <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_klipper9.webp').default} /> */}
+
+3. Enter:
+
+    ```shell
+    cd klipper
+    ```
+
+    navigate to the klipper directory, then Enter:
+
+    ```shell
+    make flash FLASH_DEVICE=0483:df11
+    ```
+
+    to start flashing the firmware
+    :::info[note]
+
+    replace **0483:df11** with the actual device ID obtained in the previous step.
+
+    :::
+
+4. After flashing, enter:
+
+    ```shell
+    ls /dev/serial/by-id/
+    ```
+
+    to query the device Serial ID (this ID is only available for USB communication, this step can be ignored when using CAN Bus communication).
+
+5. If using USB communication, there is no need to manually press the Boot button to enter DFU mode for subsequent updates after the first flashing is completed. Directly enter:
+
+    ```shell
+    make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32g0b1xx_4550357128922FC8-if00
+    ```
+
+    to flash the firmware.
+    :::info[note]
+
+    replace **/dev/serial/by-id/xxx** with the actual ID obtained in the previous step.
+
+    :::
+
+6. If using CAN bus communication, unplug the Type-C data cable after flashing.
+
+### CAN Bus Configuration
+
+For use with BIGTREETECH U2C module:
+
+<ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-canbus.webp').default} />
+
+1. Use the SSH terminal to edit `/etc/network/interfaces.d/can0`:
+
+    ```shell
+    sudo nano /etc/network/interfaces.d/can0
+    ```
+
+    The file should be edited to contain the following:
+
+    ```shell title="/etc/network/interfaces.d/can0"
+    allow-hotplug can0
+    iface can0 can static
+        bitrate 1000000
+        up ip link set $IFACE txqueuelen 128
+    ```
+
+    Set the CAN bus **bitrate** to **1000000** (must match the speed configured in the firmware). After modifying, save (Ctrl + S) and exit (Ctrl + X).
+
+    Then perform a reboot:
+
+    ```shell
+    sudo reboot
+    ```
+
+2. Each device on the CAN Bus will generate a canbus_uuid based on the MCU's UID. To find each microcontroller device ID, ensure the hardware is powered on and properly wired, then run:
+
+    ```shell
+    ~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
+    ```
+
+3. If an uninitialized CAN device is detected, the above command will report the device's canbus_uuid:
+
+    ```shell
+    Found canbus_uuid=0e0d81e4210c
+    ```
+
+    :::tip
+    If Klipper is already running and connected to this device, the canbus_uuid will not be reported.
+    :::
+
+## Configuring Klipper
+
+### Manual Configuration
+
+1. Enter the Raspberry Pi's IP address into your computer's browser to access it. Download the reference configuration file named `sample-bigtreetech-mmb-canbus.cfg` from the path shown in the image below. If you cannot find this file, please update your Klipper firmware source code to the latest version, or download it from GitHub:
+
+    https://github.com/bigtreetech/MMB
+
+    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-klipper7.webp').default} />
+
+2. Upload the motherboard configuration file to Configuration Files.
+
+    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-klipper8.webp').default} />
+
+3. Then add this motherboard configuration to the `printer.cfg` file:
+
+    ``` klipper_cfg title="/config/printer.cfg"
+    [include sample-bigtreetech-mmb-canbus.cfg]
+    ```
+
+4. Modify the ID number in the configuration file to the actual ID of the motherboard (USB serial or canbus).
+
+5. Configure the specific functions of the module according to the instructions in the following link: https://www.klipper3d.org/Overview.html
+
+###  Using Happy Hare
+
+Refer to the Happy Hare GitHub repo: [moggieuk/Happy-Hare](https://github.com/moggieuk/Happy-Hare)

@@ -1,0 +1,317 @@
+---
+sidebar_position: 3
+description: MMB CAN V2.0 软件配置
+---
+
+# MMB CAN V1.0 软件配置
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+## 编译及烧录
+
+## Klipper 固件
+
+### 烧录 CANBOOT
+
+注意：CanBoot 旨在通过 CAN bus 接口直接更新 MCU 固件，若您更倾向于使用 DFU 更新方法，可以跳过此步骤。
+
+"树莓派或 CB1 烧录 CanBoot"，参考此处说明下载
+
+katapult (CanBoot) GitHub Repo: [Arksine/katapult](https://github.com/Arksine/katapult)
+
+后文将统一描述为**katapult**
+
+1. 输入
+
+    ```shell
+    cd ~
+    ```
+
+    跳转到主目录，输入
+
+    ```shell
+    git clone https://github.com/Arksine/katapult.git
+    ```
+
+    下载 katapult 工程，然后输入
+
+    ```shell
+    cd katapult
+    ```
+
+    跳转到 katapult 目录中。
+
+2. 输入`make menuconfig`并按照下图配置:
+
+    ```shell
+    make menuconfig
+    ```
+
+    <ImageView src={require('./img/mmb-can-klipper1.webp').default} />
+
+    配置完成后按下`q`退出并使用光标选择`yes`并按下回车保存
+
+3. 输入 `make` 编译固件，当 `make` 执行完成后会在 `home/biqu/katapult/out`文件夹中生成我们所需要的 `katapult.bin` 固件
+
+    ```shell
+    make
+    ```
+
+    <ImageView src={require('./img/mmb-can-klipper2.webp').default} />
+
+4. 请按住 **Boot** 按钮，然后使用 Type-C 线连接至树莓派/CB1，此时芯片进入 DFU 模式
+
+5. 在 SSH 终端命令行中输入`lsusb`查询 DFU 设备 ID
+
+    ```shell
+    lsusb
+    ```
+
+    <ImageView src={require('./img/mmb-can-klipper3.webp').default} />
+
+6. 请输入以下命令以烧录 katapult
+
+    ```shell
+    make flash FLASH_DEVICE=0483:df11
+    ```
+
+    ​其中`0483:df11`需替换为上一步中查询到的实际设备 ID
+
+7. 烧录完成后，请拔下 Type-C 数据线。
+
+### 编译 Klipper 固件
+
+1. SSH 连接到 CB1/树莓派后，在命令行输入：
+
+    ```shell
+    cd ~/klipper/
+    make menuconfig
+    ```
+
+    ​使用下面的配置编译固件(如果没有下列选项，请更新 Klipper 固件源码到最新版本)
+    <Tabs groupId="mmb-can-v1-make-config">
+		<TabItem value="katapult" label="使用katapult" default>
+                <Tabs>
+                    <TabItem value="katapult-with-usb" label="CAN" default>
+                        <ImageView
+                            src={require('./img/mmb-can-klipper-config-kc.webp').default}
+                        />
+                    </TabItem>
+                    <TabItem value="katapult-with-can" label="USB">
+
+                        <ImageView
+                            src={require('./img/mmb-can-klipper-config-ku.webp').default}
+                        />
+                    </TabItem>
+                </Tabs>
+		</TabItem>
+		<TabItem value="normal" label="不使用katapult">
+			    <Tabs>
+                    <TabItem value="CAN" label="CAN" default>
+                        <ImageView
+                            src={require('./img/mmb-can-klipper-config-nc.webp').default}
+                        />
+                    </TabItem>
+                    <TabItem value="USB" label="USB">
+
+                        <ImageView
+                            src={require('./img/mmb-can-klipper-config-nu.webp').default}
+                        />
+                    </TabItem>
+                </Tabs>
+		</TabItem>
+	</Tabs>
+
+2. 配置选择完成后, 按下`q`退出配置界面，当询问是否保存配置时选择`Yes`；
+
+3. 输入 `make` 编译固件，当 `make` 执行完成后会在 `home/pi/klipper/out`文件夹中生成我们所需要的`klipper.bin`固件。
+
+    ```shell
+    make
+    ```
+
+    <ImageView src={require('./img/mmb-can-klipper5.webp').default} />
+
+### 通过 KATAPULT 进行固件更新
+
+1. 使用 CAN bus 需要接好 CAN bus 线缆以及插上 120R 终端电阻的跳线帽。
+
+2. 输入
+
+    ```shell
+    python3 ~/katapult/scripts/flash_can.py -i can0 -q
+    ```
+
+    查询 canbus ID （需提前接好 CAN 线并通电），如下图已找到设备的 UUID
+
+    <ImageView src={require('./img/mmb-can-klipper6.webp').default} />
+
+3. 输入
+
+    ```shell
+    python3 ~/katapult/scripts/flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u be69315a613c
+    ```
+
+    ::::info[注意]
+
+        `be69315a613c`替换为实际的 UUID
+
+        :::warning[注意]
+
+            `klipper.bin` 需要提前 `make` 生成出来
+
+        :::
+        :::warning[注意]
+
+            `katapult`的 **Application start offset** 为 **8KiB offset**
+
+            所以 `Klipper` 的 **menuconfig** 中 **Bootloader offset** 也要为 **8KiB bootloader**
+        :::
+    ::::
+    如下图已经烧录成功。
+
+    <ImageView src={require('./img/mmb-can-klipper7.webp').default} />
+
+4. 再次输入
+
+    ```shell
+    python3 flash_can.py -i can0 -q
+    ```
+
+    查询，此时 **Application** 由之前的 **katapult** 变为 **Klipper**，代表 Klipper 已经正常运行
+
+    <ImageView src={require('./img/mmb-can-klipper8.webp').default} />
+
+### 通过 DFU 进行固件更新
+
+树莓派或 CB1 通过 DFU 更新
+
+1. 请按住 **`Boot`** 按钮，然后使用 Type-C 线连接至树莓派/CB1，此时芯片进入 DFU 模式。
+
+2. 在 SSH 终端命令行中输入 `lsusb` 查询 DFU 设备 ID
+
+    ```shell
+    lsusb
+    ```
+
+    <ImageView src={require('./img/mmb-can-klipper9.webp').default} />
+
+3. 输入
+
+    ```shell
+    cd klipper
+    ```
+
+    跳转到 klipper 目录下，输入
+
+    ```shell
+    make flash FLASH_DEVICE=0483:df11
+    ```
+
+    开始烧录固件
+    :::info[注意]
+
+    将 **0483:df11** 更换为上一步中查询到的实际的设备 ID
+
+    :::
+
+4. 固件烧录完成后，输入
+
+    ```shell
+    ls /dev/serial/by-id/
+    ```
+
+    查询设备的 Serial ID（只有通过 USB 通信的方式才会有此 ID，CANBus 方式忽略此步骤)。
+
+5. 如果使用 USB 通信，第一次烧录完成之后，再次更新时无需手动按 Boot按钮进入 DFU 模式，可以直接输入
+
+    ```shell
+    make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32g0b1xx_4550357128922FC8-if00
+    ```
+
+    烧录固件
+    :::info[注意]
+
+    将**/dev/serial/by-id/xxx** 更换为上一步中查询到的实际的ID。
+
+    :::
+
+6. 如果使用 CAN bus 通信，烧录完成后，请拔下 Type-C 数据线。
+
+### CAN bus 配置
+
+搭配 BIGTREETECH U2C 模块使用
+
+<ImageView src={require('./img/mmb-can-klipper10.webp').default} />
+
+1. 使用 SSH 终端编辑`/etc/network/interfaces.d/can0`:
+
+    ```shell
+    sudo nano /etc/network/interfaces.d/can0
+    ```
+
+    该文件应编辑为以下内容:
+
+    ```shell title="/etc/network/interfaces.d/can0"
+    allow-hotplug can0
+    iface can0 can static
+        bitrate 1000000
+        up ip link set $IFACE txqueuelen 128
+    ```
+
+    将 CAN bus 速度**bitrate**设置为 **1000000**（必须与固件中设置的速度一致(**1000000**) CAN bus speed），修改后保存（Ctrl + S）并退出（Ctrl + X）
+
+    随后执行重启
+
+    ```shell
+    sudo reboot
+    ```
+
+2. CANBus 上的每个设备都会根据 MCU 的 UID 生成一个 canbus_uuid，要查找每个微控制器设备 ID，请确保硬件已通电并正确接线，然后运行：
+
+    ```shell
+    ~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
+    ```
+
+3. 如果检测到未初始化的 CAN 设备，上述命令将报告设备的 canbus_uuid：
+
+    ```shell
+    Found canbus_uuid=0e0d81e4210c
+    ```
+
+    :::tip
+    如果 Klipper 已经正常运行并且连接到此设备，那么 canbus_uuid 将不会被上报，此为正常现象。
+    :::
+
+## 配置 Klipper
+
+### 自行配置
+
+1. 在电脑的浏览器中输入树莓派的 IP 访问，如下图所示的路径中下载名为`sample-bigtreetech-mmb-canbus.cfg`的参考配置，如果找不到此文件，请更新 Klipper 固件源码到最新版本，或者到 GitHub 下载
+
+    https://github.com/bigtreetech/MMB
+
+    <ImageView src={require('./img/mmb-can-klipper11.webp').default} />
+
+2. 将主板的配置文件上传到 Configuration Files 中;
+
+    <ImageView src={require('./img/mmb-can-klipper12.webp').default} />
+
+3. 并在`printer.cfg`文件中添加此主板的配置:
+
+    ``` klipper_cfg title="/config/printer.cfg"
+    [include sample-bigtreetech-mmb-canbus.cfg]
+    ```
+
+4. 将配置文件中的 ID 号修改为主板实际的 ID（USB serial 或者 canbus）
+
+5. 按照下方链接的说明配置模块的具体功能： https://www.klipper3d.org/Overview.html
+
+### 使用 Happy Hare
+
+参考 Happy Hare 的 GitHub repo [moggieuk/Happy-Hare](https://github.com/moggieuk/Happy-Hare)

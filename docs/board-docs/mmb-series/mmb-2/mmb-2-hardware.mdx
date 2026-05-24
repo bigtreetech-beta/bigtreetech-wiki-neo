@@ -1,0 +1,97 @@
+---
+sidebar_position: 2
+description: MMB CAN V2.0 硬件功能
+---
+
+# MMB CAN V2.0 硬件功能
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+## 外观尺寸
+
+<ImageView
+	src={require('./img/mmb-can-v2-0-dimensions.webp').default}
+	alt="mmb can v2"
+	width="80%"
+/>
+:::tip[3D 参考文件]
+
+MMB CAN V2.0 模型 [bigtreetech/MMB/3D/BIGTREETECH MMB CAN V2.0-3D.step](https://github.com/bigtreetech/MMB/blob/master/3D/BIGTREETECH%20MMB%20CAN%20V2.0-3D.step)
+
+:::
+
+## 引脚说明
+
+<ImageView
+	src={require('./img/mmb-can-v2-0-pin.webp').default}
+	alt="mmb can v2"
+	width="80%"
+/>
+:::tip[原理图 / SCHEMATIC]
+
+MMB CAN V2.0 原理图 [BIGTREETECH MMB CAN V2.0-SCH.pdf](https://github.com/bigtreetech/MMB/blob/master/Hardware/V2.0/BIGTREETECH%20MMB%20CAN%20V2.0-SCH.pdf)
+
+:::
+
+## 硬件功能配置
+
+### USB 供电
+
+主板上电之后， 电源灯会亮起，表示供电正常。板上标识VUSB是电源选择端，仅当使用USB给主板供电时，才需要使用跳帽将VUSB短接。
+
+<ImageView
+	src={require('./img/mmb-can-v2-0-usb.webp').default}
+	alt="mmb can v2"
+	width="80%"
+/>
+
+### 舵机接口
+
+:::info[注意]
+此处演示为使用MMB的板载DC-DC为舵机供电。
+
+MMB CAN V2 在舵机输出口添加了一枚3A的自恢复保险丝用以避免电源触发短路保护，足以胜任该应用。但需确保其接入MOT1或MOT2连接器，且尽量避免同步动作，或开启`servo_always_active: 1`来允许舵机重启后仍有持续的控制信号。
+:::
+
+<ImageView
+	src={require('./img/mmb-can-v2-0-mot.webp').default}
+	alt="mmb can v2"
+	width="80%"
+/>
+
+### Neopixel
+
+<ImageView
+	src={require('./img/mmb-can-v2-0-rgb.webp').default}
+	alt="mmb can v2"
+	width="80%"
+/>
+
+### 编码器接线
+
+<ImageView
+	src={require('./img/mmb-can-v2-0-sensor.webp').default}
+	alt="mmb can v2"
+	width="80%"
+/>
+
+### IIC 接线
+
+<ImageView
+	src={require('./img/mmb-can-v2-0-i2c.webp').default}
+	alt="mmb can v2"
+	width="80%"
+/>
+
+### 限位开关
+
+<ImageView
+	src={require('./img/mmb-can-v2-0-endstop.webp').default}
+	alt="mmb can v2"
+	width="80%"
+/>
