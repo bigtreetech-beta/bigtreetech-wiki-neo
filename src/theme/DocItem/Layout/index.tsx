@@ -23,15 +23,35 @@ export default function LayoutWrapper(props: Props): ReactNode {
 }
 
 function ArtalkBlock() {
+    const [visible, setVisible] = React.useState(false);
+    const ref = React.useRef<HTMLDivElement>(null);
+
+    React.useEffect(() => {
+        if (!ref.current) return;
+
+        const observer = new IntersectionObserver(([entry]) => {
+            if (entry.isIntersecting) {
+                setVisible(true);
+                observer.disconnect();
+            }
+        });
+
+        observer.observe(ref.current);
+
+        return () => observer.disconnect();
+    }, []);
+
     const ArtalkComments = React.lazy(() =>
         import('@site/src/components/ArtalkComments')
     );
 
     return (
-        <div className="col col--9">
-            <React.Suspense fallback={null}>
-                <ArtalkComments />
-            </React.Suspense>
+        <div className="col col--9" ref={ref}>
+            {visible ? (
+                <React.Suspense fallback={null}>
+                    <ArtalkComments />
+                </React.Suspense>
+            ) : null}
         </div>
     );
 }
