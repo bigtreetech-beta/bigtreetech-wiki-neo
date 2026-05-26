@@ -52,3 +52,58 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+
+/* extra color config */
+
+:root {
+    .navbar-sidebar__brand {
+        background-color: #0c0c0c;
+    }
+
+    .toggleButton_gllP:hover {
+        background-color: #393939;
+    }
+
+    .navbar__toggle {
+        color: #ffffff;
+    }
+    
+    .navbar__toggle:hover {
+        color: var(--ifm-color-primary);
+    }
+
+    .navbar-sidebar__close:hover {
+        --ifm-color-emphasis-600: var(--ifm-color-primary);
+    }
+}
+
+[data-theme="light"] {
+    --ifm-background-color: rgb(245, 245, 247);
+    .navbar {
+        background-color: #0c0c0c;
+        --ifm-navbar-link-color: #ffffff;
+    }
+
+    .toggleButton_gllP {
+        color: #dcdcdc;
+    }
+
+    .footer {
+        background-color: #0c0c0c;
+    }
+
+    .cardContainer_KhuF {
+        background-color: rgb(245, 245, 247);
+    }
+}
+
+[data-theme="dark"] {
+    --ifm-background-color: #0f0f0f;
+    .navbar {
+        background-color: #0c0c0c;
+    }
+
+    .footer {
+        background-color: #0c0c0c;
+    }
+}
