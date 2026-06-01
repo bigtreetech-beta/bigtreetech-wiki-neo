@@ -1,0 +1,335 @@
+---
+sidebar_position: 1
+description: Panda Status P2是一款在V1版本上改进而来的产品，该型号在保留V1功能的同时，将灯条与控制板集成，使其调整结构后可安装于P2S/X2D机器，走线更便捷。
+---
+
+# Panda Status P2
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView
+	src={require("./img/shoutu.webp").default}
+	alt=""
+	width="35%"
+	class="right-image"
+/>
+
+## 产品简介
+
+Panda Status P2是一款可以将**P2S/X2D**机器升级实现H2系列状态显示的打印机配件，并且支持自定义部分状态颜色，同时集成了拾音功能。其集成式设计安装，走线更加便捷。支持用户无线配置，操控灯条状态，预留了接入BIQU APP与OTA固件升级功能。
+
+## 技术规格
+
+| 产品参数       | Panda Status P2      |
+| -------------- | -------------------- |
+| 微处理器       | ESP32-C3-MINI        |
+| 控制板尺寸     | 96mm*17mm           |
+| 供电接口及电压 | Type-C：5V 3A        |
+| 逻辑电压       | 3.3V                 |
+| 峰值状态       | 5V 90mA 0.45W        |
+| 待机状态       | 5V 540mA 2.73W(Peak) |
+
+</div>
+
+## 接口示意图
+
+<ImageView src={require("./img/jiekoutu.webp").default} alt="" width="45%" />
+
+## 尺寸
+
+<ImageView src={require("./img/chicuntu.webp").default} alt="" width="45%" />
+
+## 安装教程
+
+### 准备物料
+
+将包装内所有配件拿出，清单如下图
+
+<ImageView src={require("./img/inventory.webp").default} alt="" width="45%" />
+
+### 清洁热床粘贴面
+
+使用包装内酒精湿巾将热床贴合面擦拭干净，在使用包装内擦拭布将表面酒精擦干
+
+<ImageView src={require("./img/P2-6.webp").default} alt="" width="45%" />
+
+<ImageView src={require("./img/P2-5.webp").default} alt="" width="45%" />
+
+### 固定灯条
+
+将热床升高后撕去灯条背胶离型膜，将灯条对准热床先将底部粘贴至热床，随后向上贴合将背面与热床贴合，用力将其充分按压，保证贴合牢固即可
+
+<ImageView src={require("./img/3.webp").default} alt="" width="45%" />
+
+<ImageView src={require("./img/P2-4.webp").default} alt="" width="45%" />
+
+<ImageView src={require("./img/P2-3.webp").default} alt="" width="45%" />
+
+<ImageView src={require("./img/6.webp").default} alt="" width="45%" />
+
+### 走线
+
+:::tip
+包装内配有Type-C转USB-A转接头，当无Type-C供电口时可使用USB-A口供电。
+:::
+
+#### 走线方式一
+
+如图示将包装内供电线离弹簧圈较近的一端C口插至灯条背部控制板左侧供电口
+
+<ImageView src={require("./img/P2-13.webp").default} alt="" width="45%" />
+
+<ImageView src={require("./img/P2-2.webp").default} alt="" width="45%" />
+
+随后将线按图示方向使用包装内的固定胶带延热床左侧固定
+
+<ImageView src={require("./img/P2-10.webp").default} alt="" width="45%" />
+
+使用一字螺丝刀或撬棍将打印机内底部左侧的盖板撬开，将线的另一端延此方向穿出，使用[带穿线孔替换盖板打印件](https://makerworld.com/zh/models/2610204-p2s-left-side-wiring-cover-plate#profileId-2880516)将此通风口原装盖板替换后，从外部将线拉出即可
+
+<ImageView src={require("./img/P2-8.webp").default} alt="" width="45%" />
+
+<ImageView src={require("./img/P2-9.webp").default} alt="" width="45%" />
+
+<ImageView src={require("./img/P2-14.webp").default} alt="" width="45%" />
+
+<ImageView src={require("./img/P2-7.webp").default} alt="" width="45%" />
+
+#### 走线方式二（如机器安装有AMS缓冲器，推荐搭配Panda Tap使用）
+
+如图示将包装内供电线离弹簧圈较近的一端C口插至灯条背部控制板左侧供电口
+
+<ImageView src={require("./img/P2-13.webp").default} alt="" width="45%" />
+
+<ImageView src={require("./img/P2-2.webp").default} alt="" width="45%" />
+
+随后将线按图示方向使用包装内的固定胶带向热床供电线方向固定
+
+<ImageView src={require("./img/P2-1.webp").default} alt="" width="45%" />
+
+最后将背部AMS缓冲器通讯口硅胶塞去除后直接穿出即可，（如机器安装有AMS缓冲器，可使用[Panda Tap打印件外壳](https://makerworld.com/zh/models/2820372-panda-tap-print-file#profileId-3140796)将线固定穿出）
+
+<ImageView src={require("./img/P2-12.webp").default} alt="" width="45%" />
+
+<ImageView src={require("./img/P2-11.webp").default} alt="" width="45%" />
+
+## 用户首次连接指南
+
+:::tip
+首次连接电源后或执行"恢复出厂设置"命令后，您将看到蓝色跑马灯，代表此时 Panda Status P2 没有绑定打印机。
+:::
+
+### WiFi连接指南
+
+- 连接设备WiFi AP热点
+
+    - 在手机或电脑上搜索WiFi，连接 Panda Status P2 发出的AP热点：`Panda_Status_P2_XXXXXXXXXX`。默认密码是 `987654321`。
+
+        <img src={require("./img/Panda_status_v2_step0.webp").default} width="60%" />
+
+- 访问AP网页
+
+    - 连接上AP后，电脑端可以在浏览器输入默认的IP：`192.168.254.1`；手机端会自动弹出 Panda Status P2 的Web UI，也可以在浏览器输入IP：`192.168.254.1` 来访问网页。（注：此IP为出厂默认IP）
+
+- 选择语言（默认英文）
+
+    - 选择语言后可点击下一步
+
+         <img src={require("./img/Panda_status_v2_step1.webp").default} width="45%" />
+
+- WiFi连接界面
+
+    - 首次出厂或恢复出厂设置后，进入此页面会自动扫描周围WiFi，或者手动点击扫描。
+
+         <img src={require("./img/Panda_status_v2_step2.webp").default} width="45%" />
+
+    - 扫描完成后会弹出`扫描完成`弹窗提示，点击OK关闭提示。
+
+        <img src={require("./img/Panda_status_v2_step3.webp").default} width="45%" />
+
+    - 点击Wi-Fi下方的选项，选择想要连接的WiFi
+
+        <img src={require("./img/Panda_status_v2_step4.webp").default} width="45%" />
+
+    - 输入密码，可点击密码框内右侧的`眼睛`图标来显示输入的密码
+
+        <img src={require("./img/Panda_status_v2_step5.webp").default} width="45%" />
+
+    - 点击连接，界面会自动跳转到操作界面中的`WiFi`界面，并显示WiFi连接中
+
+        <img src={require("./img/Panda_status_v2_step6.webp").default} width="45%" />
+
+    - 等待连接一段时间后，会弹出WiFi连接的状态弹窗
+
+        - 连接失败
+
+            <img src={require("./img/Panda_status_v2_step7.webp").default} width="60%" />
+
+        - 连接成功，可选择点击绑定打印机跳转到`打印机界面`，也可点击`取消`，继续待在`WiFi界面`
+
+            <img src={require("./img/Panda_status_v2_step8.webp").default} width="60%" />
+
+### 绑定打印机
+
+- 功能介绍
+
+    <img src={require("./img/Panda_status_v2_step9.webp").default} width="45%" />
+
+    1. 选择打印机界面，点击后聚焦为红色图标，跳转至打印机界面
+
+    2. 扫描周围同一局域网下的打印机
+
+    3. 选择扫描到的打印机
+
+    4. 输入打印机的SN码
+
+    5. 输入打印机的访问码
+
+    6. 输入打印机的IP
+
+    7. 确定绑定此打印机
+
+- 如何绑定打印机
+
+    - 点击扫描一段时间后，会出现`扫描成功`的弹窗
+
+        <img src={require("./img/Panda_status_v2_step10.webp").default} width="60%" />
+
+    - 选择扫描出的打印机，可以看到选择打印机后，会自动输入打印机的SN码和IP(P2为P2S/X2D特定版本，只能连接P2S/X2D机型)
+
+        <img src={require("./img/Panda_status_v2_step11.webp").default} width="45%" />
+
+    - 输入打印机的`访问码`
+
+        - 在打印机上找到`访问码` (这里以 P2S 为例)
+
+            <img src={require("./img/Panda_status_v2_step12.webp").default} width="60%" />
+
+            <img src={require("./img/Panda_status_v2_step13.webp").default} width="60%" />
+
+            <img src={require("./img/Panda_status_v2_step14.webp").default} width="60%" />
+
+        - 将 `访问码` 输入到 `访问码` 框内，点击绑定即可开始绑定打印机。
+
+            <img src={require("./img/Panda_status_v2_step15.webp").default} width="45%" />
+
+            <img src={require("./img/Panda_status_v2_step16.webp").default} width="45%" />
+
+## 用户界面说明
+
+### WiFi界面
+
+<img src={require("./img/Panda_status_v2_step17.webp").default} width="45%" />
+
+1. WiFi界面选择，点击后聚焦为红色图标，跳转至WiFi界面。
+
+2. 当前WiFi的连接状态。
+
+3. IP地址的相关问题弹窗提示，如果 IP 地址文本框未显示 IP，请确保 Panda Status P2 网络状态显示为连接成功。如果显示为未连接，请配置网络设置。
+
+4. IP地址显示（在同一局域网下，浏览器输入此IP也可访问Web网页）。
+
+5. WiFi网络配置按钮，点击可跳转到WiFi连接界面
+
+6. 主机名显示，您可以使用主机名访问 Web UI。默认主机名为 `PandaStatus`。如果您不记得 IP 地址，可以在浏览器地址栏中输入主机名加上 `.local` 访问 Web UI（例如：`http://PandaStatus.local`）。点击文本框可以编辑主机名，点击 `设置主机名` 按钮确认修改。
+
+7. 确认修改主机名
+
+### AP界面
+
+<img src={require("./img/Panda_status_v2_step18.webp").default} width="45%" />
+
+1. AP界面选择，点击后聚焦为红色图标，跳转至AP界面
+
+2. AP热点的开关
+
+3. AP热点名称，默认为 `Panda_Status_P2_XXXXXXXXXX`
+
+4. AP热点密码，默认为 `987654321`
+
+5. 热点IP（默认的热点 IP 为：`192.168.254.1`，如果您自己路由器的 IP 号段也为 `192.168.254.xxx`，Panda Status P2 与路由器的 IP 号段相同就会产生冲突，并且导致 Panda Status P2 无法正常绑定到打印机，请手动修改 Panda Status V2 的热点 IP 使其与路由器使用不同的 IP 号段）
+
+6. 点击确认会重启设备，重启完成后可连接AP热点。
+
+### 设置界面
+
+<img src={require("./img/Panda_status_v2_step19.webp").default} width="45%" />
+
+1. 设置界面选择，点击后聚焦为红色图标，跳转至设置界面。
+
+2. 选择网页中英文（默认英文）。
+
+3. 显示当前的固件版本。
+
+4. 固件OTA更新，选择 `.bin` 文件。
+
+    - 点击 `选择.bin文件` 按钮，选择需要OTA的bin文件。
+
+        <img src={require("./img/Panda_status_v2_step20.webp").default} width="45%" />
+
+    - 等待OTA进度，完成后弹窗自动重启。
+
+        <img src={require("./img/Panda_status_v2_step21.webp").default} width="45%" />
+
+        <img src={require("./img/Panda_status_v2_step22.webp").default} width="45%" />
+
+5. 点击后，按下确定恢复出厂设置
+
+### 控制面板界面
+
+功能介绍
+
+<img src={require("./img/Panda_status_v2_step23.webp").default} width="45%" />
+
+1. 设备名称(Panda Status P2)
+
+2. 选择模式
+
+3. 灯光颜色设置
+
+4. 灯光亮度
+
+5. 灯光速度
+
+- 灯光模式
+
+    - **音频律动模式**
+
+        - 选择效果后，可调节亮度（0%～100%），律动随着音频音调大小增减。
+
+    - **高级模式**
+
+        <img src={require("./img/Panda_status_v2_step24.webp").default} width="45%" />
+
+    - 为打印机的三个工作状态分别配置不同的灯效。
+
+    - 可设状态的效果，颜色，亮度和速度。
+
+    | 状态按钮 | 对应打印机状态 | 默认颜色 |
+    |----------|--------------|----------|
+    | 空闲 | 打印机空闲 | 白色 (FFFFFF) |
+    | 打印 | 正在打印 | 白色 (FFFFFF) |
+    | 报错 | 打印出错/报警 | 红色 (FF0000) |
+
+    1. 点击需要修改状态的按钮
+
+        <img src={require("./img/Panda_status_v2_step25.webp").default} width="45%" />
+
+    2. 选择需要的颜色
+
+        <img src={require("./img/Panda_status_v2_step26.webp").default} width="45%" />
+
+        <img src={require("./img/Panda_status_v2_step27.webp").default} width="45%" />
+
+    3. 颜色设置成功
+
+        <img src={require("./img/Panda_status_v2_step28.webp").default} width="45%" />
