@@ -1,0 +1,335 @@
+---
+sidebar_position: 1
+description: Panda Status P2 is an upgraded version of the V1, designed to deliver the same reliable functionality in a more refined and installation-friendly form. By integrating the light strip and control board into a single compact module, it supports installation on P2S/X2D machines after structural optimization, while making cable routing cleaner, simpler, and more convenient.
+---
+
+# Panda Status P2
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView
+	src={require('@site/docs/panda-series/module/panda-status-p2/img/shoutu.webp').default}
+	alt=""
+	width="35%"
+	class="right-image"
+/>
+
+## Product Overview
+
+The Panda Status P2 is a dedicated upgrade accessory for P2S/X2D printers, bringing H-series-style status display capabilities to your machine. It offers customizable status colors, built-in audio pickup for responsive lighting effects, and an integrated light strip and control board design that makes installation cleaner and cable routing simpler. Wireless configuration, light control, mobile app integration, and OTA firmware updates are either supported or reserved for future use.
+
+## Technical Specifications
+
+| Product Parameters       | Panda Status P2      |
+| ------------------------ | -------------------- |
+| Microcontroller          | ESP32-C3-MINI        |
+| Control Board Dimensions | 96mm*17mm            |
+| Power Input and Voltage  | Type-C: 5V 3A        |
+| Logic Voltage            | 3.3V                 |
+| Peak State               | 5V 90mA 0.45W        |
+| Standby State            | 5V 540mA 2.73W(Peak) |
+
+</div>
+
+## Interface Diagram
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/jiekoutu.webp').default} alt="" width="45%" />
+
+## Dimensions
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/chicuntu.webp').default} alt="" width="45%" />
+
+## Installation Guide
+
+### Prepare the Materials
+
+Take out all accessories of the package. The checklist is shown below.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/inventory.webp').default} alt="" width="45%" />
+
+### Clean the Heated Bed Mounting Surface
+
+Use the alcohol wipe included in the package to clean the heated bed mounting surface, then use the included cleaning cloth to wipe the surface dry.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/P2-6.webp').default} alt="" width="45%" />
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/P2-5.webp').default} alt="" width="45%" />
+
+### Secure the Panda Status P2
+
+Raise the heated bed and peel off the release liner from the light strip's adhesive backing. Align the light strip with the heated bed, adhering the bottom edge first. Then, press upwards to adhere the back to the heated bed. Press firmly to ensure it is securely attached.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/3.webp').default} alt="" width="45%" />
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/P2-4.webp').default} alt="" width="45%" />
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/P2-3.webp').default} alt="" width="45%" />
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/6.webp').default} alt="" width="45%" />
+
+### Cable Routing
+
+:::tip
+A Type-C to USB-A adapter is included in the package. If a Type-C power port is not available, you can use a USB-A port for power.
+:::
+
+#### Cable Routing Method 1
+
+As shown in the image, plug the Type-C end of the provided power cable (the end closer to the coiled section) into the power port on the left side of the control board on the back of the light strip.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/P2-13.webp').default} alt="" width="45%" />
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/P2-2.webp').default} alt="" width="45%" />
+
+Then route the cable in the direction shown and secure it along the left side of the heated bed using the included tape.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/P2-10.webp').default} alt="" width="45%" />
+
+Use a flathead screwdriver or pry tool to pry open the cover plate on the bottom left inside the printer, and route the other end of the cable out through this opening. Download and print this [replacement plate with a routing hole](https://makerworld.com/en/models/2610204-p2s-left-side-wiring-cover-plate#profileId-2880516) to replace the original vent cover, and then pull the cable out from the outside.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/P2-8.webp').default} alt="" width="45%" />
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/P2-9.webp').default} alt="" width="45%" />
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/P2-14.webp').default} alt="" width="45%" />
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/P2-7.webp').default} alt="" width="45%" />
+
+#### Cable Routing Method 2 (Recommended for use with Panda Tap if an AMS buffer is installed on the machine)
+
+As shown in the image, plug the Type-C end of the provided power cable (the end closer to the coiled section) into the power port on the left side of the control board on the back of the light strip.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/P2-13.webp').default} alt="" width="45%" />
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/P2-2.webp').default} alt="" width="45%" />
+
+Then route the cable in the direction shown and secure it toward the heated bed power cable using the included adhesive tape.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/P2-1.webp').default} alt="" width="45%" />
+
+Finally, remove the silicone plug on the back (as shown in the image) and feed the cable through directly. (If an AMS buffer is installed on the machine, you can use the [Panda Tap printed housing](https://makerworld.com/zh/models/2820372-panda-tap-print-file#profileId-3140796) to secure the cable as it passes through.)
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/P2-12.webp').default} alt="" width="45%" />
+
+<ImageView src={require('@site/docs/panda-series/module/panda-status-p2/img/P2-11.webp').default} alt="" width="45%" />
+
+## Initial Setup Guide
+
+:::tip
+Upon initial powering on or after a factory reset, you will see a blue flowing light effect, indicating that the Panda Status P2 is not yet bound to a printer.
+:::
+
+### Wi-Fi Connection Guide
+
+- Connect to the Device Wi-Fi Hotspot
+
+    - Connect to the AP hotspot generated by the device: `Panda Status P2`. The default password is `987654321`.
+
+        <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step0_en.webp').default} width="60%" />
+
+- Access the AP Web UI
+
+    - Once connected, PC users can enter the default IP in a browser: `192.168.254.1`. Mobile users should see the Web UI pop up automatically; otherwise, enter `192.168.254.1` in a mobile browser. (Note: This is the factory default IP).
+
+- Select Language (Default: English)
+
+    - Select your language and tap "Next."
+
+        <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step1_en.webp').default} width="45%" />
+
+- Wi-Fi Connection Interface
+
+    - Upon initial setup or factory reset, the page will automatically scan for nearby Wi-Fi networks. You can also tap "Scan" manually.
+
+        <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step2_en.webp').default} width="45%" />
+
+    - Once the scan is complete, a "Scan Successful" prompt will appear. Tap "OK" to close it.
+
+        <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step3_en.webp').default} width="45%" />
+
+    - Select the WiFi network you want to connect to.
+
+        <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step4_en.webp').default} width="45%" />
+
+    - Enter the password. You can tap the "eye" icon to make the password visible.
+
+        <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step5_en.webp').default} width="45%" />
+
+    - Tap "Connect." The interface will automatically redirect to the "Wi-Fi" status page, showing the connection progress
+
+        <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step6_en.webp').default} width="45%" />
+
+    - After a moment, a status window will appear.
+
+        - Connection Failed:
+
+            <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step7_en.webp').default} width="60%" />
+
+        - Connection Successful: You can tap Binding to proceed to the printer interface, or tap "Cancel" to remain on the Wi-Fi page.
+
+            <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step8_en.webp').default} width="60%" />
+
+### Binding the Printer
+
+- Feature Introduction
+
+    <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step9_en.webp').default} width="45%" />
+
+    1. Printer Page Selection: When you tap the icon, it will turn red to indicate that you are on the Printer page.
+
+    2. Scan for printers within the same local network.
+
+    3. Select a scanned printer.
+
+    4. Enter the printer's SN (Serial Number).
+
+    5. Enter the printer's Access Code.
+
+    6. Enter the printer's IP Address.
+
+    7. Confirm and bind the printer.
+
+- How to Bind the Printer
+
+    - Tap "Scan." After a moment, a "Scan Successful" prompt will appear.
+
+        <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step10_en.webp').default} width="60%" />
+
+    - Select the discovered printer. The SN and IP address will be filled in automatically. (P2 is a dedicated version for P2S/X2D and can only connect to P2S/X2D models.)
+
+        <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step11_en.webp').default} width="45%" />
+
+    - Enter the printer's "Access Code."
+
+        - To find the Access Code on your printer (using P2S as an example):
+
+            <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step12_en.webp').default} width="60%" />
+
+            <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step13_en.webp').default} width="60%" />
+
+            <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step14_en.webp').default} width="60%" />
+
+        - Input the Access Code into the field and tap "Bind" to complete the process.
+
+            <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step15_en.webp').default} width="45%" />
+
+            <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step16_en.webp').default} width="45%" />
+
+## User Interface Description
+
+### Wi-Fi Interface
+
+<img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step17_en.webp').default} width="45%" />
+
+1. WiFi Page Selection: When you tap the icon, it will turn red to indicate that you are on the WiFi page.
+
+2. Current Wi-Fi connection status.
+
+3. Address troubleshooting prompt. If the IP text box is empty, ensure the status shows "Connected." If "Not Connected," please reconfigure network settings.
+
+4. IP Address display (used to access the Web UI from other devices on the same network).
+
+5. Network configuration button. Tap to return to the Wi-Fi Connection Interface
+
+6. Hostname display. You can access the Web UI via the hostname. Default: PandaStatus. If you forget the IP, enter the hostname followed by .local (e.g., http://PandaStatus.local). Tap the text box to edit and "Set Hostname" to confirm.
+
+7. Confirm hostname change.
+
+### AP Interface
+
+<img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step18_en.webp').default} width="45%" />
+
+1. AP Page Selection: When you tap the icon, it will turn red to indicate that you are on the AP page.
+
+2. AP Hotspot toggle (On/Off).
+
+3. AP SSID (Hotspot Name). Default:  `Panda_Status_P2_XXXXXXXXXX`
+
+4. AP Password. Default: `987654321`
+
+5. Hotspot IP (Default: 192.168.254.1). If your router uses the same 192.168.254.xxx range, a conflict will occur, preventing the device from binding to the printer. Please manually change the Hotspot IP to a different subnet.
+
+6. Confirm and Restart. The device will reboot to apply changes.
+
+### Settings Interface
+
+<img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step19_en.webp').default} width="45%" />
+
+1. Settings Page Selection: When you tap the icon, it will turn red to indicate that you are on the Settings page.
+
+2. Language toggle (Default: English).
+
+3. Current Firmware version.
+
+4. Firmware OTA update. Select a `.bin` file.
+
+    - To perform an OTA, tap "Select .bin file" and choose the appropriate file.
+
+        <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step20.webp').default} width="45%" />
+
+    - Wait for the progress bar. The device will automatically restart upon completion.
+
+        <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step21_en.webp').default} width="45%" />
+
+        <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step22_en.webp').default} width="45%" />
+
+5. Factory Reset confirmation button.
+
+### Control Page
+
+Feature Introduction
+
+    <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step23_en.webp').default} width="45%" />
+
+    1. Device name(Panda Status P2)
+
+    2. Select mode
+
+    3. Light color settings
+
+    4. Light brightness
+
+    5. Light speed
+
+- Light Modes
+
+    - **Rythm-Light Sync**
+
+        - After selecting an effect, you can adjust the brightness (0% - 100%). The light changes color and pulses dynamically according to the sound level.
+
+    - **Advanced Mode**
+
+        <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step24_en.webp').default} width="45%" />
+
+    - Configure different lighting effects for the three printer operating states.
+
+    - You can set the effect, color, brightness, and speed for each state.
+
+    | Status Button | Corresponding Printer Status | Default Color |
+    |----------|--------------|----------|
+    | Idle | Printer idle | White (FFFFFF) |
+    | Printing | Printing | White (FFFFFF) |
+    | Error | Print error | Red (FF0000) |
+
+    1. Click the button for the state you want to modify.
+
+        <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step25_en.webp').default} width="45%" />
+
+    2. Select the desired color.
+
+        <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step26_en.webp').default} width="45%" />
+
+        <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step27_en.webp').default} width="45%" />
+
+    3. Color setting successful
+
+        <img src={require('@site/docs/panda-series/module/panda-status-p2/img/Panda_status_v2_step28_en.webp').default} width="45%" />
