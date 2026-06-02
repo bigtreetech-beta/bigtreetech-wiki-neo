@@ -1,0 +1,52 @@
+[metadata]
+
+[[block]]
+key = "1ecc15ff390b2db4"
+origin = '''
+---
+sidebar_position: 3
+---
+'''
+translate = '''
+---
+sidebar_position: 3
+---
+'''
+
+[[block]]
+key = "195aae060340ba20"
+origin = '''
+# Eddy Duo Firmware
+'''
+translate = '''
+# Eddy Duo Firmware
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''

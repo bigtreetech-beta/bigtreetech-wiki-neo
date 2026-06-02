@@ -1,0 +1,2051 @@
+[metadata]
+
+[[block]]
+key = "1ecc15ff390b2db4"
+origin = '''
+---
+sidebar_position: 3
+---
+'''
+translate = '''
+---
+sidebar_position: 3
+---
+'''
+
+[[block]]
+key = "eef4ad1ec7cc336d"
+origin = '''
+# Octopus Max EZ 固件配置
+'''
+translate = '''
+# Octopus Max EZ 固件配置
+'''
+
+[[block]]
+key = "cf16c887421431ff"
+origin = '''
+Max EZ 固件配置
+'''
+translate = '''
+Max EZ 固件配置
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "60f66ada761e0364"
+origin = '''
+## Klipper
+'''
+translate = '''
+## Klipper
+'''
+
+[[block]]
+key = "6078a8c13b07fc6f"
+origin = '''
+### 写入 Klipper 固件
+'''
+translate = '''
+### 写入 Klipper 固件
+'''
+
+[[block]]
+key = "e5c82ee245f6805b"
+origin = '''
+Octopus Max EZ 写入 Klipper 固件参考 [Octopus 系列固件 (STM32H723)](../octopus-firmware-h723.md)
+'''
+translate = '''
+Octopus Max EZ 写入 Klipper 固件参考 [Octopus 系列固件 (STM32H723)](../octopus-firmware-h723.md)
+'''
+
+[[block]]
+key = "db8ceec5fad03fc9"
+origin = '''
+### Klipper 配置文件参考
+'''
+translate = '''
+### Klipper 配置文件参考
+'''
+
+[[block]]
+key = "3d6725f1cc01c9d5"
+origin = '''
+``` klipper_cfg title="printer.cfg"
+[mcu]
+canbus_uuid: 11aa22bb33cc
+'''
+translate = '''
+``` klipper_cfg title="printer.cfg"
+[mcu]
+canbus_uuid: 11aa22bb33cc
+'''
+
+[[block]]
+key = "f0cb4e450012a201"
+origin = '''
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+'''
+translate = '''
+# serial: /dev/serial/by-id/usb-Klipper_Klipper_firmware_12345-if00
+'''
+
+[[block]]
+key = "dca66c950a7f20a7"
+origin = '''
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+max_z_velocity: 5
+max_z_accel: 100
+'''
+translate = '''
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 3000
+max_z_velocity: 5
+max_z_accel: 100
+'''
+
+[[block]]
+key = "3d0bf21371207320"
+origin = '''
+# Motor-1
+'''
+translate = '''
+# Motor-1
+'''
+
+[[block]]
+key = "9d4ca39dc75b27a4"
+origin = '''
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+endstop_pin: PF0
+position_endstop: 0
+position_max: 200
+homing_speed: 50
+'''
+translate = '''
+[stepper_x]
+step_pin: PC13
+dir_pin: PC14
+enable_pin: !PE6
+microsteps: 16
+rotation_distance: 40
+endstop_pin: PF0
+position_endstop: 0
+position_max: 200
+homing_speed: 50
+'''
+
+[[block]]
+key = "d9a2df082dfa33e9"
+origin = '''
+# Motor-2
+'''
+translate = '''
+# Motor-2
+'''
+
+[[block]]
+key = "d12f328e0ee7cec2"
+origin = '''
+[stepper_y]
+step_pin: PE4
+dir_pin: PE5
+enable_pin: !PE3
+microsteps: 16
+rotation_distance: 40
+endstop_pin: PF2
+position_endstop: 0
+position_max: 200
+homing_speed: 50
+'''
+translate = '''
+[stepper_y]
+step_pin: PE4
+dir_pin: PE5
+enable_pin: !PE3
+microsteps: 16
+rotation_distance: 40
+endstop_pin: PF2
+position_endstop: 0
+position_max: 200
+homing_speed: 50
+'''
+
+[[block]]
+key = "136ff79f6f1048a3"
+origin = '''
+# Motor-3
+'''
+translate = '''
+# Motor-3
+'''
+
+[[block]]
+key = "e1b0c9858d6b5efc"
+origin = '''
+[stepper_z]
+step_pin: PE1
+dir_pin: PE0
+enable_pin: !PE2
+microsteps: 16
+rotation_distance: 8
+endstop_pin: PF4
+position_endstop: 0.5
+position_max: 200
+'''
+translate = '''
+[stepper_z]
+step_pin: PE1
+dir_pin: PE0
+enable_pin: !PE2
+microsteps: 16
+rotation_distance: 8
+endstop_pin: PF4
+position_endstop: 0.5
+position_max: 200
+'''
+
+[[block]]
+key = "4e57940983904040"
+origin = '''
+# Motor-4
+'''
+translate = '''
+# Motor-4
+'''
+
+[[block]]
+key = "4859cf8ef9759ca1"
+origin = '''
+# The Octopus only has 4 heater outputs which leaves an extra stepper
+'''
+translate = '''
+# The Octopus only has 4 heater outputs which leaves an extra stepper
+'''
+
+[[block]]
+key = "8e835e663b60fc51"
+origin = '''
+# This can be used for a second Z stepper, dual_carriage, extruder co-stepper,
+'''
+translate = '''
+# This can be used for a second Z stepper, dual_carriage, extruder co-stepper,
+'''
+
+[[block]]
+key = "15f3d2f4f0910346"
+origin = '''
+# or other accesory such as an MMU
+'''
+translate = '''
+# or other accesory such as an MMU
+'''
+
+[[block]]
+key = "e77ea878481cd280"
+origin = '''
+# [stepper_]
+'''
+translate = '''
+# [stepper_]
+'''
+
+[[block]]
+key = "06dbe5e108f03fea"
+origin = '''
+# step_pin: PB8
+'''
+translate = '''
+# step_pin: PB8
+'''
+
+[[block]]
+key = "8179573f61853554"
+origin = '''
+# dir_pin: PB9
+'''
+translate = '''
+# dir_pin: PB9
+'''
+
+[[block]]
+key = "f4171462cc8b6d35"
+origin = '''
+# enable_pin: PB7
+'''
+translate = '''
+# enable_pin: PB7
+'''
+
+[[block]]
+key = "7c51f8072fddd1b8"
+origin = '''
+# endstop_pin: PF3
+'''
+translate = '''
+# endstop_pin: PF3
+'''
+
+[[block]]
+key = "8faa49d71151b631"
+origin = '''
+# Motor-5
+'''
+translate = '''
+# Motor-5
+'''
+
+[[block]]
+key = "84b7d19c5966ad92"
+origin = '''
+[extruder]
+step_pin: PB5
+dir_pin: PB4
+enable_pin: !PB6
+microsteps: 16
+rotation_distance: 33.500
+nozzle_diameter: 0.400
+filament_diameter: 1.750
+heater_pin: PF6 # HE0
+sensor_pin:  PB0 # T0
+sensor_type: EPCOS 100K B57560G104F
+control: pid
+pid_Kp: 22.2
+pid_Ki: 1.08
+pid_Kd: 114
+min_temp: 0
+max_temp: 250
+'''
+translate = '''
+[extruder]
+step_pin: PB5
+dir_pin: PB4
+enable_pin: !PB6
+microsteps: 16
+rotation_distance: 33.500
+nozzle_diameter: 0.400
+filament_diameter: 1.750
+heater_pin: PF6 # HE0
+sensor_pin:  PB0 # T0
+sensor_type: EPCOS 100K B57560G104F
+control: pid
+pid_Kp: 22.2
+pid_Ki: 1.08
+pid_Kd: 114
+min_temp: 0
+max_temp: 250
+'''
+
+[[block]]
+key = "5cb4b3e9b16b5537"
+origin = '''
+# [filament_switch_sensor material_0]
+'''
+translate = '''
+# [filament_switch_sensor material_0]
+'''
+
+[[block]]
+key = "7b23e4dcb4a6d2a2"
+origin = '''
+# switch_pin: PF1
+'''
+translate = '''
+# switch_pin: PF1
+'''
+
+[[block]]
+key = "44a57b79eeabe7ef"
+origin = '''
+# Motor-6
+'''
+translate = '''
+# Motor-6
+'''
+
+[[block]]
+key = "253d9dbd70a7a5ac"
+origin = '''
+# [extruder1]
+'''
+translate = '''
+# [extruder1]
+'''
+
+[[block]]
+key = "87848300e064c387"
+origin = '''
+# step_pin: PG15
+'''
+translate = '''
+# step_pin: PG15
+'''
+
+[[block]]
+key = "12e1a242c1cc6988"
+origin = '''
+# dir_pin: PB3
+'''
+translate = '''
+# dir_pin: PB3
+'''
+
+[[block]]
+key = "8e4d392855d855f7"
+origin = '''
+# enable_pin: !PD5
+'''
+translate = '''
+# enable_pin: !PD5
+'''
+
+[[block]]
+key = "fca827631c7929fe"
+origin = '''
+# heater_pin: PA0 # HE1
+'''
+translate = '''
+# heater_pin: PA0 # HE1
+'''
+
+[[block]]
+key = "19de9bc64038d0e7"
+origin = '''
+# sensor_pin: PC5 # T1
+'''
+translate = '''
+# sensor_pin: PC5 # T1
+'''
+
+[[block]]
+key = "9c9037d3161993ac"
+origin = '''
+# [filament_switch_sensor material_1]
+'''
+translate = '''
+# [filament_switch_sensor material_1]
+'''
+
+[[block]]
+key = "6abb0ad250f47bae"
+origin = '''
+# switch_pin: PC15
+'''
+translate = '''
+# switch_pin: PC15
+'''
+
+[[block]]
+key = "4ef331f5022b7052"
+origin = '''
+# Motor-7
+'''
+translate = '''
+# Motor-7
+'''
+
+[[block]]
+key = "f261fb2376f2cbc3"
+origin = '''
+# [extruder2]
+'''
+translate = '''
+# [extruder2]
+'''
+
+[[block]]
+key = "89ce659210daaa8d"
+origin = '''
+# step_pin: PD3
+'''
+translate = '''
+# step_pin: PD3
+'''
+
+[[block]]
+key = "81c6ea6376da57dd"
+origin = '''
+# dir_pin: PD2
+'''
+translate = '''
+# dir_pin: PD2
+'''
+
+[[block]]
+key = "38e9cfd5c2ada9e7"
+origin = '''
+# enable_pin: !PD4
+'''
+translate = '''
+# enable_pin: !PD4
+'''
+
+[[block]]
+key = "e5770e5186ffbd9e"
+origin = '''
+# heater_pin: PF9 # HE2
+'''
+translate = '''
+# heater_pin: PF9 # HE2
+'''
+
+[[block]]
+key = "081eb4c94009e86f"
+origin = '''
+# sensor_pin: PC4 # T2
+'''
+translate = '''
+# sensor_pin: PC4 # T2
+'''
+
+[[block]]
+key = "2fdab26cf1babc94"
+origin = '''
+# Motor-8
+'''
+translate = '''
+# Motor-8
+'''
+
+[[block]]
+key = "0294f5983fbc4299"
+origin = '''
+# [extruder3]
+'''
+translate = '''
+# [extruder3]
+'''
+
+[[block]]
+key = "931bd0ceee82f66b"
+origin = '''
+# step_pin: PA10
+'''
+translate = '''
+# step_pin: PA10
+'''
+
+[[block]]
+key = "27dca66154d1709a"
+origin = '''
+# dir_pin: PA9
+'''
+translate = '''
+# dir_pin: PA9
+'''
+
+[[block]]
+key = "972436d2de7d06cc"
+origin = '''
+# enable_pin: !PA15
+'''
+translate = '''
+# enable_pin: !PA15
+'''
+
+[[block]]
+key = "67fbdfb6ea8e6f5a"
+origin = '''
+# heater_pin: PF7 # HE3
+'''
+translate = '''
+# heater_pin: PF7 # HE3
+'''
+
+[[block]]
+key = "1895eea92e6f3b46"
+origin = '''
+# sensor_pin: PA7 # T3
+'''
+translate = '''
+# sensor_pin: PA7 # T3
+'''
+
+[[block]]
+key = "a128e7da07114c9a"
+origin = '''
+# Motor-9
+'''
+translate = '''
+# Motor-9
+'''
+
+[[block]]
+key = "5cbad9d378b00824"
+origin = '''
+# [extruder4]
+'''
+translate = '''
+# [extruder4]
+'''
+
+[[block]]
+key = "41b537cfde179fd0"
+origin = '''
+# step_pin: PA8
+'''
+translate = '''
+# step_pin: PA8
+'''
+
+[[block]]
+key = "920463d7a42e275e"
+origin = '''
+# dir_pin: PC7
+'''
+translate = '''
+# dir_pin: PC7
+'''
+
+[[block]]
+key = "88e50163a9b56cd2"
+origin = '''
+# enable_pin: !PC9
+'''
+translate = '''
+# enable_pin: !PC9
+'''
+
+[[block]]
+key = "1caf0a6cffba5938"
+origin = '''
+# Motor-10
+'''
+translate = '''
+# Motor-10
+'''
+
+[[block]]
+key = "2260f2f726f7a2a9"
+origin = '''
+# [extruder5]
+'''
+translate = '''
+# [extruder5]
+'''
+
+[[block]]
+key = "359121d1cd026e38"
+origin = '''
+# step_pin: PG6
+'''
+translate = '''
+# step_pin: PG6
+'''
+
+[[block]]
+key = "eb3d05c01200019d"
+origin = '''
+# dir_pin: PC6
+'''
+translate = '''
+# dir_pin: PC6
+'''
+
+[[block]]
+key = "1f5a11a9b09a06e3"
+origin = '''
+# enable_pin: !PC8
+'''
+translate = '''
+# enable_pin: !PC8
+'''
+
+[[block]]
+key = "287601e0b123654a"
+origin = '''
+[heater_bed]
+heater_pin: PF5
+sensor_pin: PB1 # TB
+sensor_type: ATC Semitec 104GT-2
+control: watermark
+min_temp: 0
+max_temp: 130
+'''
+translate = '''
+[heater_bed]
+heater_pin: PF5
+sensor_pin: PB1 # TB
+sensor_type: ATC Semitec 104GT-2
+control: watermark
+min_temp: 0
+max_temp: 130
+'''
+
+[[block]]
+key = "2fc7cd7154de90c2"
+origin = '''
+[fan]
+pin: PA6
+'''
+translate = '''
+[fan]
+pin: PA6
+'''
+
+[[block]]
+key = "bd20b502b4bc3c53"
+origin = '''
+# [heater_fan fan1]
+'''
+translate = '''
+# [heater_fan fan1]
+'''
+
+[[block]]
+key = "98e165313cf645b6"
+origin = '''
+# pin: PA5
+'''
+translate = '''
+# pin: PA5
+'''
+
+[[block]]
+key = "4d10bc894b2e1164"
+origin = '''
+# [heater_fan fan2]
+'''
+translate = '''
+# [heater_fan fan2]
+'''
+
+[[block]]
+key = "3acd29497a2cd34e"
+origin = '''
+# pin: PA4
+'''
+translate = '''
+# pin: PA4
+'''
+
+[[block]]
+key = "7087d7a96e7937ae"
+origin = '''
+# [heater_fan fan3]
+'''
+translate = '''
+# [heater_fan fan3]
+'''
+
+[[block]]
+key = "25178d74336dc399"
+origin = '''
+# pin: PA3
+'''
+translate = '''
+# pin: PA3
+'''
+
+[[block]]
+key = "ffa1bd92b887f274"
+origin = '''
+# [heater_fan fan4]
+'''
+translate = '''
+# [heater_fan fan4]
+'''
+
+[[block]]
+key = "36ccb7d9306de76f"
+origin = '''
+# pin: PA1
+'''
+translate = '''
+# pin: PA1
+'''
+
+[[block]]
+key = "e3900ed9d99d5b93"
+origin = '''
+# tachometer_pin: PC3
+'''
+translate = '''
+# tachometer_pin: PC3
+'''
+
+[[block]]
+key = "a365601ea95137a6"
+origin = '''
+# [heater_fan fan5]
+'''
+translate = '''
+# [heater_fan fan5]
+'''
+
+[[block]]
+key = "da33b54eaa9f3ae4"
+origin = '''
+# pin: PF8
+'''
+translate = '''
+# pin: PF8
+'''
+
+[[block]]
+key = "3afe6afb53f62851"
+origin = '''
+# tachometer_pin: PC1
+'''
+translate = '''
+# tachometer_pin: PC1
+'''
+
+[[block]]
+key = "7fec5cc9748ff827"
+origin = '''
+# [heater_fan fan6]
+'''
+translate = '''
+# [heater_fan fan6]
+'''
+
+[[block]]
+key = "39a03ad6812794e0"
+origin = '''
+# pin: PA2
+'''
+translate = '''
+# pin: PA2
+'''
+
+[[block]]
+key = "c96c19f0361a2e0c"
+origin = '''
+# tachometer_pin: PC2
+'''
+translate = '''
+# tachometer_pin: PC2
+'''
+
+[[block]]
+key = "e09b926a9be3a238"
+origin = '''
+########################################
+'''
+translate = '''
+########################################
+'''
+
+[[block]]
+key = "4e5e86318bdbec5f"
+origin = '''
+# TMC2209 configuration
+'''
+translate = '''
+# TMC2209 configuration
+'''
+
+[[block]]
+key = "e09b926a9be3a238"
+origin = '''
+########################################
+'''
+translate = '''
+########################################
+'''
+
+[[block]]
+key = "fea63e832e7fb3f0"
+origin = '''
+# [tmc2209 stepper_x]
+'''
+translate = '''
+# [tmc2209 stepper_x]
+'''
+
+[[block]]
+key = "448c901206946fb3"
+origin = '''
+# uart_pin: PG14
+'''
+translate = '''
+# uart_pin: PG14
+'''
+
+[[block]]
+key = "5ce5adff4a5e838d"
+origin = '''
+# diag_pin: PF0
+'''
+translate = '''
+# diag_pin: PF0
+'''
+
+[[block]]
+key = "ccade03290b2d44e"
+origin = '''
+# run_current: 0.800
+'''
+translate = '''
+# run_current: 0.800
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "c4a116e607c131f4"
+origin = '''
+# [tmc2209 stepper_y]
+'''
+translate = '''
+# [tmc2209 stepper_y]
+'''
+
+[[block]]
+key = "f913ce5a197f536e"
+origin = '''
+# uart_pin: PG13
+'''
+translate = '''
+# uart_pin: PG13
+'''
+
+[[block]]
+key = "1d74cbeec11ef62d"
+origin = '''
+# diag_pin: PF2
+'''
+translate = '''
+# diag_pin: PF2
+'''
+
+[[block]]
+key = "ccade03290b2d44e"
+origin = '''
+# run_current: 0.800
+'''
+translate = '''
+# run_current: 0.800
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "0fa1155c231b24d7"
+origin = '''
+# [tmc2209 stepper_z]
+'''
+translate = '''
+# [tmc2209 stepper_z]
+'''
+
+[[block]]
+key = "45374d96d3c4bbf7"
+origin = '''
+# uart_pin: PG12
+'''
+translate = '''
+# uart_pin: PG12
+'''
+
+[[block]]
+key = "4d36ccac147ef06d"
+origin = '''
+# diag_pin: PF4
+'''
+translate = '''
+# diag_pin: PF4
+'''
+
+[[block]]
+key = "6cc515a7e7e71064"
+origin = '''
+# run_current: 0.650
+'''
+translate = '''
+# run_current: 0.650
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "66328b9f00109cdc"
+origin = '''
+# [tmc2209 stepper_]
+'''
+translate = '''
+# [tmc2209 stepper_]
+'''
+
+[[block]]
+key = "e63db6c0b6f9bfa0"
+origin = '''
+# uart_pin: PG11
+'''
+translate = '''
+# uart_pin: PG11
+'''
+
+[[block]]
+key = "1c2fe003b8a93797"
+origin = '''
+# diag_pin: PF3
+'''
+translate = '''
+# diag_pin: PF3
+'''
+
+[[block]]
+key = "6cc515a7e7e71064"
+origin = '''
+# run_current: 0.650
+'''
+translate = '''
+# run_current: 0.650
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "4ae4ad2b7487cf24"
+origin = '''
+# [tmc2209 extruder]
+'''
+translate = '''
+# [tmc2209 extruder]
+'''
+
+[[block]]
+key = "62c7be2acbcd5c2f"
+origin = '''
+# uart_pin: PG10
+'''
+translate = '''
+# uart_pin: PG10
+'''
+
+[[block]]
+key = "ccade03290b2d44e"
+origin = '''
+# run_current: 0.800
+'''
+translate = '''
+# run_current: 0.800
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "fdf7373516e7f5ac"
+origin = '''
+# [tmc2209 extruder1]
+'''
+translate = '''
+# [tmc2209 extruder1]
+'''
+
+[[block]]
+key = "598f0bfc6d2114f3"
+origin = '''
+# uart_pin: PG9
+'''
+translate = '''
+# uart_pin: PG9
+'''
+
+[[block]]
+key = "ccade03290b2d44e"
+origin = '''
+# run_current: 0.800
+'''
+translate = '''
+# run_current: 0.800
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "30eb305d383a1717"
+origin = '''
+# [tmc2209 extruder2]
+'''
+translate = '''
+# [tmc2209 extruder2]
+'''
+
+[[block]]
+key = "46d11ac48ffd72ec"
+origin = '''
+# uart_pin: PD7
+'''
+translate = '''
+# uart_pin: PD7
+'''
+
+[[block]]
+key = "ccade03290b2d44e"
+origin = '''
+# run_current: 0.800
+'''
+translate = '''
+# run_current: 0.800
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "37e87fd33ea0a1cf"
+origin = '''
+# [tmc2209 extruder3]
+'''
+translate = '''
+# [tmc2209 extruder3]
+'''
+
+[[block]]
+key = "f58547277f082e88"
+origin = '''
+# uart_pin: PD6
+'''
+translate = '''
+# uart_pin: PD6
+'''
+
+[[block]]
+key = "ccade03290b2d44e"
+origin = '''
+# run_current: 0.800
+'''
+translate = '''
+# run_current: 0.800
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "49248992f3eae25c"
+origin = '''
+# [tmc2209 extruder4]
+'''
+translate = '''
+# [tmc2209 extruder4]
+'''
+
+[[block]]
+key = "6464d194083d944a"
+origin = '''
+# uart_pin: PG8
+'''
+translate = '''
+# uart_pin: PG8
+'''
+
+[[block]]
+key = "ccade03290b2d44e"
+origin = '''
+# run_current: 0.800
+'''
+translate = '''
+# run_current: 0.800
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "764095097f36e800"
+origin = '''
+# [tmc2209 extruder5]
+'''
+translate = '''
+# [tmc2209 extruder5]
+'''
+
+[[block]]
+key = "6cf7907fd91eeac3"
+origin = '''
+# uart_pin: PG7
+'''
+translate = '''
+# uart_pin: PG7
+'''
+
+[[block]]
+key = "ccade03290b2d44e"
+origin = '''
+# run_current: 0.800
+'''
+translate = '''
+# run_current: 0.800
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "e09b926a9be3a238"
+origin = '''
+########################################
+'''
+translate = '''
+########################################
+'''
+
+[[block]]
+key = "53a47aca6f1c4d80"
+origin = '''
+# TMC2130 configuration
+'''
+translate = '''
+# TMC2130 configuration
+'''
+
+[[block]]
+key = "e09b926a9be3a238"
+origin = '''
+########################################
+'''
+translate = '''
+########################################
+'''
+
+[[block]]
+key = "57757ba915b29103"
+origin = '''
+# [tmc2130 stepper_x]
+'''
+translate = '''
+# [tmc2130 stepper_x]
+'''
+
+[[block]]
+key = "0b7ca6187dda3320"
+origin = '''
+# cs_pin: PG14
+'''
+translate = '''
+# cs_pin: PG14
+'''
+
+[[block]]
+key = "759d27f7f66de749"
+origin = '''
+# spi_bus: spi4
+'''
+translate = '''
+# spi_bus: spi4
+'''
+
+[[block]]
+key = "d778eefafca2790a"
+origin = '''
+# diag1_pin: PF0
+'''
+translate = '''
+# diag1_pin: PF0
+'''
+
+[[block]]
+key = "ccade03290b2d44e"
+origin = '''
+# run_current: 0.800
+'''
+translate = '''
+# run_current: 0.800
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "30cb37d888615c34"
+origin = '''
+# [tmc2130 stepper_y]
+'''
+translate = '''
+# [tmc2130 stepper_y]
+'''
+
+[[block]]
+key = "b3dfeaa4c6577fce"
+origin = '''
+# cs_pin: PG13
+'''
+translate = '''
+# cs_pin: PG13
+'''
+
+[[block]]
+key = "759d27f7f66de749"
+origin = '''
+# spi_bus: spi4
+'''
+translate = '''
+# spi_bus: spi4
+'''
+
+[[block]]
+key = "2a84cf17a61b73ba"
+origin = '''
+# diag1_pin: PF2
+'''
+translate = '''
+# diag1_pin: PF2
+'''
+
+[[block]]
+key = "ccade03290b2d44e"
+origin = '''
+# run_current: 0.800
+'''
+translate = '''
+# run_current: 0.800
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "50776323766ae90d"
+origin = '''
+# [tmc2130 stepper_z]
+'''
+translate = '''
+# [tmc2130 stepper_z]
+'''
+
+[[block]]
+key = "b8f92efeb0795b17"
+origin = '''
+# cs_pin: PG12
+'''
+translate = '''
+# cs_pin: PG12
+'''
+
+[[block]]
+key = "759d27f7f66de749"
+origin = '''
+# spi_bus: spi4
+'''
+translate = '''
+# spi_bus: spi4
+'''
+
+[[block]]
+key = "f579ad3864d11808"
+origin = '''
+# diag1_pin: PF4
+'''
+translate = '''
+# diag1_pin: PF4
+'''
+
+[[block]]
+key = "6cc515a7e7e71064"
+origin = '''
+# run_current: 0.650
+'''
+translate = '''
+# run_current: 0.650
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "6f655ff1d25a9353"
+origin = '''
+# [tmc2130 stepper_]
+'''
+translate = '''
+# [tmc2130 stepper_]
+'''
+
+[[block]]
+key = "396d5a0efb1692ab"
+origin = '''
+# cs_pin: PG11
+'''
+translate = '''
+# cs_pin: PG11
+'''
+
+[[block]]
+key = "759d27f7f66de749"
+origin = '''
+# spi_bus: spi4
+'''
+translate = '''
+# spi_bus: spi4
+'''
+
+[[block]]
+key = "0b8701237b66fc7e"
+origin = '''
+# diag1_pin: PF3
+'''
+translate = '''
+# diag1_pin: PF3
+'''
+
+[[block]]
+key = "ccade03290b2d44e"
+origin = '''
+# run_current: 0.800
+'''
+translate = '''
+# run_current: 0.800
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "dc131efd5ef83645"
+origin = '''
+# [tmc2130 extruder]
+'''
+translate = '''
+# [tmc2130 extruder]
+'''
+
+[[block]]
+key = "fadb68293496bd9c"
+origin = '''
+# cs_pin: PG10
+'''
+translate = '''
+# cs_pin: PG10
+'''
+
+[[block]]
+key = "759d27f7f66de749"
+origin = '''
+# spi_bus: spi4
+'''
+translate = '''
+# spi_bus: spi4
+'''
+
+[[block]]
+key = "ccade03290b2d44e"
+origin = '''
+# run_current: 0.800
+'''
+translate = '''
+# run_current: 0.800
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "96af659eca6fcf0d"
+origin = '''
+# [tmc2130 extruder1]
+'''
+translate = '''
+# [tmc2130 extruder1]
+'''
+
+[[block]]
+key = "7adca8a253f10bbd"
+origin = '''
+# cs_pin: PG9
+'''
+translate = '''
+# cs_pin: PG9
+'''
+
+[[block]]
+key = "759d27f7f66de749"
+origin = '''
+# spi_bus: spi4
+'''
+translate = '''
+# spi_bus: spi4
+'''
+
+[[block]]
+key = "ccade03290b2d44e"
+origin = '''
+# run_current: 0.800
+'''
+translate = '''
+# run_current: 0.800
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "698b90a07c31a525"
+origin = '''
+# [tmc2130 extruder2]
+'''
+translate = '''
+# [tmc2130 extruder2]
+'''
+
+[[block]]
+key = "c06aa3ae598ea0f9"
+origin = '''
+# cs_pin: PD7
+'''
+translate = '''
+# cs_pin: PD7
+'''
+
+[[block]]
+key = "759d27f7f66de749"
+origin = '''
+# spi_bus: spi4
+'''
+translate = '''
+# spi_bus: spi4
+'''
+
+[[block]]
+key = "ccade03290b2d44e"
+origin = '''
+# run_current: 0.800
+'''
+translate = '''
+# run_current: 0.800
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "2f90d2d14c73d334"
+origin = '''
+# [tmc2130 extruder3]
+'''
+translate = '''
+# [tmc2130 extruder3]
+'''
+
+[[block]]
+key = "bedf70ed92420b3e"
+origin = '''
+# cs_pin: PD6
+'''
+translate = '''
+# cs_pin: PD6
+'''
+
+[[block]]
+key = "759d27f7f66de749"
+origin = '''
+# spi_bus: spi4
+'''
+translate = '''
+# spi_bus: spi4
+'''
+
+[[block]]
+key = "ccade03290b2d44e"
+origin = '''
+# run_current: 0.800
+'''
+translate = '''
+# run_current: 0.800
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "7067f3cf4a20b7ec"
+origin = '''
+# [tmc2130 extruder4]
+'''
+translate = '''
+# [tmc2130 extruder4]
+'''
+
+[[block]]
+key = "93fff71adbee1374"
+origin = '''
+# cs_pin: PG8
+'''
+translate = '''
+# cs_pin: PG8
+'''
+
+[[block]]
+key = "759d27f7f66de749"
+origin = '''
+# spi_bus: spi4
+'''
+translate = '''
+# spi_bus: spi4
+'''
+
+[[block]]
+key = "ccade03290b2d44e"
+origin = '''
+# run_current: 0.800
+'''
+translate = '''
+# run_current: 0.800
+'''
+
+[[block]]
+key = "7bfe91eebdec2b40"
+origin = '''
+# stealthchop_threshold: 999999
+'''
+translate = '''
+# stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "353d873bdcbf4284"
+origin = '''
+#[tmc2130 extruder5]
+'''
+translate = '''
+#[tmc2130 extruder5]
+'''
+
+[[block]]
+key = "34cf8955659fa65d"
+origin = '''
+#cs_pin: PG7
+'''
+translate = '''
+#cs_pin: PG7
+'''
+
+[[block]]
+key = "997590b7d376264c"
+origin = '''
+#spi_bus: spi4
+'''
+translate = '''
+#spi_bus: spi4
+'''
+
+[[block]]
+key = "9d8d46fca6b8eb83"
+origin = '''
+#run_current: 0.800
+'''
+translate = '''
+#run_current: 0.800
+'''
+
+[[block]]
+key = "0223871c5f719742"
+origin = '''
+#stealthchop_threshold: 999999
+'''
+translate = '''
+#stealthchop_threshold: 999999
+'''
+
+[[block]]
+key = "24f833d0c668a574"
+origin = '''
+[board_pins]
+aliases:
+    # FPC header, Aliases EXP1 & EXP2 for mini12864
+    EXP1_1=PG2, EXP1_2=PD15,
+    EXP1_3=PD14, EXP1_4=PD13,
+    EXP1_5=PD12, EXP1_6=PD11,
+    EXP1_7=PD10, EXP1_8=PE15,
+    EXP1_9=<GND>, EXP1_10=<5V>,
+'''
+translate = '''
+[board_pins]
+aliases:
+    # FPC header, Aliases EXP1 & EXP2 for mini12864
+    EXP1_1=PG2, EXP1_2=PD15,
+    EXP1_3=PD14, EXP1_4=PD13,
+    EXP1_5=PD12, EXP1_6=PD11,
+    EXP1_7=PD10, EXP1_8=PE15,
+    EXP1_9=<GND>, EXP1_10=<5V>,
+'''
+
+[[block]]
+key = "a353265f6e9cd127"
+origin = '''
+    # EXP2 header
+    EXP2_1=PE13, EXP2_2=PE12,
+    EXP2_3=PG5, EXP2_4=PE11,
+    EXP2_5=PG4, EXP2_6=PE14,
+    EXP2_7=PG3, EXP2_8=<RST>,
+    EXP2_9=<GND>, EXP2_10=<NC>
+'''
+translate = '''
+    # EXP2 header
+    EXP2_1=PE13, EXP2_2=PE12,
+    EXP2_3=PG5, EXP2_4=PE11,
+    EXP2_5=PG4, EXP2_6=PE14,
+    EXP2_7=PG3, EXP2_8=<RST>,
+    EXP2_9=<GND>, EXP2_10=<NC>
+'''
+
+[[block]]
+key = "4d2c862447a99b6a"
+origin = '''
+# See the sample-lcd.cfg file for definitions of common LCD displays.
+'''
+translate = '''
+# See the sample-lcd.cfg file for definitions of common LCD displays.
+'''
+
+[[block]]
+key = "97d2fd073dcd123a"
+origin = '''
+# [bltouch]
+'''
+translate = '''
+# [bltouch]
+'''
+
+[[block]]
+key = "4e1f7f52b886ab0a"
+origin = '''
+# sensor_pin: PB15
+'''
+translate = '''
+# sensor_pin: PB15
+'''
+
+[[block]]
+key = "94447094c94e3439"
+origin = '''
+# control_pin: PB14
+'''
+translate = '''
+# control_pin: PB14
+'''
+
+[[block]]
+key = "3230b3403ed2183f"
+origin = '''
+# Proximity switch
+'''
+translate = '''
+# Proximity switch
+'''
+
+[[block]]
+key = "d4571eaa50d7a49c"
+origin = '''
+# [probe]
+'''
+translate = '''
+# [probe]
+'''
+
+[[block]]
+key = "a5ab45a2fa030bc6"
+origin = '''
+# pin: PF11
+'''
+translate = '''
+# pin: PF11
+'''
+
+[[block]]
+key = "0bcee73f4a5a4d36"
+origin = '''
+# [output_pin ps_on_pin]
+'''
+translate = '''
+# [output_pin ps_on_pin]
+'''
+
+[[block]]
+key = "eda6e39839336845"
+origin = '''
+# pin: PF13
+'''
+translate = '''
+# pin: PF13
+'''
+
+[[block]]
+key = "4a7806487f989bf3"
+origin = '''
+# [output_pin pf12_pin]
+'''
+translate = '''
+# [output_pin pf12_pin]
+'''
+
+[[block]]
+key = "dc9ee7140586c234"
+origin = '''
+# pin: PF12
+'''
+translate = '''
+# pin: PF12
+'''
+
+[[block]]
+key = "9a1666ff9a7b875f"
+origin = '''
+# [neopixel my_neopixel_1]
+'''
+translate = '''
+# [neopixel my_neopixel_1]
+'''
+
+[[block]]
+key = "e301f04822297315"
+origin = '''
+# pin: PE10
+'''
+translate = '''
+# pin: PE10
+'''
+
+[[block]]
+key = "7942586eb3780026"
+origin = '''
+# [neopixel my_neopixel_2]
+'''
+translate = '''
+# [neopixel my_neopixel_2]
+'''
+
+[[block]]
+key = "e8cd11ad0c652d6a"
+origin = '''
+# pin: PE9
+'''
+translate = '''
+# pin: PE9
+'''
+
+[[block]]
+key = "1cc47e6216e66fc0"
+origin = '''
+# [hall_filament_width_sensor]
+'''
+translate = '''
+# [hall_filament_width_sensor]
+'''
+
+[[block]]
+key = "38a87654dbb8c7e9"
+origin = '''
+# adc1: PC0
+'''
+translate = '''
+# adc1: PC0
+'''
+
+[[block]]
+key = "d8a3b3ca2cf112b8"
+origin = '''
+# adc2: PF10
+'''
+translate = '''
+# adc2: PF10
+'''
+
+[[block]]
+key = "cae9eeaf65881e13"
+origin = '''
+# [adxl345]
+'''
+translate = '''
+# [adxl345]
+'''
+
+[[block]]
+key = "1d4862703bcb5725"
+origin = '''
+# cs_pin: PF14
+'''
+translate = '''
+# cs_pin: PF14
+'''
+
+[[block]]
+key = "759d27f7f66de749"
+origin = '''
+# spi_bus: spi4
+'''
+translate = '''
+# spi_bus: spi4
+'''
+
+[[block]]
+key = "3022884942eb05fa"
+origin = '''
+```
+'''
+translate = '''
+```
+'''
+
+[[block]]
+key = "f38bce124547ae05"
+origin = '''
+## Marlin
+'''
+translate = '''
+## Marlin
+'''
+
+[[block]]
+key = "e7eded36f347fc86"
+origin = '''
+### 配置 Marlin
+'''
+translate = '''
+### 配置 Marlin
+'''

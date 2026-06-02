@@ -1,0 +1,413 @@
+[metadata]
+
+[[block]]
+key = "c4ba54d3162ee24c"
+origin = '''
+---
+sidebar_position: 1
+description: HDMI 5 文档
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: HDMI 5 文档
+---
+'''
+
+[[block]]
+key = "2de977bfd694ee15"
+origin = '''
+# HDMI 5
+'''
+translate = '''
+# HDMI 5
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "1a72a7fde6ffba17"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/HDMI5_Title.png').default} width="45%" class="right-image"/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/accessories-docs/display/HDMI5-display/img/HDMI5_Title.png').default} width="45%" class="right-image"/>
+'''
+
+[[block]]
+key = "61d7bc002e06f0c9"
+origin = '''
+## 产品规格
+'''
+translate = '''
+## 产品规格
+'''
+
+[[block]]
+key = "424e15a40f69f960"
+origin = '''
+| Specification | HDMI 5         |
+| ------------- | -------------- |
+| 产品尺寸      | 121 x 76mm     |
+| 安装尺寸      | 121 x 76mm     |
+| 电源输入      | DC 5V          |
+| 逻辑电压      | DC 3.3V        |
+| 屏幕尺寸      | 5英寸IPS显示屏 |
+| 屏幕分辨率    | 800x480        |
+| 屏幕视角      | 160°           |
+'''
+translate = '''
+| Specification | HDMI 5         |
+| ------------- | -------------- |
+| 产品尺寸      | 121 x 76mm     |
+| 安装尺寸      | 121 x 76mm     |
+| 电源输入      | DC 5V          |
+| 逻辑电压      | DC 3.3V        |
+| 屏幕尺寸      | 5英寸IPS显示屏 |
+| 屏幕分辨率    | 800x480        |
+| 屏幕视角      | 160°           |
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "a9ae5a7eafeac08f"
+origin = '''
+## 尺寸
+'''
+translate = '''
+## 尺寸
+'''
+
+[[block]]
+key = "5fa1221826d72874"
+origin = '''
+<ImageView src={require('./img/HDMI5_Dimension.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/HDMI5-display/img/HDMI5_Dimension.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "6a770c30e1108b39"
+origin = '''
+## 接口示意图
+'''
+translate = '''
+## 接口示意图
+'''
+
+[[block]]
+key = "d581b6a32d64b8e4"
+origin = '''
+<ImageView src={require('./img/HDMI5_Interface.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/HDMI5-display/img/HDMI5_Interface.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "9f7e406f4964b5b4"
+origin = '''
+## 硬件配置
+'''
+translate = '''
+## 硬件配置
+'''
+
+[[block]]
+key = "b6ef116dbe7d8ccd"
+origin = '''
+### 连接到显示输出设备
+'''
+translate = '''
+### 连接到显示输出设备
+'''
+
+[[block]]
+key = "fcca39c6a8164dfd"
+origin = '''
+1. 使用 USB Type-C 连接 HDMI5 到显示输出设备（与Raspberry Pi/PC/其他支持HDMI显示输出的设备兼容）。当连接到电脑时，电脑会在正常情况下自动加载驱动程序。在加载驱动程序之后，可以识别触摸设备。
+'''
+translate = '''
+1. 使用 USB Type-C 连接 HDMI5 到显示输出设备（与Raspberry Pi/PC/其他支持HDMI显示输出的设备兼容）。当连接到电脑时，电脑会在正常情况下自动加载驱动程序。在加载驱动程序之后，可以识别触摸设备。
+'''
+
+[[block]]
+key = "c22f225b6deabc80"
+origin = '''
+2. 使用 HDMI 线连接 HDMI5 到显示输出设备。通常，连接HDMI电缆后，LCD可以在5秒内正常显示。
+'''
+translate = '''
+2. 使用 HDMI 线连接 HDMI5 到显示输出设备。通常，连接HDMI电缆后，LCD可以在5秒内正常显示。
+'''
+
+[[block]]
+key = "88da02a9aa7b9c38"
+origin = '''
+### 音频输出
+'''
+translate = '''
+### 音频输出
+'''
+
+[[block]]
+key = "15529eb298fda7c9"
+origin = '''
+将3.5毫米耳机/扬声器插入AUDIO接口，实现音频输出。
+'''
+translate = '''
+将3.5毫米耳机/扬声器插入AUDIO接口，实现音频输出。
+'''
+
+[[block]]
+key = "466338619c935f0c"
+origin = '''
+<ImageView src={require('./img/HDMI5_Audio.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/HDMI5-display/img/HDMI5_Audio.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "919488d10864bbbd"
+origin = '''
+### 屏幕亮度调整
+'''
+translate = '''
+### 屏幕亮度调整
+'''
+
+[[block]]
+key = "d49b67b4a3e7e9ce"
+origin = '''
+BIGTREETECH HDMI5 V1.0 支持亮度调节，可以通过 `Ks1` 按钮增加亮度，通过 `Ks3` 按钮降低亮度。
+'''
+translate = '''
+BIGTREETECH HDMI5 V1.0 支持亮度调节，可以通过 `Ks1` 按钮增加亮度，通过 `Ks3` 按钮降低亮度。
+'''
+
+[[block]]
+key = "2e0f462e96de78ff"
+origin = '''
+<ImageView src={require('./img/HDMI5_Brightness.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/HDMI5-display/img/HDMI5_Brightness.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "e1c00c5ee6803128"
+origin = '''
+### 显示方向调整
+'''
+translate = '''
+### 显示方向调整
+'''
+
+[[block]]
+key = "895baba36490d587"
+origin = '''
+BIGTREETECH HDMI5 V1.0 支持通过 `Ks2` 按钮进行水平显示方向调整。
+'''
+translate = '''
+BIGTREETECH HDMI5 V1.0 支持通过 `Ks2` 按钮进行水平显示方向调整。
+'''
+
+[[block]]
+key = "c05aca2379a527a3"
+origin = '''
+<ImageView src={require('./img/HDMI5_Direction.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/HDMI5-display/img/HDMI5_Direction.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "6d9c945774de065f"
+origin = '''
+### 指示灯
+'''
+translate = '''
+### 指示灯
+'''
+
+[[block]]
+key = "44d8af47723511e1"
+origin = '''
+当主板通电时：
+'''
+translate = '''
+当主板通电时：
+'''
+
+[[block]]
+key = "ecace97b131036cb"
+origin = '''
+电源指示灯D11（电源）红灯亮起，表示电源工作正常。
+'''
+translate = '''
+电源指示灯D11（电源）红灯亮起，表示电源工作正常。
+'''
+
+[[block]]
+key = "13642d608e79dab2"
+origin = '''
+工作状态指示灯D12（状态）绿光闪烁，表示屏幕工作正常。
+'''
+translate = '''
+工作状态指示灯D12（状态）绿光闪烁，表示屏幕工作正常。
+'''
+
+[[block]]
+key = "0bb80755db66cf58"
+origin = '''
+## 软件配置
+'''
+translate = '''
+## 软件配置
+'''
+
+[[block]]
+key = "4c22665f7a642e79"
+origin = '''
+### HDMI显示输出 (树莓派)
+'''
+translate = '''
+### HDMI显示输出 (树莓派)
+'''
+
+[[block]]
+key = "05bcc611c574ba31"
+origin = '''
+修改 `config.txt` 中的配置
+'''
+translate = '''
+修改 `config.txt` 中的配置
+'''
+
+[[block]]
+key = "e3c0114bcb8f7c12"
+origin = '''
+```systemd title="config.txt"
+'''
+translate = '''
+```systemd title="config.txt"
+'''
+
+[[block]]
+key = "3549441530331c70"
+origin = '''
+# uncomment to force a specific HDMI mode (this will force VGA)
+'''
+translate = '''
+# uncomment to force a specific HDMI mode (this will force VGA)
+'''
+
+[[block]]
+key = "6f48eb3ac0a77bb7"
+origin = '''
+hdmi_group=2
+hdmi_mode=87
+hdmi_cvt 800 480 60 6 0 0 0
+'''
+translate = '''
+hdmi_group=2
+hdmi_mode=87
+hdmi_cvt 800 480 60 6 0 0 0
+'''
+
+[[block]]
+key = "85a065c2a6a57447"
+origin = '''
+# uncomment to force a HDMI mode rather than DVI. This can make audio work in
+'''
+translate = '''
+# uncomment to force a HDMI mode rather than DVI. This can make audio work in
+'''
+
+[[block]]
+key = "1838431fa946818c"
+origin = '''
+# DMT (computer monitor) modes
+'''
+translate = '''
+# DMT (computer monitor) modes
+'''
+
+[[block]]
+key = "cc4d7e21e9fd7a3c"
+origin = '''
+hdmi_drive=1
+```
+'''
+translate = '''
+hdmi_drive=1
+```
+'''
+
+[[block]]
+key = "fcc4bb262df53a0f"
+origin = '''
+### HDMI音频输出 (树莓派)
+'''
+translate = '''
+### HDMI音频输出 (树莓派)
+'''
+
+[[block]]
+key = "bee6dcd823d8b620"
+origin = '''
+进入系统桌面后，右键单击右上角的音频源图标，然后选择HDMI。
+'''
+translate = '''
+进入系统桌面后，右键单击右上角的音频源图标，然后选择HDMI。
+'''
+
+[[block]]
+key = "76d84b0d9f849d22"
+origin = '''
+<ImageView src={require('./img/HDMI5_Desktop.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/HDMI5-display/img/HDMI5_Desktop.png').default} width="80%"/>
+'''

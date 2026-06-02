@@ -1,0 +1,356 @@
+[metadata]
+
+[[block]]
+key = "6e0f881be9c255e4"
+origin = '''
+---
+sidebar_position: 10
+description: Manta 系列核心板系统写入
+---
+'''
+translate = '''
+---
+sidebar_position: 10
+description: Manta Series Core Board System Writing
+---
+'''
+
+[[block]]
+key = "d5892a7279451110"
+origin = '''
+# Manta 系列核心板 Raspberry CM4/CM5
+'''
+translate = '''
+# Manta Series Core Board Raspberry CM4/CM5
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "d2930f2fe4eff4ee"
+origin = '''
+### 在开始之前
+'''
+translate = '''
+### Before Start 
+'''
+
+[[block]]
+key = "1e837567c890d049"
+origin = '''
+:::info[Raspberry Pi Imager]
+
+[Raspberry Pi Imager](https://www.raspberrypi.com/software/)
+
+:::
+'''
+translate = '''
+:::info[Raspberry Pi Imager]
+
+[Raspberry Pi Imager](https://www.raspberrypi.com/software/)
+
+:::
+'''
+
+[[block]]
+key = "21204465438af437"
+origin = '''
+:::info[Raspberry Pi 系统]
+
+[software/operating-systems](https://www.raspberrypi.com/software/operating-systems/)
+
+:::
+'''
+translate = '''
+:::info[Raspberry Pi System]
+
+[software/operating-systems](https://www.raspberrypi.com/software/operating-systems/)
+
+:::
+'''
+
+[[block]]
+key = "11edc2d9cb9ba8ab"
+origin = '''
+:::info[rpiboot]
+
+eMMC 版本需要这个工具来读写 eMMC
+
+[rpiboot](https://github.com/raspberrypi/usbboot/tree/master/win32)
+:::
+'''
+translate = '''
+:::info[rpiboot]
+
+The eMMC version requires this tool to read and write to eMMC.
+
+[rpiboot](https://github.com/raspberrypi/usbboot/tree/master/win32)
+:::
+'''
+
+[[block]]
+key = "d188a283bc43756a"
+origin = '''
+### 写入系统
+'''
+translate = '''
+### Flash System
+'''
+
+[[block]]
+key = "22ae1342148ae6e2"
+origin = '''
+<Tabs groupId="cm-system-flash">
+    <TabItem value="sd-card" label="使用 SD 卡" default>
+'''
+translate = '''
+<Tabs groupId="cm-system-flash">
+    <TabItem value="sd-card" label="Use SD Card" default>
+'''
+
+[[block]]
+key = "6ed40bd983f8345c"
+origin = '''
+        将 Micro SD 卡通过读卡器插入到电脑, 然后选择系统。
+'''
+translate = '''
+        Insert the Micro SD card into the computer using a card reader, then select the system.
+'''
+
+[[block]]
+key = "384b9cba9aca2d8a"
+origin = '''
+        <ImageView src={require('./img/cm-flash-1.png').default} width="65%"/>
+'''
+translate = '''
+        <ImageView src={require('@site/docs/board-docs/manta-series/img/cm-flash-1.png').default} width="65%"/>
+'''
+
+[[block]]
+key = "f0948b4851a973ba"
+origin = '''
+        选择 `Use custom` 然后选择下载到电脑中的镜像。
+'''
+translate = '''
+        Select `Use custom`, then choose the image downloaded to the computer.
+'''
+
+[[block]]
+key = "d38db9b754b0d5c0"
+origin = '''
+        <ImageView src={require('./img/cm-flash-2.png').default} width="65%"/>
+'''
+translate = '''
+        <ImageView src={require('@site/docs/board-docs/manta-series/img/cm-flash-2.png').default} width="65%"/>
+'''
+
+[[block]]
+key = "5c29106c051b8bf9"
+origin = '''
+        选择需要写入的 Micro SD。然后写入系统镜像。
+'''
+translate = '''
+        Select the Micro SD card to be written, then write the system image.
+'''
+
+[[block]]
+key = "5d2b325b006645d6"
+origin = '''
+        :::warning
+
+        写入镜像会格式化 SD 卡内的所有数据。请在格式化前确保数据已备份。
+
+        :::
+'''
+translate = '''
+        :::warning
+
+        Writing the image will format all data on the SD card. Please make sure your data is backed up before formatting.
+
+        :::
+'''
+
+[[block]]
+key = "1732282ea34fa656"
+origin = '''
+        <ImageView src={require('./img/cm-flash-3.png').default} width="65%"/>
+'''
+translate = '''
+        <ImageView src={require('@site/docs/board-docs/manta-series/img/cm-flash-3.png').default} width="65%"/>
+'''
+
+[[block]]
+key = "1aa8f775e505c1aa"
+origin = '''
+        等待系统写入完成
+'''
+translate = '''
+        Wait for the system writing to complete
+'''
+
+[[block]]
+key = "c6b65815bdd93bcd"
+origin = '''
+        <ImageView src={require('./img/cm-flash-4.png').default} width="65%"/>
+'''
+translate = '''
+        <ImageView src={require('@site/docs/board-docs/manta-series/img/cm-flash-4.png').default} width="65%"/>
+'''
+
+[[block]]
+key = "ccedd3ac1f6e815f"
+origin = '''
+    </TabItem>
+    <TabItem value="emmc" label="使用 eMMC">
+        首先将开关的 3 `RPIBOOT` 和 4 `USBOTG` 调整到 `ON` 进入 BOOT 模式
+'''
+translate = '''
+    </TabItem>
+    <TabItem value="emmc" label="Use eMMC">
+        First, set switches 3 `RPIBOOT` and 4 `USBOTG` to `ON` to enter BOOT mode
+'''
+
+[[block]]
+key = "415649308483678e"
+origin = '''
+        然后将 Type-C 线连接到电脑。推荐使用外置 24V 电源进行供电。
+'''
+translate = '''
+        Then connect the Type-C cable to the computer. It is recommended to use an external 24V power supply.
+'''
+
+[[block]]
+key = "dc979d12723aeb5c"
+origin = '''
+        使用 `rpiboot` 让 Raspberry Pi 进入 BOOT 模式。这时候 eMMC 会被识别成大容量储存设备。
+'''
+translate = '''
+        Use `rpiboot` to put the Raspberry Pi into BOOT mode. At this time, the eMMC will be recognized as a mass storage device.
+'''
+
+[[block]]
+key = "d8a37a4a3a7e3794"
+origin = '''
+        然后使用 Raspberry Pi Imager 选择系统
+'''
+translate = '''
+        Then use Raspberry Pi Imager to select the system
+'''
+
+[[block]]
+key = "384b9cba9aca2d8a"
+origin = '''
+        <ImageView src={require('./img/cm-flash-1.png').default} width="65%"/>
+'''
+translate = '''
+        <ImageView src={require('@site/docs/board-docs/manta-series/img/cm-flash-1.png').default} width="65%"/>
+'''
+
+[[block]]
+key = "f0948b4851a973ba"
+origin = '''
+        选择 `Use custom` 然后选择下载到电脑中的镜像。
+'''
+translate = '''
+        Select `Use custom`, then choose the image downloaded to the computer.
+'''
+
+[[block]]
+key = "d38db9b754b0d5c0"
+origin = '''
+        <ImageView src={require('./img/cm-flash-2.png').default} width="65%"/>
+'''
+translate = '''
+        <ImageView src={require('@site/docs/board-docs/manta-series/img/cm-flash-2.png').default} width="65%"/>
+'''
+
+[[block]]
+key = "5cb7fc3d19a902a2"
+origin = '''
+        选择需要写入的 eMMC 设备。然后写入系统镜像。
+'''
+translate = '''
+        Select the eMMC device to be written, then write the system image.
+'''
+
+[[block]]
+key = "63ddd42127238e31"
+origin = '''
+        :::warning
+
+        写入镜像会格式化 eMMC 内的所有数据。请在格式化前确保数据已备份。
+
+        :::
+'''
+translate = '''
+        :::warning
+
+        Writing the image will format all data on the eMMC. Please make sure your data is backed up before formatting.
+
+        :::
+'''
+
+[[block]]
+key = "1732282ea34fa656"
+origin = '''
+        <ImageView src={require('./img/cm-flash-3.png').default} width="65%"/>
+'''
+translate = '''
+        <ImageView src={require('@site/docs/board-docs/manta-series/img/cm-flash-3.png').default} width="65%"/>
+'''
+
+[[block]]
+key = "1aa8f775e505c1aa"
+origin = '''
+        等待系统写入完成
+'''
+translate = '''
+        Wait for the system writing to complete
+'''
+
+[[block]]
+key = "c6b65815bdd93bcd"
+origin = '''
+        <ImageView src={require('./img/cm-flash-4.png').default} width="65%"/>
+'''
+translate = '''
+        <ImageView src={require('@site/docs/board-docs/manta-series/img/cm-flash-4.png').default} width="65%"/>
+'''
+
+[[block]]
+key = "80dcf8c22200c556"
+origin = '''
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+    </TabItem>
+</Tabs>
+'''

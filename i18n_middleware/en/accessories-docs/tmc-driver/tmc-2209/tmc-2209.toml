@@ -1,0 +1,449 @@
+[metadata]
+
+[[block]]
+key = "147ea5b0713351a0"
+origin = '''
+---
+sidebar_position: 1
+description: TMC 2209
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: TMC 2209
+---
+'''
+
+[[block]]
+key = "773ab5383b36c8e5"
+origin = '''
+# TMC 2209
+'''
+translate = '''
+# TMC 2209
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "42e4e5bd24bb1a99"
+origin = '''
+<div class="div-table">
+
+<ImageView
+    src={require('./img/TMC2209_Title.png').default}
+    alt="" width="35%" class="right-image"
+/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView
+    src={require('@site/docs/accessories-docs/tmc-driver/tmc-2209/img/TMC2209_Title.png').default}
+    alt="" width="35%" class="right-image"
+/>
+'''
+
+[[block]]
+key = "f9c6f48ba32e89c6"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product Overview
+'''
+
+[[block]]
+key = "89bd453447601132"
+origin = '''
+TMC2209是一款用于两相步进电机的超静音电机驱动。其连续驱动电流为2A，峰值电流为2.8A。与TMC2208相比，该集成电路的驱动电流不仅提高了0.6a-0.8a，而且增加了锁定电机测试的功能。
+'''
+translate = '''
+The TMC2209 is an ultra-quiet motor driver designed for two-phase stepper motors. It features a continuous drive current of 2 A and a peak current of 2.8 A. Compared to the TMC2208, this integrated circuit not only offers a 0.6 A to 0.8 A increase in drive current but also includes a motor lock test function.
+'''
+
+[[block]]
+key = "58b2c93828f9206e"
+origin = '''
+## Specifications
+'''
+translate = '''
+## Specifications
+'''
+
+[[block]]
+key = "77852edbafac1f0c"
+origin = '''
+| Specifications | TMC 2209         |
+| -------------- | ---------------- |
+| 驱动芯片       | TMC 2209         |
+| 最大电压       | 29V              |
+| 驱动电流       | 2A RMS 2.8A peak |
+'''
+translate = '''
+| Specifications  | TMC 2209          |
+| --------------- | ----------------- |
+| Driver IC       | TMC 2209          |
+| Maximum voltage | 29V               |
+| Drive current   | 2A RMS, 2.8A peak |
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "6a770c30e1108b39"
+origin = '''
+## 接口示意图
+'''
+translate = '''
+## Pinout
+'''
+
+[[block]]
+key = "d6b777f9f5fb4f5b"
+origin = '''
+:::info[原理图 / Schematic]
+
+TMC 2209 V1.1 原理图 [TMC2209-V1.1.pdf](hhttps://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC2209/V1.1/Schematic/TMC2209-V1.1.pdf)
+
+TMC 2209 V1.2 原理图 [TMC2209-V1.2.pdf](https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC2209/V1.2/Schematic/TMC2209-V1.2.pdf)
+
+TMC 2209 V1.3 原理图 [TMC2209 V1.3-SCH.pdf](https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC2209/V1.3/Schematic/TMC2209%20V1.3-SCH.pdf)
+
+:::
+'''
+translate = '''
+:::info[Schematic]
+
+TMC 2209 V1.1 Schematic [TMC2209-V1.1.pdf](hhttps://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC2209/V1.1/Schematic/TMC2209-V1.1.pdf)
+
+TMC 2209 V1.2 Schematic [TMC2209-V1.2.pdf](https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC2209/V1.2/Schematic/TMC2209-V1.2.pdf)
+
+TMC 2209 V1.3 Schematic [TMC2209 V1.3-SCH.pdf](https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC2209/V1.3/Schematic/TMC2209%20V1.3-SCH.pdf)
+
+:::
+'''
+
+[[block]]
+key = "0e6bc0281864a88b"
+origin = '''
+<ImageView
+    src={require('./img/TMC2209_Func.png').default}
+    alt="" width="45%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/accessories-docs/tmc-driver/tmc-2209/img/TMC2209_Func.png').default}
+    alt="" width="45%"
+/>
+'''
+
+[[block]]
+key = "a9ae5a7eafeac08f"
+origin = '''
+## 尺寸
+'''
+translate = '''
+## Dimension
+'''
+
+[[block]]
+key = "f6db26679b7295a8"
+origin = '''
+:::info[STEP 模型]
+
+TMC 2209 V1.3 模型 [TMC2209 V1.3.step](https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC2209/V1.3/3D/TMC2209%20V1.3.step)
+
+:::
+'''
+translate = '''
+:::info[STEP File]
+
+TMC 2209 V1.3 [TMC2209 V1.3.step](https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC2209/V1.3/3D/TMC2209%20V1.3.step)
+
+:::
+'''
+
+[[block]]
+key = "4a5d94001ee68f08"
+origin = '''
+<ImageView
+    src={require('./img/TMC2209_Dimension.png').default}
+    alt="" width="45%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/accessories-docs/tmc-driver/tmc-2209/img/TMC2209_Dimension.png').default}
+    alt="" width="45%"
+/>
+'''
+
+[[block]]
+key = "465a0d3a27e44929"
+origin = '''
+## 硬件功能配置
+'''
+translate = '''
+## Hardware Configuration
+'''
+
+[[block]]
+key = "348c7fe676dcf92f"
+origin = '''
+### Step/Dir 模式配置电流
+'''
+translate = '''
+### Configuring Current in Step/Dir Mode
+'''
+
+[[block]]
+key = "498d1abf9f857089"
+origin = '''
+Trinamic Driver 电流计算公式
+'''
+translate = '''
+Trinamic Driver Current Calculation Formula
+'''
+
+[[block]]
+key = "590a8549a10c169c"
+origin = '''
+$I_{RMS}=\frac{325mV}{R_{SENSE}+20mΩ}*\frac{1}{\sqrt{2}}*\frac{V_{VREF}}{2.5V}$	
+'''
+translate = '''
+$I_{RMS}=\frac{325mV}{R_{SENSE}+20mΩ}*\frac{1}{\sqrt{2}}*\frac{V_{VREF}}{2.5V}$	
+'''
+
+[[block]]
+key = "4ab5db37f37f7bce"
+origin = '''
+TMC 2209 驱动模块 使用 $110 mΩ _{RSENSE}$ 电阻
+'''
+translate = '''
+Using the TMC 2209 Driver Module $110 mΩ _{RSENSE}$ Resistor
+'''
+
+[[block]]
+key = "757db7496434cbe9"
+origin = '''
+$I_{RMS}=\frac{325mV}{110mΩ+20mΩ}*\frac{1}{\sqrt{2}}*\frac{V_{VREF}}{2.5V}$			
+'''
+translate = '''
+$I_{RMS}=\frac{325mV}{110mΩ+20mΩ}*\frac{1}{\sqrt{2}}*\frac{V_{VREF}}{2.5V}$			
+'''
+
+[[block]]
+key = "6910de228cc838b3"
+origin = '''
+可以简化为
+'''
+translate = '''
+This can be simplified to
+'''
+
+[[block]]
+key = "317e21b63201962c"
+origin = '''
+$I_{RMS}=\frac{V_{REF}}{\sqrt{2}}$
+'''
+translate = '''
+$I_{RMS}=\frac{V_{REF}}{\sqrt{2}}$
+'''
+
+[[block]]
+key = "11aadfb3f5ed80a9"
+origin = '''
+计算峰值电流
+'''
+translate = '''
+Calculate the peak current
+'''
+
+[[block]]
+key = "7fe9fe38a4493a5f"
+origin = '''
+$I_{PEAK}=I_{RMS}*\sqrt{2}=V_{REF}$
+'''
+translate = '''
+$I_{PEAK}=I_{RMS}*\sqrt{2}=V_{REF}$
+'''
+
+[[block]]
+key = "c94ac8e54e346702"
+origin = '''
+:::note
+$V_{REF}$ 范围: 0.2V – 2.2V
+
+默认电压 Vref: 1.2V +/- 0.1V
+
+默认电流 RMS: ~0.9A 
+:::
+'''
+translate = '''
+:::note
+$V_{REF}$ Range: 0.2V – 2.2V
+
+Default voltage Vref: 1.2V +/- 0.1V
+
+Default current RMS: ~0.9A 
+:::
+'''
+
+[[block]]
+key = "7ad9ad610ff978fc"
+origin = '''
+### UART模式引脚设置
+'''
+translate = '''
+### UART Mode Pin Configuration
+'''
+
+[[block]]
+key = "e82187b5294cf3ef"
+origin = '''
+默认已将 UART 引脚连接至第四引脚，即下图左侧所示的 PDN_UART 引脚。若将第五引脚作为 UART 引脚使用，则需移除电阻并焊接至下图右侧所示的两个焊盘。PDN需焊接至对应UART模式的选择引脚。
+'''
+translate = '''
+By default, the UART pin is connected to Pin 4, which is the PDN_UART pin shown on the left in the figure below. If you wish to use Pin 5 as the UART pin, you must remove the resistor and solder it to the two pads shown on the right in the figure below. The PDN must be soldered to the corresponding UART mode selection pin.
+'''
+
+[[block]]
+key = "2c0ae4a50939246b"
+origin = '''
+<ImageView
+    src={require('./img/TMC2209_Uart.png').default}
+    alt="" width="45%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/accessories-docs/tmc-driver/tmc-2209/img/TMC2209_Uart.png').default}
+    alt="" width="45%"
+/>
+'''
+
+[[block]]
+key = "3c81fd821d54f5de"
+origin = '''
+### UART模式接线图
+'''
+translate = '''
+### UART Mode Wiring Diagram
+'''
+
+[[block]]
+key = "2616dd4ba05ca78f"
+origin = '''
+<ImageView
+    src={require('./img/TMC2209_Uart1.png').default}
+    alt="" width="80%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/accessories-docs/tmc-driver/tmc-2209/img/TMC2209_Uart1.png').default}
+    alt="" width="80%"
+/>
+'''
+
+[[block]]
+key = "20e4a4aed25690a5"
+origin = '''
+### stealthChop / spreadCycle 选择
+'''
+translate = '''
+### stealthChop / spreadCycle Selection
+'''
+
+[[block]]
+key = "101bb333ccef76c8"
+origin = '''
+默认使用 `stealthChop`, 如图左侧所示。如果要使用 `spreadCycle`，移除电阻并将其焊接至下方两个焊盘，如图右侧所示。
+'''
+translate = '''
+By default, `stealthChop` is used, as shown on the left. To use `spreadCycle`, remove the resistor and solder it to the two pads below, as shown on the right.
+'''
+
+[[block]]
+key = "833745e1c83c9678"
+origin = '''
+<ImageView
+    src={require('./img/TMC2209_Mode1.png').default}
+    alt="" width="80%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/accessories-docs/tmc-driver/tmc-2209/img/TMC2209_Mode1.png').default}
+    alt="" width="80%"
+/>
+'''
+
+[[block]]
+key = "7278ecc5f61e501b"
+origin = '''
+## Klipper Uart 配置
+'''
+translate = '''
+## Klipper Uart Config
+'''
+
+[[block]]
+key = "bc67147e977862d1"
+origin = '''
+```klipper_cfg title="printer.cfg"
+[tmc2209 stepper_x]
+uart_pin: PC4
+interpolate: false
+run_current: 0.8
+sense_resistor: 0.110
+stealthchop_threshold: 0
+```
+'''
+translate = '''
+```klipper_cfg title="printer.cfg"
+[tmc2209 stepper_x]
+uart_pin: PC4
+interpolate: false
+run_current: 0.8
+sense_resistor: 0.110
+stealthchop_threshold: 0
+```
+'''

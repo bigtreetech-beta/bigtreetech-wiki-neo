@@ -1,0 +1,615 @@
+[metadata]
+
+[[block]]
+key = "821bebdbe1923dc0"
+origin = '''
+---
+sidebar_position: 1
+description: CryoGrip Pro 系列打印板产品说明与机型适配指南。
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: CryoGrip Pro Series Build Plates
+---
+'''
+
+[[block]]
+key = "626114d3c3c3e840"
+origin = '''
+# CryoGrip Pro 系列冷打板
+'''
+translate = '''
+# CryoGrip Pro Low-Temp Plates
+'''
+
+[[block]]
+key = "3ccdd55d7525a080"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/product.webp').default} width="50%" class="right-image"/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/accessories-docs/build-plate/cyrogrippro/img/product.webp').default} width="50%" class="right-image"/>
+'''
+
+[[block]]
+key = "f9c6f48ba32e89c6"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product Overview
+'''
+
+[[block]]
+key = "c2d90ce408d17898"
+origin = '''
+**CryoGrip Pro** 系列打印板是 BIQU 专为解决 3D 打印因为粘附力不足而导致的打印失败, 热床反复加热导致电费增加, 热床寿命降低而设计的新一代弹簧打印面板。仅需要少量的加热就可以提供超强的粘附力和打印稳定性，用户可以实现低温下稳定的打印。
+'''
+translate = '''
+The **BIQU CryoGrip Pro Series** represents the next generation of spring steel build plates. It is engineered to eliminate common 3D printing failures, including poor first-layer adhesion, high energy consumption, and accelerated wear of the heated bed. By providing exceptional grip at significantly lower temperatures, the CryoGrip Pro ensures stable and reliable prints with minimal bed heating. This innovative technology leads to higher print success rates and a notable reduction in power usage.
+'''
+
+[[block]]
+key = "776f5c5c77d774c0"
+origin = '''
+**CryoGrip Pro** 系列包含 **Frostbite (霜冻)** 系列和 **Glacier (冰川)** 系列。
+'''
+translate = '''
+The CryoGrip Pro Series is available in two distinct product lines to suit different printing needs: **Frostbite Series** and **Glacier Series**.
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "cbaf0d68c56db32a"
+origin = '''
+## 规格与适配信息
+'''
+translate = '''
+## Specifications & Compatibility
+'''
+
+[[block]]
+key = "f075130a153d4b4c"
+origin = '''
+CryoGrip Pro 适配机型
+'''
+translate = '''
+Supported Printer Models
+'''
+
+[[block]]
+key = "c6b5bda2c16f47dc"
+origin = '''
+| 打印尺寸          | 适配机型（点击跳转官方选购链接） |
+| ---------------- | ----------------------------- |
+| **180mm * 180mm** | [`拓竹 A1 mini`](https://item.taobao.com/item.htm?id=762308243879)                                                                                                                           |
+| **250mm * 210mm** | [`Prusa MK4` `Prusa MK4S` `Prusa MK3` `Prusa MK3S` `Prusa CORE One`](https://item.taobao.com/item.htm?ft=t&id=677074722015)                                                                  |
+| **220mm * 220mm** | [`Adventurer 5M` `Ender 3` `Ender V2` `Ender Pro` `Ender 3S` `Ender CR20` `Ender 5` `Sovol SV05`](https://item.taobao.com/item.htm?ft=t&id=677074722015)                                     |
+| **250mm * 250mm** | [`Anycubic Kobra 3`](https://item.taobao.com/item.htm?ft=t&id=677074722015)  |
+| **256mm * 256mm** | [`拓竹 A1` `拓竹 P1P` `拓竹 P1S` `拓竹 P2S` `拓竹 X1C` `拓竹 X1E` `拓竹 X2D`](https://item.taobao.com/item.htm?id=762308243879) [`ELEGOO CC/CC2`](https://item.taobao.com/item.htm?ft=t&id=677074722015) |
+| **270mm * 270mm** | [`Snapmaker U1`](https://item.taobao.com/item.htm?ft=t&id=677074722015)                                                                                                                      |
+| **300mm * 300mm** | [`QIDI plus4` `K1 Max`](https://item.taobao.com/item.htm?ft=t&id=677074722015)                                                                                                               |
+| **330mm * 320mm** | [`拓竹 H2C`](https://item.taobao.com/item.htm?id=904243862591)                                                                                                                               |
+| **350mm * 320mm** | [`拓竹 H2D Pro` `拓竹 H2D` `拓竹 H2S`](https://item.taobao.com/item.htm?id=904243862591)                                                                                                      |
+| **350mm * 350mm** | [`Voron 350` `Sovol SV08` `K2 Plus`](https://item.taobao.com/item.htm?ft=t&id=677074722015)                                                                                                  |
+| **360mm * 360mm** | [`Prusa XL`](https://item.taobao.com/item.htm?ft=t&id=677074722015)                                                                                                                          |
+'''
+translate = '''
+| Print Area        | Compatible Models |
+| ----------------- | ----------------- |
+| **180mm × 180mm** | [`Bambu Lab A1 mini`](https://biqu.equipment/products/biqu-panda-buildplate-cryogrip-pro)                                                                                                                             |
+| **250mm × 210mm** | [`Prusa MK4` `Prusa MK4S` `Prusa MK3` `Prusa MK3S` `Prusa CORE One`](https://biqu.equipment/products/biqu-cryogrip-pro-glacier-buildplate-for-voron-300-anycubic-kobra-3?_pos=1&_sid=ebdac5c2b&_ss=r&variant=41660169945186)                                                                    |
+| **220mm × 220mm** | [`Adventurer 5M` `Ender 3` `Ender V2` `Ender Pro` `Ender 3S` `Ender CR20` `Ender 5` `Sovol SV05`](https://biqu.equipment/products/biqu-cryogrip-pro-glacier-buildplate-for-voron-300-anycubic-kobra-3?_pos=1&_sid=ebdac5c2b&_ss=r&variant=41660169945186)                                       |
+| **250mm × 250mm** | [`Anycubic Kobra 3`](https://biqu.equipment/products/biqu-cryogrip-pro-glacier-buildplate-for-voron-300-anycubic-kobra-3?_pos=2&_sid=bd90e93a4&_ss=r&variant=41614648737890)                                                                                                                    |
+| **256mm × 256mm** | [`Bambu Lab A1` `Bambu Lab P1P` `Bambu Lab P1S` `Bambu Lab P2S` `Bambu Lab X1C` `Bambu Lab X1E` `Bambu Lab X2D` ](https://biqu.equipment/products/biqu-panda-buildplate-cryogrip-pro) [`ELEGOO CC/CC2`](https://biqu.equipment/products/biqu-cryogrip-pro-glacier-buildplate-for-voron-300-anycubic-kobra-3?_pos=1&_psq=ELEGOO+CC%2FCC2&_ss=e&_v=1.0&variant=42378471800930) |
+| **270mm × 270mm** | [`Snapmaker U1`](https://biqu.equipment/products/biqu-cryogrip-pro-buildplate-double-sided-7-layer-composite-with-high-magnetic-spring-steel-low-energy-printing-for-snapmaker-u1?_pos=1&_psq=Snapmaker+U1&_ss=e&_v=1.0)                                                                                                                        |
+| **300mm × 300mm** | [`QIDI plus4` `K1 Max`](https://biqu.equipment/products/biqu-cryogrip-pro-glacier-buildplate-for-voron-300-anycubic-kobra-3?_pos=1&_psq=QIDI+plus4&_ss=e&_v=1.0&variant=41614648705122)                                                                                                                 |
+| **330mm × 320mm** | [`Bambu Lab H2C`](https://biqu.equipment/products/biqu-panda-buildplate-cryogrip-pro?_pos=3&_sid=e99b2e229&_ss=r&variant=42381362462818)                                                                                                                                 |
+| **350mm × 320mm** | [`Bambu Lab H2D Pro` `Bambu Lab H2D` `Bambu Lab H2S`](https://biqu.equipment/products/biqu-panda-buildplate-cryogrip-pro?_pos=3&_sid=e99b2e229&_ss=r&variant=42381362462818)                                                                                                       |
+| **350mm × 350mm** | [`Voron 350` `Sovol SV08` `K2 Plus`](https://biqu.equipment/products/biqu-cryogrip-pro-glacier-buildplate-for-voron-300-anycubic-kobra-3?_pos=1&_sid=ed15ddb67&_ss=r&variant=41660170010722)                                                                                                    |
+| **360mm × 360mm** | [`Prusa XL`](https://biqu.equipment/products/biqu-cryogrip-pro-glacier-buildplate-for-voron-300-anycubic-kobra-3?_pos=1&_psq=Prusa+XL&_ss=e&_v=1.0&variant=42270792908898)                                                                                                                            |
+'''
+
+[[block]]
+key = "bba0cf36834f106a"
+origin = '''
+## 支持耗材对比
+'''
+translate = '''
+## Supported Materials Comparison
+'''
+
+[[block]]
+key = "20dc66f6353cee68"
+origin = '''
+| 系列          | 支持耗材类型 | 核心特点 |
+| ------------- | ----------- | ------- |
+| **Frostbite** | `PLA` `PETG` `ABS`                                        | 极致低温粘附，粗糙质感 |
+| **Glacier**   | `PLA` `PETG` `ABS` `ASA` `PA` `PC` `尼龙` `玻纤` 等复合耗材 | 全能兼容，细腻底面    |
+'''
+translate = '''
+| Product Lines | Supported Materials | Key Features |
+| ------------- | ------------------- | ------------ |
+| **Frostbite** | `PLA`, `PETG`, `ABS` | Ultra-low-temperature adhesion, textured surface |
+| **Glacier**   | `PLA`, `PETG`, `ABS`, `ASA`, `PA`, `PC`, `Nylon`, `Glass Fiber Composites`, and more | Broad material compatibility, smoother surface finish |
+'''
+
+[[block]]
+key = "7933de4ddc1b169f"
+origin = '''
+## 可选颜色
+'''
+translate = '''
+## Available Colors
+'''
+
+[[block]]
+key = "b52469f0671f7d4b"
+origin = '''
+| 系列          | 颜色              |
+| ------------- | ------------------- |
+| **Frostbite** | <ImageView src={require('./img/fblue.webp').default} width="10%"/> <ImageView src={require('./img/orange.webp').default} width="10%"/>|
+| **Glacier**   | <ImageView src={require('./img/gblue.webp').default} width="10%"/> <ImageView src={require('./img/purple.webp').default} width="10%"/> <ImageView src={require('./img/green.webp').default} width="10%"/> <ImageView src={require('./img/yellow.webp').default} width="10%"/> <ImageView src={require('./img/pink.webp').default} width="10%"/> |
+'''
+translate = '''
+| Product Lines | Color              |
+| ------------- | ------------------- |
+| **Frostbite** | <ImageView src={require('@site/docs/accessories-docs/build-plate/cyrogrippro/img/fblue.webp').default} width="10%"/> <ImageView src={require('@site/docs/accessories-docs/build-plate/cyrogrippro/img/orange.webp').default} width="10%"/>|
+| **Glacier**   | <ImageView src={require('@site/docs/accessories-docs/build-plate/cyrogrippro/img/gblue.webp').default} width="10%"/> <ImageView src={require('@site/docs/accessories-docs/build-plate/cyrogrippro/img/purple.webp').default} width="10%"/> <ImageView src={require('@site/docs/accessories-docs/build-plate/cyrogrippro/img/green.webp').default} width="10%"/> <ImageView src={require('@site/docs/accessories-docs/build-plate/cyrogrippro/img/yellow.webp').default} width="10%"/> <ImageView src={require('@site/docs/accessories-docs/build-plate/cyrogrippro/img/pink.webp').default} width="10%"/> |
+'''
+
+[[block]]
+key = "77e30985d5b2f631"
+origin = '''
+:::info[提醒]
+
+1. Frostbite 的哑光橙仅支持 `拓竹 PXA` `A1 mini` `Prusa XL` `Prusa MK4`。
+2. Glacier 除蓝色外，仅支持 `拓竹 PXA` 和 `Snapmaker U1`。
+
+:::
+'''
+translate = '''
+:::info[Notes]
+
+1. Frostbite Matte Orange: Designed for `Bambu Lab P/X/A Series`, `A1 mini`, `Prusa XL`, `Prusa MK4`
+2. Glacier Series (All colors except blue): Currently compatible only with `Bambu Lab P/X/A Series` and `Snapmaker U1`
+
+:::
+'''
+
+[[block]]
+key = "c836dbf0428619e7"
+origin = '''
+## CryoGrip Pro Glacier | 冰川系列
+'''
+translate = '''
+## CryoGrip Pro Glacier Series
+'''
+
+[[block]]
+key = "7338d09d1751ab7d"
+origin = '''
+**CryoGrip Pro Glacier** 表面纹理细腻。它属于对新手十分友好的打印板类型，用户可以在不涂胶水的情况下打印大部分的常见耗材。仅在 45°C 低热床温度下打印 PLA 时就能够牢牢固定模型，PETG 则只需 60°C；这将有效减少翘曲和“炒面”，显著降低大尺寸模型的失败风险。此外，该涂层能显著节能，降低堵头风险，更加环保。
+'''
+translate = '''
+The **CryoGrip Pro Glacier** features a refined surface texture designed for effortless, beginner-friendly printing. Most common filaments print cleanly without the need for glue. PLA adheres securely at just **45°C**, while PETG requires only **60°C**—delivering reliable performance with significantly less heat. Lower operating temperatures dramatically reduce warping and "spaghetti" failures, especially on large-format prints. The advanced coating also improves energy efficiency, reduces nozzle clogging risk, and promotes more sustainable, stress-free printing.
+'''
+
+[[block]]
+key = "c775441e56f718d5"
+origin = '''
+- **省电环保**: 使用极低的热床温度即可确保牢固粘附。大幅度节约热床加热所需的能量，降低您的电费账单，对地球环境更加友好。
+'''
+translate = '''
+- **Energy Efficient & Cost Saving**: Achieve ultra-strong adhesion at lower bed temperatures, significantly reducing power consumption and cutting electricity costs—without compromising print stability.
+'''
+
+[[block]]
+key = "b4629711812d3c5a"
+origin = '''
+    <ImageView src={require('./img/g1.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('./img/g1.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "ad73f5919c208ba6"
+origin = '''
+- **材料适配广泛**: 支持 PLA, PETG, ABS, ASA, PA, PC, 尼龙, 玻纤等大多数打印耗材。无需担心适配问题，您可以放心地使用 Glacier 打印需要的工程耗材。
+'''
+translate = '''
+- **Wide Material Compatibility**: Print with confidence across a broad range of materials, including PLA, PETG, ABS, ASA, PA, PC, Nylon, glass fiber composites, and most engineering-grade filaments.
+'''
+
+[[block]]
+key = "6f5ebb6d92f67458"
+origin = '''
+    <ImageView src={require('./img/g2.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/accessories-docs/build-plate/cyrogrippro/img/g2.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "01d1477f9107f3ca"
+origin = '''
+- **可靠粘附，告别炒面**: 在确保面板无脏污的情况下，粘附力相较于 PEI 钢板有着数倍的提升。大型模型也不用担心脱落风险。
+'''
+translate = '''
+- **Reliable, Ultra-strong Adhesion**: When properly cleaned, the surface provides superior grip compared to traditional PEI spring steel plates, dramatically reducing the risk of print detachment—even on large-format prints.
+'''
+
+[[block]]
+key = "41ab9b90dc772c8d"
+origin = '''
+    <ImageView src={require('./img/g3.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('./img/g3.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "63dd46b8859fb686"
+origin = '''
+- **底面质感**: 底面效果相较于 PEI 钢板更加细腻。为您提供更佳的成品感官体验，增添设计的整体统一感。
+'''
+translate = '''
+- **Enhanced Bottom Surface Finish**: Delivers a smoother, more refined bottom layer than traditional PEI plates, helping your prints blend seamlessly with other surfaces while achieving a cleaner, more professional look.
+'''
+
+[[block]]
+key = "6f392aaee0b8a928"
+origin = '''
+    <ImageView src={require('./img/g4.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/accessories-docs/build-plate/cyrogrippro/img/g4.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "c7ea10be2da44efb"
+origin = '''
+## CryoGrip Pro Frostbite | 霜冻系列
+'''
+translate = '''
+## CryoGrip Pro Frostbite Cool Plate
+'''
+
+[[block]]
+key = "e4da4c384fdb8b97"
+origin = '''
+**CryoGrip Pro Frostbite** 表面纹理相较于 Glacier 更粗糙。特殊的处理工艺让其在极低温度下拥有超前的表现。仅在 30°C 低热床温度下打印 PLA 时就能够牢牢固定模型，PETG 则只需 50°C；ABS 请按照默认温度设置。Frostbite 专为 PLA/PETG/ABS 设计，不支持其他耗材。
+'''
+translate = '''
+The **CryoGrip Pro Frostbite** features a more aggressive textured surface than Glacier, purpose-built for ultra-low-temperature performance. PLA adheres securely at just **30°C**, and PETG at only **50°C**, delivering ultra-strong adhesion with minimal heat. ABS should be printed at standard recommended temperatures. Frostbite is optimized specifically for PLA, PETG, and ABS and is not intended for other materials.
+'''
+
+[[block]]
+key = "b76ac4dc9949b259"
+origin = '''
+- **省电环保**: 仅需极低热床温度即可确保牢固粘附。大幅度节约热床加热所需能量，超级省电环保。
+'''
+translate = '''
+- **Ultra-Low Energy Consumption**: Achieves ultra-strong adhesion at exceptionally low bed temperatures, dramatically reducing power usage without sacrificing stability.
+'''
+
+[[block]]
+key = "0c83330a222fd93f"
+origin = '''
+    <ImageView src={require('./img/f1.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('./img/f1.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "28095d7c8bf9ddd6"
+origin = '''
+- **超强粘附，放心开打**: 即使在 30°C 的环境下也能紧紧锁住模型。大幅度提升打印成功率，尤其是在打印大面积模型时，您不用担心失败。
+'''
+translate = '''
+- **Ultra-Strong Adhesion**: Even at 30°C, parts maintain stable adhesion, reducing detachment risk and improving success rates during large-format printing.
+'''
+
+[[block]]
+key = "7966f084e6f1b536"
+origin = '''
+    <ImageView src={require('./img/f4.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('./img/f4.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "2db158bea1214ce5"
+origin = '''
+- **适配 80% 常用耗材**: 专为 PLA/PETG/ABS 设计。能够精准满足绝大多数用户的核心需求，无需为冗余的性能支付额外的成本。
+'''
+translate = '''
+- **Precision-engineered for PLA, PETG, and ABS**: Built to satisfy the essential needs of most users—so you don't pay extra for performance you don't need.
+'''
+
+[[block]]
+key = "eafb23a32872d9cd"
+origin = '''
+    <ImageView src={require('./img/f2.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('./img/f2.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "aeac5a06ffd0fedf"
+origin = '''
+- **底面质感**: 底面效果比 Glacier 更加粗糙且富有层次感。能为特定设计件增添独特的视觉纹理。
+'''
+translate = '''
+- **Textured Bottom Finish**: Produces a more defined bottom-layer texture than Glacier, adding subtle depth and visual character to your prints.
+'''
+
+[[block]]
+key = "bdb495e775e1ae86"
+origin = '''
+    <ImageView src={require('./img/f3.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/accessories-docs/build-plate/cyrogrippro/img/f3.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "dd7fbdbdc5800786"
+origin = '''
+## 拓竹机型二维码识别
+'''
+translate = '''
+## QR Code Recognition (Bambu Lab Models)
+'''
+
+[[block]]
+key = "22548b3dd0053fca"
+origin = '''
+目前仅有X1C, P2S, H2系列机型支持打印过程中的二维码识别，你可以在打印选项中关闭打印板检测功能以实现顺利的打印。
+'''
+translate = '''
+Currently, only X1C, P2S, and H2 series printers support QR code detection during the printing process. If detection issues occur, you may disable Build Plate Detection feature in the printer settings to proceed with the print.
+'''
+
+[[block]]
+key = "83cadbac0d7c72d9"
+origin = '''
+您也可以在社区论坛评论中发布需求适配的信息，我们的平台会收集相关信息，根据你的反馈更快的适配你想要的机型。
+'''
+translate = '''
+You may submit a request through the community forum. Feedback is reviewed regularly to prioritize and accelerate compatibility development for additional models.
+'''
+
+[[block]]
+key = "ddfdfc7617250ffa"
+origin = '''
+- **X1C**:
+'''
+translate = '''
+- **X1C**:
+'''
+
+[[block]]
+key = "7ba09bacd53ae9f7"
+origin = '''
+    - 目前的Glacier打印面板会在售出时随打印面板赠送X1C可以使用的二维码，无需担心识别失败的问题；
+'''
+translate = '''
+    - Current Glacier plates include a QR code sticker compatible with the X1C to ensure proper recognition.
+'''
+
+[[block]]
+key = "a17d66aaa27f7006"
+origin = '''
+    - 目前的Frostbite已适配了拓竹低温打印板的二维码，正确的设置下，无需担心识别失败的问题；
+'''
+translate = '''
+    - Current Frostbite plates have been adapted to the Bambu Lab Low Temperature Plate QR code; with the correct settings, you won't experience recognition problems.
+'''
+
+[[block]]
+key = "d2b4e5e376a6956c"
+origin = '''
+- **P2S**: 目前的Glacier和Frostbite不支持打开打印板检测功能下实现识别，我们正在努力适配中，你可以在开源社区打印适配的模型自行适配；
+'''
+translate = '''
+- **P2S**: Glacier and Frostbite plates do not currently support automatic detection mode. Compatibility updates are under development. Users may also print community-developed adapter models if needed.
+'''
+
+[[block]]
+key = "4a582862ae9394ad"
+origin = '''
+- **H2系列**：目前的Glacier和Frostbite不支持打开打印板检测功能下实现识别，我们正在努力适配中，你可以在开源社区打印适配的模型自行适配；
+'''
+translate = '''
+- **H2 series**: Glacier and Frostbite plates do not currently support automatic detection mode. Compatibility updates are under development. Users may also print community-developed adapter models if needed.
+'''
+
+[[block]]
+key = "3ebbe36469426df1"
+origin = '''
+## 故障排除
+'''
+translate = '''
+## Troubleshooting & Special Notes
+'''
+
+[[block]]
+key = "32a57bce06682114"
+origin = '''
+### Prusa XL 在使用橙色Frostbite打印面板时过程中出现调平失败
+'''
+translate = '''
+### Prusa XL – Leveling Failure with Orange Frostbite Plate
+'''
+
+[[block]]
+key = "a6bf103524c2423f"
+origin = '''
+请参考：[关于橙色 Frostbite 在 Prusa XL 上的正确使用方法](https://docs.google.com/document/d/1WroIIxFzw5ym-Ygny01eCjYC_yvTK6x4eozlGd_mam4/edit?usp=sharing)
+'''
+translate = '''
+Please refer to:[Proper Use of the Orange Frostbite Plate on Prusa XL](https://docs.google.com/document/d/1WroIIxFzw5ym-Ygny01eCjYC_yvTK6x4eozlGd_mam4/edit?usp=sharing)
+'''
+
+[[block]]
+key = "f76ca3a6165953bf"
+origin = '''
+### Prusa Core One 在使用过程中出现喷嘴清洁失败
+'''
+translate = '''
+### Prusa CORE One – Nozzle Cleaning Failure
+'''
+
+[[block]]
+key = "5ca41e109ea39c32"
+origin = '''
+请参考：[关于橙色 Frostbite 在 Prusa Core One 上的正确使用方法](https://docs.google.com/document/d/1PtxpDU3Fhezv3x9VaFZvXjTK8_eI-DaeYLywl2BEm7o/edit?usp=sharing)
+'''
+translate = '''
+Please refer to: [Proper Use of the Orange Frostbite Plate on Prusa CORE One](https://docs.google.com/document/d/1PtxpDU3Fhezv3x9VaFZvXjTK8_eI-DaeYLywl2BEm7o/edit?usp=sharing)
+'''
+
+[[block]]
+key = "3bf00792210a7d03"
+origin = '''
+### CryoGrip Pro 打印质量与预期不符
+'''
+translate = '''
+### Print Quality Optimization
+'''
+
+[[block]]
+key = "827423c3935f52f9"
+origin = '''
+CryoGrip Pro设计目标时为了用户在打印时可以更加安心省电，但有时结果会不尽人意，以下是排除附着力问题的几个建议。
+'''
+translate = '''
+CryoGrip Pro is engineered for stable, energy-efficient printing. If performance does not meet expectations, review the following:
+'''
+
+[[block]]
+key = "adb05d8009384afb"
+origin = '''
+- **清洁打印表面**: 我们建议按照规定的方法不时地清洁打印面板，以确保打印表面没有任何打印碎屑, 残留胶水或手部油脂残留。你手上的油脂沾到打印表面也会影响打印面的附着力。`Frostbite`可以使用`肥皂水`；`Glacier`可以使用`酒精`或`肥皂水`；
+'''
+translate = '''
+- **Clean the Build Surface**: Surface contaminants such as dust, glue residue, or skin oils can reduce adhesion. For Frostbite - Clean with soapy water. For Glacier - Clean with alcohol or soapy water.
+'''
+
+[[block]]
+key = "e81da4d11fb5bb81"
+origin = '''
+- **检查设置的热床温度和使用的耗材**: 大多数打印机都会在切片软件中正确的设置打印温度，如果修改了打印配置，建议在打印失败后检查热床的设置温度。有时，你也可以根据耗材来设置热床温度。
+'''
+translate = '''
+- **Verify Bed Temperature & Material Settings**: Confirm that slicer settings match the recommended bed temperature for your filament. Incorrect temperature settings may lead to adhesion failure.
+'''
+
+[[block]]
+key = "25331d054778c712"
+origin = '''
+- **按照耗材需求的参数修改打印设置**: 不同的耗材因为特性不同，错误的冷却和保持仓温都会影响CryoGrip的粘附力。
+'''
+translate = '''
+- **Fine-Tune Based on Material**: Different filaments have unique characteristics; incorrect cooling or chamber temperatures can affect CryoGrip adhesion:
+'''
+
+[[block]]
+key = "30b0dbf174afe205"
+origin = '''
+    - 对于打印PLA耗材，如果出现粘附力问题，可以适当降低仓温保持，高速打印的情况下，可以降低辅助冷却风扇的转速。
+'''
+translate = '''
+    - **For PLA**: If adhesion issues occur: Lower the chamber temperature; reduce auxiliary cooling fan speed during high-speed printing.
+'''
+
+[[block]]
+key = "7436556b35d71b0c"
+origin = '''
+    - 对于打印PETG耗材，如果出现粘附力问题，可以通过保持仓温，降低打印速度再次尝试。
+'''
+translate = '''
+    - **For PETG**: If adhesion issues occur: Maintain a stable chamber temperature; reduce print speed and test again.
+'''
+
+[[block]]
+key = "27f5578366bfc2b3"
+origin = '''
+- **在切片软件中调整首层温度**: 大多数打印机都会在切片软件中正确的设置首层打印温度，你可以通过切片软件的设置，修改首层的相关设置，以获得更好的粘附力效果。例如：调整首层的层高和基础宽度，首层的热床温度和喷嘴温度，打印速度等，这些设置将为打印的其余部分提供一个良好的基础，并将增加打印成功率。
+'''
+translate = '''
+- **Optimize First Layer Settings**: While most printers use default first-layer settings, you can manually fine-tune these in your slicer for better adhesion. For example: adjust first-layer height, line width, bed/nozzle temperatures, and print speeds. These settings provide a solid foundation for the rest of the print and increase the overall success rate.
+'''
+
+[[block]]
+key = "cd3b55986e6fb07c"
+origin = '''
+- **打印件过于黏附，难以取下**:
+'''
+translate = '''
+- **Print Difficult to Remove(Solutions)**:
+'''
+
+[[block]]
+key = "73977f22019d5b97"
+origin = '''
+    - 等待打印面板温度降至室温水平；
+'''
+translate = '''
+    - Allow the plate to cool completely to room temperature.
+'''
+
+[[block]]
+key = "fbc2f15281e74537"
+origin = '''
+    - 弯曲弹簧打印面板待模型脱模后，借助铲刀轻轻撬起模型；
+'''
+translate = '''
+    - Gently flex the plate to release the model. Use a scraper carefully if necessary.
+'''
+
+[[block]]
+key = "9f8126c54bbf2da6"
+origin = '''
+    - 后续的打印过程中，根据材料特性适当降低温度，减少粘附力。
+'''
+translate = '''
+     - Slightly reduce bed temperature in future prints if adhesion is excessive.
+'''
+
+[[block]]
+key = "740e7c0496d15771"
+origin = '''
+- **打印板表面被铲刀划伤**: 为实现低温免涂胶增稳打印，增稳低温打印板的表面涂层硬度相对低于纹理 PEI 板，因此更容易被铲刀划伤。不过，正常使用中出现的轻微划痕不会显著影响打印粘附性能。
+'''
+translate = '''
+- **Surface Scratches from Scraper Use**: To enable glue-free, low-temperature printing, the coating is softer than textured PEI and may be more susceptible to scratching. Minor surface scratches from normal use will not significantly affect adhesion performance.
+'''
+
+[[block]]
+key = "93b9eb3098c07148"
+origin = '''
+- **打印件在打印板上留下痕迹**: 部分残留痕迹可通过酒精擦拭或洗洁精清洗去除。 少量无法完全去除的色斑或首层痕迹不影响打印板的长期使用与性能。
+'''
+translate = '''
+- **Residue or Marks on the Plate**: Most residue can be removed with alcohol or soapy water. Minor discoloration or first-layer imprints that cannot be fully removed do not affect long-term performance.
+'''

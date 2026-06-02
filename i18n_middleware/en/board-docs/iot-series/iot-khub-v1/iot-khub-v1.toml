@@ -1,0 +1,516 @@
+[metadata]
+
+[[block]]
+key = "ec58988a860bce17"
+origin = '''
+---
+sidebar_position: 1
+description: K HUB 扩展坞
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: K HUB
+---
+'''
+
+[[block]]
+key = "e77cba8917ab711a"
+origin = '''
+# K HUB
+'''
+translate = '''
+# K HUB
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "ed0d0405ae2ef10b"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/k-hub-title.webp').default} width="40%" class="right-image"/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-khub-v1/img/k-hub-title.webp').default} width="40%" class="right-image"/>
+'''
+
+[[block]]
+key = "f9c6f48ba32e89c6"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product Overview
+'''
+
+[[block]]
+key = "c7e2f2ecf7b08877"
+origin = '''
+BIGTREETECH K HUB V1 是必趣创新（深圳）科技有限公司推出的一款 USB2.0 HUB 拓展板，让客户在使用 Klipper 的 USB 方案时有更多的USB拓展接口，方便DIY。
+'''
+translate = '''
+The BIGTREETECH K HUB V1.0 is a high-performance USB 2.0 expansion board engineered by Shenzhen BIQU Innovation Technology Co., Ltd. This specialized hardware is optimized for Klipper-based USB architectures, offering robust quad-port expansion to consolidate peripheral management and enhance system scalability in DIY 3D printing environments.
+'''
+
+[[block]]
+key = "3793c167c87a1c58"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## Key Features
+'''
+
+[[block]]
+key = "ebe3c99dd35129e1"
+origin = '''
+- 支持24V或者5V供电；
+- 各个接口均有ESD保护；
+- 24V电源口增设防反接保护；
+- 采用大功率DCDC芯片，支持更大电流输出（USB接口输出）；
+- 电源接口采用快接插头形式，方便客户DIY；
+- 提供初版外壳模型文件，配套的成品配件，方便自行打印组装成品。
+'''
+translate = '''
+- Supports 24V or 5V power supply;
+- All ports feature ESD protection;
+- 24V power port includes reverse polarity protection;
+- Utilizes high-power DC-DC chips for increased 5V current output;
+- Power interface employs quick-connect plugs for DIY convenience;
+- Includes initial enclosure model files and matching finished components for self-assembly printing.
+'''
+
+[[block]]
+key = "45f9a82242e0d4ef"
+origin = '''
+## 产品参数
+'''
+translate = '''
+## Product Specifications
+'''
+
+[[block]]
+key = "38b045605738d429"
+origin = '''
+| KHub | 规格 |
+| ------ | ------ |
+| 板子尺寸 | 109.6mm x 21.6mm |
+| USB输出接口 | 4x USBA USB2.0，每路输出 5V 1.5A |
+| Type-C输入接口 | Type-C信号输入接口，电源输入口 5V 2A |
+| 24V输入接口 | 1x 24V 3A 输入接口 |
+| 风扇输出接口 | 1x 24V风扇输出接口 |
+| 配套配件 | 1x 风扇 1x 散热片 组装螺丝 |
+'''
+translate = '''
+| KHub | Specification |
+| ------ | ------ |
+| Board Dimensions | 109.6mm x 21.6mm |
+| USB Output Ports | 4x USB Type-A female ports (USB 2.0), each outputting 5V 1.5A |
+| Type-C Input Port | Type-C signal input port, power input 5V 2A |
+| 24V Input Port | 1x 24V 3A input port |
+| Fan Output Port | 1x 24V fan output port |
+| Included Accessories | 1x fan, 1x heat sink, assembly screws |
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "530159d6e91bb510"
+origin = '''
+## 接口介绍
+'''
+translate = '''
+## Interface Overview
+'''
+
+[[block]]
+key = "69e561fe88834e17"
+origin = '''
+### 接口示意图
+'''
+translate = '''
+### Interface Diagram
+'''
+
+[[block]]
+key = "18d18dac1b6f3cdf"
+origin = '''
+<ImageView src={require('./img/k-hub-interface.webp').default} width="100%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-khub-v1/img/k-hub-interface.webp').default} width="100%"/>
+'''
+
+[[block]]
+key = "307496ddd5aa57fd"
+origin = '''
+### 指示灯说明
+'''
+translate = '''
+### Indicator Light Explanation
+'''
+
+[[block]]
+key = "aeb016270c4a682a"
+origin = '''
+- 绿色: TYPE-C供电
+- 蓝色: 24V供电
+'''
+translate = '''
+- Green: Type-C Power Supply
+- Blue: 24V Power Supply
+'''
+
+[[block]]
+key = "636b8fb246530ece"
+origin = '''
+<ImageView src={require('./img/k-hub-led.webp').default} width="30%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-khub-v1/img/k-hub-led.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "d7ce28ed8a0b387b"
+origin = '''
+## 配件清单
+'''
+translate = '''
+## Parts List
+'''
+
+[[block]]
+key = "b57d8b9005a84111"
+origin = '''
+| 配件名称 | 规格 | 数量 |
+| -------- | ------ | ---- |
+| 螺丝 | 圆头内六角自攻螺丝 M2.6×14 | 7 |
+| 螺丝 | 圆头内六角自攻螺丝 M2.6×10 | 2 |
+| 螺丝 | BHCS M3×10 | 2 |
+| 船型螺母 | M3 船型螺母 | 2 |
+| 风扇 | 24V | 1 |
+'''
+translate = '''
+| Part Name | Specification | Quantity |
+| -------- | ------ | ---- |
+| Screw | Round-head hex socket self-tapping screw M2.6×14 | 7 |
+| Screw | Round-head hex socket self-tapping screw M2.6×10 | 2 |
+| Screw | BHCS M3×10 | 2 |
+| Boat Nut | M3 Boat Nut | 2 |
+| Fan | 24V | 1 |
+'''
+
+[[block]]
+key = "58000b3be7853456"
+origin = '''
+## 组装步骤
+'''
+translate = '''
+## Assembly Steps
+'''
+
+[[block]]
+key = "85db9a364219f1dd"
+origin = '''
+### Step 1 安装DIN固定架
+'''
+translate = '''
+### Step 1 Install DIN Mounting Bracket
+'''
+
+[[block]]
+key = "33b85916374d6f38"
+origin = '''
+使用2颗M2.6×10自攻螺丝，将底壳与DIN固定架连接到一起（DIN版本需要，型材版本不需要）。
+'''
+translate = '''
+Use 2 M2.6×10 self-tapping screws to connect the base housing to the DIN mounting bracket (required for DIN version, not required for profile version).
+'''
+
+[[block]]
+key = "bb580fee79ef26e2"
+origin = '''
+<ImageView src={require('./img/k-hub-install-step1.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-khub-v1/img/k-hub-install-step1.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "1d4b633756f3a92c"
+origin = '''
+<ImageView src={require('./img/k-hub-install-step2.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-khub-v1/img/k-hub-install-step2.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "39eabb6c2eb9d9fc"
+origin = '''
+### Step 2 固定主板与上壳
+'''
+translate = '''
+### Step 2 Board and Top Cover
+'''
+
+[[block]]
+key = "a4cf0c161a47654b"
+origin = '''
+使用4颗M2.6×14自攻螺丝透过底壳与主板，将上壳固定。
+'''
+translate = '''
+Attach the top cover to the motherboard and bottom cover using four M2.6×14 self-tapping screws.
+'''
+
+[[block]]
+key = "8939d21e1b1002a0"
+origin = '''
+<ImageView src={require('./img/k-hub-install-step3.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-khub-v1/img/k-hub-install-step3.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "c3a8034ca78dd738"
+origin = '''
+### Step 3 安装盖子
+'''
+translate = '''
+### Step 3 Install the Cover
+'''
+
+[[block]]
+key = "fe4231721c03c063"
+origin = '''
+使用一根耗材（1.75mm），将盖子固定在上盖上。
+'''
+translate = '''
+Using one filament (1.75mm), secure the cover to the top plate.
+'''
+
+[[block]]
+key = "fd729d574b52debf"
+origin = '''
+<img src={require('./img/k-hub-install-step4.webp').default} width="60%"/>
+'''
+translate = '''
+<img src={require('@site/docs/board-docs/iot-series/iot-khub-v1/img/k-hub-install-step4.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "ccc8958ba5410a63"
+origin = '''
+<img src={require('./img/k-hub-install-step5.webp').default} width="60%"/>
+'''
+translate = '''
+<img src={require('@site/docs/board-docs/iot-series/iot-khub-v1/img/k-hub-install-step5.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "a9e72ac00680d307"
+origin = '''
+### Step 4 安装风扇
+'''
+translate = '''
+### Step 4 Install Fan
+'''
+
+[[block]]
+key = "09e88b290f986e12"
+origin = '''
+使用3颗M2.6×14螺丝将风扇固定在打印件上。
+'''
+translate = '''
+Install the fan to the printed part using three M2.6×14 screws.
+'''
+
+[[block]]
+key = "62500fe1dc633845"
+origin = '''
+<ImageView src={require('./img/k-hub-install-step6.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-khub-v1/img/k-hub-install-step6.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "058298abb544cf9f"
+origin = '''
+## 爆炸图
+'''
+translate = '''
+## Exploded view diagram
+'''
+
+[[block]]
+key = "92319bd06cc8f153"
+origin = '''
+<Tabs groupId="khub-version">
+    <TabItem value="khub-din" label="DIN版本爆炸图" default>
+'''
+translate = '''
+<Tabs groupId="khub-version">
+    <TabItem value="khub-din" label="DIN Version exploded view diagram" default>
+'''
+
+[[block]]
+key = "7f29e6e715bf69ac"
+origin = '''
+        <ImageView src={require('./img/k-hub-install-step7.webp').default} width="60%"/>
+'''
+translate = '''
+        <ImageView src={require('./img/k-hub-install-step7-en.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "43e539c2c6b2a966"
+origin = '''
+    </TabItem>
+    <TabItem value="khub-extrusion" label="型材版本爆炸图">
+        <ImageView src={require('./img/k-hub-install-step8.webp').default} width="60%"/>
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+    </TabItem>
+    <TabItem value="khub-extrusion" label="Extrusion version exploded view diagram">
+        <ImageView src={require('@site/docs/board-docs/iot-series/iot-khub-v1/img/k-hub-install-step8.webp').default} width="60%"/>
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "7aa85582b0ff4948"
+origin = '''
+## 安装效果图
+'''
+translate = '''
+## Install Reference
+'''
+
+[[block]]
+key = "96fe2687d6cbcfb8"
+origin = '''
+<Tabs groupId="khub-version">
+    <TabItem value="khub-din" label="装到DIN导轨效果图" default>
+'''
+translate = '''
+<Tabs groupId="khub-version">
+    <TabItem value="khub-din" label="DIN Install Reference" default>
+'''
+
+[[block]]
+key = "0e0fed1b9e4e3255"
+origin = '''
+        <ImageView src={require('./img/k-hub-install-step9.webp').default} width="60%"/>
+'''
+translate = '''
+        <ImageView src={require('@site/docs/board-docs/iot-series/iot-khub-v1/img/k-hub-install-step9.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "f752df8ca05f60b2"
+origin = '''
+    </TabItem>
+    <TabItem value="khub-extrusion" label="装到型材效果图">
+'''
+translate = '''
+    </TabItem>
+    <TabItem value="khub-extrusion" label="Extrusion Install Reference">
+'''
+
+[[block]]
+key = "e224f67877a5380a"
+origin = '''
+        使用2颗M3×10螺丝和2个M3船型螺母将K HUB固定到型材上。
+'''
+translate = '''
+        Use two M3×10 screws and two M3 boat-shaped nuts to mount the K HUB onto the Extrusion.
+'''
+
+[[block]]
+key = "5f88c3611fe6ffd5"
+origin = '''
+        <ImageView src={require('./img/k-hub-install-step10.webp').default} width="60%"/>
+'''
+translate = '''
+        <ImageView src={require('@site/docs/board-docs/iot-series/iot-khub-v1/img/k-hub-install-step10.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "80dcf8c22200c556"
+origin = '''
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "ebbaea1438438f69"
+origin = '''
+## 注意事项
+'''
+translate = '''
+## Important Notes
+'''
+
+[[block]]
+key = "9ac6e8d74d001d10"
+origin = '''
+- 输出接口标注的电流只在24V接入时有效，否则只有USB输入提供的电流；
+- 各USB接口输出电压为5V，最大电流为1.5A；
+- 请确保24V输入电源极性正确，虽然板子有防反接保护，但正确连接可确保设备正常工作；
+- 安装风扇时请注意风扇方向，确保散热效果；
+- 使用电烙铁时请注意安全，避免烫伤。
+'''
+translate = '''
+- The current ratings marked on the output ports are valid only when 24V is applied; otherwise, only the current supplied by the USB input is available.
+- Each USB port outputs 5V with a maximum current of 1.5A.
+- Ensure the polarity of the 24V input power supply is correct. Although the board features reverse polarity protection, proper connection ensures normal device operation.
+- When installing the fan, pay attention to its direction to ensure effective heat dissipation;
+- Exercise caution when using a soldering iron to avoid burns.
+'''

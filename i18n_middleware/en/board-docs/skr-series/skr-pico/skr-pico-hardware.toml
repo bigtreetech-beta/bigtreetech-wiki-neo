@@ -1,0 +1,296 @@
+[metadata]
+
+[[block]]
+key = "f033356e330d50b8"
+origin = '''
+---
+sidebar_position: 2
+---
+'''
+translate = '''
+---
+sidebar_position: 2
+---
+'''
+
+[[block]]
+key = "d6edaf0ea8c9aec2"
+origin = '''
+# SKR Pico 硬件功能
+'''
+translate = '''
+# SKR Pico 硬件功能
+'''
+
+[[block]]
+key = "2fdd8ee4fc0bdf00"
+origin = '''
+SKR Pico 硬件详细
+'''
+translate = '''
+SKR Pico 硬件详细
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "e4e43b6d7201907d"
+origin = '''
+## 外观尺寸
+'''
+translate = '''
+## 外观尺寸
+'''
+
+[[block]]
+key = "9c0747f11fe48191"
+origin = '''
+<ImageView
+    src={require('./img/skr-pico-size.png').default}
+    alt="size" width="800"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/skr-series/skr-pico/img/skr-pico-size.png').default}
+    alt="size" width="800"
+/>
+'''
+
+[[block]]
+key = "a2df1b4a41a65fdc"
+origin = '''
+## Pinout
+'''
+translate = '''
+## Pinout
+'''
+
+[[block]]
+key = "2c3a74399f62d4a6"
+origin = '''
+<ImageView
+    src={require('./img/skr-pico-pin.png').default}
+    alt="pinout" width="800"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/skr-series/skr-pico/img/skr-pico-pin.png').default}
+    alt="pinout" width="800"
+/>
+'''
+
+[[block]]
+key = "465a0d3a27e44929"
+origin = '''
+## 硬件功能配置
+'''
+translate = '''
+## 硬件功能配置
+'''
+
+[[block]]
+key = "c03269c6fe8525b4"
+origin = '''
+### TMC 2209 Sensorless
+'''
+translate = '''
+### TMC 2209 Sensorless
+'''
+
+[[block]]
+key = "81cae5e95c79fdae"
+origin = '''
+:::warning
+
+对应轴使用了 Sensorless 后。不能使用外部ENDSTOP。
+
+:::
+'''
+translate = '''
+:::warning
+
+对应轴使用了 Sensorless 后。不能使用外部ENDSTOP。
+
+:::
+'''
+
+[[block]]
+key = "98a006545c23eb5d"
+origin = '''
+<ImageView
+    src={require('./img/SKR_Pico_Sensorless.png').default}
+    alt="sensorless" width="550"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/skr-series/skr-pico/img/SKR_Pico_Sensorless.png').default}
+    alt="sensorless" width="550"
+/>
+'''
+
+[[block]]
+key = "c5ba87e7a93379bf"
+origin = '''
+### Neopixel
+'''
+translate = '''
+### Neopixel
+'''
+
+[[block]]
+key = "60a942e643f199a1"
+origin = '''
+<ImageView
+    src={require('./img/SKR_Pico_RGB.png').default}
+    alt="neopixel" width="550"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/skr-series/skr-pico/img/SKR_Pico_RGB.png').default}
+    alt="neopixel" width="550"
+/>
+'''
+
+[[block]]
+key = "055af79b3798a6be"
+origin = '''
+### BLTouch 
+'''
+translate = '''
+### BLTouch 
+'''
+
+[[block]]
+key = "19fba2f2ccbbce17"
+origin = '''
+<ImageView
+    src={require('./img/SKR_Pico_BLtouch.png').default}
+    alt="bltouch" width="550"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/skr-series/skr-pico/img/SKR_Pico_BLtouch.png').default}
+    alt="bltouch" width="550"
+/>
+'''
+
+[[block]]
+key = "39536d326523160f"
+origin = '''
+### 接近开关
+'''
+translate = '''
+### 接近开关
+'''
+
+[[block]]
+key = "6c95064f2ab381ba"
+origin = '''
+:::info[NPN 与 PNP 类型传感器选择] 
+
+与接近开关的连接，可通过跳帽选择接近开关的类型为PNP或者NPN
+
+:::
+'''
+translate = '''
+:::info[NPN 与 PNP 类型传感器选择] 
+
+与接近开关的连接，可通过跳帽选择接近开关的类型为PNP或者NPN
+
+:::
+'''
+
+[[block]]
+key = "876bbc52334398b9"
+origin = '''
+<ImageView
+    src={require('./img/SKR_Pico_Proximity.png').default}
+    alt="proximity" width="550"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/skr-series/skr-pico/img/SKR_Pico_Proximity.png').default}
+    alt="proximity" width="550"
+/>
+'''
+
+[[block]]
+key = "d7aa7f12246b72f7"
+origin = '''
+### USB 连接
+'''
+translate = '''
+### USB 连接
+'''
+
+[[block]]
+key = "c8f9072f23e166a1"
+origin = '''
+<ImageView
+    src={require('./img/SKR_Pico_Rasp.png').default}
+    alt="rpi_usb" width="550"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/skr-series/skr-pico/img/SKR_Pico_Rasp.png').default}
+    alt="rpi_usb" width="550"
+/>
+'''
+
+[[block]]
+key = "4c95fc03b3d9f582"
+origin = '''
+### UART 连接
+'''
+translate = '''
+### UART 连接
+'''
+
+[[block]]
+key = "37ef471b45ded39b"
+origin = '''
+<ImageView
+    src={require('./img/SKR_Pico_Rasp3.png').default}
+    alt="rpi_uart" width="550"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/skr-series/skr-pico/img/SKR_Pico_Rasp3.png').default}
+    alt="rpi_uart" width="550"
+/>
+'''

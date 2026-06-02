@@ -1,0 +1,1868 @@
+[metadata]
+
+[[block]]
+key = "d85634224c638e6e"
+origin = '''
+---
+sidebar_position: 3
+description: CB2 软件配置
+---
+'''
+translate = '''
+---
+sidebar_position: 3
+description: CB2 Firmware
+---
+'''
+
+[[block]]
+key = "f4868fe42ad6e86d"
+origin = '''
+# CB2 软件配置
+'''
+translate = '''
+# CB2 Firmware
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "68f58b1cab20b74a"
+origin = '''
+## 烧录系统
+'''
+translate = '''
+## Flash System
+'''
+
+[[block]]
+key = "2eb7ced8e3a15839"
+origin = '''
+### 下载系统镜像
+'''
+translate = '''
+### Download system image
+'''
+
+[[block]]
+key = "fbb13ef1358ab771"
+origin = '''
+:::info[CB2 系统]
+
+CB2 系统镜像 [CB2/releases](https://github.com/bigtreetech/CB2/releases)
+
+:::
+'''
+translate = '''
+:::info[CB2 System]
+
+CB2 System image [CB2/releases](https://github.com/bigtreetech/CB2/releases)
+
+:::
+'''
+
+[[block]]
+key = "d188a283bc43756a"
+origin = '''
+### 写入系统
+'''
+translate = '''
+### Write system
+'''
+
+[[block]]
+key = "57293d04d2ae7b9d"
+origin = '''
+<Tabs groupId="cb2-emmc-sd">
+    <TabItem value="cb2-sd" label="使用SD卡" default>
+'''
+translate = '''
+<Tabs groupId="cb2-emmc-sd">
+    <TabItem value="cb2-sd" label="Using SD Card" default>
+'''
+
+[[block]]
+key = "9725ea6000518bfc"
+origin = '''
+        1. 下载 [balenaEtcher](https://www.balena.io/etcher/)
+'''
+translate = '''
+        1. Download [balenaEtcher](https://www.balena.io/etcher/)
+'''
+
+[[block]]
+key = "cc47a75ee7fcf33e"
+origin = '''
+        2. 将 Micro SD 卡通过读卡器插入到电脑。
+'''
+translate = '''
+        2. Insert the microSD card into your computer using a card reader.
+'''
+
+[[block]]
+key = "296a0ef0f032c7f3"
+origin = '''
+        3. 选择下载到电脑中的镜像。
+'''
+translate = '''
+        3. Select the image file downloaded to your computer.
+'''
+
+[[block]]
+key = "32249c5bc3bd84a7"
+origin = '''
+            <ImageView src={require('./img/CB2_System1.webp').default} width="60%"/>
+'''
+translate = '''
+            <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System1.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "d1d6aba5c2315ba9"
+origin = '''
+        4. 选择待烧录的 Micro SD 卡，点击“烧录”
+'''
+translate = '''
+        4. Select the Micro SD card you want to flash, then click "Flash"
+'''
+
+[[block]]
+key = "6cac85554d3f4a3f"
+origin = '''
+            :::warning
+
+            烧录镜像会将 Micro SD 卡格式化
+
+            :::
+'''
+translate = '''
+            :::warning
+
+            Flashing the image will format the microSD card
+
+            :::
+'''
+
+[[block]]
+key = "490d13d6c2917cd6"
+origin = '''
+            <ImageView src={require('./img/CB2_System2.webp').default} width="60%"/>
+'''
+translate = '''
+            <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System2.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "99de8aece8c3f95b"
+origin = '''
+        5. 等待烧录完成
+'''
+translate = '''
+        5. Wait for the write process to complete
+'''
+
+[[block]]
+key = "85304ec145182de0"
+origin = '''
+            <ImageView src={require('./img/CB2_System3.webp').default} width="60%"/>
+'''
+translate = '''
+            <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System3.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "062e8d6552997c8f"
+origin = '''
+    </TabItem>
+    <TabItem value="cb2-emmc" label="使用eMMC">
+'''
+translate = '''
+    </TabItem>
+    <TabItem value="cb2-emmc" label="Using eMMC">
+'''
+
+[[block]]
+key = "25ef6ba420328dc2"
+origin = '''
+        :::info
+
+        使用 `电脑 (Windows) 烧录` 或者 `MicroSD卡烧录` 步骤，均可正常的将系统烧录到eMMC中，任选一种适合您的方式即可。
+
+        :::
+'''
+translate = '''
+        :::info
+
+        We can write the system to eMMC using either the `Computer (Windows) Flashing` or `SD Card Flashing` steps. Just choose a way that suits you.
+
+        :::
+'''
+
+[[block]]
+key = "a3fb3a1b20ce6723"
+origin = '''
+        <Tabs groupId="emmc-write">
+            <TabItem value="emmc-windows" label="电脑 (Windows) 烧录" default>
+'''
+translate = '''
+        <Tabs groupId="emmc-write">
+            <TabItem value="emmc-windows" label="Computer (Windows) Flashing" default>
+'''
+
+[[block]]
+key = "84e34f7816de0362"
+origin = '''
+                :::note
+
+                设备中不要插入 Micro SD 卡。
+
+                :::
+'''
+translate = '''
+                :::note
+
+                Do not insert a Micro SD card into the device.
+
+                :::
+'''
+
+[[block]]
+key = "013a9edb1e5683a6"
+origin = '''
+                1. 首先将设备的拨码开关`nRPIBOOT`，`USB_OTG`拨到 `ON` 使设备进入BOOT模式(如下图以 Pad5 V2 为例)。
+'''
+translate = '''
+                1. Set DIP switches `USBOTG` and `RPIBOOT` to `ON` to enter BOOT mode (as shown in the example of Pad5 V2 in the figure below).
+'''
+
+[[block]]
+key = "fd908a62cdddd79c"
+origin = '''
+                    <ImageView src={require('./img/boot.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/boot.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "5162a67238aee2d9"
+origin = '''
+                2. 将设备的 USB OTG 连接到电脑上
+'''
+translate = '''
+                2. Connect the USB OTG of the device to the computer
+'''
+
+[[block]]
+key = "bddc8ef4d02cc02b"
+origin = '''
+                    :::note
+
+                    为了避免出现电脑 USB 供电不足导致的问题，最好使用带有外部供电的 USB-Hub，或者先使用外部的电源给设备供电
+
+                    :::
+'''
+translate = '''
+                    :::note
+
+                    To avoid problems caused by insufficient USB power supply to the computer, it is best to use a USB Hub with external power supply, or use an external power source to power the device first
+
+                    :::
+'''
+
+[[block]]
+key = "282a5540d6bc70b3"
+origin = '''
+                3. 若eMMC中已经烧录过V3.0.1及其之后版本的系统，电脑会将eMMC识别为UMS设备（类似U盘一样的设备），否则会识别为LOADER设备。UMS相对于LOADER有以下好处：
+'''
+translate = '''
+                3. If a V3.0.1 or later version of the system has already been written into eMMC, the computer will recognize eMMC as a UMS device (USB Mass Storage device). Otherwise, it will be recognized as a LOADER device. UMS has the following advantages compared to LOADER:
+'''
+
+[[block]]
+key = "43893f574f127302"
+origin = '''
+                    1. 可以直接修改 /boot/ 分区中的配置信息。
+'''
+translate = '''
+                    1. We can directly modify the configuration in /boot/ partition
+'''
+
+[[block]]
+key = "604d30ac7daf1fde"
+origin = '''
+                    2. 可以直接像Micro SD卡那样，直接烧录系统到eMMC。
+'''
+translate = '''
+                    2. We can directly write the system image to eMMC like a Micro SD card
+'''
+
+[[block]]
+key = "bc5ebd64c821f487"
+origin = '''
+                    3. 可以通过软件擦除eMMC中的所有内容。
+'''
+translate = '''
+                    3. All content in eMMC can be erased through software
+'''
+
+[[block]]
+key = "5890561c31062816"
+origin = '''
+                4. 若设备被识别为UMS设备，则参考下面的`UMS`步骤，若识别为LOADER设备吗，则参考下面的`LOADER`步骤
+                <Tabs groupId="device-mode">
+                    <TabItem value="ums-mode" label="UMS" default>
+                        参考`写入系统`->`使用SD卡`中的步骤使用balenaEtcher软件烧录系统
+                    </TabItem>
+                    <TabItem value="loader-mode" label="LOADER">
+                        1. 下载 [RKDevTool](https://github.com/bigtreetech/CB2) 到电脑上并解压。
+'''
+translate = '''
+                4. If the device is identified as a UMS device, refer to the `UMS` steps below. If it is identified as a LOADER device, refer to the `LOADER` steps below.
+                <Tabs groupId="device-mode">
+                    <TabItem value="ums-mode" label="UMS" default>
+                        Refer to the steps in `Write system`->`Using SD Card` and use balenaEtcher software to write the system
+                    </TabItem>
+                    <TabItem value="loader-mode" label="LOADER">
+                        1. Download [RKDevTool](https://github.com/bigtreetech/CB2) to your computer and extract it. Make sure not to insert a MicroSD card.
+'''
+
+[[block]]
+key = "80713e72c904501f"
+origin = '''
+                        2. 安装驱动
+'''
+translate = '''
+                        2. Install the driver
+'''
+
+[[block]]
+key = "6cb609536c29be4f"
+origin = '''
+                            1. 在 “设备管理器” 中，如果发现“未知设备”意味着电脑缺少驱动
+'''
+translate = '''
+                            1. If you see "Unknown Device" in "Device Manager," it means your computer is missing the driver
+'''
+
+[[block]]
+key = "a18922304b34acd2"
+origin = '''
+                                <ImageView src={require('./img/CB2_System5.webp').default} width="60%"/>
+'''
+translate = '''
+                                <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System5.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "8b588da2d6879c92"
+origin = '''
+                            2. 打开下载的 RKDevTool 中的 DriverAssitant 工具，先点击 “驱动卸载”，再点击 “驱动安装”，这样可以保证安装的驱动为最新版本的。
+'''
+translate = '''
+                            2. Open the Driver Assistant tool in the downloaded RKDevTool, click "Uninstall Drivers" first, then click "Install Drivers." This ensures that the drivers installed are the latest versions.
+'''
+
+[[block]]
+key = "a750f14129945a00"
+origin = '''
+                                <ImageView src={require('./img/CB2_System6.webp').default} width="60%"/>
+'''
+translate = '''
+                                <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System6.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "4b7a6d00e05c360e"
+origin = '''
+                            3. 等待安装完成后，重新拔插一下 Type-C 线，“设备管理器” 会识别出 “Rockusb Device”，意味着驱动已经安装成功
+'''
+translate = '''
+                            3. Once the installation is complete, hold down the "Recovery" button and unplug and reinsert the Type-C cable. "Device Manager" will recognize "Rockusb Device," indicating that the driver has been successfully installed.
+'''
+
+[[block]]
+key = "c55a1c96a013b5e7"
+origin = '''
+                                <ImageView src={require('./img/CB2_System7.webp').default} width="60%"/>
+'''
+translate = '''
+                                <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System7.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "c6e7228a4f9e269d"
+origin = '''
+                        3. 打开 RKDevTool
+'''
+translate = '''
+                        3. Open RKDevTool
+'''
+
+[[block]]
+key = "873bd2f8fe5e0b13"
+origin = '''
+                            <ImageView src={require('./img/CB2_System8.webp').default} width="60%"/>
+'''
+translate = '''
+                            <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System8.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "d50bd96e46bca66c"
+origin = '''
+                            :::info
+
+                            软件中的参数默认如图所示，正常情况下仅需要设置 .img 系统实际的路径”即可。如果您软件中的参数与图中不一致，请手动修改为一致。
+
+                            :::
+'''
+translate = '''
+                            :::info
+
+                            The default settings in the software are shown in the figure. Under normal circumstances, you only need to set the actual path to the .img file. If the settings in your software differ from those shown in the figure, please manually adjust them to match.
+
+                            :::
+'''
+
+[[block]]
+key = "3d1e91ad1a78a09c"
+origin = '''
+                            <ImageView src={require('./img/CB2_System9.webp').default} width="60%"/>
+'''
+translate = '''
+                            <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System9.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "ddf6c0c5b83d0afc"
+origin = '''
+                            1. 找到下载的工具所在的路径
+'''
+translate = '''
+                    1. Find the path where the downloaded RKDevTool is located.
+'''
+
+[[block]]
+key = "2eaff97decafa496"
+origin = '''
+                            2. 打开 RKDevTool 工具
+'''
+translate = '''
+                    2. Open the RKDevTool.
+'''
+
+[[block]]
+key = "a79ebe868086cb00"
+origin = '''
+                            3. 软件会识别出一个“LOADER”或者“MASKROOM”的设备
+'''
+translate = '''
+                            3. The software will detect a device named "LOADER" or "MASKROOM"
+'''
+
+[[block]]
+key = "d2d3a9f45125306c"
+origin = '''
+                            4. 选择要烧录的系统（系统镜像需要提前解压为.img 文件，此工具不支持直接烧录压缩后的.xz 文件）
+'''
+translate = '''
+                            4. Select the system you want to flash (the system image must be extracted to an .img file beforehand; this tool does not support flashing compressed .xz files directly)
+'''
+
+[[block]]
+key = "b434c3779deed87c"
+origin = '''
+                            5. 勾选“Write by Address”
+'''
+translate = '''
+                            5. Check the "Write by Address" box
+'''
+
+[[block]]
+key = "c3a1233da75804b2"
+origin = '''
+                            6. 点击“Run”，开始烧录系统
+'''
+translate = '''
+                            6. Click "Run" to begin flashing the system
+'''
+
+[[block]]
+key = "4fa4c9fafdc0a6c2"
+origin = '''
+                            7. `Download image OK` 意味着系统已经烧录成功
+                    </TabItem>
+                </Tabs>
+            </TabItem>
+            <TabItem value="emmc-micro-sd" label="MicroSD卡烧录">
+                1. 先将系统烧录到MicroSD卡中，然后将MicroSD卡插到主板的卡槽，然后等待系统启动。
+'''
+translate = '''
+                            7. `Download image OK` indicates that the system has been successfully flashed
+                    </TabItem>
+                </Tabs>
+            </TabItem>
+            <TabItem value="emmc-micro-sd" label="SD Card Flashing">
+                1. Write the system onto the MicroSD card. Then, insert the MicroSD card into the motherboard's card slot and wait for the system to boot.
+'''
+
+[[block]]
+key = "d228f169ab23cd10"
+origin = '''
+                2. 通过网线，WiFi或者USB转UART连接到系统的终端，登录系统
+'''
+translate = '''
+                2. Connect to the system terminal via Ethernet cable, WiFi, or USB to UART, and log in to the system.
+'''
+
+[[block]]
+key = "5aa688dc52c4c6a9"
+origin = '''
+                    ```shell title="biqu 普通用户"
+                    Login: biqu
+                    Password: biqu
+                    ```
+'''
+translate = '''
+    ```shell title="biqu User"
+    Login: biqu
+    Password: biqu
+    ```
+'''
+
+[[block]]
+key = "515bbfc4d8ec2dd4"
+origin = '''
+                3. 运行 `sudo nand-sata-install `命令，在弹出的界面中，选择 `2 Boot From eMMC - system on eMMC`, 然后选择 `OK`
+'''
+translate = '''
+                3. Run `sudo nand-sata-install `, Select `2 Boot From eMMC - system on eMMC`, and then select `OK`
+'''
+
+[[block]]
+key = "18aa41582b9eac16"
+origin = '''
+                    <ImageView src={require('./img/CB2_System36.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System36.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "85e3c419f9b0326c"
+origin = '''
+                4. 选择 `Yes`，开始擦除并烧录系统到eMMC
+'''
+translate = '''
+                4. Select `Yes`, Start erasing and writing the system to eMMC
+'''
+
+[[block]]
+key = "7109ee7542652b58"
+origin = '''
+                    <ImageView src={require('./img/CB2_System37.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System37.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "b83eb0b7282027d4"
+origin = '''
+                5. 选择文件系统为 `1 ext4`，然后选择 `OK`
+'''
+translate = '''
+                5. Select `1 ext4`, and then select `OK`
+'''
+
+[[block]]
+key = "49a0751b636b2c36"
+origin = '''
+                    <ImageView src={require('./img/CB2_System38.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System38.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "f024b83f441822d3"
+origin = '''
+                6. 等待烧录完成
+'''
+translate = '''
+                6. Wait for the write process to complete
+'''
+
+[[block]]
+key = "288db2a6dfa780b6"
+origin = '''
+                    <ImageView src={require('./img/CB2_System39.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System39.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "29ec3a0b5d140394"
+origin = '''
+                7. 烧录完成后会弹窗提示是否关机，选择`Power off`关机
+'''
+translate = '''
+                7. After writing is completed, it will prompt whether to power off. Please select `Power off`.
+'''
+
+[[block]]
+key = "8408ef775e02c2a5"
+origin = '''
+                    <ImageView src={require('./img/CB2_System40.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System40.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "5f6dbd8aea6b72f7"
+origin = '''
+                8. 关机后断电，然后拔出MicroSD卡，重新再通电即可从eMMC启动
+            </TabItem>
+        </Tabs>
+    </TabItem>
+    <TabItem value="cb2-nvme" label="使用NVMe">
+'''
+translate = '''
+                8. After power off, unplug the MicroSD card and turn it back on to start from eMMC.
+            </TabItem>
+        </Tabs>
+    </TabItem>
+    <TabItem value="cb2-nvme" label="Using NVMe">
+'''
+
+[[block]]
+key = "1ac85aba3bcb033d"
+origin = '''
+        :::info
+
+        需要 V3.0.2 及其之后版本的系统才支持 NVMe 启动。
+
+        RK3566 不能直接从 NVMe 启动，所以我们需要先写入 u-boot(bootloader) 到 eMMC, u-boot(bootloader) 从 eMMC 运行后，检测到 NVMe 后，可以跳转到 NVMe 启动系统。
+
+        :::
+'''
+translate = '''
+        :::info
+
+        NVMe boot is only supported on systems V3.0.2 and later versions
+
+        RK3566 cannot boot directly from NVMe, so we need to first write u-boot (bootloader) to eMMC. After running u-boot (bootloader) from eMMC and detecting NVMe, it can jump to the NVMe boot system.
+
+        :::
+'''
+
+[[block]]
+key = "711da1348c356f2f"
+origin = '''
+        1. 先从SD卡启动系统。
+'''
+translate = '''
+        1. Start the system from the SD card first.
+'''
+
+[[block]]
+key = "092f7719ed41d8c8"
+origin = '''
+        2. 清除整个eMMC以防止系统从eMMC启动，因为eMMC的启动优先级高于NVMe。
+'''
+translate = '''
+        2. Erase the entire eMMC to prevent the system from booting from eMMC, as eMMC has a higher boot priority than NVMe.
+'''
+
+[[block]]
+key = "772e72cef0c5be1a"
+origin = '''
+            ```shell
+            sudo mkfs /dev/mmcblk1
+            ```
+'''
+translate = '''
+            ```shell
+            sudo mkfs /dev/mmcblk1
+            ```
+'''
+
+[[block]]
+key = "7e5ce2d0583de079"
+origin = '''
+            然后输入`y`确认。
+'''
+translate = '''
+            And then enter "y" to confirm.
+'''
+
+[[block]]
+key = "698f963787ca1883"
+origin = '''
+            <ImageView src={require('./img/CB2_System42.webp').default} width="60%"/>
+'''
+translate = '''
+            <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System42.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "0dc194640b8eeaaa"
+origin = '''
+        3. 写入 u-boot(bootloader) 到 eMMC
+'''
+translate = '''
+        3. Write u-boot(bootloader) to eMMC
+'''
+
+[[block]]
+key = "56c3584279c4929f"
+origin = '''
+            ```shell
+            sudo armbian-install
+            ```
+'''
+translate = '''
+            ```shell
+            sudo armbian-install
+            ```
+'''
+
+[[block]]
+key = "2b0df617e8392b72"
+origin = '''
+            在弹窗中选择 `Install/Update the bootloader on eMMC (/dev/mmcblk1)`
+'''
+translate = '''
+            And then select `Install/Update the bootloader on eMMC (/dev/mmcblk1)`
+'''
+
+[[block]]
+key = "496ee8c71ae07fc5"
+origin = '''
+        4. 写入完成后关闭系统
+'''
+translate = '''
+        4. Poweroff the system after writing is complete
+'''
+
+[[block]]
+key = "dbbf03687dbc6c87"
+origin = '''
+            ```shell
+            sudo poweroff
+            ```
+'''
+translate = '''
+            ```shell
+            sudo poweroff
+            ```
+'''
+
+[[block]]
+key = "2236a067045b2b19"
+origin = '''
+        5. 参照 `写入系统`->`使用eMMC`->`电脑 (Windows) 烧录` 中的步骤，将设备连接到电脑，eMMC中的 u-boot(bootloader) 会把 NVMe 当作 UMS (USB大容量存储)挂在到电脑上。
+'''
+translate = '''
+        5. Refer to the steps in `Write system`->`Using eMMC`->`Computer (Windows) Flashing`, connect the device to the computer, and the u-boot (bootloader) in eMMC will mount NVMe as UMS (USB Mass Storage) on the computer.
+'''
+
+[[block]]
+key = "c046dcc29252bb05"
+origin = '''
+        6. 参考`写入系统`->`使用SD卡`中的步骤使用balenaEtcher软件烧录系统
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+        6. Refer to the steps in `Write system`->`Using SD Card` and use balenaEtcher software to write the system
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "553abf4b865f653e"
+origin = '''
+### 擦除eMMC
+'''
+translate = '''
+### Erasing eMMC
+'''
+
+[[block]]
+key = "badcc121c1e86d53"
+origin = '''
+:::info
+
+如果您的硬件是eMMC版本，并且之前写入过系统到eMMC中，现在不想从eMMC中启动而是希望从MicroSD卡启动。我们需要将之前写入到eMMC的系统数据擦除，以免设备错误的从eMMC启动。
+
+:::
+'''
+translate = '''
+:::info
+
+If your hardware is the eMMC version and you have previously written the system into eMMC, but now you do not want to boot from eMMC but prefer to boot from a MicroSD card. We need to erase the system data previously written to eMMC to prevent the device from erroneously booting from eMMC.
+
+:::
+'''
+
+[[block]]
+key = "7526977fa9bcc9b1"
+origin = '''
+<Tabs groupId="emmc-write">
+    <TabItem value="emmc-windows" label="使用电脑擦除 (Windows)" default>
+'''
+translate = '''
+<Tabs groupId="emmc-write">
+    <TabItem value="emmc-windows" label="Using Computer to Erase (Windows)" default>
+'''
+
+[[block]]
+key = "c8dabc5ac2fde4a9"
+origin = '''
+        1. 参照 `写入系统`->`使用eMMC`->`电脑 (Windows) 烧录` 中的步骤，将主板连接到电脑。
+'''
+translate = '''
+        1. Refer to the steps in `Write system`->`Using eMMC`->`Computer (Windows) Flashing`, connect the device to the computer.
+'''
+
+[[block]]
+key = "e02a5f17cf4904d6"
+origin = '''
+        2. 若设备被识别为UMS设备，则参考下面的`UMS`步骤，若识别为LOADER设备吗，则参考下面的`LOADER`步骤
+        <Tabs groupId="device-mode">
+            <TabItem value="ums-mode" label="UMS (Windows)" default>
+                安装 [SD Card Formatter](https://www.sdcard.org/downloads/formatter/) 软件，格式化eMMC的UMS设备。
+'''
+translate = '''
+        2. If the device is identified as a UMS device, refer to the `UMS` steps below. If it is identified as a LOADER device, refer to the `LOADER` steps below.
+        <Tabs groupId="device-mode">
+            <TabItem value="ums-mode" label="UMS (Windows)" default>
+                Install [SD Card Formatter](https://www.sdcard.org/downloads/formatter/) software to format UMS devices for eMMC.
+'''
+
+[[block]]
+key = "ab1ddb07b5d28911"
+origin = '''
+                :::info
+
+                请不要直接使用windows系统提供的格式化功能，因为它无法完全擦除eMMC中的数据
+
+                :::
+'''
+translate = '''
+                :::info
+
+                Please do not directly use the formatting function provided by the Windows system, as it cannot completely erase the data in eMMC
+
+                :::
+'''
+
+[[block]]
+key = "526d85a07b77a4cd"
+origin = '''
+            </TabItem>
+            <TabItem value="loader-mode" label="LOADER">
+                1. 参照 `电脑 (Windows) 烧录`->`LOADER` 中的步骤，下载软件、安装驱动、识别设备为LOADER设备。
+'''
+translate = '''
+            </TabItem>
+            <TabItem value="loader-mode" label="LOADER">
+                1. Refer to the steps in `Computer (Windows) Flashing`->`LOADER`, download RKDevTool, install the driver, identify the device as a LOADER device.
+'''
+
+[[block]]
+key = "7e5b857d47cf2c59"
+origin = '''
+                2. 使用 `RKDevTool` 软件擦除数据
+'''
+translate = '''
+                2. Use RKDevTool software to erase data.
+'''
+
+[[block]]
+key = "f1fdaa8b62cd6e65"
+origin = '''
+                    <ImageView src={require('./img/CB2_System41.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System41.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "ddf6c0c5b83d0afc"
+origin = '''
+                    1. 找到下载的工具所在的路径
+'''
+translate = '''
+                    1. Find the path where the downloaded RKDevTool is located.
+'''
+
+[[block]]
+key = "2eaff97decafa496"
+origin = '''
+                    2. 打开 RKDevTool 工具
+'''
+translate = '''
+                    2. Open the RKDevTool.
+'''
+
+[[block]]
+key = "8d8dbd8efc629fca"
+origin = '''
+                    3. 软件会识别出一个`LOADER`的设备，如果是`MASKROOM`则说明eMMC中没有数据，不需要擦除
+'''
+translate = '''
+                    3. The software will recognize a "LOADER" device. If it recognizes "MASKROOM," it indicates there is no data in the eMMC, hence no erase operation is necessary.
+'''
+
+[[block]]
+key = "0a51ba787ecf1aba"
+origin = '''
+                    4. 点击`Advanced Function`
+'''
+translate = '''
+                    4. Click "Advanced Function."
+'''
+
+[[block]]
+key = "f4ff6178b386a337"
+origin = '''
+                    5. 点击`EraseAll`开始擦除eMMC中的数据
+'''
+translate = '''
+                    5. Click "EraseAll" to begin erasing data from the eMMC.
+'''
+
+[[block]]
+key = "5899e336ae974b9e"
+origin = '''
+                    6. `Erasing sectors success`擦除完成
+            </TabItem>
+        </Tabs>
+    </TabItem>
+    <TabItem value="emmc-micro-sd" label="从MicroSD卡启动系统后擦除">
+        1. 参照`写入系统`->`使用eMMC`->`MicroSD卡烧录`中的步骤，登录到系统终端
+'''
+translate = '''
+                    6. "Erasing sectors success" indicates the erasure is complete.
+            </TabItem>
+        </Tabs>
+    </TabItem>
+    <TabItem value="emmc-micro-sd" label="Using Micro SD Card Erase">
+        1. Refer to the steps in `Write system`->`Using eMMC`->`SD Card Flashing` to log into the system terminal.
+'''
+
+[[block]]
+key = "e0904d5172e04efa"
+origin = '''
+        2. 执行以下命令擦除数据
+'''
+translate = '''
+        2. Run the following command to erase data
+'''
+
+[[block]]
+key = "772e72cef0c5be1a"
+origin = '''
+            ```shell
+            sudo mkfs /dev/mmcblk1
+            ```
+'''
+translate = '''
+            ```shell
+            sudo mkfs /dev/mmcblk1
+            ```
+'''
+
+[[block]]
+key = "7e5ce2d0583de079"
+origin = '''
+            然后输入`y`确认。
+'''
+translate = '''
+            And then enter "y" to confirm.
+'''
+
+[[block]]
+key = "698f963787ca1883"
+origin = '''
+            <ImageView src={require('./img/CB2_System42.webp').default} width="60%"/>
+'''
+translate = '''
+            <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System42.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "80dcf8c22200c556"
+origin = '''
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "6f68ec2f1f955de6"
+origin = '''
+## 系统配置
+'''
+translate = '''
+## System Configuration
+'''
+
+[[block]]
+key = "f94020ab4abd0647"
+origin = '''
+### 使用网线
+'''
+translate = '''
+### Using an Ethernet Cable
+'''
+
+[[block]]
+key = "54979235c2530b08"
+origin = '''
+网线即插即用，不需要额外的设置
+'''
+translate = '''
+The Ethernet cable is plug-and-play and requires no additional setup.
+'''
+
+[[block]]
+key = "656131bec83c0992"
+origin = '''
+### 设置 WiFi
+'''
+translate = '''
+### Setting Up Wi-Fi
+'''
+
+[[block]]
+key = "11af9b2f2baa2488"
+origin = '''
+系统镜像烧录完成后，MicroSD 卡会有一个被电脑识别的 FAT32 分区，此分区下有个名为"system.cfg" 的配置文件，打开后将 Your SSID 替换为实际的 WIFI 名称，Your Password 替换为实际的密码
+'''
+translate = '''
+After the system image has been flashed, the MicroSD card will have a FAT32 partition recognized by your computer. Within this partition, there is a configuration file named "system.cfg." Open it and replace "Your SSID" with your actual Wi-Fi network name, and replace "Your Password" with your actual password.
+'''
+
+[[block]]
+key = "4ad3e0f138e55d50"
+origin = '''
+<ImageView src={require('./img/CB2_System17.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System17.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "cd0fdeaf9df8a715"
+origin = '''
+### 配置 overlays
+'''
+translate = '''
+### Config overlays
+'''
+
+[[block]]
+key = "dadcd74836772268"
+origin = '''
+打开 BOOT 分区下的 armbianEnv.txt 文件,设置 overlays 的值。配置文件中同一时间仅支持打开一行 overlays，如果打开了多行 overlays 的配置，只会生效最后一行的配置。如果有打开多个 overlays 配置的需求，可以将多个配置的内容放在同一行overlays 后面，并且多个配置中间用一个空格隔开。例如我们需要同时使用 DSI 屏幕. mcp2515 SPI 转 CAN 模块，和 I2C1：
+'''
+translate = '''
+Open the `armbianEnv.txt` file in the BOOT partition and set the value for `overlays`. The configuration file supports only one `overlays` entry at a time. If multiple `overlays` configurations are specified, only the last one will take effect. If you need to enable multiple overlays, place the configuration entries on the same line after `overlays`, separating them with a space. For example, if you need to use a DSI display, an MCP2515 SPI-to-CAN module, and I2C1 simultaneously:
+'''
+
+[[block]]
+key = "0721e18f12f6a51b"
+origin = '''
+```systemd title="armbianEnv.txt"
+overlays=dsi mcp2515 i2c1
+```
+'''
+translate = '''
+```systemd title="armbianEnv.txt"
+overlays=dsi mcp2515 i2c1
+```
+'''
+
+[[block]]
+key = "baa4b5670beb97d2"
+origin = '''
+<ImageView src={require('./img/CB2_System18.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System18.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "730cbc0f90f40bca"
+origin = '''
+### 配置显示屏
+'''
+translate = '''
+### Configuring the Display
+'''
+
+[[block]]
+key = "8ef9c00cc7110173"
+origin = '''
+1. 打开 BOOT 分区下的 armbianEnv.txt 文件
+'''
+translate = '''
+1. Open the armbianEnv.txt file in the BOOT partition
+'''
+
+[[block]]
+key = "26fe43a5a5e66c33"
+origin = '''
+    <ImageView src={require('./img/CB2_System19.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System19.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "3b02dc5bb6b587e4"
+origin = '''
+2. overlays 默认设置为 hdmi，代表系统默认使用 hdmi 屏幕。可以将其修改为实际使用的屏幕，可设置的选项如下：
+'''
+translate = '''
+2. The default setting for "overlays" is HDMI, which means the system defaults to using an HDMI display. You can change this to the display you are actually using. The available options are as follows:
+'''
+
+[[block]]
+key = "b5a83b904ab23904"
+origin = '''
+    :::info[overlays 配置]
+
+    hdmi: [HDMI 接口的屏幕](https://biqu.equipment/collections/lcd/products/bigtreetech-hdmi5-v1-0-hdmi7-v1-0)
+
+    dsi: [DSI接口的屏幕](https://biqu.equipment/collections/lcd/products/bigtreetech-pi-tft43-v2-0-screen-board)
+
+    tft_35: [SPI 接口 3.5 寸屏幕](https://biqu.equipment/collections/lcd/products/bigtreetech-tft35-spi-v2-1-touchscreen-io2can-module)
+
+    :::
+'''
+translate = '''
+    :::info[overlays Config]
+
+    hdmi: [HDMI](https://biqu.equipment/collections/lcd/products/bigtreetech-hdmi5-v1-0-hdmi7-v1-0)
+
+    dsi: [DSI](https://biqu.equipment/collections/lcd/products/bigtreetech-pi-tft43-v2-0-screen-board)
+
+    tft_35: [SPI Display](https://biqu.equipment/collections/lcd/products/bigtreetech-tft35-spi-v2-1-touchscreen-io2can-module)
+
+    :::
+'''
+
+[[block]]
+key = "8ac64cff392d6a91"
+origin = '''
+    其中“tft_35”还有一个参数“tft35_spi_rotate”在系统级旋转显示界面，默认的“0”代表不旋转，可使用的参数还有“90”，“180”，“270”。
+'''
+translate = '''
+    In addition, "tft_35" has a parameter called "tft35_spi_rotate" that controls screen rotation at the system level. The default value of "0" means no rotation; other available values include "90", "180", and "270".
+'''
+
+[[block]]
+key = "14b17f3d924e966b"
+origin = '''
+    :::info
+
+    屏幕只能选择使用其中的一个，无法同时使用多个屏幕
+    
+    :::
+'''
+translate = '''
+    :::info
+
+    You can only select one screen; you cannot use multiple screens at the same time.
+    
+    :::
+'''
+
+[[block]]
+key = "096424c4882e0092"
+origin = '''
+3. 设置 KlipperScreen，打开 BOOT 分区下的 system.cfg 文件，设置屏幕的类`ks_src`，和旋转角度`ks_angle`
+'''
+translate = '''
+3. Configure KlipperScreen by opening the `system.cfg` file in the BOOT partition and setting the screen type `ks_src` and rotation angle `ks_angle`.
+'''
+
+[[block]]
+key = "c86fe4646b0bb926"
+origin = '''
+    <ImageView src={require('./img/CB2_System20.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System20.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "96e785cbf539ba37"
+origin = '''
+### SPI 转 CAN 的使用
+'''
+translate = '''
+### Using SPI to CAN
+'''
+
+[[block]]
+key = "f14df84f5de65ad9"
+origin = '''
+打开 BOOT 分区下的 armbianEnv.txt 文件，将“mcp2515”添加到 overlays 的配置中
+'''
+translate = '''
+Open the armbianEnv.txt file in the BOOT partition and add "mcp2515" to the overlays configuration.
+'''
+
+[[block]]
+key = "0cf0c98004a19c66"
+origin = '''
+<ImageView src={require('./img/CB2_System21.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System21.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "a1abb09bad759819"
+origin = '''
+### CSI 相机使用及 crowsnest 配置
+'''
+translate = '''
+### Using CSI Cameras and Configuring Crowsnest
+'''
+
+[[block]]
+key = "df92458ec1674268"
+origin = '''
+无论是 rpi v1.3 的 ov5647 还是 rpi v2 的 imx219 均不需要在 armbianEnv.txt 文件中配置 overlays，即插即用。
+'''
+translate = '''
+Whether it's the OV5647 on the Raspberry Pi V1.3 or the IMX219 on the Raspberry Pi V2, there is no need to configure overlays in the armbianEnv.txt file; they are plug-and-play.
+'''
+
+[[block]]
+key = "6fdf90dce2ef42cc"
+origin = '''
+```systemd title="crowsnest.conf"
+device: /dev/video0 # CSI 相机的节点固定为 `video0`
+'''
+translate = '''
+```systemd title="crowsnest.conf"
+device: /dev/video0 # The node of CSI camera is fixed as `video0`
+'''
+
+[[block]]
+key = "db0b2520d40fd084"
+origin = '''
+custom_flags: --format=UYVY # 当前系统 CSI 相机不支持默认的 `YUYV`，需要设置为支持的 `UYVY` 格式
+```
+'''
+translate = '''
+custom_flags: --format=UYVY # The current system CSI camera does not support the default `YUYV` and needs to be set to the supported `UYVY` format
+```
+'''
+
+[[block]]
+key = "a9ac3d72a94b2a0b"
+origin = '''
+<ImageView src={require('./img/CB2_System22.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System22.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "0b1f15167aa252b8"
+origin = '''
+### 蓝牙的使用
+'''
+translate = '''
+### Bluetooth
+'''
+
+[[block]]
+key = "dec9753a3e296898"
+origin = '''
+1. 扫描蓝牙设备，输入如下命令，出现如下列表的蓝牙设备，如下图
+'''
+translate = '''
+1. Scan for Bluetooth devices, enter the following command, and a list of Bluetooth devices will appear, as shown in the figure below
+'''
+
+[[block]]
+key = "5e7501904ed21c4e"
+origin = '''
+    ```shell
+    bluetoothctl --timeout 15 scan on
+    ```
+'''
+translate = '''
+    ```shell
+    bluetoothctl --timeout 15 scan on
+    ```
+'''
+
+[[block]]
+key = "50af323178103b41"
+origin = '''
+    <ImageView src={require('./img/CB2_System23.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System23.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "ab4f65f2361c4895"
+origin = '''
+2. 找到自己的蓝牙设备，比如我的蓝牙设备名字是 HONOR xSport PRO，在设备列表中找到对应的蓝牙 MAC ID 如下图
+'''
+translate = '''
+2. Locate your Bluetooth device—for example, my Bluetooth device is named “HONOR xSport PRO”—and find the corresponding Bluetooth MAC ID in the device list, as shown in the image below.
+'''
+
+[[block]]
+key = "86343a6c296d9547"
+origin = '''
+    <ImageView src={require('./img/CB2_System24.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System24.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "de3812f9e85ed37d"
+origin = '''
+3. 连接蓝牙设备，输入如下命令，连接成功如下图
+'''
+translate = '''
+3. Connect to a Bluetooth device by entering the following command. A successful connection is shown in the image below.
+'''
+
+[[block]]
+key = "d28320961cd5e3a9"
+origin = '''
+    ```shell
+    bluetoothctl connect E0:9D:FA:50:CD:4F
+    ```
+'''
+translate = '''
+    ```shell
+    bluetoothctl connect E0:9D:FA:50:CD:4F
+    ```
+'''
+
+[[block]]
+key = "43bd63b7abc97be5"
+origin = '''
+    <ImageView src={require('./img/CB2_System25.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System25.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "ecac9b0e826be94a"
+origin = '''
+    1. 若出现如下图输出，请重新打开蓝牙设备，然后重新按 1 和 2 的步骤连接蓝牙设备
+'''
+translate = '''
+    1. If you see the output shown below, please turn off the Bluetooth device, then follow steps 1 and 2 again to reconnect it.
+'''
+
+[[block]]
+key = "e58110367d7a142c"
+origin = '''
+        <ImageView src={require('./img/CB2_System26.webp').default} width="60%"/>
+'''
+translate = '''
+        <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System26.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "1154908689c9265b"
+origin = '''
+    2. 若如下图输出，请输入如下命令，然后重新进行 1 和 2 步骤
+'''
+translate = '''
+    2. If the output looks like the image below, enter the following command, then repeat steps 1 and 2.
+'''
+
+[[block]]
+key = "9c1abf1db872d08f"
+origin = '''
+        ```shell
+        bluetoothctl remove E0:9D:FA:50:CD:4F # bluetooth device mac address
+'''
+translate = '''
+        ```shell
+        bluetoothctl remove E0:9D:FA:50:CD:4F # bluetooth device mac address
+'''
+
+[[block]]
+key = "3650effb20eca3ae"
+origin = '''
+        rfkill block bluetooth
+'''
+translate = '''
+        rfkill block bluetooth
+'''
+
+[[block]]
+key = "8d23d460eab47b25"
+origin = '''
+        sleep 3s
+'''
+translate = '''
+        sleep 3s
+'''
+
+[[block]]
+key = "6ad5d6761ffb8bda"
+origin = '''
+        rfkill unblock bluetooth
+'''
+translate = '''
+        rfkill unblock bluetooth
+'''
+
+[[block]]
+key = "66dbf9d097579c05"
+origin = '''
+        pulseaudio -k
+'''
+translate = '''
+        pulseaudio -k
+'''
+
+[[block]]
+key = "3800722c6a9f70e9"
+origin = '''
+        pulseaudio –start
+        ```
+'''
+translate = '''
+        pulseaudio –start
+        ```
+'''
+
+[[block]]
+key = "182a95e5cff25205"
+origin = '''
+        <ImageView src={require('./img/CB2_System27.webp').default} width="60%"/>
+'''
+translate = '''
+        <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System27.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "87ce9ae4fcb50674"
+origin = '''
+4. 蓝牙使用中途退出语音播放功能，如果不能再次使用蓝牙，需要手动删除对应的播放进程，用 ps 命令查看播放的进程号，然后用 kill -9 进程号 删除对应的播放进程。如下图所示
+'''
+translate = '''
+4. If the audio playback function is interrupted while using Bluetooth and Bluetooth cannot be used again, you will need to manually terminate the corresponding playback process. Use the `ps` command to view the process ID of the playback process, then use `kill -9 process_id` to terminate it. As shown in the figure below
+'''
+
+[[block]]
+key = "aa3ebe963cc14dc1"
+origin = '''
+    <ImageView src={require('./img/CB2_System28.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System28.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "5ffea3d5325903f5"
+origin = '''
+### 音频输出设置
+'''
+translate = '''
+### Audio Output Settings
+'''
+
+[[block]]
+key = "ca3308ce4342a9cb"
+origin = '''
+```shell
+aplay -l
+```
+'''
+translate = '''
+```shell
+aplay -l
+```
+'''
+
+[[block]]
+key = "c317b55ffcafb152"
+origin = '''
+查看对应的声卡，如下图所示：(由图所示耳机口的声卡对应的是 card 0).
+'''
+translate = '''
+Check the corresponding sound card, as shown in the figure below: (As shown in the figure, the sound card associated with the headphone jack is Card 0).
+'''
+
+[[block]]
+key = "f8c6b83cc5050641"
+origin = '''
+<ImageView src={require('./img/CB2_System29.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System29.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "4bed22fbb7d183c7"
+origin = '''
+```shll
+amixer -c 0 contents # 0 表示的上述的 aplay -l 所找到的 card 0
+```
+'''
+translate = '''
+```shll
+amixer -c 0 contents # 0 refers to the “card 0” identified by the `aplay -l` command mentioned above
+```
+'''
+
+[[block]]
+key = "ddc4140fbc8d0b2b"
+origin = '''
+查看播放通道和录音通道设置，如下图所示：
+'''
+translate = '''
+View the playback and recording channel settings, as shown in the figure below:
+'''
+
+[[block]]
+key = "c99215da72d82add"
+origin = '''
+<ImageView src={require('./img/CB2_System30.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System30.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "57de63525c107a74"
+origin = '''
+```shell
+amixer -c 0 cset numid=1 3
+```
+'''
+translate = '''
+```shell
+amixer -c 0 cset numid=1 3
+```
+'''
+
+[[block]]
+key = "2970da227f8536da"
+origin = '''
+设置播放通道，如下图所示：
+'''
+translate = '''
+Configure the playback channel as shown in the figure below:
+'''
+
+[[block]]
+key = "2e7d79a84ec0f2a4"
+origin = '''
+<ImageView src={require('./img/CB2_System31.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System31.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "923b5705eef325dd"
+origin = '''
+```shell
+amixer -c 0 cset numid=2 1
+```
+'''
+translate = '''
+```shell
+amixer -c 0 cset numid=2 1
+```
+'''
+
+[[block]]
+key = "05fd5d74cb32d81a"
+origin = '''
+设置录音通道，如下图所示
+'''
+translate = '''
+Set the recording channel as shown in the figure below
+'''
+
+[[block]]
+key = "0e50a3428bc2f338"
+origin = '''
+<ImageView src={require('./img/CB2_System32.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System32.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "dbbd63edf81839a2"
+origin = '''
+输入如下命令播放音频，音频文件目录 xxx 加音频文件名 xxxxx.wav
+'''
+translate = '''
+Enter the following command to play the audio file: Replace “xxx” with the directory containing the audio file and “xxxxx.wav” with the actual filename.
+'''
+
+[[block]]
+key = "f9454e3ce920bd15"
+origin = '''
+```shell
+aplay -D plughw:0,0 /xxx/xxxxx.wav
+```
+'''
+translate = '''
+```shell
+aplay -D plughw:0,0 /xxx/xxxxx.wav
+```
+'''
+
+[[block]]
+key = "3f6a08955fc85bce"
+origin = '''
+输入如下命令录音（其中 10 表示录音 10 秒），录音存放的目录是 xxx，文件名 xxxx.wav:
+'''
+translate = '''
+Enter the following command to record audio (where 10 indicates a 10-second recording). The recording will be saved in the xxx directory with the filename xxxx.wav:
+'''
+
+[[block]]
+key = "c6e0c42cf37a74e3"
+origin = '''
+```shell
+sudo arecord -Dhw:0,0 -d 10 -f cd -r 44100 -c 2 -t wav /xxx/xxxx.wav
+```
+'''
+translate = '''
+```shell
+sudo arecord -Dhw:0,0 -d 10 -f cd -r 44100 -c 2 -t wav /xxx/xxxx.wav
+```
+'''
+
+[[block]]
+key = "d36b54afaae4649a"
+origin = '''
+输入如下命令播放录音:
+'''
+translate = '''
+Enter the following command to play the recording:
+'''
+
+[[block]]
+key = "1684fd0df1015526"
+origin = '''
+```shell
+aplay -D plughw:0,0 /xxx/xxxx.wav
+```
+'''
+translate = '''
+```shell
+aplay -D plughw:0,0 /xxx/xxxx.wav
+```
+'''
+
+[[block]]
+key = "89f359902820e848"
+origin = '''
+## SSH 连接设备
+'''
+translate = '''
+## SSH Connect
+'''
+
+[[block]]
+key = "e3d616219c0cfcfe"
+origin = '''
+1. 安装 [Mobaxterm](https://mobaxterm.mobatek.net/download-home-edition.html)
+'''
+translate = '''
+1. Install [Mobaxterm](https://mobaxterm.mobatek.net/download-home-edition.html)
+'''
+
+[[block]]
+key = "3c3e4b70b0080494"
+origin = '''
+2. 通电后等待系统启动，大概 1~2 分钟
+'''
+translate = '''
+2. After powering on, wait for the system to boot up, which takes about 1–2 minutes.
+'''
+
+[[block]]
+key = "fda3bf696234ec9a"
+origin = '''
+3. 设备连上 WIFI 或者插上网线后，会被自动分配一个 IP
+'''
+translate = '''
+3. Once the device connects to Wi-Fi or an Ethernet cable, it will be automatically assigned an IP address.
+'''
+
+[[block]]
+key = "387a8dbf55228023"
+origin = '''
+4. 进入路由器管理界面找到设备的 IP（这里应为 `BIGTREETECH-CB2`/`BTT-CB2`）
+'''
+translate = '''
+4. Go to the router's management interface and locate the device’s IP address (which should be `BIGTREETECH-CB2`/`BTT-CB2`).
+'''
+
+[[block]]
+key = "534c1a67a183b27e"
+origin = '''
+    <ImageView src={require('./img/CB2_System33.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System33.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "3aec86cb465fc951"
+origin = '''
+5. 打开已经安装的 Mobaxterm 软件，点击“Session”，在弹出的窗口中点击“SSH”，在 Remote host 一栏中输入设备的 IP 地址，点击“OK”（注意：电脑和设备必须要在同一个局域网下）
+'''
+translate = '''
+5. Open the Mobaxterm software you have installed, click "Session" then click 'SSH' in the pop-up window. Enter the device's IP address in the "Remote host" field, and click "OK" (Note: Your computer and the device must be on the same local area network).
+'''
+
+[[block]]
+key = "b517ea54931d82a3"
+origin = '''
+    <ImageView src={require('./img/CB2_System34.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System34.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "c695cc03a988981d"
+origin = '''
+6. 输入登录名和登录密码进入 SSH 终端界面
+'''
+translate = '''
+6. Enter your username and password to access the SSH terminal interface
+'''
+
+[[block]]
+key = "113e4d772f015f73"
+origin = '''
+    ```shell title="root 管理员"
+    Login: root
+    Password: root
+    ```
+'''
+translate = '''
+    ```shell title="root Admin"
+    Login: root
+    Password: root
+    ```
+'''
+
+[[block]]
+key = "5aa688dc52c4c6a9"
+origin = '''
+    ```shell title="biqu 普通用户"
+    Login: biqu
+    Password: biqu
+    ```
+'''
+translate = '''
+    ```shell title="biqu User"
+    Login: biqu
+    Password: biqu
+    ```
+'''
+
+[[block]]
+key = "ae7f34a1fb67cd5e"
+origin = '''
+    <ImageView src={require('./img/CB2_System35.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb2/img/CB2_System35.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "ebbaea1438438f69"
+origin = '''
+## 注意事项
+'''
+translate = '''
+## Notes
+'''
+
+[[block]]
+key = "9c4ebcac46abb757"
+origin = '''
+上电后大概 10s 左右，系统进入 kernel 阶段。此时 power 灯常亮，act 灯会不断的闪烁，代表系统在正常运行
+'''
+translate = '''
+Approximately 10 seconds after power-on, the system enters the kernel phase. At this point, the power LED remains lit, and the ACT LED flashes continuously, indicating that the system is operating normally.
+'''
+
+[[block]]
+key = "16d537d9548e6fb3"
+origin = '''
+### 接口使用
+'''
+translate = '''
+### Interface Usage
+'''
+
+[[block]]
+key = "5b075eea09ca6291"
+origin = '''
+- PCIe M.2 接口不支持热插拔，需要预先插上固态硬盘才能识别到设备。
+- 使用 eMMC 启动时，不要插 MicroSD 卡。使用 MicroSD 卡启动时，需要将 eMMC 中的数据擦除。
+'''
+translate = '''
+- The PCIe M.2 interface does not support hot-swapping; the SSD must be installed beforehand for the device to be recognized.
+- Do not insert a MicroSD card when booting from eMMC. When booting from a MicroSD card, the data on the eMMC must be erased.
+'''

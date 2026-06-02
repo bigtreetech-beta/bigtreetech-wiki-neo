@@ -1,0 +1,1662 @@
+[metadata]
+
+[[block]]
+key = "d9a5946225bd1e31"
+origin = '''
+---
+sidebar_position: 3
+description: Pad5 V2 固件配置
+---
+'''
+translate = '''
+---
+sidebar_position: 3
+description: Pad5 V2 Firmware Configuration
+---
+'''
+
+[[block]]
+key = "2d5f8ef2faa283d5"
+origin = '''
+# Pad5 V2 软件配置
+'''
+translate = '''
+# Pad5 V2 Firmware
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "68f58b1cab20b74a"
+origin = '''
+## 烧录系统
+'''
+translate = '''
+## Flashing the System
+'''
+
+[[block]]
+key = "c57b34338fdd33fe"
+origin = '''
+:::info
+
+使用 Pad5 的 USB OTG 烧录系统到eMMC版本硬件时，设备的拨码开关请参考下图，将拨码开关的`nRPIBOOT`，`USB_OTG`拨到`ON`进入BOOT模式。系统烧录完成后, 将开关拨回`OFF`即可正常启动。
+
+<ImageView src={require('./img/boot.webp').default} width="60%"/>
+
+:::
+'''
+translate = '''
+:::info
+
+When using Pad5's USB OTG flash system to eMMC version hardware, please refer to the diagram below for the device's DIP switch. Turn the `nRPIBOOT` and `USB-OTG` to `ON` to enter BOOT mode. After the system is written, turn the switch back to `OFF` to start normally.
+
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-pad5-v2/img/boot.webp').default} width="60%"/>
+
+:::
+'''
+
+[[block]]
+key = "32bc9cde44977979"
+origin = '''
+<Tabs groupId="core-board">
+    <TabItem value="rpi" label="Raspberry Pi CM4/CM5" default>
+'''
+translate = '''
+<Tabs groupId="core-board">
+    <TabItem value="rpi" label="Raspberry Pi CM4/CM5" default>
+'''
+
+[[block]]
+key = "4157f7f08786188a"
+origin = '''
+        下载系统镜像。根据需求下载合适的系统镜像，例如[树莓派官方镜像](https://www.raspberrypi.com/software/operating-systems)或者[Mainsail系统镜像](https://github.com/mainsail-crew/MainsailOS/releases)
+'''
+translate = '''
+        Download the appropriate system image based on your requirements, such as the [official Raspberry Pi image](https://www.raspberrypi.com/software/operating-systems) or the [Mainsail system image](https://github.com/mainsail-crew/MainsailOS/releases).
+'''
+
+[[block]]
+key = "1d6b13e6f55cd000"
+origin = '''
+        :::info
+
+        eMMC版本的树莓派不会运行Micro SD卡中的系统, 必须要烧录系统到eMMC中运行。
+
+        :::
+'''
+translate = '''
+        :::info
+
+        On eMMC versions, the system cannot boot from the Micro SD card. So we have to write the system into eMMC to run.
+
+        :::
+'''
+
+[[block]]
+key = "7e33ee2ac418a4d5"
+origin = '''
+        <Tabs groupId="rpi-emmc-sd">
+            <TabItem value="rpi-sd" label="SD卡版本" default>
+'''
+translate = '''
+        <Tabs groupId="rpi-emmc-sd">
+            <TabItem value="rpi-sd" label="SD Card Version" default>
+'''
+
+[[block]]
+key = "9649103826ee35fe"
+origin = '''
+                1. 下载并安装树莓派官方的烧录软件：https://www.raspberrypi.com/software/
+'''
+translate = '''
+                1. Download and install the official Raspberry Pi flashing tool from the Raspberry Pi website: https://www.raspberrypi.com/software/
+'''
+
+[[block]]
+key = "13dd01715a9a8445"
+origin = '''
+                2. 打开软件，将Micro SD卡通过读卡器插入到电脑。
+'''
+translate = '''
+                2. Insert the Micro SD card into your computer using a card reader.
+'''
+
+[[block]]
+key = "2472ae9af0847245"
+origin = '''
+                3. 选择设备为`NO FILTERING`
+'''
+translate = '''
+                3. Set the device to `NO FILTERING`
+'''
+
+[[block]]
+key = "758c5c45cc1fe25a"
+origin = '''
+                    <ImageView src={require('./img/pi1.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-pad5-v2/img/pi1.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "a70ece358d4d6238"
+origin = '''
+                4. 选择系统
+'''
+translate = '''
+                4. Select the operating system.
+'''
+
+[[block]]
+key = "a2e2558eaa304389"
+origin = '''
+                    <ImageView src={require('./img/pi2.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-pad5-v2/img/pi2.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "6eebf12dbb06a33f"
+origin = '''
+                5. 选择`Use custom`用户自定义，然后选择下载到电脑中的镜像
+'''
+translate = '''
+                5. Choose `Use custom`, then select the system image file downloaded to your computer.
+'''
+
+[[block]]
+key = "66f8177b9c5f42bf"
+origin = '''
+                    <ImageView src={require('./img/pi3.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-pad5-v2/img/pi3.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "97ef868822eedc60"
+origin = '''
+                6. 选择待烧录的Micro SD卡，然后点击“Next”下一步
+'''
+translate = '''
+                6. Select the Micro SD card to be flashed, then click Next.
+'''
+
+[[block]]
+key = "5da42b59c9fb71ff"
+origin = '''
+                    :::warning
+
+                    烧录镜像会将选中的存储设备格式化，千万注意不要选错存储设备。
+
+                    :::
+'''
+translate = '''
+                    :::warning
+
+                    Flashing the image will format the selected storage device, be careful not to select the wrong storage device.
+
+                    :::
+'''
+
+[[block]]
+key = "bafc3920510148ad"
+origin = '''
+                    <ImageView src={require('./img/pi4.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-pad5-v2/img/pi4.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "d9046d29d3ffdd31"
+origin = '''
+                7. 在弹出的弹窗中选则`EDIT SETTINGS`编辑设置
+'''
+translate = '''
+                7. In the pop-up window, select `EDIT SETTINGS`.
+'''
+
+[[block]]
+key = "1cadd8b3fc50a255"
+origin = '''
+                    <ImageView src={require('./img/pi5.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-pad5-v2/img/pi5.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "9d5cf7301fc32104"
+origin = '''
+                8. 在 `General` 中设置：
+'''
+translate = '''
+                8. Under `General`, configure the following:
+'''
+
+[[block]]
+key = "e86aeb7beb83b167"
+origin = '''
+                    :::info
+
+                    Set hostname: raspberrypi.local  // 设置主机名，默认为raspberrypi.local
+
+                    Set username and password // 设置用户名和密码，默认用户名：pi 密码：raspberry
+
+                    Configure wireless LAN // 设置WiFi名称和密码
+
+                    :::
+'''
+translate = '''
+                    :::info
+
+                    Set hostname: raspberrypi.local  // Set hostname. Default hostname: raspberrypi.local
+
+                    Set username and password // Set username and password. Default username: pi Default password: raspberry
+
+                    Configure wireless LAN // Set the Wi-Fi SSID and password.
+
+                    :::
+'''
+
+[[block]]
+key = "0b4b84d059144a69"
+origin = '''
+                    <ImageView src={require('./img/pi6.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-pad5-v2/img/pi6.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "42c3cd09a538379b"
+origin = '''
+                9. 在`Services`中设置：
+'''
+translate = '''
+                9. Under `Services`, configure the following:
+'''
+
+[[block]]
+key = "4b8ed2ec27009650"
+origin = '''
+                    :::info
+
+                    Enable SSH
+
+                    Use password authentication
+
+                    :::
+'''
+translate = '''
+                    :::info
+
+                    Enable SSH
+
+                    Use password authentication
+
+                    :::
+'''
+
+[[block]]
+key = "22d2ebe66657c36c"
+origin = '''
+                    然后点击`SAVE`保存设置
+'''
+translate = '''
+                    Then click `SAVE` to store the settings.
+'''
+
+[[block]]
+key = "536a78891a6982d7"
+origin = '''
+                    <ImageView src={require('./img/pi7.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-pad5-v2/img/pi7.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "ebbaf3ff87f3ae53"
+origin = '''
+                10. 点击`YES`开始烧录系统
+'''
+translate = '''
+                10. Click `YES` to start flashing the system image.
+'''
+
+[[block]]
+key = "171d080cd5f0a3ca"
+origin = '''
+                    <ImageView src={require('./img/pi8.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-pad5-v2/img/pi8.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "a9d8bb82dc4e55dd"
+origin = '''
+                11. 等待烧录完成
+'''
+translate = '''
+                11. Wait for the flashing process to complete.
+'''
+
+[[block]]
+key = "b889c1871f8fde87"
+origin = '''
+                    <ImageView src={require('./img/pi9.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-pad5-v2/img/pi9.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "2d2e831629b7b7b8"
+origin = '''
+            </TabItem>
+            <TabItem value="rpi-emmc" label="eMMC版本">
+                1. 安装rpiboot 软件，提供有[Windows](http://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe)和[Mac/Linux](https://github.com/raspberrypi/usbboot#building)版本
+'''
+translate = '''
+            </TabItem>
+            <TabItem value="rpi-emmc" label="eMMC Version">
+                1. Install the rpiboot Utility. Available in both [Windows](http://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe) and [Mac/Linux](https://github.com/raspberrypi/usbboot#building) versions
+'''
+
+[[block]]
+key = "23e48718802416c5"
+origin = '''
+                2. 将拨码开关的nRPIBOOT，USB_OTG拨到ON进入BOOT模式
+'''
+translate = '''
+                2. Set the nRPIBOOT and USB_OTG DIP switches to ON to enter BOOT mode.
+'''
+
+[[block]]
+key = "fd908a62cdddd79c"
+origin = '''
+                    <ImageView src={require('./img/boot.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-pad5-v2/img/boot.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "9d501fd38c1d5640"
+origin = '''
+                3. 将设备的 USB OTG 连接到电脑上。运行如下命令：
+                    <Tabs groupId="system">
+                        <TabItem value="linux" label="Mac/Linux" default>
+                            ``` shell
+                            sudo ./rpiboot
+                            ```
+                        </TabItem>
+                        <TabItem value="windows" label="Windows">
+                            ``` shell
+                            rpiboot.exe
+                            ```
+                        </TabItem>
+                    </Tabs>
+                    eMMC会被电脑识别为一个大容量存储设备（如果此时rpiboot报错，可以尝试重新拔插一下USB）
+'''
+translate = '''
+                3. Connect the USB OTG of the device to the computer. and run:
+                    <Tabs groupId="system">
+                        <TabItem value="linux" label="Mac/Linux" default>
+                            ``` shell
+                            sudo ./rpiboot
+                            ```
+                        </TabItem>
+                        <TabItem value="windows" label="Windows">
+                            ``` shell
+                            rpiboot.exe
+                            ```
+                        </TabItem>
+                    </Tabs>
+                    Then the eMMC will then be recognized by the computer as a USB mass storage device (If rpiboot reports an error at this stage, try reconnecting the USB cable).
+'''
+
+[[block]]
+key = "bddc8ef4d02cc02b"
+origin = '''
+                    :::note
+
+                    为了避免出现电脑 USB 供电不足导致的问题，最好使用带有外部供电的 USB-Hub，或者先使用外部的电源给设备供电
+
+                    :::
+'''
+translate = '''
+                    :::note
+
+                    To avoid problems caused by insufficient USB power supply to the computer, it is best to use a USB Hub with external power supply, or use an external power source to power the device first
+
+                    :::
+'''
+
+[[block]]
+key = "6d3d81c10d643b14"
+origin = '''
+                4. 使用Raspberry Pi Imager软件烧录系统镜像，步骤与烧录到Micro SD卡完全相同。
+'''
+translate = '''
+                4. Use Raspberry Pi Imager to flash the system image; the procedure is the same as flashing to a Micro SD card.
+'''
+
+[[block]]
+key = "44975c909640a76f"
+origin = '''
+                5. 烧录完成后，断电后将拨码开关的nRPIBOOT,USB_OTG拨回到OFF，重新上电后进入正常工作模式。
+            </TabItem>
+        </Tabs>
+    </TabItem>
+    <TabItem value="cb2" label="BIGTREETECH CB2">
+        - [参考CB2使用手册](../iot-cb2/iot-cb2-firmware)
+    </TabItem>
+    <TabItem value="cb1" label="BIGTREETECH CB1">
+        - [参考CB1使用手册](../iot-cb1/iot-cb1-firmware)
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+                5. After flashing is complete, power off the device, switch nRPIBOOT and USB_OTG back to OFF, then power it on again to enter normal operating mode.
+            </TabItem>
+        </Tabs>
+    </TabItem>
+    <TabItem value="cb2" label="BIGTREETECH CB2">
+        - [Refer to CB2 manual](../iot-cb2/iot-cb2-firmware)
+    </TabItem>
+    <TabItem value="cb1" label="BIGTREETECH CB1">
+        - [Refer to CB1 manual](../iot-cb1/iot-cb1-firmware)
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "a54e2933a0eaf872"
+origin = '''
+## 系统设置
+'''
+translate = '''
+## System Configuration
+'''
+
+[[block]]
+key = "fd1527ca43207f17"
+origin = '''
+### DSI 显示
+'''
+translate = '''
+### DSI Display
+'''
+
+[[block]]
+key = "997d216633d2fe06"
+origin = '''
+:::info
+
+将I2C的2pin拨码开关的都拨到ON，此接口是DSI1接口屏幕的触摸信号线
+
+<ImageView src={require('./img/i2c.webp').default} width="60%"/>
+
+:::
+'''
+translate = '''
+:::info
+
+Set both 2-pin I2C DIP switches to ON; this enables the touch signal line for the DSI1 display interface.
+
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-pad5-v2/img/i2c.webp').default} width="60%"/>
+
+:::
+'''
+
+[[block]]
+key = "9af6f155ad15b86d"
+origin = '''
+<Tabs groupId="core-board">
+    <TabItem value="rpi" label="Raspberry Pi" default>
+'''
+translate = '''
+<Tabs groupId="core-board">
+    <TabItem value="rpi" label="Raspberry Pi" default>
+'''
+
+[[block]]
+key = "cd5a1d1b71ed24df"
+origin = '''
+        1. 在 `/boot/firmware/config.txt` 文件里面修改如下配置，然后重启设备生效
+'''
+translate = '''
+        1. Edit `/boot/firmware/config.txt` as follows. And restart the device after editing the configuration.
+'''
+
+[[block]]
+key = "416568dcce33f5cc"
+origin = '''
+            <Tabs groupId="core-rpi">
+                <TabItem value="cm5" label="CM5" default>
+'''
+translate = '''
+            <Tabs groupId="core-rpi">
+                <TabItem value="cm5" label="CM5" default>
+'''
+
+[[block]]
+key = "0639e2d90ebcaf11"
+origin = '''
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm5]
+                    dtoverlay=vc4-kms-v3d
+                    dtoverlay=vc4-kms-dsi-7inch
+                    dtoverlay=edt-ft5406,i2c_csi_dsi
+                    ```
+                </TabItem>
+                <TabItem value="cm4" label="CM4" default>
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm4]
+                    dtoverlay=vc4-kms-v3d
+                    dtoverlay=vc4-kms-dsi-7inch
+                    dtoverlay=edt-ft5406,i2c_csi_dsi0
+                    ```
+                </TabItem>
+            </Tabs>
+'''
+translate = '''
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm5]
+                    dtoverlay=vc4-kms-v3d
+                    dtoverlay=vc4-kms-dsi-7inch
+                    dtoverlay=edt-ft5406,i2c_csi_dsi
+                    ```
+                </TabItem>
+                <TabItem value="cm4" label="CM4" default>
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm4]
+                    dtoverlay=vc4-kms-v3d
+                    dtoverlay=vc4-kms-dsi-7inch
+                    dtoverlay=edt-ft5406,i2c_csi_dsi0
+                    ```
+                </TabItem>
+            </Tabs>
+'''
+
+[[block]]
+key = "ac4a441ee398d349"
+origin = '''
+        2. 此时设备自带的屏幕和外接的DSI屏幕都理应可以正常显示，但是多屏显示的触摸需要重新绑定映射。
+'''
+translate = '''
+        2. At this point, both the built-in display and the external DSI display should function normally. However, touch input must be remapped when using multiple displays.
+'''
+
+[[block]]
+key = "e776207b18e04804"
+origin = '''
+            1. 在显示屏上打开界面：首选项`Preferences`->`Screen Configuration`
+'''
+translate = '''
+            1. On the display, open: `Preferences`->`Screen Configuration`
+'''
+
+[[block]]
+key = "3e670601bda5a55b"
+origin = '''
+                <ImageView src={require('./img/dsi.webp').default} width="60%"/>
+'''
+translate = '''
+                <ImageView src={require('@site/docs/board-docs/iot-series/iot-pad5-v2/img/dsi.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "f37e4c1bb652489f"
+origin = '''
+            2. 拖动 “DSI-1”,“DSI-2”,“HDMI-A-1”, “HDMI-A-2”随意的排列组合，显示屏实际显示的内容就会按照此布局显示，并且可以将所有的显示屏完全叠加重合起来，这样所有的显示屏显示的就会是完全一样的内容。
+'''
+translate = '''
+            2. Drag and arrange “DSI-1”, “DSI-2”, “HDMI-A-1” and “HDMI-A-2” as needed; the physical display layout will follow this arrangement, and the displays can also be fully overlapped to show identical content.
+'''
+
+[[block]]
+key = "76ae7ca3cda2bb85"
+origin = '''
+            3. 设置每个显示屏对应的触摸设备，设置完后对应的触摸设备就会仅作用于匹配的显示屏。
+'''
+translate = '''
+            3. Assign each touch device to its corresponding display so that, after configuration, each touch device controls only its assigned display.
+'''
+
+[[block]]
+key = "b10ade72ea33fd1c"
+origin = '''
+            4. 应用配置，点击确认后配置就会生效。
+    </TabItem>
+    <TabItem value="cb2" label="BIGTREETECH CB2">
+        1. 在`/boot/armbianEnv.txt`文件的`overlays`的值中添加`dsi`配置，多个配置中间用空格隔开。
+'''
+translate = '''
+            4. Apply the settings and click Apply for the configuration to take effect.
+    </TabItem>
+    <TabItem value="cb2" label="BIGTREETECH CB2">
+        1. Add dsi to the `overlays` value in `/boot/armbianEnv.txt`. Separate multiple overlays with spaces.
+'''
+
+[[block]]
+key = "4f60f53555b23712"
+origin = '''
+            系统默认带了`hdmi`的配置，如果您想同时启用两个屏幕，可以同时保留`hdmi`和`dsi`的配置，如果您只希望其中一个屏幕显示，那么只保留想要的屏幕配置，删除其他的屏幕配置即可。
+'''
+translate = '''
+            The system includes `hdmi` in the default configuration; to enable both screens, keep both hdmi and dsi, and to use only one screen, keep only the desired display configuration and remove the other.
+'''
+
+[[block]]
+key = "b612fac36697ce67"
+origin = '''
+            重启设备后配置即可生效。如果您同时配置了hdmi和外接的dsi屏幕，两个屏幕理应可以正常显示，并且显示完全一模一样的内容。此设备的DSI触摸I2C信号线与标准的BITREETECH Pi2不同，当前的系统镜像中还不支持此信号线的触摸，所以DSI屏幕上的触摸目前是无用的
+'''
+translate = '''
+            After restarting, the configuration will take effect. If both HDMI and external DSI displays are configured, both displays should show the same content. Important: The DSI touch I2C signal line on this device differs from the standard BIGTREETECH Pi2. The current system image does not yet support this touch signal, so touch functionality on the DSI display is currently unavailable.
+'''
+
+[[block]]
+key = "442bb358f6ff7051"
+origin = '''
+        2. 多屏显示的触摸需要重新绑定映射。
+'''
+translate = '''
+        2. Touch input must be remapped for multi-display setups.
+'''
+
+[[block]]
+key = "bd0465cc640b1f24"
+origin = '''
+            1. 设置DISPLAY为实际的屏幕：
+'''
+translate = '''
+            1. Set the display:
+'''
+
+[[block]]
+key = "f146af2246a071de"
+origin = '''
+                ``` shell
+                export DISPLAY=:0.0
+                ```
+'''
+translate = '''
+            ``` shell
+            export DISPLAY=:0.0
+            ```
+'''
+
+[[block]]
+key = "2ebd277f4258a02b"
+origin = '''
+            2. 查询显示器名称：
+'''
+translate = '''
+            2. Query display names:
+'''
+
+[[block]]
+key = "60fce066a33ab00c"
+origin = '''
+                ``` shell
+                xrandr -q
+                ```
+'''
+translate = '''
+                ``` shell
+                xrandr -q
+                ```
+'''
+
+[[block]]
+key = "5682e1283cd3a4c6"
+origin = '''
+                应答为：
+'''
+translate = '''
+                Example output:
+'''
+
+[[block]]
+key = "aef25cbe9f7459a1"
+origin = '''
+                ``` shell
+                Screen 0: minimum 320 x 200, current 1600 x 480, maximum 16384 x 16384
+                HDMI-1 connected primary 800x480+0+0 (normal left inverted right x axis y axis) 108mm x 62mm
+                800x480       68.35*+  68.35
+                640x480       60.00    59.94
+                DSI-1 connected 800x480+800+0 (normal left inverted right x axis y axis) 0mm x 0mm
+                800x480       56.06*+
+                ```
+'''
+translate = '''
+                ``` shell
+                Screen 0: minimum 320 x 200, current 1600 x 480, maximum 16384 x 16384
+                HDMI-1 connected primary 800x480+0+0 (normal left inverted right x axis y axis) 108mm x 62mm
+                800x480       68.35*+  68.35
+                640x480       60.00    59.94
+                DSI-1 connected 800x480+800+0 (normal left inverted right x axis y axis) 0mm x 0mm
+                800x480       56.06*+
+                ```
+'''
+
+[[block]]
+key = "cbcb9214c14fc1aa"
+origin = '''
+                可知，我们有HDMI-1和DSI-1两个显示屏可用
+'''
+translate = '''
+                This indicates that HDMI-1 and DSI-1 are available.
+'''
+
+[[block]]
+key = "899ec025127ab37b"
+origin = '''
+            3. 查询触摸设备：
+'''
+translate = '''
+            3. Query touch devices:
+'''
+
+[[block]]
+key = "a8245a37ef68b4f1"
+origin = '''
+                ``` shell
+                xinput list
+                ```
+'''
+translate = '''
+                ``` shell
+                xinput list
+                ```
+'''
+
+[[block]]
+key = "5682e1283cd3a4c6"
+origin = '''
+                应答为：
+'''
+translate = '''
+                Example output:
+'''
+
+[[block]]
+key = "bd722348eef6a22c"
+origin = '''
+                ``` shell
+                BIQU BTT-HDMI5                     id=9    [slave  pointer  (2)]
+                ```
+'''
+translate = '''
+                ``` shell
+                BIQU BTT-HDMI5                     id=9    [slave  pointer  (2)]
+                ```
+'''
+
+[[block]]
+key = "c4ce48b99c7f6ce7"
+origin = '''
+                可知，我们有BIQU BTT-HDMI5和id为9的触控设备可用
+'''
+translate = '''
+                This indicates that the touch device BIQU BTT-HDMI5 with ID 9 is available.
+'''
+
+[[block]]
+key = "895dd94d7113d739"
+origin = '''
+            4. 执行以下命令
+'''
+translate = '''
+            4. Run:
+'''
+
+[[block]]
+key = "8cdfb3bd37d142c3"
+origin = '''
+                ``` shell
+                xinput map-to-output 9 HDMI-1
+                ```
+'''
+translate = '''
+                ``` shell
+                xinput map-to-output 9 HDMI-1
+                ```
+'''
+
+[[block]]
+key = "ac02fc7f383e1fc5"
+origin = '''
+                将id为9的BIQU BTT-HDMI5触控设备映射到HDMI输出中。CB2的显示屏仅支持双屏同显，也就是说HDMI屏幕是作为主显示器，DSI的屏幕是跟随HDMI显示的，所以我们需要将触摸设备都绑定到HDMI上才行。
+'''
+translate = '''
+                This maps touch device ID 9 to the HDMI output. The CB2 supports mirrored dual-display output only, meaning the HDMI screen acts as the primary display while the DSI screen mirrors the HDMI output. Therefore, all touch devices should be mapped to HDMI.
+'''
+
+[[block]]
+key = "1d95fa51078b5c7c"
+origin = '''
+            5. 此命令重启后会失效，可自行添加到脚本中，开机自动运行
+    </TabItem>
+    <TabItem value="cb1" label="BIGTREETECH CB1">
+        - CB1 不支持此功能
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+            5. This command does not persist after reboot. Add it to a startup script if persistent mapping is required.
+    </TabItem>
+    <TabItem value="cb1" label="BIGTREETECH CB1">
+        - CB1 does not support this feature
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "13c135d9bcddca7e"
+origin = '''
+### CAM 摄像头
+'''
+translate = '''
+### CAM Camera
+'''
+
+[[block]]
+key = "9af6f155ad15b86d"
+origin = '''
+<Tabs groupId="core-board">
+    <TabItem value="rpi" label="Raspberry Pi" default>
+'''
+translate = '''
+<Tabs groupId="core-board">
+    <TabItem value="rpi" label="Raspberry Pi" default>
+'''
+
+[[block]]
+key = "14f970640fe5d001"
+origin = '''
+        1. 在 `/boot/firmware/config.txt` 文件里面修改如下配置，然后重启设备生效。这里以0v5647型号的摄像头为例，如果使用其他的型号请配置为实际使用的型号。
+'''
+translate = '''
+        1. Edit ` /boot/firmware/config.txt` as follows. And restart the device after editing the configuration. The OV5647 camera is used here as an example. If you are using a different camera model, replace the overlay with the appropriate one.
+'''
+
+[[block]]
+key = "416568dcce33f5cc"
+origin = '''
+            <Tabs groupId="core-rpi">
+                <TabItem value="cm5" label="CM5" default>
+'''
+translate = '''
+            <Tabs groupId="core-rpi">
+                <TabItem value="cm5" label="CM5" default>
+'''
+
+[[block]]
+key = "485ce9a6112bdbe2"
+origin = '''
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm5]
+                    dtoverlay=ov5647,cam0
+                    ```
+                </TabItem>
+                <TabItem value="cm4" label="CM4" default>
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm4]
+                    dtoverlay=ov5647
+                    ```
+                </TabItem>
+            </Tabs>
+'''
+translate = '''
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm5]
+                    dtoverlay=ov5647,cam0
+                    ```
+                </TabItem>
+                <TabItem value="cm4" label="CM4" default>
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm4]
+                    dtoverlay=ov5647
+                    ```
+                </TabItem>
+            </Tabs>
+'''
+
+[[block]]
+key = "03a1ea5c814b4347"
+origin = '''
+        2. 测试摄像头
+'''
+translate = '''
+        2. Testing the Camera
+'''
+
+[[block]]
+key = "66570228675bcb18"
+origin = '''
+            读取摄像头信息：
+'''
+translate = '''
+            List available cameras:
+'''
+
+[[block]]
+key = "b0b3d532675bf0eb"
+origin = '''
+            ``` shell
+            rpicam-hello --list-camera
+            ```
+'''
+translate = '''
+            ``` shell
+            rpicam-hello --list-camera
+            ```
+'''
+
+[[block]]
+key = "058f0140047f83cb"
+origin = '''
+            设置摄像头的画面显示到屏幕上：
+'''
+translate = '''
+            Set the display output:
+'''
+
+[[block]]
+key = "f146af2246a071de"
+origin = '''
+            ``` shell
+            export DISPLAY=:0.0
+            ```
+'''
+translate = '''
+            ``` shell
+            export DISPLAY=:0.0
+            ```
+'''
+
+[[block]]
+key = "2ab0640159ce280a"
+origin = '''
+            开始监控摄像头（不能以root权限运行）：
+'''
+translate = '''
+            Start the camera preview(do not run as root):
+'''
+
+[[block]]
+key = "a815bb411a807697"
+origin = '''
+            ``` shell
+            rpicam-hello --timeout 0 --camera 0
+            ```
+'''
+translate = '''
+            ``` shell
+            rpicam-hello --timeout 0 --camera 0
+            ```
+'''
+
+[[block]]
+key = "8b8f656e60783d12"
+origin = '''
+            更详细的用法请参考：
+            https://www.raspberrypi.com/documentation/computers/camera_software.html
+    </TabItem>
+    <TabItem value="cb2" label="BIGTREETECH CB2">
+        1. 在`/boot/armbianEnv.txt`文件的`overlays`的值中添加 `csi` 配置，多个配置中间用空格隔开,然后重启设备。CB2的系统镜像中目前仅适配了` ov5647` 和 `imx219`的驱动，所以目前仅支持这两款类型的CSI摄像头，系统会自动识别摄像头类型，无需额外设置。
+'''
+translate = '''
+            For more detailed usage, refer to the Raspberry Pi Camera Software Documentation:
+            https://www.raspberrypi.com/documentation/computers/camera_software.html
+    </TabItem>
+    <TabItem value="cb2" label="BIGTREETECH CB2">
+        1. Add `csi ` to the `overlays` value in ` /boot/armbianEnv.txt `, separating multiple overlays with spaces, then restart the device; the current CB2 system image supports only the ` ov5647` and `imx219` CSI camera drivers, and the system will automatically detect the camera type, so no additional configuration is required.
+'''
+
+[[block]]
+key = "874168e4de8683ab"
+origin = '''
+        2. 启动后使用命令
+'''
+translate = '''
+        2. After booting, run:
+'''
+
+[[block]]
+key = "b00d0b4821f6dff5"
+origin = '''
+            ``` shell
+            dmesg | grep csi
+            dmesg | grep ov5647
+            dmesg | grep imx219
+            ```
+'''
+translate = '''
+            ``` shell
+            dmesg | grep csi
+            dmesg | grep ov5647
+            dmesg | grep imx219
+            ```
+'''
+
+[[block]]
+key = "71c04df177b5b034"
+origin = '''
+            查找CSI摄像头是否有被正常识别。
+    </TabItem>
+    <TabItem value="cb1" label="BIGTREETECH CB1">
+        - CB1 不支持此功能
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+            Check whether the CSI camera has been detected correctly.
+    </TabItem>
+    <TabItem value="cb1" label="BIGTREETECH CB1">
+        - CB1 does not support this feature
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "7782439bdc9ad0ee"
+origin = '''
+### RTC
+'''
+translate = '''
+### RTC
+'''
+
+[[block]]
+key = "d1608f3e0053167a"
+origin = '''
+:::info
+
+板载的 RTC 为 `PCF8563`，需要安装 CR1220 纽扣电池，RTC才能在断电时正常工作。
+
+:::
+'''
+translate = '''
+:::info
+
+The onboard RTC chip is `PCF8563`; a CR1220 coin cell battery must be installed for the RTC to continue operating when power is disconnected.
+
+:::
+'''
+
+[[block]]
+key = "9af6f155ad15b86d"
+origin = '''
+<Tabs groupId="core-board">
+    <TabItem value="rpi" label="Raspberry Pi" default>
+'''
+translate = '''
+<Tabs groupId="core-board">
+    <TabItem value="rpi" label="Raspberry Pi" default>
+'''
+
+[[block]]
+key = "cd5a1d1b71ed24df"
+origin = '''
+        1. 在 `/boot/firmware/config.txt` 文件里面修改如下配置，然后重启设备生效
+'''
+translate = '''
+        1. Edit `/boot/firmware/config.txt` as follows. And restart the device after editing the configuration.
+'''
+
+[[block]]
+key = "416568dcce33f5cc"
+origin = '''
+            <Tabs groupId="core-rpi">
+                <TabItem value="cm5" label="CM5" default>
+'''
+translate = '''
+            <Tabs groupId="core-rpi">
+                <TabItem value="cm5" label="CM5" default>
+'''
+
+[[block]]
+key = "b1b99c5b001391a5"
+origin = '''
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm5]
+                    dtparam=i2c_vc=on
+                    dtoverlay=i2c-rtc,pcf8563,i2c_csi_dsi0
+                    ```
+                </TabItem>
+                <TabItem value="cm4" label="CM4" default>
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm4]
+                    dtparam=i2c_vc=on
+                    dtoverlay=i2c-rtc,pcf8563,i2c_csi_dsi
+                    ```
+                </TabItem>
+            </Tabs>
+'''
+translate = '''
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm5]
+                    dtparam=i2c_vc=on
+                    dtoverlay=i2c-rtc,pcf8563,i2c_csi_dsi0
+                    ```
+                </TabItem>
+                <TabItem value="cm4" label="CM4" default>
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm4]
+                    dtparam=i2c_vc=on
+                    dtoverlay=i2c-rtc,pcf8563,i2c_csi_dsi
+                    ```
+                </TabItem>
+            </Tabs>
+'''
+
+[[block]]
+key = "874168e4de8683ab"
+origin = '''
+        2. 启动后使用命令
+'''
+translate = '''
+        2. After booting, run:
+'''
+
+[[block]]
+key = "f6d0f8b5fce419b3"
+origin = '''
+            ``` shell
+            dmesg | grep rtc
+            ```
+'''
+translate = '''
+            ``` shell
+            dmesg | grep rtc
+            ```
+'''
+
+[[block]]
+key = "74a1da493052bf06"
+origin = '''
+            查找RTC挂载的设备号，如果pcf8563挂载为 rtc0时，读写rtc的命令就需要使用rtc0，如果挂载为rtc1，就需要使用rtc1。
+'''
+translate = '''
+            Check which RTC device number has been assigned; if pcf8563 is mounted as rtc0, use rtc0 in the following commands, and if it is mounted as rtc1, use rtc1 instead.
+'''
+
+[[block]]
+key = "00b7bd4d34503f85"
+origin = '''
+        3. 测试RTC，以pcf8563挂载为rtc1为例
+'''
+translate = '''
+        3. RTC Test Example: Using rtc1 as an example.
+'''
+
+[[block]]
+key = "85445af233a42035"
+origin = '''
+            将系统时间写入RTC：
+'''
+translate = '''
+            Write the system time to RTC:
+'''
+
+[[block]]
+key = "434b5ddcbad8ef00"
+origin = '''
+            ``` shell
+            sudo hwclock -w -f /dev/rtc1
+            ```
+'''
+translate = '''
+            ``` shell
+            sudo hwclock -w -f /dev/rtc1
+            ```
+'''
+
+[[block]]
+key = "b626386bb51079c7"
+origin = '''
+            将RTC的时间设置为系统时间：
+'''
+translate = '''
+            Set the system time from RTC:
+'''
+
+[[block]]
+key = "d8f59e6b9f8bf194"
+origin = '''
+            ``` shell
+            sudo hwclock -s -f /dev/rtc1
+            ```
+'''
+translate = '''
+            ``` shell
+            sudo hwclock -s -f /dev/rtc1
+            ```
+'''
+
+[[block]]
+key = "8c4f4150072fa900"
+origin = '''
+            打印RTC中的时间：
+'''
+translate = '''
+            Read and display the RTC time:
+'''
+
+[[block]]
+key = "694324cdf463ac07"
+origin = '''
+            ``` shell
+            sudo hwclock -r -f /dev/rtc1
+            ```
+    </TabItem>
+    <TabItem value="cb2" label="BIGTREETECH CB2">
+        1. 在 `/boot/armbianEnv.txt `文件的`overlays`的值中添加` rtc_pcf8563 `配置，多个配置中间用空格隔开，然后重启设备。
+'''
+translate = '''
+            ``` shell
+            sudo hwclock -r -f /dev/rtc1
+            ```
+    </TabItem>
+    <TabItem value="cb2" label="BIGTREETECH CB2">
+        1. Add `rtc_pcf8563` to the `overlays` value in `/boot/armbianEnv.txt`, separating multiple overlays with spaces, then restart the device.
+'''
+
+[[block]]
+key = "874168e4de8683ab"
+origin = '''
+        2. 启动后使用命令
+'''
+translate = '''
+        2. After booting, run:
+'''
+
+[[block]]
+key = "f6d0f8b5fce419b3"
+origin = '''
+            ``` shell
+            dmesg | grep rtc
+            ```
+'''
+translate = '''
+            ``` shell
+            dmesg | grep rtc
+            ```
+'''
+
+[[block]]
+key = "16cb419eb35b6648"
+origin = '''
+            查找RTC挂载的设备号，如果`pcf8563`挂载为 `rtc0`时，读写rtc的命令就需要使用rtc0，如果挂载为`rtc1`，就需要使用`rtc1`。
+'''
+translate = '''
+            Check which RTC device number has been assigned. If `pcf8563` is mounted as `rtc0`, use `rtc0` in the following commands. If it is mounted as `rtc1`, use `rtc1` instead.
+'''
+
+[[block]]
+key = "785439518cce7636"
+origin = '''
+        3. 测试RTC，以`pcf8563`挂载为`rtc0`为例
+            将系统时间写入RTC：
+'''
+translate = '''
+        3. RTC Test Example: Using rtc0 as an example.
+            Write the system time to RTC:
+'''
+
+[[block]]
+key = "d88eb4d7c60aaff6"
+origin = '''
+            ``` shell
+            sudo hwclock -w -f /dev/rtc0
+            ```
+'''
+translate = '''
+            ``` shell
+            sudo hwclock -w -f /dev/rtc0
+            ```
+'''
+
+[[block]]
+key = "b626386bb51079c7"
+origin = '''
+            将RTC的时间设置为系统时间：
+'''
+translate = '''
+            Set the system time from RTC:
+'''
+
+[[block]]
+key = "f7633a8946aeadda"
+origin = '''
+            ``` shell
+            sudo hwclock -s -f /dev/rtc0
+            ```
+'''
+translate = '''
+            ``` shell
+            sudo hwclock -s -f /dev/rtc0
+            ```
+'''
+
+[[block]]
+key = "8c4f4150072fa900"
+origin = '''
+            打印RTC中的时间：
+'''
+translate = '''
+            Read and display the RTC time:
+'''
+
+[[block]]
+key = "a7b08ab091af82cc"
+origin = '''
+            ``` shell
+            sudo hwclock -r -f /dev/rtc0
+            ```
+    </TabItem>
+    <TabItem value="cb1" label="BIGTREETECH CB1">
+        - CB1 不支持此功能
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+            ``` shell
+            sudo hwclock -r -f /dev/rtc0
+            ```
+    </TabItem>
+    <TabItem value="cb1" label="BIGTREETECH CB1">
+        - CB1 does not support this feature
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "85fd6736dfe58c6b"
+origin = '''
+### CANBus
+'''
+translate = '''
+### CANBus
+'''
+
+[[block]]
+key = "9af6f155ad15b86d"
+origin = '''
+<Tabs groupId="core-board">
+    <TabItem value="rpi" label="Raspberry Pi" default>
+'''
+translate = '''
+<Tabs groupId="core-board">
+    <TabItem value="rpi" label="Raspberry Pi" default>
+'''
+
+[[block]]
+key = "542e4c87de740fb7"
+origin = '''
+        1. 在 /boot/firmware/config.txt 文件里面配置, CM5与CM4都使用如下配置
+'''
+translate = '''
+        1. Edit `/boot/firmware/config.txt` as follows; the same configuration applies to both CM5 and CM4.
+'''
+
+[[block]]
+key = "b56b4685e16ae5ef"
+origin = '''
+            ``` systemd title="/boot/firmware/config.txt"
+            [all]
+            dtparam=spi=on
+            dtoverlay=mcp2515-can0,oscillator=12000000,interrupt=24,spimaxfrequency=10000000
+            ```
+'''
+translate = '''
+            ``` systemd title="/boot/firmware/config.txt"
+            [all]
+            dtparam=spi=on
+            dtoverlay=mcp2515-can0,oscillator=12000000,interrupt=24,spimaxfrequency=10000000
+            ```
+'''
+
+[[block]]
+key = "676fb7c9a807af9c"
+origin = '''
+            然后重启设备
+'''
+translate = '''
+            Restart the device.
+'''
+
+[[block]]
+key = "874168e4de8683ab"
+origin = '''
+        2. 启动后使用命令
+'''
+translate = '''
+        2. After booting, run:
+'''
+
+[[block]]
+key = "2b3890ad9d8fa289"
+origin = '''
+            ``` shell
+            dmesg | grep -i '\(can\|spi\)'
+            ```
+'''
+translate = '''
+            ``` shell
+            dmesg | grep -i '\(can\|spi\)'
+            ```
+'''
+
+[[block]]
+key = "2012c3cf15b9e529"
+origin = '''
+            查询 MCP2515 是否正常启动，正常的应答如下
+'''
+translate = '''
+            Check whether the MCP2515 has been initialized successfully; a normal response will look similar to:
+'''
+
+[[block]]
+key = "bf261acb1d940588"
+origin = '''
+            ``` shell
+            [ 8.680446] CAN device driver interface
+            [ 8.697558] mcp251x spi0.0 can0: MCP2515 successfully initialized.
+            [ 9.482332] IPv6: ADDRCONF(NETDEV_CHANGE): can0: link becomes ready
+            ```
+    </TabItem>
+    <TabItem value="cb2" label="BIGTREETECH CB2">
+        - CB2 不支持此功能
+    </TabItem>
+    <TabItem value="cb1" label="BIGTREETECH CB1">
+        - CB1 不支持此功能
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+            ``` shell
+            [ 8.680446] CAN device driver interface
+            [ 8.697558] mcp251x spi0.0 can0: MCP2515 successfully initialized.
+            [ 9.482332] IPv6: ADDRCONF(NETDEV_CHANGE): can0: link becomes ready
+            ```
+    </TabItem>
+    <TabItem value="cb2" label="BIGTREETECH CB2">
+        - CB2 does not support this feature
+    </TabItem>
+    <TabItem value="cb1" label="BIGTREETECH CB1">
+        - CB1 does not support this feature
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "ebbaea1438438f69"
+origin = '''
+## 注意事项
+'''
+translate = '''
+## Notes
+'''
+
+[[block]]
+key = "cf0fc81ceed0cf20"
+origin = '''
+1. 设备板载的SPI转CANbus芯片，使用的是40 Pin GPIO上面的pin，所以40 Pin GPIO 上对应的pin不推荐再外接其他设备。使用的SPI pin详情如下：
+'''
+translate = '''
+1. The onboard SPI-to-CAN controller uses pins from the 40-pin GPIO header, so it is not recommended to connect other devices to those same pins. SPI pins used:
+'''
+
+[[block]]
+key = "2a27faef26ea74e1"
+origin = '''
+    | 功能 | Raspberry Pi | BIGTREETECH CB2            | BIGTREETECH CB1 | BIGTREETECH CB1 eMMC |
+    | ---- | ------------ | -------------------------- | --------------- | -------------------- |
+    | CS   | GPIO8        | GPIO4_A2(gpiochip4/gpio2)  | NC              | NC                   |
+    | MISO | GPIO9        | GPIO3_C2(gpiochip3/gpio18) | PH8(GPIO232)    | PH8(GPIO232)         |
+    | MOSI | GPIO10       | GPIO3_C1(gpiochip3/gpio17) | PH7(GPIO231)    | PH7(GPIO231)         |
+    | SCK  | GPIO11       | GPIO3_C3(gpiochip3/gpio19) | PH6(GPIO230)    | PH6(GPIO230)         |
+    | INT  | GPIO24       | GPIO4_A3(gpiochip4/gpio3)  | PC9(GPIO73)     | PI3(GPIO259)         |
+'''
+translate = '''
+    | Feature | Raspberry Pi | BIGTREETECH CB2            | BIGTREETECH CB1 | BIGTREETECH CB1 eMMC |
+    | ------- | ------------ | -------------------------- | --------------- | -------------------- |
+    | CS      | GPIO8        | GPIO4_A2(gpiochip4/gpio2)  | NC              | NC                   |
+    | MISO    | GPIO9        | GPIO3_C2(gpiochip3/gpio18) | PH8(GPIO232)    | PH8(GPIO232)         |
+    | MOSI    | GPIO10       | GPIO3_C1(gpiochip3/gpio17) | PH7(GPIO231)    | PH7(GPIO231)         |
+    | SCK     | GPIO11       | GPIO3_C3(gpiochip3/gpio19) | PH6(GPIO230)    | PH6(GPIO230)         |
+    | INT     | GPIO24       | GPIO4_A3(gpiochip4/gpio3)  | PC9(GPIO73)     | PI3(GPIO259)         |
+'''
+
+[[block]]
+key = "64c664ee82c53555"
+origin = '''
+2. Raspberry Pi CM5 的DSI和CSI均可使用相同的pin输出，所以设备板载的DSI，CAM (CSI)接口当搭配 CM5 使用时，均可随意配置为DSI，CSI功能，即可以配置为两个DSI显示屏，也可配置为两个CSI摄像头。
+    <Tabs groupId="cm5-dphy">
+        <TabItem value="cm5-dphy0" label="CAM(CSI) DPHY0端口" default>
+            <Tabs groupId="dphy0">
+                <TabItem value="dphy0-dsi" label="配置为DSI显示屏" default>
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm5]
+                    dtoverlay=vc4-kms-v3d
+                    dtoverlay=vc4-kms-dsi-7inch,dsi0
+                    dtoverlay=edt-ft5406,i2c_csi_dsi0
+                    ```
+                </TabItem>
+                <TabItem value="dphy0-csi" label="配置为CSI摄像头">
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm5]
+                    dtoverlay=ov5647,cam0
+                    ```
+                </TabItem>
+            </Tabs>
+        </TabItem>
+        <TabItem value="cm5-dphy1" label="DSI DPHY1端口">
+            <Tabs groupId="dphy1">
+                <TabItem value="dphy1-dsi" label="配置为DSI显示屏" default>
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm5]
+                    dtoverlay=vc4-kms-v3d
+                    dtoverlay=vc4-kms-dsi-7inch
+                    dtoverlay=edt-ft5406,i2c_csi_dsi
+                    ```
+                </TabItem>
+                <TabItem value="dphy1-csi" label="配置为CSI摄像头">
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm5]
+                    dtoverlay=ov5647
+                    ```
+                </TabItem>
+            </Tabs>
+        </TabItem>
+    </Tabs>
+'''
+translate = '''
+2. On the Raspberry Pi CM5, both DSI and CSI can use the same pin output. Therefore, when using CM5, the onboard DSI and CAM (CSI) interfaces can be configured freely as either DSI or CSI. This means the board can be configured for either two DSI displays or two CSI cameras.
+    <Tabs groupId="cm5-dphy">
+        <TabItem value="cm5-dphy0" label="CAM(CSI) DPHY0 Port" default>
+            <Tabs groupId="dphy0">
+                <TabItem value="dphy0-dsi" label="Configure as a DSI display" default>
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm5]
+                    dtoverlay=vc4-kms-v3d
+                    dtoverlay=vc4-kms-dsi-7inch,dsi0
+                    dtoverlay=edt-ft5406,i2c_csi_dsi0
+                    ```
+                </TabItem>
+                <TabItem value="dphy0-csi" label="Configure as a CSI camera">
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm5]
+                    dtoverlay=ov5647,cam0
+                    ```
+                </TabItem>
+            </Tabs>
+        </TabItem>
+        <TabItem value="cm5-dphy1" label="DSI DPHY1 Port">
+            <Tabs groupId="dphy1">
+                <TabItem value="dphy1-dsi" label="Configure as a DSI display" default>
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm5]
+                    dtoverlay=vc4-kms-v3d
+                    dtoverlay=vc4-kms-dsi-7inch
+                    dtoverlay=edt-ft5406,i2c_csi_dsi
+                    ```
+                </TabItem>
+                <TabItem value="dphy1-csi" label="Configure as a CSI camera">
+                    ``` systemd title="/boot/firmware/config.txt"
+                    [cm5]
+                    dtoverlay=ov5647
+                    ```
+                </TabItem>
+            </Tabs>
+        </TabItem>
+    </Tabs>
+'''
+
+[[block]]
+key = "4bb7f598e6a3143f"
+origin = '''
+3. eMMC版本的Raspberry Pi CM4/CM5 仅支持系统运行在eMMC中，完全不支持从Micro SD卡启动。而 eMMC 版本的BIGTREETECH CB1/CB2 仍然支持并以 Micro SD 中的系统作为第一优先级启动。
+'''
+translate = '''
+3. For Raspberry Pi CM4/CM5 eMMC versions, the system runs only from eMMC and does not support booting from a Micro SD card, whereas BIGTREETECH CB1/CB2 eMMC versions still support Micro SD card booting, with the Micro SD card having higher boot priority.
+'''

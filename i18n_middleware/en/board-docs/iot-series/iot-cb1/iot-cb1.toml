@@ -1,0 +1,143 @@
+[metadata]
+
+[[block]]
+key = "ca0224986bd6ee8c"
+origin = '''
+---
+sidebar_position: 1
+description: CB1
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: CB1
+---
+'''
+
+[[block]]
+key = "0e621c26636939bc"
+origin = '''
+# CB1
+'''
+translate = '''
+# CB1
+'''
+
+[[block]]
+key = "49b2bf7f593d1f7c"
+origin = '''
+import DocCardList from '@theme/DocCardList';
+'''
+translate = '''
+import DocCardList from '@theme/DocCardList';
+'''
+
+[[block]]
+key = "2e2cf0dde5c8aa28"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/cb1-title.webp').default} width="40%" class="right-image"/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/cb1-title.webp').default} width="40%" class="right-image"/>
+'''
+
+[[block]]
+key = "f9c6f48ba32e89c6"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product Overview
+'''
+
+[[block]]
+key = "7d1656949a6d237d"
+origin = '''
+BIGTREETECH CB1 是针对树莓派 CM4 缺货问题推出的替代方案,所有输出信号采用 2 个 100PIN 微型 BTB 高速连接座与外面扩展底板方便快速连接(包括百兆以太 HDMI 等)，板载 2.4G WIFI。
+'''
+translate = '''
+The BIGTREETECH CB1 is an alternative solution designed to address the shortage of Raspberry Pi CM4 units. All output signals are connected via two 100-pin micro BTB high-speed connectors to an external expansion board for quick and easy connectivity (including 100Mbps Ethernet, HDMI, and more). It features onboard 2.4GHz Wi-Fi.
+'''
+
+[[block]]
+key = "4d4959c39d636065"
+origin = '''
+## 功能亮点
+'''
+translate = '''
+## Key Features
+'''
+
+[[block]]
+key = "e0a13fe8859a2d53"
+origin = '''
+- CPU: 全志 H616，四核 Cortex-A53 @1.5GHz
+- GPU: Mali G31 MP2, 支持 OpenGL3.2
+- RAM: 512MB/1GB DDR3L SDRAM
+- 显示: HDMI2.0A 接口，支持 4K 显示器
+- USB2.0 端口
+- 百兆以太网+百兆 WIFI
+- 与树莓派 CM4 完全相同的 BTB 座子
+'''
+translate = '''
+- CPU: Allwinner H616, quad-core Cortex-A53 @ 1.5GHz
+- GPU: Mali G31 MP2, supports OpenGL 3.2
+- RAM: 512MB/1GB DDR3L SDRAM
+- Display: HDMI 2.0a port, supports 4K displays
+- USB 2.0 ports
+- 100Mbps Ethernet + 100Mbps Wi-Fi
+- BTB socket identical to the Raspberry Pi CM4
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "f8f4ecdd19846e76"
+origin = '''
+## 规格
+'''
+translate = '''
+## Specifications
+'''
+
+[[block]]
+key = "0ce34ece867b752f"
+origin = '''
+| 外观尺寸 | 40mm*55mm         |
+| -------- | ----------------- |
+| 安装尺寸 | 33mm*48mm         |
+| 输入电压 | 5V±5%/2A          |
+| 输出电压 | 3.3V±2%/100mA     |
+| 输出电压 | 1.8V±2%/100mA     |
+| WIFI     | 2.4G/802.11 b/g/n |
+'''
+translate = '''
+| Dimensions          | 40mm × 55mm            |
+| ------------------- | ---------------------- |
+| Mounting Dimensions | 33mm x 48mm            |
+| Input Voltage       | 5V ±5% / 2A            |
+| Output Voltage      | 3.3V ±2% / 100mA       |
+| Output Voltage      | 1.8V ±2% / 100mA       |
+| Wi-Fi               | 2.4 GHz / 802.11 b/g/n |
+'''
+
+[[block]]
+key = "d3ac9811ffbf8210"
+origin = '''
+<DocCardList />
+'''
+translate = '''
+<DocCardList />
+'''

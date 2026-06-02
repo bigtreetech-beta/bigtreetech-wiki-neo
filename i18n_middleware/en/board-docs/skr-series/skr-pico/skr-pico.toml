@@ -1,0 +1,149 @@
+[metadata]
+
+[[block]]
+key = "0becf776cf6c47a5"
+origin = '''
+---
+sidebar_position: 1
+description: SKR Pico
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: SKR Pico
+---
+'''
+
+[[block]]
+key = "36f84deba9321267"
+origin = '''
+# SKR Pico
+'''
+translate = '''
+# SKR Pico
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "9a4d9968e431e52b"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import DocCardList from '@theme/DocCardList';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import DocCardList from '@theme/DocCardList';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "799a7cb4ff4e8de8"
+origin = '''
+<div class="div-table">
+
+<ImageView 
+    src={require('./img/skr-pico-main.png').default} 
+    width="45%" class="right-image"
+/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView 
+    src={require('@site/docs/board-docs/skr-series/skr-pico/img/skr-pico-main.png').default} 
+    width="45%" class="right-image"
+/>
+'''
+
+[[block]]
+key = "61695731d894e982"
+origin = '''
+## 简介
+'''
+translate = '''
+## 简介
+'''
+
+[[block]]
+key = "3233095e0af34029"
+origin = '''
+SKR Pico 是一块专门为 Voron 0 系列设计的板子。可以直接和 Raspberry Pi 系列直接堆叠安装。减少所需要的安装空间。
+'''
+translate = '''
+SKR Pico 是一块专门为 Voron 0 系列设计的板子。可以直接和 Raspberry Pi 系列直接堆叠安装。减少所需要的安装空间。
+'''
+
+[[block]]
+key = "5896f32630f9d24c"
+origin = '''
+## Specification
+'''
+translate = '''
+## Specification
+'''
+
+[[block]]
+key = "49fc23ae99dc6fcd"
+origin = '''
+| Specification                  | SKR Pico              |
+| ------------------------------ | --------------------- |
+| MCU                            | ARM Cortex-M0+ RP2040 |
+| 外观尺寸                       | 85 * 56mm             |
+| 板层                           | 4层                   |
+| 电源输入                       | DC 12/24V             |
+| 逻辑电压                       | 3.3V                  |
+| 电机驱动器                     | $4*$ TMC2209          |
+| 电机驱动接口                   | X / Y / Z1 / Z2 / E   |
+| 温度传感器接口                 | TH0、 THB             |
+| 与Raspberry Pi(树莓派)通信接口 | USB TYPE-C / 串口     |
+'''
+translate = '''
+| Specification                  | SKR Pico              |
+| ------------------------------ | --------------------- |
+| MCU                            | ARM Cortex-M0+ RP2040 |
+| 外观尺寸                       | 85 * 56mm             |
+| 板层                           | 4层                   |
+| 电源输入                       | DC 12/24V             |
+| 逻辑电压                       | 3.3V                  |
+| 电机驱动器                     | $4*$ TMC2209          |
+| 电机驱动接口                   | X / Y / Z1 / Z2 / E   |
+| 温度传感器接口                 | TH0、 THB             |
+| 与Raspberry Pi(树莓派)通信接口 | USB TYPE-C / 串口     |
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "d3ac9811ffbf8210"
+origin = '''
+<DocCardList />
+'''
+translate = '''
+<DocCardList />
+'''

@@ -1,0 +1,485 @@
+[metadata]
+
+[[block]]
+key = "4855ce79b684dd16"
+origin = '''
+---
+sidebar_position: 2
+description: Manta M4P 硬件功能配置
+---
+'''
+translate = '''
+---
+sidebar_position: 2
+description: Manta M4P 硬件功能配置
+---
+'''
+
+[[block]]
+key = "4a243af208849bf4"
+origin = '''
+# Manta M4P 硬件功能
+'''
+translate = '''
+# Manta M4P 硬件功能
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "e4e43b6d7201907d"
+origin = '''
+## 外观尺寸
+'''
+translate = '''
+## 外观尺寸
+'''
+
+[[block]]
+key = "5e7ce36b3886b7f6"
+origin = '''
+:::info[STEP 模型]
+
+Manta M4P 模型 [BIGTREETECH_Manta_M4P_V2.1_220608_3D.step](https://github.com/bigtreetech/Manta-M4P/blob/master/3D/BIGTREETECH_Manta_M4P_V2.1_220608_3D.step)
+
+:::
+'''
+translate = '''
+:::info[STEP 模型]
+
+Manta M4P 模型 [BIGTREETECH_Manta_M4P_V2.1_220608_3D.step](https://github.com/bigtreetech/Manta-M4P/blob/master/3D/BIGTREETECH_Manta_M4P_V2.1_220608_3D.step)
+
+:::
+'''
+
+[[block]]
+key = "73af5c22f0615608"
+origin = '''
+<ImageView src={require('./img/M4P_Size.webp').default} width="100%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m4p/img/M4P_Size.webp').default} width="100%"/>
+'''
+
+[[block]]
+key = "a2df1b4a41a65fdc"
+origin = '''
+## Pinout
+'''
+translate = '''
+## Pinout
+'''
+
+[[block]]
+key = "bd8a65f44e32d775"
+origin = '''
+:::info[原理图 / Schematic]
+
+Manta M4P v2 原理图 [bigtreetech_manta_m4p_v2.1_220608_SCH.pdf](https://github.com/bigtreetech/Manta-M4P/blob/master/Hardware/bigtreetech_manta_m4p_v2.1_220608_SCH.pdf)
+
+:::
+'''
+translate = '''
+:::info[原理图 / Schematic]
+
+Manta M4P v2 原理图 [bigtreetech_manta_m4p_v2.1_220608_SCH.pdf](https://github.com/bigtreetech/Manta-M4P/blob/master/Hardware/bigtreetech_manta_m4p_v2.1_220608_SCH.pdf)
+
+:::
+'''
+
+[[block]]
+key = "a9b400c356a058ed"
+origin = '''
+<ImageView src={require('./img/M4P_Pinout.webp').default} width="100%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m4p/img/M4P_Pinout.webp').default} width="100%"/>
+'''
+
+[[block]]
+key = "65fe332995c323ad"
+origin = '''
+## 步进电机驱动
+'''
+translate = '''
+## 步进电机驱动
+'''
+
+[[block]]
+key = "1a4a3842613a0d20"
+origin = '''
+### 驱动模式
+'''
+translate = '''
+### 驱动模式
+'''
+
+[[block]]
+key = "cd354cdfec14f280"
+origin = '''
+<Tabs groupId="m4p-stepper-driver">
+    <TabItem value="tmc-uart" label="Uart 模式" default>
+'''
+translate = '''
+<Tabs groupId="m4p-stepper-driver">
+    <TabItem value="tmc-uart" label="Uart 模式" default>
+'''
+
+[[block]]
+key = "7abfe71d26c41d9f"
+origin = '''
+        使用 Uart 模式连接驱动
+        <ImageView
+            src={require('./img/M4P_TMC_UART_Mode.webp').default}
+            alt="" width="100%"
+        />
+    </TabItem>
+    <TabItem value="tmc-spi" label="SPI 模式">
+        使用 SPI 模式连接驱动
+        <ImageView
+            src={require('./img/M4P_TMC_SPI_Mode.webp').default}
+            alt="" width="100%"
+        />
+    </TabItem>
+    <TabItem value="step-dir" label="Step / dir 模式">
+        A4988 / DRV8825 使用跳线帽短接 MS0-MS2 以调整细分
+        <ImageView src={require('./img/M4P_Stepper_Driver.webp').default} width="100%"/>
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+        使用 Uart 模式连接驱动
+        <ImageView
+            src={require('@site/docs/board-docs/manta-series/manta-m4p/img/M4P_TMC_UART_Mode.webp').default}
+            alt="" width="100%"
+        />
+    </TabItem>
+    <TabItem value="tmc-spi" label="SPI 模式">
+        使用 SPI 模式连接驱动
+        <ImageView
+            src={require('@site/docs/board-docs/manta-series/manta-m4p/img/M4P_TMC_SPI_Mode.webp').default}
+            alt="" width="100%"
+        />
+    </TabItem>
+    <TabItem value="step-dir" label="Step / dir 模式">
+        A4988 / DRV8825 使用跳线帽短接 MS0-MS2 以调整细分
+        <ImageView src={require('@site/docs/board-docs/manta-series/manta-m4p/img/M4P_Stepper_Driver.webp').default} width="100%"/>
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "7597071185858aae"
+origin = '''
+### TMC Sensorless
+'''
+translate = '''
+### TMC Sensorless
+'''
+
+[[block]]
+key = "3ee55fc78c6d6472"
+origin = '''
+<ImageView src={require('./img/M4P_TMC_DIAG_Mode.webp').default} width="100%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m4p/img/M4P_TMC_DIAG_Mode.webp').default} width="100%"/>
+'''
+
+[[block]]
+key = "e399c8f991a5a5a8"
+origin = '''
+### 驱动电压选择
+'''
+translate = '''
+### 驱动电压选择
+'''
+
+[[block]]
+key = "85e4932753691ec7"
+origin = '''
+<Tabs groupId="m4p-driver-power">
+    <TabItem value="m4p-power-24" label="使用 24V 电源" default>
+'''
+translate = '''
+<Tabs groupId="m4p-driver-power">
+    <TabItem value="m4p-power-24" label="使用 24V 电源" default>
+'''
+
+[[block]]
+key = "7c5fa1a59c5e0a36"
+origin = '''
+        <ImageView src={require('./img/M4P_driver_24.webp').default} width="100%"/>
+'''
+translate = '''
+        <ImageView src={require('@site/docs/board-docs/manta-series/manta-m4p/img/M4P_driver_24.webp').default} width="100%"/>
+'''
+
+[[block]]
+key = "03fe531cc6154954"
+origin = '''
+    </TabItem>
+    <TabItem value="m4p-power-48" label="使用 48V 电源">
+        <ImageView src={require('./img/M4P_driver_48.webp').default} width="100%"/>
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+    </TabItem>
+    <TabItem value="m4p-power-48" label="使用 48V 电源">
+        <ImageView src={require('@site/docs/board-docs/manta-series/manta-m4p/img/M4P_driver_48.webp').default} width="100%"/>
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "2e57f54e9eed83b0"
+origin = '''
+## 核心板
+'''
+translate = '''
+## 核心板
+'''
+
+[[block]]
+key = "74aa951c0c99de92"
+origin = '''
+### 核心板安装
+'''
+translate = '''
+### 核心板安装
+'''
+
+[[block]]
+key = "f18119879ef74bd1"
+origin = '''
+<Tabs groupId="m4p-cm">
+    <TabItem value="m4p-cm-rpi" label="使用树莓派 CM4/CM5" default>
+'''
+translate = '''
+<Tabs groupId="m4p-cm">
+    <TabItem value="m4p-cm-rpi" label="使用树莓派 CM4/CM5" default>
+'''
+
+[[block]]
+key = "d8dc6fb372de4e10"
+origin = '''
+        <ImageView src={require('./img/m4p_cm_rpi.webp').default} width="100%"/>
+'''
+translate = '''
+        <ImageView src={require('@site/docs/board-docs/manta-series/manta-m4p/img/m4p_cm_rpi.webp').default} width="100%"/>
+'''
+
+[[block]]
+key = "473730d4bd09c4d9"
+origin = '''
+    </TabItem>
+    <TabItem value="m4p-cm-cb" label="使用 CB1/CB2">
+        <ImageView src={require('./img/m4p_cm_cb.webp').default} width="100%"/>
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+    </TabItem>
+    <TabItem value="m4p-cm-cb" label="使用 CB1/CB2">
+        <ImageView src={require('@site/docs/board-docs/manta-series/manta-m4p/img/m4p_cm_cb.webp').default} width="100%"/>
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "83e4703555823190"
+origin = '''
+### USB 供电
+'''
+translate = '''
+### USB 供电
+'''
+
+[[block]]
+key = "14524086133f2058"
+origin = '''
+M4P 开机后，主板右下侧的红色 LED1 会亮起，表示电源正常。板中间的 J8 是电源选择端子，只有当type-C USB用于向主板供电或USB用于外部供电时，才需要短接。type-C的信号连接到 SoC，仅在写入 CM4 eMMC 版本的操作系统映像时使用。
+'''
+translate = '''
+M4P 开机后，主板右下侧的红色 LED1 会亮起，表示电源正常。板中间的 J8 是电源选择端子，只有当type-C USB用于向主板供电或USB用于外部供电时，才需要短接。type-C的信号连接到 SoC，仅在写入 CM4 eMMC 版本的操作系统映像时使用。
+'''
+
+[[block]]
+key = "b4bee22bdbaf6e26"
+origin = '''
+<ImageView src={require('./img/M4P_TYPE_C.webp').default} width="45%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m4p/img/M4P_TYPE_C.webp').default} width="45%"/>
+'''
+
+[[block]]
+key = "9e8249f5c2f599ab"
+origin = '''
+### 40 Pin GPIO
+'''
+translate = '''
+### 40 Pin GPIO
+'''
+
+[[block]]
+key = "cd6cb96f9e3a754c"
+origin = '''
+<ImageView src={require('./img/m4p-40pin-gpio.webp').default} width="50%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m4p/img/m4p-40pin-gpio.webp').default} width="50%"/>
+'''
+
+[[block]]
+key = "66e7f403422dd275"
+origin = '''
+### DSI / CSI连接
+'''
+translate = '''
+### DSI / CSI连接
+'''
+
+[[block]]
+key = "13380f4537b6b7c6"
+origin = '''
+:::info[需要硬件支持]
+
+DSI / CSI 需要核心板硬件支持
+
+:::
+'''
+translate = '''
+:::info[需要硬件支持]
+
+DSI / CSI 需要核心板硬件支持
+
+:::
+'''
+
+[[block]]
+key = "ff1ff6f9b726b900"
+origin = '''
+<ImageView src={require('./img/M4P_DSI_CSI_Wiring.webp').default} width="100%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m4p/img/M4P_DSI_CSI_Wiring.webp').default} width="100%"/>
+'''
+
+[[block]]
+key = "5dc57575349c8914"
+origin = '''
+### SPI 显示器
+'''
+translate = '''
+### SPI 显示器
+'''
+
+[[block]]
+key = "a21514ef69a0f412"
+origin = '''
+<ImageView src={require('./img/M4P_SPI_Display_Wiring.webp').default} width="100%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m4p/img/M4P_SPI_Display_Wiring.webp').default} width="100%"/>
+'''
+
+[[block]]
+key = "33f14c7d5c17fff4"
+origin = '''
+## 传感器
+'''
+translate = '''
+## 传感器
+'''
+
+[[block]]
+key = "055af79b3798a6be"
+origin = '''
+### BLTouch
+'''
+translate = '''
+### BLTouch
+'''
+
+[[block]]
+key = "95eed11e125a8888"
+origin = '''
+<ImageView src={require('./img/M4P_BLTouch_Wiring.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m4p/img/M4P_BLTouch_Wiring.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "0af615d8b27e4715"
+origin = '''
+### ADXL 345
+'''
+translate = '''
+### ADXL 345
+'''
+
+[[block]]
+key = "8d8bf5ea83f9d22b"
+origin = '''
+<ImageView src={require('./img/M4P_ADXL345.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m4p/img/M4P_ADXL345.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "1b82752cdbb59462"
+origin = '''
+## 其他硬件
+'''
+translate = '''
+## 其他硬件
+'''
+
+[[block]]
+key = "c5ba87e7a93379bf"
+origin = '''
+### Neopixel 
+'''
+translate = '''
+### Neopixel 
+'''
+
+[[block]]
+key = "10cf238735062a09"
+origin = '''
+<ImageView src={require('./img/M4P_RGB_Wiring.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m4p/img/M4P_RGB_Wiring.webp').default} width="80%"/>
+'''

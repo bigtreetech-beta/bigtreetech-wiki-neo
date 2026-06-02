@@ -1,0 +1,1169 @@
+[metadata]
+
+[[block]]
+key = "f1f273c3a4c03984"
+origin = '''
+---
+sidebar_position: 3
+description: CB1 软件配置
+---
+'''
+translate = '''
+---
+sidebar_position: 3
+description: CB1 Firmware
+---
+'''
+
+[[block]]
+key = "4a3692eb7ac86e98"
+origin = '''
+# CB1 软件配置
+'''
+translate = '''
+# CB1 Firmware
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "68f58b1cab20b74a"
+origin = '''
+## 烧录系统
+'''
+translate = '''
+## Flash System
+'''
+
+[[block]]
+key = "2eb7ced8e3a15839"
+origin = '''
+### 下载系统镜像
+'''
+translate = '''
+### Download system image
+'''
+
+[[block]]
+key = "7f43dc70f19650c2"
+origin = '''
+:::info[CB1 系统]
+
+CB1 系统镜像 [CB1/release](https://github.com/bigtreetech/CB1/releases)
+
+:::
+'''
+translate = '''
+:::info[CB1 System]
+
+CB1 System image [CB1/release](https://github.com/bigtreetech/CB1/releases)
+
+:::
+'''
+
+[[block]]
+key = "d188a283bc43756a"
+origin = '''
+### 写入系统
+'''
+translate = '''
+### Write system
+'''
+
+[[block]]
+key = "c2283471906e17da"
+origin = '''
+<Tabs groupId="cb1-emmc-sd">
+    <TabItem value="cb1-sd" label="使用SD卡" default>
+'''
+translate = '''
+<Tabs groupId="cb1-emmc-sd">
+    <TabItem value="cb1-sd" label="Using SD Card" default>
+'''
+
+[[block]]
+key = "9725ea6000518bfc"
+origin = '''
+        1. 下载 [balenaEtcher](https://www.balena.io/etcher/)
+'''
+translate = '''
+        1. Download [balenaEtcher](https://www.balena.io/etcher/)
+'''
+
+[[block]]
+key = "cc47a75ee7fcf33e"
+origin = '''
+        2. 将 Micro SD 卡通过读卡器插入到电脑。
+'''
+translate = '''
+        2. Insert the microSD card into your computer using a card reader.
+'''
+
+[[block]]
+key = "296a0ef0f032c7f3"
+origin = '''
+        3. 选择下载到电脑中的镜像。
+'''
+translate = '''
+        3. Select the image file downloaded to your computer.
+'''
+
+[[block]]
+key = "6336444ae7720d21"
+origin = '''
+            <ImageView src={require('./img/Etcher_1.webp').default} width="600"/>
+'''
+translate = '''
+            <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/Etcher_1.webp').default} width="600"/>
+'''
+
+[[block]]
+key = "d1d6aba5c2315ba9"
+origin = '''
+        4. 选择待烧录的 Micro SD 卡，点击“烧录”
+'''
+translate = '''
+        4. Select the Micro SD card you want to flash, then click "Flash"
+'''
+
+[[block]]
+key = "6cac85554d3f4a3f"
+origin = '''
+            :::warning
+
+            烧录镜像会将 Micro SD 卡格式化
+
+            :::
+'''
+translate = '''
+            :::warning
+
+            Flashing the image will format the microSD card
+
+            :::
+'''
+
+[[block]]
+key = "66aa0026bc48306d"
+origin = '''
+            <ImageView src={require('./img/Etcher_2.webp').default} width="600"/>
+'''
+translate = '''
+            <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/Etcher_2.webp').default} width="600"/>
+'''
+
+[[block]]
+key = "99de8aece8c3f95b"
+origin = '''
+        5. 等待烧录完成
+'''
+translate = '''
+        5. Wait for the burn process to complete
+'''
+
+[[block]]
+key = "046399745410dbd2"
+origin = '''
+            <ImageView src={require('./img/Etcher_3.webp').default} width="600"/>
+'''
+translate = '''
+            <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/Etcher_3.webp').default} width="600"/>
+'''
+
+[[block]]
+key = "28e378b4d309cbd7"
+origin = '''
+    </TabItem>
+    <TabItem value="cb1-emmc" label="使用eMMC">
+'''
+translate = '''
+    </TabItem>
+    <TabItem value="cb1-emmc" label="Using eMMC">
+'''
+
+[[block]]
+key = "976df760c8007205"
+origin = '''
+        :::info
+
+        使用 `balenaEtcher烧录` 或者 `MicroSD卡烧录` 步骤，均可正常的将系统烧录到eMMC中，任选一种适合您的方式即可。
+
+        :::
+'''
+translate = '''
+        :::info
+
+        We can write the system to eMMC using either the `balanaEtcher Flashing` or `SD Card Flashing` steps. Just choose a way that suits you.
+
+        :::
+'''
+
+[[block]]
+key = "044c75885ec2e6d5"
+origin = '''
+        <Tabs groupId="emmc-usage">
+            <TabItem value="emmc-balena-etcher" label="balenaEtcher烧录" default>
+'''
+translate = '''
+        <Tabs groupId="emmc-usage">
+            <TabItem value="emmc-balena-etcher" label="balenaEtcher Flashing" default>
+'''
+
+[[block]]
+key = "7608c05f07ce60bb"
+origin = '''
+                1. 下载[sunxi-fel 工具](https://github.com/bigtreetech/sunxi-tools)(还不支持Mac OS)以及[CB1 eMMC uboot](https://github.com/bigtreetech/sunxi-tools/raw/master/u-boot-sunxi-cb1-emmc.bin)到电脑的相同路径中。
+'''
+translate = '''
+                1. Download [sunxi-fel tool](https://github.com/bigtreetech/sunxi-tools)(don't support Mac OS yet) and [CB1 eMMC uboot](https://github.com/bigtreetech/sunxi-tools/raw/master/u-boot-sunxi-cb1-emmc.bin) to the same path on the computer.
+'''
+
+[[block]]
+key = "47bfb6022f600cd6"
+origin = '''
+                2. 将拨码开关的`nRPIBOOT`，`USB_OTG`拨到 `ON` 进入BOOT模式(如下图以 Pad5 V2 为例)
+'''
+translate = '''
+                2. Set DIP switches `nRPIBOOT`，`USB_OTG` to `ON` to enter BOOT mode(As shown in the figure below, taking Pad5 V2 as an example)
+'''
+
+[[block]]
+key = "fd908a62cdddd79c"
+origin = '''
+                    <ImageView src={require('./img/boot.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/boot.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "4add6cb8046d18c8"
+origin = '''
+                3. 将设备的 USB OTG 连接到电脑上
+'''
+translate = '''
+                3. Connect the USB OTG of the device to the computer
+'''
+
+[[block]]
+key = "bddc8ef4d02cc02b"
+origin = '''
+                    :::note
+
+                    为了避免出现电脑 USB 供电不足导致的问题，最好使用带有外部供电的 USB-Hub，或者先使用外部的电源给设备供电
+
+                    :::
+'''
+translate = '''
+                    :::note
+
+                    To avoid problems caused by insufficient USB power supply to the computer, it is best to use a USB Hub with external power supply, or use an external power source to power the device first
+
+                    :::
+'''
+
+[[block]]
+key = "905e43f347dfee0c"
+origin = '''
+                4. Linux系统内置了驱动，Windows系统需要额外安装驱动，可以参考[AllWinner官方说明](https://linux-sunxi.org/FEL/USBBoot)
+'''
+translate = '''
+                4. Linux systems have built-in drivers, while Windows systems require additional driver installation. Please refer to the [AllWinner official instructions](https://linux-sunxi.org/FEL/USBBoot)
+'''
+
+[[block]]
+key = "992a96bfb30d45bf"
+origin = '''
+                    1. 下载[Zadig](https://zadig.akeo.ie/)
+'''
+translate = '''
+                    1. Download [Zadig](https://zadig.akeo.ie/)
+'''
+
+[[block]]
+key = "53d1e0baa380c090"
+origin = '''
+                    2. 使能 `Options->List All Devices`
+'''
+translate = '''
+                    2. Enable `Options->List All Devices`
+'''
+
+[[block]]
+key = "caf8efa9a051b8c8"
+origin = '''
+                        <ImageView src={require('./img/zadig1.webp').default} width="60%"/>
+'''
+translate = '''
+                        <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/zadig1.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "4cc7fe4efa6d115b"
+origin = '''
+                    3. 选择CB1的USB设备，大多时候显示为 `unknown 未知的设备`，设备的USB ID为`1F3A:EFE8`。确保选择了正确的USB设备后，点击`Install Driver`安装驱动
+'''
+translate = '''
+                    3. Select CB1 USB device, mostly displayed as `unknown device`，the USB ID is `1F3A:EFE8`. After ensuring it's the correct USB device, click `Install Driver`
+'''
+
+[[block]]
+key = "c0654ac05bd53a2c"
+origin = '''
+                        <ImageView src={require('./img/zadig2.webp').default} width="60%"/>
+'''
+translate = '''
+                        <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/zadig2.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "d790f84b336a6988"
+origin = '''
+                5. 在下载的sunxi-fel工具的路径下，打开`Powershell(windows)` 或者 `console terminal(linux)`
+'''
+translate = '''
+                5. Open `PowerShell (Windows)` or `console terminal (Linux)` in the path of the downloaded sunxi-fel tool`
+'''
+
+[[block]]
+key = "2975fe448234fe51"
+origin = '''
+                6. 运行以下命令检查USB通信是否正常。
+'''
+translate = '''
+                6. Run the following command to check if USB communication is working properly.
+'''
+
+[[block]]
+key = "e9ba5d504d1b6044"
+origin = '''
+                    <Tabs groupId="system">
+                        <TabItem value="windows" label="Windows系统" default>
+'''
+translate = '''
+                    <Tabs groupId="system">
+                        <TabItem value="windows" label="Windows system" default>
+'''
+
+[[block]]
+key = "666d65927867c117"
+origin = '''
+                            ```shell
+                            .\sunxi-fel.exe -v ver
+                            ```
+                        </TabItem>
+                        <TabItem value="linux-armhf" label="linux-armhf系统">
+                            ``` shell
+                            sudo ./sunxi-fel-armhf -v ver
+                            ```
+                        </TabItem>
+                        <TabItem value="linux-aarch64" label="linux-aarch64系统">
+                            ``` shell
+                            sudo ./sunxi-fel-aarch64 -v ver
+                            ```
+                        </TabItem>
+                    </Tabs>
+'''
+translate = '''
+                            ```shell
+                            .\sunxi-fel.exe -v ver
+                            ```
+                        </TabItem>
+                        <TabItem value="linux-armhf" label="linux-armhf system">
+                            ``` shell
+                            sudo ./sunxi-fel-armhf -v ver
+                            ```
+                        </TabItem>
+                        <TabItem value="linux-aarch64" label="linux-aarch64 system">
+                            ``` shell
+                            sudo ./sunxi-fel-aarch64 -v ver
+                            ```
+                        </TabItem>
+                    </Tabs>
+'''
+
+[[block]]
+key = "c3fa523c212c5fb6"
+origin = '''
+                    如果显示 `ERROR: Allwinner USB FEL device not found!` 代表未识别到正确的USB，请重新检查连接和驱动是否正常安装。
+'''
+translate = '''
+                    If prompted `ERROR: Allwinner USB FEL device not found!` means that did not recognize the correct USB, please recheck if the connection and driver are installed properly.
+'''
+
+[[block]]
+key = "9c5dcd880d874bfb"
+origin = '''
+                    如果显示 `AWUSBFEX soc=00001823(H616)` 代表正常识别到CB1设备了。
+'''
+translate = '''
+                    If prompted `AWUSBFEX soc=00001823(H616)` means that the CB1 has been recognized normally.
+'''
+
+[[block]]
+key = "3015fa1f84940e84"
+origin = '''
+                    如下图所示，第一个命令的结果是未插入CB1设备，第二个命令的结果是正常识别到了CB1。
+'''
+translate = '''
+                    As shown in the figure below, the result of the first command is that CB1 is not inserted, and the result of the second command is that CB1 is recognized normally.
+'''
+
+[[block]]
+key = "523545ee9121b053"
+origin = '''
+                    <ImageView src={require('./img/cb1.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/cb1.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "1f23e34421e28713"
+origin = '''
+                7. 运行以下命令，将u-boot写入到CB1中。
+'''
+translate = '''
+                7. Run the following command to write u-boot to CB1.
+'''
+
+[[block]]
+key = "e9ba5d504d1b6044"
+origin = '''
+                    <Tabs groupId="system">
+                        <TabItem value="windows" label="Windows系统" default>
+'''
+translate = '''
+                    <Tabs groupId="system">
+                        <TabItem value="windows" label="Windows system" default>
+'''
+
+[[block]]
+key = "8d11b32298cc0ea8"
+origin = '''
+                            ```shell
+                            .\sunxi-fel.exe uboot .\u-boot-sunxi-cb1-emmc.bin
+                            ```
+                        </TabItem>
+                        <TabItem value="linux-armhf" label="linux-armhf 系统">
+                            ``` shell
+                            sudo ./sunxi-fel-armhf uboot ./u-boot-sunxi-cb1-emmc.bin
+                            ```
+                        </TabItem>
+                        <TabItem value="linux-aarch64" label="linux-aarch64 系统">
+                            ``` shell
+                            sudo ./sunxi-fel-aarch64 uboot ./u-boot-sunxi-cb1-emmc.bin
+                            ```
+                        </TabItem>
+                    </Tabs>
+'''
+translate = '''
+                            ```shell
+                            .\sunxi-fel.exe uboot .\u-boot-sunxi-cb1-emmc.bin
+                            ```
+                        </TabItem>
+                        <TabItem value="linux-armhf" label="linux-armhf system">
+                            ``` shell
+                            sudo ./sunxi-fel-armhf uboot ./u-boot-sunxi-cb1-emmc.bin
+                            ```
+                        </TabItem>
+                        <TabItem value="linux-aarch64" label="linux-aarch64 system">
+                            ``` shell
+                            sudo ./sunxi-fel-aarch64 uboot ./u-boot-sunxi-cb1-emmc.bin
+                            ```
+                        </TabItem>
+                    </Tabs>
+'''
+
+[[block]]
+key = "ec8da4655f96634f"
+origin = '''
+                    当u-boot写入完成后，会将eMMC挂载为一个U盘到电脑上。
+'''
+translate = '''
+                    After u-boot writing is completed, eMMC will be mounted as a USB drive on the computer.
+'''
+
+[[block]]
+key = "78c51ce00f25c591"
+origin = '''
+                8. 使用balenaEtcher软件烧录系统镜像，步骤与烧录到Micro SD卡完全相同。
+'''
+translate = '''
+                8. Use balenaEtcher software to write the system image, following the same steps as writing to a MicroSD card.
+'''
+
+[[block]]
+key = "d0a60bd8540f93a1"
+origin = '''
+                    CB1 eMMC版本烧录完成后，还需要额外修改配置。打开配置文件 `/BOOT/armbianEnv.txt`(或者旧版本系统为`/BOOT/BoardEnv.xt`)，将 fdtfile 由默认的 sd 版本配置修改为 emmc 版本：
+'''
+translate = '''
+                    After the CB1 eMMC version is written, additional configuration modifications are required. Open the configuration file `/BOOT/armbianEnv.txt` (or `/BOOT/BoardEnv.txt` for older versions), and change the `fdtfile` configuration from the default SD version to the eMMC version:
+'''
+
+[[block]]
+key = "ceb3e95d0d637a98"
+origin = '''
+                    ```shell
+                    fdtfile=sun50i-h616-bigtreetech-cb1-emmc.dtb
+                    ```
+'''
+translate = '''
+                    ```shell
+                    fdtfile=sun50i-h616-bigtreetech-cb1-emmc.dtb
+                    ```
+'''
+
+[[block]]
+key = "4d9e6b688e82fbe3"
+origin = '''
+                    <ImageView src={require('./img/emmc.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/emmc.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "a77c9dd883e100ed"
+origin = '''
+                9. 配置完成后，保存并断电后将拨码开关的 `nRPIBOOT`, `USB_OTG` 拨回到 `OFF`，重新上电后进入正常工作模式。
+            </TabItem>
+            <TabItem value="emmc-micro-sd" label="MicroSD卡烧录">
+                1. 先将系统烧录到MicroSD卡中，然后将MicroSD卡插到主板的卡槽，然后等待系统启动。
+'''
+translate = '''
+                9. After the configuration is completed, save and power off, and then turn the `nRPIBOOT` and `USB-OTG` of the dip switch back to `OFF`. After powering on again, enter normal working mode.
+            </TabItem>
+            <TabItem value="emmc-micro-sd" label="SD Card Flashing">
+                1. Write the system onto the MicroSD card. Then, insert the MicroSD card into the motherboard's card slot and wait for the system to boot.
+'''
+
+[[block]]
+key = "d228f169ab23cd10"
+origin = '''
+                2. 通过网线，WiFi或者USB转UART连接到系统的终端，登录系统
+'''
+translate = '''
+                2. Connect to the system terminal via Ethernet cable, WiFi, or USB to UART, and log in to the system.
+'''
+
+[[block]]
+key = "5aa688dc52c4c6a9"
+origin = '''
+                    ```shell title="biqu 普通用户"
+                    Login: biqu
+                    Password: biqu
+                    ```
+'''
+translate = '''
+    ```shell title="biqu User"
+    Login: biqu
+    Password: biqu
+    ```
+'''
+
+[[block]]
+key = "2476f3f081fca1bf"
+origin = '''
+                3. CB1 eMMC版本的配置与不带 eMMC版本的不同，所以我们需要先修改配置后，再将系统从SD卡写入到eMMC中。
+'''
+translate = '''
+                3. The configuration of CB1 eMMC version is different from that without eMMC version, so we need to modify the configuration first before writing the system from SD card to eMMC.
+'''
+
+[[block]]
+key = "266b92a5d76774b3"
+origin = '''
+                    打开配置文件 `/BOOT/armbianEnv.txt`(或者旧版本系统为`/BOOT/BoardEnv.txt`)，将 fdtfile 由默认的 sd 版本配置修改为 emmc 版本：
+'''
+translate = '''
+                    Open the configuration file `/BOOT/armbianEnv.txt` (or `/BOOT/BoardEnv.txt` for older versions), and change the `fdtfile` configuration from the default SD version to the eMMC version:
+'''
+
+[[block]]
+key = "ceb3e95d0d637a98"
+origin = '''
+                    ```shell
+                    fdtfile=sun50i-h616-bigtreetech-cb1-emmc.dtb
+                    ```
+'''
+translate = '''
+                    ```shell
+                    fdtfile=sun50i-h616-bigtreetech-cb1-emmc.dtb
+                    ```
+'''
+
+[[block]]
+key = "4d9e6b688e82fbe3"
+origin = '''
+                    <ImageView src={require('./img/emmc.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/emmc.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "c4960e211a8ba05b"
+origin = '''
+                4. 配置完成后，保存并执行命令将系统写入到eMMC中。
+'''
+translate = '''
+                4. After configuration is complete, save and execute the command to write the system to eMMC.
+'''
+
+[[block]]
+key = "19546cc83edcb1e0"
+origin = '''
+                    :::warning
+
+                    SD卡中的系统配置修改为eMMC后，再次重启是无法启动的，除非将配置修改回 sd 的配置。所以修改完成配置后，请立刻将修改后的系统写入到 eMMC 中。
+
+                    :::
+'''
+translate = '''
+                    :::info
+
+                    Note that after changing the `fdtfile` configuration in the SD card to eMMC, restarting it again will not start unless the configuration is changed back to the SD configuration. So after modifying the configuration, please immediately write the modified system into eMMC.
+
+                    :::
+'''
+
+[[block]]
+key = "7cd4878c5a687f04"
+origin = '''
+                5. 运行 `sudo nand-sata-install `命令，在弹出的界面中，选择 `2 Boot From eMMC - system on eMMC`, 然后选择 `OK`
+'''
+translate = '''
+                5. Run `sudo nand-sata-install `, Select `2 Boot From eMMC - system on eMMC`, and then select `OK`
+'''
+
+[[block]]
+key = "870577f4ad7d878e"
+origin = '''
+                    <ImageView src={require('./img/ok.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/ok.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "a4de996303895675"
+origin = '''
+                6. 选择 `Yes`，开始擦除并烧录系统到eMMC
+'''
+translate = '''
+                6. Select `Yes`, Start erasing and writing the system to eMMC
+'''
+
+[[block]]
+key = "738c2622f4cc66cd"
+origin = '''
+                    <ImageView src={require('./img/yes.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/yes.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "7759c12165916c93"
+origin = '''
+                7. 选择文件系统为 `1 ext4`，然后选择 `OK`
+'''
+translate = '''
+                7. Select `1 ext4`, and then select `OK`
+'''
+
+[[block]]
+key = "6f565145c12f8b4e"
+origin = '''
+                    <ImageView src={require('./img/ext4.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/ext4.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "e3de30afd46d8e59"
+origin = '''
+                8. 等待烧录完成
+'''
+translate = '''
+                8. Wait for the write process to complete
+'''
+
+[[block]]
+key = "46c2130eaf68e519"
+origin = '''
+                    <ImageView src={require('./img/wait.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/wait.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "a9df1a14d78a368e"
+origin = '''
+                9. 烧录完成后会弹窗提示是否关机，选择`Power off`关机
+'''
+translate = '''
+                9. After writing is completed, it will prompt whether to power off. Please select `Power off`.
+'''
+
+[[block]]
+key = "e90a5eddb600f960"
+origin = '''
+                    <ImageView src={require('./img/off.webp').default} width="60%"/>
+'''
+translate = '''
+                    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/off.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "6ec2e13ced287121"
+origin = '''
+                10. 关机后断电，然后拔出MicroSD卡，重新再通电即可从eMMC启动
+            </TabItem>
+        </Tabs>
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+                10. After power off, unplug the MicroSD card and turn it back on to start from eMMC.
+            </TabItem>
+        </Tabs>
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "6f68ec2f1f955de6"
+origin = '''
+## 系统配置
+'''
+translate = '''
+## System Configuration
+'''
+
+[[block]]
+key = "f94020ab4abd0647"
+origin = '''
+### 使用网线
+'''
+translate = '''
+### Using an Ethernet Cable
+'''
+
+[[block]]
+key = "54979235c2530b08"
+origin = '''
+网线即插即用，不需要额外的设置
+'''
+translate = '''
+The Ethernet cable is plug-and-play and requires no additional setup.
+'''
+
+[[block]]
+key = "656131bec83c0992"
+origin = '''
+### 设置 WiFi
+'''
+translate = '''
+### Setting Up Wi-Fi
+'''
+
+[[block]]
+key = "0224b70cf513fdb0"
+origin = '''
+系统镜像烧录完成后，MicroSD 卡会有一个被电脑识别的 FAT32 分区，此分区下有个名为"system.cfg" 的配置文件
+'''
+translate = '''
+Once the system image has been flashed, the Micro SD card will contain a FAT32 partition that is recognized by the computer. Within this partition, there is a configuration file named `system.cfg`.
+'''
+
+[[block]]
+key = "9024e0d20b265906"
+origin = '''
+<ImageView src={require('./img/system.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/system.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "c1a25e8e1944a567"
+origin = '''
+打开后将 Your SSID 替换为实际的 WIFI 名称，Your Password 替换为实际的密码
+'''
+translate = '''
+Open it in Notepad, replace “WIFI-SSID” with your actual Wi-Fi name, and replace “PASSWORD” with your actual password.
+'''
+
+[[block]]
+key = "c6fe89ae8c1b0392"
+origin = '''
+例如: `WIFI_SSID="CB1 Tester"`
+'''
+translate = '''
+Example: `WIFI_SSID="CB1 Tester"`
+'''
+
+[[block]]
+key = "553a4cfe97b29502"
+origin = '''
+<ImageView src={require('./img/wifi.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/wifi.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "cd0fdeaf9df8a715"
+origin = '''
+### 配置 overlays
+'''
+translate = '''
+### Config overlays
+'''
+
+[[block]]
+key = "edfdfbb7326c7697"
+origin = '''
+操作系统写入SD卡后，有一个名为 `BOOT` 的FAT32分区。`VSCode` 打开 `/BOOT/armbianEnv.txt`(或者旧版本系统为`/BOOT/BoardEnv.xt`) 文件。
+'''
+translate = '''
+After the operating system is written to the SD card, there will be a FAT32 partition named `BOOT`. Open the `BoardEnv.txt` file in `VSCode`.
+'''
+
+[[block]]
+key = "7e66d6258639774e"
+origin = '''
+<ImageView src={require('./img/BoardEnv.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/BoardEnv.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "ed6ceb803ec53bdb"
+origin = '''
+根据需要进行设置，如下图所示。
+'''
+translate = '''
+Configure the settings as needed, as shown in the figure below.
+'''
+
+[[block]]
+key = "e10f90fa23aa66a2"
+origin = '''
+<ImageView src={require('./img/overlays.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/overlays.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "b13bb792a60fd2ac"
+origin = '''
+默认值为“console=display”，这意味着CB1的“UART0”默认用作调试端口。我们可以使用“MobaXterm”通过UART0连接到CB1并进行调试。如果klipper想要使用`UART0`来控制主板，我们需要将其设置为`console=serial`，现在klippe可以将`UART0'用作`/dev/ttyS0`。
+'''
+translate = '''
+The default value is “console=display,” which means that CB1's ‘UART0’ is used as the debug port by default. We can use “MobaXterm” to connect to CB1 via UART0 and perform debugging. If Klipper needs to use `UART0` to control the motherboard, we need to set it to `console=serial`; now Klipper can use `UART0` as `/dev/ttyS0`.
+'''
+
+[[block]]
+key = "0b3e0cea64c6693b"
+origin = '''
+CB1会自动识别HDMI分辨率，但如果您的HDMI屏幕无法正常通过EDID报告分辨率，我们可以通过取消注释extraargs=video来强制指定CB1输出的分辨率，并设置实际分辨率。
+比如:
+'''
+translate = '''
+CB1 automatically detects HDMI resolutions, but if your HDMI display cannot report its resolution correctly via EDID, we can force CB1 to output a specific resolution by uncommenting `extraargs=video` and setting the actual resolution.
+For example:
+'''
+
+[[block]]
+key = "f433a7c400462043"
+origin = '''
+BTT-HDMI7 resolution = 1024x600: `extraargs=video=HDMI-A-1:1024x600-24@60`
+'''
+translate = '''
+BTT-HDMI7 resolution = 1024x600: `extraargs=video=HDMI-A-1:1024x600-24@60`
+'''
+
+[[block]]
+key = "1d4bd40170c447cb"
+origin = '''
+BTT-HDMI5 resolution = 800x480: `extraargs=video=HDMI-A-1:800x480-24@60`
+'''
+translate = '''
+BTT-HDMI5 resolution = 800x480: `extraargs=video=HDMI-A-1:800x480-24@60`
+'''
+
+[[block]]
+key = "c8e3ac7f613231cc"
+origin = '''
+取消注释 `overlays=tft35_spi` 以启用tft35 spi屏幕。
+'''
+translate = '''
+Uncomment `overlays=tft35_spi` to enable the tft35 SPI display.
+'''
+
+[[block]]
+key = "0417eacabb16985f"
+origin = '''
+取消注释 `overlays=mcp2515` 以启用mcp2515 spi到canbus模块。
+'''
+translate = '''
+Uncomment `overlays=mcp2515` to enable the mcp2515 SPI-to-CAN bus module.
+'''
+
+[[block]]
+key = "75fccf6646fe56e3"
+origin = '''
+取消注释 `overlays=tft35_spi mcp2515` 如果要同时使用tft35 spi屏幕和mcp2515 spi到can总线模块。
+'''
+translate = '''
+Uncomment `overlays=tft35_spi mcp2515` if you want to use both the TFT35 SPI screen and the mcp2515 SPI-to-CAN bus module simultaneously.
+'''
+
+[[block]]
+key = "587e5071b0363630"
+origin = '''
+取消注释以下覆盖和参数以将 `spidev1.1` 释放到用户空间，并且 `spidev1.1` 不能与 TFT35_SPI 和 MCP2515 一起使用。
+'''
+translate = '''
+Uncomment the following overlays and parameters to release `spidev1.1` to user space; note that `spidev1.1` cannot be used in conjunction with TFT35_SPI and MCP2515.
+'''
+
+[[block]]
+key = "d8497e5a8171ffa6"
+origin = '''
+```systemd title="armbianEnv.txt"
+overlays=spi-spidev
+param_spidev_spi_bus=1
+param_spidev_spi_cs=1
+param_spidev_max_freq=1000000
+```
+'''
+translate = '''
+```systemd title="BoardEnv.txt"
+overlays=spi-spidev
+param_spidev_spi_bus=1
+param_spidev_spi_cs=1
+param_spidev_max_freq=1000000
+```
+'''
+
+[[block]]
+key = "05b705edd5ebbe31"
+origin = '''
+:::note
+
+TFT35 SPI和MCP2515多路复用一组SPI1
+
+:::
+'''
+translate = '''
+:::note
+
+TFT35 SPI and MCP2515 multiplex a single SPI1 bus
+
+:::
+'''
+
+[[block]]
+key = "9f08b48217fadc12"
+origin = '''
+```systemd title="armbianEnv.txt"
+SPI1_CLK=PH6
+SPI1_MISO=PH8
+SPI1_MOSI=PH7
+TFT35_SPI_CS=PC7
+MCP2515_CS=PC11
+MCP2515_IRQ=PC9
+```
+'''
+translate = '''
+```systemd title="BoardEnv.txt"
+SPI1_CLK=PH6
+SPI1_MISO=PH8
+SPI1_MOSI=PH7
+TFT35_SPI_CS=PC7
+MCP2515_CS=PC11
+MCP2515_IRQ=PC9
+```
+'''
+
+[[block]]
+key = "2181544c11120bc2"
+origin = '''
+## SSH 连接
+'''
+translate = '''
+## SSH Connect
+'''
+
+[[block]]
+key = "e3d616219c0cfcfe"
+origin = '''
+1. 安装 [Mobaxterm](https://mobaxterm.mobatek.net/download-home-edition.html)
+'''
+translate = '''
+1. Install [Mobaxterm](https://mobaxterm.mobatek.net/download-home-edition.html)
+'''
+
+[[block]]
+key = "3c3e4b70b0080494"
+origin = '''
+2. 通电后等待系统启动，大概 1~2 分钟
+'''
+translate = '''
+2. After powering on, wait for the system to boot up, which takes about 1–2 minutes.
+'''
+
+[[block]]
+key = "fda3bf696234ec9a"
+origin = '''
+3. 设备连上 WIFI 或者插上网线后，会被自动分配一个 IP
+'''
+translate = '''
+3. Once the device connects to Wi-Fi or an Ethernet cable, it will be automatically assigned an IP address.
+'''
+
+[[block]]
+key = "0de3ce6f8243e00d"
+origin = '''
+4. 进入路由器管理界面找到设备的 IP（这里应为 `BIGTREETECH-CB1`/`BTT-CB1`）
+'''
+translate = '''
+4. Go to the router's management interface and locate the device’s IP address (which should be `BIGTREETECH-CB1`/`BTT-CB1`).
+'''
+
+[[block]]
+key = "eaeec8fe23b995e4"
+origin = '''
+    <ImageView src={require('./img/Router.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/Router.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "db92a9546cdafb35"
+origin = '''
+    或者使用 [angryip](https://angryip.org)，扫描当前网络中的所有IP地址，找到名为 `BIGTREETECH-CB1`/`BTT-CB1` 的 IP。
+'''
+translate = '''
+    Alternatively, use [angryip](https://angryip.org) to scan all IP addresses on your network and locate the one named `BIGTREETECH-CB1`/`BTT-CB1`.
+'''
+
+[[block]]
+key = "4650af2e78eb44b9"
+origin = '''
+    <ImageView src={require('./img/AngryIP.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/AngryIP.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "f8bbe2a4a44e7e0f"
+origin = '''
+5. 打开已经安装的 Mobaxterm 软件，点击“Session”，在弹出的窗口中点击“SSH”，在Remote host 一栏中输入设备的 IP 地址，点击“OK”
+'''
+translate = '''
+5. Open the Mobaxterm software you have already installed, click “Session,” click ‘SSH’ in the pop-up window, enter the device's IP address in the “Remote host” field, and click “OK.”
+'''
+
+[[block]]
+key = "3528e00ea2ba5f37"
+origin = '''
+    :::note
+
+    电脑和设备必须要在同一个局域网下
+
+    :::
+'''
+translate = '''
+    :::note
+
+    Computers and devices must be on the same local area network
+
+    :::
+'''
+
+[[block]]
+key = "1b793f13da41c230"
+origin = '''
+    <ImageView src={require('./img/MobaXterm_Login.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/board-docs/iot-series/iot-cb1/img/MobaXterm_Login.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "c695cc03a988981d"
+origin = '''
+6. 输入登录名和登录密码进入 SSH 终端界面
+'''
+translate = '''
+6. Enter your username and password to access the SSH terminal interface
+'''
+
+[[block]]
+key = "113e4d772f015f73"
+origin = '''
+    ```shell title="root 管理员"
+    Login: root
+    Password: root
+    ```
+'''
+translate = '''
+    ```shell title="root Admin"
+    Login: root
+    Password: root
+    ```
+'''
+
+[[block]]
+key = "5aa688dc52c4c6a9"
+origin = '''
+    ```shell title="biqu 普通用户"
+    Login: biqu
+    Password: biqu
+    ```
+'''
+translate = '''
+    ```shell title="biqu User"
+    Login: biqu
+    Password: biqu
+    ```
+'''

@@ -1,0 +1,147 @@
+[metadata]
+
+[[block]]
+key = "f033356e330d50b8"
+origin = '''
+---
+sidebar_position: 2
+---
+'''
+translate = '''
+---
+sidebar_position: 2
+---
+'''
+
+[[block]]
+key = "f0adf703ddebf121"
+origin = '''
+# ADXL345 硬件
+'''
+translate = '''
+# ADXL345 硬件
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "d246b00b41b81b5c"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import ThemedImage from '@theme/ThemedImage';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import ThemedImage from '@theme/ThemedImage';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "e4e43b6d7201907d"
+origin = '''
+## 外观尺寸
+'''
+translate = '''
+## 外观尺寸
+'''
+
+[[block]]
+key = "c0cf91b9ad0a1611"
+origin = '''
+<ThemedImage
+    alt="Docusaurus themed image"
+    sources={{
+        light: require('./img/adxl-dim-light.png').default,
+        dark: require('./img/adxl-dim-dark.png').default,
+    }} width="65%"
+/>
+'''
+translate = '''
+<ThemedImage
+    alt="Docusaurus themed image"
+    sources={{
+        light: require('@site/docs/accessories-docs/sensor/adxl345/img/adxl-dim-light.png').default,
+        dark: require('@site/docs/accessories-docs/sensor/adxl345/img/adxl-dim-dark.png').default,
+    }} width="65%"
+/>
+'''
+
+[[block]]
+key = "a2df1b4a41a65fdc"
+origin = '''
+## Pinout
+'''
+translate = '''
+## Pinout
+'''
+
+[[block]]
+key = "6b56595cf4cfd60a"
+origin = '''
+<ImageView src={require('./img/adxl-pinout.png').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/sensor/adxl345/img/adxl-pinout.png').default} width="60%"/>
+'''
+
+[[block]]
+key = "c065b01cf61de3c3"
+origin = '''
+## 连接 Klipper Host
+'''
+translate = '''
+## 连接 Klipper Host
+'''
+
+[[block]]
+key = "8cc7b5692c7ee255"
+origin = '''
+### 使用 PI2 / Raspberry Pi
+'''
+translate = '''
+### 使用 PI2 / Raspberry Pi
+'''
+
+[[block]]
+key = "f7afed1b9264e1fe"
+origin = '''
+<ImageView src={require('./img/adxl-connect-rpi.png').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/sensor/adxl345/img/adxl-connect-rpi.png').default} width="60%"/>
+'''
+
+[[block]]
+key = "275c6dc31a2735f0"
+origin = '''
+### 使用 USB 连接 Manta M8P / Manta M5P / Manta M4P
+'''
+translate = '''
+### 使用 USB 连接 Manta M8P / Manta M5P / Manta M4P
+'''
+
+[[block]]
+key = "af5a377e6818a863"
+origin = '''
+<ImageView src={require('./img/adxl-connect-manta-usb.png').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/sensor/adxl345/img/adxl-connect-manta-usb.png').default} width="60%"/>
+'''

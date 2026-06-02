@@ -1,0 +1,142 @@
+[metadata]
+
+[[block]]
+key = "8e2fe38575801846"
+origin = '''
+---
+sidebar_position: 3
+description: Manta M5P 固件配置
+---
+'''
+translate = '''
+---
+sidebar_position: 3
+description: Manta M5P 固件配置
+---
+'''
+
+[[block]]
+key = "c2f6addad2060274"
+origin = '''
+# Manta M5P 固件配置
+'''
+translate = '''
+# Manta M5P 固件配置
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "de862121845dfdd7"
+origin = '''
+## 核心板固件写入
+'''
+translate = '''
+## 核心板固件写入
+'''
+
+[[block]]
+key = "10ec05daa0020d4d"
+origin = '''
+Manta M5P 搭配 CM4/CM5 核心板写入系统参考 [Manta 系列核心板 Raspberry CM4/CM5](../manta-core-image-rpi.md)
+'''
+translate = '''
+Manta M5P 搭配 CM4/CM5 核心板写入系统参考 [Manta 系列核心板 Raspberry CM4/CM5](../manta-core-image-rpi.md)
+'''
+
+[[block]]
+key = "60f66ada761e0364"
+origin = '''
+## Klipper
+'''
+translate = '''
+## Klipper
+'''
+
+[[block]]
+key = "31fb5685774f71e1"
+origin = '''
+:::info[开始之前]
+
+在开始之前需要安装核心板并且在核心板上安装 Klipper 组件
+
+:::
+'''
+translate = '''
+:::info[开始之前]
+
+在开始之前需要安装核心板并且在核心板上安装 Klipper 组件
+
+:::
+'''
+
+[[block]]
+key = "6078a8c13b07fc6f"
+origin = '''
+### 写入 Klipper 固件
+'''
+translate = '''
+### 写入 Klipper 固件
+'''
+
+[[block]]
+key = "65df6ce7b535ec0a"
+origin = '''
+Manta M5P 写入 Klipper 固件参考 [Manta M5P 系列固件 (STM32G0B1)](../manta-m5p-firmware-g0b1.md)
+'''
+translate = '''
+Manta M5P 写入 Klipper 固件参考 [Manta M5P 系列固件 (STM32G0B1)](../manta-m5p-firmware-g0b1.md)
+'''
+
+[[block]]
+key = "db8ceec5fad03fc9"
+origin = '''
+### Klipper 配置文件参考
+'''
+translate = '''
+### Klipper 配置文件参考
+'''
+
+[[block]]
+key = "95e4281cba077088"
+origin = '''
+:::info[Manta M5P 配置文件]
+
+[generic-bigtreetech-manta-m5p.cfg](https://github.com/bigtreetech/Manta-M5P/blob/master/Firmware/Klipper/generic-bigtreetech-manta-m5p.cfg)
+
+:::
+'''
+translate = '''
+:::info[Manta M5P 配置文件]
+
+[generic-bigtreetech-manta-m5p.cfg](https://github.com/bigtreetech/Manta-M5P/blob/master/Firmware/Klipper/generic-bigtreetech-manta-m5p.cfg)
+
+:::
+'''

@@ -1,0 +1,244 @@
+[metadata]
+
+[[block]]
+key = "2bf6acf03acf2188"
+origin = '''
+---
+sidebar_position: 1
+description: TMC 2240
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: TMC 2240
+---
+'''
+
+[[block]]
+key = "b8bfe56f81a746df"
+origin = '''
+# TMC 2240
+'''
+translate = '''
+# TMC 2240
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "4540afe53462e366"
+origin = '''
+<div class="div-table">
+
+<ImageView
+    src={require('./img/tmc-2240-title.png').default}
+    alt="" width="35%" class="right-image"
+/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView
+    src={require('@site/docs/accessories-docs/tmc-driver/tmc-2240/img/tmc-2240-title.png').default}
+    alt="" width="35%" class="right-image"
+/>
+'''
+
+[[block]]
+key = "f9c6f48ba32e89c6"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product Overview
+'''
+
+[[block]]
+key = "bb46c6be7ee17676"
+origin = '''
+TMC2240是一款智能型高性能步进电机驱动IC，配备串行通信接口（SPI、UART）及全面的诊断功能。
+'''
+translate = '''
+The TMC2240 is a smart, high-performance stepper motor driver IC equipped with serial communication interfaces (SPI, UART) and comprehensive diagnostic functions.
+'''
+
+[[block]]
+key = "58b2c93828f9206e"
+origin = '''
+## Specifications
+'''
+translate = '''
+## Specifications
+'''
+
+[[block]]
+key = "ee895d4e5409bebf"
+origin = '''
+| Specifications | TMC 2240           |
+| -------------- | ------------------ |
+| 驱动芯片       | TMC 2240           |
+| 最大电压       | 8V-36V DC          |
+| 驱动电流       | 2.1A RMS 3.0A peak |
+'''
+translate = '''
+| Specifications | TMC 2240           |
+| -------------- | ------------------ |
+| 驱动芯片       | TMC 2240           |
+| 最大电压       | 8V-36V DC          |
+| 驱动电流       | 2.1A RMS 3.0A peak |
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "6a770c30e1108b39"
+origin = '''
+## 接口示意图
+'''
+translate = '''
+## Pinout
+'''
+
+[[block]]
+key = "5e9fda4bb438e52b"
+origin = '''
+:::info[原理图 / Schematic]
+
+TMC 2240 原理图 [TMC2240_V1.0-SCH.pdf](https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC2240/Hardware/TMC2240_V1.0-SCH.pdf)
+
+:::
+'''
+translate = '''
+:::info[Schematic]
+
+TMC 2240 Schematic [TMC2240_V1.0-SCH.pdf](https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC2240/Hardware/TMC2240_V1.0-SCH.pdf)
+
+:::
+'''
+
+[[block]]
+key = "368c9c69a3bb6104"
+origin = '''
+<ImageView
+    src={require('./img/tmc-2240-pinout.png').default}
+    alt="" width="45%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/accessories-docs/tmc-driver/tmc-2240/img/tmc-2240-pinout.png').default}
+    alt="" width="45%"
+/>
+'''
+
+[[block]]
+key = "a9ae5a7eafeac08f"
+origin = '''
+## 尺寸
+'''
+translate = '''
+## Dimension
+'''
+
+[[block]]
+key = "b5c50d0051af279a"
+origin = '''
+:::info[STEP 模型]
+
+TMC 2240 模型 [TMC2240_V1.0.step](https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC2240/3D/TMC2240_V1.0.step)
+
+:::
+'''
+translate = '''
+:::info[STEP File]
+
+TMC 2240 [TMC2240_V1.0.step](https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC2240/3D/TMC2240_V1.0.step)
+
+:::
+'''
+
+[[block]]
+key = "f6921e7bad45fa82"
+origin = '''
+<ImageView
+    src={require('./img/tmc-2240-size.png').default}
+    alt="" width="45%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/accessories-docs/tmc-driver/tmc-2240/img/tmc-2240-size.png').default}
+    alt="" width="45%"
+/>
+'''
+
+[[block]]
+key = "59f0c275c335a1f7"
+origin = '''
+## Klipper SPI 配置
+'''
+translate = '''
+## Klipper SPI Config
+'''
+
+[[block]]
+key = "1cb7cc1833d23b05"
+origin = '''
+```klipper_cfg title="printer.cfg"
+[tmc2240 stepper_x]
+cs_pin: PA1
+spi_software_sclk_pin: PA2
+spi_software_mosi_pin: PA3
+spi_software_miso_pin: PA4
+run_current: 0.80
+interpolate: True
+stealthchop_threshold: 0
+```
+'''
+translate = '''
+```klipper_cfg title="printer.cfg"
+[tmc2240 stepper_x]
+cs_pin: PA1
+spi_software_sclk_pin: PA2
+spi_software_mosi_pin: PA3
+spi_software_miso_pin: PA4
+run_current: 0.80
+interpolate: True
+stealthchop_threshold: 0
+```
+'''

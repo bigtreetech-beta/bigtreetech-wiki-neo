@@ -1,0 +1,213 @@
+[metadata]
+
+[[block]]
+key = "ee13bf11c0069c93"
+origin = '''
+---
+sidebar_position: 3
+description: Microprobe 固件配置
+---
+'''
+translate = '''
+---
+sidebar_position: 3
+description: Microprobe 固件配置
+---
+'''
+
+[[block]]
+key = "f53e9a8dc5590570"
+origin = '''
+# Microprobe 固件配置
+'''
+translate = '''
+# Microprobe 固件配置
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "97a654915a067474"
+origin = '''
+## Klipper 配置文件参考
+'''
+translate = '''
+## Klipper 配置文件参考
+'''
+
+[[block]]
+key = "c97f7fba8561aaef"
+origin = '''
+### 基本配置
+'''
+translate = '''
+### 基本配置
+'''
+
+[[block]]
+key = "63550e2f139e45b9"
+origin = '''
+```klipper_cfg title="printer.cfg"
+'''
+translate = '''
+```klipper_cfg title="printer.cfg"
+'''
+
+[[block]]
+key = "9d21971ec123f546"
+origin = '''
+# microprobe config
+'''
+translate = '''
+# microprobe config
+'''
+
+[[block]]
+key = "d22cb821fc5475e0"
+origin = '''
+[output_pin probe_enable]
+pin: ebb:PB9
+value: 0
+'''
+translate = '''
+[output_pin probe_enable]
+pin: ebb:PB9
+value: 0
+'''
+
+[[block]]
+key = "b86f7ac73f21e39c"
+origin = '''
+# Probe deploy
+'''
+translate = '''
+# Probe deploy
+'''
+
+[[block]]
+key = "b2d0b4d327a69127"
+origin = '''
+[gcode_macro Probe_Deploy]
+gcode:
+    SET_PIN PIN=probe_enable VALUE=1
+'''
+translate = '''
+[gcode_macro Probe_Deploy]
+gcode:
+    SET_PIN PIN=probe_enable VALUE=1
+'''
+
+[[block]]
+key = "3f8715a5c6d63b04"
+origin = '''
+# Probe stow
+'''
+translate = '''
+# Probe stow
+'''
+
+[[block]]
+key = "8510d617f80e76fc"
+origin = '''
+[gcode_macro Probe_Stow]
+gcode:
+    SET_PIN PIN=probe_enable VALUE=0
+'''
+translate = '''
+[gcode_macro Probe_Stow]
+gcode:
+    SET_PIN PIN=probe_enable VALUE=0
+'''
+
+[[block]]
+key = "5d1d47729b5d6537"
+origin = '''
+[probe]
+pin: ^!ebb:PB8
+deactivate_on_each_sample: False
+x_offset: 0.0 
+y_offset: 25.0
+z_offset: 1.660
+speed: 15
+activate_gcode:
+    Probe_Deploy
+    G4 P500
+deactivate_gcode:
+    Probe_Stow
+```
+'''
+translate = '''
+[probe]
+pin: ^!ebb:PB8
+deactivate_on_each_sample: False
+x_offset: 0.0 
+y_offset: 25.0
+z_offset: 1.660
+speed: 15
+activate_gcode:
+    Probe_Deploy
+    G4 P500
+deactivate_gcode:
+    Probe_Stow
+```
+'''
+
+[[block]]
+key = "35b288c15b8ec4f3"
+origin = '''
+### 配置为Z限位
+'''
+translate = '''
+### 配置为Z限位
+'''
+
+[[block]]
+key = "da4fac71d9c57a51"
+origin = '''
+替换原本的 `endstop_pin` 为 `probe:z_virtual_endstop`
+'''
+translate = '''
+替换原本的 `endstop_pin` 为 `probe:z_virtual_endstop`
+'''
+
+[[block]]
+key = "89bfdf73208bd991"
+origin = '''
+```klipper_cfg title="printer.cfg"
+[stepper_z]
+endstop_pin: probe:z_virtual_endstop
+```
+'''
+translate = '''
+```klipper_cfg title="printer.cfg"
+[stepper_z]
+endstop_pin: probe:z_virtual_endstop
+```
+'''
