@@ -7,18 +7,19 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  lint:
     name: Build wiki
     
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [24.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
     - uses: actions/checkout@v6
+
+    - name: Run Meow Linter
+      uses: Neko-vecter/meow-lint@main
+      with:
+        github_token: ${{ github.token }}
+          
     - name: Use Node.js
       uses: actions/setup-node@v6
       with:
