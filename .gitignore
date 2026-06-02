@@ -21,3 +21,11 @@ yarn-error.log*
 
 yarn.lock
 package-lock.json
+
+# python
+venv
+.venv
+__pycache__
+
+# i18n build cache
+.build_cache
