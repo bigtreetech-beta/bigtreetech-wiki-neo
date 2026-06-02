@@ -1,0 +1,1066 @@
+[metadata]
+
+[[block]]
+key = "8583c5e6ae7402c8"
+origin = '''
+---
+sidebar_position: 1
+description: Panda Den H2
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: Panda Den H2
+---
+'''
+
+[[block]]
+key = "a7b8632d52e0ca9e"
+origin = '''
+# Panda Den H2
+'''
+translate = '''
+# Panda Den H2
+'''
+
+[[block]]
+key = "3e1ba3de05f400eb"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/panda-den-h2-6.webp').default} width="40%" class="right-image"/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-6.webp').default} width="40%" class="right-image"/>
+'''
+
+[[block]]
+key = "878dbaf4753a8d85"
+origin = '''
+产品购买链接：[Panda Den H2](https://biqu.equipment/products/biqu-panda-den-h2-storage-box?_pos=10&_sid=cad4bcb8a&_ss=r)
+'''
+translate = '''
+Product Purchase Link: [Panda Den H2](https://biqu.equipment/products/biqu-panda-den-h2-storage-box?_pos=10&_sid=cad4bcb8a&_ss=r)
+'''
+
+[[block]]
+key = "96815764f16dd2c5"
+origin = '''
+扩展打印件下载链接：[Panda Den H2 扩展打印件](https://makerworld.com/zh/models/2574246-panda-den-h2-related-3d-printing-files#profileId-2838362)
+'''
+translate = '''
+Printable Upgrades: [Click to Download the Files](https://makerworld.com/zh/models/2574246-panda-den-h2-related-3d-printing-files#profileId-2838362)
+'''
+
+[[block]]
+key = "2ead86bc7d9baecc"
+origin = '''
+## 修订历史
+'''
+translate = '''
+## Revision History
+'''
+
+[[block]]
+key = "6a5d0646f4a0efc3"
+origin = '''
+| 版本号 | 日期           | 更新内容 |
+| ------ | -------------- | -------- |
+| v1.0.0 | 2026年03月18号 | 初始版本 |
+'''
+translate = '''
+| Version | Date           | Revision Description |
+| ------- | -------------- | -------------------- |
+| v1.0.0  | March 18, 2026 | Initial Release      |
+'''
+
+[[block]]
+key = "f9c6f48ba32e89c6"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product Introduction
+'''
+
+[[block]]
+key = "bc9d986ee6a67457"
+origin = '''
+Panda Den H2 是BIQU 熊猫宇境系列中的一款专为 Bambu Lab H2/A/P/X 系列用户打造空间收纳产品。它不仅可以完美收集打印废料，让桌面始终保持干净，而且还可以 DIY 收纳空间，例如铲刀、剪钳、胶棒等常用工具。同时还可以拓展安装 RGB 灯光套件，用户通过自定义灯光效果，展现个性化色彩，是您打印机在功能与个性展示的完美融合佳品。
+'''
+translate = '''
+The Panda Den H2 is a heavy-duty steel workstation designed for the Bambu Lab H2/A/P/X series. As the foundation of the BIQU Panda-Verse, it integrates a waste collector and tool drawer directly beneath your machine to reclaim desk space. Optional RGB lighting adds personalized style and real-time status feedback, while printable add-ons - including a build plate rack, filament spool holder, and hotend storage - let you fully customize your ultimate printing hub.
+'''
+
+[[block]]
+key = "3793c167c87a1c58"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## Product Features
+'''
+
+[[block]]
+key = "243ecda6bbba4fa4"
+origin = '''
+- **完美空间利用**：该产品是放置于 Bambu Lab H2/A/P/X 系列打印机正下方，完全不占用您桌面的空间。
+'''
+translate = '''
+- **Desk-Space Reclamation**: Positioned directly beneath your Bambu Lab printer, this heavy-duty steel workstation maximizes efficiency without taking up extra desk space.
+'''
+
+[[block]]
+key = "88c6d25119bfadd9"
+origin = '''
+- **废料收集与工具收纳双功能**：该产品左侧为废料收集抽屉，在常规打印工作状态下，可以收纳3~5天废料；右侧为工具收纳抽屉，用于收纳常用的铲刀，剪钳，胶棒等工具，方便您打印后随取随用，快速高效，不用再到处翻找合适的工具了；侧边还预留打印板收纳支架的安装孔位，方便您收纳宝贵的打印板。
+'''
+translate = '''
+- **Integrated Storage & Modularity**: Features a high-capacity waste collector and a dedicated drawer for essential tools like scrapers, pliers, and liquid glue. This modular foundation supports an array of printable add-ons, including a **build plate rack**, **filament spool holder**, and **hotend storage**.
+'''
+
+[[block]]
+key = "48844a15fc80af42"
+origin = '''
+- **DIY 个性化展示**：该产品提供可供扩展的个性化灯光套件与 Web UI 设置，方便您对打印空间进行装饰，展示您个性化色彩和风格。
+'''
+translate = '''
+- **Optional Lighting Kit**: Provides personalized style and real-time printer status feedback. Lighting effects can be easily managed via a wireless Web UI.
+'''
+
+[[block]]
+key = "cd4e389d870dbdb1"
+origin = '''
+- **坚固材质与性感体验**：该产品使用高强度钢材打造，四周一体折弯，没有缝隙，承重力超强，经久耐用。左右两个抽屉都使用自吸附导轨，自带吸附效果，不用再担心是否将抽屉关闭严密了。
+'''
+translate = '''
+- **Industrial-Grade Build**: Constructed from high-strength, seamless steel with integrated soft-close dampers for a smooth, premium drawer experience and lasting durability.
+'''
+
+[[block]]
+key = "d79fdb1e4b7141f5"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-4.webp').default} width="40%" width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-4.webp').default} width="40%" width="70%"/>
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "45f9a82242e0d4ef"
+origin = '''
+## 产品参数
+'''
+translate = '''
+## Product Specifications
+'''
+
+[[block]]
+key = "45117ff057f0b965"
+origin = '''
+| 产品名称 | BIQU Panda Den H2                          |
+| -------- | ------------------------------------------- |
+| 尺寸     | 595mm(23.43in)*495mm(19.49in)*185mm(7.28in) |
+| 材质     | 钢                                          |
+| 兼容性   | 适配Bambu Lab H2/A/P/X 系列机器                |
+'''
+translate = '''
+| Product Name | BIQU Panda Den H2                           |
+| ------------ | -------------------------------------------- |
+| Dimensions   | 595mm(23.43in) * 495mm(19.49in) * 185mm(7.28in) |
+| Material     | Steel                                        |
+| Compatibility| For Bambu Lab H2/A/P/X Series Printers           |
+'''
+
+[[block]]
+key = "360b7edfb8a7ca03"
+origin = '''
+<ImageView src={require('./img/panda-den-h2-5.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-5.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "1d4d588a0053c343"
+origin = '''
+## 安装指南
+'''
+translate = '''
+## Installation Guide
+'''
+
+[[block]]
+key = "634bce765735fa45"
+origin = '''
+### Bambu Lab H2 系列
+'''
+translate = '''
+###  Bambu Lab H2 Series
+'''
+
+[[block]]
+key = "c04d8fb9d947c13b"
+origin = '''
+- 安装耗材支架固定结构。
+'''
+translate = '''
+- Install the Filament Spool Holder Bracket.
+'''
+
+[[block]]
+key = "c7e1a89f224fdb12"
+origin = '''
+    取出产品抽屉内的耗材支架固定件，使用两颗附赠的 **M4*5半圆头螺丝** 按下图方式固定到产品主体后方的安装孔位上。
+'''
+translate = '''
+    Retrieve the Filament Spool Holder Bracket Hardware from the drawer. Use the two included **M4x5 button head screws** to secure it to the mounting holes at the rear of the main body as shown.
+'''
+
+[[block]]
+key = "92b1f2028e60b74e"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-9.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-9.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "e96f1b1a590a730d"
+origin = '''
+- 安装耗材支架。
+'''
+translate = '''
+- Install the Spool Holder.
+'''
+
+[[block]]
+key = "918823514529c01d"
+origin = '''
+    将 Bambu Lab H2 系列标配的耗材支架按如下方式固定到耗材支架固定件上。
+'''
+translate = '''
+    Secure the spool holder included with the Bambu Lab H2 series onto the bracket as shown.
+'''
+
+[[block]]
+key = "8c6573b3560a2604"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-10.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-10.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "4469182d0027313a"
+origin = '''
+- 打印封口配件。
+'''
+translate = '''
+- Print the Sealing Covers.
+'''
+
+[[block]]
+key = "a34a516d8029bbb1"
+origin = '''
+    因为 Panda Den H2 设计上是兼容 Bambu Lab的 H2/P/X/A 系列机器，所以在上方有两处开口，分别是 A 系列机器废料收集开口以及 H2/P/X 系列机器废料收集开口，您现在要放置 H2/P/X 系列机器，可以考虑使用打印件封闭 A 系列机器的废料收集开口。打印件下载链接是：[封口A系列，图中标号一](https://makerworld.com/zh/models/2574229-panda_den_air_panda-den-print#profileId-2838353)
+'''
+translate = '''
+    Since the Panda Den H2 is designed to be compatible with Bambu Lab H2/P/X/A series machines, there are two openings on the top: one for the A-series waste outlet and one for the H2/P/X-series waste outlet. When using H2/P/X series machines, you can use a printed part to seal the A-series waste outlet. Download link: [A-Series Sealing Cover (Label 1 in diagram)](https://makerworld.com/zh/models/2574229-panda_den_air_panda-den-print#profileId-2838353)
+'''
+
+[[block]]
+key = "eda87b42da301dde"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-20.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-20.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "7ad2fccda26b390f"
+origin = '''
+    安装参考图
+'''
+translate = '''
+    Installation Reference
+'''
+
+[[block]]
+key = "65333752ebcdae94"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-21.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-21.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "82c9c7e6eaf4ea39"
+origin = '''
+- 将打印机放置在 Panda Den H2 正上方，其中机器的前门与 Panda Den H2 的前门靠近。
+'''
+translate = '''
+- Place the printer directly on top of the Panda Den H2, ensuring the front door of the machine is aligned with the front of the Panda Den H2.
+'''
+
+[[block]]
+key = "bf130b4eeaddfff7"
+origin = '''
+- 组装废料收集导管。
+'''
+translate = '''
+- Assemble the Poop Chute Extension.
+'''
+
+[[block]]
+key = "d8c13c8988bf26c0"
+origin = '''
+    首先，需要打印适配 Bambu Lab H2 系列机器的废料收集导管：[打印件链接](https://makerworld.com/zh/models/2574246-panda-den-h2-related-3d-printing-files#profileId-2838362)
+'''
+translate = '''
+    First, print the Poop Chute Extension compatible with the Bambu Lab H2 series: [Click to Download the Files](https://makerworld.com/zh/models/2574246-panda-den-h2-related-3d-printing-files#profileId-2838362)
+'''
+
+[[block]]
+key = "9853f7e7ba7a7675"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-22.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-22.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "2d9e3ff0c9f29535"
+origin = '''
+- 然后，需要将配件包中的磁铁使用 6 颗 **沉头M3*6螺丝** 固定到 H2 系列废料收集导管固定孔上。
+'''
+translate = '''
+- Next, secure the magnets from the accessory kit to the H2-series poop chute extension mounting holes using six **M3x6 countersunk screws**.
+'''
+
+[[block]]
+key = "0e302799f3d46666"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-12.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-12.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "85041fb7af516bda"
+origin = '''
+- 最后将废料收集导管对准废料孔位吸附至背部即可。
+'''
+translate = '''
+- Finally, align the poop chute extension with the waste outlet and magnetically attach it to the rear.
+'''
+
+[[block]]
+key = "1a51756aa7ef74c0"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-11.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-11.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "272bcf1c43b8e59e"
+origin = '''
+### Bambu Lab P/X 系列
+'''
+translate = '''
+### Bambu Lab P/X Series
+'''
+
+[[block]]
+key = "c04d8fb9d947c13b"
+origin = '''
+- 安装耗材支架固定结构。
+'''
+translate = '''
+- Install the Filament Spool Holder Bracket.
+'''
+
+[[block]]
+key = "c7e1a89f224fdb12"
+origin = '''
+    取出产品抽屉内的耗材支架固定件，使用两颗附赠的 **M4*5半圆头螺丝** 按下图方式固定到产品主体后方的安装孔位上。
+'''
+translate = '''
+    Retrieve the Filament Spool Holder Bracket Hardware from the drawer. Use the two included **M4x5 button head screws** to secure it to the mounting holes at the rear of the main body as shown.
+'''
+
+[[block]]
+key = "92b1f2028e60b74e"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-9.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-9.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "e96f1b1a590a730d"
+origin = '''
+- 安装耗材支架。
+'''
+translate = '''
+- Install the Spool Holder.
+'''
+
+[[block]]
+key = "b83fcf9ef688e622"
+origin = '''
+    将 Bambu Lab P系列标配的耗材支架按如下方式固定到耗材支架固定件上。
+'''
+translate = '''
+    Secure the spool holder included with the Bambu Lab P series onto the bracket as shown.
+'''
+
+[[block]]
+key = "ef0b8c8e514d228a"
+origin = '''
+    P1系列参考图
+'''
+translate = '''
+    P1 Series Reference
+'''
+
+[[block]]
+key = "5cdf659181b2acf8"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-17.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-17.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "193854fdf639360d"
+origin = '''
+    P2系列参考图
+'''
+translate = '''
+    P2 Series Reference
+'''
+
+[[block]]
+key = "efb8a8b476662a86"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-18.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-18.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "4469182d0027313a"
+origin = '''
+- 打印封口配件。
+'''
+translate = '''
+- Print the Sealing Covers.
+'''
+
+[[block]]
+key = "fb54738c7c3835a8"
+origin = '''
+    因为 Panda Den H2 设计上是兼容 Bambu Lab 的 H2/A/P/X 系列机器，所以在上方有两处开口，分别是A系列机器废料收集开口以及 H2/P/X 系列机器废料收集开口，您现在要放置 P/X 系列机器，可以考虑使用打印件封闭 A系列机器的废料收集开口。打印件下载链接是：[封口A系列，图中标号一](https://makerworld.com/zh/models/2574229-panda_den_air_panda-den-print#profileId-2838353)
+'''
+translate = '''
+    Since the Panda Den H2 is designed to be compatible with Bambu Lab H2/A/P/X series machines, there are two openings on the top: one for the A-series waste outlet and one for the H2/P/X-series waste outlet. When using P/X series machines, you can use a printed part to seal the A-series waste outlet. Download link: [A-Series Sealing Cover (Label 1 in diagram)](https://makerworld.com/zh/models/2574229-panda_den_air_panda-den-print#profileId-2838353)
+'''
+
+[[block]]
+key = "eda87b42da301dde"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-20.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-20.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "7ad2fccda26b390f"
+origin = '''
+    安装参考图
+'''
+translate = '''
+    Installation Reference
+'''
+
+[[block]]
+key = "65333752ebcdae94"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-21.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-21.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "82c9c7e6eaf4ea39"
+origin = '''
+- 将打印机放置在 Panda Den H2 正上方，其中机器的前门与 Panda Den H2 的前门靠近。
+'''
+translate = '''
+- Place the printer directly on top of the Panda Den H2, ensuring the front door of the machine is aligned with the front of the Panda Den H2.
+'''
+
+[[block]]
+key = "bf130b4eeaddfff7"
+origin = '''
+- 组装废料收集导管。
+'''
+translate = '''
+- Assemble the Poop Chute Extension.
+'''
+
+[[block]]
+key = "3189cdbe22ae0be1"
+origin = '''
+    首先，需要打印适配 Bambu Lab P/X 系列机器的废料收集导管：[打印件链接](https://makerworld.com/zh/models/2574229-panda_den_air_panda-den-print#profileId-2838353)
+'''
+translate = '''
+    First, print the poop chute extension compatible with the Bambu Lab P/X series: [Click to Download the Files](https://makerworld.com/zh/models/2574229-panda_den_air_panda-den-print#profileId-2838353)
+'''
+
+[[block]]
+key = "5322d8e284a51812"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-28.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-28.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "8875824729d378e6"
+origin = '''
+- 然后，需要将配件包中的磁铁使用 6 颗 **沉头M3*6螺丝**固定到P系列废料收集导管固定孔上。
+'''
+translate = '''
+- Next, secure the magnets from the accessory kit to the P-series poop chute extension mounting holes using six **M3x6 countersunk screws**.
+'''
+
+[[block]]
+key = "f9d07656697a35e1"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-26.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-26.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "85041fb7af516bda"
+origin = '''
+- 最后将废料收集导管对准废料孔位吸附至背部即可。
+'''
+translate = '''
+- Finally, align the poop chute extension with the waste outlet and magnetically attach it to the rear.
+'''
+
+[[block]]
+key = "7f04c62390281657"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-27.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-27.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "cc90b31d44bf943b"
+origin = '''
+### Bambu Lab A1 系列
+'''
+translate = '''
+### Bambu Lab A Series
+'''
+
+[[block]]
+key = "64a350d943e6f7ae"
+origin = '''
+- 打印封口配件（可选）
+'''
+translate = '''
+- Print the sealing covers. (Optional)
+'''
+
+[[block]]
+key = "68a9e5e8c3dfa523"
+origin = '''
+    您现在要放置 A1 系列机器，可以考虑使用打印件封闭 H2/P/X 系列机器的废料收集开口。打印件下载链接是：[封口P/X系列（图中标号二）](https://makerworld.com/zh/models/2574229-panda_den_air_panda-den-print#profileId-2838353)
+'''
+translate = '''
+    When using A-series machines, you can use a printed part to seal the H2/P/X series waste outlet. Download link: [H2/P/X Series Seal (Label 2 in diagram)](https://makerworld.com/zh/models/2574229-panda_den_air_panda-den-print#profileId-2838353)
+'''
+
+[[block]]
+key = "eda87b42da301dde"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-20.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-20.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "7ad2fccda26b390f"
+origin = '''
+    安装参考图
+'''
+translate = '''
+    Installation Reference
+'''
+
+[[block]]
+key = "65333752ebcdae94"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-21.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-21.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "cf90f25678061fc3"
+origin = '''
+- 安装废料口，使用附带的2颗 **M4*8半圆头螺丝** 将A系列废料收集导管固定左侧废料口中，A系列设备放置在底座顶面，使最左端刚好在废料口上方，推入安装废料挡板。
+'''
+translate = '''
+- Install the A1 Waste Collection (printed in advance) onto its designated mounting hole, identified by the silk mark A1/A1 mini Waste Chute Extension mounting hole. Secure it with the two included M4x8 screws. Next, position the A-series printer on top of the Panda Den H2, ensuring the leftmost side is aligned directly above the Waste Collection opening. Finally, insert the printed A1 Waste Guide to complete the installation.
+'''
+
+[[block]]
+key = "20e2448090221b75"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-30.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-30.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "17e0bab2e8467436"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-50.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-50.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "cd34af7df7f73464"
+origin = '''
+### 扩展安装指南（可选）
+'''
+translate = '''
+### Printable Upgrades (Optional)
+'''
+
+[[block]]
+key = "143083f5617adbaf"
+origin = '''
+#### DIY 打印板收纳支架
+'''
+translate = '''
+#### Build Plate Storage Rack
+'''
+
+[[block]]
+key = "d65f19a4a0fd21a8"
+origin = '''
+- 下载打印板收纳支架，如下图指示。
+'''
+translate = '''
+- Download the build plate storage rack as shown below.
+'''
+
+[[block]]
+key = "bc4c000206b4bb15"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-31.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-31.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "ec2d9f2557bdade6"
+origin = '''
+- 安装打印板收纳支架，如下图指示。
+'''
+translate = '''
+- Install the build plate storage rack as shown below.
+'''
+
+[[block]]
+key = "c3871fd7b2fef7e1"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-13.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-13.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "b24fb4b2e22d77fb"
+origin = '''
+#### DIY 热端收纳支架
+'''
+translate = '''
+#### Hotend Storage Rack
+'''
+
+[[block]]
+key = "1d67e29a4970589d"
+origin = '''
+- 下载热端收纳支架，如下图指示。
+'''
+translate = '''
+- Download the hotend storage rack as shown below.
+'''
+
+[[block]]
+key = "b44a520266650751"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-38.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-38.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "036ebc821177fbc3"
+origin = '''
+- 安装热端收纳支架，如下图指示。
+'''
+translate = '''
+- Install the hotend storage rack as shown below.
+'''
+
+[[block]]
+key = "5ee0bcf67db5f6b9"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-32.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-32.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "0160a7aa5f45892b"
+origin = '''
+#### DIY 急停按钮安装支架
+'''
+translate = '''
+#### Emergency Stop Button Mounting Bracket
+'''
+
+[[block]]
+key = "1de6937ebec8dfca"
+origin = '''
+- 下载急停按钮安装支架，如下图所示。
+'''
+translate = '''
+- Download the emergency stop button bracket as shown below.
+'''
+
+[[block]]
+key = "0a1cb6e657e403e9"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-39.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-39.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "6ec419369a65428b"
+origin = '''
+- 安装急停按钮支架，如下图所示。
+'''
+translate = '''
+- Install the emergency stop button bracket as shown below.
+'''
+
+[[block]]
+key = "ef665e4f55c6dad3"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-33.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-33.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "f8c6a0e9c4f3a9ef"
+origin = '''
+#### DIY 福马轮安装扳手
+'''
+translate = '''
+#### Wrench for Caster Wheel Installation
+'''
+
+[[block]]
+key = "07da095acc2458b8"
+origin = '''
+- 下载福马轮安装扳手，如下图所示。
+'''
+translate = '''
+- Download the wrench for caster wheel installation as shown below.
+'''
+
+[[block]]
+key = "94bb5144897db72c"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-40.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-40.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "fde0893c70767583"
+origin = '''
+- 福马轮安装扳手使用方式如下图所示。
+'''
+translate = '''
+- The wrench usage for installing the caster wheel is illustrated below.
+'''
+
+[[block]]
+key = "df1eed3df6886a6b"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-34.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-34.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "c224bc548add7b9d"
+origin = '''
+#### DIY 福马轮滚轮调节工具
+'''
+translate = '''
+#### Adjustment Tool for Caster Wheel
+'''
+
+[[block]]
+key = "d39108705280d2b7"
+origin = '''
+- 下载福马轮滚轮调节工具把手，如下图所示：
+'''
+translate = '''
+- Download the adjustment tool for caster wheel, as shown in the image below:
+'''
+
+[[block]]
+key = "b61fa96c3ca492ff"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-35.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-35.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "68901e0dd58bd5db"
+origin = '''
+- 福马轮滚轮调节工具使用方式如下图所示。
+'''
+translate = '''
+- To Lock: Use the tool to pull the red adjustment wheel toward the triangle icon on the tool, lowering the foot pads and securing the printer to the floor. To Unlock: Pull the wheel toward the circle icon to raise the foot pads, allowing smooth movement.
+'''
+
+[[block]]
+key = "393cc58229d57b11"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-36.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-36.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "caa98dc31c20a565"
+origin = '''
+#### DIY 收纳工具盒
+'''
+translate = '''
+#### DIY Tool Organizer Boxes
+'''
+
+[[block]]
+key = "449e27918b229096"
+origin = '''
+工具收纳相关配件介绍。见下图。
+'''
+translate = '''
+Introduction to tool storage accessories. See diagram below.
+'''
+
+[[block]]
+key = "36df81fb21a8860c"
+origin = '''
+<ImageView src={require('./img/panda-den-h2-37.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-37.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "0d1b68f977325171"
+origin = '''
+1. 安放在工具收纳抽屉与废料收集抽屉上方的活动收纳槽。
+'''
+translate = '''
+1. Sliding organizer tray for the tool storage drawer.
+'''
+
+[[block]]
+key = "2085a368ca4e7ec7"
+origin = '''
+2. 废料铲斗。
+'''
+translate = '''
+2. Sliding organizer tray for the waste collection drawer.
+'''
+
+[[block]]
+key = "8dca47cf0df9f934"
+origin = '''
+3. 活动收纳槽隔断板和固定格。
+'''
+translate = '''
+3. Divider for the waste collection drawer organizer tray.
+'''
+
+[[block]]
+key = "5ba2797726d032e2"
+origin = '''
+4. 常见工具收纳槽：铲刀、胶棒、剪钳。
+'''
+translate = '''
+4. Divider for the tool storage drawer organizer tray.
+'''
+
+[[block]]
+key = "8cd0d0566e9099fb"
+origin = '''
+5. 耗材色卡收纳槽。
+'''
+translate = '''
+5. Base organizer grid for the tool storage drawer.
+'''
+
+[[block]]
+key = "cf1c8d9edce483eb"
+origin = '''
+#### 安装 RGB 个性化灯条
+'''
+translate = '''
+#### Installing the RGB Upgrade Kit
+'''
+
+[[block]]
+key = "1f1b5e4a6f63bac0"
+origin = '''
+:::note
+
+RGB灯条需搭配[Panda RGB Controller](https://global.bttwiki.com/Panda_RGB_Controller.html)使用，点击查看该产品说明。
+
+:::
+'''
+translate = '''
+:::note
+
+The RGB Upgrade Kit must be used with the [Panda RGB Controller, click to view the product manual](https://global.bttwiki.com/Panda_RGB_Controller.html).
+
+:::
+'''
+
+[[block]]
+key = "227c4b5feb37982e"
+origin = '''
+- 将底座翻转过来，将灯带从底部小缺口处开始粘贴在钣金内侧。
+'''
+translate = '''
+- Flip the Panda Den H2 over and begin adhering the light strip to the inner metal surface, starting from the small notch at the bottom.
+'''
+
+[[block]]
+key = "d018f4ce21ae86ae"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-14.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-14.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "293f4ad8c699f00c"
+origin = '''
+- 灯带环绕一周后再回到缺口处确定长度后按照灯条虚线处剪断即可。
+'''
+translate = '''
+- Wrap the light strip around the perimeter, then return to the notch to determine the final length. Cut the strip at the indicated dashed line.
+'''
+
+[[block]]
+key = "b502e242c7c54c26"
+origin = '''
+    <ImageView src={require('./img/panda-den-h2-15.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-15.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "d61f7a1db7e9f773"
+origin = '''
+## 废料清理
+'''
+translate = '''
+## Waste Removal
+'''
+
+[[block]]
+key = "4c2b68f6488e07fc"
+origin = '''
+清理废料时，拿起抽屉底部盖板，将废料从底部出口处刮出即可。
+'''
+translate = '''
+To clear waste, lift the drawer's bottom cover plate and scrape the waste out through the bottom exit.
+'''
+
+[[block]]
+key = "d21d3a3e96aee0f4"
+origin = '''
+<ImageView src={require('./img/panda-den-h2-16.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-den-h2/img/panda-den-h2-16.webp').default} width="70%"/>
+'''

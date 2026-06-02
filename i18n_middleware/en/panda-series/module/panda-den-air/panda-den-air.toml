@@ -1,0 +1,751 @@
+[metadata]
+
+[[block]]
+key = "75b2b4bfe13727af"
+origin = '''
+---
+sidebar_position: 1
+description: Panda Den Air
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: Panda Den Air
+---
+'''
+
+[[block]]
+key = "02d1d26a9525b119"
+origin = '''
+# Panda Den Air
+'''
+translate = '''
+# Panda Den Air
+'''
+
+[[block]]
+key = "d84a2b54122f5f8d"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/panda-den-air-1.webp').default} width="40%" class="right-image"/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-1.webp').default} width="40%" class="right-image"/>
+'''
+
+[[block]]
+key = "0e0a3101cc4704b4"
+origin = '''
+产品购买链接：[Panda Den Air](https://biqu.equipment/products/biqu-panda-den-air-storage-box?_pos=3&_psq=panda+den&_ss=e&_v=1.0)
+'''
+translate = '''
+Product Purchase Link: [Panda Den Air](https://biqu.equipment/products/biqu-panda-den-air-storage-box?_pos=3&_psq=panda+den&_ss=e&_v=1.0)
+'''
+
+[[block]]
+key = "680f5c5ca4e258ea"
+origin = '''
+扩展打印件下载链接：[Panda Den Air 扩展打印件](https://makerworld.com/zh/models/2574229-panda_den_air_panda-den-print#profileId-2838353)
+'''
+translate = '''
+Printable Upgrades: [Click to Download the Files](https://makerworld.com/zh/models/2574229-panda_den_air_panda-den-print#profileId-2838353)
+'''
+
+[[block]]
+key = "2ead86bc7d9baecc"
+origin = '''
+## 修订历史
+'''
+translate = '''
+## Revision History
+'''
+
+[[block]]
+key = "6a5d0646f4a0efc3"
+origin = '''
+| 版本号 | 日期           | 更新内容 |
+| ------ | -------------- | -------- |
+| v1.0.0 | 2026年03月18号 | 初始版本 |
+'''
+translate = '''
+| Version | Date           | Update Details |
+| ------ | -------------- | -------- |
+| v1.0.0 | March 18, 2026 | Initial Release |
+'''
+
+[[block]]
+key = "f9c6f48ba32e89c6"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product Introduction
+'''
+
+[[block]]
+key = "7480c0d0e3d15fc0"
+origin = '''
+Panda Den Air 是专为 Bambu Lab A/P/X 系列打造的高强度钢制工作台，为你的 3D 打印机提供稳固可靠的核心支撑。作为 BIQU Panda-Verse(熊猫宇境) 的核心基础单元，其在机身下方巧妙集成废料收集系统与工具收纳抽屉，大幅释放桌面空间，让工作环境更加整洁高效。
+'''
+translate = '''
+The Panda Den Air is a heavy-duty steel workstation designed for the Bambu Lab A/P/X series. As the foundation of the BIQU Panda-Verse, it integrates a waste collection drawer and tool storage directly beneath your machine to reclaim valuable desk space.
+'''
+
+[[block]]
+key = "efc3af9106161317"
+origin = '''
+可选配 RGB 灯光套件不仅彰显个性风格，还能提供直观的机器实时状态反馈，让设备运行一目了然。配合丰富的可打印扩展组件（包括钢板收纳架与耗材支架），进一步实现空间优化与高效组织，打造更专业、更流畅的打印工作体验。
+'''
+translate = '''
+Optional RGB lighting adds personalized style and real-time status feedback, while printable add-ons—including a build plate rack and filament spool holder - allow you to further streamline and organize your essential printing workspace.
+'''
+
+[[block]]
+key = "3793c167c87a1c58"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## Product Features
+'''
+
+[[block]]
+key = "695179eda37f8a1f"
+origin = '''
+- **完美空间利用**：该产品是放置于 Bambu Lab A/P/X 系列打印机正下方，完全不占用您桌面的空间。
+'''
+translate = '''
+- **Desk-Space Reclamation**: Positioned directly beneath your Bambu Lab printer, this heavy-duty steel workstation maximizes efficiency without taking up extra desk space.
+'''
+
+[[block]]
+key = "09ea7af34a4b8538"
+origin = '''
+- **废料收集与工具收纳双功能**：该产品左侧为废料收集抽屉，在常规打印工作状态下，可以收纳3~5天废料；右侧为工具收纳抽屉，用于收纳常用的铲刀，剪钳，胶棒等工具，方便您打印后随取随用，快速高效，不用再到处翻找想要的工具了；侧边还预留打印板收纳支架的安装孔位，方便您收纳宝贵的打印板。
+'''
+translate = '''
+- **Integrated Storage & Modularity**: Features a high-capacity waste collection drawer and a dedicated compartment for essential tools like scrapers, pliers, and liquid glue. This modular foundation supports functional printable add-ons, specifically a build plate rack and filament spool holder.
+'''
+
+[[block]]
+key = "02c2f0be559f2979"
+origin = '''
+- **DIY 个性化展示**：该产品提供可扩展的个性化灯光套件与 Web UI 设置，方便您对打印空间进行装饰，展示您个性化色彩和风格。
+'''
+translate = '''
+- **Optional Lighting Kit**: Provides personalized style and real-time printer status feedback. Lighting effects can be easily managed via a wireless Web UI.
+'''
+
+[[block]]
+key = "cd4e389d870dbdb1"
+origin = '''
+- **坚固材质与性感体验**：该产品使用高强度钢材打造，四周一体折弯，没有缝隙，承重力超强，经久耐用。左右两个抽屉都使用自吸附导轨，自带吸附效果，不用再担心是否将抽屉关闭严密了。
+'''
+translate = '''
+- **Industrial-Grade Build**: Constructed from high-strength, seamless steel with integrated soft-close dampers for a smooth, premium drawer experience and lasting durability.
+'''
+
+[[block]]
+key = "453dcddaaba52241"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-2.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-2.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "45f9a82242e0d4ef"
+origin = '''
+## 产品参数
+'''
+translate = '''
+## Product Specifications
+'''
+
+[[block]]
+key = "4228980e91e30f05"
+origin = '''
+| 产品名称 | BIQU Panda Den Air                          |
+| -------- | ------------------------------------------- |
+| 尺寸     | 456mm(17.95in)*388mm(15.28in)*191mm(7.52in) |
+| 材质     | 钢                                          |
+| 兼容性   | 适配Bambu Lab A/P/X 系列机器                |
+'''
+translate = '''
+| Product Name | BIQU Panda Den Air                          |
+| -------- | ------------------------------------------- |
+| Dimensions     | 456mm(17.95in)*388mm(15.28in)*191mm(7.52in) |
+| Material     | Steel                                          |
+| Compatibility   | For Bambu Lab A/P/X Series                |
+'''
+
+[[block]]
+key = "d59ffdd21c948d8f"
+origin = '''
+<ImageView src={require('./img/panda-den-air-4.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-4.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "1d4d588a0053c343"
+origin = '''
+## 安装指南
+'''
+translate = '''
+## Installation Guide
+'''
+
+[[block]]
+key = "272bcf1c43b8e59e"
+origin = '''
+### Bambu Lab P/X 系列
+'''
+translate = '''
+### Bambu Lab P/X Series
+'''
+
+[[block]]
+key = "c04d8fb9d947c13b"
+origin = '''
+- 安装耗材支架固定结构。
+'''
+translate = '''
+- Install the Filament Spool Holder Bracket.
+'''
+
+[[block]]
+key = "c7e1a89f224fdb12"
+origin = '''
+    取出产品抽屉内的耗材支架固定件，使用两颗附赠的 **M4*5半圆头螺丝** 按下图方式固定到产品主体后方的安装孔位上。
+'''
+translate = '''
+    Retrieve the Filament Spool Holder Bracket Hardware from the drawer. Use the two included **M4x5 button head screws** to secure it to the mounting holes at the rear of the main body as shown.
+'''
+
+[[block]]
+key = "07fc010e277cbafd"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-12.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-12.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "e96f1b1a590a730d"
+origin = '''
+- 安装耗材支架。
+'''
+translate = '''
+- Install the spool holder.
+'''
+
+[[block]]
+key = "b83fcf9ef688e622"
+origin = '''
+    将 Bambu Lab P系列标配的耗材支架按如下方式固定到耗材支架固定件上。
+'''
+translate = '''
+    Secure the spool holder included with the Bambu Lab P series onto the bracket as shown.
+'''
+
+[[block]]
+key = "ef0b8c8e514d228a"
+origin = '''
+    P1系列参考图
+'''
+translate = '''
+    P1 Series Reference
+'''
+
+[[block]]
+key = "ca906438019d1683"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-13.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-13.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "193854fdf639360d"
+origin = '''
+    P2系列参考图
+'''
+translate = '''
+    P2 Series Reference
+'''
+
+[[block]]
+key = "1a50063a329ededc"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-14.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-14.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "80ecfddc23f28f0c"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-15.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-15.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "4469182d0027313a"
+origin = '''
+- 打印封口配件。
+'''
+translate = '''
+- Print the sealing Covers.
+'''
+
+[[block]]
+key = "b9b34350d9b049f9"
+origin = '''
+    因为 Panda Den Air 设计上是兼容Bambu Lab的A/P/X系列机器，所以在上方有两处开口，分别是A系列机器废料收集开口以及P/X系列机器废料收集开口，您现在要放置 P/X 系列机器，可以考虑使用打印件封闭 A系列机器的废料收集开口。打印件下载链接是：[封口A系列，图中标号一](https://makerworld.com/zh/models/2574229-panda_den_air_panda-den-print#profileId-2838353)
+'''
+translate = '''
+    Since the Panda Den Air is designed to be compatible with Bambu Lab P/X/A series machines, there are two openings on the top: one for the A-series waste outlet and one for the P/X-series waste outlet. When using P/X series machines, you can use a printed part to seal the A-series waste outlet. Download link: [A-Series Seal,Label 1 in diagram](https://makerworld.com/zh/models/2574229-panda_den_air_panda-den-print#profileId-2838353)
+'''
+
+[[block]]
+key = "de53418cc69d3a03"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-22.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-22.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "7ad2fccda26b390f"
+origin = '''
+    安装参考图
+'''
+translate = '''
+    Installation Reference
+'''
+
+[[block]]
+key = "a6179f66b275bfe8"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-16.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-16.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "55512f69c10a7a8d"
+origin = '''
+- 将打印机放置在Panda Den Air正上方，其中机器的前门与Panda Den Air的前门靠近。
+'''
+translate = '''
+- Place the printer directly on top of the Panda Den Air, ensuring the front door of the machine is aligned with the front of the Panda Den Air.
+'''
+
+[[block]]
+key = "bf130b4eeaddfff7"
+origin = '''
+- 组装废料收集导管。
+'''
+translate = '''
+- Assemble the Poop Chute Extension.
+'''
+
+[[block]]
+key = "3189cdbe22ae0be1"
+origin = '''
+    首先，需要打印适配 Bambu Lab P/X 系列机器的废料收集导管：[打印件链接](https://makerworld.com/zh/models/2574229-panda_den_air_panda-den-print#profileId-2838353)
+'''
+translate = '''
+    First, print the Poop Chute Extension compatible with the Bambu Lab P/X series: [Click to Download the Files](https://makerworld.com/zh/models/2574229-panda_den_air_panda-den-print#profileId-2838353)
+'''
+
+[[block]]
+key = "b40c29a2649196e1"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-11.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-11.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "8875824729d378e6"
+origin = '''
+- 然后，需要将配件包中的磁铁使用 6 颗 **沉头M3*6螺丝**固定到P系列废料收集导管固定孔上。
+'''
+translate = '''
+- Next, secure the magnets from the accessory kit to the P-series poop chute extension mounting holes using six **M3x6 countersunk screws**.
+'''
+
+[[block]]
+key = "95fec80fb97e7dad"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-20.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-20.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "85041fb7af516bda"
+origin = '''
+- 最后将废料收集导管对准废料孔位吸附至背部即可。
+'''
+translate = '''
+- Finally, align the poop chute extension with the waste outlet and magnetically attach it to the rear.
+'''
+
+[[block]]
+key = "8e6116361eb39470"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-17.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-17.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "f69cb9b3fa314d70"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-3.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-3.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "cc90b31d44bf943b"
+origin = '''
+### Bambu Lab A1 系列
+'''
+translate = '''
+### Bambu Lab A1 Series
+'''
+
+[[block]]
+key = "64a350d943e6f7ae"
+origin = '''
+- 打印封口配件（可选）
+'''
+translate = '''
+- Print the sealing covers. (Optional)
+'''
+
+[[block]]
+key = "33df50ea2365bd14"
+origin = '''
+    因为 Panda Den Air 设计上是兼容Bambu Lab的A/P/X系列机器，所以在上方有两处开口，分别是A系列机器废料收集开口以及P/X系列机器废料收集开口，您现在要放置 A1 系列机器，可以考虑使用打印件封闭 P/X 系列机器的废料收集开口。打印件下载链接是：[封口P/X系列，图中标号二](https://makerworld.com/zh/models/2574229-panda_den_air_panda-den-print#profileId-2838353)
+'''
+translate = '''
+    Since the Panda Den Air is designed to be compatible with Bambu Lab P/X/A series machines, there are two openings on the top: one for the A-series waste outlet and one for the P/X-series waste outlet. When using A-series machines, you can use a printed part to seal the P/X series waste outlet. Download link: [ P/X Series Seal,Label 2 in diagram](https://makerworld.com/zh/models/2574229-panda_den_air_panda-den-print#profileId-2838353)
+'''
+
+[[block]]
+key = "de53418cc69d3a03"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-22.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-22.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "7ad2fccda26b390f"
+origin = '''
+    安装参考图
+'''
+translate = '''
+    Installation Reference
+'''
+
+[[block]]
+key = "a6179f66b275bfe8"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-16.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-16.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "cf90f25678061fc3"
+origin = '''
+- 安装废料口，使用附带的2颗 **M4*8半圆头螺丝** 将A系列废料收集导管固定左侧废料口中，A系列设备放置在底座顶面，使最左端刚好在废料口上方，推入安装废料挡板。
+'''
+translate = '''
+- Install the A1 Waste Collection (printed in advance) onto its designated mounting hole, identified by the silk mark A1/A1 mini Waste Chute Extension mounting hole. Secure it with the two included M4*8 screws. Next, position the A-series printer on top of the Panda Den, ensuring the leftmost side is aligned directly above the Waste Collection opening. Finally, insert the printed A1 Waste Stopper to complete the installation.
+'''
+
+[[block]]
+key = "ce6f9161188a5792"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-24.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-24.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "955940deb2a47548"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-50.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-50.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "4df7e262bebd3bf1"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-7.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-7.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "fe42185c25dc3383"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-8.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-8.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "cd34af7df7f73464"
+origin = '''
+### 扩展安装指南（可选）
+'''
+translate = '''
+### Printable Upgrades (Optional)
+'''
+
+[[block]]
+key = "143083f5617adbaf"
+origin = '''
+#### DIY 打印板收纳支架
+'''
+translate = '''
+#### Build Plate Storage Rack
+'''
+
+[[block]]
+key = "d65f19a4a0fd21a8"
+origin = '''
+- 下载打印板收纳支架，如下图指示。
+'''
+translate = '''
+- Download the build plate storage rack as shown below.
+'''
+
+[[block]]
+key = "026b064b1c56334b"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-25.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-25.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "ec2d9f2557bdade6"
+origin = '''
+- 安装打印板收纳支架，如下图指示。
+'''
+translate = '''
+- Install the build plate storage rack as shown below.
+'''
+
+[[block]]
+key = "02305b4b3b381ee3"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-23.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-23.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "caa98dc31c20a565"
+origin = '''
+#### DIY 收纳工具盒
+'''
+translate = '''
+#### DIY Tool Organizer Boxes
+'''
+
+[[block]]
+key = "449e27918b229096"
+origin = '''
+工具收纳相关配件介绍。见下图。
+'''
+translate = '''
+Introduction to tool storage accessories. See diagram below.
+'''
+
+[[block]]
+key = "8e3828951990c557"
+origin = '''
+<ImageView src={require('./img/panda-den-air-26.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-26.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "a3280fc27feb1548"
+origin = '''
+1. 安放在工具收纳抽屉上方的活动收纳槽。
+'''
+translate = '''
+1. Sliding organizer tray for the tool storage drawer.
+'''
+
+[[block]]
+key = "e6979db7e1755457"
+origin = '''
+2. 安放在废料收集抽屉上方的活动收纳槽。
+'''
+translate = '''
+2. Sliding organizer tray for the waste collection drawer.
+'''
+
+[[block]]
+key = "ea7507ec3d9370cb"
+origin = '''
+3. 废料收纳和工具收纳抽屉上方活动收纳槽的隔断板。
+'''
+translate = '''
+3. Divider for Upper Movable Tray (Waste & Tool).
+'''
+
+[[block]]
+key = "8c8ae166585eb367"
+origin = '''
+4. 工具收纳抽屉底部固定格槽。
+'''
+translate = '''
+4. Fixed Compartment Grid for Tool Drawer Bottom.
+'''
+
+[[block]]
+key = "5eb74a4d6b572191"
+origin = '''
+5. 常用工具收纳盒。
+'''
+translate = '''
+5. Tool Storage Box.
+'''
+
+[[block]]
+key = "cf1c8d9edce483eb"
+origin = '''
+#### 安装 RGB 个性化灯条
+'''
+translate = '''
+#### Installing the RGB Upgrade Kit
+'''
+
+[[block]]
+key = "1f1b5e4a6f63bac0"
+origin = '''
+:::note
+
+RGB灯条需搭配[Panda RGB Controller](https://global.bttwiki.com/Panda_RGB_Controller.html)使用，点击查看该产品说明。
+
+:::
+'''
+translate = '''
+:::note
+
+The RGB Upgrade Kit must be used with the [Panda RGB Controller](https://global.bttwiki.com/Panda_RGB_Controller.html). Click to view the product manual.
+
+:::
+'''
+
+[[block]]
+key = "227c4b5feb37982e"
+origin = '''
+- 将底座翻转过来，将灯带从底部小缺口处开始粘贴在钣金内侧。
+'''
+translate = '''
+- Flip the Panda Den HAir over and begin adhering the light strip to the inner metal surface, starting from the small notch at the bottom.
+'''
+
+[[block]]
+key = "4ee9bb16a6301281"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-27.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-27.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "293f4ad8c699f00c"
+origin = '''
+- 灯带环绕一周后再回到缺口处确定长度后按照灯条虚线处剪断即可。
+'''
+translate = '''
+- Wrap the light strip around the perimeter, then return to the notch to determine the final length. Cut the strip at the indicated dashed line.
+'''
+
+[[block]]
+key = "0369a5dbd010307e"
+origin = '''
+    <ImageView src={require('./img/panda-den-air-28.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-28.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "d61f7a1db7e9f773"
+origin = '''
+## 废料清理
+'''
+translate = '''
+## Waste Removal
+'''
+
+[[block]]
+key = "4c2b68f6488e07fc"
+origin = '''
+清理废料时，拿起抽屉底部盖板，将废料从底部出口处刮出即可。
+'''
+translate = '''
+To clear waste, lift the drawer's bottom cover plate and scrape the waste out through the bottom exit.
+'''
+
+[[block]]
+key = "ff51de0a214d5d64"
+origin = '''
+<ImageView src={require('./img/panda-den-air-29.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-den-air/img/panda-den-air-29.webp').default} width="70%"/>
+'''

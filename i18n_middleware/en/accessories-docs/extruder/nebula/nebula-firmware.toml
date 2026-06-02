@@ -1,0 +1,351 @@
+[metadata]
+
+[[block]]
+key = "1ecc15ff390b2db4"
+origin = '''
+---
+sidebar_position: 3
+---
+'''
+translate = '''
+---
+sidebar_position: 3
+---
+'''
+
+[[block]]
+key = "d5519d11e202da6b"
+origin = '''
+# Nebula 固件配置
+'''
+translate = '''
+# Nebula 固件配置
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "908bfa70424d5c6a"
+origin = '''
+## Nebula Klipper 配置文件参考
+'''
+translate = '''
+## Nebula Klipper 配置文件参考
+'''
+
+[[block]]
+key = "58996cd7c8c04855"
+origin = '''
+### 挤出机配置
+'''
+translate = '''
+### 挤出机配置
+'''
+
+[[block]]
+key = "fe836291f17c4d5e"
+origin = '''
+``` klipper_cfg title="printer.cfg"
+[extruder]
+rotation_distance: 51.75
+gear_ratio: 11.25:1
+max_extrude_only_distance: 200.0
+```
+'''
+translate = '''
+``` klipper_cfg title="printer.cfg"
+[extruder]
+rotation_distance: 51.75
+gear_ratio: 11.25:1
+max_extrude_only_distance: 200.0
+```
+'''
+
+[[block]]
+key = "cf934764749bdc20"
+origin = '''
+### 挤出机 Neopixel
+'''
+translate = '''
+### 挤出机 Neopixel
+'''
+
+[[block]]
+key = "21ca60b4434e5b30"
+origin = '''
+``` klipper_cfg title="printer.cfg"
+[neopixel nebula_neopixel]
+pin: EBBCan:PD3 # Neopixel 引脚
+chain_count: 2
+color_order: GRB
+initial_RED: 1.0
+initial_GREEN: 1.0
+initial_BLUE: 1.0
+```
+'''
+translate = '''
+``` klipper_cfg title="printer.cfg"
+[neopixel nebula_neopixel]
+pin: EBBCan:PD3 # Neopixel 引脚
+chain_count: 2
+color_order: GRB
+initial_RED: 1.0
+initial_GREEN: 1.0
+initial_BLUE: 1.0
+```
+'''
+
+[[block]]
+key = "876d68178763715c"
+origin = '''
+### 挤出机 macro
+'''
+translate = '''
+### 挤出机 macro
+'''
+
+[[block]]
+key = "373cc543d7ecb0bd"
+origin = '''
+``` klipper_cfg title="nebula.cfg"
+[gcode_macro _NEBULA_VARIABLE]
+'''
+translate = '''
+``` klipper_cfg title="nebula.cfg"
+[gcode_macro _NEBULA_VARIABLE]
+'''
+
+[[block]]
+key = "54b4bf823cb11ebf"
+origin = '''
+# unload
+'''
+translate = '''
+# unload
+'''
+
+[[block]]
+key = "aaff288e3129e724"
+origin = '''
+variable_unload_purge_distance: 35   # (mm) purge a distance before unload to clean filament
+variable_unload_purge_speed:    300  # (mm/min) purge speed
+variable_unload_distance:       120  # (mm) unload distance
+variable_unload_speed:          3000 # (mm/min) unload speed
+'''
+translate = '''
+variable_unload_purge_distance: 35   # (mm) purge a distance before unload to clean filament
+variable_unload_purge_speed:    300  # (mm/min) purge speed
+variable_unload_distance:       120  # (mm) unload distance
+variable_unload_speed:          3000 # (mm/min) unload speed
+'''
+
+[[block]]
+key = "f63d7a81f7ddba7e"
+origin = '''
+# load
+'''
+translate = '''
+# load
+'''
+
+[[block]]
+key = "9a24ece6035bd3cd"
+origin = '''
+variable_load_distance:         40   # (mm) load distance
+variable_load_speed:            1500 # (mm/min) load speed
+variable_load_purge_distance:   70   # (mm) purge a distance after load
+variable_load_purge_speed:      300  # (mm/min) purge speed
+gcode:
+'''
+translate = '''
+variable_load_distance:         40   # (mm) load distance
+variable_load_speed:            1500 # (mm/min) load speed
+variable_load_purge_distance:   70   # (mm) purge a distance after load
+variable_load_purge_speed:      300  # (mm/min) purge speed
+gcode:
+'''
+
+[[block]]
+key = "65713b5198114834"
+origin = '''
+[respond]
+default_type: echo
+'''
+translate = '''
+[respond]
+default_type: echo
+'''
+
+[[block]]
+key = "8bc2ebfd5b2ef195"
+origin = '''
+[gcode_macro NEBULA_UNLOAD_FILAMENT]
+gcode:
+  {% set nebula = printer['gcode_macro _NEBULA_VARIABLE'] %}
+  {% set unload_purge_distance = nebula.unload_purge_distance %}
+  {% set unload_purge_speed = nebula.unload_purge_speed %}
+  {% set unload_distance = nebula.unload_distance %}
+  {% set unload_speed = nebula.unload_speed %}
+'''
+translate = '''
+[gcode_macro NEBULA_UNLOAD_FILAMENT]
+gcode:
+  {% set nebula = printer['gcode_macro _NEBULA_VARIABLE'] %}
+  {% set unload_purge_distance = nebula.unload_purge_distance %}
+  {% set unload_purge_speed = nebula.unload_purge_speed %}
+  {% set unload_distance = nebula.unload_distance %}
+  {% set unload_speed = nebula.unload_speed %}
+'''
+
+[[block]]
+key = "3ade014924c2dcb2"
+origin = '''
+  SAVE_GCODE_STATE NAME=tmp_unload_state
+  G91
+  G92 E0
+  M118 Nebula unload purging
+  G1 E{unload_purge_distance} F{unload_purge_speed}
+  M400
+  M118 Nebula unloading
+  G1 E-{unload_distance} F{unload_speed}
+  M400
+  RESTORE_GCODE_STATE NAME=tmp_unload_state
+'''
+translate = '''
+  SAVE_GCODE_STATE NAME=tmp_unload_state
+  G91
+  G92 E0
+  M118 Nebula unload purging
+  G1 E{unload_purge_distance} F{unload_purge_speed}
+  M400
+  M118 Nebula unloading
+  G1 E-{unload_distance} F{unload_speed}
+  M400
+  RESTORE_GCODE_STATE NAME=tmp_unload_state
+'''
+
+[[block]]
+key = "e3e7f0f5df3a10e3"
+origin = '''
+[gcode_macro NEBULA_LOAD_FILAMENT]
+gcode:
+  {% set nebula = printer['gcode_macro _NEBULA_VARIABLE'] %}
+  {% set load_purge_distance = nebula.load_purge_distance %}
+  {% set load_purge_speed = nebula.load_purge_speed %}
+  {% set load_distance = nebula.load_distance %}
+  {% set load_speed = nebula.load_speed %}
+'''
+translate = '''
+[gcode_macro NEBULA_LOAD_FILAMENT]
+gcode:
+  {% set nebula = printer['gcode_macro _NEBULA_VARIABLE'] %}
+  {% set load_purge_distance = nebula.load_purge_distance %}
+  {% set load_purge_speed = nebula.load_purge_speed %}
+  {% set load_distance = nebula.load_distance %}
+  {% set load_speed = nebula.load_speed %}
+'''
+
+[[block]]
+key = "570c237da31f4656"
+origin = '''
+  SAVE_GCODE_STATE NAME=tmp_unload_state
+  G91
+  G92 E0
+  M118 Nebula loading
+  G1 E{load_distance} F{load_speed}
+  M400
+  M118 Nebula load purging
+  G1 E{load_purge_distance} F{load_purge_speed}
+  M400
+  RESTORE_GCODE_STATE NAME=tmp_unload_state
+'''
+translate = '''
+  SAVE_GCODE_STATE NAME=tmp_unload_state
+  G91
+  G92 E0
+  M118 Nebula loading
+  G1 E{load_distance} F{load_speed}
+  M400
+  M118 Nebula load purging
+  G1 E{load_purge_distance} F{load_purge_speed}
+  M400
+  RESTORE_GCODE_STATE NAME=tmp_unload_state
+'''
+
+[[block]]
+key = "42c7f0450ec05257"
+origin = '''
+[gcode_button nebula_unload_button]
+pin: ^!EBBCan:PB4 # Gcode Button pin（marked as GB on extruder）, Modify this to match your mainboard！
+debounce_delay: 0.02
+press_gcode:
+release_gcode:
+  {% if printer.print_stats.state != "printing" %}
+    {% set fs = printer['gcode_button filament_sensor'] %}
+    {% if fs.state == "RELEASED" %}
+      NEBULA_UNLOAD_FILAMENT
+    {% endif %}
+  {% endif %}
+'''
+translate = '''
+[gcode_button nebula_unload_button]
+pin: ^!EBBCan:PB4 # Gcode Button pin（marked as GB on extruder）, Modify this to match your mainboard！
+debounce_delay: 0.02
+press_gcode:
+release_gcode:
+  {% if printer.print_stats.state != "printing" %}
+    {% set fs = printer['gcode_button filament_sensor'] %}
+    {% if fs.state == "RELEASED" %}
+      NEBULA_UNLOAD_FILAMENT
+    {% endif %}
+  {% endif %}
+'''
+
+[[block]]
+key = "8d4c08aef8a6b8d4"
+origin = '''
+[gcode_button filament_sensor]
+pin: ^EBBCan:PB3 # Filament sensor pin（marked as FS on extruder）, Modify this to match your mainboard！
+debounce_delay: 0.5
+press_gcode:
+  {% if printer.print_stats.state == "printing" %}
+    PAUSE # [pause_resume] is required in printer.cfg
+  {% endif %}
+release_gcode:
+  {% if printer.print_stats.state != "printing" %}
+    NEBULA_LOAD_FILAMENT
+  {% endif %}
+```
+'''
+translate = '''
+[gcode_button filament_sensor]
+pin: ^EBBCan:PB3 # Filament sensor pin（marked as FS on extruder）, Modify this to match your mainboard！
+debounce_delay: 0.5
+press_gcode:
+  {% if printer.print_stats.state == "printing" %}
+    PAUSE # [pause_resume] is required in printer.cfg
+  {% endif %}
+release_gcode:
+  {% if printer.print_stats.state != "printing" %}
+    NEBULA_LOAD_FILAMENT
+  {% endif %}
+```
+'''

@@ -1,0 +1,125 @@
+[metadata]
+
+[[block]]
+key = "faa9661d303a1f65"
+origin = '''
+---
+sidebar_position: 1
+description: Manta M5P 一体打印板
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: Manta M5P 一体打印板
+---
+'''
+
+[[block]]
+key = "02d42d27d41d9513"
+origin = '''
+# Manta M5P
+'''
+translate = '''
+# Manta M5P
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "49b2bf7f593d1f7c"
+origin = '''
+import DocCardList from '@theme/DocCardList';
+'''
+translate = '''
+import DocCardList from '@theme/DocCardList';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "4751aefbfb9ce79e"
+origin = '''
+<div class="div-table">
+
+<ImageView 
+    src={require('./img/M5P_Title.png').default} 
+    width="45%" class="right-image"
+/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView 
+    src={require('@site/docs/board-docs/manta-series/manta-m5p/img/M5P_Title.png').default} 
+    width="45%" class="right-image"
+/>
+'''
+
+[[block]]
+key = "cc93f65bfb52fa05"
+origin = '''
+## 硬件规格
+'''
+translate = '''
+## 硬件规格
+'''
+
+[[block]]
+key = "59e92127de8e8e5c"
+origin = '''
+| Specification    | Manta M5P                          |
+| ---------------- | ---------------------------------- |
+| MCU              | ARM Cortex-M0+ STM32G0B1RET6 64MHz |
+| 主板供电         | DC 24V                             |
+| 驱动供电         | 最高 DC 48V (需要驱动支持)         |
+| 逻辑电压         | DC 3.3V                            |
+| 热端最大电流     | 5A                                 |
+| 热床端口最大电流 | 10A                                |
+| 风扇端口最大电流 | 1A                                 |
+| 风扇总电流       | 2.5A                               |
+'''
+translate = '''
+| Specification    | Manta M5P                          |
+| ---------------- | ---------------------------------- |
+| MCU              | ARM Cortex-M0+ STM32G0B1RET6 64MHz |
+| 主板供电         | DC 24V                             |
+| 驱动供电         | 最高 DC 48V (需要驱动支持)         |
+| 逻辑电压         | DC 3.3V                            |
+| 热端最大电流     | 5A                                 |
+| 热床端口最大电流 | 10A                                |
+| 风扇端口最大电流 | 1A                                 |
+| 风扇总电流       | 2.5A                               |
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "d3ac9811ffbf8210"
+origin = '''
+<DocCardList />
+'''
+translate = '''
+<DocCardList />
+'''

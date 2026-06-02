@@ -1,0 +1,445 @@
+[metadata]
+
+[[block]]
+key = "a6369ba89d53a0ce"
+origin = '''
+# Panda Jet
+'''
+translate = '''
+# Panda Jet
+'''
+
+[[block]]
+key = "162c1f089bc084cd"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/Panda_Jet_Title.webp').default} width="40%" class="right-image"/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Title.webp').default} width="40%" class="right-image"/>
+'''
+
+[[block]]
+key = "6e3d031df0b0cf65"
+origin = '''
+## **产品简介**
+'''
+translate = '''
+## **产品简介**
+'''
+
+[[block]]
+key = "1f78d07ba4bffd2e"
+origin = '''
+Panda Jet是Bambu Lab X1/P1系列打印机的升级冷却风扇。其特殊的管道可增强喷嘴周围的气流，为灯丝提供全方位冷却，增强桥接和悬垂，同时保持打印视图清晰。
+'''
+translate = '''
+Panda Jet是Bambu Lab X1/P1系列打印机的升级冷却风扇。其特殊的管道可增强喷嘴周围的气流，为灯丝提供全方位冷却，增强桥接和悬垂，同时保持打印视图清晰。
+'''
+
+[[block]]
+key = "76c444e71c2b9f6d"
+origin = '''
+## **规格**
+'''
+translate = '''
+## **规格**
+'''
+
+[[block]]
+key = "ce5f2fb8e30a1a51"
+origin = '''
+| **产品名称**     | **Panda Jet**                                          |
+| ---------------- | ------------------------------------------------------ |
+| **材料**         | **MJF Nylon**                                          |
+| **尺寸**         | **30.5x52x58mm**                                       |
+| **净重**         | **13.6g**                                              |
+| **兼容的热端**   | **Bambu Lab P1/X1系列、Panda Flow/Revo系列的原创热端** |
+| **兼容的打印机** | **P1P, P1S, X1C, X1E**                                 |
+'''
+translate = '''
+| **产品名称**     | **Panda Jet**                                          |
+| ---------------- | ------------------------------------------------------ |
+| **材料**         | **MJF Nylon**                                          |
+| **尺寸**         | **30.5x52x58mm**                                       |
+| **净重**         | **13.6g**                                              |
+| **兼容的热端**   | **Bambu Lab P1/X1系列、Panda Flow/Revo系列的原创热端** |
+| **兼容的打印机** | **P1P, P1S, X1C, X1E**                                 |
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "53b10a12d3de6d92"
+origin = '''
+## **功能亮点**
+'''
+translate = '''
+## **功能亮点**
+'''
+
+[[block]]
+key = "b1605e576c5d1cc1"
+origin = '''
+- **精确冷却:** 角部出口位置可为喷嘴提供有针对性的气流，显著改善悬垂和桥接。
+- **无障碍视图:** 保持喷嘴的清晰视图。
+'''
+translate = '''
+- **精确冷却:** 角部出口位置可为喷嘴提供有针对性的气流，显著改善悬垂和桥接。
+- **无障碍视图:** 保持喷嘴的清晰视图。
+'''
+
+[[block]]
+key = "c59e9b55d90dca81"
+origin = '''
+- **高性能材料:** 由优质MJF尼龙制成，具有卓越的强度、耐热性和耐腐蚀性，可保证更持久的性能。
+'''
+translate = '''
+- **高性能材料:** 由优质MJF尼龙制成，具有卓越的强度、耐热性和耐腐蚀性，可保证更持久的性能。
+'''
+
+[[block]]
+key = "428599ef6d52a26e"
+origin = '''
+- **广泛兼容性:** 适用于Bambu Lab P1/X1系列hotends和Panda Flow/Revo系列，提供升级灵活性。
+'''
+translate = '''
+- **广泛兼容性:** 适用于Bambu Lab P1/X1系列hotends和Panda Flow/Revo系列，提供升级灵活性。
+'''
+
+[[block]]
+key = "d95dace42963d665"
+origin = '''
+## **包装清单**
+'''
+translate = '''
+## **包装清单**
+'''
+
+[[block]]
+key = "27d141374fec5a81"
+origin = '''
+<ImageView src={require('./img/Panda_Jet_Packaging.webp').default} width="600"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Packaging.webp').default} width="600"/>
+'''
+
+[[block]]
+key = "5484820ab4e54c28"
+origin = '''
+## **安装说明**
+'''
+translate = '''
+## **安装说明**
+'''
+
+[[block]]
+key = "62a8b7b56209abc1"
+origin = '''
+提示：Bambu Lab P1P和X1打印机的安装过程相同。
+'''
+translate = '''
+提示：Bambu Lab P1P和X1打印机的安装过程相同。
+'''
+
+[[block]]
+key = "5f4ffa1f11590bbd"
+origin = '''
+**步骤1：拆下前壳体**
+完全拆下前壳体总成，然后断开风扇连接器。
+'''
+translate = '''
+**步骤1：拆下前壳体**
+完全拆下前壳体总成，然后断开风扇连接器。
+'''
+
+[[block]]
+key = "5077177b306d5ab6"
+origin = '''
+<ImageView src={require('./img/Panda_Jet_Installation1.webp').default} width="600"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation1.webp').default} width="600"/>
+'''
+
+[[block]]
+key = "4be441a583125faa"
+origin = '''
+**步骤2：拆下原来的风扇导管**
+拧下以下两颗固定原始风扇导管的螺钉。保留螺钉，以便以后重新组装。
+'''
+translate = '''
+**步骤2：拆下原来的风扇导管**
+拧下以下两颗固定原始风扇导管的螺钉。保留螺钉，以便以后重新组装。
+'''
+
+[[block]]
+key = "97f619245cbe1c9c"
+origin = '''
+<ImageView src={require('./img/Panda_Jet_Installation2.webp').default} width="600"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation2.webp').default} width="600"/>
+'''
+
+[[block]]
+key = "8a8180505c2a2dac"
+origin = '''
+垂直拉出原来的风扇导管，小心地将其拆下。
+'''
+translate = '''
+垂直拉出原来的风扇导管，小心地将其拆下。
+'''
+
+[[block]]
+key = "d369f307b53cd966"
+origin = '''
+<font size="5" color="red">重要提示：P1/X1系列打印机的最新版原厂风道已用胶粘附在前盖上，请使用平口钳或笔刀小心刮除胶体，避免损坏前盖。若拆卸过程中前盖卡扣受损，panda jetpack仍可安装牢固；若jetpack与前盖间出现较大缝隙，可酌情使用少量速干胶进行固定。</font>
+'''
+translate = '''
+<font size="5" color="red">重要提示：P1/X1系列打印机的最新版原厂风道已用胶粘附在前盖上，请使用平口钳或笔刀小心刮除胶体，避免损坏前盖。若拆卸过程中前盖卡扣受损，panda jetpack仍可安装牢固；若jetpack与前盖间出现较大缝隙，可酌情使用少量速干胶进行固定。</font>
+'''
+
+[[block]]
+key = "6692eff9769ae1b9"
+origin = '''
+<ImageView src={require('./img/Panda_Jet_Installation3.webp').default} width="600"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation3.webp').default} width="600"/>
+'''
+
+[[block]]
+key = "61b512ca68e159b4"
+origin = '''
+**步骤3：安装Panda Jet**
+将Panda Jet与前壳体上的安装孔对齐。
+'''
+translate = '''
+**步骤3：安装Panda Jet**
+将Panda Jet与前壳体上的安装孔对齐。
+'''
+
+[[block]]
+key = "2e0d433c0ad955db"
+origin = '''
+<ImageView src={require('./img/Panda_Jet_Installation4.webp').default} width="600"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation4.webp').default} width="600"/>
+'''
+
+[[block]]
+key = "0be3890fcb881b90"
+origin = '''
+使用您在步骤2中卸下的两个螺钉固定Panda Jet。
+'''
+translate = '''
+使用您在步骤2中卸下的两个螺钉固定Panda Jet。
+'''
+
+[[block]]
+key = "c452e17bb7ef2df9"
+origin = '''
+<ImageView src={require('./img/Panda_Jet_Installation5.webp').default} width="600"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation5.webp').default} width="600"/>
+'''
+
+[[block]]
+key = "c209e41719347bae"
+origin = '''
+**步骤4：重新组装前壳体**
+将风扇连接器重新连接到板上（最上面的插槽），然后重新连接前壳体部件。
+'''
+translate = '''
+**步骤4：重新组装前壳体**
+将风扇连接器重新连接到板上（最上面的插槽），然后重新连接前壳体部件。
+'''
+
+[[block]]
+key = "05ee98ece1e08816"
+origin = '''
+<ImageView src={require('./img/Panda_Jet_Installation6.webp').default} width="600"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-jet/img/Panda_Jet_Installation6.webp').default} width="600"/>
+'''
+
+[[block]]
+key = "6cad46dcb48acb6e"
+origin = '''
+**步骤5：检查风扇**
+打开打印机并启用部件冷却风扇。
+确认风扇工作正常。
+'''
+translate = '''
+**步骤5：检查风扇**
+打开打印机并启用部件冷却风扇。
+确认风扇工作正常。
+'''
+
+[[block]]
+key = "3bd87928d24448ac"
+origin = '''
+## **产品购买链接**
+'''
+translate = '''
+## **产品购买链接**
+'''
+
+[[block]]
+key = "f9590ca7b81d7b87"
+origin = '''
+https://biqu.equipment/products/panda-jet-cooling-fan-duct-for-bambulab-x1-p1-hotend-panda-revo
+'''
+translate = '''
+https://biqu.equipment/products/panda-jet-cooling-fan-duct-for-bambulab-x1-p1-hotend-panda-revo
+'''
+
+[[block]]
+key = "cfa99ece9a11c678"
+origin = '''
+如果您在使用此产品时遇到任何问题，请与我们联系并提交支持工单。
+'''
+translate = '''
+如果您在使用此产品时遇到任何问题，请与我们联系并提交支持工单。
+'''
+
+[[block]]
+key = "1120599c3036c412"
+origin = '''
+https://biqu3d.com/pages/submit-a-ticket
+'''
+translate = '''
+https://biqu3d.com/pages/submit-a-ticket
+'''
+
+[[block]]
+key = "109cecb26591cdc2"
+origin = '''
+## **导航**
+'''
+translate = '''
+## **导航**
+'''
+
+[[block]]
+key = "3b7ea1a0ed061d49"
+origin = '''
+BIQU官方网站：                            							  http://biqu3d.com
+'''
+translate = '''
+BIQU官方网站：                            							  http://biqu3d.com
+'''
+
+[[block]]
+key = "dc55bab3534be779"
+origin = '''
+BIGTREETECH官方网站：            				 			 http://bigtree-tech.com
+'''
+translate = '''
+BIGTREETECH官方网站：            				 			 http://bigtree-tech.com
+'''
+
+[[block]]
+key = "8f0b3097849e564d"
+origin = '''
+网上商店：                                          				 		https://biqu.equipment
+'''
+translate = '''
+网上商店：                                          				 		https://biqu.equipment
+'''
+
+[[block]]
+key = "f65622d42751cede"
+origin = '''
+BIGTREETECH官方群: 								  			  https://www.facebook.com/groups/bigtreetech
+'''
+translate = '''
+BIGTREETECH官方群: 								  			  https://www.facebook.com/groups/bigtreetech
+'''
+
+[[block]]
+key = "cee1edc50946eb43"
+origin = '''
+Discord: 																	   https://discord.gg/hhZsV7zk
+'''
+translate = '''
+Discord: 																	   https://discord.gg/hhZsV7zk
+'''
+
+[[block]]
+key = "732c8417e9f1a88c"
+origin = '''
+Reddit:																		  https://www.reddit.com/r/BIGTREETECH/
+'''
+translate = '''
+Reddit:																		  https://www.reddit.com/r/BIGTREETECH/
+'''
+
+[[block]]
+key = "5c9f079be87903cb"
+origin = '''
+微信公众号：																BIGTREETECH 
+'''
+translate = '''
+微信公众号：																BIGTREETECH 
+'''
+
+[[block]]
+key = "fdab66075107f83e"
+origin = '''
+官方社群：
+'''
+translate = '''
+官方社群：
+'''
+
+[[block]]
+key = "fa745ff373405269"
+origin = '''
+1群：																			190180312（已满）
+'''
+translate = '''
+1群：																			190180312（已满）
+'''
+
+[[block]]
+key = "2fbbfde10f29f899"
+origin = '''
+2群：																			633401944
+'''
+translate = '''
+2群：																			633401944
+'''
+
+[[block]]
+key = "9c12c4a5842152f4"
+origin = '''
+微信社群：																   关注微信公众号获取社群二维码
+'''
+translate = '''
+微信社群：																   关注微信公众号获取社群二维码
+'''
+
+[[block]]
+key = "1670267506a3c289"
+origin = '''
+资料获取由微信公众号提供，关注公众号发送及消息即可获取（网盘链接）https://community.biqu3d.com/)
+'''
+translate = '''
+资料获取由微信公众号提供，关注公众号发送及消息即可获取（网盘链接）https://community.biqu3d.com/)
+'''

@@ -1,0 +1,298 @@
+[metadata]
+
+[[block]]
+key = "1ecc15ff390b2db4"
+origin = '''
+---
+sidebar_position: 3
+---
+'''
+translate = '''
+---
+sidebar_position: 3
+---
+'''
+
+[[block]]
+key = "1eb29b7d70f7006f"
+origin = '''
+# ADXL345 固件配置
+'''
+translate = '''
+# ADXL345 固件配置
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "a2b78d24afa0e7b4"
+origin = '''
+## 编译 Klipper 固件
+'''
+translate = '''
+## 编译 Klipper 固件
+'''
+
+[[block]]
+key = "b58c7f3c437b6f83"
+origin = '''
+使用 ssh 连接到 Klipper Host. 然后使用以下命令进入 Klipper 目录。并且使用 `make menuconfig` 配置固件。
+'''
+translate = '''
+使用 ssh 连接到 Klipper Host. 然后使用以下命令进入 Klipper 目录。并且使用 `make menuconfig` 配置固件。
+'''
+
+[[block]]
+key = "656b8b743b9fd7b4"
+origin = '''
+``` shell
+cd ~/klipper
+make menuconfig 
+```
+'''
+translate = '''
+``` shell
+cd ~/klipper
+make menuconfig 
+```
+'''
+
+[[block]]
+key = "78f7900a784a1745"
+origin = '''
+<ImageView src={require('./img/adxl-firmware-config.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/sensor/adxl345/img/adxl-firmware-config.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "8774d602a438d5ac"
+origin = '''
+当配置完成使用 `q` 来退出。使用 `y` 来保存编译选项。
+'''
+translate = '''
+当配置完成使用 `q` 来退出。使用 `y` 来保存编译选项。
+'''
+
+[[block]]
+key = "b29b749495956614"
+origin = '''
+然后使用 `make` 命令来开始编译 Klipper 固件
+'''
+translate = '''
+然后使用 `make` 命令来开始编译 Klipper 固件
+'''
+
+[[block]]
+key = "5b81e604caf35eea"
+origin = '''
+``` shell
+make
+```
+'''
+translate = '''
+``` shell
+make
+```
+'''
+
+[[block]]
+key = "6479f7c4b55cff4a"
+origin = '''
+## 写入固件
+'''
+translate = '''
+## 写入固件
+'''
+
+[[block]]
+key = "d33e992fa2eb5731"
+origin = '''
+当使用 Klipper 固件编译完成后。然后按住 `ADXL345` 的 `boot` 按钮。然后插入 `USB` 进入 `Boot` 模式。
+'''
+translate = '''
+当使用 Klipper 固件编译完成后。然后按住 `ADXL345` 的 `boot` 按钮。然后插入 `USB` 进入 `Boot` 模式。
+'''
+
+[[block]]
+key = "ac138188a847a043"
+origin = '''
+然后可以使用 `lsusb` 命令来确认 `ADXL345` 是否在 `Boot` 模式中。
+'''
+translate = '''
+然后可以使用 `lsusb` 命令来确认 `ADXL345` 是否在 `Boot` 模式中。
+'''
+
+[[block]]
+key = "ad8061a57dcb565c"
+origin = '''
+当确认 ADXL345 在 Boot 模式中后。可以使用以下命令来写入固件。
+'''
+translate = '''
+当确认 ADXL345 在 Boot 模式中后。可以使用以下命令来写入固件。
+'''
+
+[[block]]
+key = "81ecd667453eb68c"
+origin = '''
+``` shell
+make flash FLASH_DEVICE=2e8a:0003
+```
+'''
+translate = '''
+``` shell
+make flash FLASH_DEVICE=2e8a:0003
+```
+'''
+
+[[block]]
+key = "902cd53dbb490777"
+origin = '''
+## 配置 Klipper
+'''
+translate = '''
+## 配置 Klipper
+'''
+
+[[block]]
+key = "d5888bd7d0b91330"
+origin = '''
+``` klipper_cfg title="printer.cfg"
+'''
+translate = '''
+``` klipper_cfg title="printer.cfg"
+'''
+
+[[block]]
+key = "718b4e1b6dc4a9a0"
+origin = '''
+# This file contains common pin mappings for the bigtreetech adxl345 v2.0
+'''
+translate = '''
+# This file contains common pin mappings for the bigtreetech adxl345 v2.0
+'''
+
+[[block]]
+key = "7aaf72bcc83528d0"
+origin = '''
+# To use this config, the firmware should be compiled for the
+'''
+translate = '''
+# To use this config, the firmware should be compiled for the
+'''
+
+[[block]]
+key = "7d3f7951e4564196"
+origin = '''
+# RP2040 with "USB"
+'''
+translate = '''
+# RP2040 with "USB"
+'''
+
+[[block]]
+key = "845182cfd078a6ba"
+origin = '''
+# The micro-controller will be used to control the components on the nozzle.
+'''
+translate = '''
+# The micro-controller will be used to control the components on the nozzle.
+'''
+
+[[block]]
+key = "dbde9bee7c4f38a0"
+origin = '''
+# See docs/Config_Reference.md for a description of parameters.
+'''
+translate = '''
+# See docs/Config_Reference.md for a description of parameters.
+'''
+
+[[block]]
+key = "2a57116a09cb7bd8"
+origin = '''
+[mcu btt_adxl345]
+serial: /dev/serial/by-id/usb-Klipper_rp2040_btt_acc-if00
+'''
+translate = '''
+[mcu btt_adxl345]
+serial: /dev/serial/by-id/usb-Klipper_rp2040_btt_acc-if00
+'''
+
+[[block]]
+key = "aa358bfe15511928"
+origin = '''
+[adxl345]
+cs_pin: btt_adxl345:gpio9
+'''
+translate = '''
+[adxl345]
+cs_pin: btt_adxl345:gpio9
+'''
+
+[[block]]
+key = "7c83a4a0045a5b3b"
+origin = '''
+#spi_bus: spi1a
+'''
+translate = '''
+#spi_bus: spi1a
+'''
+
+[[block]]
+key = "978f30af7c5818f8"
+origin = '''
+spi_software_sclk_pin: btt_adxl345:gpio10
+spi_software_mosi_pin: btt_adxl345:gpio11
+spi_software_miso_pin: btt_adxl345:gpio8
+axes_map: -x,-y,-z
+'''
+translate = '''
+spi_software_sclk_pin: btt_adxl345:gpio10
+spi_software_mosi_pin: btt_adxl345:gpio11
+spi_software_miso_pin: btt_adxl345:gpio8
+axes_map: -x,-y,-z
+'''
+
+[[block]]
+key = "b3b2818e09e65b76"
+origin = '''
+[resonance_tester]
+probe_points: 100, 100, 20
+accel_chip: adxl345
+```
+'''
+translate = '''
+[resonance_tester]
+probe_points: 100, 100, 20
+accel_chip: adxl345
+```
+'''

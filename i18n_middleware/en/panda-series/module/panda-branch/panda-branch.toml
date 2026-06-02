@@ -1,0 +1,192 @@
+[metadata]
+
+[[block]]
+key = "45b4343f46b1d97e"
+origin = '''
+# Panda Branch
+'''
+translate = '''
+# Panda Branch
+'''
+
+[[block]]
+key = "55c9bdf3c9075258"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/PandaBranch_Title.webp').default} width="40%" class="right-image"/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Title.webp').default} width="40%" class="right-image"/>
+'''
+
+[[block]]
+key = "6e3d031df0b0cf65"
+origin = '''
+## **产品简介**
+'''
+translate = '''
+## **Product Profile**
+'''
+
+[[block]]
+key = "188843ebed82ce83"
+origin = '''
+BIGTREETECH Panda Branch V1.0是一款针对X1/P1/A1系列打印机设计的电源扩展板。该扩展板具备四个5V输出接口，可用于为Panda Touch、USB风扇及USB灯带等设备提供电源。此外，扩展板还配备了MX3.0 2x2Pin接口，专门用于AMS供电。
+'''
+translate = '''
+The BIGTREETECH Panda Branch V1.0 is a power expansion board designed for X1/P1/A1 series printers. It features four 5V outputs, which can be used to power devices such as the Panda Touch, USB fans, and USB light strips. Additionally, it includes the MX3.0 2x2 Pin interface for powering the AMS/AMS Lite.
+'''
+
+[[block]]
+key = "9a6043b045b7c72e"
+origin = '''
+## **产品特点**
+'''
+translate = '''
+## **Features Highlights**
+'''
+
+[[block]]
+key = "f854b69a3cdefbb4"
+origin = '''
+- 四路USB-A的5V输出，可支持灯条、Panda Touch等搭配使用；
+- 预留拨码开关进行5V输出的电流选择，让保护更加细致；
+- 各输出接口增加防反接保护及过流保险丝，能极大的对客户误操作的情况镜像保护；
+- 5V输出设有故障指示灯，当触发过流保护时，红灯亮起，方便客户分析处理DIY过程中的故障原因；
+- 板框设计宽度20mm，接口排布统一方向，提高布线的美观及实用性。
+'''
+translate = '''
+- Includes four USB-A 5V outputs for powering LED strips, Panda Touch, and other accessories.
+- Features a reserved DIP switch for precise current output selection at 5V, providing enhanced protection.
+- Offers integrated reverse connection protection and overcurrent fuses for all output interfaces.
+- The 5V output includes a fault indicator light that glows red when overcurrent protection is triggered, simplifying troubleshooting during DIY projects.
+- Designed with a compact 20mm-wide frame, aligning all interfaces in the same direction for cleaner and more practical cable management.
+'''
+
+[[block]]
+key = "0c53124cc82be4ee"
+origin = '''
+## **产品参数**
+'''
+translate = '''
+## **Specifications**
+'''
+
+[[block]]
+key = "54bf2b8b2ef40e35"
+origin = '''
+- 外观尺寸：145mm*20mm
+- 电源输入：DC 24V
+- 输出电压：5V 2.7A （峰值）
+- 5V输出接口：4PCS
+- MX3.0 2x2Pin接口
+'''
+translate = '''
+- Dimensions: 145mm x 20mm
+- Power Input: DC 24V
+- Output Voltage: 5V, 2.7A (Peak)
+- 5V Output Ports: 4
+- MX3.0 2x2 Pin Interfaces
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "0f25dd110bfc0a30"
+origin = '''
+## **尺寸图**
+'''
+translate = '''
+## **Dimensions**
+'''
+
+[[block]]
+key = "b30de2411c8ad7ff"
+origin = '''
+<ImageView src={require('./img/PandaBranch_Dimensions.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Dimensions.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "1f8c6326ae537700"
+origin = '''
+## **外设接口**
+'''
+translate = '''
+## **Interface**
+'''
+
+[[block]]
+key = "69e561fe88834e17"
+origin = '''
+### 接口示意图
+'''
+translate = '''
+### Interface Diagram
+'''
+
+[[block]]
+key = "e013eb94f67b7d34"
+origin = '''
+<ImageView src={require('./img/PandaBranch_Interface_C1.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Interface1.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "03f009af14914fec"
+origin = '''
+### Pin图
+'''
+translate = '''
+### Pin Description
+'''
+
+[[block]]
+key = "6c6c965e4f738d02"
+origin = '''
+<ImageView src={require('./img/PandaBranch_Pin.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Pin.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "0bc5533ad62d957d"
+origin = '''
+### 连接示意图
+'''
+translate = '''
+### Connection Diagram
+'''
+
+[[block]]
+key = "397d4998c3fad25f"
+origin = '''
+**Panda Branch + Panda Touch + AMS + 3D Printer**
+'''
+translate = '''
+**Panda Branch + Panda Touch + AMS/AMS Lite + 3D Printer**
+'''
+
+[[block]]
+key = "688d7d7194ed2392"
+origin = '''
+<ImageView src={require('./img/PandaBranch_Diagram_C1.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-branch/img/PandaBranch_Diagram1.webp').default} width="80%"/>
+'''

@@ -1,0 +1,296 @@
+[metadata]
+
+[[block]]
+key = "3416d2aca5810c2f"
+origin = '''
+# PopCap
+'''
+translate = '''
+# PopCap
+'''
+
+[[block]]
+key = "44044d41a4c62c10"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/pop-popcap-1.webp').default} width="40%" class="right-image"/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/more-series/pop-module/pop-cap/img/pop-popcap-1.webp').default} width="40%" class="right-image"/>
+'''
+
+[[block]]
+key = "c7ff91f7d06725df"
+origin = '''
+产品购买链接：[PopCap](https://item.taobao.com/item.htm?id=1035587162829)
+'''
+translate = '''
+Product Link: [Buy Here](https://biqu.equipment/products/biqu-popcop-clear-acrylic-filament-drying-storage-box?_pos=1&_sid=ba19a1ee0&_ss=r&variant=42589800890466)
+'''
+
+[[block]]
+key = "2ead86bc7d9baecc"
+origin = '''
+## 修订历史
+'''
+translate = '''
+## Revision History
+'''
+
+[[block]]
+key = "d617d5629914cc02"
+origin = '''
+| 版本号 | 日期            | 更新内容 |
+| ------ | --------------- | -------- |
+| v1.0.0 | 2026年03月19号 | 初始版本 |
+'''
+translate = '''
+| Version | Date            | Update |
+| ------ | --------------- | -------- |
+| v1.0.0 | March 19, 2026 | Initial release |
+'''
+
+[[block]]
+key = "f9c6f48ba32e89c6"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product Overview
+'''
+
+[[block]]
+key = "1ea77639099b7dc3"
+origin = '''
+PopCap 是一款专为 Snapmaker U1 用户打造的封箱静音套件。它采用聚碳酸酯（PC）材质，兼具耐高温和透明性质，可以让您的 Snapmaker U1 打印高温耗材，例如ABS、尼龙等。同时，它可以有效降低打印时的噪音，也方便观察打印状态。它具有磁吸可打开的斜盖，以及顶部的工具安放槽，方便您进行维修和 DIY 操作，是您搭配 Snapmaker U1 使用的完美佳品。
+'''
+translate = '''
+PopCap transforms your Snapmaker U1 into a fully enclosed printing environment — without the bulk of a traditional enclosure. Crafted from high-grade polycarbonate (PC), PopCap delivers exceptional heat resistance and crystal-clear visibility, letting you print demanding materials like ABS and nylon with greater consistency — while keeping your workspace noticeably quieter. When it's time to check on your print or swap out tools, the magnetic quick-release hatch opens effortlessly. A built-in top storage slot keeps your essentials organized and always within reach. Sleek, functional, and ready for your next mod — PopCap is the ultimate companion for your Snapmaker U1.
+'''
+
+[[block]]
+key = "3793c167c87a1c58"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## Product Features
+'''
+
+[[block]]
+key = "faf22a8575a8d1d5"
+origin = '''
+- **透明耐高温材质**：该产品使用聚碳酸酯（PC）一体成型，具备耐摔耐高温（120℃）和透明观察的特性。
+'''
+translate = '''
+- **Transparent, Heat-Resistant Material**: PopCap is made from one-piece molded polycarbonate (PC), providing excellent impact resistance, heat resistance up to 120°C, and a clear view of the printing process.
+'''
+
+[[block]]
+key = "89e88f372cee4a83"
+origin = '''
+- **一体成型，安装方便**：该产品采用一体成型工艺，可以直接放置在Snapmaker U1上方，超简单的安装方式。
+'''
+translate = '''
+- **One-Piece Design for Easy Installation**: Thanks to its one-piece construction, PopCap can be placed directly on top of the Snapmaker U1, making installation quick and effortless.
+'''
+
+[[block]]
+key = "f5564cb0181a102b"
+origin = '''
+- **DIY 扩展**：该产品提供可供扩展的槽位，比如顶部的工具放置槽，放置常用的剪钳、铲刀、胶棒等，后面预留Panda Breath 与 Panda Status 的走线孔位以及前面预留 PopKnomi 安装孔位。
+'''
+translate = '''
+- **DIY-Friendly Expandability**: PopCap includes several expansion-friendly features, such as a top storage slot for commonly used tools like cutters, scrapers, etc. It also includes reserved cable-routing holes at the rear for Panda Breath and PopStatus, as well as mounting holes at the front for PopTouch.
+'''
+
+[[block]]
+key = "0947b09aeaa8b4f6"
+origin = '''
+- **可开窗设计**：开窗采用磁吸设计，非常方便拿起和放下，对拿取模型和维修机器时提供了极大的便利。
+'''
+translate = '''
+- **Magnetic Access Hatch**: The access hatch features a magnetic attachment for quick and easy opening and closing. It provides convenient access for removing prints and performing routine maintenance.
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "45f9a82242e0d4ef"
+origin = '''
+## 产品参数
+'''
+translate = '''
+## Specifications
+'''
+
+[[block]]
+key = "e678b5badc28aa80"
+origin = '''
+| 产品名称 | BIQU PopCap                          |
+| -------- | ------------------------------------------- |
+| 尺寸     | 506mm(19.92in)*315mm(12.40in)*315mm(12.40in) |
+| 材质     | 聚碳酸酯（PC）                                  |
+| 兼容性   | 适配 Snapmaker U1 机器, Panda Breath,Panda Status,PopKnomi  |
+'''
+translate = '''
+| Product Name | BIQU PopCap                          |
+| -------- | ------------------------------------------- |
+| Dimensions     | 506 mm (19.92 in) × 315 mm (12.40 in) × 315 mm (12.40 in) |
+| Material     | Polycarbonate (PC)                                  |
+| Compatibility   | Designed for Snapmaker U1; includes reserved cable-routing holes for Panda Breath and PopStatus, and mounting holes for PopTouch.  |
+'''
+
+[[block]]
+key = "6dba99b39d1c5966"
+origin = '''
+<ImageView src={require('./img/pop-popcap-2.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/pop-module/pop-cap/img/pop-popcap-2.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "810a3dbb3004ea72"
+origin = '''
+## 产品清单
+'''
+translate = '''
+## Package Contents
+'''
+
+[[block]]
+key = "3741e99e67d48e11"
+origin = '''
+<ImageView src={require('./img/pop-popcap-3.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('./img/pop-popcap-3.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "bf8783c251926313"
+origin = '''
+## PopCap Snapmaker U1 安装指南
+'''
+translate = '''
+## Installation Guide for Snapmaker U1
+'''
+
+[[block]]
+key = "b5f9d096eb018601"
+origin = '''
+- 第一步：确定盖板的方向。拿出盖板，放在 PopCap 开窗处，确定有磁吸的方向后再拿下来方便安装（最好做好标记）。
+'''
+translate = '''
+- Step 1: Identify the correct orientation of the hatch: Place the hatch over the PopCap opening and check which side aligns with the magnetic attachment. Once confirmed, remove it again to make installation easier. Marking the correct side in advance is recommended.
+'''
+
+[[block]]
+key = "783fb353fed8d083"
+origin = '''
+- 第二步：安装把手。使用配件包中的 **M4*6 螺丝** 和十字螺丝刀按下图将把手安装到盖板上。并将盖板放置到 PopCap 开窗位置。
+'''
+translate = '''
+- Step 2: Install the handle: Use the included M4 × 6 screws and Phillips screwdriver to attach the handle to the hatch, as shown in the illustration. Then place the hatch onto the PopCap opening.
+'''
+
+[[block]]
+key = "df4270fe69678474"
+origin = '''
+    <ImageView src={require('./img/pop-popcap-4.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/more-series/pop-module/pop-cap/img/pop-popcap-4.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "65d637a83949d477"
+origin = '''
+    <ImageView src={require('./img/pop-popcap-5.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/more-series/pop-module/pop-cap/img/pop-popcap-5.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "d4985c91341e4faa"
+origin = '''
+- 第三步：将PopCap 放置在 Snapmaker U1 正上方，安装完成。
+'''
+translate = '''
+- Step 3: Position PopCap directly on top of the Snapmaker U1. Installation is now complete.
+'''
+
+[[block]]
+key = "4e319cfe7f03fcb6"
+origin = '''
+    <ImageView src={require('./img/pop-popcap-6.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/more-series/pop-module/pop-cap/img/pop-popcap-6.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "3b6fbb4398567ba0"
+origin = '''
+## 配件安装
+'''
+translate = '''
+## Accessory Installation
+'''
+
+[[block]]
+key = "a1b76fad6e6d29b5"
+origin = '''
+### Panda Breath 安装指南
+'''
+translate = '''
+### Panda Breath Installation Guide
+'''
+
+[[block]]
+key = "a736d0beb466d104"
+origin = '''
+<ImageView src={require('./img/pop-popcap-7.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/pop-module/pop-cap/img/pop-popcap-7.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "6133454243ed80d4"
+origin = '''
+产品购买链接：[Panda Breath](https://item.taobao.com/item.htm?id=978404380888&mi_id=00007vEoGjBYhi3yeiPp48dmEWlDmzXsocU74u4XScAkZ0w&spm=a21xtw.29978516.0.0&xxc=shop)
+'''
+translate = '''
+Panda Breath: [Buy Here](https://biqu.equipment/products/biqu-panda-breath-smart-air-filtration-and-heating?_pos=1&_sid=3a4ce2d06&_ss=r&variant=42353406279778)
+'''
+
+[[block]]
+key = "801966341d3ad722"
+origin = '''
+Snapmaker U1 安装 Panda Breath 支架打印链接：[Panda Breath 适配 Snapmaker U1 支架](https://makerworld.com/zh/models/2574058-panda-breath-for-snapmaker-u1#profileId-2838106)
+'''
+translate = '''
+Panda Breath Mount for Snapmaker U1: [Download Here](https://makerworld.com/en/models/2574058-panda-breath-for-snapmaker-u1#profileId-2838106)
+'''
+
+[[block]]
+key = "cad37f4cc826bbb9"
+origin = '''
+您可以参考这篇文章 [Panda Breath 关于 Snapmaker U1 安装步骤](https://global.bttwiki.com/zh/Panda_Breath.html#_6)。
+'''
+translate = '''
+You can refer to this article [Panda Breath: Installation Steps for Snapmaker U1](https://global.bttwiki.com/zh/Panda_Breath.html#_6)
+'''

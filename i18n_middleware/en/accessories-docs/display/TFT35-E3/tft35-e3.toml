@@ -1,0 +1,241 @@
+[metadata]
+
+[[block]]
+key = "66472b171fcdc20b"
+origin = '''
+---
+sidebar_position: 1
+description: TFT 35 E3 文档
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: TFT 35 E3 文档
+---
+'''
+
+[[block]]
+key = "5f24d9328ec18c20"
+origin = '''
+# TFT 35 E3
+'''
+translate = '''
+# TFT 35 E3
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "bd9bb632def55bca"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/TFT35_E3_Title.png').default} width="45%" class="right-image"/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/accessories-docs/display/TFT35-E3/img/TFT35_E3_Title.png').default} width="45%" class="right-image"/>
+'''
+
+[[block]]
+key = "f9c6f48ba32e89c6"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## 产品简介
+'''
+
+[[block]]
+key = "97884e615718783c"
+origin = '''
+TFT35-E3 是一款中等尺寸、双模、超清晰的3D打印机显示器，可以直接替换Ender3打印机原有的液晶屏幕。
+'''
+translate = '''
+TFT35-E3 是一款中等尺寸、双模、超清晰的3D打印机显示器，可以直接替换Ender3打印机原有的液晶屏幕。
+'''
+
+[[block]]
+key = "f8f4ecdd19846e76"
+origin = '''
+## 规格
+'''
+translate = '''
+## 规格
+'''
+
+[[block]]
+key = "5653fe9928acf349"
+origin = '''
+| Specification | TFT 35 E3                                                           |
+| ------------- | ------------------------------------------------------------------- |
+| 外观尺寸      | 93*87mm                                                             |
+| 安装尺寸      | 完美替换Ender3打印机的原始LCD屏幕，详细信息请查看TFT35-E3 V3.0 尺寸 |
+| 微处理器      | STM32F207VCT6                                                       |
+| 电源输入      | DC 5V                                                               |
+| SD卡逻辑电压  | 3.3V和5V（如：支持MEGA2560主控芯片主板，兼容性更高）                |
+'''
+translate = '''
+| Specification | TFT 35 E3                                                           |
+| ------------- | ------------------------------------------------------------------- |
+| 外观尺寸      | 93*87mm                                                             |
+| 安装尺寸      | 完美替换Ender3打印机的原始LCD屏幕，详细信息请查看TFT35-E3 V3.0 尺寸 |
+| 微处理器      | STM32F207VCT6                                                       |
+| 电源输入      | DC 5V                                                               |
+| SD卡逻辑电压  | 3.3V和5V（如：支持MEGA2560主控芯片主板，兼容性更高）                |
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "521a75360122d1ea"
+origin = '''
+:::note
+
+红灯D6为电源指示灯：红灯亮，表示正常供电；
+
+绿色指示灯D3为SD卡检测指示灯：插入SD卡时D3常亮，拔出SD卡时D3熄灭。
+
+:::
+'''
+translate = '''
+:::note
+
+红灯D6为电源指示灯：红灯亮，表示正常供电；
+
+绿色指示灯D3为SD卡检测指示灯：插入SD卡时D3常亮，拔出SD卡时D3熄灭。
+
+:::
+'''
+
+[[block]]
+key = "a9ae5a7eafeac08f"
+origin = '''
+## 尺寸
+'''
+translate = '''
+## 尺寸
+'''
+
+[[block]]
+key = "dc6fb4d2e3d9f0ab"
+origin = '''
+<ImageView src={require('./img/TFT35_E3_Diagram.png').default} width="50%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/TFT35-E3/img/TFT35_E3_Diagram.png').default} width="50%"/>
+'''
+
+[[block]]
+key = "6a770c30e1108b39"
+origin = '''
+## 接口示意图
+'''
+translate = '''
+## 接口示意图
+'''
+
+[[block]]
+key = "a0cc99e5ed169bba"
+origin = '''
+:::info
+
+1.使用12864屏幕模式时，将端口EXP1和EXP2连接到主板。此模式下没有触摸功能。
+
+2.使用串口屏模式时，通过RS232与主板上的TFT或AUX-1连接。此模式具有触摸功能
+
+3.一键切换两种工作模式。按下编码器约3秒，直到出现模式选择页面，然后在选择模式后按下编码器。
+
+:::
+'''
+translate = '''
+:::info
+
+1.使用12864屏幕模式时，将端口EXP1和EXP2连接到主板。此模式下没有触摸功能。
+
+2.使用串口屏模式时，通过RS232与主板上的TFT或AUX-1连接。此模式具有触摸功能
+
+3.一键切换两种工作模式。按下编码器约3秒，直到出现模式选择页面，然后在选择模式后按下编码器。
+
+:::
+'''
+
+[[block]]
+key = "c65091381a5db38d"
+origin = '''
+<ImageView src={require('./img/TFT35_E3_Interface.png').default} width="50%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/TFT35-E3/img/TFT35_E3_Interface.png').default} width="50%"/>
+'''
+
+[[block]]
+key = "0bb80755db66cf58"
+origin = '''
+## 软件配置
+'''
+translate = '''
+## 软件配置
+'''
+
+[[block]]
+key = "efc717590bf09097"
+origin = '''
+出厂已经包含固件，它可以直接使用。也可以按照以下方法进行升级
+'''
+translate = '''
+出厂已经包含固件，它可以直接使用。也可以按照以下方法进行升级
+'''
+
+[[block]]
+key = "9a833c2bc510950d"
+origin = '''
+1. 从 GitHub repo [bigtreetech/BIGTREETECH-TouchScreenFirmware](https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware) 下载固件
+2. 然后把固件复制进 SD 卡根目录
+3. 把 SD 卡插入板的SD卡插槽
+4. 重新给主板通电或按下重置键
+5. 等待10秒后更新完成
+'''
+translate = '''
+1. 从 GitHub repo [bigtreetech/BIGTREETECH-TouchScreenFirmware](https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware) 下载固件
+2. 然后把固件复制进 SD 卡根目录
+3. 把 SD 卡插入板的SD卡插槽
+4. 重新给主板通电或按下重置键
+5. 等待10秒后更新完成
+'''

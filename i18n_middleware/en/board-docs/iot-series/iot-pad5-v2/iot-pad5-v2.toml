@@ -1,0 +1,193 @@
+[metadata]
+
+[[block]]
+key = "a1d36431f38308af"
+origin = '''
+---
+sidebar_position: 1
+description: BIGTREETECH Pad5 V2
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: BIGTREETECH Pad5 V2
+---
+'''
+
+[[block]]
+key = "0bef409f1f0c26e1"
+origin = '''
+# BIGTREETECH Pad5 V2
+'''
+translate = '''
+# BIGTREETECH Pad5 V2
+'''
+
+[[block]]
+key = "c55b2e02f78eb1b5"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/pad5v2.webp').default} width="45%" class="right-image"/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/board-docs/iot-series/iot-pad5-v2/img/pad5v2.webp').default} width="45%" class="right-image"/>
+'''
+
+[[block]]
+key = "61695731d894e982"
+origin = '''
+## 简介
+'''
+translate = '''
+## Product Overview
+'''
+
+[[block]]
+key = "9e3b61df14bc72a5"
+origin = '''
+BIGTREETECH Pad5 V2.0是深圳必趣创新科技有限公司推出的一款搭配树莓派CM5使用的拓展屏板，让客户对CM5的功能使用更加方便。
+'''
+translate = '''
+The BIGTREETECH Pad5 V2.0 is an expansion display board compatible with CM-series modules, featuring special enhancements for the Raspberry Pi CM5 for easier operation.
+'''
+
+[[block]]
+key = "3793c167c87a1c58"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## Product Features
+'''
+
+[[block]]
+key = "780178fff0a8a72f"
+origin = '''
+1. 同时兼容CM5/CM4/CB2/CB1等多个SOC核心板；
+'''
+translate = '''
+1. Compatible with multiple SoC compute modules, including CM5, CM4, CB2, and CB1.
+'''
+
+[[block]]
+key = "e4929892cfda9406"
+origin = '''
+2. 板载USB-OTG，方便客户对EMMC版本的核心板进行镜像烧录；
+'''
+translate = '''
+2. The onboard USB OTG port allows convenient image flashing for compute modules with eMMC storage.
+'''
+
+[[block]]
+key = "c9b8dbc55725f735"
+origin = '''
+3. 使用CM5时支持USB3.0接口通讯；
+'''
+translate = '''
+3. Supports USB 3.0 communication when used with the CM5.
+'''
+
+[[block]]
+key = "bedcdd35185dd865"
+origin = '''
+4. 预留XH2.54 2P的CAN接口，方便客户DIY使用；
+'''
+translate = '''
+4. Includes a reserved XH2.54 2-pin CAN interface for DIY applications.
+'''
+
+[[block]]
+key = "1be78bbb6496de19"
+origin = '''
+5. 5寸IPS电容屏，显示效果更佳，使用体验更好；
+'''
+translate = '''
+5. Equipped with a 5-inch IPS capacitive touchscreen for improved display quality and a better user experience.
+'''
+
+[[block]]
+key = "97a7da87f73616c0"
+origin = '''
+6. 各个接口增设ESD保护，提高产品稳定性；
+'''
+translate = '''
+6. All interfaces feature ESD protection for enhanced product stability.
+'''
+
+[[block]]
+key = "8b94508ba94b7b67"
+origin = '''
+7. 使用CM5时支持一键开关机，方便客户使用；
+'''
+translate = '''
+7. Supports one-button power on/off when used with the CM5, making operation more convenient.
+'''
+
+[[block]]
+key = "5a383afc02ce0ae1"
+origin = '''
+8. 板载上位机USB-HUB，一路通过CH340E连接到UART端口，一路直连USB-OTG，方便客户烧录镜像和调试Soc；
+'''
+translate = '''
+8. Features an onboard host-side USB hub: one channel connects to the UART port via CH340E, while another connects directly to USB OTG, making image flashing and SoC debugging more convenient.
+'''
+
+[[block]]
+key = "9ac3cb208d583b23"
+origin = '''
+9. 多种USB接口方式，方便客户DIY。
+'''
+translate = '''
+9. Offers multiple USB interface options for greater flexibility in DIY applications.
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "cc93f65bfb52fa05"
+origin = '''
+## 硬件规格
+'''
+translate = '''
+## Product Features
+'''
+
+[[block]]
+key = "b4f9342995e0826d"
+origin = '''
+| Specification    | Bigtreetech Pad5 v2.0              |
+| ---------------- | ---------------------------------- |
+| 屏幕尺寸         | 121.1mm*75.9mm |
+| 屏幕参数         | 5寸 800x480 带电容触摸屏                           |
+| USB-HOST接口         | USB2.0x3（5V 1.5A输出），USB3.0x2（5V 2.7A输出）         |
+| USB-OTG接口         | USB-C                           |
+| 网口     | 千兆以太网口                                 |
+| 电源输入 | Type-C口 5V 5A（支持PD输入）                                |
+| 逻辑电压 | 3.3V                                  |
+| 拓展功能及接口       | MIPI-DSI，MIPI-CSI，40Pin-GPIO，CAN，SD-Card（无EMMC的前提可用），4Lan-FAN，Micro HDMI，RTC等                               |
+| 按键       | BK+(长按加快变化)，Rotate，BK-(长按加快变化)，ON/OFF                       |
+'''
+translate = '''
+| Specification                      | Bigtreetech Pad5 V2.0                                                                                                    |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Display Size                       | 121.1mm × 75.9mm                                                                                                         |
+| Screen                             | 5-inch 800 × 480 capacitive touchscreen                                                                                  |
+| USB Host Ports                     | 3 × USB 2.0 (5V/1.5A output), 2 × USB 3.0 (5V/2.7A output)                                                               |
+| USB OTG Port                       | USB Type-C                                                                                                               |
+| Ethernet Port                      | Gigabit Ethernet                                                                                                         |
+| Power Input                        | USB Type-C, 5V/5A (PD supported)                                                                                         |
+| Logic Voltage                      | 3.3V                                                                                                                     |
+| Expansion Functions and Interfaces | MIPI-DSI, MIPI-CSI, 40-pin GPIO, CAN, SD card (available only when eMMC is not in use), 4-pin FAN, Micro HDMI, RTC, etc. |
+| Buttons                            | BK+ (Backlight +), Rotate, BK− (Backlight −), ON/OFF (hold BK+ or BK− to adjust faster)                                  |
+'''

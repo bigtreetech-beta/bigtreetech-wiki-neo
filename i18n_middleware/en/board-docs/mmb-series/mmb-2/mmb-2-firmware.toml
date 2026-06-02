@@ -1,0 +1,72 @@
+[metadata]
+
+[[block]]
+key = "9cbb853c79e41d73"
+origin = '''
+---
+sidebar_position: 3
+description: MMB CAN V2.0 软件配置 
+---
+'''
+translate = '''
+---
+sidebar_position: 3
+description: MMB CAN V2.0 软件配置 
+---
+'''
+
+[[block]]
+key = "2aa264e8ee18a699"
+origin = '''
+# MMB CAN V2.0 固件配置
+'''
+translate = '''
+# MMB CAN V2.0 固件配置
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "14b9f99f6f86f3b9"
+origin = '''
+## 使用 Happy Hare
+'''
+translate = '''
+## 使用 Happy Hare
+'''
+
+[[block]]
+key = "1a453d68ca7a8f1b"
+origin = '''
+参考 Happy Hare 的 GitHub repo [moggieuk/Happy-Hare](https://github.com/moggieuk/Happy-Hare)
+'''
+translate = '''
+参考 Happy Hare 的 GitHub repo [moggieuk/Happy-Hare](https://github.com/moggieuk/Happy-Hare)
+'''

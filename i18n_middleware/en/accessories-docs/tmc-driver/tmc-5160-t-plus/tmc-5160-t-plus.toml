@@ -1,0 +1,147 @@
+[metadata]
+
+[[block]]
+key = "1ae601e24165959f"
+origin = '''
+---
+sidebar_position: 1
+description: TMC 5160 T Plus 简介
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: TMC 5160 T Plus 简介
+---
+'''
+
+[[block]]
+key = "4c3f91d83f15c5c3"
+origin = '''
+# TMC 5160 T Plus
+'''
+translate = '''
+# TMC 5160 T Plus
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "9a4d9968e431e52b"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import DocCardList from '@theme/DocCardList';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import DocCardList from '@theme/DocCardList';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "0d6ffd18885f966a"
+origin = '''
+<div class="div-table">
+
+<ImageView
+    src={require('./img/TMC5160TPlus_Title.png').default}
+    alt="" width="35%" class="right-image"
+/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView
+    src={require('@site/docs/accessories-docs/tmc-driver/tmc-5160-t-plus/img/TMC5160TPlus_Title.png').default}
+    alt="" width="35%" class="right-image"
+/>
+'''
+
+[[block]]
+key = "f9c6f48ba32e89c6"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## 产品简介
+'''
+
+[[block]]
+key = "dd66e6b9bf48c564"
+origin = '''
+TMC 5160 T Plus 是一个外置步进电机驱动。使用大功率 MOSFET 最大电压为 56V。
+'''
+translate = '''
+TMC 5160 T Plus 是一个外置步进电机驱动。使用大功率 MOSFET 最大电压为 56V。
+'''
+
+[[block]]
+key = "58b2c93828f9206e"
+origin = '''
+## Specifications
+'''
+translate = '''
+## Specifications
+'''
+
+[[block]]
+key = "aa2a02c84788b410"
+origin = '''
+| Specifications                 | TMC 5160 T Plus     |
+| ------------------------------ | ------------------- |
+| TMC5160T Plus 包括散热器的尺寸 | 64 x 56 x 32.55mm   |
+| TMC5160T Plus 板子尺寸         | 58 x 50 x 28mm      |
+| 驱动芯片                       | TMC5160-TA          |
+| 输入电压                       | 8V - 56V            |
+| 驱动电流                       | 10.6A RMS, 15A Peak |
+| 板载电容                       | 2 x $560uF$         |
+| 驱动模式                       | SPI, Step/DIR       |
+| 采样电阻                       | $22 m\Omega$        |
+'''
+translate = '''
+| Specifications                 | TMC 5160 T Plus     |
+| ------------------------------ | ------------------- |
+| TMC5160T Plus 包括散热器的尺寸 | 64 x 56 x 32.55mm   |
+| TMC5160T Plus 板子尺寸         | 58 x 50 x 28mm      |
+| 驱动芯片                       | TMC5160-TA          |
+| 输入电压                       | 8V - 56V            |
+| 驱动电流                       | 10.6A RMS, 15A Peak |
+| 板载电容                       | 2 x $560uF$         |
+| 驱动模式                       | SPI, Step/DIR       |
+| 采样电阻                       | $22 m\Omega$        |
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "d3ac9811ffbf8210"
+origin = '''
+<DocCardList />
+'''
+translate = '''
+<DocCardList />
+'''

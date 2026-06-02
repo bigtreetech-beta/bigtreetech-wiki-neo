@@ -1,0 +1,290 @@
+[metadata]
+
+[[block]]
+key = "23bf5690fbf9f3a7"
+origin = '''
+---
+sidebar_position: 2
+description: MMB CAN V2.0 硬件功能
+---
+'''
+translate = '''
+---
+sidebar_position: 2
+description: MMB CAN V2.0 硬件功能
+---
+'''
+
+[[block]]
+key = "b069379743358525"
+origin = '''
+# MMB CAN V2.0 硬件功能
+'''
+translate = '''
+# MMB CAN V2.0 硬件功能
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "e106c153eb196b41"
+origin = '''
+## 模型下载
+'''
+translate = '''
+## 模型下载
+'''
+
+[[block]]
+key = "88dec52ee5af5593"
+origin = '''
+:::info[3D 参考文件]
+
+MMB CAN V2.0 模型 [bigtreetech/MMB/3D/BIGTREETECH MMB CAN V2.0-3D.step](https://github.com/bigtreetech/MMB/blob/master/3D/BIGTREETECH%20MMB%20CAN%20V2.0-3D.step)
+
+:::
+'''
+translate = '''
+:::info[3D 参考文件]
+
+MMB CAN V2.0 模型 [bigtreetech/MMB/3D/BIGTREETECH MMB CAN V2.0-3D.step](https://github.com/bigtreetech/MMB/blob/master/3D/BIGTREETECH%20MMB%20CAN%20V2.0-3D.step)
+
+:::
+'''
+
+[[block]]
+key = "e4e43b6d7201907d"
+origin = '''
+## 外观尺寸
+'''
+translate = '''
+## 外观尺寸
+'''
+
+[[block]]
+key = "089c37eb8f456ce7"
+origin = '''
+<ImageView
+    src={require('./img/mmb_can_v2_0_dimensions.png').default}
+    alt="mmb can v2" width="80%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_v2_0_dimensions.png').default}
+    alt="mmb can v2" width="80%"
+/>
+'''
+
+[[block]]
+key = "6b910fe79dd6f70a"
+origin = '''
+## 引脚说明
+'''
+translate = '''
+## 引脚说明
+'''
+
+[[block]]
+key = "3e85f3a229d92898"
+origin = '''
+<ImageView
+    src={require('./img/mmb_can_v2_0_pin.png').default}
+    alt="mmb can v2" width="80%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_v2_0_pin.png').default}
+    alt="mmb can v2" width="80%"
+/>
+'''
+
+[[block]]
+key = "465a0d3a27e44929"
+origin = '''
+## 硬件功能配置
+'''
+translate = '''
+## 硬件功能配置
+'''
+
+[[block]]
+key = "83e4703555823190"
+origin = '''
+### USB 供电
+'''
+translate = '''
+### USB 供电
+'''
+
+[[block]]
+key = "5ef29a87295a6203"
+origin = '''
+主板上电之后， 电源灯会亮起，表示供电正常。板上标识VUSB是电源选择端，仅当使用USB给主板供电时，才需要使用跳帽将VUSB短接。
+'''
+translate = '''
+主板上电之后， 电源灯会亮起，表示供电正常。板上标识VUSB是电源选择端，仅当使用USB给主板供电时，才需要使用跳帽将VUSB短接。
+'''
+
+[[block]]
+key = "6ffda2cffcbf1ef0"
+origin = '''
+<ImageView
+    src={require('./img/mmb_can_v2_0_usb.png').default}
+    alt="mmb can v2" width="80%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_v2_0_usb.png').default}
+    alt="mmb can v2" width="80%"
+/>
+'''
+
+[[block]]
+key = "f95d7e9c05b4c225"
+origin = '''
+### 舵机接口
+'''
+translate = '''
+### 舵机接口
+'''
+
+[[block]]
+key = "db30086ab5234919"
+origin = '''
+<ImageView
+    src={require('./img/mmb_can_v2_0_mot.png').default}
+    alt="mmb can v2" width="80%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_v2_0_mot.png').default}
+    alt="mmb can v2" width="80%"
+/>
+'''
+
+[[block]]
+key = "c5ba87e7a93379bf"
+origin = '''
+### Neopixel
+'''
+translate = '''
+### Neopixel
+'''
+
+[[block]]
+key = "cb67dc315c377fa4"
+origin = '''
+<ImageView
+    src={require('./img/mmb_can_v2_0_rgb.png').default}
+    alt="mmb can v2" width="80%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_v2_0_rgb.png').default}
+    alt="mmb can v2" width="80%"
+/>
+'''
+
+[[block]]
+key = "b844b1869edcadd8"
+origin = '''
+### 编码器接线 
+'''
+translate = '''
+### 编码器接线 
+'''
+
+[[block]]
+key = "9cdf97f22dd3cf98"
+origin = '''
+<ImageView
+    src={require('./img/mmb_can_v2_0_sensor.png').default}
+    alt="mmb can v2" width="80%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_v2_0_sensor.png').default}
+    alt="mmb can v2" width="80%"
+/>
+'''
+
+[[block]]
+key = "dc850f8205b50255"
+origin = '''
+### IIC 接线
+'''
+translate = '''
+### IIC 接线
+'''
+
+[[block]]
+key = "62be724b7e069523"
+origin = '''
+<ImageView
+    src={require('./img/mmb_can_v2_0_i2c.png').default}
+    alt="mmb can v2" width="80%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_v2_0_i2c.png').default}
+    alt="mmb can v2" width="80%"
+/>
+'''
+
+[[block]]
+key = "e9d0b93c08ed8605"
+origin = '''
+### 限位开关
+'''
+translate = '''
+### 限位开关
+'''
+
+[[block]]
+key = "adbcd6568d5d8526"
+origin = '''
+<ImageView
+    src={require('./img/mmb_can_v2_0_endstop.png').default}
+    alt="mmb can v2" width="80%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_v2_0_endstop.png').default}
+    alt="mmb can v2" width="80%"
+/>
+'''

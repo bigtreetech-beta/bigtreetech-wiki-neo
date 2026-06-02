@@ -1,0 +1,602 @@
+[metadata]
+
+[[block]]
+key = "b82ddaa5dce6f1ea"
+origin = '''
+# Panda Hub
+'''
+translate = '''
+# Panda Hub
+'''
+
+[[block]]
+key = "86c5aa5e311ca7a8"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/Panda_Hub_Title.webp').default} width="40%" class="right-image"/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Title.webp').default} width="40%" class="right-image"/>
+'''
+
+[[block]]
+key = "6e3d031df0b0cf65"
+origin = '''
+## **产品简介**
+'''
+translate = '''
+## **产品简介**
+'''
+
+[[block]]
+key = "ea4a1ce41d0172fa"
+origin = '''
+BIGTREETECH Panda Hub是BIGTREETECH 3D打印团队针对USB2.0扩展制作的一款HUB板子，可以将一个USB端口扩展为两个，满足扩展需求。专为P1P和P1S打印机设计，配备外壳模型，并通过安装螺丝轻松固定，保护原装USB端口，从而确保耐用性。
+'''
+translate = '''
+BIGTREETECH Panda Hub是BIGTREETECH 3D打印团队针对USB2.0扩展制作的一款HUB板子，可以将一个USB端口扩展为两个，满足扩展需求。专为P1P和P1S打印机设计，配备外壳模型，并通过安装螺丝轻松固定，保护原装USB端口，从而确保耐用性。
+'''
+
+[[block]]
+key = "9a6043b045b7c72e"
+origin = '''
+## **产品特点**
+'''
+translate = '''
+## **产品特点**
+'''
+
+[[block]]
+key = "380c7a979b881241"
+origin = '''
+- 产品整体小巧，方便安装在更多位置；
+- 采用一出二的形式；
+- 提供专为P1P，P1S设计的 外壳模型和安装螺丝，能够牢固固定Panda Hub，有效防止原装USB端口因设备运行时的震动而磨损。
+'''
+translate = '''
+- 产品整体小巧，方便安装在更多位置；
+- 采用一出二的形式；
+- 提供专为P1P，P1S设计的 外壳模型和安装螺丝，能够牢固固定Panda Hub，有效防止原装USB端口因设备运行时的震动而磨损。
+'''
+
+[[block]]
+key = "0c53124cc82be4ee"
+origin = '''
+## **产品参数**
+'''
+translate = '''
+## **产品参数**
+'''
+
+[[block]]
+key = "4ff5cafd1986f0cd"
+origin = '''
+| 外观尺寸 | 33mm x 20mm                                |
+| -------- | ------------------------------------------ |
+| 安装尺寸 | 详情请参考：BIGTREETECH Panda Hub-SIZE.pdf |
+| 输入电压 | DC 5V                                      |
+| 逻辑电压 | DC 5V                                      |
+'''
+translate = '''
+| 外观尺寸 | 33mm x 20mm                                |
+| -------- | ------------------------------------------ |
+| 安装尺寸 | 详情请参考：BIGTREETECH Panda Hub-SIZE.pdf |
+| 输入电压 | DC 5V                                      |
+| 逻辑电压 | DC 5V                                      |
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "ba72cfb566ff9aa8"
+origin = '''
+## **产品尺寸**
+'''
+translate = '''
+## **产品尺寸**
+'''
+
+[[block]]
+key = "3da9d9110218e5b4"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Dimensions.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Dimensions.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "7a8486e02b02b789"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Dimensions1.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Dimensions1.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "e37822b31503c970"
+origin = '''
+## **接口介绍**
+'''
+translate = '''
+## **接口介绍**
+'''
+
+[[block]]
+key = "3fcd90b9140d7cdb"
+origin = '''
+### 端口说明
+'''
+translate = '''
+### 端口说明
+'''
+
+[[block]]
+key = "a38a17cd80d665e8"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Interface.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Interface.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "60615bf949fd0797"
+origin = '''
+## **注意事项**
+'''
+translate = '''
+## **注意事项**
+'''
+
+[[block]]
+key = "c4db44304934e1b1"
+origin = '''
+- 电流仍需符合P1P，P1S接口的输出要求：5V 1.5A;
+'''
+translate = '''
+- 电流仍需符合P1P，P1S接口的输出要求：5V 1.5A;
+'''
+
+[[block]]
+key = "3a9935a25ef8a021"
+origin = '''
+- Panda Hub仅供电使用，不具备USB通信功能；
+'''
+translate = '''
+- Panda Hub仅供电使用，不具备USB通信功能；
+'''
+
+[[block]]
+key = "c05e431c85afa50e"
+origin = '''
+- 如搭配 Panda Touch 在 P1P\P1S 上使用，Panda Hub 另一 USB接口，请使用 0.2A 以下电流的 USB 设备。
+'''
+translate = '''
+- 如搭配 Panda Touch 在 P1P\P1S 上使用，Panda Hub 另一 USB接口，请使用 0.2A 以下电流的 USB 设备。
+'''
+
+[[block]]
+key = "a8129b1df9326a63"
+origin = '''
+## **安装指南**
+'''
+translate = '''
+## **安装指南**
+'''
+
+[[block]]
+key = "2ea6830ab4915d1f"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Installation.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Installation.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "2af8b94693809c31"
+origin = '''
+**Preparation:**
+'''
+translate = '''
+**Preparation:**
+'''
+
+[[block]]
+key = "2e4d5e39a6daa24c"
+origin = '''
+1、下载并打印外壳: [https://bttwiki.com/Panda%20Hub.html] 
+'''
+translate = '''
+1、下载并打印外壳: [https://bttwiki.com/Panda%20Hub.html] 
+'''
+
+[[block]]
+key = "1f6d45740d7f9b59"
+origin = '''
+2、所需工具及材料: 
+'''
+translate = '''
+2、所需工具及材料: 
+'''
+
+[[block]]
+key = "f9ca0e3dd52c820f"
+origin = '''
+M2.5x8热熔螺母 x2（配件包内含） 
+'''
+translate = '''
+M2.5x8热熔螺母 x2（配件包内含） 
+'''
+
+[[block]]
+key = "06aea0cceb25ffcf"
+origin = '''
+M2.5x8螺丝 x2（配件包内含） 
+'''
+translate = '''
+M2.5x8螺丝 x2（配件包内含） 
+'''
+
+[[block]]
+key = "5b6a5dcaa90b3964"
+origin = '''
+2.0内六角螺丝刀（自备） 
+'''
+translate = '''
+2.0内六角螺丝刀（自备） 
+'''
+
+[[block]]
+key = "6fc3150d012c08be"
+origin = '''
+电烙铁（自备）
+'''
+translate = '''
+电烙铁（自备）
+'''
+
+[[block]]
+key = "b006d85dc05d90ae"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "d496f5c345f89f63"
+origin = '''
+**安装步骤**
+'''
+translate = '''
+**安装步骤**
+'''
+
+[[block]]
+key = "ba2885a234d8c95c"
+origin = '''
+1、嵌入热熔螺母
+'''
+translate = '''
+1、嵌入热熔螺母
+'''
+
+[[block]]
+key = "afd21b9338df390b"
+origin = '''
+将两颗M2.5x8热熔螺母分别插入外壳正反两面的预留孔中，并用烙铁将其嵌入外壳打印件内，确保螺母与安装面齐平。 （如需如何使用烙铁嵌入热熔螺母的教程，请跳转至本教程末尾查看。）
+'''
+translate = '''
+将两颗M2.5x8热熔螺母分别插入外壳正反两面的预留孔中，并用烙铁将其嵌入外壳打印件内，确保螺母与安装面齐平。 （如需如何使用烙铁嵌入热熔螺母的教程，请跳转至本教程末尾查看。）
+'''
+
+[[block]]
+key = "f49a9b45717ee878"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation1.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation1.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "79fe5fcb4fce61f6"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation2.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation2.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "d9cd4aa74c0f8bc7"
+origin = '''
+2、安装Panda Hub
+'''
+translate = '''
+2、安装Panda Hub
+'''
+
+[[block]]
+key = "79478552212db88b"
+origin = '''
+将Panda Hub放入外壳打印件中。
+'''
+translate = '''
+将Panda Hub放入外壳打印件中。
+'''
+
+[[block]]
+key = "baebc76936111830"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation3.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation3.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "bda6f7c92e2f1afd"
+origin = '''
+盖上盖子，使用2.0螺丝刀  用M2.5x8螺丝将其固定。
+'''
+translate = '''
+盖上盖子，使用2.0螺丝刀  用M2.5x8螺丝将其固定。
+'''
+
+[[block]]
+key = "d2b2088c8be36890"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation4.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation4.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "6417cd9675fdef96"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation5.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation5.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "86d5c2fbd84fee30"
+origin = '''
+将组装好的Panda Hub插入打印机USB端口
+'''
+translate = '''
+将组装好的Panda Hub插入打印机USB端口
+'''
+
+[[block]]
+key = "8b5949ba8e80df91"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation6.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation6.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "4f1e851e848b73c7"
+origin = '''
+取下屏幕，然后使用2.0六角螺丝刀拆下屏幕下方的螺丝 
+'''
+translate = '''
+取下屏幕，然后使用2.0六角螺丝刀拆下屏幕下方的螺丝 
+'''
+
+[[block]]
+key = "c3f757d820fe818c"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation7.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation7.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "60347566e5b5fc70"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation8.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation8.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "f88a3a3486de4209"
+origin = '''
+将Panda Hub热熔螺母的螺纹孔与机器上刚取下的螺丝孔对准后，使用2.0六角螺丝刀，用M2.5x8螺丝将Panda Hub固定在机器上。
+'''
+translate = '''
+将Panda Hub热熔螺母的螺纹孔与机器上刚取下的螺丝孔对准后，使用2.0六角螺丝刀，用M2.5x8螺丝将Panda Hub固定在机器上。
+'''
+
+[[block]]
+key = "978c67a7a7963cd9"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation9.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation9.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "778691d036b9976b"
+origin = '''
+装回屏幕，完成安装。
+'''
+translate = '''
+装回屏幕，完成安装。
+'''
+
+[[block]]
+key = "75e8929d2c54811d"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation10.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation10.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "e736e72101823a47"
+origin = '''
+将Panda Touch USB线/USB灯条插入Panda Hub即可使用。
+'''
+translate = '''
+将Panda Touch USB线/USB灯条插入Panda Hub即可使用。
+'''
+
+[[block]]
+key = "83bd1842b3b7ebc5"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation11.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation11.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "3cb897c3ea9490d4"
+origin = '''
+**如何使用烙铁嵌入热熔螺母：**
+'''
+translate = '''
+**如何使用烙铁嵌入热熔螺母：**
+'''
+
+[[block]]
+key = "6affe369411accac"
+origin = '''
+准备好需要嵌入热熔螺母的打印件。
+'''
+translate = '''
+准备好需要嵌入热熔螺母的打印件。
+'''
+
+[[block]]
+key = "91fb2879f1fb853a"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation12.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation12.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "91ecbf54ef00314c"
+origin = '''
+将热熔螺母置于打印件的预留孔位。
+'''
+translate = '''
+将热熔螺母置于打印件的预留孔位。
+'''
+
+[[block]]
+key = "607f1e02b550a4c8"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation13.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation13.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "01433369a9a78658"
+origin = '''
+BIGTREETECH Panda Hub 用户手册   13   将热熔螺母置于打印件的预留孔位。  使用已加热的烙铁，垂直向下施加压力，将热熔螺母熔入打印件中； 
+'''
+translate = '''
+BIGTREETECH Panda Hub 用户手册   13   将热熔螺母置于打印件的预留孔位。  使用已加热的烙铁，垂直向下施加压力，将热熔螺母熔入打印件中； 
+'''
+
+[[block]]
+key = "023462126e9fe610"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation14.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation14.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "953d49ff3997d006"
+origin = '''
+在此过程中，烙铁会加热螺母，使其缓慢熔入部件中； 请尽量耐心，螺母熔入的速度越慢，金属与塑料之间的结合就越牢固； 待螺母顶部与打印件表面齐平后，即可停止加热并取出烙铁。
+'''
+translate = '''
+在此过程中，烙铁会加热螺母，使其缓慢熔入部件中； 请尽量耐心，螺母熔入的速度越慢，金属与塑料之间的结合就越牢固； 待螺母顶部与打印件表面齐平后，即可停止加热并取出烙铁。
+'''
+
+[[block]]
+key = "1fec8c43e7332278"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation15.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation15.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "431985d19d3386e9"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation16.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation16.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "2cd9ed403b997b01"
+origin = '''
+完成！
+'''
+translate = '''
+完成！
+'''
+
+[[block]]
+key = "0d29b785ed194a0d"
+origin = '''
+<ImageView src={require('./img/Panda_Hub_Preparation17.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hub/img/Panda_Hub_Preparation17.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "d73da655ae97f5a0"
+origin = '''
+**注意事项：**
+'''
+translate = '''
+**注意事项：**
+'''
+
+[[block]]
+key = "6f6f68ad5d29592b"
+origin = '''
+加热烙铁时，请注意安全，避免烫伤。 熔入过程应缓慢进行，切勿操之过急。
+'''
+translate = '''
+加热烙铁时，请注意安全，避免烫伤。 熔入过程应缓慢进行，切勿操之过急。
+'''

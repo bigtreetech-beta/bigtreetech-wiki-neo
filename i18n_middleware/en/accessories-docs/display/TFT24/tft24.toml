@@ -1,0 +1,200 @@
+[metadata]
+
+[[block]]
+key = "2c7fee6f9da5167f"
+origin = '''
+---
+sidebar_position: 1
+description: TFT 24 文档
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: TFT 24 文档
+---
+'''
+
+[[block]]
+key = "2768cbce0d2781ba"
+origin = '''
+# TFT 24
+'''
+translate = '''
+# TFT 24
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "91048269dd60c706"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/TFT24_Title.png').default} width="45%" class="right-image"/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/accessories-docs/display/TFT24/img/TFT24_Title.png').default} width="45%" class="right-image"/>
+'''
+
+[[block]]
+key = "61d7bc002e06f0c9"
+origin = '''
+## 产品规格
+'''
+translate = '''
+## 产品规格
+'''
+
+[[block]]
+key = "ad854963dbbd55f0"
+origin = '''
+| Specification | TFT 24             |
+| ------------- | ------------------ |
+| 外观尺寸      | 105*46mm           |
+| 安装尺寸      | 详见TFT24-V1.1-DSI |
+| MCU           | STM32F105CT6       |
+| 电源输入      | DC5V               |
+'''
+translate = '''
+| Specification | TFT 24             |
+| ------------- | ------------------ |
+| 外观尺寸      | 105*46mm           |
+| 安装尺寸      | 详见TFT24-V1.1-DSI |
+| MCU           | STM32F105CT6       |
+| 电源输入      | DC5V               |
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "a9ae5a7eafeac08f"
+origin = '''
+## 尺寸
+'''
+translate = '''
+## 尺寸
+'''
+
+[[block]]
+key = "6052e96e5bd14444"
+origin = '''
+<ImageView src={require('./img/TFT24_Diagram.png').default} width="50%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/TFT24/img/TFT24_Diagram.png').default} width="50%"/>
+'''
+
+[[block]]
+key = "6a770c30e1108b39"
+origin = '''
+## 接口示意图
+'''
+translate = '''
+## 接口示意图
+'''
+
+[[block]]
+key = "64e2ef8ab9ddae3d"
+origin = '''
+<ImageView src={require('./img/TFT24_Interface.png').default} width="50%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/TFT24/img/TFT24_Interface.png').default} width="50%"/>
+'''
+
+[[block]]
+key = "5ac799913195a66e"
+origin = '''
+:::info[固件与功能选择]
+
+使用12864屏幕模式时，将端口EXP1和EXP2连接到主板。此模式下没有触摸功能。
+
+当使用串行端口屏幕模式时，通过RS232与主板上的TFT或aux-2连接。在这种模式下，有触摸功能。
+
+这两种模式对应两个不同的固件，需要根据 Flash 固件的模式来进行接线。
+
+:::
+'''
+translate = '''
+:::info[固件与功能选择]
+
+使用12864屏幕模式时，将端口EXP1和EXP2连接到主板。此模式下没有触摸功能。
+
+当使用串行端口屏幕模式时，通过RS232与主板上的TFT或aux-2连接。在这种模式下，有触摸功能。
+
+这两种模式对应两个不同的固件，需要根据 Flash 固件的模式来进行接线。
+
+:::
+'''
+
+[[block]]
+key = "0bb80755db66cf58"
+origin = '''
+## 软件配置
+'''
+translate = '''
+## 软件配置
+'''
+
+[[block]]
+key = "efc717590bf09097"
+origin = '''
+出厂已经包含固件，它可以直接使用。也可以按照以下方法进行升级
+'''
+translate = '''
+出厂已经包含固件，它可以直接使用。也可以按照以下方法进行升级
+'''
+
+[[block]]
+key = "9a833c2bc510950d"
+origin = '''
+1. 从 GitHub repo [bigtreetech/BIGTREETECH-TouchScreenFirmware](https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware) 下载固件
+2. 然后把固件复制进 SD 卡根目录
+3. 把 SD 卡插入板的SD卡插槽
+4. 重新给主板通电或按下重置键
+5. 等待10秒后更新完成
+'''
+translate = '''
+1. 从 GitHub repo [bigtreetech/BIGTREETECH-TouchScreenFirmware](https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware) 下载固件
+2. 然后把固件复制进 SD 卡根目录
+3. 把 SD 卡插入板的SD卡插槽
+4. 重新给主板通电或按下重置键
+5. 等待10秒后更新完成
+'''

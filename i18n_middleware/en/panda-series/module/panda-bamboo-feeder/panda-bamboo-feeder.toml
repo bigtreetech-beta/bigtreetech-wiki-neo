@@ -1,0 +1,180 @@
+[metadata]
+
+[[block]]
+key = "05134e496d240199"
+origin = '''
+---
+description: Panda Bamboo Feeder
+---
+'''
+translate = '''
+---
+description: Panda Bamboo Feeder
+---
+'''
+
+[[block]]
+key = "1be4a97e4356133b"
+origin = '''
+# Panda Bamboo Feeder
+'''
+translate = '''
+# Panda Bamboo Feeder
+'''
+
+[[block]]
+key = "5135299b49793826"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/01bpf-image.webp').default} width="45%" class="right-image"/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bamboo-feeder/img/01bpf-image.webp').default} width="45%" class="right-image"/>
+'''
+
+[[block]]
+key = "f9c6f48ba32e89c6"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product Introduction
+'''
+
+[[block]]
+key = "e653ea4df806b9e4"
+origin = '''
+BIQU Panda Bamboo Feeder（熊猫喂竹器）是一款专为 FDM 3D 打印机设计的智能送料缓冲系统，搭载ESP32主控芯片，支持WiFi无线连接，集主动正压送料缓冲,自动进退料,智能续料,多台联动等功能于一体。
+'''
+translate = '''
+The BIQU Panda Bamboo Feeder is a smart, auto-refill filament buffer. It provides active filament buffering, one-button loading and unloading, and automatic filament refill, creating a truly infinite material source for non-stop production.
+'''
+
+[[block]]
+key = "d71da54e547623f0"
+origin = '''
+无论是软性耗材,大卷耗材,长距离路径，还是需要长时间无人值守的批量打印任务，Panda Bamboo Feeder都 能稳定应对，让打印更省心,更高效。
+'''
+translate = '''
+Built for reliability, it handles challenging flexible filaments, heavy 5kg spools, and complex filament paths with ease. Whether you run unattended batch prints or large models, the Panda Bamboo Feeder eliminates extrusion failures, giving you a professional-grade, "set-and-forget" printing experience.
+'''
+
+[[block]]
+key = "24d98406b76b8cc9"
+origin = '''
+并为拓竹 X1 / P1 / P2 / A1 系列提供专属优化与专用供电接口，适配更省心，体验更完整。
+'''
+translate = '''
+Tailor-made for the Bambu Lab ecosystem, this unit offers exclusive optimizations and dedicated power connections for the X1, P1, P2, and A1 series.
+'''
+
+[[block]]
+key = "3793c167c87a1c58"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## Product Features
+'''
+
+[[block]]
+key = "4abcd70f3d2e8d74"
+origin = '''
+- **主动正压送料缓冲：** 软料,脆料,5kg+ 大卷料，无论什么耗材,多复杂的路径，全程稳定正压，大幅减少挤出不足与拉丝断层。打印稳定，从送料开始。
+'''
+translate = '''
+- **Large Spools. Long Paths. Mastered.:** The Panda Bamboo Feeder's motorized system delivers consistent active pressure, eliminating drag that causes under-extrusion, stringing, and gaps. Whether you're using soft, brittle, or heavy 5kg+ spools (or navigating complex PTFE paths), it handles it all with ease.
+'''
+
+[[block]]
+key = "7f01722495e298d9"
+origin = '''
+- **自动进退料：** 耗材插入，一键启动，自动推送至打印头，同步发送进料指令至打印机；按下退料键，耗材同步退回入料口。
+'''
+translate = '''
+- **One-Button Loading & Unloading:** Simply insert the filament. The Feeder automatically drives material to the toolhead, perfectly syncing the load command with your printer; one press of the Retract button sends an instant command to the printer, pulling filament back to the inlet for a clean, lightning-fast swap.
+'''
+
+[[block]]
+key = "36dc4d670cfaac25"
+origin = '''
+- **智能续料：** 单个支持双盘自动切换，最多三台联动,四盘接力。大型模型,批量任务，从头跑到尾，交给它。
+'''
+translate = '''
+- **Smart Filament Refill:** A single unit supports automatic switching between two spools. You can chain up to three Panda Bamboo Feeders to create a relay sequence of four spools. When one runs dry, the next takes over—instantly, automatically, and seamlessly.
+'''
+
+[[block]]
+key = "327cd05070193800"
+origin = '''
+- **WiFi 远程控制：** 内置 ESP32 主控，支持 WiFi 连接，Web UI 网页端与 BQ App 双端操控。
+'''
+translate = '''
+- **WiFi Control:** Connect the Feeder to your network and take full control via the intuitive Web UI. Manage network settings, device binding, OTA firmware updates, and much more.
+'''
+
+[[block]]
+key = "d79b2565ff6b5606"
+origin = '''
+- **注塑精品外壳：** 注塑精密成型，半透明黑色外壳隐约透出内部构造，严丝合缝，质感出众。
+'''
+translate = '''
+- **Precision Engineering:** The translucent, injection-molded housing reveals the complexity within. Its seamless, precision-fit design offers a refined texture and a luxury upgrade look.
+'''
+
+[[block]]
+key = "1b1af79d7d7ed754"
+origin = '''
+- **广泛兼容 FDM 打印机：** 兼容绝大多数市面主流 FDM 打印机，并为 Bambu Lab X1 / P1 / P2 / A1 系列提供专属优化，开箱即用。
+'''
+translate = '''
+- **Universal for FDM, Optimized for Bambu Lab:** Boosts feeding performance across most FDM printers, with specialized optimizations and a dedicated power connection for the Bambu Lab X1/P1/P2/A1 series - ensuring a true factory-fit experience.
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "67d639f83f5937e1"
+origin = '''
+## 基本参数
+'''
+translate = '''
+## Basic Parameters
+'''
+
+[[block]]
+key = "97e782fd8fef5036"
+origin = '''
+|产品名称| BIQU Panda Bamboo Feeder（熊猫喂竹器） |
+|---------|---------|
+| 适配机型 | 兼容市面主流FDM打印机；Bambu Lab X1/P1/P2/A1 系列专属优化 |
+| 主控芯片 | ESP32-S3-WROOM-1-N16R8 |
+| 显示屏 | 1.3英寸OLED，分辨率128x64，显示尺寸：29.42x14.7mm |
+| 电源输入 | DC5.5x2.1mm：24V 3A |
+| 逻辑电压 | 3.3V |
+| 断料检测接口 | XH2.54 3P |
+| 待机电流 | 0.05A |
+| 工作电流 | 24V 0.21A（峰值0.6A） |
+'''
+translate = '''
+|Product Name| BIQU Panda Bamboo Feeder |
+|---------|---------|
+| Compatible Models | Most FDM 3D Printers on the market; for Bambu Lab X1/P1/P2/A1 Series (optimized) |
+| Main Control Chip | ESP32-S3-WROOM-1-N16R8 |
+| Display | 1.3" OLED, 128×64 px, Active area 29.42 × 14.7 mm |
+| Power Input | DC5.5 × 2.1mm: 24V 3A |
+| Logic Voltage | 3.3V |
+| Runout Detection | XH2.54 3P |
+| Standby Current | 0.05A |
+| Working Current | 0.21A (Peak 0.6A) @ 24V |
+'''

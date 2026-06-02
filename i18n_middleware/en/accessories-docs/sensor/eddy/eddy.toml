@@ -1,0 +1,134 @@
+[metadata]
+
+[[block]]
+key = "dd24dfa5953e1236"
+origin = '''
+---
+sidebar_position: 1
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+---
+'''
+
+[[block]]
+key = "ddc4e9fe017a64d8"
+origin = '''
+# Eddy
+'''
+translate = '''
+# Eddy
+'''
+
+[[block]]
+key = "d71d2fa8e2b7de41"
+origin = '''
+Eddy Duo 说明文档
+'''
+translate = '''
+Eddy Duo 说明文档
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "fc43a4720182f26b"
+origin = '''
+<ImageView src={require('./img/eddy_title_1.png').default} alt="" width="600" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/sensor/eddy/img/eddy_title_1.png').default} alt="" width="600" />
+'''
+
+[[block]]
+key = "53b10a12d3de6d92"
+origin = '''
+## **功能亮点**
+'''
+translate = '''
+## **功能亮点**
+'''
+
+[[block]]
+key = "d441314dbe53688e"
+origin = '''
+- 整体体积小，重量轻；
+- 具备温度补偿功能；
+- 高效率调平；
+- 应用广泛，兼容性强；
+- 精度高，稳定性强；
+- 非接触式；
+'''
+translate = '''
+- 整体体积小，重量轻；
+- 具备温度补偿功能；
+- 高效率调平；
+- 应用广泛，兼容性强；
+- 精度高，稳定性强；
+- 非接触式；
+'''
+
+[[block]]
+key = "76c444e71c2b9f6d"
+origin = '''
+## **规格**
+'''
+translate = '''
+## **规格**
+'''
+
+[[block]]
+key = "32470f0ca65b3e38"
+origin = '''
+| **产品名称** | **Eddy**                                                     |
+| ------------ | ------------------------------------------------------------ |
+| **产品重量** | **6g**                                                       |
+| **电压**     | **5V**                                                       |
+| **静态电流** | **30mA**                                                     |
+| **工作电流** | **30mA**                                                     |
+| **接线**     | **Eddy, Eddy Duo：4pin, 间距1.5mm** |
+| **使用温度** | **≤60℃ 环境温度**                                            |
+| **标准误差** | **0.5μm**                                                    |
+| **适配机型** | **所有使用 Klipper 的 FDM 打印机**                           |
+'''
+translate = '''
+| **产品名称** | **Eddy**                                                     |
+| ------------ | ------------------------------------------------------------ |
+| **产品重量** | **6g**                                                       |
+| **电压**     | **5V**                                                       |
+| **静态电流** | **30mA**                                                     |
+| **工作电流** | **30mA**                                                     |
+| **接线**     | **Eddy, Eddy Duo：4pin, 间距1.5mm** |
+| **使用温度** | **≤60℃ 环境温度**                                            |
+| **标准误差** | **0.5μm**                                                    |
+| **适配机型** | **所有使用 Klipper 的 FDM 打印机**                           |
+'''

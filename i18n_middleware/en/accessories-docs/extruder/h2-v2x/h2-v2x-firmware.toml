@@ -1,0 +1,78 @@
+[metadata]
+
+[[block]]
+key = "1ecc15ff390b2db4"
+origin = '''
+---
+sidebar_position: 3
+---
+'''
+translate = '''
+---
+sidebar_position: 3
+---
+'''
+
+[[block]]
+key = "023b8395ada90135"
+origin = '''
+# H2 V2X 固件配置
+'''
+translate = '''
+# H2 V2X 固件配置
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "97a654915a067474"
+origin = '''
+## Klipper 配置文件参考
+'''
+translate = '''
+## Klipper 配置文件参考
+'''
+
+[[block]]
+key = "20006d93b3b901ae"
+origin = '''
+``` klipper_cfg title="printer.cfg"
+[extruder]
+rotation_distance: 24.1
+gear_ratio: 7:1
+```
+'''
+translate = '''
+``` klipper_cfg title="printer.cfg"
+[extruder]
+rotation_distance: 24.1
+gear_ratio: 7:1
+```
+'''

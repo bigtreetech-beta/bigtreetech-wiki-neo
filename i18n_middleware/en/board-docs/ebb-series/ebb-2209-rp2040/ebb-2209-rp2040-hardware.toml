@@ -1,0 +1,102 @@
+[metadata]
+
+[[block]]
+key = "89d60418d47697d3"
+origin = '''
+---
+sidebar_position: 2
+description: EBB 2209 RP2040 硬件功能
+---
+'''
+translate = '''
+---
+sidebar_position: 2
+description: EBB 2209 RP2040 Hardware Functions
+---
+'''
+
+[[block]]
+key = "844d6c0c03572f69"
+origin = '''
+# EBB 2209 RP2040 硬件功能
+'''
+translate = '''
+# EBB 2209 RP2040 Hardware Functions
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "dfaaa915926bb094"
+origin = '''
+## 引脚图
+'''
+translate = '''
+## Pin Diagram
+'''
+
+[[block]]
+key = "5df40c0f3345c853"
+origin = '''
+<ImageView src={require('./img/ebb-2209-rp2040-pinout.png').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/ebb-series/ebb-2209-rp2040/img/ebb-2209-rp2040-pinout.png').default} width="70%"/>
+'''
+
+[[block]]
+key = "7cc50c50a9bf6fed"
+origin = '''
+## 硬件功能
+'''
+translate = '''
+## Hardware Functions
+'''
+
+[[block]]
+key = "ea61793cc396947b"
+origin = '''
+:::info[硬件功能配置]
+
+参考EBB 2209 RP2040 说明书 
+
+[bigtreetech/EBB/EBB SB2209 CAN (RP2040)/Build Guide](https://github.com/bigtreetech/EBB/tree/master/EBB%20SB2209%20CAN%20(RP2040)/Build%20Guide)
+
+:::
+'''
+translate = '''
+:::info[Hardware Function Configuration]
+
+Refer to the EBB 2209 RP2040 manual
+
+[bigtreetech/EBB/EBB SB2209 CAN (RP2040)/Build Guide](https://github.com/bigtreetech/EBB/tree/master/EBB%20SB2209%20CAN%20(RP2040)/Build%20Guide)
+
+:::
+'''

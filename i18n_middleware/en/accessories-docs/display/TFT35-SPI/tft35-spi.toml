@@ -1,0 +1,254 @@
+[metadata]
+
+[[block]]
+key = "35c36a842ab01ad9"
+origin = '''
+---
+sidebar_position: 1
+description: TFT 35 SPI 文档
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: TFT 35 SPI 文档
+---
+'''
+
+[[block]]
+key = "19b88a0995042a6d"
+origin = '''
+# TFT 35 SPI
+'''
+translate = '''
+# TFT 35 SPI
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "f8f4ecdd19846e76"
+origin = '''
+## 规格
+'''
+translate = '''
+## 规格
+'''
+
+[[block]]
+key = "a8c6092e41823ce6"
+origin = '''
+| Specification   | TFT 35 SPI                                  |
+| --------------- | ------------------------------------------- |
+| 产品尺寸        | 98 x 56毫米                                 |
+| 安装尺寸        | 98 x 56毫米。有关更多详细信息，请阅读：尺寸 |
+| 输入电压        | DC 5V                                       |
+| 逻辑电压        | DC 3.3V                                     |
+| 屏幕尺寸        | 3.5英寸                                     |
+| 分辨率          | 480x320                                     |
+| SPI显示器驱动IC | ILI9488                                     |
+| 触摸驱动IC      | NS2009                                      |
+'''
+translate = '''
+| Specification   | TFT 35 SPI                                  |
+| --------------- | ------------------------------------------- |
+| 产品尺寸        | 98 x 56毫米                                 |
+| 安装尺寸        | 98 x 56毫米。有关更多详细信息，请阅读：尺寸 |
+| 输入电压        | DC 5V                                       |
+| 逻辑电压        | DC 3.3V                                     |
+| 屏幕尺寸        | 3.5英寸                                     |
+| 分辨率          | 480x320                                     |
+| SPI显示器驱动IC | ILI9488                                     |
+| 触摸驱动IC      | NS2009                                      |
+'''
+
+[[block]]
+key = "a9ae5a7eafeac08f"
+origin = '''
+## 尺寸
+'''
+translate = '''
+## 尺寸
+'''
+
+[[block]]
+key = "10d92441e49106fc"
+origin = '''
+<ImageView src={require('./img/TFT35_SPI_Dimension.png').default} width="50%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/TFT35-SPI/img/TFT35_SPI_Dimension.png').default} width="50%"/>
+'''
+
+[[block]]
+key = "6a770c30e1108b39"
+origin = '''
+## 接口示意图
+'''
+translate = '''
+## 接口示意图
+'''
+
+[[block]]
+key = "faecac282a61e363"
+origin = '''
+<ImageView src={require('./img/TFT35_SPI_Interface.png').default} width="50%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/TFT35-SPI/img/TFT35_SPI_Interface.png').default} width="50%"/>
+'''
+
+[[block]]
+key = "a2df1b4a41a65fdc"
+origin = '''
+## Pinout
+'''
+translate = '''
+## Pinout
+'''
+
+[[block]]
+key = "3729c9531f335f39"
+origin = '''
+<ImageView src={require('./img/TFT35_SPI_Pinout.png').default} width="50%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/TFT35-SPI/img/TFT35_SPI_Pinout.png').default} width="50%"/>
+'''
+
+[[block]]
+key = "3e99fed33227a941"
+origin = '''
+## 软件安装
+'''
+translate = '''
+## 软件安装
+'''
+
+[[block]]
+key = "e490791a341c1fa5"
+origin = '''
+目前 TFT 35 SPI 只支持 CB1
+'''
+translate = '''
+目前 TFT 35 SPI 只支持 CB1
+'''
+
+[[block]]
+key = "a16a9520d1604efe"
+origin = '''
+:::info[系统版本]
+
+V2.2.0及更早版本的操作系统不支持 TFT35 SPI。需要使用 V2.2.1 及更高版本的操作系统。
+
+:::
+'''
+translate = '''
+:::info[系统版本]
+
+V2.2.0及更早版本的操作系统不支持 TFT35 SPI。需要使用 V2.2.1 及更高版本的操作系统。
+
+:::
+'''
+
+[[block]]
+key = "a6ebf42de7e30048"
+origin = '''
+CB1 系统 img [bigtreetech/CB1/releases](https://github.com/bigtreetech/CB1/releases)
+'''
+translate = '''
+CB1 系统 img [bigtreetech/CB1/releases](https://github.com/bigtreetech/CB1/releases)
+'''
+
+[[block]]
+key = "f162ac11630264ec"
+origin = '''
+<ImageView src={require('./img/TFT35_SPI_Soft1.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/TFT35-SPI/img/TFT35_SPI_Soft1.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "71503f10484f96bb"
+origin = '''
+操作系统写入SD卡后，有一个名为 `BOOT` 的 `FAT32` 分区，用 VSCode 打开 `BoardEnv.txt` 文件。
+'''
+translate = '''
+操作系统写入SD卡后，有一个名为 `BOOT` 的 `FAT32` 分区，用 VSCode 打开 `BoardEnv.txt` 文件。
+'''
+
+[[block]]
+key = "ce04f2630eee5e55"
+origin = '''
+取消注释覆盖 `=tft35_spi` 以启用 tft35 spi 屏幕
+'''
+translate = '''
+取消注释覆盖 `=tft35_spi` 以启用 tft35 spi 屏幕
+'''
+
+[[block]]
+key = "e2504fe416f8eed4"
+origin = '''
+<ImageView src={require('./img/TFT35_SPI_Soft2.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/TFT35-SPI/img/TFT35_SPI_Soft2.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "5c23a6bbc84860c5"
+origin = '''
+:::warning[已知问题]
+
+如果使用 v2.2.1 版本的操作系统映像。设置为 `overlay=tft35_spi25` 而不是 `overlay=tft35_spi` 使用25Mhz的spi速度而不是默认的50Mhz，以避免显示异常。
+
+如果使用 V2.2.1 之后的操作系统映像，默认情况下操作系统将使用更低更稳定的速度。
+
+:::
+'''
+translate = '''
+:::warning[已知问题]
+
+如果使用 v2.2.1 版本的操作系统映像。设置为 `overlay=tft35_spi25` 而不是 `overlay=tft35_spi` 使用25Mhz的spi速度而不是默认的50Mhz，以避免显示异常。
+
+如果使用 V2.2.1 之后的操作系统映像，默认情况下操作系统将使用更低更稳定的速度。
+
+:::
+'''
+
+[[block]]
+key = "24a33ca19da9faf4"
+origin = '''
+<ImageView src={require('./img/TFT35_SPI_Soft3.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/TFT35-SPI/img/TFT35_SPI_Soft3.png').default} width="80%"/>
+'''

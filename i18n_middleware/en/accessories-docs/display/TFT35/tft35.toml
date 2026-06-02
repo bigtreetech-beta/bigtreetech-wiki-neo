@@ -1,0 +1,200 @@
+[metadata]
+
+[[block]]
+key = "4690e0b9b0849ba7"
+origin = '''
+---
+sidebar_position: 1
+description: TFT 35 文档
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: TFT 35 文档
+---
+'''
+
+[[block]]
+key = "72720a08860334a5"
+origin = '''
+# TFT 35
+'''
+translate = '''
+# TFT 35
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "57c04bdb90a8f887"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "3063a4111bc4fdff"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/TFT35_V3.0_Title.png').default} width="45%" class="right-image"/>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/accessories-docs/display/TFT35/img/TFT35_V3.0_Title.png').default} width="45%" class="right-image"/>
+'''
+
+[[block]]
+key = "61d7bc002e06f0c9"
+origin = '''
+## 产品规格
+'''
+translate = '''
+## 产品规格
+'''
+
+[[block]]
+key = "1783a17106fc219d"
+origin = '''
+| Specification | TFT 35                                 |
+| ------------- | -------------------------------------- |
+| 尺寸          | 110x58mm                               |
+| 输入电压      | 5V DC                                  |
+| 安装尺寸      | 103.76*49.43 mm                        |
+| SD卡逻辑电压  | 3.3V或5V，支持MEGA2560主板，兼容性更高 |
+'''
+translate = '''
+| Specification | TFT 35                                 |
+| ------------- | -------------------------------------- |
+| 尺寸          | 110x58mm                               |
+| 输入电压      | 5V DC                                  |
+| 安装尺寸      | 103.76*49.43 mm                        |
+| SD卡逻辑电压  | 3.3V或5V，支持MEGA2560主板，兼容性更高 |
+'''
+
+[[block]]
+key = "0a3a0b592b9c285e"
+origin = '''
+</div>
+'''
+translate = '''
+</div>
+'''
+
+[[block]]
+key = "a9ae5a7eafeac08f"
+origin = '''
+## 尺寸
+'''
+translate = '''
+## 尺寸
+'''
+
+[[block]]
+key = "2f4dc4832f4e33c6"
+origin = '''
+<ImageView src={require('./img/TFT35_V3.0_Diagram.png').default} width="50%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/TFT35/img/TFT35_V3.0_Diagram.png').default} width="50%"/>
+'''
+
+[[block]]
+key = "6a770c30e1108b39"
+origin = '''
+## 接口示意图
+'''
+translate = '''
+## 接口示意图
+'''
+
+[[block]]
+key = "1c4df7330fe6f5fe"
+origin = '''
+<ImageView src={require('./img/TFT35_V3.0_Interface.png').default} width="50%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/accessories-docs/display/TFT35/img/TFT35_V3.0_Interface.png').default} width="50%"/>
+'''
+
+[[block]]
+key = "466deb8f3d581f0c"
+origin = '''
+:::info
+
+1. 使用12864屏幕模式时，将端口EXP1和EXP2连接到主板。此模式下没有触摸功能。（使用SKR MINI E3或SKR E3 DIP，只需将EXP3连接到主板即可）
+
+2. 使用串口屏模式时，通过RS232与主板上的TFT或aux-2连接。此模式具有触摸功能。
+
+3. 一键切换两种工作模式。按下旋转编码器约3秒钟，直到出现模式选择页面，然后在选择模式后按下编码器。
+
+:::
+'''
+translate = '''
+:::info
+
+1. 使用12864屏幕模式时，将端口EXP1和EXP2连接到主板。此模式下没有触摸功能。（使用SKR MINI E3或SKR E3 DIP，只需将EXP3连接到主板即可）
+
+2. 使用串口屏模式时，通过RS232与主板上的TFT或aux-2连接。此模式具有触摸功能。
+
+3. 一键切换两种工作模式。按下旋转编码器约3秒钟，直到出现模式选择页面，然后在选择模式后按下编码器。
+
+:::
+'''
+
+[[block]]
+key = "0bb80755db66cf58"
+origin = '''
+## 软件配置
+'''
+translate = '''
+## 软件配置
+'''
+
+[[block]]
+key = "efc717590bf09097"
+origin = '''
+出厂已经包含固件，它可以直接使用。也可以按照以下方法进行升级
+'''
+translate = '''
+出厂已经包含固件，它可以直接使用。也可以按照以下方法进行升级
+'''
+
+[[block]]
+key = "9a833c2bc510950d"
+origin = '''
+1. 从 GitHub repo [bigtreetech/BIGTREETECH-TouchScreenFirmware](https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware) 下载固件
+2. 然后把固件复制进 SD 卡根目录
+3. 把 SD 卡插入板的SD卡插槽
+4. 重新给主板通电或按下重置键
+5. 等待10秒后更新完成
+'''
+translate = '''
+1. 从 GitHub repo [bigtreetech/BIGTREETECH-TouchScreenFirmware](https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware) 下载固件
+2. 然后把固件复制进 SD 卡根目录
+3. 把 SD 卡插入板的SD卡插槽
+4. 重新给主板通电或按下重置键
+5. 等待10秒后更新完成
+'''
