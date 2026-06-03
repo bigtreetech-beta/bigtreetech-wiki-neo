@@ -5,6 +5,16 @@ name: wiki-PR-build-workflow
 on:
   pull_request:
     branches: [ "main" ]
+    paths:
+      - 'docs/**'
+      - 'i18n/**'
+      - 'blog/**'
+      - 'src/**'
+      - 'static/**'
+      - '.github/workflows/**'
+      - 'docusaurus.config.ts'
+      - 'package.json'
+      - 'sidebars.ts'
 
 jobs:
   lint:
