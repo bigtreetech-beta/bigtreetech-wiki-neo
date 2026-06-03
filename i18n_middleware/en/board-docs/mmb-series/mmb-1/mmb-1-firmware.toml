@@ -11,17 +11,17 @@ description: MMB CAN V2.0 软件配置
 translate = '''
 ---
 sidebar_position: 3
-description: MMB CAN V2.0 Firmware Configuration
+description: MMB CAN V1.0 Firmware Configuration
 ---
 '''
 
 [[block]]
-key = "5087add581ce5e16"
+key = "0a72b20cd7050939"
 origin = '''
-# MMB CAN V2.0 软件配置
+# MMB CAN V1.0 软件配置
 '''
 translate = '''
-# MMB CAN V2.0 Firmware Configuration
+# MMB CAN V1.0 Firmware Configuration
 '''
 
 [[block]]
@@ -214,12 +214,12 @@ translate = '''
 '''
 
 [[block]]
-key = "6b269db4f1ef98e1"
+key = "52e56765fe969086"
 origin = '''
-    <ImageView src={require('./img/mmb-can-v2-0-klipper1.webp').default} />
+    <ImageView src={require('./img/mmb-can-klipper1.webp').default} />
 '''
 translate = '''
-    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-klipper1.webp').default} />
+    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-klipper1.webp').default} />
 '''
 
 [[block]]
@@ -254,12 +254,12 @@ translate = '''
 '''
 
 [[block]]
-key = "2ed0d04d3b1e7f3f"
+key = "9c073f96dfdc21a8"
 origin = '''
-    {/* <ImageView src={require('./img/mmb_can_klipper2.webp').default} /> */}
+    <ImageView src={require('./img/mmb-can-klipper2.webp').default} />
 '''
 translate = '''
-    {/* <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_klipper2.webp').default} /> */}
+    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-klipper2.webp').default} />
 '''
 
 [[block]]
@@ -294,12 +294,12 @@ translate = '''
 '''
 
 [[block]]
-key = "a2112d34cac62340"
+key = "4a6f1ad98829db09"
 origin = '''
-    <ImageView src={require('./img/mmb-can-v2-0-klipper2.webp').default} />
+    <ImageView src={require('./img/mmb-can-klipper3.webp').default} />
 '''
 translate = '''
-    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-klipper2.webp').default} />
+    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-klipper3.webp').default} />
 '''
 
 [[block]]
@@ -396,7 +396,7 @@ translate = '''
                 <Tabs>
                     <TabItem value="katapult-with-usb" label="CAN" default>
                         <ImageView
-                            src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-klipper-config-kc.webp').default}
+                            src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-klipper-config-kc.webp').default}
                         />
                     </TabItem>
                     <TabItem value="katapult-with-can" label="USB">
@@ -411,7 +411,7 @@ origin = '''
 '''
 translate = '''
                         <ImageView
-                            src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-klipper-config-ku.webp').default}
+                            src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-klipper-config-ku.webp').default}
                         />
 '''
 
@@ -438,7 +438,7 @@ translate = '''
 			    <Tabs>
                     <TabItem value="CAN" label="CAN" default>
                         <ImageView
-                            src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-klipper-config-nc.webp').default}
+                            src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-klipper-config-nc.webp').default}
                         />
                     </TabItem>
                     <TabItem value="USB" label="USB">
@@ -453,7 +453,7 @@ origin = '''
 '''
 translate = '''
                         <ImageView
-                            src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-klipper-config-nu.webp').default}
+                            src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-klipper-config-nu.webp').default}
                         />
 '''
 
@@ -482,9 +482,9 @@ translate = '''
 '''
 
 [[block]]
-key = "44576bbd17812254"
+key = "e3dfbb59fac5586a"
 origin = '''
-3. 输入 `make` 编译固件，当 `make` 执行完成后会在 `home/pi/klipper/out`文件夹中生成我们所需要的`klipper.bin`固件
+3. 输入 `make` 编译固件，当 `make` 执行完成后会在 `home/pi/klipper/out`文件夹中生成我们所需要的`klipper.bin`固件。
 '''
 translate = '''
 3. Enter `make` to compile the firmware. When `make` is completed, the required `klipper.bin` firmware will be generated in the `home/pi/klipper/out` folder.
@@ -504,12 +504,12 @@ translate = '''
 '''
 
 [[block]]
-key = "04a00cc6eaf610bb"
+key = "d589360ac8eb0a9f"
 origin = '''
-    {/* <ImageView src={require('./img/mmb_can_klipper5.webp').default} /> */}
+    <ImageView src={require('./img/mmb-can-klipper5.webp').default} />
 '''
 translate = '''
-    {/* <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_klipper5.webp').default} /> */}
+    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-klipper5.webp').default} />
 '''
 
 [[block]]
@@ -562,12 +562,12 @@ translate = '''
 '''
 
 [[block]]
-key = "d028448727245102"
+key = "f84762b08f606a49"
 origin = '''
-    <ImageView src={require('./img/mmb-can-v2-0-klipper4.webp').default} />
+    <ImageView src={require('./img/mmb-can-klipper6.webp').default} />
 '''
 translate = '''
-    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-klipper4.webp').default} />
+    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-klipper6.webp').default} />
 '''
 
 [[block]]
@@ -602,6 +602,7 @@ origin = '''
         :::warning[注意]
 
             `klipper.bin` 需要提前 `make` 生成出来
+
         :::
 '''
 translate = '''
@@ -612,6 +613,7 @@ translate = '''
         :::warning[Note]
 
             At this point, you should have already compiled `klipper.bin` using `make`. 
+
         :::
 '''
 
@@ -635,12 +637,12 @@ translate = '''
 '''
 
 [[block]]
-key = "d5de100c70c394d7"
+key = "20b2150b560e81cc"
 origin = '''
     ::::
     如下图已经烧录成功。
 
-    <ImageView src={require('./img/mmb-can-v2-0-klipper5.webp').default} />
+    <ImageView src={require('./img/mmb-can-klipper7.webp').default} />
 
 4. 再次输入
 
@@ -650,7 +652,7 @@ origin = '''
 
     查询，此时 **Application** 由之前的 **katapult** 变为 **Klipper**，代表 Klipper 已经正常运行
 
-    <ImageView src={require('./img/mmb-can-v2-0-klipper6.webp').default} />
+    <ImageView src={require('./img/mmb-can-klipper8.webp').default} />
 
 ### 通过 DFU 进行固件更新
 
@@ -664,7 +666,7 @@ origin = '''
     lsusb
     ```
 
-    {/* <ImageView src={require('./img/mmb_can_klipper9.webp').default} /> */}
+    <ImageView src={require('./img/mmb-can-klipper9.webp').default} />
 
 3. 输入
 
@@ -681,7 +683,7 @@ origin = '''
     开始烧录固件
     :::info[注意]
 
-    将 `0483:df11` 更换为上一步中查询到的实际的设备 ID
+    将 **0483:df11** 更换为上一步中查询到的实际的设备 ID
 
     :::
 '''
@@ -689,7 +691,7 @@ translate = '''
     ::::
     Flashing is successful, as shown in the figure below.
 
-    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-klipper5.webp').default} />
+    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-klipper7.webp').default} />
 
 4. Enter the query command again:
 
@@ -699,7 +701,7 @@ translate = '''
 
     At this point, the **Application** has changed from **katapult** to **Klipper**, indicating that Klipper is running normally.
 
-    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-klipper6.webp').default} />
+    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-klipper8.webp').default} />
 
 ### Firmware Update via DFU
 
@@ -713,7 +715,7 @@ Raspberry Pi or CB1 firmware update through DFU:
     lsusb
     ```
 
-    {/* <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_klipper9.webp').default} /> */}
+    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-klipper9.webp').default} />
 
 3. Enter:
 
@@ -842,12 +844,12 @@ For use with BIGTREETECH U2C module:
 '''
 
 [[block]]
-key = "dae1137561540751"
+key = "d2828d43e9713764"
 origin = '''
-<ImageView src={require('./img/mmb-can-v2-0-canbus.webp').default} />
+<ImageView src={require('./img/mmb-can-klipper10.webp').default} />
 '''
 translate = '''
-<ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-canbus.webp').default} />
+<ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-klipper10.webp').default} />
 '''
 
 [[block]]
@@ -1025,12 +1027,12 @@ translate = '''
 '''
 
 [[block]]
-key = "f52d8aad22a142e5"
+key = "4d1085688721e790"
 origin = '''
-    <ImageView src={require('./img/mmb-can-v2-0-klipper7.webp').default} />
+    <ImageView src={require('./img/mmb-can-klipper11.webp').default} />
 '''
 translate = '''
-    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-klipper7.webp').default} />
+    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-klipper11.webp').default} />
 '''
 
 [[block]]
@@ -1043,12 +1045,12 @@ translate = '''
 '''
 
 [[block]]
-key = "eed8f14b907ba36a"
+key = "724f00579e03a20d"
 origin = '''
-    <ImageView src={require('./img/mmb-can-v2-0-klipper8.webp').default} />
+    <ImageView src={require('./img/mmb-can-klipper12.webp').default} />
 '''
 translate = '''
-    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-klipper8.webp').default} />
+    <ImageView src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-klipper12.webp').default} />
 '''
 
 [[block]]
