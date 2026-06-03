@@ -5,6 +5,16 @@ name: wiki-build-workflow
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - 'docs/**'
+      - 'i18n/**'
+      - 'blog/**'
+      - 'src/**'
+      - 'static/**'
+      - '.github/workflows/**'
+      - 'docusaurus.config.ts'
+      - 'package.json'
+      - 'sidebars.ts'
 
 jobs:
   build:
