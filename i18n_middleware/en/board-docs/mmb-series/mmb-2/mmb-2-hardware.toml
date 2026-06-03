@@ -11,7 +11,7 @@ description: MMB CAN V2.0 硬件功能
 translate = '''
 ---
 sidebar_position: 2
-description: MMB CAN V2.0 硬件功能
+description: MMB CAN V2.0 Hardware Features
 ---
 '''
 
@@ -21,7 +21,7 @@ origin = '''
 # MMB CAN V2.0 硬件功能
 '''
 translate = '''
-# MMB CAN V2.0 硬件功能
+# MMB CAN V2.0 Hardware Features
 '''
 
 [[block]]
@@ -34,14 +34,14 @@ translate = '''
 '''
 
 [[block]]
-key = "57c04bdb90a8f887"
+key = "744a1a9d0f69411c"
 origin = '''
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
 '''
 translate = '''
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
 '''
 
 [[block]]
@@ -54,53 +54,46 @@ translate = '''
 '''
 
 [[block]]
-key = "e106c153eb196b41"
-origin = '''
-## 模型下载
-'''
-translate = '''
-## 模型下载
-'''
-
-[[block]]
-key = "88dec52ee5af5593"
-origin = '''
-:::info[3D 参考文件]
-
-MMB CAN V2.0 模型 [bigtreetech/MMB/3D/BIGTREETECH MMB CAN V2.0-3D.step](https://github.com/bigtreetech/MMB/blob/master/3D/BIGTREETECH%20MMB%20CAN%20V2.0-3D.step)
-
-:::
-'''
-translate = '''
-:::info[3D 参考文件]
-
-MMB CAN V2.0 模型 [bigtreetech/MMB/3D/BIGTREETECH MMB CAN V2.0-3D.step](https://github.com/bigtreetech/MMB/blob/master/3D/BIGTREETECH%20MMB%20CAN%20V2.0-3D.step)
-
-:::
-'''
-
-[[block]]
 key = "e4e43b6d7201907d"
 origin = '''
 ## 外观尺寸
 '''
 translate = '''
-## 外观尺寸
+## Dimensions
 '''
 
 [[block]]
-key = "089c37eb8f456ce7"
+key = "5b60f763863d7fa4"
 origin = '''
 <ImageView
-    src={require('./img/mmb_can_v2_0_dimensions.png').default}
-    alt="mmb can v2" width="80%"
+	src={require('./img/mmb-can-v2-0-dimensions.webp').default}
+	alt="mmb can v2"
+	width="80%"
 />
 '''
 translate = '''
 <ImageView
-    src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_v2_0_dimensions.png').default}
-    alt="mmb can v2" width="80%"
+	src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-dimensions.webp').default}
+	alt="mmb can v2"
+	width="80%"
 />
+'''
+
+[[block]]
+key = "5b893cdd7e60f1bb"
+origin = '''
+:::tip[3D 参考文件]
+
+MMB CAN V2.0 模型 [bigtreetech/MMB/3D/BIGTREETECH MMB CAN V2.0-3D.step](https://github.com/bigtreetech/MMB/blob/master/3D/BIGTREETECH%20MMB%20CAN%20V2.0-3D.step)
+
+:::
+'''
+translate = '''
+:::tip[3D STEP File]
+
+MMB CAN V2.0 Model [bigtreetech/MMB/3D/BIGTREETECH MMB CAN V2.0-3D.step](https://github.com/bigtreetech/MMB/blob/master/3D/BIGTREETECH%20MMB%20CAN%20V2.0-3D.step)
+
+:::
 '''
 
 [[block]]
@@ -109,22 +102,41 @@ origin = '''
 ## 引脚说明
 '''
 translate = '''
-## 引脚说明
+## Pin Description
 '''
 
 [[block]]
-key = "3e85f3a229d92898"
+key = "1a33d2579218274f"
 origin = '''
 <ImageView
-    src={require('./img/mmb_can_v2_0_pin.png').default}
-    alt="mmb can v2" width="80%"
+	src={require('./img/mmb-can-v2-0-pin.webp').default}
+	alt="mmb can v2"
+	width="80%"
 />
 '''
 translate = '''
 <ImageView
-    src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_v2_0_pin.png').default}
-    alt="mmb can v2" width="80%"
+	src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-pin.webp').default}
+	alt="mmb can v2"
+	width="80%"
 />
+'''
+
+[[block]]
+key = "034757710bdf8540"
+origin = '''
+:::tip[原理图 / SCHEMATIC]
+
+MMB CAN V2.0 原理图 [BIGTREETECH MMB CAN V2.0-SCH.pdf](https://github.com/bigtreetech/MMB/blob/master/Hardware/V2.0/BIGTREETECH%20MMB%20CAN%20V2.0-SCH.pdf)
+
+:::
+'''
+translate = '''
+:::tip[Schematic Diagram]
+
+MMB CAN V2.0 Schematic Diagram [BIGTREETECH MMB CAN V2.0-SCH.pdf](https://github.com/bigtreetech/MMB/blob/master/Hardware/V2.0/BIGTREETECH%20MMB%20CAN%20V2.0-SCH.pdf)
+
+:::
 '''
 
 [[block]]
@@ -133,7 +145,7 @@ origin = '''
 ## 硬件功能配置
 '''
 translate = '''
-## 硬件功能配置
+## Interface Introduction
 '''
 
 [[block]]
@@ -142,7 +154,7 @@ origin = '''
 ### USB 供电
 '''
 translate = '''
-### USB 供电
+### USB Power Supply
 '''
 
 [[block]]
@@ -151,21 +163,23 @@ origin = '''
 主板上电之后， 电源灯会亮起，表示供电正常。板上标识VUSB是电源选择端，仅当使用USB给主板供电时，才需要使用跳帽将VUSB短接。
 '''
 translate = '''
-主板上电之后， 电源灯会亮起，表示供电正常。板上标识VUSB是电源选择端，仅当使用USB给主板供电时，才需要使用跳帽将VUSB短接。
+When the board is powered on, the power indicator light will turn on to confirm that the power supply is functioning correctly. The VUSB terminal on the board is the power selection terminal, which should only be shorted with a jumper when powering through USB.
 '''
 
 [[block]]
-key = "6ffda2cffcbf1ef0"
+key = "d93824dd7b490000"
 origin = '''
 <ImageView
-    src={require('./img/mmb_can_v2_0_usb.png').default}
-    alt="mmb can v2" width="80%"
+	src={require('./img/mmb-can-v2-0-usb.webp').default}
+	alt="mmb can v2"
+	width="80%"
 />
 '''
 translate = '''
 <ImageView
-    src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_v2_0_usb.png').default}
-    alt="mmb can v2" width="80%"
+	src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-usb.webp').default}
+	alt="mmb can v2"
+	width="80%"
 />
 '''
 
@@ -175,21 +189,40 @@ origin = '''
 ### 舵机接口
 '''
 translate = '''
-### 舵机接口
+### Servo Interface
 '''
 
 [[block]]
-key = "db30086ab5234919"
+key = "96845378ad66b1e4"
+origin = '''
+:::info[注意]
+此处演示为使用MMB的板载DC-DC为舵机供电。
+
+MMB CAN V2 在舵机输出口添加了一枚3A的自恢复保险丝用以避免电源触发短路保护，足以胜任该应用。但需确保其接入MOT1或MOT2连接器，且尽量避免同步动作，或开启`servo_always_active: 1`来允许舵机重启后仍有持续的控制信号。
+:::
+'''
+translate = '''
+:::info[Note]
+This demonstration shows using the MMB's onboard DC-DC module to power the servo.
+
+The MMB CAN V2 features an added 3A resettable fuse at the servo output port to prevent the power supply from triggering short-circuit protection, making it fully capable of handling this application. However, please ensure it is connected to the MOT1 or MOT2 connector, minimize simultaneous movements, or enable `servo_always_active: 1` to maintain continuous control signals even after a servo reset.
+:::
+'''
+
+[[block]]
+key = "570622432222a412"
 origin = '''
 <ImageView
-    src={require('./img/mmb_can_v2_0_mot.png').default}
-    alt="mmb can v2" width="80%"
+	src={require('./img/mmb-can-v2-0-mot.webp').default}
+	alt="mmb can v2"
+	width="80%"
 />
 '''
 translate = '''
 <ImageView
-    src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_v2_0_mot.png').default}
-    alt="mmb can v2" width="80%"
+	src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-mot.webp').default}
+	alt="mmb can v2"
+	width="80%"
 />
 '''
 
@@ -199,45 +232,49 @@ origin = '''
 ### Neopixel
 '''
 translate = '''
-### Neopixel
+### Neopixel Wiring
 '''
 
 [[block]]
-key = "cb67dc315c377fa4"
+key = "bc626bcc734e0be4"
 origin = '''
 <ImageView
-    src={require('./img/mmb_can_v2_0_rgb.png').default}
-    alt="mmb can v2" width="80%"
+	src={require('./img/mmb-can-v2-0-rgb.webp').default}
+	alt="mmb can v2"
+	width="80%"
 />
 '''
 translate = '''
 <ImageView
-    src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_v2_0_rgb.png').default}
-    alt="mmb can v2" width="80%"
+	src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-rgb.webp').default}
+	alt="mmb can v2"
+	width="80%"
 />
 '''
 
 [[block]]
 key = "b844b1869edcadd8"
 origin = '''
-### 编码器接线 
+### 编码器接线
 '''
 translate = '''
-### 编码器接线 
+### Encoder Wiring
 '''
 
 [[block]]
-key = "9cdf97f22dd3cf98"
+key = "8172700cf9738b13"
 origin = '''
 <ImageView
-    src={require('./img/mmb_can_v2_0_sensor.png').default}
-    alt="mmb can v2" width="80%"
+	src={require('./img/mmb-can-v2-0-sensor.webp').default}
+	alt="mmb can v2"
+	width="80%"
 />
 '''
 translate = '''
 <ImageView
-    src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_v2_0_sensor.png').default}
-    alt="mmb can v2" width="80%"
+	src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-sensor.webp').default}
+	alt="mmb can v2"
+	width="80%"
 />
 '''
 
@@ -247,21 +284,23 @@ origin = '''
 ### IIC 接线
 '''
 translate = '''
-### IIC 接线
+### I2C Wiring
 '''
 
 [[block]]
-key = "62be724b7e069523"
+key = "62b7a85dea16fc1c"
 origin = '''
 <ImageView
-    src={require('./img/mmb_can_v2_0_i2c.png').default}
-    alt="mmb can v2" width="80%"
+	src={require('./img/mmb-can-v2-0-i2c.webp').default}
+	alt="mmb can v2"
+	width="80%"
 />
 '''
 translate = '''
 <ImageView
-    src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_v2_0_i2c.png').default}
-    alt="mmb can v2" width="80%"
+	src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-i2c.webp').default}
+	alt="mmb can v2"
+	width="80%"
 />
 '''
 
@@ -271,20 +310,22 @@ origin = '''
 ### 限位开关
 '''
 translate = '''
-### 限位开关
+### Endstops Wiring
 '''
 
 [[block]]
-key = "adbcd6568d5d8526"
+key = "f1f05836aeb32273"
 origin = '''
 <ImageView
-    src={require('./img/mmb_can_v2_0_endstop.png').default}
-    alt="mmb can v2" width="80%"
+	src={require('./img/mmb-can-v2-0-endstop.webp').default}
+	alt="mmb can v2"
+	width="80%"
 />
 '''
 translate = '''
 <ImageView
-    src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb_can_v2_0_endstop.png').default}
-    alt="mmb can v2" width="80%"
+	src={require('@site/docs/board-docs/mmb-series/mmb-2/img/mmb-can-v2-0-endstop.webp').default}
+	alt="mmb can v2"
+	width="80%"
 />
 '''

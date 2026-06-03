@@ -205,6 +205,7 @@ def build_file(md_path: Path, local_root: str, cache: dict):
         logger.error(f"Error processing {rel_path}: {e}")
 
 def main():
+    docs_folder = Path("docs")
     build_middleware_base = "i18n_middleware"
     build_cache_base = ".build_cache"
     lang_list = ["en"]
@@ -226,7 +227,8 @@ def main():
 
         Path(build_middleware).mkdir(parents=True, exist_ok=True)
 
-        md_files = list(Path("docs").rglob("*.md"))
+        md_files = list(docs_folder.rglob("*.md")) + list(docs_folder.rglob("*.mdx"))
+        
         logger.info(f"Found {len(md_files)} Markdown files")
 
         for md_file in md_files:

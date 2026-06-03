@@ -1,0 +1,161 @@
+[metadata]
+
+[[block]]
+key = "eea9eb093724828e"
+origin = '''
+---
+sidebar_position: 1
+description: MMB CAN V1.0 简介
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: MMB CAN V1.0 Introduction
+---
+'''
+
+[[block]]
+key = "1d9926ff7397d919"
+origin = '''
+# MMB CAN V1.0
+'''
+translate = '''
+# MMB CAN V1.0
+'''
+
+[[block]]
+key = "42cb5c59eadfa74c"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "744a1a9d0f69411c"
+origin = '''
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+'''
+translate = '''
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+'''
+
+[[block]]
+key = "44d464596d54269c"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "7c478ff2f472fd8c"
+origin = '''
+<ImageView
+	src={require('./img/mmb-can-title.webp').default}
+	width="40%"
+	class="right-image"
+/>
+'''
+translate = '''
+<ImageView
+	src={require('@site/docs/board-docs/mmb-series/mmb-1/img/mmb-can-title.webp').default}
+	width="40%"
+	class="right-image"
+/>
+'''
+
+[[block]]
+key = "f9c6f48ba32e89c6"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product Introduction
+'''
+
+[[block]]
+key = "1180a2d8facb4f57"
+origin = '''
+BIGTREETECH MMB CAN V1.0 是必趣创新科技（深圳）有限公司 3D 打印团队针对多色挤出机制作的挤出控制板，可以通过 USB 或者 CAN 进行通讯，大大简化接线。
+'''
+translate = '''
+The BIGTREETECH MMB CAN V1.0 is a control board for multi-material 3D printing system, e.g., ERCF. It simplifies wiring by communicating via USB or CAN.
+'''
+
+[[block]]
+key = "4d4959c39d636065"
+origin = '''
+## 功能亮点
+'''
+translate = '''
+## Feature Highlights
+'''
+
+[[block]]
+key = "c021337d7b7470a4"
+origin = '''
+- 主板预留 BOOT 和 RESET 按键，用户可以通过 USB 进入 DFU 模式更新固件
+- 预留 I2C 接口，此端口也可用于耗材检测，或者进行其它功能的 DIY 操作
+- 电源接口有防反接保护，避免客户在 DIY 时接反电源线导致板子烧毁
+- 支持 CAN 或 USB 通讯，其中 CAN 的终端电阻 120R 可通过跳线帽选择，且预留 CAN 拓展接口
+- USB 口增设 ESD 保护芯片，防止主控被 USB 口静电击穿
+- 采用艾迈斯接口进行 CAN 通讯及主板供电，让接线简单化
+- 步进电机驱动支持高低压选择，方便客户 DIY 使用
+'''
+translate = '''
+- Equipped with onboard BOOT and RESET buttons, allowing users to enter DFU mode via USB to update firmware.
+- Features a reserved I2C interface, which can be utilized for filament detection or other custom DIY functionalities.
+- The power interface includes reverse polarity protection to prevent the board from burning out due to incorrect wiring during DIY setup.
+- Supports both CAN and USB communication. The 120R CAN termination resistor is selectable via a jumper, and a CAN expansion interface is reserved.
+- An ESD protection chip is integrated into the USB port to prevent the MCU from being damaged by electrostatic discharge.
+- Utilizes an XT30 interface for CAN communication and power supply to simplify wiring.
+- Stepper motor drivers support high and low voltage selection, providing flexibility for DIY applications.
+'''
+
+[[block]]
+key = "f8f4ecdd19846e76"
+origin = '''
+## 规格
+'''
+translate = '''
+## Specifications
+'''
+
+[[block]]
+key = "f111f2326cffc950"
+origin = '''
+| 外观尺寸                    |                             125mm x 54mm                             |
+| :--------------------------- | :------------------------------------------------------------------: |
+| **安装尺寸**                |          **详情请参考：BIGTREETECH MMB CAN V1.0-SIZE.pdf**           |
+| **微处理器**                |                **ARM Cortex-M0+ STM32G0B1CBT6 64MHz**                |
+| **输入电压**                |                          **DC12V-DC24V 9A**                          |
+| **逻辑电压**                |                             **DC 3.3V**                              |
+| **舵机接口（MOT）最大输出** |                         **5V 2A, peak 2.5A**                         |
+| **拓展接口**                | **STP1-STP11，I2C，RGB，Sensor（红外传感器接口）,USB 接口,CAN 接口** |
+| **电机驱动支持**            |                   **EZ 系列驱动（支持电压选择）**                    |
+| **驱动工作模式**            |                       **STEP/DIR, UART, SPI**                        |
+| **步进电机接口**            |                          **M1, M2, M3, M4**                          |
+| **USB 通信接口**            |                            **USB Type-C**                            |
+| **DCDC 5V 输出最大电流**    |                               **3.6A**                               |
+'''
+translate = '''
+| Dimensions | 125mm x 54mm |
+| :--- | :---: |
+| **Mounting Dimensions** | **For details, please refer to: BIGTREETECH MMB CAN V1.0-SIZE.pdf** |
+| **Microprocessor** | **ARM Cortex-M0+ STM32G0B1CBT6 64MHz** |
+| **Input Voltage** | **DC12V-DC24V 9A** |
+| **Logic Voltage** | **DC 3.3V** |
+| **Servo (MOT) Max Output** | **5V 2A, peak 2.5A** |
+| **Expansion Interfaces** | **STP1-STP11, I2C, RGB, Sensor (IR sensor interface), USB port, CAN port** |
+| **Motor Driver Support** | **EZ Series Drivers (supports voltage selection)** |
+| **Driver Operating Modes** | **STEP/DIR, UART, SPI** |
+| **Motor Interfaces** | **M1, M2, M3, M4** |
+| **USB Communication** | **USB Type-C** |
+| **DCDC 5V Max Current** | **3.6A** |
+'''
