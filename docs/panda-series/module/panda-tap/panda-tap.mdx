@@ -1,0 +1,181 @@
+---
+sidebar_position: 1
+description: Panda Tap是一款针对P2S/X2D打印机设计的专用供电拓展产品，具有安装便捷，使用方便的作用。
+---
+
+# Panda Tap
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView
+    src={require('./img/panda-tap-v1-main-image.webp').default}
+    alt=""
+    width="35%"
+    class="right-image"
+/>
+
+## 产品简介
+
+Panda Tap是一款可以将**P2S/X2D**机器扩展出2个MX3.0 4Pin 24V 1A接口和2个Type-C 5V 1.4A接口的打印机配件，并且支持双路走线，可同时从打印机内部及背后走线，便于对机器内部升级配件或外部设备供电，其定制化设计搭配P2S/X2D机器可实现即插即用，堆叠安装的效果。
+
+## 技术规格
+
+| Panda Tap | 规格 |
+| ---------- | -------------- |
+| 尺寸 | 102mm*63mm*18mm |
+| 输入电压 | DC24V |
+| 输出电压 | DC24V/DC5V |
+| Type-C参数 | 峰值5V 1.4A |
+| MX3.0 4Pin参数 | 峰值24V 1A |
+
+</div>
+
+## 接口示意图
+
+<ImageView src={require('./img/panda-tap-v1-interface-diagram.webp').default} alt="" width="45%" />
+
+## 尺寸
+
+<ImageView src={require('./img/panda-tap-v1-dimensions.webp').default} alt="" width="45%" />
+
+## 安装教程（P2S/X2D通用）
+
+:::tip
+
+进行以下步骤时，请先关闭打印机电源并断开电源线
+
+:::
+
+### 包装清单
+
+<ImageView src={require('./img/panda-tap-v1-bill-of-materials.webp').default} alt="" width="45%" />
+
+### 安装PCB打印件外壳
+
+首先在[MakerWorld](https://makerworld.com/zh/models/2820372-panda-tap-print-file#profileId-3140796)上下载打印文件，使用自己喜欢的颜色将外壳打印出来
+
+<ImageView src={require('./img/panda-tap-v1-get-file.webp').default} alt="" width="45%" />
+
+拆下打印件后，将打印件清理干净
+
+<ImageView src={require('./img/panda-tap-v1-print-shell.webp').default} alt="" width="45%" />
+
+随后按下图将PCB板对齐此面打印件限位放置在至打印外壳中，并将另一面外壳对齐孔位放置在上面
+
+:::tip
+
+注意，对齐放上去就好，先不要按紧
+
+:::
+
+<ImageView src={require('./img/panda-tap-v1-install-shell.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-install-shell-1.webp').default} alt="" width="45%" />
+
+最后将限位固定件按图示放入打印件外壳后，将上盖向下按压卡住即可（卡扣固定，无需螺丝）
+
+<ImageView src={require('./img/panda-tap-v1-install-shell-2.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-shell-installation-effect.webp').default} alt="" width="45%" />
+
+### 拆除机器背部缓冲器
+
+使用2.0内六角螺丝刀拆下缓冲器两颗固定螺丝
+
+<ImageView src={require('./img/panda-tap-v1-disassemble-machine.webp').default} alt="" width="90%" />
+
+:::tip
+
+如果是单机版无缓冲器的机器，只需将背板橡胶塞取下即可，可跳过该步直接看第三步
+
+:::
+
+将缓冲器取下，可看到背后有线插在缓冲器主板上，按住公头插头上的压片向后拔出即可
+
+<ImageView src={require('./img/panda-tap-v1-remove-buffer.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-remove-buffer-1.webp').default} alt="" width="45%" />
+
+### 安装Panda Tap
+
+#### 当机器无AMS缓冲器时
+
+将机器背部缓冲器通信插头插在Panda Tap的24V输入（24V IN）
+
+<ImageView src={require('./img/panda-tap-v1-connect-power.webp').default} alt="" width="45%" />
+
+将打印件左侧固定插片插入打印机背部缓冲器安装位左侧固定槽，随后将右边压至机器后，使用包装内CM3*20MM螺丝拧紧固定即可
+
+<ImageView src={require('./img/panda-tap-v1-install-tap.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-install-tap-1.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-install-tap-2.webp').default} alt="" width="45%" />
+
+走线：当需要对机器内部供电时，从打印机背后出线孔处将供电线穿出，再从Tap中间走线孔处穿出，随后将线延走线槽向上穿出后插入供电口即可。外部供电设备可直接从外部插入供电口即可。
+
+<ImageView src={require('./img/panda-tap-v1-cable-routing.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-cable-routing-1.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-cable-routing-6.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-cable-routing-2.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-cable-routing-3.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-cable-routing-4.webp').default} alt="" width="45%" />
+
+#### 当机器有AMS缓冲器时（需先拆下AMS缓冲器再操作）
+
+首先将包装内连接线与Panda Tap 24V OUT连接，再将机器背部缓冲器通信插头插在Panda Tap的24V输入（24V IN）
+
+<ImageView src={require('./img/panda-tap-v1-connect-cable.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-connect-cable-1.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-connect-power.webp').default} alt="" width="45%" />
+
+随后将Tap打印件左侧固定插片插入打印机背部固定槽（需要内部走线时，请先按照下方步骤走线后再进行该步骤），再将连接线另一端与缓冲器连接后，将缓冲器左侧固定插片插入Tap打印件固定槽
+
+<ImageView src={require('./img/panda-tap-v1-install-tap.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-install-tap-and-buffer.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-install-tap-and-buffer-1.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-install-tap-and-buffer-2.webp').default} alt="" width="45%" />
+
+最后将缓冲器与Tap一起向右按压至机器，使用CM3*45MM螺丝固定
+
+<ImageView src={require('./img/panda-tap-v1-install-tap-and-buffer-3.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-install-tap-and-buffer-4.webp').default} alt="" width="45%" />
+
+走线：当需要对机器内部供电时，从打印机背后出线孔处将供电线穿出，再从Tap中间走线孔处穿出，随后将线延走线槽向上穿出后插入供电口再即可。外部供电设备可直接从外部插入供电口即可。
+
+<ImageView src={require('./img/panda-tap-v1-cable-routing.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-cable-routing-1.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-cable-routing-6.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-cable-routing-2.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-cable-routing-3.webp').default} alt="" width="45%" />
+
+<ImageView src={require('./img/panda-tap-v1-cable-routing-5.webp').default} alt="" width="45%" />
+
+### 验证使用
+
+将打印机通电后，查看供电设备是否通电以及ANS缓冲器是否可正常使用，如出现无供电及缓冲器无供电情况，请将机器断电后检测线路是否安装到位，若无法解决请联系BIQU官方售后反馈。
