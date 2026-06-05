@@ -1,0 +1,181 @@
+---
+sidebar_position: 1
+description: Panda Tap is a slim, drop-in power expansion module designed for P2S/X2D printers, enabling easy installation and convenient power access for internal upgrades and external accessories.
+---
+
+# Panda Tap
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView
+    src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-main-image.webp").default}
+    alt=""
+    width="35%"
+    class="right-image"
+/>
+
+## Product Overview
+
+Panda Tap is a slim, drop-in power expansion module designed for P2S/X2D printers. It provides two MX3.0 4Pin 24V 1A ports and two Type-C 5V 1.4A ports, making it easy to power internal upgrade modules and external accessories.
+
+## Technical Specifications
+
+| Panda Tap | Specifications |
+| ---------- | -------------- |
+| Dimensions | 102mm x 63mm x 18mm |
+| Input Voltage | DC24V |
+| Output Voltage | DC24V/DC5V |
+| Type-C | Peak 5V 1.4A |
+| MX3.0 4Pin | Peak 24V 1A |
+
+</div>
+
+## Port Diagram
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-interface-diagram.webp").default} alt="" width="45%" />
+
+## Dimensions
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-dimensions.webp").default} alt="" width="45%" />
+
+## Installation Guide (Compatible with P2S/X2D)
+
+:::tip
+
+Before proceeding with the following steps, power off the printer and disconnect the power cable.
+
+:::
+
+### Packing List
+
+<ImageView src={require("./img/panda-tap-v1-bill-of-materials-en.webp").default} alt="" width="45%" />
+
+### Installing the PCB Printed Housing
+
+First, download the print file from [MakerWorld](https://makerworld.com/zh/models/2820372-panda-tap-print-file#profileId-3140796), and print the housing in your preferred color.
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-get-file.webp").default} alt="" width="45%" />
+
+After removing the printed housing, remove any strings or burrs, if present.
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-print-shell.webp").default} alt="" width="45%" />
+
+Then, align the PCB with the positioning features on the lower housing and seat it in place. Align the upper housing with the mounting holes and place it on top.
+
+:::tip
+
+Note: Simply align and place the upper housing - do not press it closed yet.
+
+:::
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-install-shell.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-install-shell-1.webp").default} alt="" width="45%" />
+
+Finally, place the locating retainer into the printed housing as shown, then press the upper housing downward until it snaps into place. (Snap-fit design, no screws required)
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-install-shell-2.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-shell-installation-effect.webp").default} alt="" width="45%" />
+
+### Removing the Rear Buffer from the Machine
+
+Use a 2.0 hex screwdriver to remove the two screws securing the buffer.
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-disassemble-machine.webp").default} alt="" width="90%" />
+
+:::tip
+
+If your printer does not have a buffer module, simply remove the rubber plug from the rear panel. And you may skip this step.
+
+:::
+
+Remove the buffer. You will see a cable connected to the buffer mainboard at the rear. Press and hold the tab on the male connector, then pull it backward to unplug it.
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-remove-buffer.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-remove-buffer-1.webp").default} alt="" width="45%" />
+
+### Installing the Panda Tap
+
+#### When the Machine Does Not Have an AMS Buffer
+
+Connect the rear buffer communication plug of the machine to the 24V input  (24V IN) on Panda Tap.
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-connect-power.webp").default} alt="" width="45%" />
+
+Insert the left-side fixing tab of the printed housing into the left fixing slot of the buffer mounting position on the rear of the printer. Then press the right side against the machine and tighten it with the CM3*20MM screw included in the package.
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-install-tap.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-install-tap-1.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-install-tap-2.webp").default} alt="" width="45%" />
+
+Cable routing: To power internal accessories, feed the power cable out from the rear of the printer, guide it through the center cable-routing hole on Panda Tap, then route it upward along the cable channel and connect it to the power output port. External devices can be plugged directly into the power output port from the outside.
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-cable-routing.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-cable-routing-1.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-cable-routing-6.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-cable-routing-2.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-cable-routing-3.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-cable-routing-4.webp").default} alt="" width="45%" />
+
+#### When the Machine Has an AMS Buffer (Remove the AMS buffer before proceeding)
+
+First, connect the cable included in the package to Panda Tap 24V OUT. Then connect the rear buffer communication plug of the machine to the 24V input (24V IN) on Panda Tap.
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-connect-cable.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-connect-cable-1.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-connect-power.webp").default} alt="" width="45%" />
+
+Next, insert the left-side fixing tab of the Tap printed housing into the rear fixing slot of the printer. (If internal cable routing is required, complete the cable routing steps below before this step.) Then connect the other end of the cable to the buffer, and insert the left-side fixing tab of the buffer into the fixing slot on the Tap printed housing.
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-install-tap.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-install-tap-and-buffer.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-install-tap-and-buffer-1.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-install-tap-and-buffer-2.webp").default} alt="" width="45%" />
+
+Finally, press the buffer and Tap together to the right against the machine, and secure them with the CM3*45MM screw.
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-install-tap-and-buffer-3.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-install-tap-and-buffer-4.webp").default} alt="" width="45%" />
+
+Cable routing: To power internal accessories, feed the power cable out from the rear of the printer, guide it through the center cable-routing hole on Panda Tap, then route it upward along the cable channel and connect it to the power output port. External devices can be plugged directly into the power output port from the outside.
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-cable-routing.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-cable-routing-1.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-cable-routing-6.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-cable-routing-2.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-cable-routing-3.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-tap/img/panda-tap-v1-cable-routing-5.webp").default} alt="" width="45%" />
+
+### Verification
+
+After powering on the printer, check that the device connected to Panda Tap receives power and that the AMS buffer operates normally. If there is no power output or the buffer is not powered, turn off the printer and verify that all cables are correctly installed and fully seated. If the issue cannot be resolved, please contact BIQU Support.
