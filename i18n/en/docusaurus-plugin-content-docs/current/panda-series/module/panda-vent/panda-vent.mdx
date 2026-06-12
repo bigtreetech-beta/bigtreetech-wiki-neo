@@ -1,0 +1,55 @@
+---
+sidebar_position: 1
+---
+
+# Panda Vent
+
+## Product Overview
+
+**Panda Vent** is a smart vent riser designed for FDM 3D printers. It keeps an eye on your print job in real time and automatically manages both the vent and lighting, making your printer smarter, quieter, and cooler.
+
+##  Key Features
+
+- RGB Status Light: Equipped with WS2812 LED strips, Panda Vent visually reflects the printer's current status — idle, preparing, printing, paused, completed, or error — so you can tell what's happening at a single glance.
+- Smart Vent Control: Includes an **Auto Mode** that opens or closes the vent automatically based on printer status, plus a **Manual Mode** that lets you toggle the vent with a button press.
+- Improved Heat Dissipation: By opening the vent when needed, Panda Vent optimizes internal airflow, helps release trapped heat, prevents excessive chamber temperatures, and improves stability during long printing sessions.
+- Riser Design: Raises the top glass cover, which significantly reduces friction between the PTFE tube and the glass. This helps minimize tube wear, cuts down on friction noise, and lowers the risk of print failures.
+- MQTT Communication: Communicates with Bambu Lab printers using the local MQTT protocol. No cloud connection is required, giving you fast, reliable response times.
+- Web Management UI: Offers a built-in Web UI that lets you configure Wi-Fi, MQTT, lighting, vent settings, and other functions from any browser.
+- OTA Upgrade: Supports firmware upgrades directly through the Web UI, making maintenance simple and convenient.
+- Automatic LED Strip Quantity Detection:
+    - Automatically detects whether 1 LED strip group or 2 LED strip groups are connected:
+    - **1 strip:** 16 LEDs
+    - **2 strips:** 27 LEDs
+    - No manual setup is required - just plug and play.
+
+## Use Cases
+
+Panda Vent is ideal for users who:
+
+- Need better chamber cooling or improved airflow.
+- Want to see printer status through lighting instead of constantly checking the printer screen.
+- Enjoy DIY smart peripherals and want to integrate the device into existing **Home Assistant** or **MQTT** systems.
+- Want to optimize PTFE tube routing, reduce friction noise, and minimize tube wear.
+
+## Hardware Overview
+
+### Physical Buttons
+
+| Button                   | Location                                                     | Function                                                |
+| ---------------------- | -------------------------------------------------------- | --------------------------------------------------- |
+| **Illuminated Button** (GPIO 12) | Device panel                                                 | Single click: open or close the vent; Long press (3 seconds): switch between Auto Mode and Manual Mode |
+| Manual Mode               | In Auto Mode, single-clicking the button switches to Manual Mode and immediately toggles the vent blade state. | In Manual Mode, single-clicking the button immediately toggles the vent blade state.                    |
+| BOOT Button (GPIO 0)     | Side of the device                                                 | Long press (3 seconds): restore factory settings                          |
+
+### Indicator Light
+
+| Status | LED Behavior |
+| ------------ | --------------------- |
+| **Auto Mode** | LED stays off |
+| **Manual Mode** | LED flashes at 0.5-second intervals |
+
+### Interfaces and Light Groups
+
+- Supports **1 light strip group** (16 LEDs) or **2 light strip groups** (27 LEDs).
+- The device automatically detects whether 1 or 2 light groups are connected through ADC voltage. No manual configuration is required.

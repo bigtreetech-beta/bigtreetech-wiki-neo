@@ -1,0 +1,329 @@
+---
+sidebar_position: 3
+---
+
+# Panda Vent 软件配置
+
+## 用户首次连接指南 {/* #first-connection */}
+
+:::tip[提示]
+
+首次连接电源后或执行"恢复出厂设置"命令后，您将看到蓝色跑马灯，代表此时 Panda Vent 没有绑定打印机。
+
+:::
+
+### WiFi连接指南 {/* #ap-connect */}
+
+- 连接设备WiFi AP热点
+    - 在手机或电脑上搜索WiFi，连接 Panda Vent 发出的AP热点：`Panda_Vent_XXXXXXXXXX`。默认密码是 `987654321`。
+
+        <ImageView
+            src={require('./img/panda-vent-step0.webp').default}
+            width="60%"
+        />
+
+- 访问AP网页
+    - 连接上AP后，电脑端可以在浏览器输入默认的IP：`192.168.254.1`；手机端会自动弹出 Panda Vent 的Web UI，也可以在浏览器输入IP：`192.168.254.1` 来访问网页。（注：此IP为出厂默认IP）
+
+- 选择语言（默认英文）
+    - 选择语言后可点击下一步
+
+        <ImageView
+            src={require('./img/panda-vent-step1.webp').default}
+            width="45%"
+        />
+
+#### WiFi连接界面 {/* #wifi-connect */}
+
+- 首次出厂或恢复出厂设置后，进入此页面会自动扫描周围WiFi，或者手动点击扫描。
+
+    <ImageView
+        src={require('./img/panda-vent-step2.webp').default}
+        width="45%"
+    />
+
+- 扫描完成后会弹出`扫描完成`弹窗提示，点击OK关闭提示。
+
+    <ImageView
+        src={require('./img/panda-vent-step3.webp').default}
+        width="45%"
+    />
+
+- 点击Wi-Fi下方的选项，选择想要连接的WiFi
+
+    <ImageView
+        src={require('./img/panda-vent-step4.webp').default}
+        width="45%"
+    />
+
+- 输入密码，可点击密码框内右侧的`眼睛`图标来显示输入的密码
+
+    <ImageView
+        src={require('./img/panda-vent-step5.webp').default}
+        width="45%"
+    />
+
+- 点击连接，界面会自动跳转到操作界面中的`WiFi`界面，并显示WiFi连接中
+
+    <ImageView
+        src={require('./img/panda-vent-step6.webp').default}
+        width="45%"
+    />
+
+- 等待连接一段时间后，会弹出WiFi连接的状态弹窗
+    - 连接失败
+
+        <ImageView
+            src={require('./img/panda-vent-step7.webp').default}
+            width="60%"
+        />
+
+    - 连接成功，可选择点击[绑定打印机](#printer-bind)跳转到`打印机界面`，也可点击`取消`，继续待在`WiFi界面`
+
+        <ImageView
+            src={require('./img/panda-vent-step8.webp').default}
+            width="60%"
+        />
+
+### 绑定打印机 {/* #printer-bind */}
+
+- 功能介绍
+
+    <ImageView
+        src={require('./img/panda-vent-step9.webp').default}
+        width="45%"
+    />
+
+    绑定打印机功能说明如下：
+    1. 选择打印机界面，点击后聚焦为红色图标，跳转至打印机界面
+    2. 扫描周围同一局域网下的打印机
+    3. 选择扫描到的打印机
+    4. 输入打印机的SN码
+    5. 输入打印机的访问码
+    6. 输入打印机的IP
+    7. 确定绑定此打印机
+
+- 如何绑定打印机
+    - 点击扫描一段时间后，会出现`扫描成功`的弹窗
+
+        <ImageView
+            src={require('./img/panda-vent-step10.webp').default}
+            width="60%"
+        />
+
+    - 选择扫描出的打印机，可以看到选择打印机后，会自动输入打印机的SN码和IP
+
+        <ImageView
+            src={require('./img/panda-vent-step11.webp').default}
+            width="45%"
+        />
+
+    - 输入打印机的`访问码`
+        - 在打印机上找到`访问码` (这里以 P1P 为例)
+
+            <ImageView
+                src={require('./img/panda-vent-step12.webp').default}
+                width="60%"
+            />
+
+            <ImageView
+                src={require('./img/panda-vent-step13.webp').default}
+                width="60%"
+            />
+
+            <ImageView
+                src={require('./img/panda-vent-step14.webp').default}
+                width="60%"
+            />
+
+        - 将 `访问码` 输入到 `访问码` 框内，点击绑定即可开始绑定打印机。
+
+            <ImageView
+                src={require('./img/panda-vent-step15.webp').default}
+                width="45%"
+            />
+
+            <ImageView
+                src={require('./img/panda-vent-step16.webp').default}
+                width="45%"
+            />
+
+## 用户界面说明
+
+### WiFi界面
+
+<ImageView
+    src={require('./img/panda-vent-step17.webp').default}
+    width="45%"
+/>
+
+1. WiFi界面选择，点击后聚焦为红色图标，跳转至WiFi界面。
+2. 当前WiFi的连接状态。
+3. IP地址的相关问题弹窗提示，如果 IP 地址文本框未显示 IP，请确保 Panda Vent 网络状态显示为连接成功。如果显示为未连接，请配置网络设置。
+4. IP地址显示（在同一局域网下，浏览器输入此IP也可访问Web网页）。
+5. WiFi网络配置按钮，点击可跳转到 [WiFi连接界面](#wifi-connect)
+6. 主机名显示，您可以使用主机名访问 Web UI。默认主机名为 `PandaVent`。如果您不记得 IP 地址，可以在浏览器地址栏中输入主机名加上 `.local` 访问 Web UI（例如：`http://PandaVent.local`）。点击文本框可以编辑主机名，点击 `设置主机名` 按钮确认修改。
+7. 确认修改主机名
+
+### AP界面
+
+<ImageView
+    src={require('./img/panda-vent-step18.webp').default}
+    width="45%"
+/>
+
+1. AP界面选择，点击后聚焦为红色图标，跳转至AP界面
+2. AP热点的开关
+3. AP热点名称，默认为 `Panda_Vent_XXXXXXXXXX`
+4. AP热点密码，默认为 `987654321`
+5. 热点IP（默认的热点 IP 为：`192.168.254.1`，如果您自己路由器的 IP 号段也为 `192.168.254.xxx`，Panda Vent 与路由器的 IP 号段相同就会产生冲突，并且导致 Panda Vent 无法正常绑定到打印机，请手动修改 Panda Vent 的热点 IP 使其与路由器使用不同的 IP 号段）
+6. 点击确认会重启设备，重启完成后可连接AP热点。（[如何连接AP热点](#ap-connect)）
+
+### 设置界面
+
+<ImageView
+    src={require('./img/panda-vent-step19.webp').default}
+    width="45%"
+/>
+
+1. 设置界面选择，点击后聚焦为红色图标，跳转至设置界面。
+2. 选择网页中英文（默认英文）。
+3. 显示当前的固件版本。
+4. 固件OTA更新，选择 `.bin` 文件。
+    - 点击 `选择.bin文件` 按钮，选择需要OTA的bin文件。
+
+        <ImageView
+            src={require('./img/panda-vent-step20.webp').default}
+            width="45%"
+        />
+
+    - 等待OTA进度，完成后弹窗自动重启。
+
+        <ImageView
+            src={require('./img/panda-vent-step21.webp').default}
+            width="45%"
+        />
+
+        <ImageView
+            src={require('./img/panda-vent-step22.webp').default}
+            width="45%"
+        />
+
+5. 点击后，按下确定 [恢复出厂设置](#first-connection)
+
+### 控制面板界面
+
+- 功能介绍
+
+    <ImageView
+        src={require('./img/panda-vent-step23.webp').default}
+        width="45%"
+    />
+
+    <ImageView
+        src={require('./img/panda-vent-step24.webp').default}
+        width="45%"
+    />
+
+    控制面板功能说明如下：
+    1. 设备名称(Panda_Vent)
+    2. 灯总开关
+    3. 警告开关，打印机报错时灯光会变为红色闪烁提示
+    4. 跟随打印机模式，开启后灯效颜色和效果跟随打印机当前状态自动变化
+    5. 跟随通风模式，开启后灯效跟随风扇运行状态变化
+    6. 反转方向，反转灯带的灯效流动方向
+
+    <ImageView
+        src={require('./img/panda-vent-step25.webp').default}
+        width="45%"
+    />
+
+    灯光相关功能如下：
+    7. 选择[灯光模式](#light-mode)
+    8. 选择灯效
+    9. 灯光颜色设置
+    10. 灯光亮度/速度
+
+    <ImageView
+        src={require('./img/panda-vent-step26.webp').default}
+        width="45%"
+    />
+
+    <ImageView
+        src={require('./img/panda-vent-step27.webp').default}
+        width="45%"
+    />
+
+#### 灯光模式 {/* #light-mode */}
+
+- **简单模式（Simple Mode）**
+    - 适合只想设置一种固定灯效的用户，对所有灯珠统一应用同一效果。
+
+    - 可选效果：
+
+        | 效果                    | 说明             |
+        | ----------------------- | ---------------- |
+        | 静态（Static）          | 常亮，固定颜色   |
+        | 呼吸（Breathing）       | 灯光缓慢渐亮渐暗 |
+        | 频闪（Strobing）        | 灯光快速闪烁     |
+        | 水波（Wave）            | 灯光如水波般流动 |
+        | 跑马灯（Marquee）       | 灯珠依次点亮移动 |
+        | 色彩循环（Color Cycle） | 颜色自动循环变换 |
+        | 彩虹（Rainbow）         | 彩虹渐变效果     |
+
+    - 选择效果后，可调节颜色，亮度（$0\% \sim 100\%$）和速度（$0\% \sim 100\%$）。
+
+- **高级模式（Advance Mode / H2D）**
+
+    <ImageView
+        src={require('./img/panda-vent-step28.webp').default}
+        width="45%"
+    />
+    高级模式说明如下：
+
+    可配置的打印机状态：
+    - 为打印机的每个工作状态分别配置不同的灯效。
+    - 点击对应状态按钮后，可单独设置该状态的效果，颜色，亮度和速度。
+
+    | 状态按钮 | 对应打印机状态  | 默认颜色      |
+    | -------- | --------------- | ------------- |
+    | 空闲     | 打印机空闲      | 白色 (FFFFFF) |
+    | 准备     | 下载/切片准备中 | 橙色 (F8A323) |
+    | 打印     | 正在打印        | 彩虹效果      |
+    | 暂停     | 打印暂停        | 白色 (FFFFFF) |
+    | 完成     | 打印完成        | 绿色 (00FF2A) |
+    | 报错     | 打印出错/报警   | 红色 (FF0000) |
+
+- **温度警告模式（Warning Hot Mode）**
+
+    <ImageView
+        src={require('./img/panda-vent-step29.webp').default}
+        width="45%"
+    />
+    温度警告模式说明如下：
+
+    分为以下两个级别：
+    - **安全状态**：绿色灯效，可选静态或频闪
+    - **危险状态**：红色灯效，可选静态或频闪
+
+    每个级别可独立设置亮度和速度。
+
+- 风扇控制（按键操作）
+
+    Panda Vent 的风扇支持两种工作模式，通过设备面板上的 **LED按键** 进行切换：
+    - **自动模式（AUTO）**：默认模式，根据打印机状态自动控制风扇开关，LED指示灯**常灭**。打印时自动开启排风，空闲时自动关闭。
+
+    - **手动模式（MANUAL）**：完全由用户手动控制风扇开关，LED指示灯**闪烁**（0.5秒间隔）。
+
+    | 操作                           | 功能                                                        |
+    | ------------------------------ | ----------------------------------------------------------- |
+    | **LED按键 单击**（自动模式下） | 切换到手动模式，并立即切换风扇状态（开$\leftrightarrow$关） |
+    | **LED按键 单击**（手动模式下） | 切换风扇状态（开$\leftrightarrow$关）                       |
+    | **LED按键 长按6秒**            | 从手动模式切换回自动模式                                    |
+    | **BOOT按键 长按6秒**           | 恢复出厂设置                                                |
+
+    :::tip[提示]
+
+    模式切换状态会自动保存，断电重启后会恢复上次的模式设置。
+
+    :::
