@@ -4,7 +4,11 @@ import logging
 from pathlib import Path
 from parser import parse_blocks, get_block_key
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(message)s',
+    datefmt='%H:%M:%S'
+)
 logger = logging.getLogger(__name__)
 
 def load_translation_map(toml_path: Path):
