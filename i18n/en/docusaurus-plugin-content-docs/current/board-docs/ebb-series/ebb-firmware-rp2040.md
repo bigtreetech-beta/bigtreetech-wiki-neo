@@ -33,7 +33,9 @@ make
 ## Flash Firmware
 
 :::note[Power via USB]
+
 If you are powering the board via the USB Type-C port when flashing the firmware, the `VUSB` jumper needs to be installed.
+
 :::
 
 After the Klipper firmware has been compiled, use a USB Type-C cable to connect the EBB to the Klipper host.
