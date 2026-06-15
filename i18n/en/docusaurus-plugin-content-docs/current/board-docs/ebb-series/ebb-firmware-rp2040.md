@@ -18,7 +18,7 @@ make menuconfig
 Then build the EBB firmware using `RP2040` as the `MCU` according to the following options.
 
 <ImageView
-    src={require('@site/docs/board-docs/ebb-series/img/ebb-g0b1-make-can.png').default}
+    src={require('@site/docs/board-docs/ebb-series/img/ebb-rp2040-make-can.webp').default}
     alt="EBB with RP2040 build config"
 />
 
@@ -33,7 +33,9 @@ make
 ## Flash Firmware
 
 :::note[Power via USB]
+
 If you are powering the board via the USB Type-C port when flashing the firmware, the `VUSB` jumper needs to be installed.
+
 :::
 
 After the Klipper firmware has been compiled, use a USB Type-C cable to connect the EBB to the Klipper host.
