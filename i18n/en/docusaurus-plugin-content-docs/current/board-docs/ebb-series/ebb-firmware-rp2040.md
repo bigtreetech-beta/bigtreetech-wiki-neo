@@ -18,7 +18,7 @@ make menuconfig
 Then build the EBB firmware using `RP2040` as the `MCU` according to the following options.
 
 <ImageView
-    src={require('@site/docs/board-docs/ebb-series/img/ebb-g0b1-make-can.png').default}
+    src={require('@site/docs/board-docs/ebb-series/img/ebb-rp2040-make-can.webp').default}
     alt="EBB with RP2040 build config"
 />
 
