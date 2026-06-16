@@ -1,0 +1,336 @@
+---
+description: PopStatus是一款为Snapmaker U1打印机量身打造的集监测，装饰一体的多功能产品。
+---
+
+# PopStatus
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView
+	src={require("./img/popstatus-v1-main-image.webp").default}
+	alt=""
+	width="35%"
+	class="right-image"
+/>
+
+## 产品简介
+
+**PopStatus —— 为 Snapmaker U1 量身打造的智能状态灯条，让机器"会说话"**
+
+    PopStatus 是一款专为 **Snapmaker U1** 用户设计的实时状态指示灯配件，不仅能实时同步打印机状态，还能为你的设备增添独特的视觉风格。它采用漫反射光学设计，灯光柔和均匀，清晰呈现打印进度，空闲，完成，异常等多种状态，让机器运行一目了然。
+
+- **全状态自定义灯效**
+
+    支持通过 Web UI 或 BIQU APP 自由调整每种状态的颜色，亮度，动态模式（呼吸，流水，闪烁等），打造属于你的专属光效语言。
+
+- **拾音律动模式**
+
+    内置高灵敏拾音器，可随环境声音变化实时跳动光效，让灯光"听"见节奏，为空间注入活力。
+
+- **质感升级**
+
+    外壳采用**铝合金 + 阳极氧化**工艺，兼具质感与耐用性。正面为镭雕亚克力盖板，支持用户自行使用浮雕功能打印更换，个性化定制更自由。
+
+## 技术规格
+
+| PopStatus      | Specifications         |
+| -------------- | ---------------------- |
+| 微处理器       | ESP32-C3-MINI          |
+| 控制板尺寸     | 57mm _ 21mm _ 11       |
+| 供电接口及电压 | Type-C：5V 3A          |
+| 逻辑电压       | 3.3V                   |
+| 峰值状态       | 5V 1.1A 5.5W           |
+| 待机状态       | 5V 0.185A 0.925W(Peak) |
+
+</div>
+
+## 接口示意图
+
+<ImageView src={require("./img/popstatus-v1-control-board-interface.webp").default} alt="" width="45%" />
+
+<ImageView
+	src={require("./img/popstatus-v1-light-strip-interface.webp").default}
+	alt=""
+	width="45%"
+/>
+
+## 尺寸
+
+<ImageView src={require("./img/popstatus-v1-dimensions.webp").default} alt="" width="45%" />
+
+## 安装教程
+
+### 准备物料
+
+- 将包装内所有配件拿出，清单如下图
+
+    <ImageView src={require("./img/popstatus-v1-accessory-kit.webp").default} alt="" width="45%" />
+
+### 清洁热床粘贴面
+
+- 使用包装内酒精湿巾将热床贴合面擦拭干净，再使用包装内擦拭布将表面酒精擦干
+
+    <ImageView src={require("./img/popstatus-v1-clean-heatbed.webp").default} alt="" width="45%" />
+
+    <ImageView src={require("./img/popstatus-v1-clean-heatbed-1.webp").default} alt="" width="45%" />
+
+### 固定灯条
+
+- 首先将灯条左侧盖板取下，将包装内通信线较小的一端插至RGB灯条的插口上，将灯条左侧盖板安装回去即可
+
+    <ImageView src={require("./img/popstatus-v1-install-light-strip.webp").default} alt="" width="45%" />
+
+    <ImageView src={require("./img/popstatus-v1-install-light-strip-1.webp").default} alt="" width="45%" />
+
+    <ImageView src={require("./img/popstatus-v1-install-light-strip-2.webp").default} alt="" width="45%" />
+
+    <ImageView src={require("./img/popstatus-v1-install-light-strip-3.webp").default} alt="" width="45%" />
+
+:::tip
+
+注：包装内配有两侧开口和封闭的备用端盖，出厂默认RGB灯条控制接口在左侧，可根据个人实际需要更换灯条出线方向。将两侧端盖拆下后，从左侧抽出灯条后从右侧插入，接好灯条通信线后使用包装内左侧无开口端盖安装至灯条外壳左侧，使用右侧有开孔端盖安装至外壳右侧，即可实现从右侧走线（翻转灯条后，灯效方向会反向，WebUI页面有翻转开关，将其打开即可实现灯效正向显示，祥见下方软件操作部分）
+
+:::
+
+- 将热床升高后撕去灯条背胶离型膜，将灯条侧面对准热床与热床贴合，用力将其充分按压，保证贴合牢固即可.（建议将钢板安装后在装灯条，可保证灯条对齐，安装更方便。同时若钢板有外置把手，可适当向下移动灯条安装位置）
+
+    <ImageView src={require("./img/popstatus-v1-install-light-strip-4.webp").default} alt="" width="45%" />
+
+    <ImageView src={require("./img/popstatus-v1-install-light-strip-5.webp").default} alt="" width="45%" />
+
+### 连接控制器
+
+- 首先从[GitHub]()或[MakerWorld](https://makerworld.com/zh/models/2696597-popstatus-pcb-casing-printout#profileId-2988691)下载控制器安装外壳,按照下图将控制板装至上盖中，随后将下盖对准孔位与上盖压紧即可
+
+    <ImageView src={require("./img/popstatus-v1-print-shell.webp").default} alt="" width="45%" />
+
+    <ImageView src={require("./img/popstatus-v1-install-pcb.webp").default} alt="" width="45%" />
+
+    <ImageView src={require("./img/popstatus-v1-install-shell.webp").default} alt="" width="45%" />
+
+    <ImageView src={require("./img/popstatus-v1-finished-installation-effect.webp").default} alt="" width="45%" />
+
+- 按照图示将控制板安装至热床底部，向前插入热床底部缝隙卡住，随后把灯条通信线沿热床左侧丝杆连接处缝隙卡住，向下穿出
+
+    <ImageView src={require("./img/popstatus-v1-fix-controller.webp").default} alt="" width="45%" />
+
+    <ImageView src={require("./img/popstatus-v1-cable-routing-3.webp").default} alt="" width="45%" />
+
+- 将灯条通讯线插入控制板，再将供电线离弹簧圈较短一侧的C口插入后方供电口，按照图示使用包装内胶带固定或根据实际自行固定，保证供电线由热床后方穿出即可
+
+    <ImageView src={require("./img/popstatus-v1-cable-routing-2.webp").default} alt="" width="45%" />
+
+- 按图示将供电线沿工具头左侧与机器缝隙处卡住，使用包装内胶带将缝隙下方固定，调整线材至缝隙底部向机器后方穿出使用5V供电设备供电即可（请勿直接插入机器背部USB口，该口为数据通信口，供电能力不足，接入灯条可能会导致灯条供电不足无法连接）
+
+    <ImageView src={require("./img/popstatus-v1-cable-routing-1.webp").default} alt="" width="45%" />
+
+    <ImageView src={require("./img/popstatus-v1-cable-routing-4.webp").default} alt="" width="45%" />
+
+## 用户首次连接指南
+
+:::tip
+
+首次连接电源后或执行"恢复出厂设置"命令后，您将看到蓝色跑马灯，代表此时 PopStatus 没有绑定打印机。
+
+:::
+
+### WiFi连接指南
+
+- 连接设备WiFi AP热点
+
+    - 在手机或电脑上搜索WiFi，连接 PopStatus 发出的AP热点：`pop_Status_XXXXXXXXXX`。默认密码是 `987654321`。
+
+        <ImageView src={require("./img/popstatus-v1-connect-ap.webp").default} alt="" width="45%" />
+
+- 访问AP网页
+
+    - 连接上AP后，电脑端在浏览器输入默认IP跳转至Web UI：`192.168.254.1`；手机端会在连接产品热点后自动弹出 Pop Status 的Web UI，若无跳转也可以在手机浏览器输入IP：`192.168.254.1` 来访问网页。（注：此IP为出厂默认IP）
+
+- 选择语言（默认英文）
+
+    - 选择语言后可点击下一步
+
+        <ImageView src={require("./img/popstatus-v1-select-language.webp").default} width="45%" />
+
+- WiFi连接界面
+
+    - 首次出厂或恢复出厂设置后，进入此页面会自动扫描周围WiFi，或者手动点击扫描。
+
+        <ImageView src={require("./img/popstatus-v1-connect-wifi.webp").default} width="45%" />
+
+    - 扫描完成后会弹出`扫描完成`弹窗提示，点击OK关闭提示
+
+        <ImageView src={require("./img/popstatus-v1-connect-wifi-1.webp").default} width="45%" />
+
+    - 点击Wi-Fi下方的选项，选择想要连接的WiFi
+
+        <ImageView src={require("./img/popstatus-v1-connect-wifi-2.webp").default} width="45%" />
+
+    - 输入密码，可点击密码框内右侧的`眼睛`图标来显示输入的密码
+
+        <ImageView src={require("./img/popstatus-v1-connect-wifi-3.webp").default} width="45%" />
+
+    - 点击连接，界面会自动跳转到操作界面中的`WiFi`界面，并显示WiFi连接中
+
+        <ImageView src={require("./img/popstatus-v1-connect-wifi-4.webp").default} width="45%" />
+
+    - 等待连接一段时间后，会弹出WiFi连接的状态弹窗
+
+        - 连接失败
+
+            <ImageView src={require("./img/popstatus-v1-wifi-connection-failed.webp").default} width="45%" />
+
+        - 连接成功，可选择点击绑定打印机跳转到`打印机界面`，也可点击`取消`，继续待在`WiFi界面`
+
+            <ImageView src={require("./img/popstatus-v1-wifi-connection-successful.webp").default} width="45%" />
+
+### 绑定打印机
+
+#### 方法一：手动绑定打印机
+
+<ImageView src={require("./img/popstatus-v1-manual-binding.webp").default} width="45%" />
+
+    1. 进入WebUI页面后选择打印机界面，点击后聚焦为红色图标，跳转至打印机界面
+
+    2. 点击扫描，可扫描到周围同一局域网下的打印机
+
+    3. 默认端口号，无需修改
+
+    4. 任选一个扫描到的打印机
+
+    5. 输入要绑定的打印机的IP（打印机IP产看路径：打印机屏幕主页依次点击设置-Wifi即可在已绑定的Wifi名称下方看到IP）
+
+        <ImageView src={require("./img/popstatus-v1-view-machine-ip.webp").default} alt="" width="45%" />
+
+    6. 与默认端口号保持一致
+
+    7. 点击确定即可绑定此打印机
+
+#### 方法二：自动绑定
+
+     - 点击扫描后，会出现`扫描成功`的弹窗
+
+         <ImageView src={require('./img/popstatus-v1-automatic-binding.webp').default} width="45%"/>
+
+     - 选择扫描出的打印机，找到需要绑定机器的名称，点击后会自动输入打印机的连接信息（若未找到需要绑定的机器，可尝试再次扫描或参考方法一）
+
+         <ImageView src={require('./img/popstatus-v1-automatic-binding-1.webp').default} width="47.8%"/>
+
+         <ImageView src={require('./img/popstatus-v1-automatic-binding-2.webp').default} width="45%"/>
+
+     - 点击绑定即可连接上打印机
+
+         <ImageView src={require('./img/popstatus-v1-automatic-binding-3.webp').default} width="45%"/>
+
+## 用户界面说明
+
+### WiFi界面
+
+<ImageView src={require("./img/popstatus-v1-wifi-interface-description.webp").default} width="45%" />
+
+    1. WiFi界面选择，点击后聚焦为红色图标，跳转至WiFi界面。
+
+    2. 当前WiFi的连接状态。
+
+    3. IP地址的相关问题弹窗提示，如果 IP 地址文本框未显示 IP，请确保 PopStatus 网络状态显示为连接成功。如果显示为未连接，请配置网络设置。
+
+    4. IP地址显示（在同一局域网下，浏览器输入此IP也可访问Web网页）。
+
+    5. WiFi网络配置按钮，点击可跳转到WiFi连接界面
+
+    6. 主机名显示，您可以使用主机名访问 Web UI。默认主机名为 `PopStatus`。如果您不记得 IP 地址，可以在浏览器地址栏中输入主机名加上 `.local` 访问 Web UI（例如：`http://PopStatus.local`）。点击文本框可以编辑主机名，点击 `设置主机名` 按钮确认修改。
+
+    7. 确认修改主机名
+
+### AP界面
+
+<ImageView src={require("./img/popstatus-v1-ap-interface-description.webp").default} width="45%" />
+
+    1. AP界面选择，点击后聚焦为红色图标，跳转至AP界面
+
+    2. AP热点的开关
+
+    3. AP热点名称，默认为 `Pop_Status_XXXXXXXXXX`
+
+    4. AP热点密码，默认为 `987654321`
+
+    5. 热点IP（默认的热点 IP 为：`192.168.254.1`，如果您自己路由器的 IP 号段也为 `192.168.254.xxx`，Pop Status 与路由器的 IP 号段相同就会产生冲突，并且导致 pop Status 无法正常绑定到打印机，请手动修改 Pop Status 的热点 IP 使其与路由器使用不同的 IP 号段）
+
+    6. 点击确认会重启设备，重启完成后可连接AP热点。
+
+### 设置界面
+
+<ImageView src={require("./img/popstatus-v1-settings-interface-description.webp").default} width="45%" />
+
+    1. 设置界面选择，点击后聚焦为红色图标，跳转至设置界面。
+
+    2. 选择网页中英文（默认英文）。
+
+    3. 显示当前的固件版本。
+
+    4. 固件OTA更新，选择 `.bin` 文件。
+
+        - 点击 `选择.bin文件` 按钮，选择需要OTA的bin文件。
+
+            <ImageView src={require("./img/popstatus-v1-ota.webp").default} width="45%" />
+
+        - 等待OTA进度，完成后弹窗自动重启。
+
+            <ImageView src={require("./img/popstatus-v1-ota-1.webp").default} width="45%" />
+
+            <ImageView src={require("./img/popstatus-v1-ota-2.webp").default} width="45%" />
+
+    5. 点击后，按下确定恢复出厂设置
+
+### 控制面板界面
+
+#### 功能介绍
+
+    <ImageView src={require("./img/popstatus-v1-control-panel-description.webp").default} width="45%" />
+
+    <ImageView src={require("./img/popstatus-v1-control-panel-description-1.webp").default} width="45%" />
+
+    1. 设备名称(PopStatus)
+
+    2. 灯总开关
+
+    3. 反转方向，反转灯带的灯效流动方向
+
+    4. 选择灯效
+
+    5. 灯光颜色设置
+
+    6. 灯光亮度/速度
+
+#### 灯光模式介绍
+
+    - **音频律动模式**
+
+        选择效果后，可调节亮度（0%～100%），律动随着音频音调大小增减。
+
+    - **高级模式**
+
+        <ImageView src={require("./img/popstatus-v1-control-panel-description-2.webp").default} width="45%" />
+
+            - 为打印机的每个工作状态分别配置不同的灯效。
+
+            - 点击对应状态按钮后，可单独设置该状态的效果，颜色，亮度和速度。
+
+                | 状态按钮 | 对应打印机状态 | 默认颜色 |
+                |----------|--------------|----------|
+                | 空闲 | 打印机空闲 | 白色 (FFFFFF) |
+                | 准备 | 下载/切片准备中 | 橙色 (F8A323) |
+                | 打印 | 正在打印 | 彩虹效果 |
+                | 暂停 | 打印暂停 | 白色 (FFFFFF) |
+                | 完成 | 打印完成 | 绿色 (00FF2A) |
+                | 报错 | 打印出错/报警 | 红色 (FF0000) |
