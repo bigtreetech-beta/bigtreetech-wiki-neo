@@ -1,0 +1,336 @@
+---
+description: PopStatus is an intelligent status indicator for the Snapmaker U1, bringing real-time printer status updates to life through dynamic lighting effects.
+---
+
+# PopStatus
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView
+	src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-main-image.webp').default}
+	alt=""
+	width="35%"
+	class="right-image"
+/>
+
+## Product Introduction
+
+**PopStatus —— Print. Pulse. Perform.**
+
+    Designed exclusively for the Snapmaker U1, PopStatus is a smart status light bar that delivers real-time visual feedback on your printer's activity while adding a stylish touch to its look. Thanks to its diffused lighting design, PopStatus produces smooth, even illumination, so you can instantly recognize printing, idle, completed, and error states at a glance.
+
+- **Fully Customizable Status Lighting**
+
+    Via the Web UI or BIQU App, you have full freedom to adjust the color, brightness, and dynamic mode (such as breathing, flowing, or flashing) for each printer state. This lets you give every status its own unique visual signature.
+
+- **Rhythm-Light Sync**
+
+    A built-in high-sensitivity microphone enables the lighting to react instantly to ambient sound. Your PopStatus will pulse and flow in time with the noises in your workspace — adding a genuine 'heartbeat' to your setup.
+
+- **Premium Finish**
+
+    The housing is crafted from aluminum alloy with an anodized finish, delivering both a high-end feel and long-lasting durability. The front panel features a laser-engraved acrylic cover, which you can swap out for a self-printed lithophane cover, offering even more room for personalization.
+
+## Technical Specifications
+
+| PopStatus      | Specifications         |
+| -------------- | ---------------------- |
+| Microcontroller       | ESP32-C3-MINI          |
+| Control Board Dimensions     | 57mm x 21mm x 11       |
+| Power Interface and Voltage | Type-C: 5V 3A          |
+| Logic Voltage       | 3.3V                   |
+| Peak State       | 5V 1.1A 5.5W           |
+| Standby State       | 5V 0.185A 0.925W(Peak) |
+
+</div>
+
+## Interface Diagram
+
+<ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-control-board-interface.webp').default} alt="" width="45%" />
+
+<ImageView
+	src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-light-strip-interface.webp').default}
+	alt=""
+	width="45%"
+/>
+
+## Dimensions
+
+<ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-dimensions.webp').default} alt="" width="45%" />
+
+## Installation Guide
+
+### Prepare Materials
+
+- Take out all accessories from the package. The packing list is shown below
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-accessory-kit.webp').default} alt="" width="45%" />
+
+### Clean the Heated Bed Mounting Surface Area
+
+- Use the included alcohol wipe to clean the heated bed mounting surface, then use the included cleaning cloth to dry off the alcohol on the surface.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-clean-heatbed.webp').default} alt="" width="45%" />
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-clean-heatbed-1.webp').default} alt="" width="45%" />
+
+### Attach the PopStatus
+
+- First, remove the left end cap of the PopStatus. Insert the smaller end of the included communication cable into the connector, then put the left end cap back on.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-install-light-strip.webp').default} alt="" width="45%" />
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-install-light-strip-1.webp').default} alt="" width="45%" />
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-install-light-strip-2.webp').default} alt="" width="45%" />
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-install-light-strip-3.webp').default} alt="" width="45%" />
+
+:::tip
+
+Note: You'll find spare end caps (with and without cable openings) in the box. By default, the connector on the light board sits on the left, but you can flip the internal light board to route the cable from the right side. To do this, remove both end caps, reverse the  light board and reconnect the cable. Attach the closed end cap on the left and the opening end cap on the right. **Keep in mind**: Flipping the light board will also reverse the direction of the lighting effects. To fix this, enable the reverse option in the Web UI (see the firmware section for details).
+
+:::
+
+- After raising the heated bed, peel off the release liner from the adhesive backing of PopStatus, align the side of PopStatus with the heated bed, then press it firmly into place to ensure a secure bond. **Recommendation**: For best alignment, install the build plate *before* attaching PopStatus. If your build plate has a 3D-printed handle, shift PopStatus slightly downward to avoid any interference.
+
+    <ImageView src={require("@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-install-light-strip-4.webp").default} alt="" width="45%" />
+
+    <ImageView src={require("@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-install-light-strip-5.webp").default} alt="" width="45%" />
+
+### Connect the Controller
+
+- Download the controller mounting case from [GitHub]() or [MakerWorld](https://makerworld.com/en/models/2696597-popstatus-pcb-casing-printout#profileId-2988691). Place the control board into the upper cover as shown, then align the lower cover and snap it onto the upper cover.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-print-shell.webp').default} alt="" width="45%" />
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-install-pcb.webp').default} alt="" width="45%" />
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-install-shell.webp').default} alt="" width="45%" />
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-finished-installation-effect.webp').default} alt="" width="45%" />
+
+- Attach the control board to the underside of the heated bed. Slide it forward into the gap at the bottom of the heated bed to lock it in place. Route the PopStatus communication cable along the gap marked in red and guide it downward.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-fix-controller.webp').default} alt="" width="45%" />
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-cable-routing-3.webp').default} alt="" width="45%" />
+
+- Plug the communication cable into the control board. Then take the Type-C connector on the shorter side of the power cable (near the coiled section) and insert it into the rear power port. Use the included tape to secure it as shown, making sure the power cable exits from the back of the heated bed.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-cable-routing-2.webp').default} alt="" width="45%" />
+
+Run the power cable along the gap between the left side of the toolhead and the machine frame. Secure it with the provided tape at the location shown in the image, then arrange the cable so it exits toward the rear of the machine. Finally, connect it to a 5V power supply. **Important**: Do not plug the power cable into the USB port on the back of the machine. That port is meant for data communication only and cannot supply enough power. Connecting PopStatus to it may cause insufficient power and prevent it from working properly.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-cable-routing-1.webp').default} alt="" width="45%" />
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-cable-routing-4.webp').default} alt="" width="45%" />
+
+## Initial Setup Guide
+
+:::tip
+
+Upon initial powering on or after a factory reset, you will see a blue flowing light effect, indicating that the PopStatus is not yet bound to a printer.
+
+:::
+
+### Wi-Fi Connection Guide
+
+- Connect to the Device Wi-Fi Hotspot
+
+    - Connect to the AP hotspot generated by the device: `pop_Status_XXXXXXXXXX`. The default password is `987654321`.
+
+        <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-connect-ap.webp').default} alt="" width="45%" />
+
+- Access the AP Web UI
+
+    - Once connected, PC users can enter the default IP in a browser: `192.168.254.1`. Mobile users should see the Web UI pop up automatically; otherwise, enter `192.168.254.1` in a mobile browser. (Note: This is the factory default IP).
+
+- Select Language (Default: English)
+
+    - Select your language and tap "Next."
+
+        <ImageView src={require('./img/popstatus-v1-select-language-en.webp').default} width="45%" />
+
+- Wi-Fi Connection Interface
+
+    - Upon initial setup or factory reset, the page will automatically scan for nearby Wi-Fi networks. You can also tap "Scan" manually.
+
+        <ImageView src={require('./img/popstatus-v1-connect-wifi-en.webp').default} width="45%" />
+
+    - Once the scan is complete, a "Scan Successful" prompt will appear. Tap "OK" to close it.
+
+        <ImageView src={require('./img/popstatus-v1-connect-wifi-1-en.webp').default} width="45%" />
+
+    - Select the WiFi network you want to connect to.
+
+        <ImageView src={require('./img/popstatus-v1-connect-wifi-2-en.webp').default} width="45%" />
+
+    - Enter the password. You can tap the "eye" icon to reveal the password.
+
+        <ImageView src={require('./img/popstatus-v1-connect-wifi-3-en.webp').default} width="45%" />
+
+    - Tap "Connect." The interface will automatically redirect to the "Wi-Fi" status page, showing the connection progress.
+
+        <ImageView src={require('./img/popstatus-v1-connect-wifi-4-en.webp').default} width="45%" />
+
+    - After a moment, a status window will appear.
+
+        - Connection Failed:
+
+            <ImageView src={require('./img/popstatus-v1-wifi-connection-failed-en.webp').default} width="45%" />
+
+        - Connection Successful: You can tap `Binding` to proceed to the printer interface, or tap "Cancel" to remain on the Wi-Fi page.
+
+            <ImageView src={require('./img/popstatus-v1-wifi-connection-successful-en.webp').default} width="45%" />
+
+### Binding the Printer
+
+#### Method 1: Manually Bind Printer
+
+<ImageView src={require('./img/popstatus-v1-manual-binding-en.webp').default} width="45%" />
+
+    1. In the Web UI, navigate to the Printer page. The icon will be highlighted in red.
+
+    2. Tap Scan to look for printers on the same local network.
+
+    3. Leave the default port number as is. No changes are required.
+
+    4. Select any printer that  appears in the list.
+
+    5. Enter the IP address of the printer you want to bind. (To view the printer IP address: on the printer screen home page, tap Settings-Wifi in sequence. The IP address can be seen below the connected Wifi name).
+
+        <ImageView src={require('./img/popstatus-v1-view-machine-ip-en.webp').default} alt="" width="45%" />
+
+    6. Keep it the same as the default port number.
+
+    7. Tap Bind.
+
+#### Automatic Binding
+
+     - Tap Scan. After a short moment, a "Scan Successful" prompt will appear.
+
+         <ImageView src={require('./img/popstatus-v1-automatic-binding-en.webp').default} width="45%"/>
+
+     - Select the discovered printer. The SN and IP address will be filled in automatically.(If you cannot find the printer you want to bind, try scanning again or refer to Method 1)
+
+         <ImageView src={require('./img/popstatus-v1-automatic-binding-1-en.webp').default} width="47.8%"/>
+
+         <ImageView src={require('./img/popstatus-v1-automatic-binding-2-en.webp').default} width="45%"/>
+
+     - Tap Bind.
+
+         <ImageView src={require('./img/popstatus-v1-automatic-binding-3-en.webp').default} width="45%"/>
+
+## User Interface Description
+
+### Wi-Fi Interface
+
+<ImageView src={require('./img/popstatus-v1-wifi-interface-description-en.webp').default} width="45%" />
+
+    1. WiFi Page Selection: When you tap the icon, it will turn red to indicate that you are on the WiFi page.
+
+    2. Current Wi-Fi connection status.
+
+    3. IP address troubleshooting prompt. If the IP text box is empty, ensure the status shows "Connected." If "Not Connected," please reconfigure network settings.
+
+    4. IP Address display (used to access the Web UI from other devices on the same network).
+
+    5. Network configuration button. Tap to return to the "Wi-Fi Connection Interface".
+
+    6. Hostname display. You can access the Web UI via the hostname. Default: `PopStatus`. If you forget the IP, enter the hostname followed by .local (e.g., `http://PopStatus.local`). Tap the text box to edit and "Set Hostname" to confirm.
+
+    7. Confirm hostname change.
+
+### AP Interface
+
+<ImageView src={require('./img/popstatus-v1-ap-interface-description-en.webp').default} width="45%" />
+
+    1. AP Page Selection: When you tap the icon, it will turn red to indicate that you are on the AP page.
+
+    2. AP Hotspot toggle (On/Off).
+
+    3. AP SSID (Hotspot Name). Default: `Pop_Status_XXXXXXXXXX`.
+
+    4. AP Password. Default: `987654321`.
+
+    5. Hotspot IP (Default: 192.168.254.1). If your router uses the same 192.168.254.xxx range, a conflict will occur, preventing the device from binding to the printer. Please manually change the Hotspot IP to a different subnet.
+
+    6. Confirm and Restart. The device will reboot to apply changes.
+
+### Settings Interface
+
+<ImageView src={require('./img/popstatus-v1-settings-interface-description-en.webp').default} width="45%" />
+
+    1. Settings Page Selection: When you tap the icon, it will turn red to indicate that you are on the Settings page.
+
+    2. Language toggle (Default: English).
+
+    3. Current Firmware version.
+
+    4. Firmware OTA Update (select `.bin` file).
+
+        - To perform an OTA, tap "Select .bin file" and choose the appropriate file.
+
+            <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-ota.webp').default} width="45%" />
+
+        - Wait for the progress bar. The device will automatically restart upon completion.
+
+            <ImageView src={require('./img/popstatus-v1-ota-1-en.webp').default} width="45%" />
+
+            <ImageView src={require('./img/popstatus-v1-ota-2-en.webp').default} width="45%" />
+
+    5. Factory Reset confirmation button.
+
+### Control Page
+
+#### Feature Overview
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popstatus/img/popstatus-v1-control-panel-description.webp').default} width="45%" />
+
+    <ImageView src={require('./img/popstatus-v1-control-panel-description-1-en.webp').default} width="45%" />
+
+    1. Device Name (PopStatus)
+
+    2. Main Light Switch
+
+    3. Reverse direction: reverses the flow direction of the light bar effects.
+
+    4. Select Lighting Modes
+
+    5. Light Color Settings
+
+    6. Light Brightness/Speed
+
+#### Lighting Modes
+
+    - **Rhythm-Light Sync**
+
+        After selecting this effect, you can adjust the brightness from 0% to 100%. The lighting response changes according to the surrounding audio level.
+
+    - **Advanced Mode**
+
+        <ImageView src={require('./img/popstatus-v1-control-panel-description-2-en.webp').default} width="45%" />
+
+            - Set up different lighting effects for each printer operating status..
+
+            - Tap any status button to independently configure its mode, color, brightness, and speed.
+
+                | Status | Corresponding Printer Status | Default Color |
+                |----------|--------------|----------|
+                | Idle | Printer idle | White (FFFFFF) |
+                | Preparing | Downloading/slicing preparation in progress | Orange (F8A323) |
+                | Printing | Printing in progress | Rainbow effect |
+                | Paused | Print paused | White (FFFFFF) |
+                | Completed | Print completed | Green (00FF2A) |
+                | Error | Print error/alarm | Red (FF0000) |
