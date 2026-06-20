@@ -37,12 +37,32 @@ jobs:
     - name: build wiki 
       run: yarn run build
 
-    # to cloudflare R2
+    # config rclone
     - name: Install rclone
       run: |
         sudo apt update
         sudo apt install -y rclone
+    
+    # Aliyun OSS
+    - name: Configure rclone (Aliyun OSS)
+      run: |
+        rclone config create aliyun s3 \
+          provider=Alibaba \
+          access_key_id=${{ secrets.OSS_KEY_ID }} \
+          secret_access_key=${{ secrets.OSS_KEY_SECRET }} \
+          endpoint=https://oss-cn-shenzhen.aliyuncs.com \
+          region=cn-shenzhen \
+          acl=public-read
 
+    - name: Copy build to Aliyun OSS
+      run: |
+        rclone copy build aliyun:btt-wiki \
+          --fast-list \
+          --checkers=32 \
+          --transfers=16 \
+          --progress
+    
+    # Cloudflare R2
     - name: Configure rclone (Cloudflare R2 only)
       run: |
         rclone config create r2 s3 \
@@ -58,13 +78,3 @@ jobs:
           --checkers=32 \
           --transfers=16 \
           --progress
-
-    # to aliyun oss 
-    - name: setup aliyun oss
-      uses: Neko-vecter/actions-ossutil@main
-      with:
-        endpoint: oss-cn-shenzhen.aliyuncs.com
-        access-key-id: ${{ secrets.OSS_KEY_ID }}
-        access-key-secret: ${{ secrets.OSS_KEY_SECRET }}
-    - name: cp files to aliyun
-      run: ossutil cp -rf ./build oss://btt-wiki/
