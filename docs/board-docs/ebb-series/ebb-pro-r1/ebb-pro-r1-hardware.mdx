@@ -1,0 +1,96 @@
+---
+sidebar_position: 2
+description: EBB PRO R1 硬件功能
+---
+
+# EBB PRO R1 硬件功能
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+## 机械尺寸
+
+:::info[STEP 模型]
+
+EBB PRO R1 STEP [bigtreetech/EBB-PRO-R1]()
+
+EBB PRO R1 Backplate Template [bigtreetech/EBB-PRO-R1]()
+
+:::
+
+## Pinout
+
+:::info[原理图 / Schematic]
+
+EBB PRO R1 Schematic [bigtreetech/EBB-PRO-R1]()
+
+:::
+
+<ImageView
+    src={require("./img/ebb-pro-r1-pinout-release.webp").default}
+    width="100%"
+/>
+
+## 风扇
+
+### 4 Pin PWM 风扇电压选择
+
+<Tabs groupId="ebb-pro-r1-fan">
+    <TabItem value="ebb-pro-r1-fan-24v" label="使用 24V 风扇" default>
+        <ImageView
+            src={require("./img/ebb-pro-r1-fan-24v.webp").default}
+            width="100%"
+        />
+    </TabItem>
+    <TabItem value="ebb-pro-r1-fan-12v" label="使用 12V 风扇">
+        <ImageView
+            src={require("./img/ebb-pro-r1-fan-12v.webp").default}
+            width="100%"
+        />
+    </TabItem>
+</Tabs>
+
+### 4 Pin PWM 风扇接线
+
+{/* 引脚图风扇 */}
+
+## 传感器
+
+### PT1000
+
+{/* PT 1000 2pin / 4pin 接线和开关选择 */}
+
+:::info
+
+MAX 31865 选择 PT1000 2线或4线配置
+
+| 1   | 2   | Sensor Model  |
+| --- | --- | ------------- |
+| ON  | ON  | 2 wire PT1000 |
+| OFF | OFF | 4 wire PT1000 |
+
+:::
+
+### BLtouch / MicroProbe
+
+{/* microprobe 接线 */}
+
+### Eddy Coil
+
+{/* eddy coil 版本的接线 */}
+
+### 限位开关
+
+{/* 标准的限位开关接线 */}
+
+### LIS2DW
+
+{/* 标注 Pin */}
+
+## 其他硬件
+
+### Neopixel

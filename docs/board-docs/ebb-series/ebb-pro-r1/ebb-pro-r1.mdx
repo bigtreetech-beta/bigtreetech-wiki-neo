@@ -1,0 +1,35 @@
+---
+sidebar_position: 1
+description: EBB PRO R1 工具板
+---
+
+# EBB PRO R1
+
+{/* import lib start */}
+
+import DocCardList from "@theme/DocCardList";
+
+{/* import lib end */}
+
+<div class="div-table">
+
+<ImageView
+    src={require("./img/ebb-pro-r1-main.webp").default}
+    width="45%"
+    class="right-image"
+/>
+
+| EBB PRO R1                | Specification                  |
+| ------------------------- | ------------------------------ |
+| MCU                       | STMicroelectronics STM32H723VG |
+| 挤出机驱动                | TMC 2209                       |
+| 温度传感器 (TH0)          | NTC / PT1000                   |
+| 温度传感器 (MAX31865)     | PT1000 2 wire or 4 wire        |
+| 热端最大电流              | 5A                             |
+| 风扇 4Pin PWM (12V / 24V) | x2                             |
+| 风扇 4Pin PWM (5V)        | x1                             |
+| 电源输入                  | DC 24V                         |
+
+</div>
+
+<DocCardList />
