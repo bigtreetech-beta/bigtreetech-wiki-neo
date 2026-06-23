@@ -16,55 +16,61 @@ import TabItem from "@theme/TabItem";
 
 :::info[STEP 模型]
 
-EBB PRO R1 STEP [bigtreetech/EBB-PRO-R1]()
+EBB PRO R1 STEP [bigtreetech/EBB-PRO-R1](https://github.com/bigtreetech/ebb-pro-r1)
 
-EBB PRO R1 Backplate Template [bigtreetech/EBB-PRO-R1]()
+EBB PRO R1 Backplate Template [bigtreetech/EBB-PRO-R1](https://github.com/bigtreetech/ebb-pro-r1)
 
 :::
+
+<ImageView
+    src={require("./img/ebb-pro-r1-asm-1.webp").default}
+    width="45%"
+/>
+<ImageView
+    src={require("./img/ebb-pro-r1-asm-2.webp").default}
+    width="45%"
+/>
+
 
 ## Pinout
 
 :::info[原理图 / Schematic]
 
-EBB PRO R1 Schematic [bigtreetech/EBB-PRO-R1]()
+EBB PRO R1 Schematic [bigtreetech/EBB-PRO-R1](https://github.com/bigtreetech/ebb-pro-r1)
 
 :::
 
 <ImageView
     src={require("./img/ebb-pro-r1-pinout-release.webp").default}
-    width="100%"
+    width="90%"
 />
 
 ## 风扇
 
 ### 4 Pin PWM 风扇电压选择
 
-<Tabs groupId="ebb-pro-r1-fan">
-    <TabItem value="ebb-pro-r1-fan-24v" label="使用 24V 风扇" default>
-        <ImageView
-            src={require("./img/ebb-pro-r1-fan-24v.webp").default}
-            width="100%"
-        />
-    </TabItem>
-    <TabItem value="ebb-pro-r1-fan-12v" label="使用 12V 风扇">
-        <ImageView
-            src={require("./img/ebb-pro-r1-fan-12v.webp").default}
-            width="100%"
-        />
-    </TabItem>
-</Tabs>
+<ImageView
+    src={require("./img/ebb-pro-r1-fan-voltage.webp").default}
+    width="90%"
+/>
 
 ### 4 Pin PWM 风扇接线
 
-{/* 引脚图风扇 */}
+<ImageView
+    src={require("./img/ebb-pro-r1-4pin-fan.webp").default}
+    width="90%"
+/>
 
 ## 传感器
 
 ### PT1000
 
-{/* PT 1000 2pin / 4pin 接线和开关选择 */}
+<ImageView
+    src={require("./img/ebb-pro-r1-pt1000.webp").default}
+    width="90%"
+/>
 
-:::info
+:::info[MAX 31865 跳线配置]
 
 MAX 31865 选择 PT1000 2线或4线配置
 
@@ -77,15 +83,17 @@ MAX 31865 选择 PT1000 2线或4线配置
 
 ### BLtouch / MicroProbe
 
-{/* microprobe 接线 */}
+<ImageView
+    src={require("./img/ebb-pro-r1-probe.webp").default}
+    width="90%"
+/>
 
 ### Eddy Coil
 
-{/* eddy coil 版本的接线 */}
-
-### 限位开关
-
-{/* 标准的限位开关接线 */}
+<ImageView
+    src={require("./img/ebb-pro-r1-iic.webp").default}
+    width="90%"
+/>
 
 ### LIS2DW
 
