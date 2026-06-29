@@ -1,0 +1,245 @@
+---
+sidebar_position: 1
+description: The Panda Hotend Wizard helps users safely and efficiently clear clogged hotends.
+---
+
+# Panda Hotend Wizard
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/shoutu.webp').default}
+    alt=""
+    width="35%"
+    class="right-image"
+/>
+
+## Product Introduction
+
+The Panda Hotend Wizard is a compact desktop maintenance station built specifically for Bambu Lab-compatible hotends. It helps users quickly revive clogged nozzles by providing a stable heating and cooling environment, making hotend maintenance safer, easier, and more efficient. With simple knob and button controls, users can heat, cool, and clear blocked nozzles with confidence — extending the service life of their hotends and cutting down on unnecessary replacements. This device is compatible with Bambu Lab models including the A1, A1 mini, P1S, X1C, P2S, H2D, and H2S. Please note that hotends from the H2C-Voteck system are not currently supported.
+
+## Technical Specifications
+
+| Panda Hotend Wizard | Specifications |
+| --- | --- |
+| Main Control Chip | STM32G030F6P6 |
+| Power Input | DC 24V 5A |
+| Built-in Heater Cartridge Power | 100W |
+| Maximum Output Power | 110W |
+| Logic Voltage | 3.3V |
+| Heater Temperature Setting Limit | $290^\circ C$ |
+| Standby Power | 0.1W |
+| Maximum Operating Current | 5A |
+
+</div>
+
+## Product Features
+
+- Compact and lightweight - easy to place on your workbench without taking up much space.
+- Equipped with a main power switch for quick power cutoff and safer operation.
+- Simple knob-and-button control allows quick temperature adjustment and easy fan operation.
+- Supports a wide range of Bambu Lab hotends, including those used on A1, A1 mini, P1S, X1C, P2S, H2D, H2S, and other mainstream models.
+- Supports heating temperatures up to $290^\circ C$ , providing a stable maintenance environment for clearing stubborn clogs and working with high-temperature materials.
+- Includes a set of dedicated unclogging needles to help users clear clogged nozzles quickly and efficiently.
+- Clear dual displays show key temperature information, while status lights indicate the real-time heating and fan status.
+
+## Packing List
+
+<ImageView src={require('./img/baozhuang-en.webp').default} alt="" width="60%" />
+
+:::warning[Warning]
+
+Do not power on the Panda Hotend Wizard heating module and a hotend's built-in heating module at the same time. P1 and X1 series hotends have their own built-in heating elements, so connect the original P1/X1 hotend cable for heating. A1 and P2 series quick-swap hotends do not have built-in heating elements, so they must be heated using the Panda Hotend Wizard heating module.
+
+:::
+
+## Product Dimensions
+
+<ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/size.webp').default} alt="" width="60%" />
+
+## Assembly Guide
+
+- Prepare Cables
+
+    Remove the top screws from the display module backplate, then pass the three internal cable connectors through the opening. Reinstall the top screws after the cables are routed through. If the three cables are already outside the display module, skip this step.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install1.webp').default} width="60%"/>
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install11.webp').default} width="60%"/>
+
+- Install Digital Display Module
+
+    Route the cables through the upper opening on the button module, then position the display module onto the button module and secure it with the included four M3 $\times$ 14 pointed self-tapping screws.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install2.webp').default} width="60%"/>
+
+- Connect Module Cables
+
+    Connect the three cables to the corresponding ports.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install3.webp').default} width="60%"/>
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install31.webp').default} width="60%"/>
+
+- Install Fan Module
+
+    Pass the fan module cable through the opening on the left side of the button module and connect it to the fan port. Secure the fan module with two M3 $\times$ 14 pointed self-tapping screws.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install4.webp').default} width="60%"/>
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install41.webp').default} width="60%"/>
+
+- Install Heating Module
+
+    Secure the heating module onto the button module with three M3 $\times$ 14 pointed self-tapping screws, then plug the heater cartridge and thermistor connectors into their corresponding ports.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install5.webp').default} width="60%"/>
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install51.webp').default} width="60%"/>
+
+- Secure Backplate
+
+    Secure the backplate with six M3 $\times$ 8 countersunk self-tapping screws.
+
+    <ImageView src={require('./img/install6-en.webp').default} width="60%"/>
+
+- Secure Base
+
+    Secure the base with four M3 $\times$ 20 countersunk screws.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install7.webp').default} width="60%"/>
+
+- Install Thumb Screw
+
+    Screw in the knurled thumb screw.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install8.webp').default} width="60%"/>
+
+## Interface Description
+
+- Display Module Interface
+
+    <ImageView src={require('./img/jiekou-en.webp').default} alt="" width="45%" />
+
+- Power Input
+
+    Use the supplied 24V 5A power adapter to power the product. Other power adapters are not recommended. Insufficient power may cause slow heating or trigger errors.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/powerin.webp').default} width="25%"/>
+
+- Quick-Swap Hotend Connection
+
+    When servicing the A1, A1 mini, P2S, H2D/H2S, or the left hotend of H2C, connect the heating module cable to the corresponding port on the button module, as shown below.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/jiekou-kc.webp').default} width="25%"/>
+
+- P1S / X1C Hotend Connection
+
+    When servicing the P1S or X1C hotends, do not connect the Panda Hotend Wizard heating module cable, as these hotends have their own built-in heating elements. Instead, connect the original P1/X1 hotend cable to the corresponding port on the button module, as shown below.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/jiekou-px.webp').default} width="25%"/>
+
+## How to Unclog Your Hotend
+
+### How to Unclog Your P1/X1 Series Hotend
+
+1. Make sure the printer is completely powered off, then remove the toolhead front cover to expose the hotend assembly.
+2. Place the P1/X1 hotend into the included P1/X1 series fixture, then tighten the screws to hold the hotend firmly in place. Connect the original P1/X1 hotend heating and fan cables to the P1/X1 connection interface on the Panda Hotend Wizard. Do not connect the Panda Hotend Wizard heating module cable when servicing P1/X1 series hotends.
+
+    <ImageView src={require('./img/p1x1-en.webp').default} width="60%"/>
+
+3. Turn on the Panda Hotend Wizard, short-press the knob to enter setting mode; the value will flash. Rotate the knob to adjust the target temperature in $5^\circ C$ increments, clockwise to increase or counterclockwise to decrease, then short-press the knob again to confirm and exit setting mode. It is recommended to start with a lower temperature and gradually increase it if needed.
+4. When the displayed temperature reaches the target temperature, use the included unclogging needle to clear the clogged nozzle.
+
+### How to Unclog Your H2 Series / P2S Hotend
+
+1. Make sure the printer is completely powered off, then remove the toolhead front cover to expose the hotend assembly.
+2. Use the included H2/P2 series fixture to secure the hotend. The quick-release fixture has built-in magnets to hold the hotend firmly in place. After inserting the hotend, flip the protective guard down, then connect the Panda Hotend Wizard heating module cable.
+
+    <ImageView src={require('./img/p2sh2-en.webp').default} width="60%"/>
+
+3. Turn on the Panda Hotend Wizard, short-press the knob to enter setting mode, rotate the knob to set the target temperature, then short-press again to confirm. When the displayed temperature reaches the target temperature, use the included unclogging needle to clear the clogged nozzle.
+
+### How to Unclog Your A Series Hotend
+
+1. Follow a similar procedure to the P2S and H2 series quick-swap hotend steps: turn off the printer, make sure it is completely powered off, and prepare the A1 series fixture and unclogging needle.
+2. Secure the A1 quick-swap hotend with the A1 series fixture, then connect the Panda Hotend Wizard heating module cable.
+3. Set a suitable target temperature. When the displayed temperature reaches the target temperature, use the unclogging needle to clear the clogged nozzle.
+
+## How to Operate the Panda Hotend Wizard
+
+<ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/fuction.webp').default} width="60%"/>
+
+1. Power Switch
+
+    This turns the device power on and off. Always turn off the main power after maintenance to prevent unnecessary standby.
+
+2. Fan Switch
+
+    This turns the fan on and off. During heating, turn on the fan as needed to help dissipate heat and cool the hotend.
+
+3. Knob
+
+    The knob is used to set the target temperature, quickly switch to a preset temperature, turn off heating, and select the hotend type.
+
+    - Set Target Temperature
+
+        1. Short-press the knob to enter setting mode. The displayed value will start flashing.
+        2. Rotate the knob to adjust the temperature in $5^\circ C$ increments. Rotate clockwise to increase the value and counterclockwise to decrease it.
+        3. Short-press the knob again to confirm the setting and exit setting mode.
+
+    - Quick Temperature Setting
+
+        While setting the target temperature, double-click the knob to quickly set the temperature to $250^\circ C$, then short-press the knob again to confirm.
+
+    - Turn Off Heating
+
+        When not in setting mode, long-press the knob to turn off heating.
+
+    - Set Hotend Type
+
+        When the target temperature is set to $0^\circ C$, long-press the knob to enter hotend type selection. The blue display will flash. Rotate the knob to select the hotend type, then short-press the knob to confirm. It is recommended to select value 1 for auto-detection. If the temperature does not rise properly or becomes unstable, manually select the corresponding hotend type.
+
+        | Value | Hotend Type |
+        | --- | --- |
+        | 1 | Auto-detect hotend |
+        | 2 | Panda Hotend Wizard heating module's PID parameters |
+        | 3 | PID parameters for original Bambu Lab hotend heating elements |
+
+4. Digital Display
+
+    The Panda Hotend Wizard has two displays that clearly show temperature, menu, and hotend type information.
+
+    - Upper Digital Display
+
+        The red digita display shows the current actual temperature or the current menu name.
+
+    - Lower Digital Tube Display
+
+        The blue digital display shows the target temperature or the currently selected hotend type.
+
+- Automatic Heating Shutdown
+
+    If the device is not operated for 20 consecutive minutes, heating will turn off automatically to prevent dry heating and accidental overheating.
+
+## Troubleshooting
+
+### Temperature Does Not Rise or Is Unstable
+
+1. Switch the PID setting manually.
+
+    - Select value 2 when using the Panda Hotend Wizard heating module.
+    - Select value 3 when using the original heating element of a Bambu Lab hotend.
+
+2. If you are servicing a quick-swap hotend, check that the hotend is in full contact with the heating block and make sure there is no obvious gap, as indicated by the arrow in the image below.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/jianxi.webp').default} width="45%"/>

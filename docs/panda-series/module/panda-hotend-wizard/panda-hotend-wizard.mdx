@@ -1,0 +1,245 @@
+---
+sidebar_position: 1
+description: Panda Hotend Wizard是一款快速方便维修拓竹热端堵头的工具
+---
+
+# Panda Hotend Wizard
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView
+    src={require('./img/shoutu.webp').default}
+    alt=""
+    width="35%"
+    class="right-image"
+/>
+
+## 产品简介
+
+BIQU Panda Hotend Wizard 是深圳必趣科技有限公司推出的一款用于快速维修拓竹适配热端堵头的维修工具。用户可通过旋钮和按键进行操控，为堵头的喷嘴提供良好的维修环境，提高喷嘴的利用率。目前适配的机型包括拓竹 A1，A1 mini，P1S，X1C，P2S，H2D，H2S 等。暂时不支持 H2C-Voteck 系统热端。
+
+## 技术规格
+
+| Panda Hotend Wizard | 规格 |
+| --- | --- |
+| 主控芯片 | STM32G030F6P6 |
+| 电源输入 | DC 24V 5A |
+| 自带加热棒功率 | 100W |
+| 产品输出最大工作功率 | 110W |
+| 逻辑电压 | 3.3V |
+| 加热棒温度设置限温 | $290^\circ C$ |
+| 待机功率 | 0.1W |
+| 最大工作电流 | 5A |
+
+</div>
+
+## 产品特点
+
+- 产品整体小巧轻便，轻松放置，不占空间。
+- 配备总电源开关，可以方便快速切断总电源，保障操作安全。
+- 旋钮快速设置目标温度，按键开关风扇，操作直观。
+- 多机型适配，支持 A1，A1 mini，P1S，X1C，P2S，H2D，H2S等拓竹主流机型。
+- 最高支持 $290^\circ C$ 的加热温度，为多种特殊耗材提供有利的维修环境，提高维修质量。
+- 配送专用通针，方便用户快速疏通堵头。
+- 数码管显示温度清晰明了，配合状态灯实时展现加热棒和风扇工作状态。
+
+## 包装清单
+
+<ImageView src={require('./img/baozhuang.webp').default} alt="" width="60%" />
+
+:::warning[注意]
+
+在使用本产品时，切勿将本产品上的加热模块和自带加热模块的热端同时上电开启。本产品上的加热模块用于快拆热端维修，例如 A1 和 P2 系列热端；自带加热模块的热端包括 P1 和 X1 系列热端。同时开启会导致系统错误。
+
+:::
+
+## 产品尺寸
+
+<ImageView src={require('./img/size.webp').default} alt="" width="60%" />
+
+## 组装指南
+
+- 拉出线材
+
+    将显示模块背板螺丝拆下，将内部三根线材插头从孔洞中穿出，线材穿出后再装入顶部螺丝，如果三根线已经在外面则可以省略该步骤。
+
+    <ImageView src={require('./img/install1.webp').default} width="60%"/>
+
+    <ImageView src={require('./img/install11.webp').default} width="60%"/>
+
+- 安装显示模块
+
+    将线材穿入主体窗口，用附带 4 颗 M3 $\times$ 14 尖头自攻螺丝固定显示模块。
+
+    <ImageView src={require('./img/install2.webp').default} width="60%"/>
+
+- 线缆插入接口
+
+    三根线材接入对应插口。
+
+    <ImageView src={require('./img/install3.webp').default} width="60%"/>
+
+    <ImageView src={require('./img/install31.webp').default} width="60%"/>
+
+- 安装风扇模块
+
+    将线材穿入主体左侧孔洞接入插头，用 2 颗 M3 $\times$ 14 尖尾自攻螺丝固定风扇模块。
+
+    <ImageView src={require('./img/install4.webp').default} width="60%"/>
+
+    <ImageView src={require('./img/install41.webp').default} width="60%"/>
+
+- 安装加热块
+
+    将加热模块用 3 颗杯头尖尾 M3 $\times$ 14 螺丝固定，接入加热棒与热敏电阻接口。
+
+    <ImageView src={require('./img/install5.webp').default} width="60%"/>
+
+    <ImageView src={require('./img/install51.webp').default} width="60%"/>
+
+- 固定背板
+
+    用 6 颗 M3 $\times$ 8 沉头自攻螺丝固定背板。
+
+    <ImageView src={require('./img/install6.webp').default} width="60%"/>
+
+- 固定底座
+
+    用 4 颗 M3 $\times$ 20 沉头尖尾自攻螺丝固定底座。
+
+    <ImageView src={require('./img/install7.webp').default} width="60%"/>
+
+- 完成装配
+
+    将附带的手拧螺丝拧入，完成整机装配。
+
+    <ImageView src={require('./img/install8.webp').default} width="60%"/>
+
+## 接口说明
+
+- 控制面板接口
+
+    <ImageView src={require('./img/jiekou.webp').default} alt="" width="45%" />
+
+- 电源输入接口
+
+    使用标配的24V 5A 的电源适配器为设备供电。不建议使用其它电源，若电源功率不足，会导致升温过慢或触发报错。
+
+    <ImageView src={require('./img/powerin.webp').default} width="25%"/>
+
+- 快拆热端连接接口
+
+    维修 A1，A1 mini，P2S，H2D/S，H2C 左侧热端时，请将设备自身带的加热块接口连接至机身对应接口。如下图
+
+    <ImageView src={require('./img/jiekou-kc.webp').default} width="25%"/>
+
+- P1S / X1C 连接接口
+
+    维修 P1S，X1C 时，请不要连接设备自身带的加热块的接口线，务必把P1或者X1热端的连接线连接至机身对应接口。如下图
+
+    <ImageView src={require('./img/jiekou-px.webp').default} width="25%"/>
+
+## 使用指南
+
+### P1 / X1 系列维修步骤
+
+1. 关闭打印机电源并拆下工具头前盖：确保打印机完全断电，拆下工具头前盖，露出热端组件。
+2. 连接维修夹具与接口：使用包装内附带的 P1/X1 系列维修夹具固定热端，拧紧螺丝，并将热端的加热和风扇接口连接至设备机身的 P1/X1 连接接口。注意：机身加热块的接口要拔掉。
+
+    <ImageView src={require('./img/p1x1.webp').default} width="60%"/>
+
+3. 设置目标温度：打开产品电源，通过旋钮设置目标温度，建议从较低温度开始测试并逐步升高。
+4. 疏通堵头：等待温度稳定后，使用包装内附带的专用通针进行疏通清理。
+
+### H2 系列 / P2S 维修步骤
+
+1. 关闭打印机电源并拆下工具头前盖：确保打印机完全断电，拆下工具头前盖。
+2. 连接维修夹具与接口：使用包装内附带的 H2/P2 系列维修夹具固定热端，快拆的维修夹具自带磁铁，可以吸紧热端，热端安装上去后，请扣上保护罩，并将机身自带的加热块接口连接至设备机身的快拆热端连接接口。
+
+    <ImageView src={require('./img/p2sh2.webp').default} width="60%"/>
+
+3. 设置目标温度并维修。开机后通过旋钮设定目标温度，升温稳定后进行堵头疏通。
+
+### A 系列维修步骤
+
+1. 步骤与P2S和H2系列快拆热端相似，关闭打印机电源并做好防护。确保打印机断电，准备好维修夹具与通针。
+2. 连接快拆热端。使用 A1 系列维修夹具固定热端，并将机身自带的加热块接口连接至设备机身的快拆热端连接接口。
+3. 加热与疏通。设置合适的目标温度，待数码管显示温度达到设定值后，使用通针清理堵头。
+
+## 功能介绍
+
+<ImageView src={require('./img/fuction.webp').default} width="60%"/>
+
+1. 总电源开关
+
+    用于开启和关闭整机电源。维修完成后请务必关闭总电源，避免长时间待机。
+
+2. 风扇开关
+
+    用于开启和关闭风扇。在加热维修过程中，可根据需要开启风扇对热端进行散热或冷却。
+
+3. 旋钮功能
+
+    旋钮是主要的交互方式，支持设置目标温度，快捷温度，关闭加热，设置热端类型等操作。
+
+    - 设置目标温度
+
+        1. 短按旋钮进入设置模式，此时数值会闪烁。
+        2. 旋转旋钮调节目标温度值，步长为 $5^\circ C$，顺时针增大，逆时针减小。
+        3. 再次短按按钮确认温度，并退出设置模式。
+
+    - 快捷温度
+
+        在设置目标温度时，双击旋钮，将温度快速调节为 $250^\circ C$。再次短按旋钮确认温度值。
+
+    - 关闭加热
+
+        非设置模式下，长按旋钮后关闭加热输出。
+
+    - 设置热端类型
+
+        目标温度为 $0^\circ C$ 时，长按旋钮进入热端类型选择。此时蓝色数码管闪烁，转动旋钮选择类型后，短按旋钮确认类型。建议选择数值 1，自动识别。如果出现温度无法上升或温度不稳定的情况，可手动设置为对应热端。
+
+        | 数值 | 热端类型 |
+        | --- | --- |
+        | 1 | 自动识别热端 |
+        | 2 | 自带加热模块，使用设备自身加热棒时的 PID 参数 |
+        | 3 | 拓竹热端，使用拓竹原装热端时的 PID 参数 |
+
+4. 数码管显示
+
+    机身配备双数码管，分工明确。
+
+    - 上方数码管
+
+        红色数码管，显示当前实际温度或当前菜单名称。
+
+    - 下方数码管
+
+        蓝色数码管，显示目标温度或当前选中的热端类型。
+
+- 自动关闭加热
+
+    当用户连续 20 分钟没有操作设备时，系统将自动关闭加热输出，防止干烧及意外过热。
+
+## 故障排除
+
+### 加热温度无法上升或温度不稳定
+
+1. 需要手动切换 PID 参数。
+
+    - 使用自带加热棒维修时，选择数值 2。
+    - 使用拓竹原装热端维修时，选择数值 3。
+
+2. 如果是快拆热端，检查快拆热端是否跟加热块接触良好，不要有明显间隙。如下图箭头指示处。
+
+    <ImageView src={require('./img/jianxi.webp').default} width="45%"/>
