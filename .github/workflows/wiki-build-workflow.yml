@@ -52,7 +52,6 @@ jobs:
           secret_access_key=${{ secrets.OSS_KEY_SECRET }} \
           endpoint=https://oss-cn-shenzhen.aliyuncs.com \
           region=cn-shenzhen \
-          acl=public-read
 
     - name: Copy build to Aliyun OSS
       run: |
