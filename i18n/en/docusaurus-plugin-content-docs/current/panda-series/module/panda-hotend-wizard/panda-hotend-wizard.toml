@@ -54,14 +54,14 @@ translate = '''
 '''
 
 [[block]]
-key = "d6f950cfadb5c4b0"
+key = "f8d44277e5d08e27"
 origin = '''
 <div class="div-table">
 
 {/* main image */}
 
 <ImageView
-    src={require('./img/shoutu.webp').default}
+    src={require('./img/panda-hotend-wizard-title.webp').default}
     alt=""
     width="35%"
     class="right-image"
@@ -92,7 +92,7 @@ translate = '''
 {/* main image */}
 
 <ImageView
-    src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/shoutu.webp').default}
+    src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/panda-hotend-wizard-title.webp').default}
     alt=""
     width="35%"
     class="right-image"
