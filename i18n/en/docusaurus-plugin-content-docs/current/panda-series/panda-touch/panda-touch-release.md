@@ -49,6 +49,7 @@ Panda Touch Firmware Release History
 - **SD Card File Year Information Missing**
 
 #### Feature Enhancements
+
 - **Increased thumbnail size**: When printing via Bambu Studio/Handy app, the home page thumbnail resolution has been increased from 128 × 128 to 280 × 306.
 - **Real-time printer model updates in the background**: Printer models are synchronized in real-time from the cloud server.
 - **Adjusted MQTT cache**: The MQTT buffer size has been adjusted to 40KB.
@@ -68,8 +69,10 @@ Panda Touch Firmware Release History
 ### [V1.0.6.3](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.6.3/panda_touch-v1.0.6.3.bin)
 
 #### Bug Fixes
+
 - **Crash during printing**: Device crashes and reboots when printing from a USB drive.
 - **Crash on OTA page**: Device crashes and reboots when tapping a Wi-Fi name on the OTA page.
 
 #### Feature Changes
+
 - **Stop loading thumbnails during printing**. 
