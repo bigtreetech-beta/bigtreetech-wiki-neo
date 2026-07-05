@@ -13,6 +13,33 @@ import TabItem from '@theme/TabItem';
 
 {/* import lib end */}
 
+### [V1.0.8.0](https://github.com/bigtreetech/PandaTouch/releases/tag/release%2Fv1.0.8.0)
+
+#### Bug Fixes
+
+- **Sleep / Wake Reboot Issue**: Fixed repeated reboot issues caused by sleep / wake crashes.
+- **Wake / Print Start Reboot Issue**: Fixed frequent short-cycle reboot issues and reboot loops after wake or print start.
+- **OTA IMG Update Issue**: Added validation to the OTA IMG update process and improved update stability.
+- **AMS2 / AMS-HT Detection Issue**: Fixed AMS2 / AMS-HT search and detection logic.
+- **External Spool Loading Issue**: Fixed external spool holder loading logic to ensure feed / unload operations work correctly.
+- **External Spool Refresh and AMS Slot Mapping Issue**: Fixed external spool refresh and AMS slot mapping issues to ensure slot status is displayed correctly.
+- **Wi-Fi Compatibility Issue**: Improved WPA2 / WPA3 Wi-Fi compatibility.
+- **Cloud Account Login Reboot Issue**: Fixed a device reboot issue that could occur when logging in to a Bambu Lab cloud account.
+
+#### Functional Optimizations
+
+- **Print Wake Behavior**: Optimized print wake behavior so the device stays awake while a print task is running.
+- **Firmware Warning Flow**: Redesigned the firmware warning flow to make the recovery path clearer.
+- **Firmware Update Warning Prompts**: Optimized warning prompts during firmware updates.
+- **AMS Interface**: Redesigned the AMS interface with clearer slot layout and status display.
+- **Filament Management Interface**: Refactored the filament management interface and related filament management logic.
+- **Printer / Group List View Modes**: Added printer and group list view modes.
+- **Feed / Unload Operation Flow**: Optimized step prompts in the feed / unload operation flow.
+- **Warning Popups**: Optimized warning popups.
+- **Screen Saver Mode**: Added a screen saver mode during printing to help prevent accidental operation while a print is running.
+- **File Manager Interface**: Refactored the file manager interface and improved file management logic and thumbnail display logic.
+- **Notification Prompts**: Updated notification prompts and added new notification message content.
+
 ### [v1.0.7.3](https://github.com/bigtreetech/PandaTouch/releases/tag/release%2Fv1.0.7.3)
 
 - Add firmware incompatibility warning
