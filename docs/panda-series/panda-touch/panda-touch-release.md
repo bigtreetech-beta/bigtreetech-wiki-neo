@@ -6,13 +6,6 @@ sidebar_position: 4
 
 Panda Touch 发布记录
 
-{/* import lib start */}
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-{/* import lib end */}
-
 ### [V1.0.8.0](https://github.com/bigtreetech/PandaTouch/releases/tag/release%2Fv1.0.8.0)
 
 #### Bug修复
