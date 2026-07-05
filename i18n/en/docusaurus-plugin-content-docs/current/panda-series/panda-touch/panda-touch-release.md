@@ -50,7 +50,7 @@ Panda Touch Firmware Release History
 
 #### Feature Enhancements
 
-- **Increased thumbnail size**: When printing via Bambu Studio/Handy app, the home page thumbnail resolution has been increased from 128 × 128 to 280 × 306.
+- **Increased thumbnail size**: When printing via Bambu Studio/Handy app, the home page thumbnail resolution has been increased from 128 x 128 to 280 x 306.
 - **Real-time printer model updates in the background**: Printer models are synchronized in real-time from the cloud server.
 - **Adjusted MQTT cache**: The MQTT buffer size has been adjusted to 40KB.
 
