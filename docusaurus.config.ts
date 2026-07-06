@@ -54,7 +54,7 @@ const config: Config = {
 
   markdown: {
     hooks: {
-      onBrokenMarkdownLinks: 'warn',
+      onBrokenMarkdownLinks: 'throw',
     },
     format: 'mdx',
     mdx1Compat: {

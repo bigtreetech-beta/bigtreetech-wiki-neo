@@ -52,11 +52,13 @@ jobs:
           secret_access_key=${{ secrets.OSS_KEY_SECRET }} \
           endpoint=https://oss-cn-shenzhen.aliyuncs.com \
           region=cn-shenzhen \
-          acl=public-read
 
     - name: Copy build to Aliyun OSS
       run: |
-        rclone copy build aliyun:btt-wiki \
+        rclone sync build aliyun:btt-wiki \
+          --exclude "/robots.txt" \
+          --exclude "/favicon.ico" \
+          --exclude "/404.html" \
           --fast-list \
           --checkers=32 \
           --transfers=16 \
@@ -73,7 +75,9 @@ jobs:
 
     - name: Copy build to Cloudflare R2
       run: |
-        rclone copy build r2:${{ secrets.R2_BUCKET }} \
+        rclone sync build r2:${{ secrets.R2_BUCKET }} \
+          --exclude "/robots.txt" \
+          --exclude "/favicon.ico" \
           --fast-list \
           --checkers=32 \
           --transfers=16 \
