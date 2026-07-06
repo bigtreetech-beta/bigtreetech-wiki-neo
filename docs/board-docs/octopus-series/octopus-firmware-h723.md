@@ -50,7 +50,9 @@ make
 ## 写入固件
 
 :::note[USB 供电]
+
 如果你在写入固件的时候使用 USB Type-C 接口进行供电。`VUSB` 跳线需要接上。
+
 :::
 
 当使用 Klipper 固件编译完成后。使用 USB Type-C 连接线连接到 Klipper Host 上。
