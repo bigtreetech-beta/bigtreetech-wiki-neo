@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# Octopus Max EZ 固件配置
+# Octopus Max EZ Firmware Configuration
 
-Max EZ 固件配置
+Max EZ Firmware Configuration
 
 {/* import lib start */}
 
@@ -15,11 +15,11 @@ import TabItem from '@theme/TabItem';
 
 ## Klipper
 
-### 写入 Klipper 固件
+### Flashing the Klipper Firmware
 
-Octopus Max EZ 写入 Klipper 固件参考 [Octopus 系列固件 (STM32H723)](../octopus-firmware-h723.md)
+Octopus Max EZ Klipper Firmware Reference [Octopus Series Firmware (STM32H723)](../octopus-firmware-h723.md)
 
-### Klipper 配置文件参考
+### Klipper Configuration File Reference
 
 ``` klipper_cfg title="printer.cfg"
 [mcu]
@@ -346,4 +346,4 @@ aliases:
 
 ## Marlin
 
-### 配置 Marlin
+### Configuring Marlin

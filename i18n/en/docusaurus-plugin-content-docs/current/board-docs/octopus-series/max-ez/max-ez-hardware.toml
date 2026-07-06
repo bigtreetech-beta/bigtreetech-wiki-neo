@@ -1,0 +1,538 @@
+[metadata]
+
+[[block]]
+key = "b017d67f50a55c67"
+origin = '''
+---
+sidebar_position: 2
+---
+'''
+translate = '''
+---
+sidebar_position: 2
+---
+'''
+
+[[block]]
+key = "3532ff4b9de0986e"
+origin = '''
+# Octopus Max EZ 硬件功能
+'''
+translate = '''
+# Octopus Max EZ Hardware Features
+'''
+
+[[block]]
+key = "6efeb0eaf6de4942"
+origin = '''
+Max EZ 硬件详细
+'''
+translate = '''
+Max EZ Hardware Details
+'''
+
+[[block]]
+key = "9e2c16dcc92bf7ce"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "160e2c82fbaef13c"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "c012cc6c2fca315b"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "315c24abe8051454"
+origin = '''
+## 外观尺寸
+'''
+translate = '''
+## Dimensions
+'''
+
+[[block]]
+key = "a3c1e7ddacfbeebf"
+origin = '''
+<ImageView
+    src={require('./img/max-ez-size-v1.png').default}
+    alt="max ez size" width="800"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/octopus-series/max-ez/img/max-ez-size-v1.png').default}
+    alt="max ez size" width="800"
+/>
+'''
+
+[[block]]
+key = "732a6bc30f7f35f8"
+origin = '''
+## Pinout
+'''
+translate = '''
+## Pinout
+'''
+
+[[block]]
+key = "7d911f5d59710ba6"
+origin = '''
+<ImageView
+    src={require('./img/max-ez-pinout-v1.png').default}
+    alt="max ez pinout" width="800"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/octopus-series/max-ez/img/max-ez-pinout-v1.png').default}
+    alt="max ez pinout" width="800"
+/>
+'''
+
+[[block]]
+key = "22474d1e13bee64d"
+origin = '''
+## 硬件功能配置
+'''
+translate = '''
+## Hardware Features and Specifications
+'''
+
+[[block]]
+key = "b9bee56e52c644df"
+origin = '''
+### USB 接口供电
+'''
+translate = '''
+### Powered via USB Port
+'''
+
+[[block]]
+key = "9d073af9aa287ba8"
+origin = '''
+Octopus Max EZ 上电后，MCU 左侧的红灯 `D32` 将亮起，表示电源已打开。仅使用 `USB` 为电路板供电或通过 `USB` 供电时，请将跳线帽插入 `VUSB。`
+'''
+translate = '''
+When the Octopus Max EZ is powered on, the red LED `D32` on the left side of the MCU will light up, indicating that the power is on. When powering the board using only `USB` or via `USB`, insert the jumper cap into `VUSB`.
+'''
+
+[[block]]
+key = "f496ffbb54254275"
+origin = '''
+<ImageView
+    src={require('./img/Octopus_MAX_EZ_Hardware1.png').default}
+    alt="max ez vusb" width="70%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/octopus-series/max-ez/img/Octopus_MAX_EZ_Hardware1.png').default}
+    alt="max ez vusb" width="70%"
+/>
+'''
+
+[[block]]
+key = "8e86f4a99b8d8a34"
+origin = '''
+### EZ 驱动模式配置
+'''
+translate = '''
+### EZ Drive Mode Configuration
+'''
+
+[[block]]
+key = "cbb8c678b344fcc5"
+origin = '''
+通过固件直接设置，无需手动跳线帽选择。
+'''
+translate = '''
+Configure directly via firmware; no need to manually select jumper caps.
+'''
+
+[[block]]
+key = "a55f1c4edb3ff238"
+origin = '''
+### TMC 驱动 DIAG PIN (Sensorless Homing)
+'''
+translate = '''
+### TMC Driver DIAG PIN (Sensorless Homing)
+'''
+
+[[block]]
+key = "33f6a3a7fa915406"
+origin = '''
+<ImageView
+    src={require('./img/Octopus_MAX_EZ_Hardware2.png').default}
+    alt="max ez tmc" width="70%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/octopus-series/max-ez/img/Octopus_MAX_EZ_Hardware2.png').default}
+    alt="max ez tmc" width="70%"
+/>
+'''
+
+[[block]]
+key = "a1d00b1586f50e5e"
+origin = '''
+### 驱动供电
+'''
+translate = '''
+### Driver Power Supply
+'''
+
+[[block]]
+key = "22d44623c6ad9df9"
+origin = '''
+<Tabs groupId="maxez-v">
+    <TabItem value="VBB" label="Max EZ VBB" default>
+        当使用 `VBB` 进行供电的时候。来源为主板 `Power` 输入。最高电压为 `24V`。
+        <ImageView
+            src={require('./img/max-ez-driver-vbb.png').default}
+            alt="max ez vbb" width="70%"
+        />
+    </TabItem>
+    <TabItem value="high-oltage" label="Max EZ High Voltage">
+        当使用 `High Voltage` 进行供电的时候。来源为主板 `Motor Power` 输入。最高电压为 `56V`。需要注意驱动最大电压范围。
+        <ImageView
+            src={require('./img/max-ez-driver-hv.png').default}
+            alt="max ez high voltage" width="70%"
+        />
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+<Tabs groupId="maxez-v">
+    <TabItem value="VBB" label="Max EZ VBB" default>
+        When using `VBB` for power, the source is the motherboard's `Power` input. The maximum voltage is `24V`.
+        <ImageView
+            src={require('@site/docs/board-docs/octopus-series/max-ez/img/max-ez-driver-vbb.png').default}
+            alt="max ez vbb" width="70%"
+        />
+    </TabItem>
+    <TabItem value="high-oltage" label="Max EZ High Voltage">
+        When using `High Voltage` for power supply, the source is the motherboard's `Motor Power` input. The maximum voltage is `56V`. Be sure to observe the driver’s maximum voltage range.
+        <ImageView
+            src={require('@site/docs/board-docs/octopus-series/max-ez/img/max-ez-driver-hv.png').default}
+            alt="max ez high voltage" width="70%"
+        />
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "07982d3e80d6740c"
+origin = '''
+### 风扇电压选择
+'''
+translate = '''
+### Fan Voltage Selection
+'''
+
+[[block]]
+key = "cde44eb5a22c23d0"
+origin = '''
+:::warning
+
+选择电压前需要注意风扇最高电压。过高的电压可能导致风扇损坏。
+
+:::
+'''
+translate = '''
+:::warning
+
+Before selecting a voltage, be sure to check the fan's maximum voltage. Excessively high voltage may damage the fan.111
+
+:::
+'''
+
+[[block]]
+key = "09e0d65fbb9ab2b2"
+origin = '''
+通过跳帽来设置输出电压为 `5V` `12V` 或是 `24V`。 (其中 `MFAN` 与 `FAN6` 共用电源 `VFAN6`).
+'''
+translate = '''
+Use jumpers to set the output voltage to `5V`, `12V`, or `24V`. (Note that `MFAN` and `FAN6` share the `VFAN6` power supply.)
+'''
+
+[[block]]
+key = "b0540b4fa816c2dc"
+origin = '''
+<ImageView
+    src={require('./img/Octopus_MAX_EZ_Hardware5.png').default}
+    alt="max ez fan" width="70%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/octopus-series/max-ez/img/Octopus_MAX_EZ_Hardware5.png').default}
+    alt="max ez fan" width="70%"
+/>
+'''
+
+[[block]]
+key = "0b4457c37af98a0c"
+origin = '''
+### 100K NTC 或 PT1000 跳线配置
+'''
+translate = '''
+### 100K NTC or PT1000 Jumper Configuration
+'''
+
+[[block]]
+key = "f9c3d912fb1af37a"
+origin = '''
+使用 100K NTC 时，无需连接跳线，`TH0` `TH1` `TH2` 和 `TH3`的上拉电阻为 **4.7K 0.1%**。使用 `PT1000` 时，需要通过跳线连接下图所示引脚，并联 **4.12K 0.1%** 电阻，`TH0` `TH1` `TH2`和 `TH3`的上拉电阻为 **2.2K**。
+'''
+translate = '''
+When using a 100K NTC, no jumper is required, and the pull-up resistors for `TH0`, `TH1`, `TH2`, and `TH3` are **4.7K 0.1%**. When using a `PT1000`, you must connect the pins shown in the figure below using jumpers and connect **4.12K 0.1%** resistors in parallel; the pull-up resistors for `TH0`, `TH1`, `TH2`, and `TH3` are **2.2K**.
+'''
+
+[[block]]
+key = "9a995d23270178b8"
+origin = '''
+:::info
+
+这种连接 PT1000 的方法读取温度的精度远低于 `MAX31865`
+
+:::
+'''
+translate = '''
+:::info
+
+This method of connecting a PT1000 results in much lower temperature reading accuracy than the `MAX31865`.
+
+:::
+'''
+
+[[block]]
+key = "c5359ed5b27a561a"
+origin = '''
+<ImageView
+    src={require('./img/Octopus_MAX_EZ_Hardware6.png').default}
+    alt="max ez ntc" width="70%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/octopus-series/max-ez/img/Octopus_MAX_EZ_Hardware6.png').default}
+    alt="max ez ntc" width="70%"
+/>
+'''
+
+[[block]]
+key = "2cab2c88b77b6f10"
+origin = '''
+### BLTouch 接线
+'''
+translate = '''
+### BLTouch Wiring
+'''
+
+[[block]]
+key = "2688980db49ee786"
+origin = '''
+<ImageView
+    src={require('./img/Octopus_MAX_EZ_Hardware7.png').default}
+    alt="max ez bltouch" width="70%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/octopus-series/max-ez/img/Octopus_MAX_EZ_Hardware7.png').default}
+    alt="max ez bltouch" width="70%"
+/>
+'''
+
+[[block]]
+key = "8ad9d7b4ea3bca7d"
+origin = '''
+### 自动断电模块 (v1.2) 接线
+'''
+translate = '''
+### Automatic Power-Off Module (v1.2) Wiring
+'''
+
+[[block]]
+key = "146724d90ab8b4f3"
+origin = '''
+<ImageView
+    src={require('./img/Octopus_MAX_EZ_Hardware8.png').default}
+    alt="max ez auto power" width="70%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/octopus-series/max-ez/img/Octopus_MAX_EZ_Hardware8.png').default}
+    alt="max ez auto power" width="70%"
+/>
+'''
+
+[[block]]
+key = "b68ab1c3d9970d38"
+origin = '''
+### MINI12864 / TFT 屏幕
+'''
+translate = '''
+### MINI12864 / TFT Screen
+'''
+
+[[block]]
+key = "38d4da67dde2b493"
+origin = '''
+<ImageView
+    src={require('./img/Octopus_MAX_EZ_Hardware9.png').default}
+    alt="max ez screen" width="70%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/octopus-series/max-ez/img/Octopus_MAX_EZ_Hardware9.png').default}
+    alt="max ez screen" width="70%"
+/>
+'''
+
+[[block]]
+key = "94803a519ba22631"
+origin = '''
+### Neopixel
+'''
+translate = '''
+### Neopixel
+'''
+
+[[block]]
+key = "3dfe01a8a771aefc"
+origin = '''
+<ImageView
+    src={require('./img/Octopus_MAX_EZ_Hardware10.png').default}
+    alt="max ez Neopixel" width="70%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/octopus-series/max-ez/img/Octopus_MAX_EZ_Hardware10.png').default}
+    alt="max ez Neopixel" width="70%"
+/>
+'''
+
+[[block]]
+key = "c318b6f96aeafcfa"
+origin = '''
+### 耗材传感器
+'''
+translate = '''
+### Filament Sensors
+'''
+
+[[block]]
+key = "4c8bd8b5c2d40df2"
+origin = '''
+<ImageView
+    src={require('./img/Octopus_MAX_EZ_Hardware11.png').default}
+    alt="max ez Filament sensor" width="70%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/octopus-series/max-ez/img/Octopus_MAX_EZ_Hardware11.png').default}
+    alt="max ez Filament sensor" width="70%"
+/>
+'''
+
+[[block]]
+key = "227ecfa435f152a2"
+origin = '''
+### 接近开关
+'''
+translate = '''
+### Proximity Switch
+'''
+
+[[block]]
+key = "9f1800e0ce412ac4"
+origin = '''
+<Tabs groupId="maxez-pro-switch">
+    <TabItem value="VBB" label="常开 NPN 接近开关" default>
+        <ImageView
+            src={require('./img/Octopus_MAX_EZ_Hardware12.png').default}
+            alt="max ez npn" width="70%"
+        />
+    </TabItem>
+    <TabItem value="high-oltage" label="常闭 PNP 接近开关">
+        <ImageView
+            src={require('./img/Octopus_MAX_EZ_Hardware13.png').default}
+            alt="max ez pnp" width="70%"
+        />
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+<Tabs groupId="maxez-pro-switch">
+    <TabItem value="VBB" label="Normally Open NPN Proximity Switch" default>
+        <ImageView
+            src={require('@site/docs/board-docs/octopus-series/max-ez/img/Octopus_MAX_EZ_Hardware12.png').default}
+            alt="max ez npn" width="70%"
+        />
+    </TabItem>
+    <TabItem value="high-oltage" label="Normally Closed PNP Proximity Switch">
+        <ImageView
+            src={require('@site/docs/board-docs/octopus-series/max-ez/img/Octopus_MAX_EZ_Hardware13.png').default}
+            alt="max ez pnp" width="70%"
+        />
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "efe498b276ada1ee"
+origin = '''
+### 4 PIN PWM 风扇 或者水冷
+'''
+translate = '''
+### 4-Pin PWM Fan or Water Cooling
+'''
+
+[[block]]
+key = "af33600fb0c9ffaf"
+origin = '''
+下面是使用 12V电压的接线方法
+'''
+translate = '''
+Below are the wiring instructions for a 12V system.
+'''
+
+[[block]]
+key = "2c5ed645da5f9c15"
+origin = '''
+<ImageView
+    src={require('./img/Octopus_MAX_EZ_Hardware14.png').default}
+    alt="max ez pnp" width="70%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/octopus-series/max-ez/img/Octopus_MAX_EZ_Hardware14.png').default}
+    alt="max ez pnp" width="70%"
+/>
+'''

@@ -2,9 +2,9 @@
 sidebar_position: 10
 ---
 
-# Manta M8P 系列固件 (STM32H723)
+# Manta M8P Series Firmware (STM32H723)
 
-使用 `STM32H723` MCU 的 Manta M8P 
+Manta M8P with the `STM32H723` MCU 
 
 {/* import lib start */}
 
@@ -13,9 +13,9 @@ import TabItem from '@theme/TabItem';
 
 {/* import lib end */}
 
-## 构建固件
+## Building the Firmware
 
-使用 ssh 连接到 Klipper Host. 然后使用以下命令进入 Klipper 目录。并且使用 `make menuconfig` 配置固件。
+Connect to the Klipper Host via SSH. Then use the following command to navigate to the Klipper directory. Use `make menuconfig` to configure the firmware.
 
 ``` shell
 cd ~/klipper
@@ -23,15 +23,15 @@ make menuconfig
 ```
 
 <Tabs groupId="m8p-v2-make-connect">
-    <TabItem value="bridge" label="CAN 桥接固件" default>
-        按照以下选项构建使用 `STM32H723` 为 `MCU` 的 `Manta M8P` CAN 桥接固件
+    <TabItem value="bridge" label="CAN Bridge Firmware" default>
+        Build the `Manta M8P` CAN bridge firmware using the `STM32H723` as the `MCU` according to the following options
         <ImageView
             src={require('@site/docs/board-docs/manta-series/img/manta-h723-make-bridge.png').default}
             alt="manta m8p with h723 bridge"
         />
     </TabItem>
-    <TabItem value="usb" label="USB 串口固件">
-        按照以下选项构建使用 `STM32H723` 为 `MCU` 的 `Manta M8P` USB 串口固件
+    <TabItem value="usb" label="USB Serial Firmware">
+        Build the `Manta M8P` USB serial firmware using the `STM32H723` as the `MCU`, following the options below
         <ImageView
             src={require('@site/docs/board-docs/manta-series/img/manta-h723-make-usb.png').default}
             alt="manta m8p with h723 usb"
@@ -39,21 +39,21 @@ make menuconfig
     </TabItem>
 </Tabs>
 
-当配置完成使用 `q` 来退出。使用 `y` 来保存编译选项。
+When you're done configuring, use `q` to exit. Use `y` to save the compilation options.
 
-然后使用 `make` 命令来开始编译 Klipper 固件
+Then use the `make` command to start compiling the Klipper firmware
 
 ``` shell
 make
 ```
 
-## 写入固件
+## Flash Firmware
 
-当使用 Klipper 固件编译完成后。然后按住 `Manta M8P` 的 `boot` 按钮。然后按一下 `reset` 然后松开 `boot` 按钮进入 `DFU` 模式。
+Once the Klipper firmware has finished compiling, press and hold the `boot` button on the `Manta M8P`. Then press the `reset` button once and release the `boot` button to enter `DFU` mode.
 
-然后可以使用 `lsusb` 命令来确认 `Manta M8P` 是否在 `DFU` 模式中。
+You can then use the `lsusb` command to verify whether the `Manta M8P` is in `DFU` mode.
 
-当确认 Manta M8P 在 DFU 模式中后。可以使用以下命令来写入固件。
+Once you have confirmed that the Manta M8P is in DFU mode, you can use the following command to flash the firmware.
 
 ``` shell
 make flash FLASH_DEVICE=0483:df11
