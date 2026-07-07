@@ -75,7 +75,7 @@ def main():
                 logger.warning(f"Skip missing file: {md_file}")
                 continue
 
-            build_file(md_file, build_middleware, cache_data)
+            build_file(md_file, build_middleware, cache_data, current_lang)
 
         try:
             Path(build_cache_base).mkdir(parents=True, exist_ok=True)

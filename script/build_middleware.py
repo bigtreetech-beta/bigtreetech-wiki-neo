@@ -1,3 +1,4 @@
+import os # only for get env var
 import json
 import re
 import tomlkit
@@ -13,6 +14,14 @@ logging.basicConfig(
     datefmt='%H:%M:%S'
 )
 logger = logging.getLogger(__name__)
+
+if os.getenv("DASHSCOPE_API_KEY"):
+    logger.info("API define translation enabled")
+    from backend.qwen_backend import translate_ai
+    AI_TRANSLATION_ENABLED = True
+else:
+    logger.info("API undefine translation disabled (DASHSCOPE_API_KEY not set)")
+    AI_TRANSLATION_ENABLED = False
 
 def get_file_sha256(path: Path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -111,8 +120,11 @@ def process_markdown_image_paths(text: str, md_path: Path):
         text
     )
 
-def block_control(text, md_path, is_jsx=False):
+def block_control(text, md_path,
+                  target_language:str):
     
+    is_jsx = False
+
     front_matter_pattern = r"^---\s*\n[\s\S]*?\n---\s*"
     if re.match(front_matter_pattern, text.strip()):
         return f"{text}"
@@ -144,13 +156,15 @@ def block_control(text, md_path, is_jsx=False):
         return process_markdown_image_paths(text, md_path)
     
     # text block can be translate
-    # if text.endswith('\n'):
-    #     return f"{text.rstrip()} [translated]\n"
+    if text.endswith('\n') and AI_TRANSLATION_ENABLED:
+        # return f"{text.rstrip()} [translated]\n"
+        return f"{translate_ai(text, f"zh", target_language)}\n"
     
     # fail back return text
     return f"{text}"
 
-def build_toml(blocks, existing_translations, md_path):
+def build_toml(blocks, existing_translations, md_path, 
+               target_language:str):
     doc = tomlkit.document()
     doc.add("metadata", {}) 
     blocks_array = tomlkit.aot() 
@@ -161,7 +175,8 @@ def build_toml(blocks, existing_translations, md_path):
             translated = existing_translations[key]
         else:
             # use block control to the post process
-            translated = block_control(b, md_path)
+            translated = block_control(b, md_path,
+                                       target_language)
 
         table = tomlkit.table()
         table.add("key", key)
@@ -176,7 +191,8 @@ def build_toml(blocks, existing_translations, md_path):
     return tomlkit.dumps(doc)
 
 
-def build_file(md_path: Path, local_root: str, cache: dict):
+def build_file(md_path: Path, local_root: str, cache: dict, 
+               target_language:str):
     rel_path = str(md_path)
     new_file_hash = get_file_sha256(md_path)
     
@@ -194,7 +210,8 @@ def build_file(md_path: Path, local_root: str, cache: dict):
         raw_content = md_path.read_text(encoding="utf-8")
         blocks = parse_blocks(raw_content)
         
-        toml_string = build_toml(blocks, existing_translations, md_path)
+        toml_string = build_toml(blocks, existing_translations, md_path, 
+                                 target_language)
         
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(toml_string, encoding="utf-8")
@@ -232,7 +249,7 @@ def main():
         logger.info(f"Found {len(md_files)} Markdown files")
 
         for md_file in md_files:
-            build_file(md_file, build_middleware, cache_data)
+            build_file(md_file, build_middleware, cache_data, current_lang)
             
         try:
             Path(build_cache_base).mkdir(parents=True, exist_ok=True)
