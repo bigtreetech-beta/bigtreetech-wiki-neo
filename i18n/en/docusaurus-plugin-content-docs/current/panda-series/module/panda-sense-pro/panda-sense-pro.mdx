@@ -1,0 +1,456 @@
+---
+sidebar_position: 1
+description: Panda Sense Pro is an 8-in-1 air quality monitoring module that tracks temperature, humidity, PM2.5, PM10, CO2, formaldehyde, TVOC, and AQI.
+---
+
+# Panda Sense Pro
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView
+    src={require('./img/panda-sense-pro-title.webp').default}
+    alt=""
+    width="35%"
+    class="right-image"
+/>
+Download printable files: [Panda Sense Pro Housing](https://github.com/bigtreetech/PandaSensePro)
+
+## Product Introduction
+
+BIQU Panda Sense Pro is an 8-in-1 air quality monitoring module that tracks temperature, humidity, PM2.5, PM10, CO₂, formaldehyde, eTVOC, and AQI in real time, helping you better understand the air around your home, workspace, or 3D printing area.
+
+## Technical Specifications
+
+| Panda Sense Pro | Specification |
+| --- | --- |
+| Printed Housing Dimensions | 117.12mm x 79.78mm x 73.67mm |
+| Power Input | USB-C DC5V 2A |
+| MCU | ESP32-S3-WROOM-1-N16R8 |
+| Current   | 0.52A (0.64A peak) |
+| Logic Voltage | 3.3V |
+| Additional Interfaces | I2C interface (compatible with Panda Sense module), reset button (for factory reset) |
+
+</div>
+
+## Product Features
+
+- Monitor 8 key air metrics, including temperature, humidity, PM2.5, PM10, CO2, formaldehyde, TVOC, and AQI.
+
+- 3.5-inch color screen shows air data clearly at a glance.
+
+- Physical button for quick page switching.
+
+- This product carries a WIFI module, which can interact with information through the network
+
+- Reset button for quick factory restore.
+
+- Hardware flashing port for recovery if OTA update fails.
+
+## Package Contents
+
+<ImageView src={require('./img/baozhuang.webp').default} alt="" width="60%" />
+
+:::warning[Tip]
+
+The eTVOC module requires a 5-minute warm-up. After powering on the device, please wait a few minutes before checking eTVOC data.
+
+:::
+
+## Product Dimensions
+
+<ImageView src={require('./img/size.webp').default} alt="" width="60%" />
+
+## Assembly Guide
+
+### Install the Screen and Mainboard
+
+Connect the screen to the mainboard, then pass the screen through the slot on the side of the housing.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/install1.webp').default} width="60%"/>
+
+### Install the Printed Button
+
+Insert the printed button cover through the button hole, with the notch facing the back of the housing so it aligns with the PCB button.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/install2.webp').default} width="60%"/>
+
+### Secure the Mainboard
+
+Secure the mainboard to the printed housing with four M3x8 countersunk screws. When placing the mainboard, make sure the notch of the printed button cover aligns with the button on the mainboard, and that the side USB-C port aligns properly with the USB-C opening in the printed housing.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/install3.webp').default} width="60%"/>
+
+### Install the Screen Frame
+
+Place the screen into the corresponding position, snap the printed screen frame into place, and secure it from both sides with four M3x8 countersunk screws.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/install4.webp').default} width="60%"/>
+
+### Install the Sensor
+
+Insert the temperature and humidity sensor into the printed sensor holder, then secure it to the rear screw hole of the printed housing with one M3x5 socket head cap screw.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/install5.webp').default} width="60%"/>
+
+### Secure the Rear Cover
+
+Secure the rear cover to the housing with four M3x5 countersunk screws.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/install6.webp').default} width="60%"/>
+
+## Interface Description
+
+### Interface Diagram
+
+<ImageView src={require('./img/jiekou.webp').default} alt="" width="45%" />
+
+### Power Input Port
+
+Power the device through the USB-C port using a DC 5V 2A power adapter.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/powerin.webp').default} width="25%"/>
+
+### I2C Expansion Interface
+
+Reserved I2C interface for connecting a Panda Sense module for expansion.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/i2c.webp').default} width="25%"/>
+
+### Reset Button
+
+Reserved reset button. Press and hold to restore factory settings.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/reset.webp').default} width="25%"/>
+
+## Getting Started
+
+### Initial Setup
+
+1. Connect power: Use the included USB-C cable to power the device. The screen will turn on automatically.
+
+2. Wait for warm-up: The eTVOC module requires a 5-minute warm-up. Please wait until warm-up is complete before checking eTVOC data.
+
+3. Network setup: The device will display its hotspot name when no network is configured.
+
+### Network Setup
+
+When the network has not been configured, the display will show the hotspot name `"Panda_Sense_Pro_XXXXXXXXXXXX"`.
+
+<ImageView src={require('./img/ap-name.webp').default} width="256"/>
+
+Use a phone or computer to connect to this hotspot. The default password is `987654321`.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/ap-select.webp').default} width="256"/>
+
+After connecting to the hotspot, if the Web UI does not open automatically, manually enter `http://192.168.254.1/` in your browser.
+
+Select a language.
+
+<ImageView src={require('./img/select-lang.webp').default} width="256"/>
+
+After scanning for Wi-Fi, select the Wi-Fi network you want to connect to, enter the Wi-Fi password, and tap Connect.
+
+<ImageView src={require('./img/ap-connect.webp').default} width="256"/>
+
+### Select Time Zone
+
+Select the time zone for the device.
+
+<ImageView src={require('./img/select-timezone.webp').default} width="256"/>
+
+## Feature Introduction
+
+### View Sensor Data
+
+#### Real-Time Data
+
+There are several ways to view data:
+
+- Display Screen
+
+    <ImageView src={require('./img/sensor-data-screen.webp').default} width="256"/>
+
+- Web UI
+
+    <ImageView src={require('./img/sensor-data-web.webp').default} width="256"/>
+
+- Klipper Virtual Sensor
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/sensor-data-klipper.webp').default} width="256"/>
+
+    :::info[note]
+
+    This feature requires the related configuration to be added in `moonraker.conf`. If the data is not displayed, add at least one device, such as a fan, in `printer.cfg`.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/fan.webp').default} width="256"/>
+
+    :::
+
+    - moonraker.conf
+        ~~~
+        [mqtt]
+        address: xxx.xxx.xxx.xxx #Change to match the IP address of Panda Sense
+        port: 1883
+        client_id: moonraker
+        enable_tls: False
+        mqtt_protocol: v3.1
+        enable_moonraker_api: False
+        instance_name: my_printer
+
+        [sensor panda_sense_pro]
+        type: mqtt
+        name: Panda Sense Pro #Change if you have more than 1 Sense Pro to tell them apart
+        qos: 0
+        state_topic: pandasensepro/sensor
+        state_response_template: |
+        {% set resp = payload|fromjson %}
+        {% set edata = resp["data"] %}
+        {set_result("temperature", edata["temper"]|float)}
+        {set_result("humidity", edata["humidity"])}
+        {set_result("pm2_5", edata["pm2.5"])}
+        {set_result("pm10", edata["pm10"])}
+        {set_result("co2", edata["co2"])}
+        {set_result("etvoc", edata["etvoc"])}
+        {set_result("ch2o", edata["ch2o"])}
+        {set_result("aqi", edata["aqi"])}
+
+        parameter_temperature:
+        units=℃
+        parameter_humidity:
+        units=%
+        parameter_pm2_5:
+        units=µg/m³
+        parameter_pm10:
+        units=µg/m³
+        parameter_co2:
+        units=ppm
+        parameter_etvoc:
+        units=mg/m³
+        parameter_ch2o:
+        units=mg/m³
+        parameter_aqi:
+        units=-
+        history_field_humidity_consumption:
+        parameter=humidity
+        desc=Printer humidity consumption
+        strategy=average
+        units=%
+        init_tracker=true
+        precision=6
+        exclude_paused=false
+        report_total=true
+        report_maximum=true
+        ~~~
+
+#### Real-Time Graphs
+
+- PM2.5, PM10, AQI, humidity, formaldehyde, and eTVOC.
+
+    <ImageView src={require('./img/graph-1.webp').default} width="256"/>
+
+- CO2 and temperature
+
+    <ImageView src={require('./img/graph-2.webp').default} width="256"/>
+
+#### Historical Data
+
+- Tap the data panel to go to the history page.
+
+    <ImageView src={require('./img/history-pm2-5-1.webp').default} width="256"/>
+
+- 30-day history, showing the maximum and minimum values.
+
+    <ImageView src={require('./img/history-pm2-5-2.webp').default} width="256"/>
+
+- 24-hour data, showing the instant value for each hour.
+
+    <ImageView src={require('./img/history-pm2-5-3.webp').default} width="256"/>
+
+### Button Functions
+
+The button can be used to reset the device and switch the screen display page.
+
+#### Reset Device
+
+Press and hold the button for about 5 seconds to restore factory settings. The device will reset history records and system parameters such as language, network settings, and more.
+
+#### Switch Display Pages
+
+Click the button once, and the display will cycle through Real-Time Data -> Real-Time Graph 1 -> Real-Time Graph 2.
+
+### Modify Hostname
+
+Go to the Wi-Fi & IP page, modify the name, tap Set Hostname, and wait for the device to restart automatically for the change to take effect.
+
+<ImageView src={require('./img/change-hostname.webp').default} width="256"/>
+
+### Change AP Configuration
+
+Go to the AP page to modify the AP name, AP password, and Hotspot IP. Tap Confirm and restart the device for the changes to take effect.
+
+<ImageView src={require('./img/change-ap.webp').default} width="256"/>
+
+### Switch Temperature Unit
+
+You can switch between Celsius and Fahrenheit.
+
+<ImageView src={require('./img/temp-unit.webp').default} width="256"/>
+
+### Change Time Zone
+
+You can switch the time zone for the device. Daylight saving time is supported.
+
+<ImageView src={require('./img/change-timezone.webp').default} width="256"/>
+
+### Configure Screensaver
+
+The screensaver function is enabled by default and can also be disabled here.
+
+<ImageView src={require('./img/screensaver-1.webp').default} width="256"/>
+
+#### Screensaver Type
+
+- Dim Backlight
+
+- Matrix Rain
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/rain.webp').default} width="256"/>
+
+- Bouncing Ball
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/ball.webp').default} width="256"/>
+
+- Clock
+
+    <ImageView src={require('./img/clock.webp').default} width="256"/>
+
+#### Screensaver Timeout
+
+<ImageView src={require('./img/screen-saver-timeout.webp').default} width="256"/>
+
+:::info[Note]
+
+When the screensaver timeout is reached, the screen will enter screensaver mode. Press the button to exit screensaver mode, or disable this function to prevent the screen from entering screensaver mode.
+
+:::
+
+#### Sleep Delay
+
+<ImageView src={require('./img/sleep-delay.webp').default} width="256"/>
+
+:::info[Note]
+
+In screensaver mode, after the set sleep delay, the screen will enter sleep mode. Press the button to exit sleep mode, or disable this function to keep the screen in screensaver mode.
+
+:::
+
+#### Screen Brightness in Screensaver Mode
+
+<ImageView src={require('./img/brightness-screensaver.webp').default} width="256"/>
+
+#### Screen Brightness
+
+<ImageView src={require('./img/brightness.webp').default} width="256"/>
+
+#### GIF
+
+<ImageView src={require('./img/gif-update.webp').default} width="256"/>
+
+:::info[Note]
+
+The file size must not exceed 3 MB, and the resolution must not exceed 480 x 320.
+
+:::
+
+### Reset History
+
+After reset, the history records will be deleted.
+
+<ImageView src={require('./img/reset-history.webp').default} width="256"/>
+
+### Restore Factory Settings
+
+After reset, the history records will be deleted, and system parameters such as network settings, temperature unit, time zone, and screensaver settings will also be reset.
+
+<ImageView src={require('./img/factory-reset.webp').default} width="256"/>
+
+### Firmware Update
+
+#### Feature Requests
+
+If you would like to request new features for an upcoming Panda Sense Pro firmware release, please submit a feature request in the official [Panda Sense Pro GitHub repo](https://github.com/bigtreetech/PandaSensePro/issues).
+
+#### OTA Update
+
+Use a phone or computer browser to access the device Web UI.
+
+- Connect to the device's AP. The default name is `Panda_Sense_Pro_XXXXXXXXXXXX`, Enter  `http://192.168.254.1` in your browser.
+
+- If the device is already connected to a router, for example with the IP address 192.168.3.161, enter the IP address shown on the screen in your browser: `http://192.168.3.161`
+
+Go to the Settings page.
+
+- Tap to select the `.bin` file.
+
+    <ImageView src={require('./img/select-bin.webp').default} width="256"/>
+
+- Update successful.
+
+    <ImageView src={require('./img/update-ok.webp').default} width="256"/>
+
+#### flash_download_tool (Type-C Wired Flashing)
+
+:::info[Note]
+
+Panda Sense Pro normally supports OTA updates. Use this method only when OTA update fails or is unavailable.
+
+:::
+
+- If the CH340 driver is not installed on your computer, download and install the driver first: [CH341SER.EXE](https://www.wch-ic.com/downloads/CH341SER_EXE.html)
+
+- Download the [Flash Download Tool](https://www.espressif.com/en/support/download/other-tools)
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/download_esp_tool.webp').default} width="70%"/>
+
+- Download the [Panda Sense Pro flashable firmware](https://github.com/bigtreetech/PandaSensePro/tree/master/recovery_tool/flash)
+
+- Connect Panda Sense Pro to the computer via `Type-C`. A new COM port should appear in Device Manager.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/typec.webp').default} width="35%"/>
+
+- Open `flash_download_tool_3.x.x.exe`, and configure the pop-up window as shown below:
+
+    ChipType: `ESP32-S3`
+
+    WorkMode: `Develop`
+
+    LoadMode: `UART`
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/download.webp').default} width="200"/>
+
+- Configure the flashing software as shown below.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/esp_tool_config.webp').default} width="400"/>
+
+    1. Set the flashing address for each `.bin` file, and make sure the corresponding checkboxes are selected.
+
+        - Write `panda_sense_pro_production.bin` to `0x0000`
+
+    2. Set the COM port to the actual port. You can check it in your computer's `Device Manager` -> `Ports`. Set a suitable baud rate. `460800` is recommended.
+
+    3. Click `START` to begin flashing. Wait until flashing is complete, then power-cycle the device.
+
+### Firmware History
+
+#### [01.00.00.00](https://github.com/bigtreetech/PandaSensePro/blob/master/Firmware/01.00.00.00/panda_sense_pro_01.00.00.00.bin)
+
+- Initial factory release.

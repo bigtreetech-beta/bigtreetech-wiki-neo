@@ -25,6 +25,7 @@
     "@mdx-js/react": "^3.0.0",
     "artalk": "^2.9.1",
     "clsx": "^2.0.0",
+    "core-js": "^3.37.1",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -36,6 +37,7 @@
     "@docusaurus/module-type-aliases": "3.10.0",
     "@docusaurus/tsconfig": "3.10.0",
     "@docusaurus/types": "3.10.0",
+    "esbuild": "^0.21.5",
     "tsx": "^4.22.4",
     "typescript": "~5.6.2"
   },

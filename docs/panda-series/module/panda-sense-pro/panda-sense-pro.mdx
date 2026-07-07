@@ -1,0 +1,456 @@
+---
+sidebar_position: 1
+description: Panda Sense Pro是一款多功能空气质量检测模块，支持温湿度，PM2.5，CO2，甲醛，TVOC等检测
+---
+
+# Panda Sense Pro
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView
+    src={require('./img/panda-sense-pro-title.webp').default}
+    alt=""
+    width="35%"
+    class="right-image"
+/>
+打印件下载链接：[Panda sense pro 打印件](https://github.com/bigtreetech/PandaSensePro)
+
+## 产品简介
+
+BIQU Panda Sense Pro 是必趣创新科技（深圳）有限公司推出的一款搭配多款传感器的空气质量检测模块。可以在多场景使用，时时监控空气质量情况
+
+## 技术规格
+
+| Panda Sense Pro | 规格 |
+| --- | --- |
+| 产品外形尺寸 | 117.12mm x 79.78mm x 73.67mm |
+| 电源输入 | USB-C DC5V 2A |
+| MCU | ESP32-S3-WROOM-1-N16R8 |
+| 电流 | 0.52A（峰值0.64A） |
+| 逻辑电压 | 3.3V |
+| 扩展功能及接口 | I2C接口(可接Panda Sense模块)，重置按键(可恢复出厂设置) |
+
+</div>
+
+## 产品特点
+
+- 功能大幅度提升，不仅能测试温湿度，还可以检测PM2.5，CO2，甲醛，TVOC等
+
+- 带有3.5寸RGB屏幕显示，可直观看清各个参数值
+
+- 设有物理按键，能够灵活切换显示页面
+
+- 本产品板载WIFI模块，可以通过网络进行信息交互
+
+- 预留重置按键，一键恢复出厂设置
+
+- 预留硬件烧录口，当OTA升级失败时可以通过硬件烧录口二次拯救
+
+## 包装清单
+
+<ImageView src={require('./img/baozhuang.webp').default} alt="" width="60%" />
+
+:::warning[注意]
+
+eTVOC 模块需要预热 5 分钟，请确保设备通电后等待一段时间再查看 eTVOC 数据
+
+:::
+
+## 产品尺寸
+
+<ImageView src={require('./img/size.webp').default} alt="" width="60%" />
+
+## 产品组装指南
+
+### 安装屏幕与主板
+
+将屏幕连接主板后，将屏幕穿过壳体侧边的槽孔
+
+<ImageView src={require('./img/install1.webp').default} width="60%"/>
+
+### 安装打印按钮
+
+将打印按钮缺口朝上，穿过按键孔
+
+<ImageView src={require('./img/install2.webp').default} width="60%"/>
+
+### 固定主板
+
+用 4 颗 M3x8 沉头螺丝将主板固定在打印件外壳上。放入时注意打印按钮缺口与主板按键对应，以及侧面的 USB 口伸出到位
+
+<ImageView src={require('./img/install3.webp').default} width="60%"/>
+
+### 安装前盖
+
+将屏幕放入对应的位置，将前盖卡入卡位，使用 4 颗 M3x8 沉头螺丝从两侧固定前盖
+
+<ImageView src={require('./img/install4.webp').default} width="60%"/>
+
+### 安装传感器
+
+将温湿度传感器套入固定件外壳后，使用 1 颗 M3x5 杯头螺丝固定在主板后方
+
+<ImageView src={require('./img/install5.webp').default} width="60%"/>
+
+### 固定后盖
+
+用 4 颗 M3x5 杯头螺丝将后盖固定在外壳上
+
+<ImageView src={require('./img/install6.webp').default} width="60%"/>
+
+## 产品接口说明
+
+### 接口示意图
+
+<ImageView src={require('./img/jiekou.webp').default} alt="" width="45%" />
+
+### 电源输入接口
+
+使用 DC 5V 2A 电源适配器，通过 USB-C 接口 为产品供电
+
+<ImageView src={require('./img/powerin.webp').default} width="25%"/>
+
+### I2C 扩展接口
+
+预留 I2C 接口，可接 Panda Sense 模块进行扩展
+
+<ImageView src={require('./img/i2c.webp').default} width="25%"/>
+
+### 重置按键
+
+预留重置按键，长按可恢复出厂设置。
+
+<ImageView src={require('./img/reset.webp').default} width="25%"/>
+
+## 使用指南
+
+### 首次使用
+
+1. 连接电源：使用 USB-C 线为设备供电，屏幕将自动亮起
+
+2. 等待预热：eTVOC 模块需要预热 5 分钟，请等待预热完成后再查看 eTVOC 数据
+
+3. 配网设置：根据屏幕显示的热点名称在手机或电脑连接后进行配网操作
+
+### 配网
+
+没有配置网络时，显示屏会显示热点名称"Panda_Sense_Pro_XXXXXXXXXXXX"
+
+<ImageView src={require('./img/ap-name.webp').default} width="256"/>
+
+使用手机或者电脑连接该热点，密码默认是 `987654321`
+
+<ImageView src={require('./img/ap-select.webp').default} width="256"/>
+
+连接热点后如果没有自动跳转到 WEB UI，需要在浏览器手动输入: `http://192.168.254.1/`
+
+选择语言。
+
+<ImageView src={require('./img/select-lang.webp').default} width="256"/>
+
+扫描 WiFi 后，选择需要连接的 WiFi 名称，输入 WiFi 密码后点击连接
+
+<ImageView src={require('./img/ap-connect.webp').default} width="256"/>
+
+### 选择时区
+
+选择设备所属的时区
+
+<ImageView src={require('./img/select-timezone.webp').default} width="256"/>
+
+## 功能介绍
+
+### 查看传感器数据
+
+#### 实时数据
+
+有多种查看数据的方式：
+
+- 显示屏
+
+    <ImageView src={require('./img/sensor-data-screen.webp').default} width="256"/>
+
+- WEB UI
+
+    <ImageView src={require('./img/sensor-data-web.webp').default} width="256"/>
+
+- Klipper 虚拟传感器
+
+    <ImageView src={require('./img/sensor-data-klipper.webp').default} width="256"/>
+
+    :::info[注意]
+
+    该功能需要修改 moonraker.conf 相关配置来实现，如果不显示数据，则需要在 printer.cfg 中至少添加一种设备，比如风扇
+
+    <ImageView src={require('./img/fan.webp').default} width="256"/>
+
+    :::
+
+    - moonraker.conf
+        ~~~
+        [mqtt]
+        address: xxx.xxx.xxx.xxx #Change to match the IP address of Panda Sense
+        port: 1883
+        client_id: moonraker
+        enable_tls: False
+        mqtt_protocol: v3.1
+        enable_moonraker_api: False
+        instance_name: my_printer
+
+        [sensor panda_sense_pro]
+        type: mqtt
+        name: Panda Sense Pro #Change if you have more than 1 Sense Pro to tell them apart
+        qos: 0
+        state_topic: pandasensepro/sensor
+        state_response_template: |
+        {% set resp = payload|fromjson %}
+        {% set edata = resp["data"] %}
+        {set_result("temperature", edata["temper"]|float)}
+        {set_result("humidity", edata["humidity"])}
+        {set_result("pm2_5", edata["pm2.5"])}
+        {set_result("pm10", edata["pm10"])}
+        {set_result("co2", edata["co2"])}
+        {set_result("etvoc", edata["etvoc"])}
+        {set_result("ch2o", edata["ch2o"])}
+        {set_result("aqi", edata["aqi"])}
+
+        parameter_temperature:
+        units=℃
+        parameter_humidity:
+        units=%
+        parameter_pm2_5:
+        units=µg/m³
+        parameter_pm10:
+        units=µg/m³
+        parameter_co2:
+        units=ppm
+        parameter_etvoc:
+        units=mg/m³
+        parameter_ch2o:
+        units=mg/m³
+        parameter_aqi:
+        units=-
+        history_field_humidity_consumption:
+        parameter=humidity
+        desc=Printer humidity consumption
+        strategy=average
+        units=%
+        init_tracker=true
+        precision=6
+        exclude_paused=false
+        report_total=true
+        report_maximum=true
+        ~~~
+
+#### 实时曲线
+
+- PM2.5，PM10，AQI，湿度，甲醛浓度，eTVOC
+
+    <ImageView src={require('./img/graph-1.webp').default} width="256"/>
+
+- 二氧化碳浓度，温度
+
+    <ImageView src={require('./img/graph-2.webp').default} width="256"/>
+
+#### 历史数据
+
+- 点击数据面板跳转到历史记录页面
+
+    <ImageView src={require('./img/history-pm2-5-1.webp').default} width="256"/>
+
+- 30 天历史记录，显示最大值和最小值
+
+    <ImageView src={require('./img/history-pm2-5-2.webp').default} width="256"/>
+
+- 24 小时数据，显示每个小时的瞬时值
+
+    <ImageView src={require('./img/history-pm2-5-3.webp').default} width="256"/>
+
+### 按键功能
+
+按键可以用于重置设备和切换屏幕显示页面
+
+#### 重置设备
+
+长按 5 秒左右进行恢复出厂设置，设备会重置历史记录，重置系统参数，如语言，网络等
+
+#### 切换显示页面
+
+单击按键，显示屏会循环切换实时数据->实时曲线1->实时曲线2
+
+### 修改 Hostname
+
+切换到 Wi-Fi&IP 页面，修改名称，点击设置主机名，等待设备自动重启后生效
+
+<ImageView src={require('./img/change-hostname.webp').default} width="256"/>
+
+### 更改 AP 配置
+
+切换到 AP 页面，可以修改 AP 名称，AP 密码以及 AP 的网关 IP。点击确认按钮后重启生效
+
+<ImageView src={require('./img/change-ap.webp').default} width="256"/>
+
+### 切换温度单位
+
+可以切换摄氏度和华氏度
+
+<ImageView src={require('./img/temp-unit.webp').default} width="256"/>
+
+### 修改时区
+
+可以切换设备所属的时区，支持夏令时
+
+<ImageView src={require('./img/change-timezone.webp').default} width="256"/>
+
+### 配置屏保
+
+默认是打开屏保功能的，也可以在此关闭
+
+<ImageView src={require('./img/screensaver-1.webp').default} width="256"/>
+
+#### 屏保类型
+
+- 降低背光亮度
+
+- 字符雨
+
+    <ImageView src={require('./img/rain.webp').default} width="256"/>
+
+- 碰撞球
+
+    <ImageView src={require('./img/ball.webp').default} width="256"/>
+
+- 时钟
+
+    <ImageView src={require('./img/clock.webp').default} width="256"/>
+
+#### 屏保超时时间
+
+<ImageView src={require('./img/screen-saver-timeout.webp').default} width="256"/>
+
+:::info[说明]
+
+一个自然周期后，屏幕会进入屏保，按下按键可以退出此状态，也可以关闭此功能不进入屏保
+
+:::
+
+#### 休眠延时时间
+
+<ImageView src={require('./img/sleep-delay.webp').default} width="256"/>
+
+:::info[说明]
+
+屏保状态下，一个自然周期后，屏幕会进入休眠状态，按下按键可以退出此状态，也可以关闭此功能停留在屏保状态
+
+:::
+
+#### 屏保时的屏幕亮度
+
+<ImageView src={require('./img/brightness-screensaver.webp').default} width="256"/>
+
+#### 屏幕亮度
+
+<ImageView src={require('./img/brightness.webp').default} width="256"/>
+
+#### GIF 播放
+
+<ImageView src={require('./img/gif-update.webp').default} width="256"/>
+
+:::info[注意]
+
+文件最大为 3M，分辨率不能超过 480*320
+
+:::
+
+### 重置历史记录
+
+重置后，历史记录会被删除
+
+<ImageView src={require('./img/reset-history.webp').default} width="256"/>
+
+### 恢复出厂设置
+
+重置后，历史记录会被删除，配网，温度单位，时区，屏保参数等系统参数也会被重置
+
+<ImageView src={require('./img/factory-reset.webp').default} width="256"/>
+
+### 固件更新
+
+#### 功能请求
+
+如果您希望在即将发布的 Panda Sense Pro 固件中增加产品需求，请在官方 [Panda Sense Pro github repo](https://github.com/bigtreetech/PandaSensePro/issues) 上提交功能请求
+
+#### OTA 更新
+
+使用手机或者电脑打开浏览器访问设备的 WEB UI
+
+- 连接设备自身的 AP，名称默认为 Panda_Sense_Pro_XXXXXXXXXXXX，在浏览器输入地址 `http://192.168.254.1`
+
+- 如果设备已经连上路由器（以 IP 地址 192.168.3.161 为例），在浏览器输入屏幕上显示的 IP 地址 `http://192.168.3.161`
+
+切换到设置页面
+
+- 点击选择 `.bin` 文件
+
+    <ImageView src={require('./img/select-bin.webp').default} width="256"/>
+
+- 更新成功
+
+    <ImageView src={require('./img/update-ok.webp').default} width="256"/>
+
+#### flash_download_tool (Type-C 线刷)
+
+:::info[注意]
+
+Panda Sense Pro 理应可以自由 OTA，此步骤仅在无法 OTA 时使用
+
+:::
+
+- 如果电脑上没有 CH340 的驱动，请先下载安装驱动 [CH341SER.EXE](https://www.wch.cn/downloads/CH341SER_EXE.html)
+
+- 下载 [Flash 下载工具](https://www.espressif.com/zh-hans/support/download/other-tools)
+
+    <ImageView src={require('./img/download_esp_tool.webp').default} width="70%"/>
+
+- 下载 [Panda Sense Pro 可烧录固件](https://github.com/bigtreetech/PandaSensePro/tree/master/recovery_tool/flash)
+
+- 通过 `Type-C` 将 Panda Sense Pro 插到电脑上，电脑的设备管理器中理应识别出一个新的 COM 端口
+
+    <ImageView src={require('./img/typec.webp').default} width="35%"/>
+
+- 打开 `flash_download_tool_3.x.x.exe`，在弹窗中按照下图配置：
+
+    ChipType: `ESP32-S3`
+
+    WorkMode: `Develop`
+
+    LoadMode: `UART`
+
+    <ImageView src={require('./img/download.webp').default} width="200"/>
+
+- 烧录软件的配置如下图
+
+    <ImageView src={require('./img/esp_tool_config.webp').default} width="400"/>
+
+    1. 设置 `.bin` 文件的烧录地址，并且前面的复选框都勾选上
+
+        - `panda_sense_pro_production.bin` 写入到 `0x0000`
+
+    2. 设置 COM 端口为实际的端口（可在电脑的 `设备管理器`->`端口` 中查看），并且设置一个合适的波特率，推荐使用 `460800`
+
+    3. 点击 `START` 开始烧录，等待烧录完成，断电重启即可。
+
+### 固件历史记录
+
+#### [01.00.00.00](https://github.com/bigtreetech/PandaSensePro/blob/master/Firmware/01.00.00.00/panda_sense_pro_01.00.00.00.bin)
+
+- 首次发布的出厂固件
