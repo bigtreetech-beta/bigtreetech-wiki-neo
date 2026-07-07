@@ -20,23 +20,23 @@ import DocCardList from '@theme/DocCardList';
     width="45%" class="right-image"
 />
 
-## 简介
+## Introduction
 
-SKR Pico 是一块专门为 Voron 0 系列设计的板子。可以直接和 Raspberry Pi 系列直接堆叠安装。减少所需要的安装空间。
+The SKR Pico is a board designed specifically for the Voron 0 series. It can be stacked directly on top of the Raspberry Pi series, reducing the required installation space.
 
-## Specification
+## Specifications
 
 | Specification                  | SKR Pico              |
-| ------------------------------ | --------------------- |
+| ----------------------------- - | --------------------- |
 | MCU                            | ARM Cortex-M0+ RP2040 |
-| 外观尺寸                       | 85 * 56mm             |
-| 板层                           | 4层                   |
-| 电源输入                       | DC 12/24V             |
-| 逻辑电压                       | 3.3V                  |
-| 电机驱动器                     | $4*$ TMC2209          |
-| 电机驱动接口                   | X / Y / Z1 / Z2 / E   |
-| 温度传感器接口                 | TH0、 THB             |
-| 与Raspberry Pi(树莓派)通信接口 | USB TYPE-C / 串口     |
+| Dimensions                       | 85 × 56 mm             |
+| Board Layers                        | 4 layers                   |
+| Power Input                       | DC 12/24 V             |
+| Logic Voltage                       | 3.3V                  |
+| Motor Drivers                     | $4*$ TMC2209          |
+| Motor Driver Interfaces             | X / Y / Z1 / Z2 / E   |
+| Temperature Sensor Interfaces     | TH0, THB             |
+| Communication Interfaces with Raspberry Pi | USB Type-C / Serial Port     |
 
 </div>
 
