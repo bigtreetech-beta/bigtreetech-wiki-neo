@@ -45,7 +45,7 @@ BIQU Panda Sense Pro is an 8-in-1 air quality monitoring module that tracks temp
 
 - Monitor 8 key air metrics, including temperature, humidity, PM2.5, PM10, CO2, formaldehyde, TVOC, and AQI.
 
-- 3.5-inch color screen shows air data clearly at a glance.
+- With 3.5-inch color screen shows air data clearly at a glance.
 
 - Physical button for quick page switching.
 
@@ -189,67 +189,11 @@ There are several ways to view data:
 
     :::info[note]
 
-    This feature requires the related configuration to be added in `moonraker.conf`. If the data is not displayed, add at least one device, such as a fan, in `printer.cfg`.
+    This feature requires the [moonraker_panda_sense_pro.conf](https://github.com/bigtreetech/PandaSensePro/blob/master/moonraker_panda_sense_pro.conf) to be added in `moonraker.conf`. If the data is not displayed, add at least one device, such as a fan, in `printer.cfg`.
 
     <ImageView src={require('@site/docs/panda-series/module/panda-sense-pro/img/fan.webp').default} width="256"/>
 
     :::
-
-    - moonraker.conf
-        ~~~
-        [mqtt]
-        address: xxx.xxx.xxx.xxx #Change to match the IP address of Panda Sense
-        port: 1883
-        client_id: moonraker
-        enable_tls: False
-        mqtt_protocol: v3.1
-        enable_moonraker_api: False
-        instance_name: my_printer
-
-        [sensor panda_sense_pro]
-        type: mqtt
-        name: Panda Sense Pro #Change if you have more than 1 Sense Pro to tell them apart
-        qos: 0
-        state_topic: pandasensepro/sensor
-        state_response_template: |
-        {% set resp = payload|fromjson %}
-        {% set edata = resp["data"] %}
-        {set_result("temperature", edata["temper"]|float)}
-        {set_result("humidity", edata["humidity"])}
-        {set_result("pm2_5", edata["pm2.5"])}
-        {set_result("pm10", edata["pm10"])}
-        {set_result("co2", edata["co2"])}
-        {set_result("etvoc", edata["etvoc"])}
-        {set_result("ch2o", edata["ch2o"])}
-        {set_result("aqi", edata["aqi"])}
-
-        parameter_temperature:
-        units=℃
-        parameter_humidity:
-        units=%
-        parameter_pm2_5:
-        units=µg/m³
-        parameter_pm10:
-        units=µg/m³
-        parameter_co2:
-        units=ppm
-        parameter_etvoc:
-        units=mg/m³
-        parameter_ch2o:
-        units=mg/m³
-        parameter_aqi:
-        units=-
-        history_field_humidity_consumption:
-        parameter=humidity
-        desc=Printer humidity consumption
-        strategy=average
-        units=%
-        init_tracker=true
-        precision=6
-        exclude_paused=false
-        report_total=true
-        report_maximum=true
-        ~~~
 
 #### Real-Time Graphs
 
