@@ -1,0 +1,143 @@
+[metadata]
+
+[[block]]
+key = "64ebbb4450057ee1"
+origin = '''
+---
+sidebar_position: 1
+description: Octopus Pro
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: Octopus Pro
+---
+'''
+
+[[block]]
+key = "7d1c38f887366aa9"
+origin = '''
+# Octopus Pro
+'''
+translate = '''
+# Octopus Pro
+'''
+
+[[block]]
+key = "9e2c16dcc92bf7ce"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "15528e6d9ac9f11b"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import DocCardList from '@theme/DocCardList';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import DocCardList from '@theme/DocCardList';
+'''
+
+[[block]]
+key = "c012cc6c2fca315b"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "e677dada568a7206"
+origin = '''
+## Specification
+'''
+translate = '''
+## Specification
+'''
+
+[[block]]
+key = "ce40e2df2f434e66"
+origin = '''
+| Octopus Pro H7 version | Specification                      |
+| ---------------------- | ---------------------------------- |
+| MCU                    | Arm Cortex-M7 STM32H723ZET6 550MHz |
+| 主板供电               | DC 12V - DC 24V                    |
+| 驱动供电               | 最高 DC56V (需要驱动支持)          |
+| 热床接口供电           | DC 12V - DC 24V                    |  |
+| 热床最大电流           | 10A (峰值 12A)                     |
+| 热端加热最大电流       | 5.5A (峰值 6A)                     |
+'''
+translate = '''
+| Octopus Pro H7 version | Specification                      |
+| ---------------------- | ---------------------------------- |
+| MCU                    | Arm Cortex-M7 STM32H723ZET6 550MHz |
+| Board Power Supply     | DC 12V - DC 24V                    |
+| Driver Power Supply    | Up to DC 56V (requires driver support) |
+| Heated Bed Interface Power Supply | DC 12V - DC 24V    |
+| Max Heated Bed Current | 10A (peak 12A)                     |
+| Max Hotend Heating Current | 5.5A (peak 6A)                 |
+'''
+
+[[block]]
+key = "dc66f24053586ad0"
+origin = '''
+| Octopus Pro F446 version | Specification                      |
+| ------------------------ | ---------------------------------- |
+| MCU                      | Arm Cortex-M7 STM32F446ZET6 180MHz |
+| 主板供电                 | DC 12V - DC 24V                    |
+| 驱动供电                 | 最高 DC56V (需要驱动支持)          |
+| 热床接口供电             | DC 12V - DC 24V                    |  |
+| 热床最大电流             | 10A (峰值 12A)                     |
+| 热端加热最大电流         | 5.5A (峰值 6A)                     |
+'''
+translate = '''
+| Octopus Pro F446 version | Specification                      |
+| ------------------------ | ---------------------------------- |
+| MCU                      | Arm Cortex-M7 STM32F446ZET6 180MHz |
+| Board power supply       | DC 12V - DC 24V                    |
+| Driver power supply      | Up to DC 56V (requires driver support) |
+| Heated bed interface power supply | DC 12V - DC 24V             |
+| Max heated bed current   | 10A (peak 12A)                     |
+| Max hotend heating current | 5.5A (peak 6A)                   |
+'''
+
+[[block]]
+key = "ff88f9c539243aa5"
+origin = '''
+| Octopus Pro F429 version | Specification                      |
+| ------------------------ | ---------------------------------- |
+| MCU                      | Arm Cortex-M7 STM32F429ZGT6 180MHz |
+| 主板供电                 | DC 12V - DC 24V                    |
+| 驱动供电                 | 最高 DC56V (需要驱动支持)          |
+| 热床接口供电             | DC 12V - DC 24V                    |  |
+| 热床最大电流             | 10A (峰值 12A)                     |
+| 热端加热最大电流         | 5.5A (峰值 6A)                     |
+'''
+translate = '''
+| Octopus Pro F429 version | Specification                      |
+| ------------------------ | ---------------------------------- |
+| MCU                      | Arm Cortex-M7 STM32F429ZGT6 180MHz |
+| Board power supply       | DC 12V - DC 24V                    |
+| Driver power supply      | Up to DC 56V (requires driver support) |
+| Heated bed interface power supply | DC 12V - DC 24V             |
+| Heated bed maximum current | 10A (peak 12A)                   |
+| Hotend heating maximum current | 5.5A (peak 6A)               |
+'''
+
+[[block]]
+key = "14e3077db6e34a7e"
+origin = '''
+<DocCardList />
+'''
+translate = '''
+<DocCardList />
+'''
