@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# SKR Pico 硬件功能
+# SKR Pico Hardware Features
 
-SKR Pico 硬件详细
+SKR Pico Hardware Details
 
 {/* import lib start */}
 
@@ -13,7 +13,7 @@ import TabItem from '@theme/TabItem';
 
 {/* import lib end */}
 
-## 外观尺寸
+## Appearance Dimensions
 
 <ImageView
     src={require('@site/docs/board-docs/skr-series/skr-pico/img/skr-pico-size.png').default}
@@ -27,13 +27,13 @@ import TabItem from '@theme/TabItem';
     alt="pinout" width="800"
 />
 
-## 硬件功能配置
+## Hardware Feature Configuration
 
 ### TMC 2209 Sensorless
 
 :::warning
 
-对应轴使用了 Sensorless 后。不能使用外部ENDSTOP。
+After enabling Sensorless for the corresponding axis, external ENDSTOP cannot be used.
 
 :::
 
@@ -49,18 +49,18 @@ import TabItem from '@theme/TabItem';
     alt="neopixel" width="550"
 />
 
-### BLTouch 
+### BLTouch
 
 <ImageView
     src={require('@site/docs/board-docs/skr-series/skr-pico/img/SKR_Pico_BLtouch.png').default}
     alt="bltouch" width="550"
 />
 
-### 接近开关
+### Proximity Switch
 
-:::info[NPN 与 PNP 类型传感器选择] 
+:::info[NPN and PNP Type Sensor Selection]
 
-与接近开关的连接，可通过跳帽选择接近开关的类型为PNP或者NPN
+The connection of the proximity switch can be set to either PNP or NPN type via a jumper cap.
 
 :::
 
@@ -69,14 +69,14 @@ import TabItem from '@theme/TabItem';
     alt="proximity" width="550"
 />
 
-### USB 连接
+### USB Connection
 
 <ImageView
     src={require('@site/docs/board-docs/skr-series/skr-pico/img/SKR_Pico_Rasp.png').default}
     alt="rpi_usb" width="550"
 />
 
-### UART 连接
+### UART Connection
 
 <ImageView
     src={require('@site/docs/board-docs/skr-series/skr-pico/img/SKR_Pico_Rasp3.png').default}

@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# SKR Pico 固件配置
+# SKR Pico Firmware Configuration
 
-SKR Pico 固件配置
+SKR Pico Firmware Configuration
 
 {/* import lib start */}
 
@@ -13,11 +13,11 @@ import TabItem from '@theme/TabItem';
 
 {/* import lib end */}
 
-## 写入 Klipper 固件
+## Flashing Klipper Firmware
 
-SKR Pico 写入 Klipper 固件参考 [SKR 系列固件 (RP2040)](../skr-firmware-rp2040.md)
+Reference for writing Klipper firmware to SKR Pico [SKR Series Firmware (RP2040)](../skr-firmware-rp2040.md)
 
-## Klipper 配置文件参考
+## Klipper Configuration File Reference
 
 ``` klipper_cfg title="printer.cfg"
 [stepper_x]
@@ -104,7 +104,7 @@ pid_Ki: 1.08
 pid_Kd: 114
 min_temp: 0
 max_temp: 300
-max_extrude_cross_section:2
+max_extrude_cross_section: 2
 
 [tmc2209 extruder]
 uart_pin: gpio9
