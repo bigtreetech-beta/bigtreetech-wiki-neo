@@ -169,7 +169,7 @@ origin = '''
 ## 写入固件
 '''
 translate = '''
-## Writing Firmware
+## Flash Firmware
 '''
 
 [[block]]

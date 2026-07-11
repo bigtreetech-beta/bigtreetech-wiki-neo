@@ -2,13 +2,13 @@
 sidebar_position: 10
 ---
 
-# SKR 系列固件 (RP2040)
+# SKR Series Firmware (RP2040)
 
-使用 `RP2040` MCU 的 SKR
+SKR using the `RP2040` MCU
 
-## 构建固件
+## Building the Firmware
 
-使用 ssh 连接到 Klipper Host. 然后使用以下命令进入 Klipper 目录。并且使用 `make menuconfig` 配置固件。
+Connect to the Klipper Host via SSH. Then use the following command to navigate to the Klipper directory. Use `make menuconfig` to configure the firmware.
 
 ``` shell
 cd ~/klipper
@@ -22,29 +22,29 @@ make menuconfig
     alt="skr rp2040 usb"
 />
 
-当配置完成使用 `q` 来退出。使用 `y` 来保存编译选项。
+When you're done configuring, use `q` to exit. Use `y` to save the compilation options.
 
-然后使用 `make` 命令来开始编译 Klipper 固件
+Then use the `make` command to start compiling the Klipper firmware
 
 ``` shell
 make
 ```
 
-## 写入固件
+## Flash Firmware
 
-:::note[USB 供电]
+:::note[USB Power]
 
-如果你在写入固件的时候使用 USB Type-C 接口进行供电。`VUSB` 跳线需要接上。
+If you are using the USB Type-C port for power while flashing the firmware, the `VUSB` jumper must be connected.
 
 :::
 
-当使用 Klipper 固件编译完成后。使用 USB Type-C 连接线连接到 Klipper Host 上。
+Once the Klipper firmware has finished compiling, connect it to the Klipper Host using a USB Type-C cable.
 
-然后插入 `SKR` 的 `boot` 跳线。然后按一下 `reset` 按钮进入 `Boot` 模式。
+Next, insert the `boot` jumper on the `SKR`. Then press the `reset` button once to enter `Boot` mode.
 
-然后可以使用 `lsusb` 命令来确认 `MCU` 是否在 `Boot` 模式中。
+You can then use the `lsusb` command to verify whether the `MCU` is in `Boot` mode.
 
-当确认 `MCU` 在 `Boot` 模式中后。可以使用以下命令来写入固件。
+Once you have confirmed that the `MCU` is in `Boot` mode, you can use the following command to write the firmware.
 
 ``` shell
 make flash FLASH_DEVICE=2e8a:0003

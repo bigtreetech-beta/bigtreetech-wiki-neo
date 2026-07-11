@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Manta M8P v1 固件配置
+# Manta M8P v1 Firmware
 
 {/* import lib start */}
 
@@ -11,23 +11,23 @@ import TabItem from '@theme/TabItem';
 
 {/* import lib end */}
 
-## 核心板固件写入
+## Firmware Core Board
 
-Manta M8P v2 搭配 CM4/CM5 核心板写入系统参考 [Manta 系列核心板 Raspberry CM4/CM5](../manta-core-image-rpi.md)
+Reference Guide for Flashing the System on the Manta M8P v2 with CM4/CM5 Core Boards [Manta Series Core Boards Raspberry CM4/CM5](../manta-core-image-rpi.md)
 
 ## Klipper
 
-:::info[开始之前]
+:::info[Before Start]
 
-在开始之前需要安装核心板并且在核心板上安装 Klipper 组件
+Before start, require install the core board and install the Klipper components on it.
 
 :::
 
-### 写入 Klipper 固件
+### Flash Klipper
 
-Manta M8P v1 写入 Klipper 固件参考 [Manta M8P 系列固件 (STM32G0B1)](../manta-m8p-firmware-g0b1.md)
+Manta M8P v1 Flash Klipper Firmware [Manta M8P Series Firmware (STM32G0B1)](../manta-m8p-firmware-g0b1.md)
 
-### Klipper 配置文件参考
+### Klipper Config Reference
 
 <Tabs groupId="m8p-version-config">
     <TabItem value="m8p-v1_1" label="Manta M8P v1.1" default>
@@ -672,7 +672,7 @@ Manta M8P v1 写入 Klipper 固件参考 [Manta M8P 系列固件 (STM32G0B1)](..
     </TabItem>
 </Tabs>
 
-### ADXL345 配置文件参考
+### ADXL345 Configuration Reference
 
 ``` klipper_cfg title="printer.cfg"
 [adxl345]

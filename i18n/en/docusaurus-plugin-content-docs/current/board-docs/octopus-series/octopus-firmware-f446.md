@@ -47,7 +47,7 @@ Then use the `make` command to start compiling the Klipper firmware
 make
 ```
 
-## Writing Firmware
+## Flash Firmware
 
 :::note[USB Power]
 

@@ -1,9 +1,9 @@
 ---
 sidebar_position: 3
-description: Manta M5P 固件配置
+description: Manta M5P Firmware
 ---
 
-# Manta M5P 固件配置
+# Manta M5P Firmware
 
 {/* import lib start */}
 
@@ -12,25 +12,25 @@ import TabItem from '@theme/TabItem';
 
 {/* import lib end */}
 
-## 核心板固件写入
+## Core Board Firmware
 
-Manta M5P 搭配 CM4/CM5 核心板写入系统参考 [Manta 系列核心板 Raspberry CM4/CM5](../manta-core-image-rpi.md)
+Reference Guide for Flashing the System on the Manta M5P with CM4/CM5 Core Boards [Manta Series Core Boards Raspberry CM4/CM5](../manta-core-image-rpi.md)
 
 ## Klipper
 
-:::info[开始之前]
+:::info[Before Start]
 
-在开始之前需要安装核心板并且在核心板上安装 Klipper 组件
+Before you begin, you need to install the core board and install the Klipper components on it.
 
 :::
 
-### 写入 Klipper 固件
+### Flash Klipper Firmware
 
-Manta M5P 写入 Klipper 固件参考 [Manta M5P 系列固件 (STM32G0B1)](../manta-m5p-firmware-g0b1.md)
+Manta M5P Flash Klipper Firmware Reference [Manta M5P Series Firmware (STM32G0B1)](../manta-m5p-firmware-g0b1.md)
 
-### Klipper 配置文件参考
+### Klipper Configuration File Reference
 
-:::info[Manta M5P 配置文件]
+:::info[Manta M5P Config]
 
 [generic-bigtreetech-manta-m5p.cfg](https://github.com/bigtreetech/Manta-M5P/blob/master/Firmware/Klipper/generic-bigtreetech-manta-m5p.cfg)
 
