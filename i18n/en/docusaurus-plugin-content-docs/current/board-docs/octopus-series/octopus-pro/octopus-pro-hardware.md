@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-description: Octopus Pro 硬件详细
+description: Octopus Pro Hardware
 ---
 
 # Octopus Pro Hardware Features
@@ -75,27 +75,27 @@ Octopus Pro supports connecting to a Raspberry Pi for printing. There are severa
 ### Motor Driver Configuration
 
 <Tabs groupId="octopus-stepper-driver">
-    <TabItem value="tmc-uart" label="Uart 模式" default>
-        使用 Uart 模式连接驱动
+    <TabItem value="tmc-uart" label="Uart Mode" default>
+        Use Uart to connect
         <ImageView
             src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-driver-uart.png').default}
             alt="" width="100%"
         />
     </TabItem>
-    <TabItem value="tmc-spi" label="SPI 模式">
-        使用 SPI 模式连接驱动
+    <TabItem value="tmc-spi" label="SPI Mode">
+        Connecting the Driver Using SPI Mode
         <ImageView
             src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-driver-spi.png').default}
             alt="" width="100%"
         />
     </TabItem>
-    <TabItem value="step-dir" label="Step / dir 模式">
-        使用不支持 Uart 或者 SPI 的驱动。
+    <TabItem value="step-dir" label="Step / dir Mode">
+        Use a driver that does not support UART or SPI.
         <ImageView
             src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-driver-step-dir.png').default}
             alt="" width="100%"
         />
-        以下是跳线参考，不同的驱动会有不同的跳线配置
+        The following is a jumper reference; different drivers may have different jumper configurations.
         <ImageView
             src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-driver-step-dir-config.png').default}
             alt="" width="100%"
@@ -113,14 +113,14 @@ Do not plug or unplug the jumper caps while powered.
 
 <Tabs groupId="octopus-driver-v">
     <TabItem value="VBB" label="Octopus Pro VBB" default>
-        当使用 `VBB` 进行供电的时候。来源为主板 `Power` 输入。最高电压为 `24V`。
+        When using `VBB` for power, the source is the motherboard's `Power` input. The maximum voltage is `24V`.
         <ImageView
             src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-driver-vbb.png').default}
             alt="octo pro vbb" width="60%"
         />
     </TabItem>
     <TabItem value="high-oltage" label="Octopus Pro High Voltage">
-        当使用 `High Voltage` 进行供电的时候。来源为主板 `Motor Power` 输入。最高电压为 `56V`。需要注意驱动最大电压范围。
+        When using `High Voltage` for power supply, the source is the motherboard's `Motor Power` input. The maximum voltage is `56V`. Be sure to observe the driver's maximum voltage range.
         <ImageView
             src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-driver-hv.png').default}
             alt="octo pro high voltage" width="60%"
@@ -137,19 +137,19 @@ All fan outputs and proximity sensor inputs can be individually selected to deri
 Configure the jumpers as shown below to select 24V (note that all jumpers are displayed in the same configuration, even though they can be configured individually).
 
 <Tabs groupId="octopus-fan-v">
-    <TabItem value="24v-fan" label="24V 风扇 / 接近开关" default>
+    <TabItem value="24v-fan" label="24V Fan / Proximity Switch" default>
         <ImageView
             src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-fan-24.png').default}
             alt="octo pro fan 24" width="100%"
         />
     </TabItem>
-    <TabItem value="12v-fan" label="12V 风扇 / 接近开关">
+    <TabItem value="12v-fan" label="12V Fan / Proximity Switch">
         <ImageView
             src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-fan-12.png').default}
             alt="octo pro fan 12" width="100%"
         />
     </TabItem>
-    <TabItem value="5v-fan" label=" 5V 风扇 / 接近开关">
+    <TabItem value="5v-fan" label=" 5V Fan / Proximity Switch">
         <ImageView
             src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-fan-5.png').default}
             alt="octo pro fan 5" width="100%"
@@ -171,7 +171,7 @@ The exact diag number can be found by checking the pinout file or silkscreen und
 
 <ImageView src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-max-31865.png').default} width="50%" class="right-image"/>
 
-MAX 31865 选择 PT100/PT1000 2线或4线配置
+MAX 31865 PT100/PT1000 2-wire or 4-wire configuration
 
 | 1   | 2   | 3   | 4   | Sensor Model  |
 | --- | --- | --- | --- | ------------- |

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-description: Octopus Pro 固件配置
+description: Octopus Pro Firmware
 ---
 
 # Octopus Pro Firmware Configuration
