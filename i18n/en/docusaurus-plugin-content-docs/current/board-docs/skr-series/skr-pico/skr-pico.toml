@@ -99,17 +99,17 @@ The SKR Pico is a board designed specifically for the Voron 0 series. It can be 
 
 ## Specifications
 
-| Specification                  | SKR Pico              |
-| ----------------------------- - | --------------------- |
-| MCU                            | ARM Cortex-M0+ RP2040 |
-| Dimensions                       | 85 × 56 mm             |
-| Board Layers                        | 4 layers                   |
-| Power Input                       | DC 12/24 V             |
-| Logic Voltage                       | 3.3V                  |
-| Motor Drivers                     | $4*$ TMC2209          |
-| Motor Driver Interfaces             | X / Y / Z1 / Z2 / E   |
-| Temperature Sensor Interfaces     | TH0, THB             |
-| Communication Interfaces with Raspberry Pi | USB Type-C / Serial Port     |
+| Specification                              | SKR Pico                 |
+| ------------------------------------------ | ------------------------ |
+| MCU                                        | ARM Cortex-M0+ RP2040    |
+| Dimensions                                 | 85 x 56 mm               |
+| Board Layers                               | 4 layers                 |
+| Power Input                                | DC 12/24 V               |
+| Logic Voltage                              | 3.3V                     |
+| Motor Drivers                              | $4*$ TMC2209             |
+| Motor Driver Interfaces                    | X / Y / Z1 / Z2 / E      |
+| Temperature Sensor Interfaces              | TH0, THB                 |
+| Communication Interfaces with Raspberry Pi | USB Type-C / Serial Port |
 
 </div>
 '''
