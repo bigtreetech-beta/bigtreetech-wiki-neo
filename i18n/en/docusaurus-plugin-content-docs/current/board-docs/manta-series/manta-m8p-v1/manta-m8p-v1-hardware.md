@@ -168,7 +168,7 @@ A4988 / DRV8825 使用跳线帽短接 MS0-MS2 以调整细分
 
 使用加速度计参考 Klipper [Measuring_Resonances](https://www.klipper3d.org/Measuring_Resonances.html)
 
-Manta M8P ADXL 345 配置文件参考 [Manta M8P ADXL 配置文件](./manta-m8p-v1-firmware.md#adxl345-配置文件参考)
+Manta M8P ADXL 345 配置文件参考 [Manta M8P ADXL 配置文件](./manta-m8p-v1-firmware.md)
 
 :::
 
