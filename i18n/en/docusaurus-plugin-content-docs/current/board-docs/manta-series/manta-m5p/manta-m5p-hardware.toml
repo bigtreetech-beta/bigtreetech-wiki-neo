@@ -1,0 +1,574 @@
+[metadata]
+
+[[block]]
+key = "43ae02d2c8e0372f"
+origin = '''
+---
+sidebar_position: 2
+description: Manta M5P 硬件功能配置
+---
+'''
+translate = '''
+---
+sidebar_position: 2
+description: Manta M5P Hardware
+---
+'''
+
+[[block]]
+key = "1b67b0cdab6af126"
+origin = '''
+# Manta M5P 硬件功能
+'''
+translate = '''
+# Manta M5P Hardware
+'''
+
+[[block]]
+key = "9e2c16dcc92bf7ce"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "160e2c82fbaef13c"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "c012cc6c2fca315b"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "315c24abe8051454"
+origin = '''
+## 外观尺寸
+'''
+translate = '''
+## Hardware Dimensions
+'''
+
+[[block]]
+key = "576c3109c700d0ed"
+origin = '''
+:::info[STEP 模型]
+
+Manta M5P 模型 [BIGTREETECH MANTA M5P-step.rar](https://github.com/bigtreetech/Manta-M5P/blob/master/3D/BIGTREETECH%20MANTA%20M5P-step.rar)
+
+:::
+'''
+translate = '''
+:::info[STEP File]
+
+Manta M5P STEP [BIGTREETECH MANTA M5P-step.rar](https://github.com/bigtreetech/Manta-M5P/blob/master/3D/BIGTREETECH%20MANTA%20M5P-step.rar)
+
+:::
+'''
+
+[[block]]
+key = "28cdef724bf8128e"
+origin = '''
+<Tabs groupId="m5p-dim">
+    <TabItem value="m5p-dim-1" label="正面尺寸" default>
+        <ImageView src={require('./img/M5P_Dimension1.png').default} width="80%"/>
+    </TabItem>
+    <TabItem value="m5p-dim-2" label="反面尺寸">
+        <ImageView src={require('./img/M5P_Dimension2.png').default} width="80%"/>
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+<Tabs groupId="m5p-dim">
+    <TabItem value="m5p-dim-1" label="Front Dimensions" default>
+        <ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/M5P_Dimension1.png').default} width="80%"/>
+    </TabItem>
+    <TabItem value="m5p-dim-2" label="Back Dimensions">
+        <ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/M5P_Dimension2.png').default} width="80%"/>
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "732a6bc30f7f35f8"
+origin = '''
+## Pinout
+'''
+translate = '''
+## Pinout
+'''
+
+[[block]]
+key = "b3e29050e6826df2"
+origin = '''
+:::info[原理图 / Schematic]
+
+Manta M5P 原理图 [BIGTREETECH MANTA M5P V1.0-SCH.pdf](https://github.com/bigtreetech/Manta-M5P/blob/master/Hardware/BIGTREETECH%20MANTA%20M5P%20V1.0-SCH.pdf)
+
+:::
+'''
+translate = '''
+:::info[Schematic]
+
+Manta M5P Schematic [BIGTREETECH MANTA M5P V1.0-SCH.pdf](https://github.com/bigtreetech/Manta-M5P/blob/master/Hardware/BIGTREETECH%20MANTA%20M5P%20V1.0-SCH.pdf)
+
+:::
+'''
+
+[[block]]
+key = "430d33ca34d11dd6"
+origin = '''
+<ImageView src={require('./img/manta-m5p-pinout.png').default} width="100%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/manta-m5p-pinout.png').default} width="100%"/>
+'''
+
+[[block]]
+key = "8e4b84853b9a1edc"
+origin = '''
+## 步进电机驱动
+'''
+translate = '''
+## Stepper Motor Driver
+'''
+
+[[block]]
+key = "84c12706bfd494a1"
+origin = '''
+### 驱动模式
+'''
+translate = '''
+### Drive Modes
+'''
+
+[[block]]
+key = "270b39ad1b83286b"
+origin = '''
+<Tabs groupId="m5p-stepper-driver">
+    <TabItem value="tmc-uart" label="Uart 模式" default>
+        使用 Uart 模式连接驱动
+        <ImageView
+            src={require('./img/manta-m5p-driver-uart.png').default}
+            alt="" width="80%"
+        />
+    </TabItem>
+    <TabItem value="tmc-spi" label="SPI 模式">
+        使用 SPI 模式连接驱动
+        <ImageView
+            src={require('./img/manta-m5p-driver-spi.png').default}
+            alt="" width="80%"
+        />
+    </TabItem>
+    <TabItem value="step-dir" label="Step / DIR 模式">
+        A4988 / DRV8825 使用跳线帽短接 MS0-MS2 以调整细分
+        <ImageView
+            src={require('./img/manta-m5p-driver-step.png').default}
+            alt="" width="80%"
+        />
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+<Tabs groupId="m5p-stepper-driver">
+    <TabItem value="tmc-uart" label="Uart Mode" default>
+        Connecting the Driver Using UART Mode
+        <ImageView
+            src={require('@site/docs/board-docs/manta-series/manta-m5p/img/manta-m5p-driver-uart.png').default}
+            alt="" width="80%"
+        />
+    </TabItem>
+    <TabItem value="tmc-spi" label="SPI Mode">
+        Connecting the Driver Using SPI Mode
+        <ImageView
+            src={require('@site/docs/board-docs/manta-series/manta-m5p/img/manta-m5p-driver-spi.png').default}
+            alt="" width="80%"
+        />
+    </TabItem>
+    <TabItem value="step-dir" label="Step / DIR Mode">
+        A4988 / DRV8825 jumper cap to short MS0 to MS2 to adjust microstepping
+        <ImageView
+            src={require('@site/docs/board-docs/manta-series/manta-m5p/img/manta-m5p-driver-step.png').default}
+            alt="" width="80%"
+        />
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "f9e3d6353217d4c6"
+origin = '''
+### TMC Sensorless
+'''
+translate = '''
+### TMC Sensorless
+'''
+
+[[block]]
+key = "398f40f9888f860c"
+origin = '''
+<ImageView src={require('./img/manta-m5p-sensorless.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/manta-m5p-sensorless.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "789c47646d1277e3"
+origin = '''
+### 驱动电压选择
+'''
+translate = '''
+### Selecting the Drive Voltage
+'''
+
+[[block]]
+key = "b05c9261a4312a6c"
+origin = '''
+<Tabs groupId="m5p-driver-power">
+    <TabItem value="m5p-power-24" label="使用 24V 电源" default>
+        <ImageView src={require('./img/manta-m5p-driver-24.png').default} width="80%"/>
+    </TabItem>
+    <TabItem value="m5p-power-48" label="使用 48V 电源">
+        <ImageView src={require('./img/manta-m5p-driver-48.png').default} width="80%"/>
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+<Tabs groupId="m5p-driver-power">
+    <TabItem value="m5p-power-24" label="Use 24V PSU" default>
+        <ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/manta-m5p-driver-24.png').default} width="80%"/>
+    </TabItem>
+    <TabItem value="m5p-power-48" label="Use 48V PSU">
+        <ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/manta-m5p-driver-48.png').default} width="80%"/>
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "7d5aea2fd0230b62"
+origin = '''
+## 核心板
+'''
+translate = '''
+## Core Board
+'''
+
+[[block]]
+key = "e39b9cab04b56574"
+origin = '''
+### 核心板安装
+'''
+translate = '''
+### Core Board Install
+'''
+
+[[block]]
+key = "6ddc680d52581023"
+origin = '''
+<Tabs groupId="m5p-cm">
+    <TabItem value="m5p-cm-rpi" label="使用树莓派 CM4/CM5" default>
+        <ImageView src={require('./img/m5p_cm_rpi.png').default} width="80%"/>
+    </TabItem>
+    <TabItem value="m5p-cm-cb" label="使用 CB1/CB2">
+        <ImageView src={require('./img/m5p_cm_cb.png').default} width="80%"/>
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+<Tabs groupId="m5p-cm">
+    <TabItem value="m5p-cm-rpi" label="Use RPI CM4/CM5" default>
+        <ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/m5p_cm_rpi.png').default} width="80%"/>
+    </TabItem>
+    <TabItem value="m5p-cm-cb" label="Use CB1/CB2">
+        <ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/m5p_cm_cb.png').default} width="80%"/>
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "c7d9300721ad6579"
+origin = '''
+### USB 供电
+'''
+translate = '''
+### USB Power
+'''
+
+[[block]]
+key = "4f5aa5d27163374f"
+origin = '''
+MANTA M5P通电后，MCU左侧的红灯D22将亮起，表示已通电。当仅使用USB为板供电或通过USB供电时，请将跳线帽插入VUSB。
+'''
+translate = '''
+When the MANTA M5P is powered on, the red LED D22 on the left side of the MCU will light up, indicating that power is on. When powering the board via USB only, or when using USB as the power source, please insert the jumper cap into VUSB.
+'''
+
+[[block]]
+key = "d9cdf3ec77341701"
+origin = '''
+<ImageView src={require('./img/M5P_USB_PS.png').default} width="45%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/M5P_USB_PS.png').default} width="45%"/>
+'''
+
+[[block]]
+key = "cd538146be940bbc"
+origin = '''
+### DSI / CSI连接
+'''
+translate = '''
+### DSI / CSI Connect
+'''
+
+[[block]]
+key = "cefaef288862944c"
+origin = '''
+:::info[需要硬件支持]
+
+DSI / CSI 需要核心板硬件支持
+
+:::
+'''
+translate = '''
+:::info[Requires hardware support]
+
+DSI / CSI Requires hardware support
+
+:::
+'''
+
+[[block]]
+key = "e793bef593e3d384"
+origin = '''
+<ImageView src={require('./img/M5P_DSI.png').default} width="100%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/M5P_DSI.png').default} width="100%"/>
+'''
+
+[[block]]
+key = "61e5d848d710ccff"
+origin = '''
+## 风扇
+'''
+translate = '''
+## Fans
+'''
+
+[[block]]
+key = "07982d3e80d6740c"
+origin = '''
+### 风扇电压选择
+'''
+translate = '''
+### Fan Voltage Selection
+'''
+
+[[block]]
+key = "71001b00965591db"
+origin = '''
+使用跳线帽配置输出电压
+'''
+translate = '''
+Configure the Output Voltage Using Jumper Caps
+'''
+
+[[block]]
+key = "c1021d11f369b6ad"
+origin = '''
+:::warning
+
+在选择电压之前，请确认风扇的工作电压
+
+:::
+'''
+translate = '''
+:::warning
+
+Before selecting a voltage, please confirm the fan's operating voltage.
+
+:::
+'''
+
+[[block]]
+key = "daa41593e37cc48f"
+origin = '''
+<ImageView src={require('./img/manta-m5p-fan-voltage.png').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/manta-m5p-fan-voltage.png').default} width="40%"/>
+'''
+
+[[block]]
+key = "acf51ab86a823e47"
+origin = '''
+## 传感器
+'''
+translate = '''
+## Sensors
+'''
+
+[[block]]
+key = "71790fc35f3e9f03"
+origin = '''
+### BLTouch
+'''
+translate = '''
+### BLTouch
+'''
+
+[[block]]
+key = "18ca704951177797"
+origin = '''
+<ImageView src={require('./img/M5P_BLTouch_Wiring.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/M5P_BLTouch_Wiring.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "b1e9f52837719268"
+origin = '''
+### 100K NTC 或 PT1000 设置
+'''
+translate = '''
+### 100K NTC Or PT1000 Setup
+'''
+
+[[block]]
+key = "716b17a63606c740"
+origin = '''
+当使用100K NTC热敏电阻时，无需插入跳线帽 `TH0` `TH1` 的上拉电阻为 4.7K 0.1%。
+'''
+translate = '''
+When using a 100K NTC thermistor, there is no need to insert a jumper cap; the pull-up resistors for `TH0` and `TH1` are 4.7K 0.1%.
+'''
+
+[[block]]
+key = "2bf621e7d01a57ef"
+origin = '''
+:::info[使用 PT1000]
+
+使用PT1000时，需要插入 PT 的跳线帽。此时 `TH0` `TH1` 的上拉电阻为2.2K。
+
+这样读取的温度精度将远不如MAX31865读取的精度
+
+<ImageView src={require('./img/M5P_100K.png').default} width="20%"/>
+
+:::
+'''
+translate = '''
+:::info[Use PT1000]
+
+When using a PT1000, you must insert the PT jumper cap. In this case, the pull-up resistors for `TH0` and `TH1` are 2.2K.
+
+The temperature reading accuracy in this configuration will be significantly lower than that achieved with the MAX31865.
+
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/M5P_100K.png').default} width="20%"/>
+
+:::
+'''
+
+[[block]]
+key = "c318b6f96aeafcfa"
+origin = '''
+### 耗材传感器
+'''
+translate = '''
+### Filament sensor
+'''
+
+[[block]]
+key = "fb9d778a9c931480"
+origin = '''
+<ImageView src={require('./img/M5P_Filament.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/M5P_Filament.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "9104b9a7a2459ae3"
+origin = '''
+### 接近开关接线
+'''
+translate = '''
+### Proximity Switch Wiring
+'''
+
+[[block]]
+key = "f621baaadde1063b"
+origin = '''
+使用 PNP 接近开关
+'''
+translate = '''
+Using a PNP Proximity Switch
+'''
+
+[[block]]
+key = "03c142d798c8df6f"
+origin = '''
+<ImageView src={require('./img/M5P_Proximity-PNP.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/M5P_Proximity-PNP.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "f1086524486e68e2"
+origin = '''
+:::info[NPN 接近开关]
+
+NPN 接近开关不需要接 `Pull UP` 跳线帽
+
+:::
+'''
+translate = '''
+:::info[NPN Proximity Switch]
+
+NPN proximity switches do not require a `Pull-Up` jumper cap.
+
+:::
+'''
+
+[[block]]
+key = "23b96587b2ba5ff3"
+origin = '''
+## 其他硬件
+'''
+translate = '''
+## Other Hardware
+'''
+
+[[block]]
+key = "94803a519ba22631"
+origin = '''
+### Neopixel 
+'''
+translate = '''
+### Neopixel 
+'''
+
+[[block]]
+key = "68b679312de948a5"
+origin = '''
+<ImageView src={require('./img/M5P_RGB_Wiring.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/M5P_RGB_Wiring.png').default} width="80%"/>
+'''

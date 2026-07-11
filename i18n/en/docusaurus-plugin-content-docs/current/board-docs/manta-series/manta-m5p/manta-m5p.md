@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: Manta M5P 一体打印板
+description: Manta M5P Board
 ---
 
 # Manta M5P
@@ -18,18 +18,18 @@ import DocCardList from '@theme/DocCardList';
     width="45%" class="right-image"
 />
 
-## 硬件规格
+## Hardware Specification
 
 | Specification    | Manta M5P                          |
 | ---------------- | ---------------------------------- |
 | MCU              | ARM Cortex-M0+ STM32G0B1RET6 64MHz |
-| 主板供电         | DC 24V                             |
-| 驱动供电         | 最高 DC 48V (需要驱动支持)         |
-| 逻辑电压         | DC 3.3V                            |
-| 热端最大电流     | 5A                                 |
-| 热床端口最大电流 | 10A                                |
-| 风扇端口最大电流 | 1A                                 |
-| 风扇总电流       | 2.5A                               |
+| Mainboard Power Supply | DC 24V                             |
+| Driver Power Supply | Up to DC 48V (driver support required)         |
+| Logic Voltage         | DC 3.3V                            |
+| Maximum Current at Hot End     | 5A                                 |
+| Maximum Current at Heated Bed Port | 10A                                |
+| Maximum Current at Fan Port | 1A                                 |
+| Total Fan Current       | 2.5A                               |
 
 </div>
 
