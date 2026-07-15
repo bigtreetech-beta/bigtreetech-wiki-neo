@@ -1,0 +1,527 @@
+---
+sidebar_position: 1
+description: Panda Lungs 是一款专为 Bambu Lab P1/X1系列打印机配套设计的空气净化辅助设备。主要功能包括:自动控制风扇启停,温湿度显示,TVOC检测,蜂鸣器报警,Web UI 远程控制,参数记忆等。
+---
+
+# Panda Lungs
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView
+    src={require("./img/panda-lungs-title.webp").default}
+    alt=""
+    width="45%"
+    class="right-image"
+/>
+
+## 产品简介
+
+**Panda Lungs** 是一款专为 Bambu Lab P1/X1 系列打印机配套设计的空气净化辅助设备,主要功能包括:
+
+- **自动控制风扇启停**:根据打印机状态(打印中/暂停/完成/失败)自动启停风扇。
+- **温湿度显示**:通过 TM1650 数码管实时显示环境温度,湿度。
+- **TVOC 检测**:实时检测挥发性有机物(TVOC)浓度并显示。
+- **蜂鸣器报警**:TVOC 超标时自动发出报警提示音。
+- **Web UI 远程控制**:通过浏览器访问 Web UI, 远程查看状态和配置参数。
+- **参数记忆**:所有配置断电后自动保存。
+
+</div>
+
+## 技术规格
+
+| 项目     | 参数                          |
+| -------- | ----------------------------- |
+| 产品名称 | Panda Lungs                   |
+| 尺寸     | 122 * 56 * 211mm              |
+| 重量     | 700g                          |
+| 材质     | 外壳为 ASA                    |
+| 主芯片   | ESP32-C3                      |
+| 待机状态 | 5V 540mA 2.73W                |
+| 兼容机型 | Bambu P1S/X1E/A1 封箱(若有) |
+
+<ImageView
+    src={require("./img/panda-lungs-dimension-drawing.webp").default}
+    alt=""
+    width="60%"
+/>
+
+## 硬件说明
+
+### 接口说明
+
+| 接口         | 说明                          |
+| ------------ | ----------------------------- |
+| 风扇接口 1,2 | 连接净化风扇                  |
+| 按键         | 短按切换风扇开/关(手动模式) |
+| 蜂鸣器       | TVOC 报警时自动鸣叫           |
+| 数码管 \* 3  | 分别显示 TVOC ,湿度,温度    |
+| USB-C        | 供电及固件烧录                |
+| 待机状态     | 5V 540mA 2.73W                |
+
+<ImageView
+    src={require("./img/panda-lungs-main-image03.webp").default}
+    alt=""
+    width="75%"
+/>
+
+## 数码管对应关系
+
+| 数码管位置 | 显示内容           |
+| ---------- | ------------------ |
+| 上侧       | TVOC 值(mg/m³)   |
+| 中间       | 环境温度(℃ 或 ℉) |
+| 下侧       | 环境湿度(%RH)    |
+
+<ImageView
+    src={require("./img/panda-lungs-main-image02.webp").default}
+    alt=""
+    width="75%"
+/>
+
+## 安装说明
+
+### 准备物料
+
+将包装内所有配件拿出,清单如下图
+
+<ImageView
+    src={require("./img/panda-lungs-installation-00.webp").default}
+    alt=""
+    width="60%"
+/>
+
+### 安装支架和粘贴背胶
+
+首先需要将背胶贴在底座后面并撕下背胶膜,且将支架如下图所示安装。
+
+<ImageView
+    src={require("./img/panda-lungs-installation-01.webp").default}
+    alt=""
+    width="60%"
+/>
+
+### 安装到打印机
+
+按图示方向放入,并先拧下机器自带的 M3\*8 内六角螺丝。然后将螺丝穿过固定支架固定到机身上。
+
+<ImageView
+    src={require("./img/panda-lungs-installation-02.webp").default}
+    alt=""
+    width="60%"
+/>
+
+### 走线
+
+取下机器的特氟龙管硅胶套,拿出 4-pin 转 2-pin 线,按如图示方向走线,将 2-pin 接口从机箱后面穿过,插入 Panda Lungs 顶部接口。
+
+<ImageView
+    src={require("./img/panda-lungs-installation-03.webp").default}
+    alt=""
+    width="60%"
+/>
+
+随后将线按图示方向使用包装内的卡扣固定到机身内,且不要影响打印机 X/Y 轴运动。
+
+<ImageView
+    src={require("./img/panda-lungs-installation-05.webp").default}
+    alt=""
+    width="60%"
+/>
+
+安装产品配备的特氟龙管硅胶套,将电线插到机箱背面。
+
+<ImageView
+    src={require("./img/panda-lungs-installation-06.webp").default}
+    alt=""
+    width="60%"
+/>
+
+<ImageView
+    src={require("./img/panda-lungs-installation-04.webp").default}
+    alt=""
+    width="60%"
+/>
+
+## 首次使用指南
+
+### 上电启动
+
+- 打开电源开关
+
+    - 打开打印机电源开关,拨动 Panda Lungs 侧边的开关到右侧,等待约 5 秒后设备自动进入 AP 热点模式,热点名称为:Panda_Lungs_XXXXXX。XXXXXX 为设备 MAC 地址后 6 位。
+
+        <ImageView
+            src={require("./img/panda-lungs-step00.webp").default}
+            width="60%"
+        />
+
+- 连接设备热点
+
+    - 使用手机或电脑连接上述 AP 热点。热点密码:**987654321**
+
+        <ImageView
+            src={require("./img/panda-lungs-step0.webp").default}
+            width="40%"
+        />
+
+    - 连接上 AP 后,电脑端可以在浏览器输入默认的 IP:`192.168.254.1`；手机端会自动弹出 Panda Lungs 的 Web UI,也可以在浏览器输入 IP:`192.168.254.1` 来访问网页。(注:此 IP 为出厂默认 IP)
+
+- 选择语言(默认英文)
+
+    - 首次进入会看到 **语言选择页面**,选择语言后点击 **下一步**。
+
+        <ImageView
+            src={require("./img/panda-lungs-step1.webp").default}
+            width="45%"
+        />
+
+- 配置 Wi-Fi
+
+    - 进入**Wi-Fi 配置页面**,首次出厂或恢复出厂设置后,进入此页面会自动扫描周围 WiFi,或者手动点击扫描。
+
+        <ImageView
+            src={require("./img/panda-lungs-step2.webp").default}
+            width="45%"
+        />
+
+    - 扫描完成后会弹出`扫描完成`弹窗提示,点击 OK 关闭提示。
+
+        <ImageView
+            src={require("./img/panda-lungs-step3.webp").default}
+            width="45%"
+        />
+
+    - 点击 Wi-Fi 下方的选项,选择想要连接的 WiFi。
+
+        <ImageView
+            src={require("./img/panda-lungs-step5.webp").default}
+            width="45%"
+        />
+
+    - 输入 Wi-Fi 密码,可点击密码框内右侧的`眼睛`图标来显示输入的密码,点击连接,界面会自动跳转到操作界面中的`WiFi`界面,并显示 WiFi 连接中。
+
+        <ImageView
+            src={require("./img/panda-lungs-step6.webp").default}
+            width="45%"
+        />
+
+    - 等待连接一段时间后,会弹出 WiFi 连接的状态弹窗。
+
+        - 连接失败。
+
+            <ImageView
+                src={require("./img/panda-lungs-step7.webp").default}
+                width="45%"
+            />
+
+        - 连接成功,页面会提示 **WiFi 连接成功**,并显示设备的局域网 IP 地址。之后可以通过该 IP 地址在同一网络下的任意设备访问 Web UI。
+
+            <ImageView
+                src={require("./img/panda-lungs-step8.webp").default}
+                width="45%"
+            />
+
+### 绑定打印机
+
+    - 进入**绑定打印机**页面。
+
+        <ImageView src={require("./img/panda-lungs-step9.webp").default} width="45%" />
+
+    - 点击 **扫描** 按钮搜索局域网内的 Bambu Lab 打印机。
+
+        <ImageView src={require("./img/panda-lungs-step10.webp").default} width="45%" />
+
+    - 从下拉列表选择打印机,或手动输入:
+    - 打印机 SN 码。
+
+        <ImageView src={require("./img/panda-lungs-step11.webp").default} width="45%" />
+
+    - Access Code(访问码)。
+
+        <ImageView src={require("./img/panda-lungs-step13.webp").default} width="45%" />
+
+    - 打印机 IP 地址。
+
+        <ImageView src={require("./img/panda-lungs-step12.webp").default} width="45%" />
+
+    - 点击 **绑定** 按钮完成绑定。
+
+        <ImageView src={require("./img/panda-lungs-step16.webp").default} width="45%" />
+
+    注意:确保 Panda Lungs 和打印机在同一局域网内。
+
+## Web UI 功能说明
+
+### 导航栏
+
+页面底部有 5 个导航按钮:
+
+| 按钮       | 功能                                     |
+| ---------- | ---------------------------------------- |
+| Wi-Fi & IP | 查看连接状态,IP 地址,主机名设置        |
+| AP         | 热点开关及配置                           |
+| 打印机     | 打印机绑定/解绑                          |
+| 控制面板   | 核心参数配置(温度单位,倒计时,报警等) |
+| 设置       | 系统设置,固件更新,语言选择             |
+
+### WiFi 界面
+
+<ImageView src={require("./img/panda-lungs-step17.webp").default} width="40%" />
+
+1. WiFi 界面选择,点击后聚焦为红色图标,跳转至 WiFi 界面。
+2. 当前 WiFi 的连接状态。
+3. IP 地址的相关问题弹窗提示,如果 IP 地址文本框未显示 IP,请确保 Panda Lungs 网络状态显示为连接成功。如果显示为未连接,请配置网络设置。
+4. IP 地址显示(在同一局域网下,浏览器输入此 IP 也可访问 Web 网页)。
+5. WiFi 网络配置按钮,点击可跳转到**WiFi 连接界面**。
+6. 主机名显示,您可以使用主机名访问 Web UI。默认主机名为 `PandaLungs`。如果您不记得 IP 地址,可以在浏览器地址栏中输入主机名加上 `.local` 访问 Web UI(例如:`http://PandaLungs.local`)。点击文本框可以编辑主机名,点击 `设置主机名` 按钮确认修改。
+7. 确认修改主机名。
+
+### AP 界面
+
+<ImageView src={require("./img/panda-lungs-step18.webp").default} width="40%" />
+
+1. AP 界面选择,点击后聚焦为红色图标,跳转至 AP 界面
+2. AP 热点的开关
+3. AP 热点名称,默认为 `Panda_Lungs_XXXXXXXXXX`
+4. AP 热点密码,默认为 `987654321`
+5. 热点 IP(默认的热点 IP 为:`192.168.254.1`,如果您自己路由器的 IP 号段也为 `192.168.254.xxx`,Panda Lungs 与路由器的 IP 号段相同就会产生冲突,并且导致 Panda Lungs 无法正常绑定到打印机,请手动修改 Panda Lungs 的热点 IP 使其与路由器使用不同的 IP 号段)
+6. 点击确认会重启设备,重启完成后可连接 AP 热点。
+
+### 设置界面
+
+<ImageView src={require("./img/panda-lungs-step19.webp").default} width="40%" />
+
+1. 设置界面选择,点击后聚焦为红色图标,跳转至设置界面。
+
+2. 选择网页中英文(默认英文)。
+
+3. 显示当前的固件版本。
+
+4. 固件 OTA 更新,选择 **.bin** 文件。
+
+    - 点击 `选择.bin文件` 按钮,选择需要 OTA 的 bin 文件。
+
+        <ImageView
+            src={require("./img/panda-lungs-step20.webp").default}
+            width="40%"
+        />
+
+    - 等待 OTA 进度,完成后弹窗自动重启。
+
+        <ImageView
+            src={require("./img/panda-lungs-step21.webp").default}
+            width="40%"
+        />
+
+        <ImageView
+            src={require("./img/panda-lungs-step22.webp").default}
+            width="40%"
+        />
+
+5. 点击后,按下确定。
+
+### 控制面板功能
+
+控制面板是核心配置页面,包含以下功能:
+
+#### 打印机暂停 — 延时关风扇
+
+打印机进入**暂停**状态后,风扇保持运行,倒计时结束后自动关闭。
+
+- 范围:**0 ~ 60 分钟**
+- 默认值:**5 分钟**
+- 操作:点击 `+` / `-` 调整；长按可快速步进(± 5 分钟)
+- 设为 **0 分钟** 时,暂停后立即关闭风扇
+
+#### 打印机完成 / 失败 — 延时关风扇
+
+打印机进入**完成**或**失败**状态后,风扇保持运行,倒计时结束后自动关闭。
+
+-范围:**0 ~ 60 分钟**
+-默认值:**5 分钟**
+-操作:点击 `+` / `-` 调整；长按可快速步进(± 5 分钟)
+-设为 **0 分钟** 时,状态切换后立即关闭风扇
+
+#### 温度单位
+
+切换数码管温度显示单位:
+
+| 选项               | 说明           |
+| ------------------ | -------------- |
+| **Celsius / ℃**    | 摄氏度(默认) |
+| **Fahrenheit / ℉** | 华氏度         |
+
+#### TVOC 报警开关
+
+| 状态         | 说明                                         |
+| ------------ | -------------------------------------------- |
+| 开启(默认) | TVOC 超过阈值(0.6 mg/m³)时,蜂鸣器自动报警 |
+| 关闭         | 禁用蜂鸣器报警                               |
+
+#### 保存设置
+
+点击页面底部红色 **保存设置** 按钮,将所有配置写入设备存储,断电后不丢失。
+
+> **重要:每次修改参数后必须点击「保存设置」才会持久化！**
+
+#### 按键操作说明
+
+设备面板上配有一个多功能按键(IO9),支持以下操作:
+
+| 操作                              | 功能                                    |
+| --------------------------------- | --------------------------------------- |
+| **单击**                          | 手动切换风扇开 / 关(进入手动控制模式) |
+| **三连击**                        | 进入工厂测试模式(设备重启后进入)      |
+| **长按(约 2 秒)**(测试模式下) | 退出工厂测试模式,恢复正常模式          |
+
+#### 风扇自动控制逻辑
+
+设备根据打印机实时状态自动控制风扇,规则如下:
+
+| 打印机状态        | 风扇行为                                 |
+| ----------------- | ---------------------------------------- |
+| **打印中**        | 立即开启风扇                             |
+| **暂停**          | 保持开启,倒计时(可配置)结束后自动关闭 |
+| **打印完成**      | 保持开启,倒计时(可配置)结束后自动关闭 |
+| **打印失败**      | 保持开启,倒计时(可配置)结束后自动关闭 |
+| **空闲 / 未连接** | 立即关闭风扇                             |
+
+#### 手动模式
+
+- **单击按键**:立即切换风扇开 / 关,进入手动模式
+- 手动模式下自动控制逻辑暂停
+
+#### 数码管显示说明
+
+设备配备 3 组 TM1650 数码管,各组独立显示以下内容:
+
+#### TVOC 数码管(上侧)
+
+| 显示内容                   | 说明                                    |
+| -------------------------- | --------------------------------------- |
+| 数字(如 `0.15`)          | 传感器正常,显示实时 TVOC 浓度(mg/m³) |
+| 倒计时数字(如 `420`→`0`) | 传感器预热中,等待就绪(最长 10 分钟)  |
+| `E.00`                     | 传感器超时无响应,请检查硬件连接        |
+
+#### 温度数码管(中间)
+
+| 显示内容          | 说明                                 |
+| ----------------- | ------------------------------------ |
+| 数字(如 `25.6`) | 实时温度值(℃ 或 ℉,由控制面板设置) |
+| `- -`             | 传感器读取失败                       |
+
+#### 湿度数码管(下侧)
+
+| 显示内容        | 说明                |
+| --------------- | ------------------- |
+| 数字(如 `48`) | 实时相对湿度(%RH) |
+| `- -`           | 传感器读取失败      |
+
+#### 蜂鸣器报警说明
+
+当 **TVOC ≥ 0.6 mg/m³** 时,蜂鸣器自动按以下节奏持续报警:
+
+```text
+响 1 秒 → 停 0.3 秒 → 响 1 秒 → 停 0.3 秒 → ...(循环)
+```
+
+- 可在控制面板中关闭报警(TVOC 报警开关)
+- 关闭状态断电后保持,无需每次重新设置
+
+## 固件更新(OTA)
+
+### 在线更新
+
+1. 进入 **设置** 页面,查看当前固件版本(Firmware Version)
+
+    <ImageView src={require("./img/panda-lungs-step19.webp").default} width="45%" />
+
+2. 点击 **Firmware Update** 按钮,选择 `.bin` 固件文件
+
+    <ImageView src={require("./img/panda-lungs-step20.webp").default} width="45%" />
+
+5. 等待上传完成(进度条显示百分比)
+
+    <ImageView src={require("./img/panda-lungs-step21.webp").default} width="45%" />
+
+6. 更新成功后设备自动重启
+
+    <ImageView src={require("./img/panda-lungs-step22.webp").default} width="45%" />
+
+> **注意事项:**
+> - 更新过程中请勿断电或关闭浏览器
+> - 固件文件最大支持 4.5 MB
+> - 更新完成后请重新刷新页面
+
+## 常见问题 FAQ
+
+### Q1:设备上电后找不到 AP 热点?
+
+**解决方法:**
+
+- 等待约 10 秒,设备启动需要时间
+- 确认设备 USB-C 供电正常(5V/1A 以上)
+- 尝试重新上电
+
+### Q2:Wi-Fi 连接失败或一直显示"连接中"?
+
+**解决方法:**
+
+- 确认 Wi-Fi 密码输入正确
+- 确认路由器支持 2.4GHz(不支持纯 5GHz)
+- 如果多次失败,尝试恢复出厂设置后重新配置
+
+### Q3:无法扫描到打印机?
+
+**解决方法:**
+
+- 确认 Panda Lungs 和打印机在**同一局域网**内
+- 确认打印机已开机且联网
+- 尝试手动输入打印机 IP 和 SN 码进行绑定
+- 检查打印机 Access Code 是否正确(在打印机设置中查看)
+
+### Q4:参数设置后重启丢失?
+
+**解决方法:**
+
+- 确认修改后点击了 **保存设置** 按钮
+
+### Q5:数码管不显示或显示异常?
+
+**可能原因:**
+
+- 传感器硬件连接问题
+- I2C 通信不稳定
+
+**解决方法:**
+
+- 检查传感器连接
+- 重新上电
+
+### Q6:如何恢复出厂设置?
+
+1. 进入 **设置** 页面
+2. 点击 **Factory Reset(恢复出厂设置)** 按钮
+3. 确认后设备自动重启并清除所有配置
+
+> 恢复出厂设置会清除所有配置(Wi-Fi,打印机绑定,参数设置等),请谨慎操作！
+
+### Q7:如何通过主机名访问 Web UI?
+
+默认主机名为 `PandaLungs`,在浏览器输入:
+
+```
+http://PandaLungs.local
+```
+
+如果无法访问,可以在 **Wi-Fi & IP** 页面查看设备 IP 地址,直接使用 IP 访问。
