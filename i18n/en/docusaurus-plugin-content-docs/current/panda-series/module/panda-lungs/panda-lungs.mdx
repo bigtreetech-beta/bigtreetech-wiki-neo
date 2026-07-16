@@ -18,10 +18,7 @@ import TabItem from "@theme/TabItem";
 {/* main image */}
 
 <ImageView
-    src={
-        require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-title.webp")
-            .default
-    }
+    src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-title.webp").default}
     alt=""
     width="45%"
     class="right-image"
@@ -82,7 +79,7 @@ import TabItem from "@theme/TabItem";
 | Position | Display Content              |
 | -------- | ---------------------------- |
 | Upper    | TVOC value (mg/m³)           |
-| Middle   | Ambient temperature (℃ or ℉) |
+| Middle   | Ambient temperature ($^\circ\mathrm{C}$ or $^\circ\mathrm{F}$) |
 | Lower    | Ambient humidity (%RH)       |
 
 <ImageView
@@ -108,10 +105,7 @@ Take all accessories out of the package. The parts list is shown below.
 First, apply the double-sided tape to the bottom of the mounting bracket, peel off the protective backing, and install the bracket as shown below.
 
 <ImageView
-    src={
-        require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-01.webp")
-            .default
-    }
+    src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-01.webp").default}
     alt=""
     width="60%"
 />
@@ -121,10 +115,7 @@ First, apply the double-sided tape to the bottom of the mounting bracket, peel o
 Place it into the printer in the direction shown. First remove the original M3\*8 socket head screw from the printer, then pass the screw through the mounting bracket and fasten the bracket to the printer body.
 
 <ImageView
-    src={
-        require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-02.webp")
-            .default
-    }
+    src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-02.webp").default}
     alt=""
     width="60%"
 />
@@ -134,10 +125,7 @@ Place it into the printer in the direction shown. First remove the original M3\*
 Remove the printer's PTFE tube guide. Take out the 4-pin to 2-pin cable and route it in the direction shown. Pass the 2-pin connector through the opening exposed after removing the PTFE tube guide, then plug it into the top connector of Panda Lungs.
 
 <ImageView
-    src={
-        require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-03.webp")
-            .default
-    }
+    src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-03.webp").default}
     alt=""
     width="60%"
 />
@@ -145,10 +133,7 @@ Remove the printer's PTFE tube guide. Take out the 4-pin to 2-pin cable and rout
 Then secure the cable inside the printer body using the included clips, following the routing path shown below. Make sure the cable does not interfere with the printer's X/Y-axis movement.
 
 <ImageView
-    src={
-        require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-05.webp")
-            .default
-    }
+    src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-05.webp").default}
     alt=""
     width="60%"
 />
@@ -156,19 +141,13 @@ Then secure the cable inside the printer body using the included clips, followin
 Install the included silicone PTFE tube guide onto the PTFE tube, then plug the cable into the rear port of the printer.
 
 <ImageView
-    src={
-        require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-06.webp")
-            .default
-    }
+    src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-06.webp").default}
     alt=""
     width="60%"
 />
 
 <ImageView
-    src={
-        require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-04.webp")
-            .default
-    }
+    src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-04.webp").default}
     alt=""
     width="60%"
 />
@@ -191,10 +170,7 @@ Install the included silicone PTFE tube guide onto the PTFE tube, then plug the 
     - Use a phone or computer to connect to the AP hotspot above. Hotspot password: `987654321`.
 
         <ImageView
-            src={
-                require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-step0.webp")
-                    .default
-            }
+            src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-step0.webp").default}
             width="40%"
         />
 
@@ -248,7 +224,7 @@ Install the included silicone PTFE tube guide onto the PTFE tube, then plug the 
                 width="45%"
             />
 
-        - If connection succeeds: The page will display **WiFi connected successfully** and show the device’s LAN IP address. You can then access the Web UI from any device on the same network using this IP address:
+        - If connection succeeds: The page will display **WiFi connected successfully** and show the device's LAN IP address. You can then access the Web UI from any device on the same network using this IP address:
 
             <ImageView
                 src={require("./img/panda-lungs-step8.webp").default}
@@ -336,10 +312,7 @@ There are 5 navigation buttons at the bottom of the page:
     - Tap the `Select .bin file` button and select the bin file for OTA update.
 
         <ImageView
-            src={
-                require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-step20.webp")
-                    .default
-            }
+            src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-step20.webp").default}
             width="40%"
         />
 
@@ -367,7 +340,7 @@ After the printer enters the **Paused** state, Panda Lungs keeps running and tur
 
 - Range: **0 ~ 60 minutes**
 - Default: **5 minutes**
-- Operation: Tap `+` / `-` to adjust; press and hold to step quickly by ± 5 minutes
+- Operation: Tap `+` / `-` to adjust; press and hold to step quickly by $\pm$ 5 minutes
 - When set to **0 minutes**, the fan turns off immediately after the printer is paused
 
 #### Print Completed / Failed — Auto-Off Delay
@@ -376,7 +349,7 @@ After the printer enters the **Completed** or **Failed** state, Panda Lungs keep
 
 - Range: **0 ~ 60 minutes**
 - Default: **5 minutes**
-- Operation: Tap `+` / `-` to adjust; press and hold to step quickly by ± 5 minutes
+- Operation: Tap `+` / `-` to adjust; press and hold to step quickly by $\pm$ 5 minutes
 - When set to **0 minutes**, Panda Lungs turns off immediately after the printer status changes.
 
 #### Temperature Unit
@@ -385,8 +358,8 @@ Switch the temperature unit shown on the digital display:
 
 | Option             | Description      |
 | ------------------ | ---------------- |
-| **Celsius / ℃**    | Celsius, default |
-| **Fahrenheit / ℉** | Fahrenheit       |
+| **Celsius / $^\circ\mathrm{C}$**    | Celsius, default |
+| **Fahrenheit / $^\circ\mathrm{F}$** | Fahrenheit       |
 
 #### TVOC Alarm Switch
 
@@ -444,7 +417,7 @@ The device is equipped with 3 groups of TM1650 digital displays. Each group inde
 
 | Display Content        | Description                                                |
 | ---------------------- | ---------------------------------------------------------- |
-| Number, such as `25.6` | Real-time temperature value (℃ or ℉, set in Control Panel) |
+| Number, such as `25.6` | Real-time temperature value ($^\circ\mathrm{C}$ or $^\circ\mathrm{F}$, set in Control Panel) |
 | `- -`                  | Sensor reading failed                                      |
 
 #### Humidity Digital Display, Lower
@@ -475,13 +448,7 @@ Beep for 1 second → pause for 0.3 seconds → beep for 1 second → pause for 
 
 2. Tap the **Firmware Update** button and select the `.bin` firmware file
 
-    <ImageView
-        src={
-            require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-step20.webp")
-                .default
-        }
-        width="45%"
-    />
+    <ImageView src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-step20.webp").default}width="45%"/>
 
 5. Wait until the upload is complete. The progress bar shows the percentage.
 
