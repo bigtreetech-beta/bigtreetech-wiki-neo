@@ -35,8 +35,6 @@ import TabItem from "@theme/TabItem";
 - **Web UI 远程控制**:通过浏览器访问 Web UI, 远程查看状态和配置参数。
 - **参数记忆**:所有配置断电后自动保存。
 
-</div>
-
 ## 技术规格
 
 | 项目     | 参数                          |
@@ -49,13 +47,17 @@ import TabItem from "@theme/TabItem";
 | 待机状态 | 5V 540mA 2.73W                |
 | 兼容机型 | Bambu P1S/X1E/A1 封箱(若有) |
 
+</div>
+
+## 硬件说明
+
+### 产品尺寸
+
 <ImageView
     src={require("./img/panda-lungs-dimension-drawing.webp").default}
     alt=""
     width="60%"
 />
-
-## 硬件说明
 
 ### 接口说明
 
@@ -258,7 +260,11 @@ import TabItem from "@theme/TabItem";
 
         <ImageView src={require("./img/panda-lungs-step16.webp").default} width="45%" />
 
-    注意:确保 Panda Lungs 和打印机在同一局域网内。
+    :::info[注意]
+
+    确保 Panda Lungs 和打印机在同一局域网内。
+
+    :::
 
 ## Web UI 功能说明
 
@@ -431,9 +437,11 @@ import TabItem from "@theme/TabItem";
 
 当 **TVOC ≥ 0.6 mg/m³** 时,蜂鸣器自动按以下节奏持续报警:
 
-```text
+:::tip
+
 响 1 秒 → 停 0.3 秒 → 响 1 秒 → 停 0.3 秒 → ...(循环)
-```
+
+:::
 
 - 可在控制面板中关闭报警(TVOC 报警开关)
 - 关闭状态断电后保持,无需每次重新设置
@@ -458,10 +466,13 @@ import TabItem from "@theme/TabItem";
 
     <ImageView src={require("./img/panda-lungs-step22.webp").default} width="45%" />
 
-> **注意事项:**
-> - 更新过程中请勿断电或关闭浏览器
-> - 固件文件最大支持 4.5 MB
-> - 更新完成后请重新刷新页面
+:::info[注意事项]
+
+- 更新过程中请勿断电或关闭浏览器
+- 固件文件最大支持 4.5 MB
+- 更新完成后请重新刷新页面
+
+:::
 
 ## 常见问题 FAQ
 
@@ -514,7 +525,11 @@ import TabItem from "@theme/TabItem";
 2. 点击 **Factory Reset(恢复出厂设置)** 按钮
 3. 确认后设备自动重启并清除所有配置
 
-> 恢复出厂设置会清除所有配置(Wi-Fi,打印机绑定,参数设置等),请谨慎操作！
+:::warning
+
+恢复出厂设置会清除所有配置(Wi-Fi,打印机绑定,参数设置等),请谨慎操作！
+
+:::
 
 ### Q7:如何通过主机名访问 Web UI?
 

@@ -35,8 +35,6 @@ import TabItem from "@theme/TabItem";
 - **Web UI Remote Control**: Access the Web UI through a browser to view device status and configure parameters remotely.
 - **Settings Memory**: All settings are automatically saved and retained after power-off.
 
-</div>
-
 ## Technical Specifications
 
 | Item              | Specification                            |
@@ -49,13 +47,17 @@ import TabItem from "@theme/TabItem";
 | Standby Power     | 5V 540 mA 2.73 W (Peak)                  |
 | Compatible Models | Bambu Lab P1S/X1E, and A1 with enclosure |
 
+</div>
+
+## Hardware Overview
+
+### Product Dimensions
+
 <ImageView
     src={require("./img/panda-lungs-dimension-drawing.webp").default}
     alt=""
     width="60%"
 />
-
-## Hardware Overview
 
 ### Interface Overview
 
@@ -258,7 +260,11 @@ Install the included silicone PTFE tube guide onto the PTFE tube, then plug the 
 
         <ImageView src={require("./img/panda-lungs-step16.webp").default} width="45%" />
 
-    Note: Make sure Panda Lungs and the printer are connected to the same local network.
+    :::info[Note]
+
+    Make sure Panda Lungs and the printer are connected to the same local network.
+
+    :::
 
 ## Web UI Features
 
@@ -431,9 +437,11 @@ The device is equipped with 3 groups of TM1650 digital displays. Each group inde
 
 When **TVOC ≥ 0.6 mg/m³**, the buzzer automatically sounds continuously in the following pattern:
 
-```text
+:::tip
+
 Beep for 1 second → pause for 0.3 seconds → beep for 1 second → pause for 0.3 seconds → ... (loop)
-```
+
+:::
 
 - The alarm can be turned off in Control Panel using the TVOC Alarm Switch
 - After the alarm is turned off, this setting is retained after power-off and does not need to be set again each time
@@ -458,10 +466,13 @@ Beep for 1 second → pause for 0.3 seconds → beep for 1 second → pause for 
 
     <ImageView src={require("./img/panda-lungs-step22.webp").default} width="45%" />
 
-> **Notes:**
-> - Do not disconnect power or close the browser during the update
-> - The maximum supported firmware file size is 4.5 MB
-> - Refresh the page again after the update is complete
+:::info[Notes]
+
+- Do not disconnect power or close the browser during the update
+- The maximum supported firmware file size is 4.5 MB
+- Refresh the page again after the update is complete
+
+:::
 
 ## FAQ
 
@@ -514,7 +525,11 @@ Beep for 1 second → pause for 0.3 seconds → beep for 1 second → pause for 
 2. Tap the **Factory Reset** button
 3. Confirm the action. The device will automatically restart and clear all settings.
 
-> Factory reset will clear all settings, including Wi-Fi, printer connection, and parameter settings. Please proceed with caution!
+:::warning
+
+Factory reset will clear all settings, including Wi-Fi, printer connection, and parameter settings. Please proceed with caution!
+
+:::
 
 ### Q7: How do I access the Web UI using the hostname?
 
