@@ -1,0 +1,542 @@
+---
+sidebar_position: 1
+description: Panda Lungs is an air purification module designed for Bambu Lab P1/X1 series printers. It operates automatically based on printer status, displays temperature and humidity, monitors TVOC levels in real time, triggers buzzer alerts when needed, and supports remote configuration through the Web UI.
+---
+
+# Panda Lungs
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView
+    src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-title.webp").default}
+    alt=""
+    width="45%"
+    class="right-image"
+/>
+
+## Product Overview
+
+**Panda Lungs** is an air purification module designed for Bambu Lab P1/X1 series printers. Key features include:
+
+- **Print-Status Operation**: Automatically turns on when the printer starts printing and turns off when the print stops, completes, or fails.
+- **Temperature and Humidity Display**: Displays real-time ambient temperature and humidity through TM1650 digital displays.
+- **TVOC Monitoring**: Monitors and displays total volatile organic compounds (TVOC) concentration in real time.
+- **Buzzer Alarm**: Automatically sounds an alarm when the TVOC level exceeds the threshold.
+- **Web UI Remote Control**: Access the Web UI through a browser to view device status and configure parameters remotely.
+- **Settings Memory**: All settings are automatically saved and retained after power-off.
+
+## Technical Specifications
+
+| Item              | Specification                            |
+| ----------------- | ---------------------------------------- |
+| Product Name      | Panda Lungs                              |
+| Dimensions        | 122 _ 56 _ 211 mm                        |
+| Weight            | 700 g                                    |
+| Material          | ASA housing                              |
+| Main Chip         | ESP32-C3                                 |
+| Standby Power     | 5V 540 mA 2.73 W (Peak)                  |
+| Compatible Models | Bambu Lab P1S/X1E, and A1 with enclosure |
+
+</div>
+
+## Hardware Overview
+
+### Product Dimensions
+
+<ImageView
+    src={require("./img/panda-lungs-dimension-drawing.webp").default}
+    alt=""
+    width="60%"
+/>
+
+### Interface Overview
+
+| Interface           | Description                                           |
+| ------------------- | ----------------------------------------------------- |
+| Fan Ports 1, 2      | Connect to the purification fans                      |
+| Button              | Short press to switch the fan on/off in manual mode   |
+| Buzzer              | Sounds automatically when the TVOC alarm is triggered |
+| Digital Displays * 3 | Display TVOC, humidity, and temperature respectively  |
+| USB-C               | Power input and firmware flashing                     |
+| Standby Power       | 5V 540 mA 2.73 W (Peak)                               |
+
+<ImageView
+    src={require("./img/panda-lungs-main-image03.webp").default}
+    alt=""
+    width="75%"
+/>
+
+## Digital Display
+
+| Position | Display Content              |
+| -------- | ---------------------------- |
+| Upper    | TVOC value (mg/m³)           |
+| Middle   | Ambient temperature ($^\circ\mathrm{C}$ or $^\circ\mathrm{F}$) |
+| Lower    | Ambient humidity (%RH)       |
+
+<ImageView
+    src={require("./img/panda-lungs-main-image02.webp").default}
+    alt=""
+    width="75%"
+/>
+
+## Installation
+
+### Check Package Contents
+
+Take all accessories out of the package. The parts list is shown below.
+
+<ImageView
+    src={require("./img/panda-lungs-installation-00.webp").default}
+    alt=""
+    width="60%"
+/>
+
+### Attach Bracket and Adhesive
+
+First, apply the double-sided tape to the bottom of the mounting bracket, peel off the protective backing, and install the bracket as shown below.
+
+<ImageView
+    src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-01.webp").default}
+    alt=""
+    width="60%"
+/>
+
+### Install in Printer
+
+Place it into the printer in the direction shown. First remove the original M3\*8 socket head screw from the printer, then pass the screw through the mounting bracket and fasten the bracket to the printer body.
+
+<ImageView
+    src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-02.webp").default}
+    alt=""
+    width="60%"
+/>
+
+### Route Cables
+
+Remove the printer's PTFE tube guide. Take out the 4-pin to 2-pin cable and route it in the direction shown. Pass the 2-pin connector through the opening exposed after removing the PTFE tube guide, then plug it into the top connector of Panda Lungs.
+
+<ImageView
+    src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-03.webp").default}
+    alt=""
+    width="60%"
+/>
+
+Then secure the cable inside the printer body using the included clips, following the routing path shown below. Make sure the cable does not interfere with the printer's X/Y-axis movement.
+
+<ImageView
+    src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-05.webp").default}
+    alt=""
+    width="60%"
+/>
+
+Install the included silicone PTFE tube guide onto the PTFE tube, then plug the cable into the rear port of the printer.
+
+<ImageView
+    src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-06.webp").default}
+    alt=""
+    width="60%"
+/>
+
+<ImageView
+    src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-installation-04.webp").default}
+    alt=""
+    width="60%"
+/>
+
+## Initial Setup Guide
+
+### Power On
+
+- Turn on the Panda Lungs
+
+    - Turn on the printer's power switch, then slide the power switch on Panda Lungs to the right as shown. Wait about 5 seconds for the device to automatically enter AP hotspot mode. The hotspot name is: Panda_Lungs_XXXXXX. XXXXXX represents the last 6 digits of the device MAC address.
+
+        <ImageView
+            src={require("./img/panda-lungs-step00.webp").default}
+            width="60%"
+        />
+
+- Connect to the device hotspot
+
+    - Use a phone or computer to connect to the AP hotspot above. Hotspot password: `987654321`.
+
+        <ImageView
+            src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-step0.webp").default}
+            width="40%"
+        />
+
+    - After connecting to the AP, you can enter the default IP address `192.168.254.1` in a browser on a computer. On a phone, the Panda Lungs Web UI may open automatically. You can also enter `192.168.254.1` in a browser to access the Web UI. Note: This IP address is the factory default IP.
+
+- Select language, default English
+
+    - When you enter the Web UI for the first time, the **Language Selection** page appears. Select a language, then tap **Next**.
+
+        <ImageView
+            src={require("./img/panda-lungs-step1.webp").default}
+            width="40%"
+        />
+
+- Configure Wi-Fi
+
+    - Go to the **Wi-Fi Configuration** page. When the device is used for the first time or after a factory reset, it automatically scans nearby Wi-Fi networks when you enter this page. You can also tap Scan manually.
+
+        <ImageView
+            src={require("./img/panda-lungs-step2.webp").default}
+            width="40%"
+        />
+
+    - After the scan is complete, a `Scan complete` pop-up appears. Tap OK to close the prompt.
+
+        <ImageView
+            src={require("./img/panda-lungs-step3.webp").default}
+            width="45%"
+        />
+
+    - Tap the option under Wi-Fi and select the Wi-Fi network you want to connect to.
+
+        <ImageView
+            src={require("./img/panda-lungs-step5.webp").default}
+            width="45%"
+        />
+
+    - Enter the Wi-Fi password. You can tap the `eye` icon on the right side of the password field to show the password you entered. Tap Connect. The page will automatically switch to the `Wi-Fi` page in the operation page and show that Wi-Fi is connecting.
+
+        <ImageView
+            src={require("./img/panda-lungs-step6.webp").default}
+            width="45%"
+        />
+
+    - After waiting for a short time, a pop-up will show the Wi-Fi connection status.
+
+        - If connection fails
+
+            <ImageView
+                src={require("./img/panda-lungs-step7.webp").default}
+                width="45%"
+            />
+
+        - If connection succeeds: The page will display **WiFi connected successfully** and show the device's LAN IP address. You can then access the Web UI from any device on the same network using this IP address:
+
+            <ImageView
+                src={require("./img/panda-lungs-step8.webp").default}
+                width="45%"
+            />
+
+### Add Printer
+
+    - Go to the **Add Printer** page
+
+        <ImageView src={require("./img/panda-lungs-step9.webp").default} width="40%" />
+
+    - Tap the **Scan** button to search for Bambu Lab printers on the local network
+
+        <ImageView src={require("./img/panda-lungs-step10.webp").default} width="45%" />
+
+    - Select a printer from the drop-down list, or manually enter:
+    - Printer SN
+
+        <ImageView src={require("./img/panda-lungs-step11.webp").default} width="45%" />
+
+    - Access Code
+
+        <ImageView src={require("./img/panda-lungs-step13.webp").default} width="45%" />
+
+    - Printer IP address
+
+        <ImageView src={require("./img/panda-lungs-step12.webp").default} width="45%" />
+
+    - Tap the **Bind** button to complete adding the printer
+
+        <ImageView src={require("./img/panda-lungs-step16.webp").default} width="45%" />
+
+    :::info[Note]
+
+    Make sure Panda Lungs and the printer are connected to the same local network.
+
+    :::
+
+## Web UI Features
+
+### Navigation Bar
+
+There are 5 navigation buttons at the bottom of the page:
+
+| Button     | Function                                                                          |
+| ---------- | --------------------------------------------------------------------------------- |
+| Wi-Fi & IP | View connection status, IP address, and hostname settings                         |
+| AP         | AP hotspot switch and configuration                                               |
+| Printer    | Add/remove printer                                                                |
+| Control    | Configure core parameters, including temperature unit, countdown, alarm, and more |
+| Settings   | System settings, firmware update, and language selection                          |
+
+### WiFi Page
+
+<ImageView src={require("./img/panda-lungs-step17.webp").default} width="40%" />
+
+1. WiFi page button. After tapping, the icon is highlighted in red and the page switches to the WiFi page.
+2. Current WiFi connection status.
+3. IP address help prompt. If the IP address field does not show an IP address, make sure the Panda Lungs network status shows connected successfully. If it shows disconnected, configure the network settings.
+4. IP address display. On the same local network, you can also enter this IP address in a browser to access the Web UI.
+5. WiFi network configuration button. Tap to go to the **WiFi connection page**.
+6. Hostname display. You can use the hostname to access the Web UI. The default hostname is `PandaLungs`. If you do not remember the IP address, enter the hostname followed by `.local` in the browser address bar to access the Web UI, for example: `http://PandaLungs.local`. Tap the text field to edit the hostname, then tap the `Set Hostname` button to confirm the change.
+7. Confirm hostname change.
+
+### AP Page
+
+<ImageView src={require("./img/panda-lungs-step18.webp").default} width="40%" />
+
+1. AP page button. After tapping, the icon is highlighted in red and the page switches to the AP page.
+2. AP hotspot switch.
+3. AP hotspot name. The default name is `Panda_Lungs_XXXXXXXXXX`.
+4. AP hotspot password. The default password is `987654321`.
+5. Hotspot IP. The default hotspot IP is `192.168.254.1`. If your router also uses the `192.168.254.xxx` IP range, Panda Lungs and the router will be on the same IP range, which may cause an IP conflict and prevent Panda Lungs from connecting to the printer properly. Manually change the Panda Lungs hotspot IP to a different IP range from your router.
+6. Tap Confirm to restart the device. After the restart is complete, you can connect to the AP hotspot. **How to connect to the AP hotspot**.
+
+### Settings Page
+
+<ImageView src={require("./img/panda-lungs-step19.webp").default} width="40%" />
+
+1. Settings button. After tapping, the icon is highlighted in red and the page switches to the Settings page.
+
+2. Select the Web UI language, Chinese or English. English is the default.
+
+3. Display the current firmware version.
+
+4. Firmware OTA update. Select a `.bin` file.
+
+    - Tap the `Select .bin file` button and select the bin file for OTA update.
+
+        <ImageView
+            src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-step20.webp").default}
+            width="40%"
+        />
+
+    - Wait for the OTA update progress to complete. When complete, a pop-up appears and the device restarts automatically.
+
+        <ImageView
+            src={require("./img/panda-lungs-step21.webp").default}
+            width="40%"
+        />
+
+        <ImageView
+            src={require("./img/panda-lungs-step22.webp").default}
+            width="40%"
+        />
+
+5. Tap OK.
+
+### Control Panel Features
+
+The Control Panel is the main configuration page and includes the following features:
+
+#### Printer Paused — Auto-Off Delay
+
+After the printer enters the **Paused** state, Panda Lungs keeps running and turns off automatically after the countdown ends.
+
+- Range: **0 ~ 60 minutes**
+- Default: **5 minutes**
+- Operation: Tap `+` / `-` to adjust; press and hold to step quickly by $\pm$ 5 minutes
+- When set to **0 minutes**, the fan turns off immediately after the printer is paused
+
+#### Print Completed / Failed — Auto-Off Delay
+
+After the printer enters the **Completed** or **Failed** state, Panda Lungs keeps running and turns off automatically after the countdown ends.
+
+- Range: **0 ~ 60 minutes**
+- Default: **5 minutes**
+- Operation: Tap `+` / `-` to adjust; press and hold to step quickly by $\pm$ 5 minutes
+- When set to **0 minutes**, Panda Lungs turns off immediately after the printer status changes.
+
+#### Temperature Unit
+
+Switch the temperature unit shown on the digital display:
+
+| Option             | Description      |
+| ------------------ | ---------------- |
+| **Celsius / $^\circ\mathrm{C}$**    | Celsius, default |
+| **Fahrenheit / $^\circ\mathrm{F}$** | Fahrenheit       |
+
+#### TVOC Alarm Switch
+
+| Status      | Description                                                                  |
+| ----------- | ---------------------------------------------------------------------------- |
+| On, default | When TVOC exceeds the threshold (0.6 mg/m³), the buzzer sounds automatically |
+| Off         | Disables the buzzer alarm                                                    |
+
+#### Save Settings
+
+Tap the red **Save Settings** button at the bottom of the page to write all configurations to device storage. The settings will not be lost after power-off.
+
+> **Important: You must Tap "Save Settings" after each parameter change for the settings to be saved permanently!**
+
+#### Button Controls
+
+The device panel is equipped with a multifunction button (IO9), which supports the following operations:
+
+| Operation                                           | Function                                                         |
+| --------------------------------------------------- | ---------------------------------------------------------------- |
+| **Single press**                                    | Manually turn Panda Lungs on / off and enter manual control mode |
+| **Triple press**                                    | Enter factory test mode after the device restarts                |
+| **Press and hold (about 2 seconds)** (in test mode) | Exit factory test mode and return to normal mode                 |
+
+#### Automatic Operation by Printer Status
+
+Panda Lungs automatically turns on or off based on the printer's real-time status, according to the rules below:
+
+| Printer Status           | Panda Lungs Behavior                                                         |
+| ------------------------ | ---------------------------------------------------------------------------- |
+| **Printing**             | Turns on immediately                                                         |
+| **Paused**               | Stays on, then turns off automatically after the configurable countdown ends |
+| **Print Completed**      | Stays on, then turns off automatically after the configurable countdown ends |
+| **Print Failed**         | Stays on, then turns off automatically after the configurable countdown ends |
+| **Idle / Not Connected** | Turns off immediately                                                        |
+
+#### Manual Mode
+
+- **Single press the button**: Manually turn Panda Lungs on / off and enter manual mode.
+- In manual mode, Panda Lungs no longer follows the printer status automatically.
+
+#### Digital Display Description
+
+The device is equipped with 3 groups of TM1650 digital displays. Each group independently shows the following information:
+
+#### TVOC Digital Display, Upper
+
+| Display Content                     | Description                                                              |
+| ----------------------------------- | ------------------------------------------------------------------------ |
+| Number, such as `0.15`              | Sensor operating normally; displays real-time TVOC concentration (mg/m³) |
+| Countdown number, such as `420`→`0` | Sensor warming up; wait until it is ready, up to 10 minutes              |
+| `E.00`                              | Sensor response timed out. Please check the hardware connection          |
+
+#### Temperature Digital Display, Middle
+
+| Display Content        | Description                                                |
+| ---------------------- | ---------------------------------------------------------- |
+| Number, such as `25.6` | Real-time temperature value ($^\circ\mathrm{C}$ or $^\circ\mathrm{F}$, set in Control Panel) |
+| `- -`                  | Sensor reading failed                                      |
+
+#### Humidity Digital Display, Lower
+
+| Display Content      | Description                       |
+| -------------------- | --------------------------------- |
+| Number, such as `48` | Real-time relative humidity (%RH) |
+| `- -`                | Sensor reading failed             |
+
+#### Buzzer Alarm Description
+
+When **TVOC ≥ 0.6 mg/m³**, the buzzer automatically sounds continuously in the following pattern:
+
+:::tip
+
+Beep for 1 second → pause for 0.3 seconds → beep for 1 second → pause for 0.3 seconds → ... (loop)
+
+:::
+
+- The alarm can be turned off in Control Panel using the TVOC Alarm Switch
+- After the alarm is turned off, this setting is retained after power-off and does not need to be set again each time
+
+## Firmware Update (OTA)
+
+### Online Update
+
+1. Go to the **Settings** page and check the current firmware version (Firmware Version)
+
+    <ImageView src={require("./img/panda-lungs-step19.webp").default} width="45%" />
+
+2. Tap the **Firmware Update** button and select the `.bin` firmware file
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-lungs/img/panda-lungs-step20.webp").default}width="45%"/>
+
+5. Wait until the upload is complete. The progress bar shows the percentage.
+
+    <ImageView src={require("./img/panda-lungs-step21.webp").default} width="45%" />
+
+6. After the update succeeds, the device restarts automatically
+
+    <ImageView src={require("./img/panda-lungs-step22.webp").default} width="45%" />
+
+:::info[Notes]
+
+- Do not disconnect power or close the browser during the update
+- The maximum supported firmware file size is 4.5 MB
+- Refresh the page again after the update is complete
+
+:::
+
+## FAQ
+
+### Q1: The AP hotspot cannot be found after the device powers on.
+
+**Solution:**
+
+- Wait about 10 seconds. The device needs time to start up
+- Make sure the device is powered properly through the USB-C port, 5V/1A or above
+- Try powering the device off and on again
+
+### Q2: Wi-Fi connection fails or keeps showing "Connecting".
+
+**Solution:**
+
+- Make sure the Wi-Fi password is entered correctly
+- Make sure the router supports 2.4GHz Wi-Fi. Pure 5GHz networks are not supported
+- If the connection fails multiple times, try restoring factory settings and configuring Wi-Fi again
+
+### Q3: The printer cannot be scanned.
+
+**Solution:**
+
+- Make sure Panda Lungs and the printer are on the **same local network**
+- Make sure the printer is powered on and connected to the network
+- Try manually entering the printer IP address and SN to add the printer
+- Check whether the printer Access Code is correct. You can find it in the printer settings.
+
+### Q4: Settings are lost after the device restarts.
+
+**Solution:**
+
+- Make sure you Taped the **Save Settings** button after making changes
+
+### Q5: The digital displays do not light up or show abnormal values.
+
+**Possible Causes:**
+
+- Sensor hardware connection issue
+- Unstable I2C communication
+
+**Solution:**
+
+- Check the sensor connection
+- Power the device off and on again
+
+### Q6: How do I restore factory settings?
+
+1. Go to the **Settings** page
+2. Tap the **Factory Reset** button
+3. Confirm the action. The device will automatically restart and clear all settings.
+
+:::warning
+
+Factory reset will clear all settings, including Wi-Fi, printer connection, and parameter settings. Please proceed with caution!
+
+:::
+
+### Q7: How do I access the Web UI using the hostname?
+
+The default hostname is `PandaLungs`. Enter the following in your browser:
+
+```
+http://PandaLungs.local
+```
+
+If it cannot be accessed, you can view the device IP address on the **Wi-Fi & IP** page and access the Web UI directly using the IP address.

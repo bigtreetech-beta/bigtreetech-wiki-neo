@@ -254,5 +254,21 @@
   "sidebar.moreSidebar.category.Pop Series Module.link.generated-index.description": {
     "message": "Pop Series Module",
     "description": "The generated-index page description for category 'Pop Series Module' in sidebar 'moreSidebar'"
+  },
+  "sidebar.boardSidebar.category.MMB CAN V1.0": {
+    "message": "MMB CAN V1.0",
+    "description": "The label for category 'MMB CAN V1.0' in sidebar 'boardSidebar'"
+  },
+  "sidebar.boardSidebar.category.MMB CAN V2.0": {
+    "message": "MMB CAN V2.0",
+    "description": "The label for category 'MMB CAN V2.0' in sidebar 'boardSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Status P2": {
+    "message": "Panda Status P2",
+    "description": "The label for category 'Panda Status P2' in sidebar 'pandaSidebar'"
+  },
+  "sidebar.pandaSidebar.category.Panda Vent": {
+    "message": "Panda Vent",
+    "description": "The label for category 'Panda Vent' in sidebar 'pandaSidebar'"
   }
 }
