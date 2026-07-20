@@ -1,9 +1,9 @@
 ---
 sidebar_position: 3
-description: Octopus Pro 固件配置
+description: Octopus Pro Firmware
 ---
 
-# Octopus Pro 固件配置
+# Octopus Pro Firmware Configuration
 
 {/* import lib start */}
 
@@ -14,15 +14,15 @@ import TabItem from '@theme/TabItem';
 
 ## Klipper
 
-### 写入 Klipper 固件
+### Flashing Klipper Firmware
 
-Octopus Pro F446 写入 Klipper 固件参考 [Octopus 系列固件 (STM32F446)](../octopus-firmware-f446.md)
+Octopus Pro F446 Writing Klipper Firmware Reference [Octopus Series Firmware (STM32F446)](../octopus-firmware-f446.md)
 
-Octopus Pro H723 写入 Klipper 固件参考 [Octopus 系列固件 (STM32H723)](../octopus-firmware-h723.md)
+Octopus Pro H723 Writing Klipper Firmware Reference [Octopus Series Firmware (STM32H723)](../octopus-firmware-h723.md)
 
-### Klipper 配置文件参考
+### Klipper Configuration File Reference
 
-#### 基本配置
+#### Basic Configuration
 
 ``` klipper_cfg title="printer.cfg"
 # Driver0
@@ -118,7 +118,7 @@ max_temp: 250
 #...
 ```
 
-#### 耗材传感器
+#### Consumables Sensors
 
 ``` klipper_cfg title="printer.cfg"
 [filament_switch_sensor material_0]
@@ -134,7 +134,7 @@ switch_pin: PG14
 switch_pin: PG15
 ```
 
-#### 热床
+#### Heated Bed
 
 ``` klipper_cfg title="printer.cfg"
 [heater_bed]
@@ -146,7 +146,7 @@ min_temp: 0
 max_temp: 130
 ```
 
-#### 风扇
+#### Fan
 
 ``` klipper_cfg title="printer.cfg"
 [fan]
@@ -169,7 +169,7 @@ pin: PA8
 
 ```
 
-#### 驱动配置
+#### Drive Configuration
 
 ``` klipper_cfg title="printer.cfg"
 #[tmc2209 stepper_x]

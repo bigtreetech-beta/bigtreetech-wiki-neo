@@ -1,0 +1,586 @@
+[metadata]
+
+[[block]]
+key = "bfe4cb9de31e7bbd"
+origin = '''
+---
+sidebar_position: 2
+description: Octopus Pro 硬件详细
+---
+'''
+translate = '''
+---
+sidebar_position: 2
+description: Octopus Pro Hardware
+---
+'''
+
+[[block]]
+key = "fb18bc76ad7a7eea"
+origin = '''
+# Octopus Pro 硬件功能
+'''
+translate = '''
+# Octopus Pro Hardware Features
+'''
+
+[[block]]
+key = "9e2c16dcc92bf7ce"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "eb4ead46707cdd82"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import ThemedImage from '@theme/ThemedImage';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import ThemedImage from '@theme/ThemedImage';
+'''
+
+[[block]]
+key = "c012cc6c2fca315b"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "93fd81700bb8a61e"
+origin = '''
+## 尺寸
+'''
+translate = '''
+## Dimensions
+'''
+
+[[block]]
+key = "a2cfdcf67de9c0c0"
+origin = '''
+:::info
+
+尺寸参考 GitHub Repo [bigtreetech/BIGTREETECH-OCTOPUS-Pro/Hardware/BIGTREETECH Octopus Pro - SIZE](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro/blob/master/Hardware/BIGTREETECH%20Octopus%20Pro%20-%20SIZE.pdf)
+
+:::
+'''
+translate = '''
+:::info
+
+Size reference: GitHub Repo [bigtreetech/BIGTREETECH-OCTOPUS-Pro/Hardware/BIGTREETECH Octopus Pro - SIZE](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro/blob/master/Hardware/BIGTREETECH%20Octopus%20Pro%20-%20SIZE.pdf)
+
+:::
+'''
+
+[[block]]
+key = "732a6bc30f7f35f8"
+origin = '''
+## Pinout 
+'''
+translate = '''
+## Pinout
+'''
+
+[[block]]
+key = "5b9d4c13e8024255"
+origin = '''
+<a href={require('./img/octopus-pro-pinout-light.png').default} target="_blank">
+    <ThemedImage
+        alt="octopus-pro-pinout"
+        sources={{
+            light: require('./img/octopus-pro-pinout-light.png').default,
+            dark: require('./img/octopus-pro-pinout-dark.png').default,
+        }} width="100%"
+    />
+'''
+translate = '''
+<a href={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-pinout-light.png').default} target="_blank">
+    <ThemedImage
+        alt="octopus-pro-pinout"
+        sources={{
+            light: require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-pinout-light.png').default,
+            dark: require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-pinout-dark.png').default,
+        }} width="100%"
+    />
+'''
+
+[[block]]
+key = "ecd5b806462c7dfd"
+origin = '''
+</a>
+'''
+translate = '''
+</a>
+'''
+
+[[block]]
+key = "22474d1e13bee64d"
+origin = '''
+## 硬件功能配置
+'''
+translate = '''
+## Hardware Feature Configuration
+'''
+
+[[block]]
+key = "b9bee56e52c644df"
+origin = '''
+### USB 接口供电
+'''
+translate = '''
+### USB Power Supply
+'''
+
+[[block]]
+key = "95037648b3d54852"
+origin = '''
+插入跳线即可使用 `USB-C` 为 `octopus` 供电。这可以使使用DFU模式直接编译和下载固件到主板更容易。
+'''
+translate = '''
+Simply insert a jumper to power the octopus via USB-C. This makes it easier to compile and download firmware directly to the mainboard using DFU mode.
+'''
+
+[[block]]
+key = "776d4b812569501d"
+origin = '''
+如果您不连接此跳线，那么如果您想通过 `USB-C` 进行通信，则必须通过主输入电源为板供电。
+'''
+translate = '''
+If you do not connect this jumper, you must power the board through the main input power supply if you want to communicate via USB-C.
+'''
+
+[[block]]
+key = "6bdf17d4fcad8cdd"
+origin = '''
+<ImageView src={require('./img/octopus-pro-usb-power.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-usb-power.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "bbf88df2d17b8fdd"
+origin = '''
+### 自动断电接线
+'''
+translate = '''
+### Automatic Power Off Wiring
+'''
+
+[[block]]
+key = "0f8c3776a7eb929a"
+origin = '''
+当使用 BIGTREETECH 继电器 V1.2 模块时，可以按照下图所示进行接线。
+'''
+translate = '''
+When using the BIGTREETECH Relay V1.2 module, you can wire it as shown in the figure below.
+'''
+
+[[block]]
+key = "fb2496bfa94837ae"
+origin = '''
+<ImageView src={require('./img/octopus-pro-relay.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-relay.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "42673f3c7fd4472c"
+origin = '''
+:::warning
+
+由于 `Relay 1.2` 模块在切断主板电源后仍将供电，因此在打印机仍连接到电源时触摸它是极其危险的。在处理此接线时，请务必断开所有主电源。
+
+:::
+'''
+translate = '''
+:::warning
+
+The `Relay 1.2` module continues to supply power even after the mainboard power is cut, making it extremely dangerous to touch while the printer is still connected to power. Always disconnect all main power before handling this wiring.
+
+:::
+'''
+
+[[block]]
+key = "41bd1ea12badc801"
+origin = '''
+### BL TOUCH
+'''
+translate = '''
+### BL TOUCH
+'''
+
+[[block]]
+key = "7a098e90ed66fea1"
+origin = '''
+使用BL Touch时，如下图所示将其连接到主板。
+'''
+translate = '''
+When using the BL Touch, connect it to the motherboard as shown in the figure below.
+'''
+
+[[block]]
+key = "5c3b51289f2d4946"
+origin = '''
+<ImageView src={require('./img/octopus-pro-bltouch.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-bltouch.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "94803a519ba22631"
+origin = '''
+### Neopixel
+'''
+translate = '''
+### Neopixel
+'''
+
+[[block]]
+key = "e939aadd9ee8368e"
+origin = '''
+<ImageView src={require('./img/octopus-pro-neopix.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-neopix.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "2e02f70b9a9a2274"
+origin = '''
+### Raspberry Pi
+'''
+translate = '''
+### Raspberry Pi
+'''
+
+[[block]]
+key = "bea2bedb26c1e5b7"
+origin = '''
+Octopus Pro 支持连接到树莓派进行打印。有几种连接方式可用于连接 Raspberry Pi。
+'''
+translate = '''
+Octopus Pro supports connecting to a Raspberry Pi for printing. There are several connection methods available for connecting to a Raspberry Pi.
+'''
+
+[[block]]
+key = "2658dcd795812423"
+origin = '''
+- Raspberry Pi 直接连接到 USB-C 端口
+- 使用 UART 或 SPI 使用直接串行连接将 Raspberry Pi 连接
+'''
+translate = '''
+- Connect Raspberry Pi directly to USB-C port
+- Connect Raspberry Pi using direct serial connection via UART or SPI
+'''
+
+[[block]]
+key = "98290b977c478d27"
+origin = '''
+### 电机驱动配置
+'''
+translate = '''
+### Motor Driver Configuration
+'''
+
+[[block]]
+key = "39e59258920341e4"
+origin = '''
+<Tabs groupId="octopus-stepper-driver">
+    <TabItem value="tmc-uart" label="Uart 模式" default>
+        使用 Uart 模式连接驱动
+        <ImageView
+            src={require('./img/octopus-pro-driver-uart.png').default}
+            alt="" width="100%"
+        />
+    </TabItem>
+    <TabItem value="tmc-spi" label="SPI 模式">
+        使用 SPI 模式连接驱动
+        <ImageView
+            src={require('./img/octopus-pro-driver-spi.png').default}
+            alt="" width="100%"
+        />
+    </TabItem>
+    <TabItem value="step-dir" label="Step / dir 模式">
+        使用不支持 Uart 或者 SPI 的驱动。
+        <ImageView
+            src={require('./img/octopus-pro-driver-step-dir.png').default}
+            alt="" width="100%"
+        />
+        以下是跳线参考，不同的驱动会有不同的跳线配置
+        <ImageView
+            src={require('./img/octopus-pro-driver-step-dir-config.png').default}
+            alt="" width="100%"
+        />
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+<Tabs groupId="octopus-stepper-driver">
+    <TabItem value="tmc-uart" label="Uart Mode" default>
+        Use Uart to connect
+        <ImageView
+            src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-driver-uart.png').default}
+            alt="" width="100%"
+        />
+    </TabItem>
+    <TabItem value="tmc-spi" label="SPI Mode">
+        Connecting the Driver Using SPI Mode
+        <ImageView
+            src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-driver-spi.png').default}
+            alt="" width="100%"
+        />
+    </TabItem>
+    <TabItem value="step-dir" label="Step / dir Mode">
+        Use a driver that does not support UART or SPI.
+        <ImageView
+            src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-driver-step-dir.png').default}
+            alt="" width="100%"
+        />
+        The following is a jumper reference; different drivers may have different jumper configurations.
+        <ImageView
+            src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-driver-step-dir-config.png').default}
+            alt="" width="100%"
+        />
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "1e5d168760b721c4"
+origin = '''
+### 电机驱动电压选择
+'''
+translate = '''
+### Motor Drive Voltage Selection
+'''
+
+[[block]]
+key = "6ca2cc58742ed522"
+origin = '''
+:::warning
+
+请勿在通电状态下插拔跳线帽
+
+:::
+'''
+translate = '''
+:::warning
+
+Do not plug or unplug the jumper caps while powered.
+
+:::
+'''
+
+[[block]]
+key = "e34b8645e6f03142"
+origin = '''
+<Tabs groupId="octopus-driver-v">
+    <TabItem value="VBB" label="Octopus Pro VBB" default>
+        当使用 `VBB` 进行供电的时候。来源为主板 `Power` 输入。最高电压为 `24V`。
+        <ImageView
+            src={require('./img/octopus-pro-driver-vbb.png').default}
+            alt="octo pro vbb" width="60%"
+        />
+    </TabItem>
+    <TabItem value="high-oltage" label="Octopus Pro High Voltage">
+        当使用 `High Voltage` 进行供电的时候。来源为主板 `Motor Power` 输入。最高电压为 `56V`。需要注意驱动最大电压范围。
+        <ImageView
+            src={require('./img/octopus-pro-driver-hv.png').default}
+            alt="octo pro high voltage" width="60%"
+        />
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+<Tabs groupId="octopus-driver-v">
+    <TabItem value="VBB" label="Octopus Pro VBB" default>
+        When using `VBB` for power, the source is the motherboard's `Power` input. The maximum voltage is `24V`.
+        <ImageView
+            src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-driver-vbb.png').default}
+            alt="octo pro vbb" width="60%"
+        />
+    </TabItem>
+    <TabItem value="high-oltage" label="Octopus Pro High Voltage">
+        When using `High Voltage` for power supply, the source is the motherboard's `Motor Power` input. The maximum voltage is `56V`. Be sure to observe the driver's maximum voltage range.
+        <ImageView
+            src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-driver-hv.png').default}
+            alt="octo pro high voltage" width="60%"
+        />
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "07982d3e80d6740c"
+origin = '''
+### 风扇电压选择
+'''
+translate = '''
+### Fan Voltage Selection
+'''
+
+[[block]]
+key = "03675b1a7f0fb108"
+origin = '''
+Octopus_Pro具有6个PWM风扇输出和两个“常开”风扇输出。还有一个用于接近传感器或探针的专用针头。
+'''
+translate = '''
+Octopus_Pro features 6 PWM fan outputs and two "always-on" fan outputs. It also includes a dedicated pin for proximity sensors or probes.
+'''
+
+[[block]]
+key = "8cfa10e51b9c8be0"
+origin = '''
+所有风扇输出和接近传感器输入都可以通过配置与每个插头相关的跳线来分别选择由其引脚插头提供的电压。
+'''
+translate = '''
+All fan outputs and proximity sensor inputs can be individually selected to derive their voltage from the respective pin headers by configuring the jumpers associated with each header.
+'''
+
+[[block]]
+key = "0eacba54e0f932f7"
+origin = '''
+按以下方式配置跳线以选择24V（注意，所有跳线都显示在相同的配置中，即使它们可以单独配置）。
+'''
+translate = '''
+Configure the jumpers as shown below to select 24V (note that all jumpers are displayed in the same configuration, even though they can be configured individually).
+'''
+
+[[block]]
+key = "1e2e03647862cf94"
+origin = '''
+<Tabs groupId="octopus-fan-v">
+    <TabItem value="24v-fan" label="24V 风扇 / 接近开关" default>
+        <ImageView
+            src={require('./img/octopus-pro-fan-24.png').default}
+            alt="octo pro fan 24" width="100%"
+        />
+    </TabItem>
+    <TabItem value="12v-fan" label="12V 风扇 / 接近开关">
+        <ImageView
+            src={require('./img/octopus-pro-fan-12.png').default}
+            alt="octo pro fan 12" width="100%"
+        />
+    </TabItem>
+    <TabItem value="5v-fan" label=" 5V 风扇 / 接近开关">
+        <ImageView
+            src={require('./img/octopus-pro-fan-5.png').default}
+            alt="octo pro fan 5" width="100%"
+        />
+    </TabItem>
+</Tabs>
+'''
+translate = '''
+<Tabs groupId="octopus-fan-v">
+    <TabItem value="24v-fan" label="24V Fan / Proximity Switch" default>
+        <ImageView
+            src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-fan-24.png').default}
+            alt="octo pro fan 24" width="100%"
+        />
+    </TabItem>
+    <TabItem value="12v-fan" label="12V Fan / Proximity Switch">
+        <ImageView
+            src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-fan-12.png').default}
+            alt="octo pro fan 12" width="100%"
+        />
+    </TabItem>
+    <TabItem value="5v-fan" label=" 5V Fan / Proximity Switch">
+        <ImageView
+            src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-fan-5.png').default}
+            alt="octo pro fan 5" width="100%"
+        />
+    </TabItem>
+</Tabs>
+'''
+
+[[block]]
+key = "afeeabdea3e81560"
+origin = '''
+### TMC STALLGUARD 跳线设置
+'''
+translate = '''
+### TMC STALLGUARD Jumpers Configuration
+'''
+
+[[block]]
+key = "cd6db4c599ed624e"
+origin = '''
+可在下图所示的位置找到用于将诊断输出引脚连接到支持安装保护功能（TMC2209/TMC2226等）的驱动器端部停止输入的“diag”跳线。
+'''
+translate = '''
+The "diag" jumper for connecting the diagnostic output pin to the driver's endstop input supporting the stall guard feature (e.g., TMC2209/TMC2226) can be found at the location shown in the following figure.
+'''
+
+[[block]]
+key = "410702af54521b8d"
+origin = '''
+确切的diag编号可以通过查看引脚文件或板下的丝印来找到。
+'''
+translate = '''
+The exact diag number can be found by checking the pinout file or silkscreen under the board.
+'''
+
+[[block]]
+key = "101dae2bbaf59a60"
+origin = '''
+<ImageView src={require('./img/octopus-pro-driver-spi.png').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-driver-spi.png').default} width="80%"/>
+'''
+
+[[block]]
+key = "23a70f1df1302b82"
+origin = '''
+### MAX 31865
+'''
+translate = '''
+### MAX 31865
+'''
+
+[[block]]
+key = "e6370d8b8fd55d35"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/octopus-pro-max-31865.png').default} width="50%" class="right-image"/>
+
+MAX 31865 选择 PT100/PT1000 2线或4线配置
+
+| 1   | 2   | 3   | 4   | Sensor Model  |
+| --- | --- | --- | --- | ------------- |
+| ON  | ON  | ON  | OFF | 2 wire PT100  |
+| ON  | ON  | OFF | ON  | 2 wire PT1000 |
+| OFF | OFF | ON  | OFF | 4 wire PT100  |
+| OFF | OFF | OFF | ON  | 4 wire PT1000 |
+
+</div>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/board-docs/octopus-series/octopus-pro/img/octopus-pro-max-31865.png').default} width="50%" class="right-image"/>
+
+MAX 31865 PT100/PT1000 2-wire or 4-wire configuration
+
+| 1   | 2   | 3   | 4   | Sensor Model  |
+| --- | --- | --- | --- | ------------- |
+| ON  | ON  | ON  | OFF | 2 wire PT100  |
+| ON  | ON  | OFF | ON  | 2 wire PT1000 |
+| OFF | OFF | ON  | OFF | 4 wire PT100  |
+| OFF | OFF | OFF | ON  | 4 wire PT1000 |
+
+</div>
+'''

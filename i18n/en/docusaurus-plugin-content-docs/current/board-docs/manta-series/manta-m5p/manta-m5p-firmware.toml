@@ -1,0 +1,142 @@
+[metadata]
+
+[[block]]
+key = "5ed550c0dd7ea2fd"
+origin = '''
+---
+sidebar_position: 3
+description: Manta M5P 固件配置
+---
+'''
+translate = '''
+---
+sidebar_position: 3
+description: Manta M5P Firmware
+---
+'''
+
+[[block]]
+key = "1f51e8d871b37178"
+origin = '''
+# Manta M5P 固件配置
+'''
+translate = '''
+# Manta M5P Firmware
+'''
+
+[[block]]
+key = "9e2c16dcc92bf7ce"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "160e2c82fbaef13c"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+'''
+
+[[block]]
+key = "c012cc6c2fca315b"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "0064b88353759fdb"
+origin = '''
+## 核心板固件写入
+'''
+translate = '''
+## Core Board Firmware
+'''
+
+[[block]]
+key = "60534f42750b1cec"
+origin = '''
+Manta M5P 搭配 CM4/CM5 核心板写入系统参考 [Manta 系列核心板 Raspberry CM4/CM5](../manta-core-image-rpi.md)
+'''
+translate = '''
+Reference Guide for Flashing the System on the Manta M5P with CM4/CM5 Core Boards [Manta Series Core Boards Raspberry CM4/CM5](../manta-core-image-rpi.md)
+'''
+
+[[block]]
+key = "b074dcb202d66003"
+origin = '''
+## Klipper
+'''
+translate = '''
+## Klipper
+'''
+
+[[block]]
+key = "594e95cbdcf36cf0"
+origin = '''
+:::info[开始之前]
+
+在开始之前需要安装核心板并且在核心板上安装 Klipper 组件
+
+:::
+'''
+translate = '''
+:::info[Before Start]
+
+Before you begin, you need to install the core board and install the Klipper components on it.
+
+:::
+'''
+
+[[block]]
+key = "a23e4e2bb1f793c4"
+origin = '''
+### 写入 Klipper 固件
+'''
+translate = '''
+### Flash Klipper Firmware
+'''
+
+[[block]]
+key = "60afab55d57ca6d9"
+origin = '''
+Manta M5P 写入 Klipper 固件参考 [Manta M5P 系列固件 (STM32G0B1)](../manta-m5p-firmware-g0b1.md)
+'''
+translate = '''
+Manta M5P Flash Klipper Firmware Reference [Manta M5P Series Firmware (STM32G0B1)](../manta-m5p-firmware-g0b1.md)
+'''
+
+[[block]]
+key = "b0cfbdebee6191ee"
+origin = '''
+### Klipper 配置文件参考
+'''
+translate = '''
+### Klipper Configuration File Reference
+'''
+
+[[block]]
+key = "60ec48d5152a3a65"
+origin = '''
+:::info[Manta M5P 配置文件]
+
+[generic-bigtreetech-manta-m5p.cfg](https://github.com/bigtreetech/Manta-M5P/blob/master/Firmware/Klipper/generic-bigtreetech-manta-m5p.cfg)
+
+:::
+'''
+translate = '''
+:::info[Manta M5P Config]
+
+[generic-bigtreetech-manta-m5p.cfg](https://github.com/bigtreetech/Manta-M5P/blob/master/Firmware/Klipper/generic-bigtreetech-manta-m5p.cfg)
+
+:::
+'''

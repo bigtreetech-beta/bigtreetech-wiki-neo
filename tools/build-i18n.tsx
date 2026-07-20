@@ -18,11 +18,28 @@ if (!fs.existsSync(venvPython)) {
 const args: string[] = process.argv.slice(2);
 
 // run python
-const py = spawn(venvPython, ["script/build_file_i18n.py", ...args], {
+const middleware = spawn(venvPython, ["script/build_file_middleware.py", ...args], {
     stdio: "inherit",
 });
 
-// error
-py.on("error", (err: Error) => {
+middleware.on("error", (err: Error) => {
     console.error("Failed to start python process:", err);
+});
+
+middleware.on("close", (code: number) => {
+    if (code !== 0) {
+        process.exit(code ?? 1);
+    }
+
+    const build_i18n = spawn(venvPython, ["script/build_file_i18n.py", ...args], {
+        stdio: "inherit",
+    });
+
+    build_i18n.on("error", (err: Error) => {
+        console.error("Failed to start python process:", err);
+    });
+
+    build_i18n.on("close", (code: number) => {
+        process.exit(code ?? 0);
+    });
 });

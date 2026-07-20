@@ -1,0 +1,973 @@
+[metadata]
+
+[[block]]
+key = "a704eeb44b6eacb2"
+origin = '''
+---
+sidebar_position: 1
+description: Panda Hotend Wizard是一款快速方便维修拓竹热端堵头的工具
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: The Panda Hotend Wizard helps users safely and efficiently clear clogged hotends.
+---
+'''
+
+[[block]]
+key = "a08f24518abec188"
+origin = '''
+# Panda Hotend Wizard
+'''
+translate = '''
+# Panda Hotend Wizard
+'''
+
+[[block]]
+key = "9e2c16dcc92bf7ce"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "89421686ce8b2dba"
+origin = '''
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+'''
+translate = '''
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+'''
+
+[[block]]
+key = "c012cc6c2fca315b"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "f8d44277e5d08e27"
+origin = '''
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView
+    src={require('./img/panda-hotend-wizard-title.webp').default}
+    alt=""
+    width="35%"
+    class="right-image"
+/>
+
+## 产品简介
+
+BIQU Panda Hotend Wizard 是深圳必趣科技有限公司推出的一款用于快速维修拓竹适配热端堵头的维修工具。用户可通过旋钮和按键进行操控，为堵头的喷嘴提供良好的维修环境，提高喷嘴的利用率。目前适配的机型包括拓竹 A1，A1 mini，P1S，X1C，P2S，H2D，H2S 等。暂时不支持 H2C-Voteck 系统热端。
+
+## 技术规格
+
+| Panda Hotend Wizard | 规格 |
+| --- | --- |
+| 主控芯片 | STM32G030F6P6 |
+| 电源输入 | DC 24V 5A |
+| 自带加热棒功率 | 100W |
+| 产品输出最大工作功率 | 110W |
+| 逻辑电压 | 3.3V |
+| 加热棒温度设置限温 | $290^\circ C$ |
+| 待机功率 | 0.1W |
+| 最大工作电流 | 5A |
+
+</div>
+'''
+translate = '''
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/panda-hotend-wizard-title.webp').default}
+    alt=""
+    width="35%"
+    class="right-image"
+/>
+
+## Product Introduction
+
+The Panda Hotend Wizard is a compact desktop maintenance station built specifically for Bambu Lab-compatible hotends. It helps users quickly revive clogged nozzles by providing a stable heating and cooling environment, making hotend maintenance safer, easier, and more efficient. With simple knob and button controls, users can heat, cool, and clear blocked nozzles with confidence — extending the service life of their hotends and cutting down on unnecessary replacements. This device is compatible with Bambu Lab models including the A1, A1 mini, P1S, X1C, P2S, H2D, and H2S. Please note that hotends from the H2C-Voteck system are not currently supported.
+
+## Technical Specifications
+
+| Panda Hotend Wizard | Specifications |
+| --- | --- |
+| Main Control Chip | STM32G030F6P6 |
+| Power Input | DC 24V 5A |
+| Built-in Heater Cartridge Power | 100W |
+| Maximum Output Power | 110W |
+| Logic Voltage | 3.3V |
+| Heater Temperature Setting Limit | $290^\circ C$ |
+| Standby Power | 0.1W |
+| Maximum Operating Current | 5A |
+
+</div>
+'''
+
+[[block]]
+key = "c63454864ae0c430"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## Product Features
+'''
+
+[[block]]
+key = "0c65530889b59005"
+origin = '''
+- 产品整体小巧轻便，轻松放置，不占空间。
+- 配备总电源开关，可以方便快速切断总电源，保障操作安全。
+- 旋钮快速设置目标温度，按键开关风扇，操作直观。
+- 多机型适配，支持 A1，A1 mini，P1S，X1C，P2S，H2D，H2S等拓竹主流机型。
+- 最高支持 $290^\circ C$ 的加热温度，为多种特殊耗材提供有利的维修环境，提高维修质量。
+- 配送专用通针，方便用户快速疏通堵头。
+- 数码管显示温度清晰明了，配合状态灯实时展现加热棒和风扇工作状态。
+'''
+translate = '''
+- Compact and lightweight - easy to place on your workbench without taking up much space.
+- Equipped with a main power switch for quick power cutoff and safer operation.
+- Simple knob-and-button control allows quick temperature adjustment and easy fan operation.
+- Supports a wide range of Bambu Lab hotends, including those used on A1, A1 mini, P1S, X1C, P2S, H2D, H2S, and other mainstream models.
+- Supports heating temperatures up to $290^\circ C$ , providing a stable maintenance environment for clearing stubborn clogs and working with high-temperature materials.
+- Includes a set of dedicated unclogging needles to help users clear clogged nozzles quickly and efficiently.
+- Clear dual displays show key temperature information, while status lights indicate the real-time heating and fan status.
+'''
+
+[[block]]
+key = "6f1f9a92e55df19e"
+origin = '''
+## 包装清单
+'''
+translate = '''
+## Packing List
+'''
+
+[[block]]
+key = "72aac4f9bd0b57fa"
+origin = '''
+<ImageView src={require('./img/baozhuang.webp').default} alt="" width="60%" />
+'''
+translate = '''
+<ImageView src={require('./img/baozhuang-en.webp').default} alt="" width="60%" />
+'''
+
+[[block]]
+key = "d2853ea8a1518814"
+origin = '''
+:::warning[注意]
+
+在使用本产品时，切勿将本产品上的加热模块和自带加热模块的热端同时上电开启。本产品上的加热模块用于快拆热端维修，例如 A1 和 P2 系列热端；自带加热模块的热端包括 P1 和 X1 系列热端。同时开启会导致系统错误。
+
+:::
+'''
+translate = '''
+:::warning[Warning]
+
+Do not power on the Panda Hotend Wizard heating module and a hotend's built-in heating module at the same time. P1 and X1 series hotends have their own built-in heating elements, so connect the original P1/X1 hotend cable for heating. A1 and P2 series quick-swap hotends do not have built-in heating elements, so they must be heated using the Panda Hotend Wizard heating module.
+
+:::
+'''
+
+[[block]]
+key = "b6f6b3e7278707dc"
+origin = '''
+## 产品尺寸
+'''
+translate = '''
+## Product Dimensions
+'''
+
+[[block]]
+key = "ca48475240af3e33"
+origin = '''
+<ImageView src={require('./img/size.webp').default} alt="" width="60%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/size.webp').default} alt="" width="60%" />
+'''
+
+[[block]]
+key = "1d54553a520e727e"
+origin = '''
+## 组装指南
+'''
+translate = '''
+## Assembly Guide
+'''
+
+[[block]]
+key = "f38b486479688040"
+origin = '''
+- 拉出线材
+'''
+translate = '''
+- Prepare Cables
+'''
+
+[[block]]
+key = "bd0e779d21273f2c"
+origin = '''
+    将显示模块背板螺丝拆下，将内部三根线材插头从孔洞中穿出，线材穿出后再装入顶部螺丝，如果三根线已经在外面则可以省略该步骤。
+'''
+translate = '''
+    Remove the top screws from the display module backplate, then pass the three internal cable connectors through the opening. Reinstall the top screws after the cables are routed through. If the three cables are already outside the display module, skip this step.
+'''
+
+[[block]]
+key = "b76405c2bf7d59d3"
+origin = '''
+    <ImageView src={require('./img/install1.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install1.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "533f0ef6ee252c0e"
+origin = '''
+    <ImageView src={require('./img/install11.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install11.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "8ec2c0b6a87d3b54"
+origin = '''
+- 安装显示模块
+'''
+translate = '''
+- Install Digital Display Module
+'''
+
+[[block]]
+key = "4e7d9c62498e3f20"
+origin = '''
+    将线材穿入主体窗口，用附带 4 颗 M3 $\times$ 14 尖头自攻螺丝固定显示模块。
+'''
+translate = '''
+    Route the cables through the upper opening on the button module, then position the display module onto the button module and secure it with the included four M3 $\times$ 14 pointed self-tapping screws.
+'''
+
+[[block]]
+key = "14215bf6cfd53094"
+origin = '''
+    <ImageView src={require('./img/install2.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install2.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "83448b158465e0f0"
+origin = '''
+- 线缆插入接口
+'''
+translate = '''
+- Connect Module Cables
+'''
+
+[[block]]
+key = "83bdfb367b119633"
+origin = '''
+    三根线材接入对应插口。
+'''
+translate = '''
+    Connect the three cables to the corresponding ports.
+'''
+
+[[block]]
+key = "92ef966f69a56a5e"
+origin = '''
+    <ImageView src={require('./img/install3.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install3.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "1d03642f0972ce4c"
+origin = '''
+    <ImageView src={require('./img/install31.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install31.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "00398dd875fdd509"
+origin = '''
+- 安装风扇模块
+'''
+translate = '''
+- Install Fan Module
+'''
+
+[[block]]
+key = "03f04e46c99d4578"
+origin = '''
+    将线材穿入主体左侧孔洞接入插头，用 2 颗 M3 $\times$ 14 尖尾自攻螺丝固定风扇模块。
+'''
+translate = '''
+    Pass the fan module cable through the opening on the left side of the button module and connect it to the fan port. Secure the fan module with two M3 $\times$ 14 pointed self-tapping screws.
+'''
+
+[[block]]
+key = "36be3b177276bb48"
+origin = '''
+    <ImageView src={require('./img/install4.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install4.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "7e7de00492ec9daa"
+origin = '''
+    <ImageView src={require('./img/install41.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install41.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "a2b07be29e6d2295"
+origin = '''
+- 安装加热块
+'''
+translate = '''
+- Install Heating Module
+'''
+
+[[block]]
+key = "d20902d21d2b03ba"
+origin = '''
+    将加热模块用 3 颗杯头尖尾 M3 $\times$ 14 螺丝固定，接入加热棒与热敏电阻接口。
+'''
+translate = '''
+    Secure the heating module onto the button module with three M3 $\times$ 14 pointed self-tapping screws, then plug the heater cartridge and thermistor connectors into their corresponding ports.
+'''
+
+[[block]]
+key = "5280e5b46800dd5f"
+origin = '''
+    <ImageView src={require('./img/install5.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install5.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "d07e428f5aafa481"
+origin = '''
+    <ImageView src={require('./img/install51.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install51.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "529fb021a222f1f7"
+origin = '''
+- 固定背板
+'''
+translate = '''
+- Secure Backplate
+'''
+
+[[block]]
+key = "562382f11501fd96"
+origin = '''
+    用 6 颗 M3 $\times$ 8 沉头自攻螺丝固定背板。
+'''
+translate = '''
+    Secure the backplate with six M3 $\times$ 8 countersunk self-tapping screws.
+'''
+
+[[block]]
+key = "d987465637ed8522"
+origin = '''
+    <ImageView src={require('./img/install6.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('./img/install6-en.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "db20805ef9685417"
+origin = '''
+- 固定底座
+'''
+translate = '''
+- Secure Base
+'''
+
+[[block]]
+key = "0c371a7709725b49"
+origin = '''
+    用 4 颗 M3 $\times$ 20 沉头尖尾自攻螺丝固定底座。
+'''
+translate = '''
+    Secure the base with four M3 $\times$ 20 countersunk screws.
+'''
+
+[[block]]
+key = "c3735714ba6610dd"
+origin = '''
+    <ImageView src={require('./img/install7.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install7.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "ca16a21e7e54b5e4"
+origin = '''
+- 完成装配
+'''
+translate = '''
+- Install Thumb Screw
+'''
+
+[[block]]
+key = "8be60629ee95bd36"
+origin = '''
+    将附带的手拧螺丝拧入，完成整机装配。
+'''
+translate = '''
+    Screw in the knurled thumb screw.
+'''
+
+[[block]]
+key = "69322c0549287f62"
+origin = '''
+    <ImageView src={require('./img/install8.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/install8.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "0b26742d9c63aece"
+origin = '''
+## 接口说明
+'''
+translate = '''
+## Interface Description
+'''
+
+[[block]]
+key = "ef2a14aab94ba793"
+origin = '''
+- 控制面板接口
+'''
+translate = '''
+- Display Module Interface
+'''
+
+[[block]]
+key = "df3c6cc36a54d318"
+origin = '''
+    <ImageView src={require('./img/jiekou.webp').default} alt="" width="45%" />
+'''
+translate = '''
+    <ImageView src={require('./img/jiekou-en.webp').default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "f76e6796a4c29c1b"
+origin = '''
+- 电源输入接口
+'''
+translate = '''
+- Power Input
+'''
+
+[[block]]
+key = "efd6d1f796293c57"
+origin = '''
+    使用标配的24V 5A 的电源适配器为设备供电。不建议使用其它电源，若电源功率不足，会导致升温过慢或触发报错。
+'''
+translate = '''
+    Use the supplied 24V 5A power adapter to power the product. Other power adapters are not recommended. Insufficient power may cause slow heating or trigger errors.
+'''
+
+[[block]]
+key = "5c47faab9f25315f"
+origin = '''
+    <ImageView src={require('./img/powerin.webp').default} width="25%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/powerin.webp').default} width="25%"/>
+'''
+
+[[block]]
+key = "9653d654df02aa4f"
+origin = '''
+- 快拆热端连接接口
+'''
+translate = '''
+- Quick-Swap Hotend Connection
+'''
+
+[[block]]
+key = "6eebd2039cbbaa5b"
+origin = '''
+    维修 A1，A1 mini，P2S，H2D/S，H2C 左侧热端时，请将设备自身带的加热块接口连接至机身对应接口。如下图
+'''
+translate = '''
+    When servicing the A1, A1 mini, P2S, H2D/H2S, or the left hotend of H2C, connect the heating module cable to the corresponding port on the button module, as shown below.
+'''
+
+[[block]]
+key = "37ec670ee38c9e20"
+origin = '''
+    <ImageView src={require('./img/jiekou-kc.webp').default} width="25%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/jiekou-kc.webp').default} width="25%"/>
+'''
+
+[[block]]
+key = "3a581444675c7480"
+origin = '''
+- P1S / X1C 连接接口
+'''
+translate = '''
+- P1S / X1C Hotend Connection
+'''
+
+[[block]]
+key = "9f502053a1e51c14"
+origin = '''
+    维修 P1S，X1C 时，请不要连接设备自身带的加热块的接口线，务必把P1或者X1热端的连接线连接至机身对应接口。如下图
+'''
+translate = '''
+    When servicing the P1S or X1C hotends, do not connect the Panda Hotend Wizard heating module cable, as these hotends have their own built-in heating elements. Instead, connect the original P1/X1 hotend cable to the corresponding port on the button module, as shown below.
+'''
+
+[[block]]
+key = "a91f8cfb40b049bd"
+origin = '''
+    <ImageView src={require('./img/jiekou-px.webp').default} width="25%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/jiekou-px.webp').default} width="25%"/>
+'''
+
+[[block]]
+key = "f3acddb3bc4a957f"
+origin = '''
+## 使用指南
+'''
+translate = '''
+## How to Unclog Your Hotend
+'''
+
+[[block]]
+key = "fbf2de2ef8a068fe"
+origin = '''
+### P1 / X1 系列维修步骤
+'''
+translate = '''
+### How to Unclog Your P1/X1 Series Hotend
+'''
+
+[[block]]
+key = "f488f197eeefa516"
+origin = '''
+1. 关闭打印机电源并拆下工具头前盖：确保打印机完全断电，拆下工具头前盖，露出热端组件。
+2. 连接维修夹具与接口：使用包装内附带的 P1/X1 系列维修夹具固定热端，拧紧螺丝，并将热端的加热和风扇接口连接至设备机身的 P1/X1 连接接口。注意：机身加热块的接口要拔掉。
+'''
+translate = '''
+1. Make sure the printer is completely powered off, then remove the toolhead front cover to expose the hotend assembly.
+2. Place the P1/X1 hotend into the included P1/X1 series fixture, then tighten the screws to hold the hotend firmly in place. Connect the original P1/X1 hotend heating and fan cables to the P1/X1 connection interface on the Panda Hotend Wizard. Do not connect the Panda Hotend Wizard heating module cable when servicing P1/X1 series hotends.
+'''
+
+[[block]]
+key = "10a52e584252bad2"
+origin = '''
+    <ImageView src={require('./img/p1x1.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('./img/p1x1-en.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "b003710d8b8bb4fd"
+origin = '''
+3. 设置目标温度：打开产品电源，通过旋钮设置目标温度，建议从较低温度开始测试并逐步升高。
+4. 疏通堵头：等待温度稳定后，使用包装内附带的专用通针进行疏通清理。
+'''
+translate = '''
+3. Turn on the Panda Hotend Wizard, short-press the knob to enter setting mode; the value will flash. Rotate the knob to adjust the target temperature in $5^\circ C$ increments, clockwise to increase or counterclockwise to decrease, then short-press the knob again to confirm and exit setting mode. It is recommended to start with a lower temperature and gradually increase it if needed.
+4. When the displayed temperature reaches the target temperature, use the included unclogging needle to clear the clogged nozzle.
+'''
+
+[[block]]
+key = "8fdca8332dfa1ecd"
+origin = '''
+### H2 系列 / P2S 维修步骤
+'''
+translate = '''
+### How to Unclog Your H2 Series / P2S Hotend
+'''
+
+[[block]]
+key = "454646ac2c1efe90"
+origin = '''
+1. 关闭打印机电源并拆下工具头前盖：确保打印机完全断电，拆下工具头前盖。
+2. 连接维修夹具与接口：使用包装内附带的 H2/P2 系列维修夹具固定热端，快拆的维修夹具自带磁铁，可以吸紧热端，热端安装上去后，请扣上保护罩，并将机身自带的加热块接口连接至设备机身的快拆热端连接接口。
+'''
+translate = '''
+1. Make sure the printer is completely powered off, then remove the toolhead front cover to expose the hotend assembly.
+2. Use the included H2/P2 series fixture to secure the hotend. The quick-release fixture has built-in magnets to hold the hotend firmly in place. After inserting the hotend, flip the protective guard down, then connect the Panda Hotend Wizard heating module cable.
+'''
+
+[[block]]
+key = "eb6ec49720e7795d"
+origin = '''
+    <ImageView src={require('./img/p2sh2.webp').default} width="60%"/>
+'''
+translate = '''
+    <ImageView src={require('./img/p2sh2-en.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "36d55014b0cc842a"
+origin = '''
+3. 设置目标温度并维修。开机后通过旋钮设定目标温度，升温稳定后进行堵头疏通。
+'''
+translate = '''
+3. Turn on the Panda Hotend Wizard, short-press the knob to enter setting mode, rotate the knob to set the target temperature, then short-press again to confirm. When the displayed temperature reaches the target temperature, use the included unclogging needle to clear the clogged nozzle.
+'''
+
+[[block]]
+key = "ba538183aad75b54"
+origin = '''
+### A 系列维修步骤
+'''
+translate = '''
+### How to Unclog Your A Series Hotend
+'''
+
+[[block]]
+key = "9492bb00c8983f2e"
+origin = '''
+1. 步骤与P2S和H2系列快拆热端相似，关闭打印机电源并做好防护。确保打印机断电，准备好维修夹具与通针。
+2. 连接快拆热端。使用 A1 系列维修夹具固定热端，并将机身自带的加热块接口连接至设备机身的快拆热端连接接口。
+3. 加热与疏通。设置合适的目标温度，待数码管显示温度达到设定值后，使用通针清理堵头。
+'''
+translate = '''
+1. Follow a similar procedure to the P2S and H2 series quick-swap hotend steps: turn off the printer, make sure it is completely powered off, and prepare the A1 series fixture and unclogging needle.
+2. Secure the A1 quick-swap hotend with the A1 series fixture, then connect the Panda Hotend Wizard heating module cable.
+3. Set a suitable target temperature. When the displayed temperature reaches the target temperature, use the unclogging needle to clear the clogged nozzle.
+'''
+
+[[block]]
+key = "202fb006e9e1592e"
+origin = '''
+## 功能介绍
+'''
+translate = '''
+## How to Operate the Panda Hotend Wizard
+'''
+
+[[block]]
+key = "10a1da7dbd9e7fb1"
+origin = '''
+<ImageView src={require('./img/fuction.webp').default} width="60%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/fuction.webp').default} width="60%"/>
+'''
+
+[[block]]
+key = "c4bdb31fb7dc777f"
+origin = '''
+1. 总电源开关
+'''
+translate = '''
+1. Power Switch
+'''
+
+[[block]]
+key = "7c3709fb47b8613d"
+origin = '''
+    用于开启和关闭整机电源。维修完成后请务必关闭总电源，避免长时间待机。
+'''
+translate = '''
+    This turns the device power on and off. Always turn off the main power after maintenance to prevent unnecessary standby.
+'''
+
+[[block]]
+key = "c518f9d2698ed1df"
+origin = '''
+2. 风扇开关
+'''
+translate = '''
+2. Fan Switch
+'''
+
+[[block]]
+key = "1703b8dad11aa0a2"
+origin = '''
+    用于开启和关闭风扇。在加热维修过程中，可根据需要开启风扇对热端进行散热或冷却。
+'''
+translate = '''
+    This turns the fan on and off. During heating, turn on the fan as needed to help dissipate heat and cool the hotend.
+'''
+
+[[block]]
+key = "7bd627f5afebe27f"
+origin = '''
+3. 旋钮功能
+'''
+translate = '''
+3. Knob
+'''
+
+[[block]]
+key = "41c5073a75eef7eb"
+origin = '''
+    旋钮是主要的交互方式，支持设置目标温度，快捷温度，关闭加热，设置热端类型等操作。
+'''
+translate = '''
+    The knob is used to set the target temperature, quickly switch to a preset temperature, turn off heating, and select the hotend type.
+'''
+
+[[block]]
+key = "3ae90e2f48c8137d"
+origin = '''
+    - 设置目标温度
+'''
+translate = '''
+    - Set Target Temperature
+'''
+
+[[block]]
+key = "8ad87df39ba93faf"
+origin = '''
+        1. 短按旋钮进入设置模式，此时数值会闪烁。
+        2. 旋转旋钮调节目标温度值，步长为 $5^\circ C$，顺时针增大，逆时针减小。
+        3. 再次短按按钮确认温度，并退出设置模式。
+'''
+translate = '''
+        1. Short-press the knob to enter setting mode. The displayed value will start flashing.
+        2. Rotate the knob to adjust the temperature in $5^\circ C$ increments. Rotate clockwise to increase the value and counterclockwise to decrease it.
+        3. Short-press the knob again to confirm the setting and exit setting mode.
+'''
+
+[[block]]
+key = "c64e7ef97fa9331a"
+origin = '''
+    - 快捷温度
+'''
+translate = '''
+    - Quick Temperature Setting
+'''
+
+[[block]]
+key = "1d08f87557f96378"
+origin = '''
+        在设置目标温度时，双击旋钮，将温度快速调节为 $250^\circ C$。再次短按旋钮确认温度值。
+'''
+translate = '''
+        While setting the target temperature, double-click the knob to quickly set the temperature to $250^\circ C$, then short-press the knob again to confirm.
+'''
+
+[[block]]
+key = "46ee735d0aa677fc"
+origin = '''
+    - 关闭加热
+'''
+translate = '''
+    - Turn Off Heating
+'''
+
+[[block]]
+key = "418dd11d5adeed18"
+origin = '''
+        非设置模式下，长按旋钮后关闭加热输出。
+'''
+translate = '''
+        When not in setting mode, long-press the knob to turn off heating.
+'''
+
+[[block]]
+key = "281f0c583727cf24"
+origin = '''
+    - 设置热端类型
+'''
+translate = '''
+    - Set Hotend Type
+'''
+
+[[block]]
+key = "d67338bdc5769fd4"
+origin = '''
+        目标温度为 $0^\circ C$ 时，长按旋钮进入热端类型选择。此时蓝色数码管闪烁，转动旋钮选择类型后，短按旋钮确认类型。建议选择数值 1，自动识别。如果出现温度无法上升或温度不稳定的情况，可手动设置为对应热端。
+'''
+translate = '''
+        When the target temperature is set to $0^\circ C$, long-press the knob to enter hotend type selection. The blue display will flash. Rotate the knob to select the hotend type, then short-press the knob to confirm. It is recommended to select value 1 for auto-detection. If the temperature does not rise properly or becomes unstable, manually select the corresponding hotend type.
+'''
+
+[[block]]
+key = "3e1850d6f3898808"
+origin = '''
+        | 数值 | 热端类型 |
+        | --- | --- |
+        | 1 | 自动识别热端 |
+        | 2 | 自带加热模块，使用设备自身加热棒时的 PID 参数 |
+        | 3 | 拓竹热端，使用拓竹原装热端时的 PID 参数 |
+'''
+translate = '''
+        | Value | Hotend Type |
+        | --- | --- |
+        | 1 | Auto-detect hotend |
+        | 2 | Panda Hotend Wizard heating module's PID parameters |
+        | 3 | PID parameters for original Bambu Lab hotend heating elements |
+'''
+
+[[block]]
+key = "14058dcf3f970a78"
+origin = '''
+4. 数码管显示
+'''
+translate = '''
+4. Digital Display
+'''
+
+[[block]]
+key = "82be38aa47e34627"
+origin = '''
+    机身配备双数码管，分工明确。
+'''
+translate = '''
+    The Panda Hotend Wizard has two displays that clearly show temperature, menu, and hotend type information.
+'''
+
+[[block]]
+key = "e71fff3ae0542148"
+origin = '''
+    - 上方数码管
+'''
+translate = '''
+    - Upper Digital Display
+'''
+
+[[block]]
+key = "bab720031d0502b1"
+origin = '''
+        红色数码管，显示当前实际温度或当前菜单名称。
+'''
+translate = '''
+        The red digita display shows the current actual temperature or the current menu name.
+'''
+
+[[block]]
+key = "fb49fd33e5a0d38a"
+origin = '''
+    - 下方数码管
+'''
+translate = '''
+    - Lower Digital Tube Display
+'''
+
+[[block]]
+key = "32938cbec77eca1e"
+origin = '''
+        蓝色数码管，显示目标温度或当前选中的热端类型。
+'''
+translate = '''
+        The blue digital display shows the target temperature or the currently selected hotend type.
+'''
+
+[[block]]
+key = "2ada0f39499c2092"
+origin = '''
+- 自动关闭加热
+'''
+translate = '''
+- Automatic Heating Shutdown
+'''
+
+[[block]]
+key = "89bfb03addda70a8"
+origin = '''
+    当用户连续 20 分钟没有操作设备时，系统将自动关闭加热输出，防止干烧及意外过热。
+'''
+translate = '''
+    If the device is not operated for 20 consecutive minutes, heating will turn off automatically to prevent dry heating and accidental overheating.
+'''
+
+[[block]]
+key = "d87a5e845e276d2c"
+origin = '''
+## 故障排除
+'''
+translate = '''
+## Troubleshooting
+'''
+
+[[block]]
+key = "66610e9148f36962"
+origin = '''
+### 加热温度无法上升或温度不稳定
+'''
+translate = '''
+### Temperature Does Not Rise or Is Unstable
+'''
+
+[[block]]
+key = "b310a48dca53e8af"
+origin = '''
+1. 需要手动切换 PID 参数。
+'''
+translate = '''
+1. Switch the PID setting manually.
+'''
+
+[[block]]
+key = "43258773bf5f5b74"
+origin = '''
+    - 使用自带加热棒维修时，选择数值 2。
+    - 使用拓竹原装热端维修时，选择数值 3。
+'''
+translate = '''
+    - Select value 2 when using the Panda Hotend Wizard heating module.
+    - Select value 3 when using the original heating element of a Bambu Lab hotend.
+'''
+
+[[block]]
+key = "c9ef5c91274cbd75"
+origin = '''
+2. 如果是快拆热端，检查快拆热端是否跟加热块接触良好，不要有明显间隙。如下图箭头指示处。
+'''
+translate = '''
+2. If you are servicing a quick-swap hotend, check that the hotend is in full contact with the heating block and make sure there is no obvious gap, as indicated by the arrow in the image below.
+'''
+
+[[block]]
+key = "8475a5384c587131"
+origin = '''
+    <ImageView src={require('./img/jianxi.webp').default} width="45%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-hotend-wizard/img/jianxi.webp').default} width="45%"/>
+'''

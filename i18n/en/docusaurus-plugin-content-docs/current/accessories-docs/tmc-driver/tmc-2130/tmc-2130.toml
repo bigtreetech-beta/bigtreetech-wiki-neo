@@ -1,0 +1,168 @@
+[metadata]
+
+[[block]]
+key = "7105c7ba27c0ac71"
+origin = '''
+---
+sidebar_position: 1
+description: TMC 2130
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: TMC 2130
+---
+'''
+
+[[block]]
+key = "81b8804a766c5c2f"
+origin = '''
+# TMC 2130
+'''
+translate = '''
+# TMC 2130
+'''
+
+[[block]]
+key = "9e2c16dcc92bf7ce"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "15528e6d9ac9f11b"
+origin = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import DocCardList from '@theme/DocCardList';
+'''
+translate = '''
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import DocCardList from '@theme/DocCardList';
+'''
+
+[[block]]
+key = "c012cc6c2fca315b"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "6a591a1e43441c2a"
+origin = '''
+<div class="div-table">
+
+<ImageView
+    src={require('./img/TMC2130_Title.png').default}
+    alt="" width="35%" class="right-image"
+/>
+
+## 产品简介
+
+TMC 2130 是一款高性能两相步进电机驱动芯片，具有标准SPI接口和step/dir接口。具有低噪音以及高负载驱动器不丢步。
+
+## Specifications
+
+| Specifications | TMC 2130 |
+| -------------- | -------- |
+| 驱动芯片       | TMC 2130 |
+| 输入电压       | 24V      |
+| 驱动电流       | 2A peak  |
+
+</div>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView
+    src={require('@site/docs/accessories-docs/tmc-driver/tmc-2130/img/TMC2130_Title.png').default}
+    alt="" width="35%" class="right-image"
+/>
+
+## Product Overview
+
+The TMC 2130 is a high-performance two-phase stepper motor driver IC featuring a standard SPI interface and a step/dir interface. It offers low noise and ensures no step loss even under high loads.
+
+## Specifications
+
+| Specifications | TMC 2130 |
+| -------------- | -------- |
+| Driver IC      | TMC 2130 |
+| Input Voltage  | 24V      |
+| Drive Current  | 2A peak  |
+
+</div>
+'''
+
+[[block]]
+key = "93fd81700bb8a61e"
+origin = '''
+## 尺寸
+'''
+translate = '''
+## Dimensions
+'''
+
+[[block]]
+key = "a6b15f0d81136593"
+origin = '''
+<ImageView
+    src={require('./img/TMC2130_Size1.png').default}
+    alt="" width="45%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/accessories-docs/tmc-driver/tmc-2130/img/TMC2130_Size1.png').default}
+    alt="" width="45%"
+/>
+'''
+
+[[block]]
+key = "2a9a28a446355d92"
+origin = '''
+<ImageView
+    src={require('./img/TMC2130_Size2.png').default}
+    alt="" width="45%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/accessories-docs/tmc-driver/tmc-2130/img/TMC2130_Size2.png').default}
+    alt="" width="45%"
+/>
+'''
+
+[[block]]
+key = "6484ff391613f15c"
+origin = '''
+## 原理图 / Schematic
+'''
+translate = '''
+## Schematic
+'''
+
+[[block]]
+key = "252c0039bca14e71"
+origin = '''
+:::info[原理图 / Schematic]
+
+TMC 2130 原理图 [TMC2130-V3.0SCH.pdf](https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC2130/V3.0/Hardware/TMC2130-V3.0SCH.pdf)
+
+:::
+'''
+translate = '''
+:::info[Schematic]
+
+TMC 2130 Schematic [TMC2130-V3.0SCH.pdf](https://github.com/bigtreetech/BIGTREETECH-Stepper-Motor-Driver/blob/master/TMC2130/V3.0/Hardware/TMC2130-V3.0SCH.pdf)
+
+:::
+'''
