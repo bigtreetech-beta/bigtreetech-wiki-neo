@@ -1,0 +1,69 @@
+[metadata]
+
+[[block]]
+key = "f80107eeb1367e00"
+origin = '''
+---
+sidebar_position: 3
+description: EBB PRO R1 固件配置
+---
+'''
+translate = '''
+---
+sidebar_position: 3
+description: EBB PRO R1 Firmware Configuration
+---
+'''
+
+[[block]]
+key = "d01529ccd878ce87"
+origin = '''
+# EBB PRO R1 固件配置
+'''
+translate = '''
+# EBB PRO R1 Firmware Configuration
+'''
+
+[[block]]
+key = "279f249460302ebd"
+origin = '''
+## 写入 Klipper 固件
+'''
+translate = '''
+## Flash Klipper Firmware
+'''
+
+[[block]]
+key = "b31067a9fbf85f98"
+origin = '''
+写入 Klipper 固件参考 [EBB 系列固件 (STM32H723)](../ebb-firmware-h723.mdx)
+'''
+translate = '''
+Flash Klipper Firmware reference [EBB Series Firmware (STM32H723)](../ebb-firmware-h723.mdx)
+'''
+
+[[block]]
+key = "da8a8ad99062db26"
+origin = '''
+## 配置文件参考
+'''
+translate = '''
+## Configuration File Reference
+'''
+
+[[block]]
+key = "48d73734f0b74b84"
+origin = '''
+:::info[EBB PRO R1 配置文件]
+
+[ebb-pro-r1-example.cfg](https://github.com/bigtreetech/ebb-pro-r1/blob/master/firmware/ebb-pro-r1-example.cfg)
+
+:::
+'''
+translate = '''
+:::info[EBB PRO R1 Configuration File]
+
+[ebb-pro-r1-example.cfg](https://github.com/bigtreetech/ebb-pro-r1/blob/master/firmware/ebb-pro-r1-example.cfg)
+
+:::
+'''

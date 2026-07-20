@@ -1,0 +1,52 @@
+---
+sidebar_position: 10
+---
+
+# EBB Series Firmware (STM32H723)
+
+EBB with `STM32H723` MCU
+
+## Build Firmware
+
+Connect to the Klipper Host via SSH. Then use the following command to navigate to the Klipper directory. Use `make menuconfig` to configure the firmware.
+
+``` shell
+cd ~/klipper
+make menuconfig 
+```
+
+Then, build the `EBB` firmware using the `STM32H723` as the `MCU` according to the following options
+
+{/* <ImageView
+    src={require('@site/docs/board-docs/ebb-series/img/ebb-h723-make-can.webp').default}
+    alt="EBB with H723 build config"
+/> */}
+
+When finished configuring, use `q` to exit. Use `y` to save the compilation options.
+
+Then use the `make` command to start compiling the Klipper firmware
+
+``` shell
+make
+```
+
+## Flash Firmware
+
+:::info[Power Architecture Limitations]
+
+When using the `EBB PRO R1`, it must be properly connected to a `24V` power source for power.
+
+:::
+
+Once the Klipper firmware has finished compiling, connect it to the Klipper Host using a USB Type-C cable.
+
+Then press and hold the `boot` button on the `EBB`. Press the `reset` button once, then release the `boot` button to enter `DFU` mode.
+
+Then use the `lsusb` command to verify whether the `EBB` is in `DFU` mode.
+
+Once confirmed that the EBB is in DFU mode, you can use the following command to flash the firmware.
+
+``` shell
+make flash FLASH_DEVICE=0483:df11
+```
+

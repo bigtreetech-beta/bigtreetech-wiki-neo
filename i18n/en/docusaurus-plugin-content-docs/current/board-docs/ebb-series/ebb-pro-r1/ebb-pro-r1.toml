@@ -1,0 +1,108 @@
+[metadata]
+
+[[block]]
+key = "f0877a739faa350d"
+origin = '''
+---
+sidebar_position: 1
+description: EBB PRO R1 工具板
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: EBB PRO R1 Tool Board
+---
+'''
+
+[[block]]
+key = "a67613721275291e"
+origin = '''
+# EBB PRO R1
+'''
+translate = '''
+# EBB PRO R1
+'''
+
+[[block]]
+key = "9e2c16dcc92bf7ce"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "dd4a953fa14392f8"
+origin = '''
+import DocCardList from "@theme/DocCardList";
+'''
+translate = '''
+import DocCardList from "@theme/DocCardList";
+'''
+
+[[block]]
+key = "c012cc6c2fca315b"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "e0c39b49c2d013c7"
+origin = '''
+<div class="div-table">
+
+<ImageView
+    src={require("./img/ebb-pro-r1-main.webp").default}
+    width="45%"
+    class="right-image"
+/>
+
+| EBB PRO R1                | Specification                  |
+| ------------------------- | ------------------------------ |
+| MCU                       | STMicroelectronics STM32H723VG |
+| 挤出机驱动                | TMC 2209                       |
+| 温度传感器 (TH0)          | NTC / PT1000                   |
+| 温度传感器 (MAX31865)     | PT1000 2 wire or 4 wire        |
+| 热端最大电流              | 5A                             |
+| 风扇 4Pin PWM (12V / 24V) | x2                             |
+| 风扇 4Pin PWM (5V)        | x1                             |
+| 电源输入                  | DC 24V                         |
+
+</div>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView
+    src={require('@site/docs/board-docs/ebb-series/ebb-pro-r1/img/ebb-pro-r1-main.webp').default}
+    width="45%"
+    class="right-image"
+/>
+
+| EBB PRO R1                | Specification                  |
+| ------------------------- | ------------------------------ |
+| MCU                       | STMicroelectronics STM32H723VG |
+| Extruder Driver           | TMC 2209                       |
+| Temperature Sensor (TH0)      | NTC / PT1000               |
+| Temperature Sensor (MAX31865) | PT1000 2 wire or 4 wire    |
+| Hot End Maximum Current       | 5A                         |
+| Fan 4Pin PWM (12V / 24V)  | x2                             |
+| Fan 4Pin PWM (5V)         | x1                             |
+| PSU Voltage               | DC 24V                         |
+
+</div>
+'''
+
+[[block]]
+key = "14e3077db6e34a7e"
+origin = '''
+<DocCardList />
+'''
+translate = '''
+<DocCardList />
+'''
