@@ -2,7 +2,7 @@
 
 <div class="div-table">
 
-<ImageView src={require('@site/docs/more-series/pop-module/pop-cap/img/pop-popcap-1.webp').default} width="40%" class="right-image"/>
+<ImageView src={require('@site/docs/more-series/pop-module/pop-cap/img/pop-popcap-1.webp').default} width="50%" class="right-image"/>
 
 Product Link: [Buy Here](https://biqu.equipment/products/biqu-popcop-clear-acrylic-filament-drying-storage-box?_pos=1&_sid=ba19a1ee0&_ss=r&variant=42589800890466)
 
@@ -32,7 +32,7 @@ PopCap transforms your Snapmaker U1 into a fully enclosed printing environment �
 
 | Product Name | BIQU PopCap                          |
 | -------- | ------------------------------------------- |
-| Dimensions     | 506 mm (19.92 in) × 315 mm (12.40 in) × 315 mm (12.40 in) |
+| Dimensions     | 506 mm (19.92 in) × 421 mm (16.57 in) × 315 mm (12.40 in) |
 | Material     | Polycarbonate (PC)                                  |
 | Compatibility   | Designed for Snapmaker U1; includes reserved cable-routing holes for Panda Breath and PopStatus, and mounting holes for PopTouch.  |
 
