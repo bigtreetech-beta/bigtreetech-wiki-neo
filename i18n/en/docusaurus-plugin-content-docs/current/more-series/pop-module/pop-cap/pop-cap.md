@@ -2,7 +2,7 @@
 
 <div class="div-table">
 
-<ImageView src={require('@site/docs/more-series/pop-module/pop-cap/img/pop-popcap-1.webp').default} width="40%" class="right-image"/>
+<ImageView src={require('@site/docs/more-series/pop-module/pop-cap/img/pop-popcap-1.webp').default} width="50%" class="right-image"/>
 
 Product Link: [Buy Here](https://biqu.equipment/products/biqu-popcop-clear-acrylic-filament-drying-storage-box?_pos=1&_sid=ba19a1ee0&_ss=r&variant=42589800890466)
 
@@ -18,7 +18,7 @@ PopCap transforms your Snapmaker U1 into a fully enclosed printing environment â
 
 ## Product Features
 
-- **Transparent, Heat-Resistant Material**: PopCap is made from one-piece molded polycarbonate (PC), providing excellent impact resistance, heat resistance up to 120Â°C, and a clear view of the printing process.
+- **Transparent, Heat-Resistant Material**: PopCap is made from one-piece molded polycarbonate (PC), providing excellent impact resistance, heat resistance up to 120$^\circ\mathrm{C}$, and a clear view of the printing process.
 
 - **One-Piece Design for Easy Installation**: Thanks to its one-piece construction, PopCap can be placed directly on top of the Snapmaker U1, making installation quick and effortless.
 
@@ -32,7 +32,7 @@ PopCap transforms your Snapmaker U1 into a fully enclosed printing environment â
 
 | Product Name | BIQU PopCap                          |
 | -------- | ------------------------------------------- |
-| Dimensions     | 506 mm (19.92 in) Ã— 315 mm (12.40 in) Ã— 315 mm (12.40 in) |
+| Dimensions     | 506 mm (19.92 in) * 421 mm (16.57 in) * 315 mm (12.40 in) |
 | Material     | Polycarbonate (PC)                                  |
 | Compatibility   | Designed for Snapmaker U1; includes reserved cable-routing holes for Panda Breath and PopStatus, and mounting holes for PopTouch.  |
 
@@ -46,7 +46,7 @@ PopCap transforms your Snapmaker U1 into a fully enclosed printing environment â
 
 - Step 1: Identify the correct orientation of the hatch: Place the hatch over the PopCap opening and check which side aligns with the magnetic attachment. Once confirmed, remove it again to make installation easier. Marking the correct side in advance is recommended.
 
-- Step 2: Install the handle: Use the included M4 Ã— 6 screws and Phillips screwdriver to attach the handle to the hatch, as shown in the illustration. Then place the hatch onto the PopCap opening.
+- Step 2: Install the handle: Use the included M4*6 screws and Phillips screwdriver to attach the handle to the hatch, as shown in the illustration. Then place the hatch onto the PopCap opening.
 
     <ImageView src={require('@site/docs/more-series/pop-module/pop-cap/img/pop-popcap-4.webp').default} width="70%"/>
 
