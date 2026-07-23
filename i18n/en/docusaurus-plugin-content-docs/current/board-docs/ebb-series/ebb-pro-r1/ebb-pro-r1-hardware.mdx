@@ -1,0 +1,96 @@
+---
+sidebar_position: 2
+description: EBB PRO R1 Hardware
+---
+
+# EBB PRO R1 Hardware Function
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+## Machine Dimensions
+
+:::info[STEP File]
+
+EBB PRO R1 STEP [ebb-pro-r1-release.zip](https://github.com/bigtreetech/ebb-pro-r1/blob/master/hardware/step/ebb-pro-r1-release.zip)
+
+EBB PRO R1 Backplate Template [ebb-pro-r1-backplate-template.STEP](https://github.com/bigtreetech/ebb-pro-r1/blob/master/hardware/step/ebb-pro-r1-backplate-template.STEP)
+
+:::
+
+<ImageView
+    src={require('@site/docs/board-docs/ebb-series/ebb-pro-r1/img/ebb-pro-r1-asm-1.webp').default}
+    width="45%"
+/>
+<ImageView
+    src={require('@site/docs/board-docs/ebb-series/ebb-pro-r1/img/ebb-pro-r1-asm-2.webp').default}
+    width="45%"
+/>
+
+
+## Pinout
+
+:::info[Schematic]
+
+EBB PRO R1 Schematic [ebb-pro-r1-schematic-release.pdf](https://github.com/bigtreetech/ebb-pro-r1/blob/master/hardware/schematic/ebb-pro-r1-schematic-release.pdf)
+
+:::
+
+<ImageView
+    src={require('@site/docs/board-docs/ebb-series/ebb-pro-r1/img/ebb-pro-r1-pinout-release.webp').default}
+    width="90%"
+/>
+
+## Fan
+
+### 4 Pin PWM Fan Voltage Selection
+
+<ImageView
+    src={require('@site/docs/board-docs/ebb-series/ebb-pro-r1/img/ebb-pro-r1-fan-voltage.webp').default}
+    width="90%"
+/>
+
+### 4 Pin PWM Fan Wiring
+
+<ImageView
+    src={require('@site/docs/board-docs/ebb-series/ebb-pro-r1/img/ebb-pro-r1-4pin-fan.webp').default}
+    width="90%"
+/>
+
+## Sensor
+
+### PT1000
+
+<ImageView
+    src={require('@site/docs/board-docs/ebb-series/ebb-pro-r1/img/ebb-pro-r1-pt1000.webp').default}
+    width="90%"
+/>
+
+:::info[MAX 31865 Jumper Config]
+
+MAX 31865 Select PT1000 2-wire or 4-wire configuration
+
+| 1   | 2   | Sensor Model  |
+| --- | --- | ------------- |
+| ON  | ON  | 2 wire PT1000 |
+| OFF | OFF | 4 wire PT1000 |
+
+:::
+
+### BLtouch / MicroProbe
+
+<ImageView
+    src={require('@site/docs/board-docs/ebb-series/ebb-pro-r1/img/ebb-pro-r1-probe.webp').default}
+    width="90%"
+/>
+
+### Eddy Coil
+
+<ImageView
+    src={require('@site/docs/board-docs/ebb-series/ebb-pro-r1/img/ebb-pro-r1-iic.webp').default}
+    width="90%"
+/>

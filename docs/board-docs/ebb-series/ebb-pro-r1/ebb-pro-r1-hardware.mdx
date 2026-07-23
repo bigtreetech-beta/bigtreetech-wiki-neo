@@ -1,0 +1,96 @@
+---
+sidebar_position: 2
+description: EBB PRO R1 硬件功能
+---
+
+# EBB PRO R1 硬件功能
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+## 机械尺寸
+
+:::info[STEP 模型]
+
+EBB PRO R1 STEP [ebb-pro-r1-release.zip](https://github.com/bigtreetech/ebb-pro-r1/blob/master/hardware/step/ebb-pro-r1-release.zip)
+
+EBB PRO R1 Backplate Template [ebb-pro-r1-backplate-template.STEP](https://github.com/bigtreetech/ebb-pro-r1/blob/master/hardware/step/ebb-pro-r1-backplate-template.STEP)
+
+:::
+
+<ImageView
+    src={require("./img/ebb-pro-r1-asm-1.webp").default}
+    width="45%"
+/>
+<ImageView
+    src={require("./img/ebb-pro-r1-asm-2.webp").default}
+    width="45%"
+/>
+
+
+## Pinout
+
+:::info[原理图 / Schematic]
+
+EBB PRO R1 Schematic [ebb-pro-r1-schematic-release.pdf](https://github.com/bigtreetech/ebb-pro-r1/blob/master/hardware/schematic/ebb-pro-r1-schematic-release.pdf)
+
+:::
+
+<ImageView
+    src={require("./img/ebb-pro-r1-pinout-release.webp").default}
+    width="90%"
+/>
+
+## 风扇
+
+### 4 Pin PWM 风扇电压选择
+
+<ImageView
+    src={require("./img/ebb-pro-r1-fan-voltage.webp").default}
+    width="90%"
+/>
+
+### 4 Pin PWM 风扇接线
+
+<ImageView
+    src={require("./img/ebb-pro-r1-4pin-fan.webp").default}
+    width="90%"
+/>
+
+## 传感器
+
+### PT1000
+
+<ImageView
+    src={require("./img/ebb-pro-r1-pt1000.webp").default}
+    width="90%"
+/>
+
+:::info[MAX 31865 跳线配置]
+
+MAX 31865 选择 PT1000 2线或4线配置
+
+| 1   | 2   | Sensor Model  |
+| --- | --- | ------------- |
+| ON  | ON  | 2 wire PT1000 |
+| OFF | OFF | 4 wire PT1000 |
+
+:::
+
+### BLtouch / MicroProbe
+
+<ImageView
+    src={require("./img/ebb-pro-r1-probe.webp").default}
+    width="90%"
+/>
+
+### Eddy Coil
+
+<ImageView
+    src={require("./img/ebb-pro-r1-iic.webp").default}
+    width="90%"
+/>
