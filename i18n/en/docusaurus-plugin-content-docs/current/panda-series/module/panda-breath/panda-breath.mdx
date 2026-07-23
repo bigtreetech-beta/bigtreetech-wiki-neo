@@ -1,0 +1,509 @@
+---
+sidebar_position: 1
+description: BIQU Panda Breath
+---
+
+# Panda Breath
+
+{/* import lib start */}
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+{/* import lib end */}
+
+<div class="div-table">
+
+{/* main image */}
+<ImageView src={require('@site/docs/panda-series/module/panda-breath/img/panda-breath-title.webp').default} alt="" width="35%" class="right-image"/>
+
+## Important firmware update
+
+**Before using Panda Breath, please make sure the firmware has been updated to [V1.0.2 or later](#v102)**
+
+:::warning
+
+This firmware adds some important new features as well as bug fixes. Without installing it, there is the possibility that your Panda Breath may turn off after 30s of heating each time you try to use it as a result of the integrated software safety monitor being overly sensitive on one of the thermistor inputs. This firmware adds a small self-calibration feature on the very first startup which helps to identify the specific characteristics of your Panda Breath.
+
+:::
+
+- **Product Link**: [Buy Here](https://biqu.equipment/products/biqu-panda-breath-smart-air-filtration-and-heating-system-with-precise-temperature-regulation?_pos=1&_sid=3a4ce2d06&_ss=r&variant=42353406279778)
+- **Print files are available on**: [GitHub Bigtreetech/Panda_Breath](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution)
+- **GitHub：** https://github.com/bigtreetech/Panda_Breath
+
+## Revision Log
+
+| Version | Date           | Revision            |
+| :----- | :------------- | :------------------ |
+| v1.00  | December 12th, 2025 | Initial Version            |
+| v1.10  | May 30, 2026 | Refined product size for P2S compatibility |
+
+## Introduction
+
+- The BIQU Panda Breath is a chamber heater and filter for Bambu Lab printers. It uses a 300W PTC heater to warm the chamber, which helps prevent warping, strengthens layer adhesion in engineering materials (ABS, ASA, PC, PA...), and improves first-layer adhesion for all filaments.
+
+- Its dual HEPA and carbon filters remove fine particles and VOCs from the air during printing, reducing odors and improving air quality.
+
+</div>
+
+## Key Features
+
+- Easy Firmware Updates: Includes quick-flash interface for DIY firmware burning and future upgrades.
+
+- Main Power Switch: Convenient one-touch total power cutoff.
+
+- Quick-Access Controls: Dedicated function buttons for streamlined operation.
+
+- Automatic Start/Stop: Intelligently manages chamber heating and air filtration by monitoring the print bed's temperature in real time.
+
+- High-Temperature Capability: Reaches up to 60$^\circ\mathrm{C}$ chamber temperature, ideal for engineering-grade filaments.
+
+- Wireless Control: Onboard ESP32 WiFi module enables remote operation.
+
+- Rapid Heating: High-power PTC heater ensures fast temperature ramp-up.
+
+- Wide Voltage Compatibility: Broad input voltage range maximizes printer compatibility.
+
+- Shared Cable Design: Includes an adapter cable, allowing the device to share one cable with the printer without separate wiring.
+
+## Technical Specifications
+
+| Product Name       | Panda Breath V1.0                                                                                                                                                                        | Panda Breath V1.1                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| Compatibility         | Compatible with P1S, P1P, X1C, and A1 (A1 requires Panda Shelter). Supports Klipper printers (Snapmaker U1, Voron, and more). Currently requires manual heating control; automatic operation coming soon via firmware update.* | Supports all Panda Breath V1.0 compatible models （+ Added P2S compatibility） |
+| Product Dimensions (mm)     | 175.5x74.93x273                                                                                                                                                                          | 175.5x44.00x278                                   |
+| Main Controller           | ESP32-C3-MINI                                                                                                                                                                            |                                                   |
+| Power Input       | AC 110 V–220 V                                                                                                                                                                              |                                                   |
+| PTC Heater Power   | 300 W                                                                                                                                                                                     |                                                   |
+| Fans  | 2pcs 75x75x30 mm, 7.8 W rated, 5000 RPM, 19.2 CFM max airflow                                                                                                                             |                                                   |
+| Standby Power       | 0.45 W                                                                                                                                                                                    |
+| Operating Power       | 350 W                                                                                                                                                                                     |                                                   |
+| Logic Voltage       | 3.3 V                                                                                                                                                                                     |                                                   |
+| Power Cable Length       | 1.1 m                                                                                                                                                                                     |                                                   |
+| PTC Temperature Limit       | 105 $^\circ\mathrm{C}$                                                                                                                                                                                     |                                                   |
+| Maximum Chamber Temperature | 60 $^\circ\mathrm{C}$                                                                                                                                                                                      |                                                   |
+| Minimum Operating Ambient Temperature   | 15 $^\circ\mathrm{C}$                                                                                                                                                                                      |                                                   |
+
+## Dimensions
+
+<ImageView src={require('@site/docs/panda-series/module/panda-breath/img/product-size-v1.0.webp').default} alt="" width="300"  />
+
+<ImageView src={require('@site/docs/panda-series/module/panda-breath/img/product-size-v1.1.webp').default} alt="" width="200"  />
+
+## Installation Guide
+
+### Preparation Before Assembly
+
+- P, X Series:
+
+    Use your 3D printer to print the Riser. [Download print files here](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution).
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/x-install01.webp').default} alt="" width="35%"  />
+
+    X Series models:also require the Mounting Insert [Download print files here](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution).
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/x-install01-zh.webp').default} alt="" width="35%"  />
+
+- Snapmaker U1:
+
+    Print the Left and Right Mounting Brackets using your 3D printer. [Download print files here](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution).
+
+    :::tip
+
+    Make sure to select the mounting brackets that match your Panda Breath version. Otherwise, the brackets may not fit properly during installation.
+
+    :::
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/u1install01.webp').default} alt="" width="35%"  />
+
+### Installation Steps for Bambu Lab P1
+
+1. Remove the top glass panel and place the printed riser on the top of the printer.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p-install01.webp').default} alt="" width="35%"  />
+
+2. Locate and remove the mounting screw at the center of the right-side crossbar using a screwdriver.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p-install02.webp').default} alt="" width="35%"  />
+
+3. Align the bottom mounting tabs of Panda Breath with the printer's alignment posts.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p-install03.webp').default} alt="" width="35%"  />
+
+    :::tip
+
+    If your Panda Breath is V1.1, remove the removable metal mounting bracket from the upper-left side of Panda Breath by unscrewing the two screws before installation. Otherwise, it may interfere with installation inside the P1 printer.
+
+    :::
+
+4. Fasten Panda Breath using the included M3x8 self-tapping screws.
+
+    :::tip
+
+    Tighten all screws securely, but avoid using excessive force. Over-tightening can strip the threads or crack the housing.
+
+    :::
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p-install04.webp').default} alt="" width="35%"  />
+
+5. Route and secure the power cable using the included cable clips, following the reference diagram.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p-install05.webp').default} alt="" width="35%"  />
+
+6. Pass the cable through the rear opening in the printed riser.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p-install06.webp').default} alt="" width="35%"  />
+
+7. Unplug the printer's original power cable, then connect the adapter cable as shown.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p-install07.webp').default} alt="" width="35%"  />
+
+8. Remove the backing from the 2 included aluminum foil insulation pads and stick them to the bottom and right side of the left fan inside the printer to prevent the exterior from getting too hot during prolonged use.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p-install08.webp').default} alt="" width="35%"  />
+
+Installation is now complete.
+
+### Installation Steps for Bambu Lab P2S
+
+:::warning
+
+Due to the limited chamber space of the P2S, only Panda Breath V1.1 can currently be installed on the left side of the P2S. Panda Breath V1.0 is too thick to fit the P2S.
+
+:::
+
+1. Remove the glass top cover from the printer, then securely place the P2S-compatible riser on top of the printer. The actual installation should be performed on a P2S-series printer. The images below are for reference only.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p-install01.webp').default} alt="" width="35%"  />
+
+2. Prepare the printed mounting bracket shown below. Slide the bracket onto the bottom of Panda Breath, then press the power cable into the groove in the bracket as shown.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p2s-install02.webp').default} alt="" width="35%"  />
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p2s-install03.webp').default} alt="" width="35%"  />
+
+3. Install the other printed part on the left side inside the P2S printer, as shown.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p2s-install04.webp').default} alt="" width="35%"  />
+
+4. Raise the printer bed to its highest position, then place Panda Breath inside the printer.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p2s-install05.webp').default} alt="" width="35%"  />
+
+5. Align the upper-left mounting hole on the Panda Breath with the screw hole inside the printer, then secure it using the included self-tapping screw. Do not overtighten.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p2s-install06.webp').default} alt="" width="35%"  />
+
+6. Use the included cable clips to secure the power cable along the routing path shown below. Then route the power cable out of the printer through the reserved opening at the rear of the riser, as shown.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p2s-install07.webp').default} alt="" width="35%"  />
+
+7. Unplug the printer's original power cable, then connect the adapter cable as shown.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p-install07.webp').default} alt="" width="35%"  />
+
+8. Peel off the backing from the two included aluminum-foil insulation pads, then attach them to the right side inside the printer where the airflow from Panda Breath directly blows. This helps prevent the Panda Breath housing from becoming too hot during long heating sessions.
+
+### Installation Steps for Bambu Lab X1 Series
+
+1. Remove the top glass panel and place the printed riser on the top of the printer. (The actual installation should be performed on a Bambu Lab X1-series printer. The image is for reference only.)
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p-install01.webp').default} alt="" width="35%"  />
+
+2. Prepare the printed mounting insert. Remove the factory screw from the center of the right-side crossbar, and insert the printed insert into the crossbar channel.
+
+    :::tip
+
+    If your X1 has factory-installed threaded posts on the right side (early batches), use the included M3x8 machine screws directly—no printed insert needed.
+
+    :::
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/x-install01-zh.webp').default} alt="" width="35%"  />
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/x-install02.webp').default} alt="" width="35%"  />
+
+3. Align Panda Breath's bottom tabs with the alignment posts and fasten using the included self-tapping screws. Avoid over-tightening, as previously mentioned.
+
+    :::tip
+
+    If your Panda Breath is V1.1, remove the removable metal mounting bracket from the upper-left side of Panda Breath by unscrewing the two screws before installation. Otherwise, it may interfere with installation inside the X series printers.
+
+    :::
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p-install03.webp').default} alt="" width="35%"  />
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p-install04.webp').default} alt="" width="34%"  />
+
+Remaining Steps: Follow P Series Steps 5–8 for cable management and power connection.
+
+### Installation Steps for Snapmaker U1
+
+1. Take the two pre-printed clamp blocks, insert an M3x14 self-tapping screw into each hole on the left mounting bracket. Do not tighten the screws completely at this stage; leave them loose for adjustment.
+
+    :::tip
+
+    Because Panda Breath V1.0 and V1.1 have different thicknesses, make sure to download and print the mounting brackets that match your Panda Breath version.
+
+    :::
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/u1install03.webp').default} alt="" width="35%"  />
+
+2. Slide the left and right mounting brackets onto the corresponding sides of the Panda Breath module.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/u1install04.webp').default} alt="" width="35%"  />
+
+3. Guide the Panda Breath cable toward the left side of the module. Thread the cable through the dedicated channel on the left mounting bracket. Gently pull the cable upward and out through the top exit of the channel.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/u1install05.webp').default} alt="" width="35%"  />
+
+4. Place the Panda Breath at the very back of the Snapmaker U1 chamber, gently pressing it against the transparent rear panel. Route the power cable out of the printer through the gap in the corner.
+
+    :::tip[Important]
+
+    Ensure the bottom of the Panda Breath is suspended—do not let it press on the cable.
+
+    :::
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/u1install06.webp').default} alt="" width="35%"  />
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/u1install07.webp').default} alt="" width="35%"  />
+
+5. Once the module is correctly positioned, fully tighten all four screws on the left mounting bracket to secure it in place.
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/u1install08.webp').default} alt="" width="35%"  />
+
+Installation is now complete.
+
+## Interface and Button Functions
+
+<ImageView src={require('@site/docs/panda-series/module/panda-breath/img/button01.webp').default} alt="" width="35%"  />
+
+<ImageView src={require('@site/docs/panda-series/module/panda-breath/img/button02.webp').default} alt="" width="35%"  />
+
+## Initial Connection
+
+After the first power-on, the Panda Breath defaults to Auto Mode, and the green indicator on the button turns on. Note: Auto Mode requires the Panda Breath to be paired with a printer.
+
+### Wi-Fi Connection Guide
+
+- Connecting to the Panda Breath's Wi-Fi_AP Hotspot
+
+    - Connect to the Panda Breath AP hotspot: `Panda_Breath_XXXXXXXXXX`. The default password is `987654321`.
+
+- Accessing the AP Page
+
+    - After connecting to the AP, open a browser on your computer and enter the default IP address: `192.168.254.1`. On mobile devices, the Panda_Breath Web UI will automatically appear, or you can manually enter the IP address in the browser: `192.168.254.1`. Below, the mobile version will be used as an example for explanation. The web version operates similarly. For Mobile:
+
+- Select Language (Default: English)
+
+    - After selecting a language, tap Next
+
+        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/language.webp').default} alt="" width="35%"  />
+
+- Wi-Fi Connection Page
+
+    - After initial setup or a factory reset, the interface will automatically scan for available Wi-Fi networks. If your network is not listed, tap Scan to refresh the list manually.
+
+        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-scan.webp').default} alt="" width="35%"  />
+
+    - A confirmation message will appear when the scan is complete.
+
+        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-scan-ok.webp').default} alt="" width="35%"  />
+
+    - Select the Wi-Fi network you want to connect to.
+
+        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-list.webp').default} alt="" width="35%"  />
+
+    - Type your password and tap the `eye` icon if you'd like to see the password you've entered.
+
+        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-connect.webp').default} alt="" width="35%"  />
+
+    - Tap Connect. You will then see the Wi-Fi connection page with the status `Wi-Fi connecting...`
+
+        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-connecting.webp').default} alt="" width="35%"  />
+
+    - Wait a moment, and a Wi-Fi connection status pop-up will appear.
+
+        - Connection Failed:
+
+            <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-failed.webp').default} alt="" width="35%"  />
+
+        - Connection Successful: You can either bind the printer and proceed to the `printer page` or tap Cancel to stay on the `Wi-Fi page`.
+
+            <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-ok.webp').default} alt="" width="35%"  />
+
+
+ ### Printer Binding Page
+
+- Features Overview
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/printer.webp').default} alt="" width="35%"  />
+
+    1. Printer Page Selection: When you tap the icon, it will turn red to indicate that you are on the Printer page.
+
+    2. Scan for Printers on the Same Local Network
+
+    3. Select the Detected Printer
+
+    4. Enter Printer's SN Code
+
+    5. Enter Printer's Access Code
+
+    6. Enter Printer's IP Address
+
+    7. Confirm to Bind This Printer
+
+- How to Bind a Printer (Using P1P as an Example)
+
+    - Tap Scan button. After a short wait, a pop-up will appear confirming that the scan was successful.
+
+        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/printer-scan-ok.webp').default} alt="" width="35%"  />
+
+    - Select the printer from the list. The printer's SN code and IP address will automatically fill in.
+
+        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/printer-list.webp').default} alt="" width="35%"  />
+
+    - Enter the printer's `Access Code`
+
+        - Find the access code in the printer's settings:
+
+            <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p1-1-2-3.webp').default} alt="" width="35%"  />
+
+            <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p1-4-5.webp').default} alt="" width="35%"  />
+
+        - Enter it in the box, and tap Bind to successfully bind the printer.
+
+            <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/printer-bind.webp').default} alt="" width="35%"  />
+
+            <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/bind-ok.webp').default} alt="" width="35%"  />
+
+## Introduction to Each Page
+
+### Wi-Fi Page
+
+<ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-ip.webp').default} alt="" width="35%"  />
+
+1. Wi-Fi Page Selection: When you tap the icon, it will turn red to indicate that you are on the Wi-Fi page.
+
+2. Current Wi-Fi Connection Status
+
+3. IP Address Icon: Tap the icon to display a pop-up. If the IP field is blank, ensure Panda Breath shows "Connected." If it says, "Not Connected," check your network settings.
+
+4. IP Address Display: Entering this IP in your browser will take you to the Web page, as long as you're on the same local network.
+
+5. Wi-Fi Network Configuration Button: Tap to go to the Wi-Fi connection page
+
+6. Host Name: The default hostname is "PandaBreath." If you forget the IP, you can use the hostname followed by "local" in the browser (e.g., http://PandaBreath.local). To modify the hostname, tap the text box to edit it, then tap "Set Hostname" to confirm.
+
+7. Confirm Hostname Modification
+
+### AP Page
+
+<ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-ap.webp').default} alt="" width="35%"  />
+
+1. AP Page Selection: When you tap the icon, it will turn red to indicate that you are on the AP page.
+
+2. AP Hotspot Switch
+
+3. AP Name: Default is `Panda_Breath_XXXXXXXXXX`
+
+4. AP Password: Default is `987654321`
+
+5. Hotspot IP: Default Hotspot IP is "192.168.254.1." If your router's IP range is "192.168.254.xxx," an IP conflict will prevent the device from binding to the printer. Change the Panda Breath hotspot IP to a different range.
+
+6. Confirm Button: Tapping this button will restart the device. After the restart, you can connect to the AP hotspot.
+
+### Settings Page
+
+<ImageView src={require('@site/docs/panda-series/module/panda-breath/img/settings.webp').default} alt="" width="35%"  />
+
+1. Settings Page Selection: When you tap the icon, it will turn red to indicate that you are on the Settings page.
+
+2. Choose Language (Default: English)
+
+3. Show Current Firmware Version
+
+4. Firmware OTA Update: Select a `.bin` file for the update.
+
+    - Tap the Select `.bin` File button to choose the bin file that requires OTA.
+
+        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/ota-bin.webp').default} alt="" width="35%"  />
+
+    - Wait for the progress to complete. The device will automatically restart once the update is finished.
+
+        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/ota-progress.webp').default} alt="" width="35%"  />
+
+        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/ota-ok.webp').default} alt="" width="35%"  />
+
+5. Tap to Confirm Restore Factory Settings
+
+ ### Control Page
+
+- Features Overview
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/panel.webp').default} alt="" width="35%"  />
+
+    1. Real-time display of the chamber temperature.
+
+    2. Turn the Panda Breath on or off.
+
+    3. Select the operation mode:
+
+      - Auto Mode: When paired with a printer, the device follows the printer's heated bed temperature settings to perform the corresponding functions.
+
+      - Forced-On Mode: No need to pair with a printer; the device heats directly to the set temperature.
+
+      - Filament Drying Mode: Set a timer to dry the filament.
+
+- Auto Mode
+
+    1. Target chamber temperature.
+
+    2. Filter fan activation temperature (when the printer's heated bed temperature exceeds this value, Panda Breath automatically turns on the filter fan).
+
+    3. Chamber heating activation temperature（when the printer's heated bed temperature exceeds this value, Panda Breath automatically starts heating and filtration.）
+
+- Forced On Mode
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/force-on.webp').default} alt="" width="35%"  />
+
+    Chamber target temperature (same value as the target temperature in Auto Mode).
+
+- Filament Drying Mode
+
+    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/drying.webp').default} alt="" width="35%"  />
+
+    1. Target chamber temperature and drying countdown timer.
+
+    2. Quick parameter setting buttons:
+
+        - PLA : Target temperature 55$^\circ\mathrm{C}$, drying time 12 hours.
+
+        - PETG：Target temperature 60$^\circ\mathrm{C}$, drying time 12 hours.
+
+        - Custom: Manually adjusted values will be saved as custom settings.
+
+    3. Start/Stop drying
+
+## Firmware History
+
+### [V1.0.3](https://github.com/bigtreetech/Panda_Breath/tree/master/Firmware/1.0.3)
+
+- Added support for adding P2S and Klipper printers.
+
+### [V1.0.2](https://github.com/bigtreetech/Panda_Breath/tree/master/Firmware/1.0.2)
+
+- Fix the issue of incorrect self-test results of the device at certain temperatures. Fix the issue of abnormal shutdown of PTC heating device in low-temperature environment.
+
+### [V1.0.1](https://github.com/bigtreetech/Panda_Breath/tree/master/Firmware/1.0.1)
+
+- Add a small self-calibration feature on the first heating(After restoring factory settings) to fix the issue of heating stopping due to mistakenly entering thermal protection mode.
+
+## Feature Requests
+
+If you'd like to see certain features in the upcoming firmware release, please submit a feature request on the official GitHub repository. [Feature Requests.](https://github.com/bigtreetech/Panda-Breath/issues)
+
+## Important Notice
+
+Failure to follow the above instructions or any improper installation may void the product warranty and could result in damage to the product.
+BIQU is not liable for any damage or loss resulting from the misuse or incorrect installation of this product.
