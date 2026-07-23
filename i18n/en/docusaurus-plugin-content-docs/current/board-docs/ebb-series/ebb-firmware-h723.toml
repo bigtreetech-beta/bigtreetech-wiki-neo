@@ -74,18 +74,18 @@ Then, build the `EBB` firmware using the `STM32H723` as the `MCU` according to t
 '''
 
 [[block]]
-key = "3e063c3c5bc8ebfc"
+key = "57b9847f64d4b4df"
 origin = '''
-{/* <ImageView
+<ImageView
     src={require('./img/ebb-h723-make-can.webp').default}
     alt="EBB with H723 build config"
-/> */}
+/>
 '''
 translate = '''
-{/* <ImageView
+<ImageView
     src={require('@site/docs/board-docs/ebb-series/img/ebb-h723-make-can.webp').default}
     alt="EBB with H723 build config"
-/> */}
+/>
 '''
 
 [[block]]
