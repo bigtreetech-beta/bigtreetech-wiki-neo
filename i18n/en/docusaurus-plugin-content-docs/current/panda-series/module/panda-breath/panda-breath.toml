@@ -927,7 +927,7 @@ origin = '''
     <ImageView src={require('./img/u1install03.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/u1install03.webp').default} alt="" width="35%"  />
+    <ImageView src={require('./img/u1install03.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1151,7 +1151,7 @@ origin = '''
         <ImageView src={require('./img/language.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/language.webp').default} alt="" width="35%"  />
+        <ImageView src={require('./img/language.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1178,7 +1178,7 @@ origin = '''
         <ImageView src={require('./img/wifi-scan.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-scan.webp').default} alt="" width="35%"  />
+        <ImageView src={require('./img/wifi-scan.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1196,7 +1196,7 @@ origin = '''
         <ImageView src={require('./img/wifi-scan-ok.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-scan-ok.webp').default} alt="" width="35%"  />
+        <ImageView src={require('./img/wifi-scan-ok.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1214,7 +1214,7 @@ origin = '''
         <ImageView src={require('./img/wifi-list.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-list.webp').default} alt="" width="35%"  />
+        <ImageView src={require('./img/wifi-list.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1232,7 +1232,7 @@ origin = '''
         <ImageView src={require('./img/wifi-connect.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-connect.webp').default} alt="" width="35%"  />
+        <ImageView src={require('./img/wifi-connect.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1250,7 +1250,7 @@ origin = '''
         <ImageView src={require('./img/wifi-connecting.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-connecting.webp').default} alt="" width="35%"  />
+        <ImageView src={require('./img/wifi-connecting.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1277,7 +1277,7 @@ origin = '''
             <ImageView src={require('./img/wifi-failed.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-            <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-failed.webp').default} alt="" width="35%"  />
+            <ImageView src={require('./img/wifi-failed.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1295,7 +1295,7 @@ origin = '''
             <ImageView src={require('./img/wifi-ok.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-            <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-ok.webp').default} alt="" width="35%"  />
+            <ImageView src={require('./img/wifi-ok.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1322,7 +1322,7 @@ origin = '''
    <ImageView src={require('./img/printer.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-   <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/printer.webp').default} alt="" width="35%"  />
+   <ImageView src={require('./img/printer.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1412,7 +1412,7 @@ origin = '''
         <ImageView src={require('./img/printer-scan-ok.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/printer-scan-ok.webp').default} alt="" width="35%"  />
+        <ImageView src={require('./img/printer-scan-ok.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1430,7 +1430,7 @@ origin = '''
         <ImageView src={require('./img/printer-list.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/printer-list.webp').default} alt="" width="35%"  />
+        <ImageView src={require('./img/printer-list.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1457,7 +1457,7 @@ origin = '''
             <ImageView src={require('./img/p1-1-2-3.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-            <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p1-1-2-3.webp').default} alt="" width="35%"  />
+            <ImageView src={require('./img/p1-1-2-3.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1466,7 +1466,7 @@ origin = '''
             <ImageView src={require('./img/p1-4-5.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-            <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/p1-4-5.webp').default} alt="" width="35%"  />
+            <ImageView src={require('./img/p1-4-5.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1484,7 +1484,7 @@ origin = '''
             <ImageView src={require('./img/printer-bind.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-            <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/printer-bind.webp').default} alt="" width="35%"  />
+            <ImageView src={require('./img/printer-bind.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1493,7 +1493,7 @@ origin = '''
             <ImageView src={require('./img/bind-ok.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-            <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/bind-ok.webp').default} alt="" width="35%"  />
+            <ImageView src={require('./img/bind-ok.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1520,7 +1520,7 @@ origin = '''
 <ImageView src={require('./img/wifi-ip.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-<ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-ip.webp').default} alt="" width="35%"  />
+<ImageView src={require('./img/wifi-ip.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1601,7 +1601,7 @@ origin = '''
 <ImageView src={require('./img/wifi-ap.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-<ImageView src={require('@site/docs/panda-series/module/panda-breath/img/wifi-ap.webp').default} alt="" width="35%"  />
+<ImageView src={require('./img/wifi-ap.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1673,7 +1673,7 @@ origin = '''
 <ImageView src={require('./img/settings.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-<ImageView src={require('@site/docs/panda-series/module/panda-breath/img/settings.webp').default} alt="" width="35%"  />
+<ImageView src={require('./img/settings.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1745,7 +1745,7 @@ origin = '''
         <ImageView src={require('./img/ota-progress.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/ota-progress.webp').default} alt="" width="35%"  />
+        <ImageView src={require('./img/ota-progress.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1754,7 +1754,7 @@ origin = '''
         <ImageView src={require('./img/ota-ok.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-        <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/ota-ok.webp').default} alt="" width="35%"  />
+        <ImageView src={require('./img/ota-ok.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1790,7 +1790,7 @@ origin = '''
     <ImageView src={require('./img/panel.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/panel.webp').default} alt="" width="35%"  />
+    <ImageView src={require('./img/panel.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1898,7 +1898,7 @@ origin = '''
     <ImageView src={require('./img/force-on.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/force-on.webp').default} alt="" width="35%"  />
+    <ImageView src={require('./img/force-on.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
@@ -1925,7 +1925,7 @@ origin = '''
     <ImageView src={require('./img/drying.webp').default} alt="" width="35%"  />
 '''
 translate = '''
-    <ImageView src={require('@site/docs/panda-series/module/panda-breath/img/drying.webp').default} alt="" width="35%"  />
+    <ImageView src={require('./img/drying.webp').default} alt="" width="35%"  />
 '''
 
 [[block]]
