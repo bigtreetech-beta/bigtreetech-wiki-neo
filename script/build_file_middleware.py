@@ -2,7 +2,7 @@ import json
 import argparse
 import logging
 from pathlib import Path
-from build_middleware import build_file
+from i18n_toolkit_middleware import build_file
 
 # Configure logging
 logging.basicConfig(
@@ -20,6 +20,12 @@ def main():
         nargs="+",
         required=True,
         help="Markdown files to build"
+    )
+    parser.add_argument(
+        "--lang",
+        nargs="+",
+        default=["en"],
+        help="Target language to build"
     )
 
     args = parser.parse_args()
@@ -40,7 +46,7 @@ def main():
     # build_middleware_base = "i18n_middleware"
     build_middleware_base = "i18n"
     build_cache_base = ".build_cache"
-    lang_list = ["en"]
+    lang_list = args.lang
 
     logger.info("Starting build process...")
 

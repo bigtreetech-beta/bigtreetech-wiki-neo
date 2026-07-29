@@ -1,7 +1,7 @@
 import argparse
 import logging
 from pathlib import Path
-from sync_to_i18n import rebuild_file
+from i18n_toolkit_build import rebuild_file
 
 logging.basicConfig(
     level=logging.INFO,
@@ -19,6 +19,12 @@ def main():
         required=True,
         help="markdown/mdx files under docs folder"
     )
+    parser.add_argument(
+        "--lang",
+        nargs="+",
+        default=["en"],
+        help="Target language to rebuild"
+    )
     args = parser.parse_args()
 
     # Configuration
@@ -26,7 +32,7 @@ def main():
     I18N_FOLDER = Path("i18n")
     # build_middleware_base = Path("i18n_middleware")
     build_middleware_base = Path("i18n")
-    lang_list = ["en"]
+    lang_list = args.lang
 
     md_files = []
 

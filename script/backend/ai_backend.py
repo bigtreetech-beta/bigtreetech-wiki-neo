@@ -1,12 +1,21 @@
 import os
+import logging
+import sys
 from openai import OpenAI
+
+for stream in (sys.stdout, sys.stderr):
+    try:
+        stream.reconfigure(encoding="utf-8", errors="backslashreplace")
+    except (AttributeError, OSError):
+        pass
+
+logger = logging.getLogger(__name__)
 
 def translate_ai(text:str, src_language:str, target_language:str):
     try:
         client = OpenAI(
-            # 若没有配置环境变量，请用阿里云百炼API Key将下行替换为: api_key="sk-xxx",
             api_key=os.getenv("DASHSCOPE_API_KEY"),
-            base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+            base_url=os.getenv("DASHSCOPE_BASE_URL", "https://dashscope.aliyuncs.com/compatible-mode/v1"),
         )
 
         sys_prompt = f"""你是一个专业的翻译工具，任务是翻译用户输入的内容。
@@ -34,7 +43,7 @@ def translate_ai(text:str, src_language:str, target_language:str):
         user_prompt = text
 
         completion = client.chat.completions.create(
-            model="qwen3-30b-a3b-instruct-2507",  # 模型列表: https://help.aliyun.com/model-studio/getting-started/models
+            model=os.getenv("DASHSCOPE_MODEL", "qwen3-30b-a3b-instruct-2507"),  # 模型列表: https://help.aliyun.com/model-studio/getting-started/models
             messages=[
                 {'role': 'system', 'content': sys_prompt},
                 {'role': 'user', 'content': user_prompt}
@@ -42,11 +51,10 @@ def translate_ai(text:str, src_language:str, target_language:str):
         )
 
         result = completion.choices[0].message.content
-        print(f"[api] [request] {text}")
-        print(f"[api] [result] {result}")
-
+        logger.info("[api] [request] %s", text)
+        logger.info("[api] [result] %s", result)
         return result
 
     except Exception as e:
-        print(f"[err] {e}")
-        print("[err] [ref] https://help.aliyun.com/model-studio/developer-reference/error-code")
+        logger.error("%s", e)
+        logger.error("[ref] https://help.aliyun.com/model-studio/developer-reference/error-code")
