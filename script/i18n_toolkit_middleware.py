@@ -182,13 +182,19 @@ def build_toml(blocks, existing_translations, md_path,
         table.add("key", key)
         for field, content in [("origin", b), ("translate", translated)]:
             if "\n" in content:
-                table.add(field, tomlkit.string(f"\n{content}", multiline=True, literal=True))
+                table.add(field, tomlkit.string(content, multiline=True, literal=True))
             else:
                 table.add(field, f"\n{content}")
         blocks_array.append(table)
 
     doc.add("block", blocks_array)
-    return tomlkit.dumps(doc)
+    toml_string = tomlkit.dumps(doc)
+    return re.sub(
+        r"^((?:origin|translate) = ''')(?=[^\r\n])",
+        r"\1\n",
+        toml_string,
+        flags=re.MULTILINE,
+    )
 
 
 def build_file(md_path: Path, local_root: str, cache: dict, 
