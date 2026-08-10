@@ -2,8 +2,9 @@ import React, { useEffect } from 'react';
 import { useLocation } from '@docusaurus/router';
 import { useColorMode } from '@docusaurus/theme-common';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Artalk from 'artalk';
-import 'artalk/Artalk.css';
+
+import MeowCommentsUI from 'meow-comment-ui';
+import 'meow-comment-ui/MeowCommentUI.css'
 
 export default function ArtalkComments() {
     const location = useLocation();
@@ -20,17 +21,13 @@ export default function ArtalkComments() {
     useEffect(() => {
         if (typeof window === 'undefined') return;
 
-        const artalk = Artalk.init({
+        const artalk = MeowCommentsUI.init({
             el: '#artalk-container',
             pageKey: location.pathname,
             pageTitle: document.title,
-            server: 'https://artcdn.bttwiki.com',
-            site: 'bttwiki',
+            baseUrl: 'https://artcdn.bttwiki.com',
             darkMode: colorMode === 'dark',
-            useBackendConf: false,
             locale: artalkLocale,
-            imgUpload: false,
-            emoticons: false,
         });
 
         return () => artalk.destroy();

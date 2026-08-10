@@ -13,11 +13,14 @@ export default function LayoutWrapper(props: Props): ReactNode {
         <>
             <Layout {...props} />
             <br />
-            {isProd ? (
-                <ArtalkBlock />
-            ) : (
-                <Placeholder />
-            )}
+            <div className='row'>
+                {isProd ? (
+                    <ArtalkBlock />
+                ) : (
+                    <Placeholder />
+                )}
+            </div>
+
         </>
     );
 }
