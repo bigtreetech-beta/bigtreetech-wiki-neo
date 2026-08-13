@@ -321,6 +321,257 @@ eTVOC 模块需要预热 5 分钟，请确保设备通电后等待一段时间�
 
 <ImageView src={require('./img/reset-history.webp').default} width="256"/>
 
+### 连接HA
+
+#### Panda Sense Pro 连接 wifi
+
+用手机或电脑连接 Panda Sense Pro 的 WiFi 热点自动打开配置界面，选择 &lt;Wi-Fi&amp;IP&gt; 界面图标进行 wifi 连接配网，配网成功将显示自动获取到的 STA IP 地址，如下图， STA IP 地址为 192.168.0.39
+
+<ImageView src={require('./img/01-wifi-connect.webp').default} width="256"/>
+
+#### Panda Sense Pro 连接 Mqtt 代理服务器
+
+点击 HA 配置界面，输入 PandaSense Pro 自己的 IP 地址，端口（Port）为：1883，如下图，点击绑定（Band）按钮，完成 Mqtt 代理服务器配置
+
+<ImageView src={require('./img/02-band-broker.webp').default} width="256"/>
+
+#### HomeAssistant 配置 MQTT
+
+1. 在 HomeAssistant 界面点击 设置 -> 设备与服务，如下图步骤：
+
+    <ImageView src={require('./img/panda-sense-pro-ha-1.webp').default} width="256"/>
+
+2. 点击 "添加集成"
+
+    <ImageView src={require('./img/panda-sense-pro-ha-2.webp').default} width="256"/>
+
+3. 在 "搜索品牌名称" 栏输入 "mqtt"
+
+    <ImageView src={require('./img/panda-sense-pro-ha-3.webp').default} width="256"/>
+
+4. 点击 "MQTT"
+
+    <ImageView src={require('./img/panda-sense-pro-ha-4.webp').default} width="256"/>
+
+5. 再点击 "MQTT"
+
+    <ImageView src={require('./img/panda-sense-pro-ha-5.webp').default} width="256"/>
+
+6. 在代理栏输入 Panda_Sense_Pro 设备本机的 IP 地址及端口,点击 "提交" ，显示成功配置界面。
+   (注：Panda_Sense_Pro 设备连接 wifi 成功后，设备右上角会显示设备本机的 IP 地址)
+
+    <ImageView src={require('./img/panda-sense-pro-ha-6.webp').default} width="256"/>
+
+7. 显示创建配置成功界面,点击 "完成"
+
+    <ImageView src={require('./img/panda-sense-pro-ha-7.webp').default} width="256"/>
+
+8. 集成创建成功后在服务框中会显示设备列表
+
+    <ImageView src={require('./img/panda-sense-pro-ha-8.webp').default} width="256"/>
+
+9. 点击 "panda_sense_pro" 设备，将显示设备传感器列表，如下图：
+
+    <ImageView src={require('./img/panda-sense-pro-ha-9.webp').default} width="256"/>
+
+10. 点击传感器下面的通道实体
+
+    <ImageView src={require('./img/panda-sense-pro-ha-10.webp').default} width="256"/>
+
+11. 点击齿轮图标
+
+    <ImageView src={require('./img/panda-sense-pro-ha-11.webp').default} width="256"/>
+
+12. 在实体子窗口中的 "实体标识符*" 中重命名实体标识符，格式为：产品名称 + MAC 地址，如：panda_sense_pro_e1014c19fd86624 ,再点击 "更新" 按扭完成实体名称修改
+
+    <ImageView src={require('./img/panda-sense-pro-ha-12.webp').default} width="256"/>
+
+13. 将传感器其余的实体用同样的方法重命名
+
+    <ImageView src={require('./img/panda-sense-pro-ha-13.webp').default} width="256"/>
+
+#### HomeAssistant 仪表盘添加方法
+
+1. 在 HomeAssistant 界面左侧点击 "设置"  -> "仪表盘"
+
+    <ImageView src={require('./img/panda-sense-pro-ha-14.webp').default} width="256"/>
+
+2. 点击 "添加仪表盘"
+
+    <ImageView src={require('./img/panda-sense-pro-ha-15.webp').default} width="256"/>
+
+3. 点击 "从新建仪表开始"
+
+    <ImageView src={require('./img/panda-sense-pro-ha-16.webp').default} width="256"/>
+
+4. 在 "添加新仪表盘" 界面中，标题栏输入仪表盘名称及图标，点击 "创建" ，完成仪表盘的创建。
+
+    <ImageView src={require('./img/panda-sense-pro-ha-17.webp').default} width="256"/>
+
+5. 在 HomeAssistant 主界面左侧点击刚创建的仪表盘 "Panda_Sense_Pro" ，再点击右上角修改按钮。
+
+    <ImageView src={require('./img/panda-sense-pro-ha-18.webp').default} width="256"/>
+
+6. 点击右上角修改按钮
+
+    <ImageView src={require('./img/panda-sense-pro-ha-19.webp').default} width="256"/>
+
+7. 点击 "｛｝原始配置编辑器"
+
+    <ImageView src={require('./img/panda-sense-pro-ha-20.webp').default} width="256"/>
+
+8. 复制 "仪表表配置文件.yml" 的配置代码粘贴到记事本，把 panda_sense_pro_e1014c19f4468dc 替换为设备的ID名,如替换为：panda_sense_pro_e1014c19fd86624e
+
+    <ImageView src={require('./img/panda-sense-pro-ha-24.webp').default} width="256"/>
+
+    <ImageView src={require('./img/panda-sense-pro-ha-25.webp').default} width="256"/>
+
+    仪表盘配置文件.yml
+
+    ```
+    views:
+      type: sections
+      title: PandaSenser_Pro
+      cards: []
+      sections:
+        - type: grid
+          cards:
+          - graph: line
+            type: sensor
+            entity: sensor.panda_sense_pro_e1014c19f4468dc_temper
+            detail: 2
+            icon: ""
+            name: 温度
+          - graph: line
+            type: sensor
+            entity: sensor.panda_sense_pro_e1014c19f4468dc_humidity
+            detail: 1
+            name: 湿度
+          - graph: line
+            type: sensor
+            entity: sensor.panda_sense_pro_e1014c19f4468dc_co2
+            detail: 1
+            name: 二氧化碳
+          - graph: line
+            type: sensor
+            entity: sensor.panda_sense_pro_e1014c19f4468dc_ch2o
+            detail: 1
+            name: 甲醛
+          - graph: line
+            type: sensor
+            entity: sensor.panda_sense_pro_e1014c19f4468dc_pm2_5
+            detail: 1
+            name: PM2.5
+          - graph: line
+            type: sensor
+            entity: sensor.panda_sense_pro_e1014c19f4468dc_pm10
+            detail: 1
+            name: PM10
+          - graph: line
+            type: sensor
+            entity: sensor.panda_sense_pro_e1014c19f4468dc_aqi
+            detail: 1
+            name: 空气质量指数
+          - graph: line
+            type: sensor
+            entity: sensor.panda_sense_pro_e1014c19f4468dc_etvoc
+            detail: 1
+            name: eTVOC
+        column_span: 2
+        background:
+          opacity: 50
+    header:
+      layout: responsive
+      badges_position: bottom
+      badges_wrap: wrap
+      card:
+        type: markdown
+        content: "# PandaSenser_Pro"
+        text_only: true
+    badges: []
+    footer: {}
+    max_columns: 4
+    - type: masonry
+      title: Historical Detection Records
+      path: unknown
+      cards:
+        - type: statistics-graph
+          entities:
+            - sensor.panda_sense_pro_e1014c19f4468dc_humidity
+          days_to_show: 1
+          period: 5minute
+          chart_type: line
+          stat_types:
+            - mean
+        - type: statistics-graph
+          entities:
+            - sensor.panda_sense_pro_e1014c19f4468dc_temper
+          days_to_show: 1
+          period: 5minute
+          chart_type: line
+          stat_types:
+            - mean
+        - type: statistics-graph
+          entities:
+            - sensor.panda_sense_pro_e1014c19f4468dc_co2
+          days_to_show: 1
+          period: 5minute
+          chart_type: line
+          stat_types:
+            - mean
+        - type: statistics-graph
+          entities:
+            - sensor.panda_sense_pro_e1014c19f4468dc_ch2o
+          days_to_show: 1
+          period: 5minute
+          chart_type: line
+          stat_types:
+            - mean
+        - type: statistics-graph
+          entities:
+            - sensor.panda_sense_pro_e1014c19f4468dc_pm2_5
+          days_to_show: 1
+          period: 5minute
+          chart_type: line
+          stat_types:
+            - mean
+        - type: statistics-graph
+          entities:
+            - sensor.panda_sense_pro_e1014c19f4468dc_aqi
+          days_to_show: 1
+          period: 5minute
+          chart_type: line
+          stat_types:
+            - mean
+        - type: statistics-graph
+          entities:
+            - sensor.panda_sense_pro_e1014c19f4468dc_etvoc
+          days_to_show: 1
+          period: 5minute
+          chart_type: line
+          stat_types:
+            - mean
+        - type: statistics-graph
+          entities:
+            - sensor.panda_sense_pro_e1014c19f4468dc_pm10
+          days_to_show: 1
+          period: 5minute
+          chart_type: line
+          stat_types:
+            - mean
+    ```
+9. 把替换好的代码复制粘贴到 HomeAssistant 的编辑配置代码框中,点击 "保存" ，点击 "X" 关闭配置页面。
+
+    <ImageView src={require('./img/panda-sense-pro-ha-21.webp').default} width="256"/>
+
+10. 点击完成
+
+    <ImageView src={require('./img/panda-sense-pro-ha-22.webp').default} width="256"/>
+
+11. HomeAssistant 仪表盘创建完成
+
+    <ImageView src={require('./img/panda-sense-pro-ha-23.webp').default} width="256"/>
+
 ### 恢复出厂设置
 
 重置后，历史记录会被删除，配网，温度单位，时区，屏保参数等系统参数也会被重置
@@ -398,3 +649,7 @@ Panda Sense Pro 理应可以自由 OTA，此步骤仅在无法 OTA 时使用
 #### [01.00.00.00](https://github.com/bigtreetech/PandaSensePro/blob/master/Firmware/01.00.00.00/panda_sense_pro_01.00.00.00.bin)
 
 - 首次发布的出厂固件
+
+#### [01.01.00.03](https://github.com/bigtreetech/PandaSensePro/blob/master/Firmware/01.01.00.03/pandasensepro_01.01.00.03.bin)
+
+- 新增HA连接功能

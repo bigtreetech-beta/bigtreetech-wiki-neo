@@ -321,6 +321,257 @@ After reset, the history records will be deleted.
 
 <ImageView src={require('./img/reset-history.webp').default} width="256"/>
 
+### Connect HA
+
+#### Connect Panda Sense Pro to Wi-Fi
+
+Use a phone or computer to connect to the Panda Sense Pro Wi-Fi hotspot. The configuration page should open automatically. Select the`<Wi-Fi&IP>` icon to configure the Wi-Fi connection. After the connection succeeds, the automatically assigned STA IP address will be displayed. In the example below, the STA IP address is 192.168.0.185
+
+<ImageView src={require('./img/01-wifi-connect-en.webp').default} width="256"/>
+
+#### Connect Panda Sense Pro to the MQTT Broker
+
+Go to the HA configuration page, enter the IP address of your Panda Sense Pro, and set the port to `1883`, as shown below. Tap the `Bind` button to complete the MQTT broker configuration.
+
+<ImageView src={require('./img/02-band-broker-en.webp').default} width="256"/>
+
+#### Configure MQTT in Home Assistant
+
+1. In Home Assistant, click Settings -> Devices & services, as shown below:
+
+    <ImageView src={require('./img/panda-sense-pro-ha-1-en.webp').default} width="256"/>
+
+2. Click "ADD INTEGRATION"
+
+    <ImageView src={require('./img/panda-sense-pro-ha-2-en.webp').default} width="256"/>
+
+3. Enter "mqtt" in the "Search for a brand name" field.
+
+    <ImageView src={require('./img/panda-sense-pro-ha-3-en.webp').default} width="256"/>
+
+4. Click "MQTT".
+
+    <ImageView src={require('./img/panda-sense-pro-ha-4-en.webp').default} width="256"/>
+
+5. Click "MQTT" again.
+
+    <ImageView src={require('./img/panda-sense-pro-ha-5-en.webp').default} width="256"/>
+
+6. In the Broker field, enter the IP address and port of the Panda_Sense_Pro device, then click "Submit". The success screen will be displayed.
+   (Note: After Panda_Sense_Pro is successfully connected to Wi-Fi, the device IP address will be displayed in the upper-right corner of its screen.)
+
+    <ImageView src={require('./img/panda-sense-pro-ha-6-en.webp').default} width="256"/>
+
+7. The configuration success screen is displayed.Click "Finish".
+
+    <ImageView src={require('./img/panda-sense-pro-ha-7-en.webp').default} width="256"/>
+
+8. After the integration is successfully created, the device list will show up in the service box.
+
+    <ImageView src={require('./img/panda-sense-pro-ha-8-en.webp').default} width="256"/>
+
+9. Click the "panda_sense_pro" device to view the sensor list, as shown below:
+
+    <ImageView src={require('./img/panda-sense-pro-ha-9-en.webp').default} width="256"/>
+
+10. Click the channel entity under the sensor.
+
+    <ImageView src={require('./img/panda-sense-pro-ha-10-en.webp').default} width="256"/>
+
+11. Click the gear icon.
+
+    <ImageView src={require('./img/panda-sense-pro-ha-11-en.webp').default} width="256"/>
+
+12. In the entity pop-up window, rename the entity ID in the "Entity ID*" field. Use the following format: product name + MAC address, for example: `panda_sense_pro_e10d0cf132b7324`. Then click the "UPDATE" button to complete the entity ID change.
+
+    <ImageView src={require('./img/panda-sense-pro-ha-12-en.webp').default} width="256"/>
+
+13. Rename the remaining sensor entities in the same way.
+
+    <ImageView src={require('./img/panda-sense-pro-ha-13-en.webp').default} width="256"/>
+
+#### Add a Dashboard in Home Assistant
+
+1. In Home Assistant, click "Settings" -> "Dashboards".
+
+    <ImageView src={require('./img/panda-sense-pro-ha-14-en.webp').default} width="256"/>
+
+2. Click "ADD DASHBOARD".
+
+    <ImageView src={require('./img/panda-sense-pro-ha-15-en.webp').default} width="256"/>
+
+3. Click "New dashboard from scratch".
+
+    <ImageView src={require('./img/panda-sense-pro-ha-16-en.webp').default} width="256"/>
+
+4. On the "Add new dashboard" page, enter a name and select an icon, then click "Create" to create the dashboard.
+
+    <ImageView src={require('./img/panda-sense-pro-ha-17-en.webp').default} width="256"/>
+
+5. On the Home Assistant main page, click the newly created "Panda_Sense_Pro" dashboard on the left sidebar, then click the edit button in the upper-right corner.
+
+    <ImageView src={require('./img/panda-sense-pro-ha-18-en.webp').default} width="256"/>
+
+6. Click the edit button in the upper-right corner.
+
+    <ImageView src={require('./img/panda-sense-pro-ha-19-en.webp').default} width="256"/>
+
+7. Click "{} Raw configuration editor".
+
+    <ImageView src={require('./img/panda-sense-pro-ha-20-en.webp').default} width="256"/>
+
+8. Copy the configuration code from "Dashboard configuration file.yml" and paste it into Notepad. Replace `panda_sense_pro_e1014c19f4468dc` with your device's ID, for example: `panda_sense_pro_e10d0cf132b7324`.
+
+    <ImageView src={require('./img/panda-sense-pro-ha-24-en.webp').default} width="256"/>
+
+    <ImageView src={require('./img/panda-sense-pro-ha-25-en.webp').default} width="256"/>
+
+    Dashboard configuration file.yml
+
+    ```
+    views:
+      type: sections
+      title: PandaSenser_Pro
+      cards: []
+      sections:
+        - type: grid
+          cards:
+          - graph: line
+            type: sensor
+            entity: sensor.panda_sense_pro_e1014c19f4468dc_temper
+            detail: 2
+            icon: ""
+            name: Temperature
+          - graph: line
+            type: sensor
+            entity: sensor.panda_sense_pro_e1014c19f4468dc_humidity
+            detail: 1
+            name: Humidity
+          - graph: line
+            type: sensor
+            entity: sensor.panda_sense_pro_e1014c19f4468dc_co2
+            detail: 1
+            name: CO2
+          - graph: line
+            type: sensor
+            entity: sensor.panda_sense_pro_e1014c19f4468dc_ch2o
+            detail: 1
+            name: HCHO
+          - graph: line
+            type: sensor
+            entity: sensor.panda_sense_pro_e1014c19f4468dc_pm2_5
+            detail: 1
+            name: PM2.5
+          - graph: line
+            type: sensor
+            entity: sensor.panda_sense_pro_e1014c19f4468dc_pm10
+            detail: 1
+            name: PM10
+          - graph: line
+            type: sensor
+            entity: sensor.panda_sense_pro_e1014c19f4468dc_aqi
+            detail: 1
+            name: AQI
+          - graph: line
+            type: sensor
+            entity: sensor.panda_sense_pro_e1014c19f4468dc_etvoc
+            detail: 1
+            name: eTVOC
+        column_span: 2
+        background:
+          opacity: 50
+    header:
+      layout: responsive
+      badges_position: bottom
+      badges_wrap: wrap
+      card:
+        type: markdown
+        content: "# PandaSenser_Pro"
+        text_only: true
+    badges: []
+    footer: {}
+    max_columns: 4
+    - type: masonry
+      title: Historical Detection Records
+      path: unknown
+      cards:
+        - type: statistics-graph
+          entities:
+            - sensor.panda_sense_pro_e1014c19f4468dc_humidity
+          days_to_show: 1
+          period: 5minute
+          chart_type: line
+          stat_types:
+            - mean
+        - type: statistics-graph
+          entities:
+            - sensor.panda_sense_pro_e1014c19f4468dc_temper
+          days_to_show: 1
+          period: 5minute
+          chart_type: line
+          stat_types:
+            - mean
+        - type: statistics-graph
+          entities:
+            - sensor.panda_sense_pro_e1014c19f4468dc_co2
+          days_to_show: 1
+          period: 5minute
+          chart_type: line
+          stat_types:
+            - mean
+        - type: statistics-graph
+          entities:
+            - sensor.panda_sense_pro_e1014c19f4468dc_ch2o
+          days_to_show: 1
+          period: 5minute
+          chart_type: line
+          stat_types:
+            - mean
+        - type: statistics-graph
+          entities:
+            - sensor.panda_sense_pro_e1014c19f4468dc_pm2_5
+          days_to_show: 1
+          period: 5minute
+          chart_type: line
+          stat_types:
+            - mean
+        - type: statistics-graph
+          entities:
+            - sensor.panda_sense_pro_e1014c19f4468dc_aqi
+          days_to_show: 1
+          period: 5minute
+          chart_type: line
+          stat_types:
+            - mean
+        - type: statistics-graph
+          entities:
+            - sensor.panda_sense_pro_e1014c19f4468dc_etvoc
+          days_to_show: 1
+          period: 5minute
+          chart_type: line
+          stat_types:
+            - mean
+        - type: statistics-graph
+          entities:
+            - sensor.panda_sense_pro_e1014c19f4468dc_pm10
+          days_to_show: 1
+          period: 5minute
+          chart_type: line
+          stat_types:
+            - mean
+    ```
+9. Copy the updated code and paste it into the configuration editor in Home Assistant. Click "Save", then click "X" to close the configuration page.
+
+    <ImageView src={require('./img/panda-sense-pro-ha-21-en.webp').default} width="256"/>
+
+10. Click Done/Finish.
+
+    <ImageView src={require('./img/panda-sense-pro-ha-22-en.webp').default} width="256"/>
+
+11. The Home Assistant dashboard is now created.
+
+    <ImageView src={require('./img/panda-sense-pro-ha-23-en.webp').default} width="256"/>
+
 ### Restore Factory Settings
 
 After reset, the history records will be deleted, and system parameters such as network settings, temperature unit, time zone, and screensaver settings will also be reset.
@@ -398,3 +649,7 @@ Panda Sense Pro normally supports OTA updates. Use this method only when OTA upd
 #### [01.00.00.00](https://github.com/bigtreetech/PandaSensePro/blob/master/Firmware/01.00.00.00/panda_sense_pro_01.00.00.00.bin)
 
 - Initial factory release.
+
+#### [01.01.00.03](https://github.com/bigtreetech/PandaSensePro/blob/master/Firmware/01.01.00.03/pandasensepro_01.01.00.03.bin)
+
+- Added HA connection feature.
