@@ -1,5 +1,5 @@
 import React from 'react';
-import { PhotoProvider, PhotoView } from 'react-photo-view';
+import { PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
 
 interface ImageViewProps extends React.ImgHTMLAttributes<HTMLImageElement> {}
@@ -8,7 +8,7 @@ export const ImageView: React.FC<ImageViewProps> = ({ src, children, ...rest }) 
   if (!src) return null;
 
   return (
-    <PhotoProvider maskOpacity={0.5}>
+    // <PhotoProvider maskOpacity={0.5}>
       <PhotoView src={src}>
         <img
           src={src}
@@ -16,6 +16,6 @@ export const ImageView: React.FC<ImageViewProps> = ({ src, children, ...rest }) 
           style={{ cursor: 'zoom-in', ...rest.style }}
         />
       </PhotoView>
-    </PhotoProvider>
+    // </PhotoProvider>
   );
 };

@@ -3,6 +3,8 @@ import Layout from '@theme-original/DocItem/Layout';
 import type LayoutType from '@theme/DocItem/Layout';
 import type { WrapperProps } from '@docusaurus/types';
 
+import { PhotoProvider } from 'react-photo-view';
+
 // check if is production
 const isProd = process.env.NODE_ENV === 'production';
 
@@ -11,7 +13,9 @@ type Props = WrapperProps<typeof LayoutType>;
 export default function LayoutWrapper(props: Props): ReactNode {
     return (
         <>
-            <Layout {...props} />
+            <PhotoProvider maskOpacity={0.5}>
+                <Layout {...props} />
+            </PhotoProvider>
             <br />
             <div className='row'>
                 {isProd ? (
@@ -20,7 +24,6 @@ export default function LayoutWrapper(props: Props): ReactNode {
                     <Placeholder />
                 )}
             </div>
-
         </>
     );
 }
