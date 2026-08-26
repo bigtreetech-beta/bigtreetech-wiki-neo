@@ -81,4 +81,6 @@ jobs:
           --fast-list \
           --checkers=32 \
           --transfers=16 \
-          --progress
+          --stats 30s \
+          --stats-one-line \
+          --s3-no-head
