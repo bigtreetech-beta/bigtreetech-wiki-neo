@@ -1,0 +1,337 @@
+[metadata]
+
+[[block]]
+key = "dcb72739248f73fc"
+origin = '''
+---
+sidebar_position: 1
+description: Panda Hub PX2
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: Panda Hub PX2
+---
+'''
+
+[[block]]
+key = "e074d7ecb86becbc"
+origin = '''
+# Panda Hub PX2
+'''
+translate = '''
+# Panda Hub PX2
+'''
+
+[[block]]
+key = "9c3aaedc83e362c7"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Product Overview
+'''
+
+[[block]]
+key = "fd87af2c7e906b5d"
+origin = '''
+BIGTREETECH Panda Hub PX2 是一款紧凑型供电扩展模块，可在打印机腔体内为配件提供额外的供电接口。本产品适用于 Bambu Lab P2S 和 X2D 打印机，可配合打印安装座与随附紧固件安装，固定并保护打印机原有的 USB 连接，减少振动和磨损。
+'''
+translate = '''
+The BIGTREETECH Panda Hub PX2 is a compact power expansion module that provides additional power connections for accessories inside the printer chamber. Designed for Bambu Lab P2S and X2D printers, it can be installed with a printed mount and the supplied fasteners to secure and protect the printer's original USB connection from vibration and wear.
+'''
+
+[[block]]
+key = "c63454864ae0c430"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## Features
+'''
+
+[[block]]
+key = "dad9e06227f864e4"
+origin = '''
+- 结构紧凑，便于集成到打印机腔体内部。
+- 提供 2 个 USB Type-A 接口和 2 个 24 V XH2.54 接口。
+- 适用于 P2S 和 X2D 的打印安装座可配合随附紧固件固定 Panda Hub PX2，并减少 USB 连接受到的振动和磨损。
+'''
+translate = '''
+- Compact design for easy integration inside the printer chamber.
+- Provides two USB Type-A ports and two 24 V XH2.54 ports.
+- The printed mount for the P2S and X2D secures the Panda Hub PX2 with the supplied fasteners and helps protect the USB connection from vibration and wear.
+'''
+
+[[block]]
+key = "aaa33dc7af1f962e"
+origin = '''
+## 注意事项
+'''
+translate = '''
+## Important Notes
+'''
+
+[[block]]
+key = "dd9107de5218b0cd"
+origin = '''
+:::warning[输出限制]
+
+- 5 V 输出总电流不得超过 1.4 A。
+- 24 V 输出总电流不得超过 1 A。
+- Panda Hub PX2 仅用于供电，不支持标准 USB 数据通信。
+
+:::
+'''
+translate = '''
+:::warning[Output Limits]
+
+- The total 5 V output current must not exceed 1.4 A.
+- The total 24 V output current must not exceed 1 A.
+- The Panda Hub PX2 is designed for power delivery only and does not support standard USB data communication.
+
+:::
+'''
+
+[[block]]
+key = "714a9c2a85757002"
+origin = '''
+## 安装指南
+'''
+translate = '''
+## Installation Guide
+'''
+
+[[block]]
+key = "1fcd1feae99d3e18"
+origin = '''
+:::danger[安全提示]
+
+拆卸盖板或断开内部线缆前，请关闭打印机并断开市电电源。操作原厂线缆和连接器时请勿用力拉扯。
+
+:::
+'''
+translate = '''
+:::danger[Safety]
+
+Power off the printer and disconnect it from mains power before removing covers or disconnecting internal cables. Do not pull hard when handling the factory wiring and connectors.
+
+:::
+'''
+
+[[block]]
+key = "cefecbfd1529639b"
+origin = '''
+1. **安装 Panda Hub PX2 供电模块。** 使用随附的 M3 自攻螺钉将模块固定到打印安装座上。
+'''
+translate = '''
+1. **Install the Panda Hub PX2 power module.** Secure the module to the printed mount with the supplied M3 self-tapping screws.
+'''
+
+[[block]]
+key = "14c145e4262675b1"
+origin = '''
+    <ImageView
+        src={require('./img/hub-module-components.webp').default}
+        alt="Panda Hub PX2 供电模块与安装组件"
+        width="50%"
+    />
+'''
+translate = '''
+    <ImageView
+        src={require('@site/docs/panda-series/module/panda-hub-px2/img/hub-module-components.webp').default}
+        alt="Panda Hub PX2 power module and mounting components"
+        width="50%"
+    />
+'''
+
+[[block]]
+key = "fe23d16ee41b42a9"
+origin = '''
+    <ImageView
+        src={require('./img/hub-module-mounted.webp').default}
+        alt="固定在打印安装座上的 Panda Hub PX2 供电模块"
+        width="50%"
+    />
+'''
+translate = '''
+    <ImageView
+        src={require('@site/docs/panda-series/module/panda-hub-px2/img/hub-module-mounted.webp').default}
+        alt="Panda Hub PX2 power module secured to the printed mount"
+        width="50%"
+    />
+'''
+
+[[block]]
+key = "c7e598d08cde4b0d"
+origin = '''
+2. **安装 Panda Hub PX2。** 将 Panda Hub PX2 卡入打印机前框架上方的安装槽。
+'''
+translate = '''
+2. **Install the Panda Hub PX2.** Clip the Panda Hub PX2 into the mounting slot above the printer's front frame.
+'''
+
+[[block]]
+key = "d5b2eede967b8ba5"
+origin = '''
+    <ImageView
+        src={require('./img/hub-installed.webp').default}
+        alt="安装在打印机前框架上方的 Panda Hub PX2"
+        width="50%"
+    />
+'''
+translate = '''
+    <ImageView
+        src={require('@site/docs/panda-series/module/panda-hub-px2/img/hub-installed.webp').default}
+        alt="Panda Hub PX2 installed above the printer's front frame"
+        width="50%"
+    />
+'''
+
+[[block]]
+key = "b32812d58e0626c5"
+origin = '''
+3. **打开打印机左侧盖板。** 小心打开盖板并拉出图示连接器。请勿用力拉扯，以免损坏原厂线缆。
+'''
+translate = '''
+3. **Open the printer's left-side cover.** Carefully open the cover and pull out the connector shown. Do not pull hard, as excessive force may damage the factory wiring.
+'''
+
+[[block]]
+key = "720b2619a7b8b94d"
+origin = '''
+    <ImageView
+        src={require('./img/side-cover-connector.webp').default}
+        alt="从打印机左侧盖板后方拉出的连接器"
+        width="35%"
+    />
+'''
+translate = '''
+    <ImageView
+        src={require('@site/docs/panda-series/module/panda-hub-px2/img/side-cover-connector.webp').default}
+        alt="Connector pulled out from behind the printer's left-side cover"
+        width="35%"
+    />
+'''
+
+[[block]]
+key = "790f2965edb885e9"
+origin = '''
+4. **断开最内侧的连接器。** 断开图中所示的连接器。
+'''
+translate = '''
+4. **Disconnect the innermost connector.** Disconnect the connector shown in the image.
+'''
+
+[[block]]
+key = "69cd10c577b02b3a"
+origin = '''
+    <ImageView
+        src={require('./img/inner-connector-location.webp').default}
+        alt="需要断开的最内侧连接器位置"
+        width="50%"
+    />
+'''
+translate = '''
+    <ImageView
+        src={require('@site/docs/panda-series/module/panda-hub-px2/img/inner-connector-location.webp').default}
+        alt="Location of the innermost connector to disconnect"
+        width="50%"
+    />
+'''
+
+[[block]]
+key = "aacca1434ba0c59c"
+origin = '''
+5. **将原厂插头连接到 Y 型分线器。** 将从打印机上拔下的插头连接到随附 Y 型分线器的白色插座。
+'''
+translate = '''
+5. **Connect the factory plug to the Y-splitter.** Connect the plug removed from the printer to the white receptacle on the supplied Y-splitter cable.
+'''
+
+[[block]]
+key = "ead06acde4f87c47"
+origin = '''
+    <ImageView
+        src={require('./img/y-splitter-factory-plug.webp').default}
+        alt="连接到 Y 型分线器白色插座的原厂插头"
+        width="50%"
+    />
+'''
+translate = '''
+    <ImageView
+        src={require('@site/docs/panda-series/module/panda-hub-px2/img/y-splitter-factory-plug.webp').default}
+        alt="Factory plug connected to the white Y-splitter receptacle"
+        width="50%"
+    />
+'''
+
+[[block]]
+key = "5e7afb2d1ac7fa2e"
+origin = '''
+6. **将 Y 型分线器连接到打印机主板。** 将黑色插头插入打印机主板，按图示重新连接原厂线缆，然后合上侧盖板。
+'''
+translate = '''
+6. **Connect the Y-splitter to the printer mainboard.** Insert the black plug into the printer mainboard, reconnect the factory cable as shown, and close the side cover.
+'''
+
+[[block]]
+key = "535b70841e995239"
+origin = '''
+    <ImageView
+        src={require('./img/y-splitter-mainboard.webp').default}
+        alt="连接到打印机主板的 Y 型分线器"
+        width="50%"
+    />
+'''
+translate = '''
+    <ImageView
+        src={require('@site/docs/panda-series/module/panda-hub-px2/img/y-splitter-mainboard.webp').default}
+        alt="Y-splitter connected to the printer mainboard"
+        width="50%"
+    />
+'''
+
+[[block]]
+key = "568ab15012ec9833"
+origin = '''
+7. **整理并固定线缆。** 按图示整理并固定线缆，确保线缆不会干涉任何运动部件。
+'''
+translate = '''
+7. **Route and secure the cables.** Arrange and secure the cables as shown, making sure they cannot interfere with any moving parts.
+'''
+
+[[block]]
+key = "6a6141373a5eb029"
+origin = '''
+    <ImageView
+        src={require('./img/installation-complete.webp').default}
+        alt="完成安装后的 Panda Hub PX2 与线缆走线"
+        width="50%"
+    />
+'''
+translate = '''
+    <ImageView
+        src={require('@site/docs/panda-series/module/panda-hub-px2/img/installation-complete.webp').default}
+        alt="Completed Panda Hub PX2 installation and cable routing"
+        width="50%"
+    />
+'''
+
+[[block]]
+key = "2127e27a4186c49b"
+origin = '''
+:::info[安装检查]
+
+恢复供电前，请确认所有连接器均已插接到位，并确认线束不会进入打印头的运动区域。
+
+:::
+'''
+translate = '''
+:::info[Installation Check]
+
+Before restoring power, confirm that all connectors are fully seated and that the cable harness cannot enter the print-head travel area.
+
+:::
+'''
