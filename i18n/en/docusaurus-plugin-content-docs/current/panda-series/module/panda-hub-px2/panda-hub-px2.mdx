@@ -1,13 +1,30 @@
 ---
 sidebar_position: 1
-description: Panda Hub PX2
+description: The Panda Hub PX2 is a compact power expansion module for the Bambu Lab P2S/X2D printer, providing additional power interfaces for accessories inside the printer cavity.
 ---
 
 # Panda Hub PX2
 
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView src={require('@site/docs/panda-series/module/panda-hub-px2/img/panda-hub-px2-title.webp').default} width="45%" class="right-image" />
+
 ## Product Overview
 
 The BIGTREETECH Panda Hub PX2 is a compact power expansion module that provides additional power connections for accessories inside the printer chamber. Designed for Bambu Lab P2S and X2D printers, it can be installed with a printed mount and the supplied fasteners to secure and protect the printer's original USB connection from vibration and wear.
+
+## Technical Specifications
+
+| Specification  | Panda Hub PX2                         |
+| -------------- | ------------------------------------- |
+| Power output interface   | 2 x USB Type-A; 2 × 24V XH2.54      |
+| 5V total output current | Maximum 1.4A                        |
+| 24V total output current | Maximum 1A                          |
+| USB data communication   | Not supported, only for power supply |
+
+</div>
 
 ## Features
 
@@ -25,6 +42,10 @@ The BIGTREETECH Panda Hub PX2 is a compact power expansion module that provides 
 
 :::
 
+## Links
+
+- [GitHub Repository](https://github.com/bigtreetech/Panda-Hub-PX2)
+
 ## Installation Guide
 
 :::danger[Safety]
@@ -33,67 +54,55 @@ Power off the printer and disconnect it from mains power before removing covers 
 
 :::
 
-1. **Install the Panda Hub PX2 power module.** Secure the module to the printed mount with the supplied M3 self-tapping screws.
+### Prepare to print the mounting base
 
-    <ImageView
-        src={require('@site/docs/panda-series/module/panda-hub-px2/img/hub-module-components.webp').default}
-        alt="Panda Hub PX2 power module and mounting components"
-        width="50%"
-    />
+Download and print [Panda Hub PX2 mount.STL](https://github.com/bigtreetech/Panda-Hub-PX2/tree/master/3D%20model/Printed%20Parts)
 
-    <ImageView
-        src={require('@site/docs/panda-series/module/panda-hub-px2/img/hub-module-mounted.webp').default}
-        alt="Panda Hub PX2 power module secured to the printed mount"
-        width="50%"
-    />
+We recommend using ABS or PETG for printing.
 
-2. **Install the Panda Hub PX2.** Clip the Panda Hub PX2 into the mounting slot above the printer's front frame.
+### Install Panda Hub PX2 power supply module
 
-    <ImageView
-        src={require('@site/docs/panda-series/module/panda-hub-px2/img/hub-installed.webp').default}
-        alt="Panda Hub PX2 installed above the printer's front frame"
-        width="50%"
-    />
+Secure the module to the printer mount using the included M3 self-tapping screws.
 
-3. **Open the printer's left-side cover.** Carefully open the cover and pull out the connector shown. Do not pull hard, as excessive force may damage the factory wiring.
+<ImageView src={require('@site/docs/panda-series/module/panda-hub-px2/img/hub-module-components.webp').default} width="45%" />
 
-    <ImageView
-        src={require('@site/docs/panda-series/module/panda-hub-px2/img/side-cover-connector.webp').default}
-        alt="Connector pulled out from behind the printer's left-side cover"
-        width="35%"
-    />
+<ImageView src={require('@site/docs/panda-series/module/panda-hub-px2/img/hub-module-mounted.webp').default} width="45%" />
 
-4. **Disconnect the innermost connector.** Disconnect the connector shown in the image.
+### Install Panda Hub PX2
 
-    <ImageView
-        src={require('@site/docs/panda-series/module/panda-hub-px2/img/inner-connector-location.webp').default}
-        alt="Location of the innermost connector to disconnect"
-        width="50%"
-    />
+Insert the Panda Hub PX2 into the mounting slot above the front frame of the printer.
 
-5. **Connect the factory plug to the Y-splitter.** Connect the plug removed from the printer to the white receptacle on the supplied Y-splitter cable.
+<ImageView src={require('@site/docs/panda-series/module/panda-hub-px2/img/hub-installed.webp').default} width="45%" />
 
-    <ImageView
-        src={require('@site/docs/panda-series/module/panda-hub-px2/img/y-splitter-factory-plug.webp').default}
-        alt="Factory plug connected to the white Y-splitter receptacle"
-        width="50%"
-    />
+### Open the left side cover of the printer
 
-6. **Connect the Y-splitter to the printer mainboard.** Insert the black plug into the printer mainboard, reconnect the factory cable as shown, and close the side cover.
+Carefully open the cover and pull out the connector shown in the diagram. Do not pull forcefully to avoid damaging the original cable.
 
-    <ImageView
-        src={require('@site/docs/panda-series/module/panda-hub-px2/img/y-splitter-mainboard.webp').default}
-        alt="Y-splitter connected to the printer mainboard"
-        width="50%"
-    />
+<ImageView src={require('@site/docs/panda-series/module/panda-hub-px2/img/side-cover-connector.webp').default} width="45%" />
 
-7. **Route and secure the cables.** Arrange and secure the cables as shown, making sure they cannot interfere with any moving parts.
+### Disconnect the innermost connector.
 
-    <ImageView
-        src={require('@site/docs/panda-series/module/panda-hub-px2/img/installation-complete.webp').default}
-        alt="Completed Panda Hub PX2 installation and cable routing"
-        width="50%"
-    />
+Disconnect the connector shown in the diagram.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-hub-px2/img/inner-connector-location.webp').default} width="45%" />
+
+### Connect the original plug to the Y-type splitter.
+
+Connect the plug unplugged from the printer to the white socket on the included Y-type splitter.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-hub-px2/img/y-splitter-factory-plug.webp').default} width="45%" />
+
+### Connect the Y-type splitter to the printer motherboard.
+
+Insert the black plug into the printer motherboard, reconnect the original cable as shown in the diagram, and then close the side cover.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-hub-px2/img/y-splitter-mainboard.webp').default} width="45%" />
+
+### Organize and secure the cables
+
+Arrange and secure the cables as shown in the diagram, ensuring that the cables do not interfere with any moving parts.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-hub-px2/img/installation-complete.webp').default} width="45%" />
 
 :::info[Installation Check]
 
