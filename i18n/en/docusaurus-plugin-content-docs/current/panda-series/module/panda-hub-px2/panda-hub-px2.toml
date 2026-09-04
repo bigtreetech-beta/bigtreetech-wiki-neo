@@ -25,7 +25,7 @@ translate = '''
 '''
 
 [[block]]
-key = "173539032a4b3b86"
+key = "e485bcb3a26647b2"
 origin = '''
 <div class="div-table">
 
@@ -41,7 +41,7 @@ BIGTREETECH Panda Hub PX2 是一款紧凑型供电扩展模块，可在打印机
 
 | 产品参数       | Panda Hub PX2                         |
 | -------------- | ------------------------------------- |
-| 供电输出接口   | 2 x USB Type-A; 2 × 24V XH2.54      |
+| 供电输出接口   | 2 x USB Type-A; 2 x 24V XH2.54      |
 | 5V 输出总电流 | 不得超过 1.4A                        |
 | 24V 输出总电流 | 不得超过 1A                          |
 | USB 数据通信   | 不支持，仅用于供电                    |
@@ -63,7 +63,7 @@ The BIGTREETECH Panda Hub PX2 is a compact power expansion module that provides 
 
 | Specification  | Panda Hub PX2                         |
 | -------------- | ------------------------------------- |
-| Power output interface   | 2 x USB Type-A; 2 × 24V XH2.54      |
+| Power output interface   | 2 x USB Type-A; 2 x 24V XH2.54      |
 | 5V total output current | Maximum 1.4A                        |
 | 24V total output current | Maximum 1A                          |
 | USB data communication   | Not supported, only for power supply |
