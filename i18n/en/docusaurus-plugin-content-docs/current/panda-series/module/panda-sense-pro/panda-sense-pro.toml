@@ -307,10 +307,10 @@ translate = '''
 [[block]]
 key = "bbfe502bfb555172"
 origin = '''
-用 4 颗 M3x8 沉头螺丝将主板固定在打印件外壳上。放入时注意打印按钮缺口与主板按键对应，以及侧面的 USB 口伸出到位
+用 4 颗 M3x5 杯头螺丝将主板固定在打印件外壳上。放入时注意打印按钮缺口与主板按键对应，以及侧面的 USB 口伸出到位
 '''
 translate = '''
-Secure the mainboard to the printed housing with four M3x8 countersunk screws. When placing the mainboard, make sure the notch of the printed button cover aligns with the button on the mainboard, and that the side USB-C port aligns properly with the USB-C opening in the printed housing.
+Secure the mainboard to the printed housing with four M3x5 socket head cap screws. When placing the mainboard, make sure the notch of the printed button cover aligns with the button on the mainboard, and that the side USB-C port aligns properly with the USB-C opening in the printed housing.
 '''
 
 [[block]]
@@ -388,10 +388,10 @@ translate = '''
 [[block]]
 key = "340b65572d71dd7b"
 origin = '''
-用 4 颗 M3x5 杯头螺丝将后盖固定在外壳上
+用 4 颗 M3x8 沉头螺丝将后盖固定在外壳上
 '''
 translate = '''
-Secure the rear cover to the housing with four M3x5 countersunk screws.
+Secure the rear cover to the housing with four M3x8 countersunk screws.
 '''
 
 [[block]]
