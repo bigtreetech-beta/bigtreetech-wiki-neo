@@ -1,0 +1,60 @@
+[metadata]
+
+[[block]]
+key = "052deb313229c5d8"
+origin = '''
+---
+sidebar_position: 4
+description: Panda Lux RGB PX2 固件发布说明
+---
+'''
+translate = '''
+---
+sidebar_position: 4
+description: Panda Lux RGB PX2 firmware release notes
+---
+'''
+
+[[block]]
+key = "c566ea6a5031eac2"
+origin = '''
+# Panda Lux RGB PX2 固件发布说明
+'''
+translate = '''
+# Panda Lux RGB PX2 Firmware Release Notes
+'''
+
+[[block]]
+key = "b4b9b1549630a7d6"
+origin = '''
+## [V1.0.0](https://github.com/bigtreetech/Panda-Lux-RGB/tree/master/Firmware/v1.0.0)
+'''
+translate = '''
+## [V1.0.0](https://github.com/bigtreetech/Panda-Lux-RGB/tree/master/Firmware/v1.0.0)
+'''
+
+[[block]]
+key = "b9b17d94d904c040"
+origin = '''
+- 随附说明书中标识的首发出厂固件。
+'''
+translate = '''
+- First-release factory firmware identified in the supplied manual.
+'''
+
+[[block]]
+key = "50fcff1df30550c2"
+origin = '''
+:::info[版本检查]
+
+随附资料将 V1.0.0 标识为首发出厂固件，但并未说明它是最新版本。更新前，请先在仓库中确认应使用的正式生产固件版本。
+
+:::
+'''
+translate = '''
+:::info[Version Check]
+
+The supplied source identifies V1.0.0 as the first-release factory firmware, but does not establish that it is the latest release. Confirm the appropriate production firmware in the repository before updating.
+
+:::
+'''

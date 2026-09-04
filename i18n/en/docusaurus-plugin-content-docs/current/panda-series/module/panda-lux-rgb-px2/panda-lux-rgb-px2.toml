@@ -1,0 +1,163 @@
+[metadata]
+
+[[block]]
+key = "8bcba88a27f2ee97"
+origin = '''
+---
+sidebar_position: 1
+description: Panda Lux RGB PX2 产品概述
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: Panda Lux RGB PX2 product overview
+---
+'''
+
+[[block]]
+key = "169221dd4fc5047c"
+origin = '''
+# Panda Lux RGB PX2
+'''
+translate = '''
+# Panda Lux RGB PX2
+'''
+
+[[block]]
+key = "9e2c16dcc92bf7ce"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "1f260d6e36f000dc"
+origin = '''
+import DocCardList from '@theme/DocCardList';
+'''
+translate = '''
+import DocCardList from '@theme/DocCardList';
+'''
+
+[[block]]
+key = "c012cc6c2fca315b"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "1b74c2413180ced3"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/panda-lux-rgb-px2-title.webp').default} width="40%" class="right-image" />
+
+## 简介
+
+Panda Lux RGB PX2 是一款适用于 Bambu Lab P2S 和 X2D 打印机的双 RGB 灯条套件。它采用与 Panda Lux RGB PX 相同的控制器平台，固件和操作流程，并针对 PX2 采用专用安装结构，双灯条设计以及 Panda Hub PX2 供电模块。
+
+## 功能亮点
+
+- **双灯条：** 提供左右两侧 RGB 照明。
+- **打印机同步：** 可跟随打印机原装照明的开关状态。
+- **灯光效果：** 包含 Static，Breathing，Strobing，Wave，Marquee，Color Cycle，Rainbow，Warning: Hot 和 H2D Style Status Indicator 模式。
+- **Web 控制：** 可通过控制器 Web UI 调节灯光效果，颜色，亮度和速度。
+- **维护：** 支持在 Settings 页面进行固件 OTA 更新和恢复出厂设置。
+
+</div>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/panda-lux-rgb-px2-title.webp').default} width="40%" class="right-image" />
+
+## Introduction
+
+Panda Lux RGB PX2 is a dual RGB light-bar kit for Bambu Lab P2S and X2D printers. It uses the same controller platform, firmware, and operating workflow as Panda Lux RGB PX, with PX2-specific mounting, two light bars, and the Panda Hub PX2 power module.
+
+## Feature Highlights
+
+- **Dual Light Bars:** Provides left- and right-side RGB lighting.
+- **Printer Synchronization:** Can follow the printer's stock-light on/off state.
+- **Lighting Effects:** Includes Static, Breathing, Strobing, Wave, Marquee, Color Cycle, Rainbow, Warning: Hot, and H2D Style Status Indicator modes.
+- **Web Control:** Adjusts the effect, color, brightness, and speed from the controller Web UI.
+- **Maintenance:** Supports firmware OTA updates and factory reset from the Settings page.
+
+</div>
+'''
+
+[[block]]
+key = "25183991fcd3c7e4"
+origin = '''
+## 支持配置
+'''
+translate = '''
+## Supported Configuration
+'''
+
+[[block]]
+key = "7c80d5ae9d4df9a6"
+origin = '''
+| 项目 | 规格 |
+| --- | --- |
+| 支持的打印机 | Bambu Lab P2S 和 X2D |
+| 灯条 | 两根 RGB 灯条 |
+| 控制器 | 与 Panda Lux RGB PX 使用相同的控制器平台 |
+| 固件 / Web UI | 与 Panda Lux RGB PX 使用相同的固件和操作流程 |
+| 供电模块 | Panda Hub PX2 |
+| 安装方式 | PX2 专用打印件安装座，磁吸灯条安装方式以及线材走线结构 |
+'''
+translate = '''
+| Item | Specification |
+| --- | --- |
+| Supported Printers | Bambu Lab P2S and X2D |
+| Light Bars | Two RGB light bars |
+| Controller | Same controller platform as Panda Lux RGB PX |
+| Firmware / Web UI | Same firmware and operating workflow as Panda Lux RGB PX |
+| Power Module | Panda Hub PX2 |
+| Mounting | PX2-specific printed mounts, magnetic light-bar placement, and cable routing |
+'''
+
+[[block]]
+key = "72b7e7fe3560009d"
+origin = '''
+## 资源
+'''
+translate = '''
+## Resources
+'''
+
+[[block]]
+key = "4a6da4373a9f61bc"
+origin = '''
+- 固件与资料仓库：[bigtreetech/Panda-Lux-RGB-PX2](https://github.com/bigtreetech/Panda-Lux-RGB-PX2)
+- 功能建议与问题：[bigtreetech/Panda-Lux-RGB-PX2 Issues](https://github.com/bigtreetech/Panda-Lux-RGB-PX2/issues)
+'''
+translate = '''
+- Firmware and resources: [bigtreetech/Panda-Lux-RGB-PX2](https://github.com/bigtreetech/Panda-Lux-RGB-PX2)
+- Feature requests and issues: [bigtreetech/Panda-Lux-RGB-PX2 Issues](https://github.com/bigtreetech/Panda-Lux-RGB-PX2/issues)
+'''
+
+[[block]]
+key = "4068dc7285be9baf"
+origin = '''
+## 文档
+'''
+translate = '''
+## Documentation
+'''
+
+[[block]]
+key = "14e3077db6e34a7e"
+origin = '''
+<DocCardList />
+'''
+translate = '''
+<DocCardList />
+'''

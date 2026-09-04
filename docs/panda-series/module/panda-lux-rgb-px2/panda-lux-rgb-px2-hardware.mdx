@@ -1,0 +1,88 @@
+---
+sidebar_position: 2
+description: Panda Lux RGB PX2 硬件安装
+---
+
+# Panda Lux RGB PX2 硬件
+
+## 安装指南
+
+:::warning[安全提示]
+
+拆卸外壳或断开内部线缆之前，请关闭打印机电源并断开市电连接。操作原厂线束和连接器时请轻柔，避免损坏。
+
+:::
+
+### 准备打印安装座
+
+从 [bigtreetech/Panda-Lux-RGB-PX2](https://github.com/bigtreetech/Panda-Lux-RGB-PX2/tree/master/3D%20model/Printed%20Parts) 的 Printed Parts 文件夹下载全部模型，并各打印 1 个。
+
+建议使用 ABS 或 PETG 打印。
+
+1. 安装 Panda Hub PX2 供电模块。使用随附的 M3 自攻螺丝将电路板固定到打印件安装座上。
+
+   <ImageView src={require('./img/hub-module-components.webp').default} width="50%" />
+
+   <ImageView src={require('./img/hub-module-mounted.webp').default} width="50%" />
+
+2. 安装控制器板。将控制器板放入打印件外壳中，装上盖板并完全按压到位。
+
+   <ImageView src={require('./img/controller-enclosure-open.webp').default} width="50%" />
+
+   <ImageView src={require('./img/controller-enclosure-closed.webp').default} width="50%" />
+
+3. 连接控制器和供电模块线缆。在将两个组件安装到打印机之前，请严格按照图示连接两者之间的线缆。
+
+   <ImageView src={require('./img/controller-hub-cabling.webp').default} width="50%" />
+
+4. 安装控制器板。将小型打印件外壳卡入打印机右上方区域的卡槽中。
+
+   <ImageView src={require('./img/controller-installed.webp').default} width="50%" />
+
+5. 安装 Panda Hub PX2。将 Panda Hub PX2 卡入打印机前部上方框架的卡槽中。
+
+   <ImageView src={require('./img/hub-installed.webp').default} width="50%" />
+
+6. 安装两根灯条。通过磁吸方式将左右灯条分别安装在门框下侧，并确保每根灯条都与打印机安装面贴合到位。
+
+   <ImageView src={require('./img/left-light-bar-mounted.webp').default} width="35%" />
+
+   <ImageView src={require('./img/right-light-bar-mounted.webp').default} width="35%" />
+
+7. 连接左右灯条。将较长的线缆连接到左侧灯条，将较短的线缆连接到右侧灯条。
+
+   <ImageView src={require('./img/left-light-bar-cable.webp').default} width="50%" />
+
+   <ImageView src={require('./img/right-light-bar-cable.webp').default} width="35%" />
+
+8. 打开打印机左侧盖板。小心打开盖板，并拉出图示连接器。请勿用力拉扯，以免原厂线束受力过大而损坏。
+
+   <ImageView src={require('./img/side-cover-connector.webp').default} width="35%" />
+
+9. 断开图片中所示最内侧的连接器。
+
+   <ImageView src={require('./img/inner-connector-location.webp').default} width="50%" />
+
+10. 将原厂插头连接到 Y 型分线器。把从打印机上拔下的插头连接到随附 Y 型分线线缆的白色插座上。
+
+    <ImageView src={require('./img/y-splitter-factory-plug.webp').default} width="50%" />
+
+11. 将 Y 型分线器连接到打印机主板。把黑色插头插入打印机主板，按照图示重新连接原装线缆，然后关闭侧盖。
+
+    <ImageView src={require('./img/y-splitter-mainboard.webp').default} width="50%" />
+
+12. 将供电线束连接到 Panda Hub PX2。把上一步的输出插头布线至 Panda Hub PX2，并连接到控制板接口。
+
+    <ImageView src={require('./img/hub-power-harness.webp').default} width="50%" />
+
+13. 固定线缆走线。使用随附的理线夹整理并固定线束，确保线束不会干涉打印头运动。
+
+    <ImageView src={require('./img/cable-routing.webp').default} width="50%" />
+
+    <ImageView src={require('./img/installation-complete.webp').default} width="50%" />
+
+:::info[安装检查]
+
+重新接通电源之前，请确认所有连接器均已完全插接到位，并确保线束不会进入打印头的运动区域。
+
+:::

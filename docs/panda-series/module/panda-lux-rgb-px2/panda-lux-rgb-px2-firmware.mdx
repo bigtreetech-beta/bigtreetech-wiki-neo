@@ -1,0 +1,227 @@
+---
+sidebar_position: 3
+description: Panda Lux RGB PX2 软件与固件配置
+---
+
+# Panda Lux RGB PX2 软件与固件配置
+
+## 初始连接
+
+首次上电或恢复出厂设置后，如果出现蓝色流水灯效，表示控制器尚未绑定打印机。
+
+### 连接 Wi-Fi
+
+1. 使用手机或电脑连接控制器的无线接入点。
+
+   - **SSID:** `Panda_Lux_RGB_XXXXXXXXXX`
+   - **Default Password:** `987654321`
+
+   <ImageView src={require('./img/wifi-hotspot-list.webp').default} width="25%" />
+
+2. 在浏览器中打开 `http://192.168.254.1`。部分移动设备可能会自动打开 Web UI。默认选择 English；选择语言后点击 **Next**。
+
+   <ImageView src={require('./img/language-selection.webp').default} width="25%" />
+
+3. 扫描附近的 Wi-Fi 网络。首次设置或恢复出厂设置后，Wi-Fi 页面会自动开始扫描，也可以手动启动扫描。
+
+   <ImageView src={require('./img/wifi-scan.webp').default} width="25%" />
+
+4. 等待扫描完成的确认提示。
+
+   <ImageView src={require('./img/wifi-scan-complete.webp').default} width="50%" />
+
+5. 选择打印机和控制器所使用的 Wi-Fi 网络。
+
+   <ImageView src={require('./img/wifi-network-list.webp').default} width="25%" />
+
+6. 输入 Wi-Fi 密码。可使用眼睛图标显示或隐藏已输入的内容。
+
+   <ImageView src={require('./img/wifi-password.webp').default} width="25%" />
+
+7. 点击 **Connect**。建立连接时，状态页面会显示 **Connecting to WiFi**。
+
+   <ImageView src={require('./img/wifi-connecting.webp').default} width="25%" />
+
+8. 如果连接失败，请重新检查所选网络和密码，然后再次尝试。
+
+   <ImageView src={require('./img/wifi-connection-failed.webp').default} width="50%" />
+
+9. 连接成功后，可继续进行打印机绑定；也可以取消并停留在 Wi-Fi 页面。
+
+   <ImageView src={require('./img/wifi-connected.webp').default} width="50%" />
+
+### 绑定打印机
+
+:::info[前提条件]
+
+Panda Lux RGB PX2 控制器和打印机必须连接在同一局域网内，并且能够相互访问。
+
+:::
+
+1. 打开打印机绑定页面。该页面包含打印机选择器，LAN 扫描命令，Printer SN 字段，Access Code 字段，Printer IP 字段以及 Bind 命令。
+
+   <ImageView src={require('./img/printer-binding-controls.webp').default} width="25%" />
+
+2. 点击 **Scan**。等待扫描完成提示，然后从检测到的设备列表中选择目标打印机。在可获取的情况下，打印机序列号和 IP 地址会自动填入。
+
+   <ImageView src={require('./img/printer-scan-complete.webp').default} width="50%" />
+
+   <ImageView src={require('./img/printer-device-list.webp').default} width="25%" />
+
+3. 在 P2S 或 X2D 打印机上打开 **Settings**，如有需要请启用 **LAN Only** 模式，并获取打印机 IP 地址和 Access Code。
+
+   <ImageView src={require('./img/printer-settings.webp').default} width="50%" />
+
+   <ImageView src={require('./img/lan-only-setting.webp').default} width="50%" />
+
+   <ImageView src={require('./img/lan-only-credentials.webp').default} width="50%" />
+
+4. 在绑定页面中输入 Access Code，确认检测到的序列号和 IP 地址无误，然后点击 **Bind**。
+
+   <ImageView src={require('./img/printer-binding-form.webp').default} width="25%" />
+
+5. 出现确认提示即表示绑定成功。
+
+   <ImageView src={require('./img/printer-binding-success.webp').default} width="50%" />
+
+## 网络设置
+
+### Wi-Fi 页面
+
+<ImageView src={require('./img/wifi-status-page.webp').default} width="25%" />
+
+当手机或电脑与控制器位于同一 LAN 时，可在浏览器中打开页面显示的 IP 地址。也可以通过默认主机名 `http://PandaLuxRGB.local` 打开 Web UI。
+
+Wi-Fi 页面提供以下功能：
+
+- 当前 Wi-Fi 连接状态
+- 当前 IP 地址及 IP 地址弹窗
+- Wi-Fi 配置命令
+- Hostname 字段和 **Set Hostname** 命令
+- 默认 Hostname：`PandaLuxRGB`
+
+### AP 页面
+
+<ImageView src={require('./img/ap-settings-page.webp').default} width="25%" />
+
+:::warning[地址冲突]
+
+如果路由器已经使用 `192.168.254.xxx` 子网，默认 AP 地址可能会与当前网络冲突。绑定打印机前，请将控制器热点 IP 修改到其他网段。
+
+:::
+
+- **AP Hotspot:** 启用或禁用
+- **Default AP Name:** `Panda_Lux_RGB_XXXXXXXXXX`
+- **Default AP Password:** `987654321`
+- **Default Hotspot IP:** `192.168.254.1`
+- **Confirm:** 应用设置并重启控制器
+
+## 灯光控制
+
+### 控制页面
+
+<ImageView src={require('./img/lighting-control-page.webp').default} width="25%" />
+
+Control 页面提供以下功能：
+
+1. 控制页面选择器
+2. 当前设备名称
+3. RGB 灯效开关
+4. 跟随打印机原装照明的开关状态
+5. 打印机错误状态时启用红色闪烁覆盖效果
+6. 灯效选择
+7. 灯光颜色
+8. 亮度
+9. 速度
+
+### 选择灯光效果
+
+<ImageView src={require('./img/effect-selection.webp').default} width="25%" />
+
+通用固件提供 Static，Breathing，Strobing，Wave，Marquee，Color Cycle，Rainbow，Warning: Hot 和 H2D Style Status Indicator 模式。选择常规灯效后会立即应用。
+
+### Warning: Hot 模式
+
+<ImageView src={require('./img/warning-hot-settings.webp').default} width="25%" />
+
+在基于温度的警示模式下，灯光颜色可以根据打印机温度变化。**Safety Effect** 和 **Danger Effect** 均可设置为 Static 或 Strobing。
+
+### H2D Style Status Indicator
+
+<ImageView src={require('./img/h2d-status-settings.webp').default} width="25%" />
+
+此模式会根据打印机状态调整灯光颜色。打印过程中的灯效可设置为 Static 或 Rainbow。
+
+### 选择颜色
+
+1. 在 Static 模式下，点击颜色字段打开颜色选择页面。
+
+   <ImageView src={require('./img/static-color-control.webp').default} width="25%" />
+
+2. 选择出厂预设颜色或自定义颜色槽位。
+
+   <ImageView src={require('./img/color-presets.webp').default} width="25%" />
+
+3. 使用颜色选择器定义自定义颜色。
+
+   <ImageView src={require('./img/custom-color-picker.webp').default} width="25%" />
+
+4. 点击 **Confirm** 应用所选颜色。可以编辑 **Color Definition** 中的色块，将其设置为所需颜色值。
+
+   <ImageView src={require('./img/color-confirmation.webp').default} width="25%" />
+
+5. Web UI 会保存自定义颜色，并返回灯光控制页面。
+
+   <ImageView src={require('./img/custom-color-applied.webp').default} width="25%" />
+
+## 设置
+
+<ImageView src={require('./img/settings-page.webp').default} width="25%" />
+
+Settings 页面提供以下功能：
+
+- 语言选择，默认选择 English
+- 当前固件版本
+- 固件 OTA 更新
+- 恢复出厂设置
+
+### 更新固件
+
+1. 从 [Panda Lux RGB PX2 固件发布说明](./panda-lux-rgb-px2-release.mdx) 下载适用的固件。
+
+2. 点击 **Select .bin File**，然后选择固件 `.bin` 文件。
+
+   <ImageView src={require('./img/firmware-file-selection.webp').default} width="25%" />
+
+3. OTA 进度指示器运行期间，请保持控制器持续供电。更新完成后，控制器会自动重启。
+
+   <ImageView src={require('./img/firmware-update-progress.webp').default} width="25%" />
+
+4. 控制器重启前，Web UI 会提示更新成功。
+
+   <ImageView src={require('./img/firmware-update-success.webp').default} width="50%" />
+
+:::warning[请勿断电]
+
+固件更新过程中请勿断开电源。
+
+:::
+
+### 恢复出厂设置
+
+恢复出厂设置后，控制器将回到初始连接状态。请重新执行 AP，Wi-Fi 和打印机绑定流程。
+
+## 故障排查
+
+| 现象 | 检查方法 |
+| --- | --- |
+| 启动后显示蓝色流水灯效 | 控制器尚未完成绑定。请完成 Wi-Fi 设置和打印机绑定。 |
+| Wi-Fi 连接失败 | 重新检查所选 SSID 和密码，然后再次连接。 |
+| Web UI 的 IP 字段为空 | 确认 `PandaLuxRGB` 为 Connected，并检查网络配置。 |
+| LAN 使用 `192.168.254.xxx` 时无法绑定 | 修改控制器 AP 热点 IP，避免地址网段冲突。 |
+| 需要更新固件 | 使用 `Settings > OTA`，选择 `.bin` 文件，然后等待自动重启。 |
+| 线缆可能干涉打印头 | 按照 [硬件安装指南](./panda-lux-rgb-px2-hardware.mdx) 中的说明重新整理并固定线束。 |
+
+## 功能建议
+
+请在 [bigtreetech/Panda-Lux-RGB-PX2 Issues](https://github.com/bigtreetech/Panda-Lux-RGB-PX2/issues) 页面提交功能建议或问题。

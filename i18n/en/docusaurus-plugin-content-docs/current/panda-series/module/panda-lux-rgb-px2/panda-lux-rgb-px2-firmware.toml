@@ -1,0 +1,922 @@
+[metadata]
+
+[[block]]
+key = "d2d983fe301606f9"
+origin = '''
+---
+sidebar_position: 3
+description: Panda Lux RGB PX2 软件与固件配置
+---
+'''
+translate = '''
+---
+sidebar_position: 3
+description: Panda Lux RGB PX2 software and firmware configuration
+---
+'''
+
+[[block]]
+key = "57f7ccd3a8de94a3"
+origin = '''
+# Panda Lux RGB PX2 软件与固件配置
+'''
+translate = '''
+# Panda Lux RGB PX2 Software and Firmware Configuration
+'''
+
+[[block]]
+key = "4e8a7baf988a3d8c"
+origin = '''
+## 初始连接
+'''
+translate = '''
+## Initial Connection
+'''
+
+[[block]]
+key = "155a502af0ab4840"
+origin = '''
+首次上电或恢复出厂设置后，如果出现蓝色流水灯效，表示控制器尚未绑定打印机。
+'''
+translate = '''
+On first power-up, or after a factory reset, a blue flowing-light effect indicates that the controller has not yet been bound to a printer.
+'''
+
+[[block]]
+key = "06b5eee72e48172c"
+origin = '''
+### 连接 Wi-Fi
+'''
+translate = '''
+### Connect to Wi-Fi
+'''
+
+[[block]]
+key = "096c28bbfd89cee8"
+origin = '''
+1. 使用手机或电脑连接控制器的无线接入点。
+'''
+translate = '''
+1. Connect a phone or computer to the controller access point.
+'''
+
+[[block]]
+key = "5ddce79cb81f3090"
+origin = '''
+   - **SSID:** `Panda_Lux_RGB_XXXXXXXXXX`
+   - **Default Password:** `987654321`
+'''
+translate = '''
+   - **SSID:** `Panda_Lux_RGB_XXXXXXXXXX`
+   - **Default Password:** `987654321`
+'''
+
+[[block]]
+key = "a5b92cf5a9c1c894"
+origin = '''
+   <ImageView src={require('./img/wifi-hotspot-list.webp').default} width="25%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-hotspot-list.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "92e6d10288a01f05"
+origin = '''
+2. 在浏览器中打开 `http://192.168.254.1`。部分移动设备可能会自动打开 Web UI。默认选择 English；选择语言后点击 **Next**。
+'''
+translate = '''
+2. Open `http://192.168.254.1` in a browser. The Web UI may open automatically on some mobile devices. English is selected by default; choose a language and select **Next**.
+'''
+
+[[block]]
+key = "d0f9ac567d34248c"
+origin = '''
+   <ImageView src={require('./img/language-selection.webp').default} width="25%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/language-selection.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "35f1bebdadb5f4d1"
+origin = '''
+3. 扫描附近的 Wi-Fi 网络。首次设置或恢复出厂设置后，Wi-Fi 页面会自动开始扫描，也可以手动启动扫描。
+'''
+translate = '''
+3. Scan for nearby Wi-Fi networks. The Wi-Fi page scans automatically after initial setup or a factory reset. A scan can also be started manually.
+'''
+
+[[block]]
+key = "df76f07127ec1021"
+origin = '''
+   <ImageView src={require('./img/wifi-scan.webp').default} width="25%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-scan.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "1466db876ed3b414"
+origin = '''
+4. 等待扫描完成的确认提示。
+'''
+translate = '''
+4. Wait for the scan-complete confirmation.
+'''
+
+[[block]]
+key = "e8a60759e6889a56"
+origin = '''
+   <ImageView src={require('./img/wifi-scan-complete.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-scan-complete.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "bf9c88899bd26f46"
+origin = '''
+5. 选择打印机和控制器所使用的 Wi-Fi 网络。
+'''
+translate = '''
+5. Select the Wi-Fi network used by the printer and controller.
+'''
+
+[[block]]
+key = "c2b54c07ad49ce00"
+origin = '''
+   <ImageView src={require('./img/wifi-network-list.webp').default} width="25%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-network-list.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "1e57ecff773733b1"
+origin = '''
+6. 输入 Wi-Fi 密码。可使用眼睛图标显示或隐藏已输入的内容。
+'''
+translate = '''
+6. Enter the Wi-Fi password. Use the eye icon to show or hide the entered value.
+'''
+
+[[block]]
+key = "47ce87de020bfe72"
+origin = '''
+   <ImageView src={require('./img/wifi-password.webp').default} width="25%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-password.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "71aa7e10b1fda082"
+origin = '''
+7. 点击 **Connect**。建立连接时，状态页面会显示 **Connecting to WiFi**。
+'''
+translate = '''
+7. Select **Connect**. The status screen displays **Connecting to WiFi** while the connection is being established.
+'''
+
+[[block]]
+key = "4e3b892ca4320b3d"
+origin = '''
+   <ImageView src={require('./img/wifi-connecting.webp').default} width="25%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-connecting.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "4368842c4fd0a44d"
+origin = '''
+8. 如果连接失败，请重新检查所选网络和密码，然后再次尝试。
+'''
+translate = '''
+8. If the connection fails, recheck the selected network and password, then try again.
+'''
+
+[[block]]
+key = "964433f343ffecb4"
+origin = '''
+   <ImageView src={require('./img/wifi-connection-failed.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-connection-failed.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "a9af83d402af348f"
+origin = '''
+9. 连接成功后，可继续进行打印机绑定；也可以取消并停留在 Wi-Fi 页面。
+'''
+translate = '''
+9. After a successful connection, continue to printer binding or cancel and remain on the Wi-Fi page.
+'''
+
+[[block]]
+key = "ba8c669b8be26f16"
+origin = '''
+   <ImageView src={require('./img/wifi-connected.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-connected.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "75b435630fcacc44"
+origin = '''
+### 绑定打印机
+'''
+translate = '''
+### Bind the Printer
+'''
+
+[[block]]
+key = "42cfcf7a768cddd7"
+origin = '''
+:::info[前提条件]
+
+Panda Lux RGB PX2 控制器和打印机必须连接在同一局域网内，并且能够相互访问。
+
+:::
+'''
+translate = '''
+:::info[Prerequisite]
+
+The Panda Lux RGB PX2 controller and printer must be reachable on the same local network.
+
+:::
+'''
+
+[[block]]
+key = "070ae844b8630f48"
+origin = '''
+1. 打开打印机绑定页面。该页面包含打印机选择器，LAN 扫描命令，Printer SN 字段，Access Code 字段，Printer IP 字段以及 Bind 命令。
+'''
+translate = '''
+1. Open the printer-binding page. It contains the printer selector, LAN scan command, Printer SN field, Access Code field, Printer IP field, and Bind command.
+'''
+
+[[block]]
+key = "042a01bafd1b107f"
+origin = '''
+   <ImageView src={require('./img/printer-binding-controls.webp').default} width="25%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/printer-binding-controls.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "76248cabd2ccc17d"
+origin = '''
+2. 点击 **Scan**。等待扫描完成提示，然后从检测到的设备列表中选择目标打印机。在可获取的情况下，打印机序列号和 IP 地址会自动填入。
+'''
+translate = '''
+2. Select **Scan**. Wait for the scan-complete confirmation, then select the target printer from the detected-device list. The printer serial number and IP address are filled automatically when available.
+'''
+
+[[block]]
+key = "9a95787a6038e94e"
+origin = '''
+   <ImageView src={require('./img/printer-scan-complete.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/printer-scan-complete.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "daa3723b82ee5778"
+origin = '''
+   <ImageView src={require('./img/printer-device-list.webp').default} width="25%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/printer-device-list.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "32d71615930e7baf"
+origin = '''
+3. 在 P2S 或 X2D 打印机上打开 **Settings**，如有需要请启用 **LAN Only** 模式，并获取打印机 IP 地址和 Access Code。
+'''
+translate = '''
+3. On the P2S or X2D printer, open **Settings**, enable **LAN Only** mode if required, and obtain the printer IP address and Access Code.
+'''
+
+[[block]]
+key = "854cb76e55cecd5d"
+origin = '''
+   <ImageView src={require('./img/printer-settings.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/printer-settings.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "c7fa0c3e7e5bd1ac"
+origin = '''
+   <ImageView src={require('./img/lan-only-setting.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/lan-only-setting.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "fe9df67aaf9ab732"
+origin = '''
+   <ImageView src={require('./img/lan-only-credentials.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/lan-only-credentials.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "c6f9030d938df3fb"
+origin = '''
+4. 在绑定页面中输入 Access Code，确认检测到的序列号和 IP 地址无误，然后点击 **Bind**。
+'''
+translate = '''
+4. Enter the Access Code in the binding page, verify the detected serial number and IP address, then select **Bind**.
+'''
+
+[[block]]
+key = "acb1722aa7912a2d"
+origin = '''
+   <ImageView src={require('./img/printer-binding-form.webp').default} width="25%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/printer-binding-form.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "07ada007800d89f3"
+origin = '''
+5. 出现确认提示即表示绑定成功。
+'''
+translate = '''
+5. A confirmation message indicates that binding succeeded.
+'''
+
+[[block]]
+key = "1ee7b5eaa2f9573c"
+origin = '''
+   <ImageView src={require('./img/printer-binding-success.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/printer-binding-success.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "201d06123cee0118"
+origin = '''
+## 网络设置
+'''
+translate = '''
+## Network Settings
+'''
+
+[[block]]
+key = "2bb438a351891ceb"
+origin = '''
+### Wi-Fi 页面
+'''
+translate = '''
+### Wi-Fi Page
+'''
+
+[[block]]
+key = "66ffff21f5715fc2"
+origin = '''
+<ImageView src={require('./img/wifi-status-page.webp').default} width="25%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-status-page.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "880a690d3ceeccfd"
+origin = '''
+当手机或电脑与控制器位于同一 LAN 时，可在浏览器中打开页面显示的 IP 地址。也可以通过默认主机名 `http://PandaLuxRGB.local` 打开 Web UI。
+'''
+translate = '''
+When the phone or computer is on the same LAN, open the displayed IP address in a browser. The default hostname can also open the Web UI at `http://PandaLuxRGB.local`.
+'''
+
+[[block]]
+key = "ec3f2be85d7191ba"
+origin = '''
+Wi-Fi 页面提供以下功能：
+'''
+translate = '''
+The Wi-Fi page provides:
+'''
+
+[[block]]
+key = "8e28c2d8d7dc6b82"
+origin = '''
+- 当前 Wi-Fi 连接状态
+- 当前 IP 地址及 IP 地址弹窗
+- Wi-Fi 配置命令
+- Hostname 字段和 **Set Hostname** 命令
+- 默认 Hostname：`PandaLuxRGB`
+'''
+translate = '''
+- Current Wi-Fi connection status
+- Current IP address and IP-address pop-up
+- Wi-Fi configuration command
+- Hostname field and **Set Hostname** command
+- Default hostname: `PandaLuxRGB`
+'''
+
+[[block]]
+key = "caafb5355cdc3da4"
+origin = '''
+### AP 页面
+'''
+translate = '''
+### AP Page
+'''
+
+[[block]]
+key = "d033881fe5e717cf"
+origin = '''
+<ImageView src={require('./img/ap-settings-page.webp').default} width="25%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/ap-settings-page.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "52c49807ea7c46dc"
+origin = '''
+:::warning[地址冲突]
+
+如果路由器已经使用 `192.168.254.xxx` 子网，默认 AP 地址可能会与当前网络冲突。绑定打印机前，请将控制器热点 IP 修改到其他网段。
+
+:::
+'''
+translate = '''
+:::warning[Address Conflict]
+
+If the router already uses the `192.168.254.xxx` subnet, the default AP address can conflict with the network. Change the controller hotspot IP to a different range before binding.
+
+:::
+'''
+
+[[block]]
+key = "f7ee7d672e331f8c"
+origin = '''
+- **AP Hotspot:** 启用或禁用
+- **Default AP Name:** `Panda_Lux_RGB_XXXXXXXXXX`
+- **Default AP Password:** `987654321`
+- **Default Hotspot IP:** `192.168.254.1`
+- **Confirm:** 应用设置并重启控制器
+'''
+translate = '''
+- **AP Hotspot:** Enable or disable
+- **Default AP Name:** `Panda_Lux_RGB_XXXXXXXXXX`
+- **Default AP Password:** `987654321`
+- **Default Hotspot IP:** `192.168.254.1`
+- **Confirm:** Applies the setting and restarts the controller
+'''
+
+[[block]]
+key = "a87381f778c2487c"
+origin = '''
+## 灯光控制
+'''
+translate = '''
+## Lighting Control
+'''
+
+[[block]]
+key = "958179d9ae0bc7b5"
+origin = '''
+### 控制页面
+'''
+translate = '''
+### Control Page
+'''
+
+[[block]]
+key = "6629706131a18c4c"
+origin = '''
+<ImageView src={require('./img/lighting-control-page.webp').default} width="25%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/lighting-control-page.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "02f5ad2a010025db"
+origin = '''
+Control 页面提供以下功能：
+'''
+translate = '''
+The Control page provides:
+'''
+
+[[block]]
+key = "1a77629b39c1ddca"
+origin = '''
+1. 控制页面选择器
+2. 当前设备名称
+3. RGB 灯效开关
+4. 跟随打印机原装照明的开关状态
+5. 打印机错误状态时启用红色闪烁覆盖效果
+6. 灯效选择
+7. 灯光颜色
+8. 亮度
+9. 速度
+'''
+translate = '''
+1. Control page selector
+2. Current device name
+3. RGB effect on/off
+4. Follow the printer's stock-light on/off state
+5. Red flashing override for printer error state
+6. Effect selection
+7. Light color
+8. Brightness
+9. Speed
+'''
+
+[[block]]
+key = "8161aec7b04ee7c0"
+origin = '''
+### 选择灯光效果
+'''
+translate = '''
+### Select a Lighting Effect
+'''
+
+[[block]]
+key = "9e15006f62d0cf5e"
+origin = '''
+<ImageView src={require('./img/effect-selection.webp').default} width="25%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/effect-selection.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "6fd5ea2e8a44383c"
+origin = '''
+通用固件提供 Static，Breathing，Strobing，Wave，Marquee，Color Cycle，Rainbow，Warning: Hot 和 H2D Style Status Indicator 模式。选择常规灯效后会立即应用。
+'''
+translate = '''
+The shared firmware provides Static, Breathing, Strobing, Wave, Marquee, Color Cycle, Rainbow, Warning: Hot, and H2D Style Status Indicator modes. Standard effects are applied immediately after selection.
+'''
+
+[[block]]
+key = "6fc319a805591828"
+origin = '''
+### Warning: Hot 模式
+'''
+translate = '''
+### Warning: Hot Mode
+'''
+
+[[block]]
+key = "c9f98d8c02a3936d"
+origin = '''
+<ImageView src={require('./img/warning-hot-settings.webp').default} width="25%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/warning-hot-settings.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "7356d6ddecb0f23c"
+origin = '''
+在基于温度的警示模式下，灯光颜色可以根据打印机温度变化。**Safety Effect** 和 **Danger Effect** 均可设置为 Static 或 Strobing。
+'''
+translate = '''
+In the temperature-based warning mode, the light color can change with printer temperature. **Safety Effect** and **Danger Effect** can be configured as Static or Strobing.
+'''
+
+[[block]]
+key = "b33b1fafd6ed5f18"
+origin = '''
+### H2D Style Status Indicator
+'''
+translate = '''
+### H2D Style Status Indicator
+'''
+
+[[block]]
+key = "0d74d67acb3a658b"
+origin = '''
+<ImageView src={require('./img/h2d-status-settings.webp').default} width="25%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/h2d-status-settings.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "c4873a9960ea5fa8"
+origin = '''
+此模式会根据打印机状态调整灯光颜色。打印过程中的灯效可设置为 Static 或 Rainbow。
+'''
+translate = '''
+This mode adjusts the lighting color according to printer status. The printing effect can be configured as Static or Rainbow.
+'''
+
+[[block]]
+key = "5078c58d0b475f41"
+origin = '''
+### 选择颜色
+'''
+translate = '''
+### Select a Color
+'''
+
+[[block]]
+key = "89db03fc3dee449e"
+origin = '''
+1. 在 Static 模式下，点击颜色字段打开颜色选择页面。
+'''
+translate = '''
+1. In Static mode, select the color field to open the color-selection page.
+'''
+
+[[block]]
+key = "d4121bccd6e82ed3"
+origin = '''
+   <ImageView src={require('./img/static-color-control.webp').default} width="25%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/static-color-control.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "cf2d9557d1b9e429"
+origin = '''
+2. 选择出厂预设颜色或自定义颜色槽位。
+'''
+translate = '''
+2. Choose a factory preset or a custom color slot.
+'''
+
+[[block]]
+key = "d7835b2c2f11314e"
+origin = '''
+   <ImageView src={require('./img/color-presets.webp').default} width="25%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/color-presets.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "5b5546193592b202"
+origin = '''
+3. 使用颜色选择器定义自定义颜色。
+'''
+translate = '''
+3. Use the color picker to define a custom color.
+'''
+
+[[block]]
+key = "26740a62e4135af5"
+origin = '''
+   <ImageView src={require('./img/custom-color-picker.webp').default} width="25%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/custom-color-picker.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "dc0a22b937e30b98"
+origin = '''
+4. 点击 **Confirm** 应用所选颜色。可以编辑 **Color Definition** 中的色块，将其设置为所需颜色值。
+'''
+translate = '''
+4. Select **Confirm** to apply the chosen color. A color block in **Color Definition** can be edited to a preferred value.
+'''
+
+[[block]]
+key = "4aa559f12db44332"
+origin = '''
+   <ImageView src={require('./img/color-confirmation.webp').default} width="25%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/color-confirmation.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "57831d16715e43e4"
+origin = '''
+5. Web UI 会保存自定义颜色，并返回灯光控制页面。
+'''
+translate = '''
+5. The Web UI saves the custom color and returns to the lighting controls.
+'''
+
+[[block]]
+key = "26af0f5ecad605de"
+origin = '''
+   <ImageView src={require('./img/custom-color-applied.webp').default} width="25%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/custom-color-applied.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "03277b64deef25a3"
+origin = '''
+## 设置
+'''
+translate = '''
+## Settings
+'''
+
+[[block]]
+key = "282909cc9c906200"
+origin = '''
+<ImageView src={require('./img/settings-page.webp').default} width="25%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/settings-page.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "cfe27500e28252d2"
+origin = '''
+Settings 页面提供以下功能：
+'''
+translate = '''
+The Settings page provides:
+'''
+
+[[block]]
+key = "03a386dc32083e58"
+origin = '''
+- 语言选择，默认选择 English
+- 当前固件版本
+- 固件 OTA 更新
+- 恢复出厂设置
+'''
+translate = '''
+- Language selection, with English selected by default
+- Current firmware version
+- Firmware OTA update
+- Restore factory settings
+'''
+
+[[block]]
+key = "fd0508814980f6a9"
+origin = '''
+### 更新固件
+'''
+translate = '''
+### Update the Firmware
+'''
+
+[[block]]
+key = "547abc078f660db1"
+origin = '''
+1. 从 [Panda Lux RGB PX2 固件发布说明](./panda-lux-rgb-px2-release.mdx) 下载适用的固件。
+'''
+translate = '''
+1. Download the appropriate firmware from the [Panda Lux RGB PX2 Firmware Release Notes](./panda-lux-rgb-px2-release.mdx).
+'''
+
+[[block]]
+key = "3b4a8b7087dc4f5d"
+origin = '''
+2. 点击 **Select .bin File**，然后选择固件 `.bin` 文件。
+'''
+translate = '''
+2. Select **Select .bin File**, then choose the firmware `.bin` file.
+'''
+
+[[block]]
+key = "03492eae4541540f"
+origin = '''
+   <ImageView src={require('./img/firmware-file-selection.webp').default} width="25%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/firmware-file-selection.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "60a38d50a13f7661"
+origin = '''
+3. OTA 进度指示器运行期间，请保持控制器持续供电。更新完成后，控制器会自动重启。
+'''
+translate = '''
+3. Keep the controller powered while the OTA progress indicator advances. The controller restarts automatically after the update completes.
+'''
+
+[[block]]
+key = "cc14684dc436434a"
+origin = '''
+   <ImageView src={require('./img/firmware-update-progress.webp').default} width="25%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/firmware-update-progress.webp').default} width="25%" />
+'''
+
+[[block]]
+key = "dbe7b95897dd0fa8"
+origin = '''
+4. 控制器重启前，Web UI 会提示更新成功。
+'''
+translate = '''
+4. The Web UI confirms a successful update before the controller restarts.
+'''
+
+[[block]]
+key = "4f098810fd2074a8"
+origin = '''
+   <ImageView src={require('./img/firmware-update-success.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/firmware-update-success.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "04031fb0a163374e"
+origin = '''
+:::warning[请勿断电]
+
+固件更新过程中请勿断开电源。
+
+:::
+'''
+translate = '''
+:::warning[Do Not Power Off]
+
+Do not disconnect power while the firmware update is in progress.
+
+:::
+'''
+
+[[block]]
+key = "c6ffa7833d169ed8"
+origin = '''
+### 恢复出厂设置
+'''
+translate = '''
+### Restore Factory Settings
+'''
+
+[[block]]
+key = "0f292e48b0689693"
+origin = '''
+恢复出厂设置后，控制器将回到初始连接状态。请重新执行 AP，Wi-Fi 和打印机绑定流程。
+'''
+translate = '''
+Restoring factory settings returns the controller to the initial connection state. Repeat the AP, Wi-Fi, and printer-binding workflows.
+'''
+
+[[block]]
+key = "73b45885ed92f2ea"
+origin = '''
+## 故障排查
+'''
+translate = '''
+## Troubleshooting
+'''
+
+[[block]]
+key = "18d6b5fbb458c294"
+origin = '''
+| 现象 | 检查方法 |
+| --- | --- |
+| 启动后显示蓝色流水灯效 | 控制器尚未完成绑定。请完成 Wi-Fi 设置和打印机绑定。 |
+| Wi-Fi 连接失败 | 重新检查所选 SSID 和密码，然后再次连接。 |
+| Web UI 的 IP 字段为空 | 确认 `PandaLuxRGB` 为 Connected，并检查网络配置。 |
+| LAN 使用 `192.168.254.xxx` 时无法绑定 | 修改控制器 AP 热点 IP，避免地址网段冲突。 |
+| 需要更新固件 | 使用 `Settings > OTA`，选择 `.bin` 文件，然后等待自动重启。 |
+| 线缆可能干涉打印头 | 按照 [硬件安装指南](./panda-lux-rgb-px2-hardware.mdx) 中的说明重新整理并固定线束。 |
+'''
+translate = '''
+| Symptom | Check |
+| --- | --- |
+| Blue flowing light after startup | The controller is not yet bound. Complete Wi-Fi setup and printer binding. |
+| Wi-Fi connection fails | Recheck the selected SSID and password, then reconnect. |
+| Web UI IP field is blank | Confirm that `PandaLuxRGB` is Connected and check the network configuration. |
+| Cannot bind when the LAN uses `192.168.254.xxx` | Change the controller AP hotspot IP to avoid an address-range conflict. |
+| Firmware must be updated | Use `Settings > OTA`, choose the `.bin` file, and wait for the automatic restart. |
+| Cable may interfere with the print head | Re-route and secure the harness as described in the [Hardware Installation Guide](./panda-lux-rgb-px2-hardware.mdx). |
+'''
+
+[[block]]
+key = "902a26c55e8b7494"
+origin = '''
+## 功能建议
+'''
+translate = '''
+## Feature Requests
+'''
+
+[[block]]
+key = "226ba853a6a4d3a7"
+origin = '''
+请在 [bigtreetech/Panda-Lux-RGB-PX2 Issues](https://github.com/bigtreetech/Panda-Lux-RGB-PX2/issues) 页面提交功能建议或问题。
+'''
+translate = '''
+Submit feature requests or issues on [bigtreetech/Panda-Lux-RGB-PX2 Issues](https://github.com/bigtreetech/Panda-Lux-RGB-PX2/issues).
+'''

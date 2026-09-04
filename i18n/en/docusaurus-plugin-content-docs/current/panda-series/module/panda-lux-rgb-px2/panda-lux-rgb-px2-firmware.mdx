@@ -1,0 +1,227 @@
+---
+sidebar_position: 3
+description: Panda Lux RGB PX2 software and firmware configuration
+---
+
+# Panda Lux RGB PX2 Software and Firmware Configuration
+
+## Initial Connection
+
+On first power-up, or after a factory reset, a blue flowing-light effect indicates that the controller has not yet been bound to a printer.
+
+### Connect to Wi-Fi
+
+1. Connect a phone or computer to the controller access point.
+
+   - **SSID:** `Panda_Lux_RGB_XXXXXXXXXX`
+   - **Default Password:** `987654321`
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-hotspot-list.webp').default} width="25%" />
+
+2. Open `http://192.168.254.1` in a browser. The Web UI may open automatically on some mobile devices. English is selected by default; choose a language and select **Next**.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/language-selection.webp').default} width="25%" />
+
+3. Scan for nearby Wi-Fi networks. The Wi-Fi page scans automatically after initial setup or a factory reset. A scan can also be started manually.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-scan.webp').default} width="25%" />
+
+4. Wait for the scan-complete confirmation.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-scan-complete.webp').default} width="50%" />
+
+5. Select the Wi-Fi network used by the printer and controller.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-network-list.webp').default} width="25%" />
+
+6. Enter the Wi-Fi password. Use the eye icon to show or hide the entered value.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-password.webp').default} width="25%" />
+
+7. Select **Connect**. The status screen displays **Connecting to WiFi** while the connection is being established.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-connecting.webp').default} width="25%" />
+
+8. If the connection fails, recheck the selected network and password, then try again.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-connection-failed.webp').default} width="50%" />
+
+9. After a successful connection, continue to printer binding or cancel and remain on the Wi-Fi page.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-connected.webp').default} width="50%" />
+
+### Bind the Printer
+
+:::info[Prerequisite]
+
+The Panda Lux RGB PX2 controller and printer must be reachable on the same local network.
+
+:::
+
+1. Open the printer-binding page. It contains the printer selector, LAN scan command, Printer SN field, Access Code field, Printer IP field, and Bind command.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/printer-binding-controls.webp').default} width="25%" />
+
+2. Select **Scan**. Wait for the scan-complete confirmation, then select the target printer from the detected-device list. The printer serial number and IP address are filled automatically when available.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/printer-scan-complete.webp').default} width="50%" />
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/printer-device-list.webp').default} width="25%" />
+
+3. On the P2S or X2D printer, open **Settings**, enable **LAN Only** mode if required, and obtain the printer IP address and Access Code.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/printer-settings.webp').default} width="50%" />
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/lan-only-setting.webp').default} width="50%" />
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/lan-only-credentials.webp').default} width="50%" />
+
+4. Enter the Access Code in the binding page, verify the detected serial number and IP address, then select **Bind**.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/printer-binding-form.webp').default} width="25%" />
+
+5. A confirmation message indicates that binding succeeded.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/printer-binding-success.webp').default} width="50%" />
+
+## Network Settings
+
+### Wi-Fi Page
+
+<ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/wifi-status-page.webp').default} width="25%" />
+
+When the phone or computer is on the same LAN, open the displayed IP address in a browser. The default hostname can also open the Web UI at `http://PandaLuxRGB.local`.
+
+The Wi-Fi page provides:
+
+- Current Wi-Fi connection status
+- Current IP address and IP-address pop-up
+- Wi-Fi configuration command
+- Hostname field and **Set Hostname** command
+- Default hostname: `PandaLuxRGB`
+
+### AP Page
+
+<ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/ap-settings-page.webp').default} width="25%" />
+
+:::warning[Address Conflict]
+
+If the router already uses the `192.168.254.xxx` subnet, the default AP address can conflict with the network. Change the controller hotspot IP to a different range before binding.
+
+:::
+
+- **AP Hotspot:** Enable or disable
+- **Default AP Name:** `Panda_Lux_RGB_XXXXXXXXXX`
+- **Default AP Password:** `987654321`
+- **Default Hotspot IP:** `192.168.254.1`
+- **Confirm:** Applies the setting and restarts the controller
+
+## Lighting Control
+
+### Control Page
+
+<ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/lighting-control-page.webp').default} width="25%" />
+
+The Control page provides:
+
+1. Control page selector
+2. Current device name
+3. RGB effect on/off
+4. Follow the printer's stock-light on/off state
+5. Red flashing override for printer error state
+6. Effect selection
+7. Light color
+8. Brightness
+9. Speed
+
+### Select a Lighting Effect
+
+<ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/effect-selection.webp').default} width="25%" />
+
+The shared firmware provides Static, Breathing, Strobing, Wave, Marquee, Color Cycle, Rainbow, Warning: Hot, and H2D Style Status Indicator modes. Standard effects are applied immediately after selection.
+
+### Warning: Hot Mode
+
+<ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/warning-hot-settings.webp').default} width="25%" />
+
+In the temperature-based warning mode, the light color can change with printer temperature. **Safety Effect** and **Danger Effect** can be configured as Static or Strobing.
+
+### H2D Style Status Indicator
+
+<ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/h2d-status-settings.webp').default} width="25%" />
+
+This mode adjusts the lighting color according to printer status. The printing effect can be configured as Static or Rainbow.
+
+### Select a Color
+
+1. In Static mode, select the color field to open the color-selection page.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/static-color-control.webp').default} width="25%" />
+
+2. Choose a factory preset or a custom color slot.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/color-presets.webp').default} width="25%" />
+
+3. Use the color picker to define a custom color.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/custom-color-picker.webp').default} width="25%" />
+
+4. Select **Confirm** to apply the chosen color. A color block in **Color Definition** can be edited to a preferred value.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/color-confirmation.webp').default} width="25%" />
+
+5. The Web UI saves the custom color and returns to the lighting controls.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/custom-color-applied.webp').default} width="25%" />
+
+## Settings
+
+<ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/settings-page.webp').default} width="25%" />
+
+The Settings page provides:
+
+- Language selection, with English selected by default
+- Current firmware version
+- Firmware OTA update
+- Restore factory settings
+
+### Update the Firmware
+
+1. Download the appropriate firmware from the [Panda Lux RGB PX2 Firmware Release Notes](./panda-lux-rgb-px2-release.mdx).
+
+2. Select **Select .bin File**, then choose the firmware `.bin` file.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/firmware-file-selection.webp').default} width="25%" />
+
+3. Keep the controller powered while the OTA progress indicator advances. The controller restarts automatically after the update completes.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/firmware-update-progress.webp').default} width="25%" />
+
+4. The Web UI confirms a successful update before the controller restarts.
+
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/firmware-update-success.webp').default} width="50%" />
+
+:::warning[Do Not Power Off]
+
+Do not disconnect power while the firmware update is in progress.
+
+:::
+
+### Restore Factory Settings
+
+Restoring factory settings returns the controller to the initial connection state. Repeat the AP, Wi-Fi, and printer-binding workflows.
+
+## Troubleshooting
+
+| Symptom | Check |
+| --- | --- |
+| Blue flowing light after startup | The controller is not yet bound. Complete Wi-Fi setup and printer binding. |
+| Wi-Fi connection fails | Recheck the selected SSID and password, then reconnect. |
+| Web UI IP field is blank | Confirm that `PandaLuxRGB` is Connected and check the network configuration. |
+| Cannot bind when the LAN uses `192.168.254.xxx` | Change the controller AP hotspot IP to avoid an address-range conflict. |
+| Firmware must be updated | Use `Settings > OTA`, choose the `.bin` file, and wait for the automatic restart. |
+| Cable may interfere with the print head | Re-route and secure the harness as described in the [Hardware Installation Guide](./panda-lux-rgb-px2-hardware.mdx). |
+
+## Feature Requests
+
+Submit feature requests or issues on [bigtreetech/Panda-Lux-RGB-PX2 Issues](https://github.com/bigtreetech/Panda-Lux-RGB-PX2/issues).

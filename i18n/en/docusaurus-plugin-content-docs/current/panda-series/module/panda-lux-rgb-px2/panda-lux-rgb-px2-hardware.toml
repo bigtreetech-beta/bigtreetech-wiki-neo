@@ -1,0 +1,374 @@
+[metadata]
+
+[[block]]
+key = "ee1a100799d029bd"
+origin = '''
+---
+sidebar_position: 2
+description: Panda Lux RGB PX2 硬件安装
+---
+'''
+translate = '''
+---
+sidebar_position: 2
+description: Panda Lux RGB PX2 hardware installation
+---
+'''
+
+[[block]]
+key = "dae35cb6196c2555"
+origin = '''
+# Panda Lux RGB PX2 硬件
+'''
+translate = '''
+# Panda Lux RGB PX2 Hardware
+'''
+
+[[block]]
+key = "714a9c2a85757002"
+origin = '''
+## 安装指南
+'''
+translate = '''
+## Installation Guide
+'''
+
+[[block]]
+key = "af839c3f20fa802d"
+origin = '''
+:::warning[安全提示]
+
+拆卸外壳或断开内部线缆之前，请关闭打印机电源并断开市电连接。操作原厂线束和连接器时请轻柔，避免损坏。
+
+:::
+'''
+translate = '''
+:::warning[Safety]
+
+Power off the printer and disconnect it from mains power before removing covers or disconnecting internal cables. Work gently around factory wiring and connectors.
+
+:::
+'''
+
+[[block]]
+key = "b4e21662ea93a51c"
+origin = '''
+### 准备打印安装座
+'''
+translate = '''
+### Prepare the Printed Mount
+'''
+
+[[block]]
+key = "407799f5dd544487"
+origin = '''
+从 [bigtreetech/Panda-Lux-RGB-PX2](https://github.com/bigtreetech/Panda-Lux-RGB-PX2/tree/master/3D%20model/Printed%20Parts) 的 Printed Parts 文件夹下载全部模型，并各打印 1 个。
+'''
+translate = '''
+Download all models from the Printed Parts folder in [bigtreetech/Panda-Lux-RGB-PX2](https://github.com/bigtreetech/Panda-Lux-RGB-PX2/tree/master/3D%20model/Printed%20Parts), and print one copy of each.
+'''
+
+[[block]]
+key = "5455186a32aafa25"
+origin = '''
+建议使用 ABS 或 PETG 打印。
+'''
+translate = '''
+Printing with ABS or PETG is recommended.
+'''
+
+[[block]]
+key = "bf45c776b8184d40"
+origin = '''
+1. 安装 Panda Hub PX2 供电模块。使用随附的 M3 自攻螺丝将电路板固定到打印件安装座上。
+'''
+translate = '''
+1. Install the Panda Hub PX2 power module. Secure the board to the printed mount with the supplied M3 self-tapping screws.
+'''
+
+[[block]]
+key = "8d6f5018551edfd9"
+origin = '''
+   <ImageView src={require('./img/hub-module-components.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/hub-module-components.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "d8a086b852dbd2a8"
+origin = '''
+   <ImageView src={require('./img/hub-module-mounted.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/hub-module-mounted.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "2773fb808d4c5116"
+origin = '''
+2. 安装控制器板。将控制器板放入打印件外壳中，装上盖板并完全按压到位。
+'''
+translate = '''
+2. Install the controller board. Place the controller board into the printed enclosure. Fit the cover and press it fully into place.
+'''
+
+[[block]]
+key = "c3703fae2c01f053"
+origin = '''
+   <ImageView src={require('./img/controller-enclosure-open.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/controller-enclosure-open.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "89f22c1540e81697"
+origin = '''
+   <ImageView src={require('./img/controller-enclosure-closed.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/controller-enclosure-closed.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "c288023352ed819d"
+origin = '''
+3. 连接控制器和供电模块线缆。在将两个组件安装到打印机之前，请严格按照图示连接两者之间的线缆。
+'''
+translate = '''
+3. Connect the controller and power-module cables. Connect the cables between the two assemblies exactly as shown before installing them in the printer.
+'''
+
+[[block]]
+key = "995e0540adf62670"
+origin = '''
+   <ImageView src={require('./img/controller-hub-cabling.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/controller-hub-cabling.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "30996c3b5e7e51c8"
+origin = '''
+4. 安装控制器板。将小型打印件外壳卡入打印机右上方区域的卡槽中。
+'''
+translate = '''
+4. Install the controller board. Clip the small printed enclosure into the slot at the upper-right area of the printer.
+'''
+
+[[block]]
+key = "2467692448792581"
+origin = '''
+   <ImageView src={require('./img/controller-installed.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/controller-installed.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "6c121ea80014942b"
+origin = '''
+5. 安装 Panda Hub PX2。将 Panda Hub PX2 卡入打印机前部上方框架的卡槽中。
+'''
+translate = '''
+5. Install the Panda Hub PX2. Clip the Panda Hub PX2 into the slot in the upper front frame.
+'''
+
+[[block]]
+key = "6fa86003c92c1706"
+origin = '''
+   <ImageView src={require('./img/hub-installed.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/hub-installed.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "455899784c03cac6"
+origin = '''
+6. 安装两根灯条。通过磁吸方式将左右灯条分别安装在门框下侧，并确保每根灯条都与打印机安装面贴合到位。
+'''
+translate = '''
+6. Mount both light bars. Magnetically attach the left and right light bars along the underside of the door frame. Keep each bar seated flush against the printer.
+'''
+
+[[block]]
+key = "13a2c2465ec836d5"
+origin = '''
+   <ImageView src={require('./img/left-light-bar-mounted.webp').default} width="35%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/left-light-bar-mounted.webp').default} width="35%" />
+'''
+
+[[block]]
+key = "4746ac9141418792"
+origin = '''
+   <ImageView src={require('./img/right-light-bar-mounted.webp').default} width="35%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/right-light-bar-mounted.webp').default} width="35%" />
+'''
+
+[[block]]
+key = "1f5f878b03438e00"
+origin = '''
+7. 连接左右灯条。将较长的线缆连接到左侧灯条，将较短的线缆连接到右侧灯条。
+'''
+translate = '''
+7. Connect the left and right light bars. Connect the longer cable to the left light bar and the shorter cable to the right light bar.
+'''
+
+[[block]]
+key = "d58e58af401ad81d"
+origin = '''
+   <ImageView src={require('./img/left-light-bar-cable.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/left-light-bar-cable.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "cef805a39fc77947"
+origin = '''
+   <ImageView src={require('./img/right-light-bar-cable.webp').default} width="35%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/right-light-bar-cable.webp').default} width="35%" />
+'''
+
+[[block]]
+key = "1f7e577fc036faa3"
+origin = '''
+8. 打开打印机左侧盖板。小心打开盖板，并拉出图示连接器。请勿用力拉扯，以免原厂线束受力过大而损坏。
+'''
+translate = '''
+8. Open the printer's left-side cover. Carefully open the cover and pull out the connector shown. Do not pull hard; overstressing the original wiring can damage it.
+'''
+
+[[block]]
+key = "53d50d3646ba99a7"
+origin = '''
+   <ImageView src={require('./img/side-cover-connector.webp').default} width="35%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/side-cover-connector.webp').default} width="35%" />
+'''
+
+[[block]]
+key = "0ae72fefa03291e2"
+origin = '''
+9. 断开图片中所示最内侧的连接器。
+'''
+translate = '''
+9. Disconnect the innermost connector shown in the image.
+'''
+
+[[block]]
+key = "fddc4cbbfb625553"
+origin = '''
+   <ImageView src={require('./img/inner-connector-location.webp').default} width="50%" />
+'''
+translate = '''
+   <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/inner-connector-location.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "695d7f7232384b5f"
+origin = '''
+10. 将原厂插头连接到 Y 型分线器。把从打印机上拔下的插头连接到随附 Y 型分线线缆的白色插座上。
+'''
+translate = '''
+10. Connect the factory plug to the Y-splitter. Connect the plug removed from the printer to the white receptacle on the supplied Y-splitter cable.
+'''
+
+[[block]]
+key = "d5a2389865f9a92f"
+origin = '''
+    <ImageView src={require('./img/y-splitter-factory-plug.webp').default} width="50%" />
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/y-splitter-factory-plug.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "3382b3ccb11b6d8c"
+origin = '''
+11. 将 Y 型分线器连接到打印机主板。把黑色插头插入打印机主板，按照图示重新连接原装线缆，然后关闭侧盖。
+'''
+translate = '''
+11. Connect the Y-splitter to the printer mainboard. Insert the black plug into the printer mainboard, reconnect the original cable as shown, and close the side cover.
+'''
+
+[[block]]
+key = "f877265fe0bda4e0"
+origin = '''
+    <ImageView src={require('./img/y-splitter-mainboard.webp').default} width="50%" />
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/y-splitter-mainboard.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "327d7031798d5a0f"
+origin = '''
+12. 将供电线束连接到 Panda Hub PX2。把上一步的输出插头布线至 Panda Hub PX2，并连接到控制板接口。
+'''
+translate = '''
+12. Connect the power harness to the Panda Hub PX2. Route the output plug from the previous step to the Panda Hub PX2 and connect it to the control-board interface.
+'''
+
+[[block]]
+key = "bf94c4ae2eba57e0"
+origin = '''
+    <ImageView src={require('./img/hub-power-harness.webp').default} width="50%" />
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/hub-power-harness.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "130062cd4c2f6496"
+origin = '''
+13. 固定线缆走线。使用随附的理线夹整理并固定线束，确保线束不会干涉打印头运动。
+'''
+translate = '''
+13. Secure the cable routing. Use the supplied cable-routing clips to organize and secure the wiring so that it does not interfere with the print head.
+'''
+
+[[block]]
+key = "c01c70290247ef3d"
+origin = '''
+    <ImageView src={require('./img/cable-routing.webp').default} width="50%" />
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/cable-routing.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "b4fb872010354db3"
+origin = '''
+    <ImageView src={require('./img/installation-complete.webp').default} width="50%" />
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-lux-rgb-px2/img/installation-complete.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "9087b4ec867cf6ab"
+origin = '''
+:::info[安装检查]
+
+重新接通电源之前，请确认所有连接器均已完全插接到位，并确保线束不会进入打印头的运动区域。
+
+:::
+'''
+translate = '''
+:::info[Installation Check]
+
+Before restoring power, confirm that all connectors are fully seated and that the harness cannot enter the print-head travel area.
+
+:::
+'''
