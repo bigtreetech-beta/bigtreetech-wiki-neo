@@ -1,0 +1,2114 @@
+[metadata]
+
+[[block]]
+key = "be3c247a1514c1e1"
+origin = '''
+---
+sidebar_position: 3
+description: Panda Treat Operation
+---
+'''
+translate = '''
+---
+sidebar_position: 3
+description: Panda Treat Operation
+---
+'''
+
+[[block]]
+key = "25e4e5717b69b804"
+origin = '''
+# Panda Treat 操作
+'''
+translate = '''
+# Panda Treat Operation
+'''
+
+[[block]]
+key = "bc491231456ed68e"
+origin = '''
+:::info[Note]
+
+本节假定你已经按照硬件部分提供的说明，将 Panda Treat 组装并安装到打印机上。
+
+:::
+'''
+translate = '''
+:::info[Note]
+
+This section assumes that you have already assembled and installed the Panda Treat onto your printer using the instructions provided in the hardware section.
+
+:::
+'''
+
+[[block]]
+key = "c0c3f4385ec2b936"
+origin = '''
+## 首次设置
+'''
+translate = '''
+## First-time setup
+'''
+
+[[block]]
+key = "94b830232e75f15f"
+origin = '''
+安装 Panda Treat 并打开打印机后，Panda Treat 会显示用于首次设置的 QR code。
+'''
+translate = '''
+After the Panda Treat has been installed and the printer has been turned on, the Panda Treat displays a QR code for first-time setup.
+'''
+
+[[block]]
+key = "cf46b49ee9737e5f"
+origin = '''
+<ImageView src={require('./img/factory-reset-lcd-pixel-circle.webp').default} width="15%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/factory-reset-lcd-pixel-circle.webp').default} width="15%"/>
+'''
+
+[[block]]
+key = "ce9b4e9daa471058"
+origin = '''
+使用手机或电脑扫描 QR code，连接到 Panda Treat 在设置过程中创建的 WiFi hotspot。扫描 QR code 后，可能需要点击弹窗才能让设备执行该操作。连接到 Panda Treat hotspot 最多可能需要 30 秒，并且你可能需要打开设备上的浏览器，以提示设备自动跳转到 Panda Treat 设置页面。
+'''
+translate = '''
+Scan the QR code with a phone or computer to connect to the WiFi hotspot that the Panda Treat hosts for the setup process. You may need to tap on a pop-up when scanning the QR code to get your device to act on it. It may take up to 30 seconds to connect to the Panda Treat hotspot, and you may need to open the browser on your device to prompt your device to automatically navigate to the Panda Treat setup page.
+'''
+
+[[block]]
+key = "b402f00c0c8b07ef"
+origin = '''
+设置过程中，浏览器可能会显示 `No internet connection`；这是正常现象，因为设备是直接连接到 Panda Treat access point。设置页面加载后，应如下面图片所示。如果扫描 QR code 后 60 秒内仍未加载，你可以直接在浏览器中输入 `192.168.254.1` 并按 Enter 访问配置页面。
+'''
+translate = '''
+The browser may show `No internet connection` during setup; this is normal because the device is connected directly to the Panda Treat access point. When the setup page loads, it should look like the image below. If this has not loaded within 60 seconds of scanning the QR code, you can access the configuration page directly by going to your web browser, typing `192.168.254.1`, and pressing enter.
+'''
+
+[[block]]
+key = "2a36bdb0a511ad36"
+origin = '''
+<ImageView src={require('./img/captive-portal.webp').default} width="30%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/captive-portal.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "54c43fdc4463d46f"
+origin = '''
+选择首选语言并选择 `下一步`。在 WiFi 页面选择 `扫描`，扫描完成后选择与打印机相同的本地 WiFi 网络，输入 WiFi 密码，然后选择 `连接`。
+'''
+translate = '''
+Select the preferred language and press `Next`. On the WiFi page, tap `Scan` and once the scan is complete, select the same local WiFi network that the printer uses, enter the WiFi password, and press `Connect`.
+'''
+
+[[block]]
+key = "a0ddca494ba0456e"
+origin = '''
+<ImageView src={require('./img/wifi-selection.webp').default} width="30%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/wifi-selection.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "dce4b20d3f7e5d7c"
+origin = '''
+Panda Treat 连接到所选网络时，请保持浏览器页面打开。如果你误关页面，或与 Panda Treat hotspot 断开连接，可以再次扫描屏幕上的 QR code 回到 WiFi 设置页面。连接成功后，选择 `绑定打印机` 继续进入打印机绑定页面；如果需要停留在 WiFi 和 IP 页面，则选择 `取消`。
+'''
+translate = '''
+Leave the browser page open while the Panda Treat connects to the selected network. If you close the page by mistake at any point or if you disconnect from the Panda Treat hotspot, you can get back to the WiFi setup page by scanning the QR code on the screen again. When the connection is successful, press `Binding` to continue to the printer binding page, or press `Cancel` if you need to remain on the WiFi & IP page.
+'''
+
+[[block]]
+key = "5bdeae217635d234"
+origin = '''
+<ImageView src={require('./img/wifi-connected-binding.webp').default} width="50%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/wifi-connected-binding.webp').default} width="50%"/>
+'''
+
+[[block]]
+key = "c6b8edd2dfd7e30d"
+origin = '''
+在 `绑定打印机` 页面选择 `扫描` 搜索可用打印机。扫描最多可能需要 60 秒。列表中出现打印机后，选择已安装 Panda Treat 的那台打印机。如果找不到打印机，请检查 Panda Treat 是否与打印机处于同一 WiFi 网络，并确认打印机已开机。不建议使用访客网络，因为它们通常会阻止设备之间通信。
+'''
+translate = '''
+On the `Bind to Printer` page, press `Scan` to search for available printers. The scan can take up to 60 seconds to complete. Select the printer that you have installed the Panda Treat onto from the list when it appears. If your printer is not found, check that the Panda Treat is on the same WiFi network as the printer and that the printer is turned on. Guest networks are not recommended because they often block communication between devices.
+'''
+
+[[block]]
+key = "700c7cc4aab7d0ad"
+origin = '''
+如果以上条件都满足但仍找不到打印机，则需要手动输入详细信息。按照下图所示，在打印机设置页面中查找并输入打印机序列号 (SN)，access code 和 printer IP。
+'''
+translate = '''
+If all of these are true and the printer is still not found, you will need to enter the details manually. Enter the printer serial number (SN), access code, and printer IP from the printer settings screens as shown below.
+'''
+
+[[block]]
+key = "62cf74446254950e"
+origin = '''
+<ImageView src={require('./img/find-access-code.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/find-access-code.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "f9d913cd6072ff69"
+origin = '''
+<ImageView src={require('./img/binding-to-printer.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/binding-to-printer.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "33efd2ed6d684a1e"
+origin = '''
+确认打印机信息正确后，选择 `绑定`。当出现 `绑定成功` 时，Panda Treat 已绑定到指定打印机。随后，Panda Treat 显示屏会根据打印机状态显示动画。
+'''
+translate = '''
+Press `Bind` once the printer details are correct. When `Binding successful` appears, the Panda Treat has been bound to the designated printer. The display on the Panda Treat will then be animated according to the printer status.
+'''
+
+[[block]]
+key = "a172379a95e91603"
+origin = '''
+<ImageView src={require('./img/bound-to-printer.webp').default} width="50%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/bound-to-printer.webp').default} width="50%"/>
+'''
+
+[[block]]
+key = "30ef224d3a9e0a83"
+origin = '''
+WiFi 和打印机绑定完成后，在同一网络中的设备上使用 `pandatreat.local` 进行正常的 Panda Treat 操作。
+'''
+translate = '''
+After WiFi and printer binding are complete, use `pandatreat.local` from a device on the same network for normal Panda Treat operation.
+'''
+
+[[block]]
+key = "df43f318b537c8e5"
+origin = '''
+### 将 Panda Treat 添加到主屏幕
+'''
+translate = '''
+### Add Panda Treat to your Home Screen
+'''
+
+[[block]]
+key = "e7b64c15074b2d0a"
+origin = '''
+为了获得最可靠的快捷方式，请先使用稳定的 `.local` 地址打开 Panda Treat，例如 `http://pandatreat.local`。与数字 IP 地址不同，路由器为 Panda Treat 分配新的 IP 地址后，这个地址通常仍可继续使用。
+'''
+translate = '''
+For the most reliable shortcut, first open Panda Treat using its stable `.local` address, such as `http://pandatreat.local`. Unlike a numbered IP address, this address normally continues to work when your router gives Panda Treat a different IP address.
+'''
+
+[[block]]
+key = "e5fef06a92965027"
+origin = '''
+打开汉堡菜单并选择 `添加到主屏幕`。当 Panda Treat 尚未从主屏幕图标运行时，受支持的 iPhone，iPad 和 Android 浏览器会显示此菜单项；桌面电脑不会显示。
+'''
+translate = '''
+Open the hamburger menu and select `Add to Home Screen`. This menu option is shown on supported iPhone, iPad, and Android browsers when Panda Treat is not already running from a Home Screen icon. It is not shown on desktop computers.
+'''
+
+[[block]]
+key = "edc8d996ecd9e04a"
+origin = '''
+<ImageView
+    src={require('./img/panda-treat-add-to-home-screen-menu.webp').default}
+    alt="Panda Treat 汉堡菜单，其中设置与关于之间显示添加到主屏幕选项"
+    width="40%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-add-to-home-screen-menu.webp').default}
+    alt="Panda Treat hamburger menu showing the Add to Home Screen option between Settings and About"
+    width="40%"
+/>
+'''
+
+[[block]]
+key = "c5fb83823a889e62"
+origin = '''
+打开汉堡菜单并选择 `添加到主屏幕`。
+'''
+translate = '''
+Open the hamburger menu and select `Add to Home Screen`.
+'''
+
+[[block]]
+key = "c0437cec8d4377c9"
+origin = '''
+如果你是通过 IP 地址打开 Panda Treat，指南会要求选择 `打开 .local 地址`。Panda Treat 随后会打开稳定地址，并自动再次显示指南。
+'''
+translate = '''
+If you opened Panda Treat through an IP address, the guide asks you to select `Open .local Address`. Panda Treat then opens its stable address and displays the guide again automatically.
+'''
+
+[[block]]
+key = "e2697c22e7f9f4e4"
+origin = '''
+<ImageView
+    src={require('./img/panda-treat-home-screen-local-address-guide.webp').default}
+    alt="Panda Treat 主屏幕指南提示用户打开稳定的 local 地址"
+    width="40%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-home-screen-local-address-guide.webp').default}
+    alt="Panda Treat Home Screen guide asking the user to open the stable local address"
+    width="40%"
+/>
+'''
+
+[[block]]
+key = "f2b09e71f69f1fd0"
+origin = '''
+出现提示时，选择 `打开 .local 地址`，通过 Panda Treat 的稳定地址继续操作。
+'''
+translate = '''
+When prompted, select `Open .local Address` to continue from Panda Treat's stable address.
+'''
+
+[[block]]
+key = "8e6e118a1aefce70"
+origin = '''
+#### iPhone 或 iPad
+'''
+translate = '''
+#### iPhone or iPad
+'''
+
+[[block]]
+key = "62d961b2c7b053e9"
+origin = '''
+1. 在 Safari 或 Chrome 中轻点浏览器的 `共享` 按钮。
+2. 选择 `添加到主屏幕`。
+3. 确认名称为 `Panda Treat`，然后轻点 `添加`。
+'''
+translate = '''
+1. In Safari or Chrome, tap the browser's Share button.
+2. Select `Add to Home Screen`.
+3. Confirm the name `Panda Treat`, then tap `Add`.
+'''
+
+[[block]]
+key = "ee1ea94818978ac1"
+origin = '''
+#### Android 手机或平板电脑
+'''
+translate = '''
+#### Android phone or tablet
+'''
+
+[[block]]
+key = "e52c843082a7409a"
+origin = '''
+如果 Panda Treat 显示 `安装应用` 按钮，请选择它并确认浏览器提示。如果没有显示该按钮，请打开 Chrome 的三点菜单，选择 `添加到主屏幕`，并在出现 `安装应用` 时选择它。否则请选择 `创建快捷方式`，然后确认 `添加`。其他 Android 浏览器的菜单措辞可能不同。
+'''
+translate = '''
+If Panda Treat displays an `Install app` button, select it and confirm the browser's prompt. If the button is not shown, open Chrome's three-dot menu, select `Add to Home screen`, and then use `Install app` when it is offered. Otherwise select `Create shortcut` and confirm `Add`. Menu wording may vary in other Android browsers.
+'''
+
+[[block]]
+key = "f8ee2fcf50cb7f91"
+origin = '''
+浏览器支持时，`安装应用` 会在类似应用的独立窗口中打开 Panda Treat。`创建快捷方式` 同样可以快速访问，但可能会在普通浏览器标签页中打开。
+'''
+translate = '''
+`Install app` opens Panda Treat in an app-style window when the browser supports it. `Create shortcut` still provides quick access, but may open Panda Treat in a normal browser tab.
+'''
+
+[[block]]
+key = "42bb25fa87a79899"
+origin = '''
+#### 如果主屏幕图标无法打开
+'''
+translate = '''
+#### If the Home Screen icon will not open
+'''
+
+[[block]]
+key = "b2a08e693daf70ba"
+origin = '''
+1. 确认 Panda Treat 已开机。
+2. 确认手机或平板电脑与 Panda Treat 连接到同一个 WiFi 网络。
+3. 如有需要，将手机或平板电脑直接连接到 Panda Treat 自己的 WiFi 网络。
+4. 打开浏览器并访问 `http://192.168.254.1`。
+5. 如果更改过 Panda Treat 主机名，请删除旧的主屏幕图标，打开新的 `.local` 地址，然后重新添加图标。
+'''
+translate = '''
+1. Make sure Panda Treat is turned on.
+2. Make sure the phone or tablet is connected to the same WiFi network as Panda Treat.
+3. If necessary, connect the phone or tablet directly to Panda Treat's own WiFi network.
+4. Open a browser and visit `http://192.168.254.1`.
+5. If the Panda Treat hostname was changed, remove the old Home Screen icon, open the new `.local` address, and add the icon again.
+'''
+
+[[block]]
+key = "53d2a392095237c3"
+origin = '''
+删除主屏幕图标不会清除任何 Panda Treat 设置。
+'''
+translate = '''
+Removing a Home Screen icon does not erase any Panda Treat settings.
+'''
+
+[[block]]
+key = "f255fe8627eeee2a"
+origin = '''
+## 软件更新
+'''
+translate = '''
+## Software updates
+'''
+
+[[block]]
+key = "b5b6e43f1dcb8322"
+origin = '''
+Panda Treat 会不定期收到软件更新，这些更新会为产品增加常规改进，并可能启用额外功能。强烈建议定期检查软件更新，尤其是在首次设置完成后立即检查。
+'''
+translate = '''
+The Panda Treat will receive software updates from time to time which will add general improvements to the product and possibly enable additional functionality. It is highly recommended to check for software updates regularly and in particular directly after the first-time setup.
+'''
+
+[[block]]
+key = "5b9740220a2d809a"
+origin = '''
+检查软件更新最简单的方法是让 Panda Treat 自动检查。只要它连接到具有互联网连接的 WiFi 网络，就会自动执行检查。如果有可用更新，显示屏会显示如下图所示的图像。使用与 Panda Treat 位于同一 WiFi 网络的设备扫描 QR code，它会带你进入可安装更新的页面。
+'''
+translate = '''
+The easiest way to check for software updates is to allow the Panda Treat to automatically check. It will do this whenever it is connected to a WiFi network that has an internet connection. If an update is available, the display will show an image like the one below. Scan the QR code with your device that is on the same WiFi network as the Panda Treat and it will take you to the page that allows you to install the update.
+'''
+
+[[block]]
+key = "c52f6e673971c206"
+origin = '''
+<ImageView src={require('./img/update-rounded.webp').default} width="15%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/update-rounded.webp').default} width="15%"/>
+'''
+
+[[block]]
+key = "27fb904fe3e326c8"
+origin = '''
+你也可以点击右上角 hamburger menu 中的设置选项，手动访问该页面。
+'''
+translate = '''
+You can also access the page manually by clicking on the settings option from the hamburger menu in the top right.
+'''
+
+[[block]]
+key = "459d7a095476d8a2"
+origin = '''
+<ImageView src={require('./img/access-settings-menu.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/access-settings-menu.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "ed798fb50285b33d"
+origin = '''
+页面加载后，应出现一个弹窗，提示有可用更新。选择 `确认` 继续更新。更新过程中，Panda Treat 应保持连接互联网，并且不要断开电源。更新通常分两个阶段进行，进度会通过 Web UI 以及 Panda Treat 显示屏显示。
+'''
+translate = '''
+When the page loads, you should be presented with a pop-up that informs you that an update is available. Select `Confirm` to proceed with the update. During the update, the Panda Treat should remain connected to the internet and you should not remove power. Updates will often occur in two stages with progress indicators being provided via the web UI as well as via the Panda Treat display.
+'''
+
+[[block]]
+key = "8d777592084405c1"
+origin = '''
+<ImageView src={require('./img/update-available-popup.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/update-available-popup.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "a6adce2fad2b0959"
+origin = '''
+如果 Panda Treat 未连接互联网，仍可手动下载并安装更新文件。要手动应用更新，请先从 [CMYLabs/PandaTreat releases](https://github.com/CMYLabs/PandaTreat/releases) 下载最新软件。
+'''
+translate = '''
+If your Panda Treat is not connected to the internet, you can still download and install update files manually. To apply an update manually first download the latest software from [CMYLabs/PandaTreat releases](https://github.com/CMYLabs/PandaTreat/releases).
+'''
+
+[[block]]
+key = "3a4944bda54bbd4d"
+origin = '''
+之后，进入设置菜单并选择 `手动更新`。固件更新请选择文件名中包含 `firmware` 的文件；用户界面更新请选择文件名中包含 `UI` 的文件。
+'''
+translate = '''
+After that, navigate to the settings menu and click on `Manual update`. For a firmware update, select the file that contains `firmware` in the filename. For a UI update, select the file that contains `UI` in the filename.
+'''
+
+[[block]]
+key = "89d18fdf89320532"
+origin = '''
+<ImageView src={require('./img/manual-update.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/manual-update.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "1dde79154f8b35f4"
+origin = '''
+更新安装完成后，Panda Treat 会重启并重新连接到 WiFi 网络。
+'''
+translate = '''
+Once the update has been installed, the Panda Treat will reboot and reconnect to the WiFi network.
+'''
+
+[[block]]
+key = "03277b64deef25a3"
+origin = '''
+## 设置
+'''
+translate = '''
+## Settings
+'''
+
+[[block]]
+key = "2286869d2d0cf2e3"
+origin = '''
+Panda Treat 设置涵盖网络访问，打印机绑定，语言和单位，软件更新，待机显示图像，打印间距以及恢复功能。
+'''
+translate = '''
+Panda Treat settings cover network access, printer binding, language and units, software updates, the idle display image, ink-strip spacing, and recovery functions.
+'''
+
+[[block]]
+key = "ef1bd8c79bc8e39c"
+origin = '''
+在打印界面右上角打开汉堡菜单并选择 `设置`。设置站点打开后，在导航中再次选择 `设置`。手机和平板电脑的标签位于右下角，桌面页面的选项位于左侧导航栏。下图展示了这两个步骤。
+'''
+translate = '''
+Open the hamburger menu in the upper-right corner of the printing interface and select `Settings`. When the settings site opens, select `Settings` again in the navigation. On phones and tablets, this tab is in the lower-right corner; on desktop, it is in the left navigation rail. The image below shows both steps.
+'''
+
+[[block]]
+key = "459d7a095476d8a2"
+origin = '''
+<ImageView src={require('./img/access-settings-menu.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/access-settings-menu.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "7c8987caa79c2ac8"
+origin = '''
+### WiFi 和网络
+'''
+translate = '''
+### WiFi and network
+'''
+
+[[block]]
+key = "4ac98e557f537ac5"
+origin = '''
+打开 `Wi-Fi 和网络` 可查看 Panda Treat 正在使用的网络，复制当前 IP 地址，或查看并更改稳定主机名。书签和主屏幕图标应优先使用页面显示的 `.local` 地址，因为数字 IP 地址变化后它仍可继续使用。
+'''
+translate = '''
+Open `Wi-Fi & Network` to see the network that Panda Treat is using, copy its current IP address, or view and change its stable hostname. Prefer the displayed `.local` address for bookmarks and Home Screen icons because it remains useful when the numbered IP address changes.
+'''
+
+[[block]]
+key = "b6c66f86026a819e"
+origin = '''
+如果 Panda Treat 需要加入其他网络，请使用 `Wi-Fi 网络配置`。更改连接时请保持页面打开。手机或电脑可能会暂时与 Panda Treat 断开，并且可能需要先加入新网络才能再次打开页面。
+'''
+translate = '''
+Use `Configure Wi-Fi` if Panda Treat needs to join another network. Keep the page open while the connection is being changed. Your phone or computer may temporarily lose contact with Panda Treat and may need to join the new network before the page can be opened again.
+'''
+
+[[block]]
+key = "5c1db579e579625c"
+origin = '''
+`Panda Treat 热点` 用于管理 Panda Treat 创建的专用 WiFi 网络。你可以让热点保持开启，更改名称或密码，以及更改直接连接 IP 地址。通过该热点访问页面时更改这些项目，当前设备可能会断开连接。选择 `保存热点设置` 前请仔细检查；使用 `放弃更改` 可恢复 Panda Treat 最近显示的值。
+'''
+translate = '''
+`Panda Treat Access Point` controls the private WiFi network created by Panda Treat. You can keep the access point enabled, change its name or password, and change its direct-connection IP address. Changing these details while using the access point can disconnect the device that is displaying the page. Review the changes carefully before selecting `Save Access Point`; use `Discard changes` to restore the latest values shown by Panda Treat.
+'''
+
+[[block]]
+key = "cc74390e686c507c"
+origin = '''
+### 打印机连接
+'''
+translate = '''
+### Printer connection
+'''
+
+[[block]]
+key = "33f8d3d05dfaf684"
+origin = '''
+打开 `绑定打印机` 可查看或更改已连接的打印机。选择 `扫描` 并等待搜索完成，然后从列表中选择受支持的打印机。如果没有找到打印机，请手动输入序列号，访问码和打印机 IP。
+'''
+translate = '''
+Open `Bind to Printer` to view or change the connected printer. Select `Scan` and wait for the search to finish, then choose a supported printer from the list. If the printer is not found, enter its serial number, access code, and IP address manually.
+'''
+
+[[block]]
+key = "e4b6e8a5397bf055"
+origin = '''
+已经绑定打印机时，它仍会在列表中保持选中，操作按钮显示为 `解绑`。你仍可选择另一台打印机。新打印机具有受支持的型号以及有效的序列号，访问码和 IP 地址后，操作按钮会变为 `绑定`。选择后，旧绑定会被新绑定替换。
+'''
+translate = '''
+When a printer is already bound, it remains selected in the list and the action is `Unbind`. You may still select a different printer. Once the new printer has a supported model and valid serial number, access code, and IP address, the action changes to `Bind`. Selecting it replaces the old binding with the new one.
+'''
+
+[[block]]
+key = "7d80cd57b02a03a2"
+origin = '''
+### 语言，单位以及返回打印界面
+'''
+translate = '''
+### Language, units, and returning to the print interface
+'''
+
+[[block]]
+key = "bfcbb95c108de565"
+origin = '''
+使用 `语言和单位` 中的 `界面语言` 在英语和简体中文之间切换，并使用 `尺寸单位` 选择毫米或英寸。选择导航中的 `犒劳自己` 可返回主打印界面。
+'''
+translate = '''
+Use `Language & units` and `Interface language` to change between English and Simplified Chinese. Use `Dimension units` to display dimensions in millimetres or inches. Select `Treat Yourself` in the navigation to return to the main printing interface.
+'''
+
+[[block]]
+key = "62bfcfa3329e0a62"
+origin = '''
+### 待机显示图像
+'''
+translate = '''
+### Idle display image
+'''
+
+[[block]]
+key = "c93eb3beb31e98bb"
+origin = '''
+`待机显示图像` 控制 Panda Treat 屏幕在待机时显示的图像。默认使用内置熊猫图像。
+'''
+translate = '''
+`Idle display image` controls the image shown on the Panda Treat screen while it is idle. The built-in Panda image is used by default.
+'''
+
+[[block]]
+key = "cf10e8220e119916"
+origin = '''
+- 选择 `更改图像`，然后选择此浏览器支持的静态 JPEG，PNG，WebP，HEIC 或 HEIF 图像。不支持 GIF 和动态图像。
+- 拖动图像可调整位置。使用双指捏合，鼠标滚轮或缩放滑块可调整大小。圆形遮罩显示图像在圆形屏幕上的可见范围。
+- 选择 `安装图像` 后，请保持页面打开并勿移除 SD 卡，直到保存和验证完成。
+- 如需重新使用内置熊猫图像，请选择 `恢复默认图像`，然后确认恢复。
+'''
+translate = '''
+- Select `Change image`, then choose a still JPEG, PNG, WebP, HEIC, or HEIF image supported by the browser. GIF and animated images are not supported.
+- Drag to reposition the image. Pinch, use the mouse wheel, or move the zoom slider to resize it. The circular mask shows the part that will be visible on the round display.
+- After selecting `Install image`, keep the page open and do not remove the SD card until saving and verification are complete.
+- To use the built-in Panda image again, select `Restore default`, then confirm the restoration.
+'''
+
+[[block]]
+key = "6caafbd3a56da661"
+origin = '''
+### 更新和打印间距
+'''
+translate = '''
+### Updates and print spacing
+'''
+
+[[block]]
+key = "6092e03ce3d50fc2"
+origin = '''
+固件与用户界面版本，在线检查更新以及手动更新已在[软件更新](#软件更新)中介绍。
+'''
+translate = '''
+Firmware and user-interface versions, online update checks, and manual updates are described in [Software updates](#software-updates).
+'''
+
+[[block]]
+key = "fcdcd689f356097b"
+origin = '''
+`墨条间距` 用于更改相邻打印走线之间的距离：
+'''
+translate = '''
+`Ink strip spacing` changes the distance between adjacent printed passes:
+'''
+
+[[block]]
+key = "daf6c291d904c5a2"
+origin = '''
+- 选择 `恢复默认值` 可恢复为 `8.40`。
+- 如果深色条带发生重叠，请将数值增加 `0.01`。
+- 如果出现浅色或白色间隙，请将数值减少 `0.01`。
+- 如果多次小幅调整都没有改善，请恢复 `8.40`，因为问题很可能不是由墨条间距引起。
+'''
+translate = '''
+- Select `Reset to default` to restore `8.40`.
+- If dark strips overlap, increase the value by `0.01`.
+- If light or white gaps appear, decrease the value by `0.01`.
+- If several small adjustments do not improve the print, restore `8.40` because strip spacing is probably not the cause.
+'''
+
+[[block]]
+key = "fb20b101ce5f0476"
+origin = '''
+更改后选择 `保存调整`。调整此设置前，应先清洁并检查墨盒。
+'''
+translate = '''
+Select `Save adjustment` after making a change. Clean and check the cartridge before changing this setting.
+'''
+
+[[block]]
+key = "ca6acc555102a496"
+origin = '''
+### 安全和恢复出厂设置
+'''
+translate = '''
+### Safety and factory reset
+'''
+
+[[block]]
+key = "de02834f62069dd5"
+origin = '''
+正常使用时应保持 `急停保护` 启用。禁用后，Panda Treat 将无法按正常方式请求打印机立即停止。对于未使用 LAN Developer Mode 的打印机，Panda Treat 会改为发出蜂鸣警告并显示停止提示；整个过程可能额外增加约八秒。只有特定诊断流程明确要求时才应禁用此功能。
+'''
+translate = '''
+`Emergency stop` should remain enabled during normal use. If it is disabled, Panda Treat can no longer request an immediate printer stop in the usual way. On printers that are not using LAN Developer Mode, Panda Treat instead sounds a warning and displays a stop message; the process can take about eight seconds longer. Disable this feature only when a specific diagnostic procedure requires it.
+'''
+
+[[block]]
+key = "c5dcb0f049f4fb98"
+origin = '''
+`将 Panda Treat 恢复出厂设置` 会清除已保存的 WiFi 网络，打印机绑定信息以及 Panda Treat 首选项。只有确实准备从头重新设置产品时才应使用。
+'''
+translate = '''
+`Factory reset Panda Treat` erases saved WiFi networks, printer binding details, and Panda Treat preferences. Use it only when you intend to set up the product again from the beginning.
+'''
+
+[[block]]
+key = "e20b5dc7e867426c"
+origin = '''
+<ImageView
+  src={require('./img/panda-treat-settings-page.webp').default}
+  alt="Panda Treat 设置与更新页面，其中包含待机显示图像设置"
+  width="70%"
+/>
+'''
+translate = '''
+<ImageView
+  src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-settings-page.webp').default}
+  alt="Panda Treat Settings & Updates page including the Idle display image setting"
+  width="70%"
+/>
+'''
+
+[[block]]
+key = "0908d49bec365bb1"
+origin = '''
+## 在物品上打印
+'''
+translate = '''
+## Printing onto items
+'''
+
+[[block]]
+key = "35d126551dd60b23"
+origin = '''
+### 所需内容
+'''
+translate = '''
+### Required
+'''
+
+[[block]]
+key = "4edc8b72197fd5e0"
+origin = '''
+使用 Panda Treat 时，你会打印到具有特定宽度，长度和高度的物品上。你需要告诉 Panda Treat 这些测量值。
+'''
+translate = '''
+When using the Panda Treat, you will be printing onto items that have specific width, length, and height. You need to tell the Panda Treat what these measurements are.
+'''
+
+[[block]]
+key = "28cd1a8b40fba080"
+origin = '''
+要测量物体的宽度，长度和/或直径，可以使用简单的尺子，也可以使用游标卡尺等更复杂但更准确的工具。你也可以使用下方链接打印自己的游标卡尺。
+'''
+translate = '''
+To measure the width, length, and/or diameter of an object you can use a simple ruler or a more complex but accurate tool such as vernier callipers. You can also print your own vernier callipers using the link provided below.
+'''
+
+[[block]]
+key = "f0c28ea0bc4d4454"
+origin = '''
+测量高度时，建议使用下方所示的可打印工具。该工具的摆臂可以扫过你计划打印的物体，从而检查表面一致性，并确保没有可能刮碰的高点。
+'''
+translate = '''
+To measure the height, we recommend using the printable tool shown below. The arm can swing over the object that you plan to print onto and this allows you to check the consistency of the surface and ensure that there are no high points that may catch.
+'''
+
+[[block]]
+key = "f6398dc48e871996"
+origin = '''
+<ImageView src={require('./img/measure-object.webp').default} width="50%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/measure-object.webp').default} width="50%"/>
+'''
+
+[[block]]
+key = "543a0956d3803d2e"
+origin = '''
+- Printable height measurement tool with instructions - Coming soon
+- Printable vernier callipers: [vernier-caliper-ruler-two-lengths](https://makerworld.com/en/models/198362-vernier-caliper-ruler-two-lengths)
+'''
+translate = '''
+- Printable height measurement tool with instructions - Coming soon
+- Printable vernier callipers: [vernier-caliper-ruler-two-lengths](https://makerworld.com/en/models/198362-vernier-caliper-ruler-two-lengths)
+'''
+
+[[block]]
+key = "764c064301bfdff5"
+origin = '''
+### 准备打印表面并打开 Panda Treat
+'''
+translate = '''
+### Prepare the print surface and open Panda Treat
+'''
+
+[[block]]
+key = "b9662bfaeb6862f2"
+origin = '''
+准备任何打印任务前，请在打印机成型板范围内铺好干净，食品安全的硅胶烘焙垫或烘焙纸。垫子或烘焙纸必须保持平整，并完全位于成型板边界内。
+'''
+translate = '''
+Before preparing any print, cover the area inside the printer build plate with a clean food-safe silicone baking sheet or parchment paper. The sheet must lie flat and remain inside the plate boundary.
+'''
+
+[[block]]
+key = "eebdd4a31f4aed09"
+origin = '''
+<ImageView src={require('./img/prepared-surface.webp').default} width="45%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/prepared-surface.webp').default} width="45%"/>
+'''
+
+[[block]]
+key = "f3d638d7d0b45bee"
+origin = '''
+扫描 Panda Treat 显示屏上的 QR code，或打开之前保存的 `.local` 地址，进入 Panda Treat 打印界面。手机，平板电脑或电脑必须与 Panda Treat 位于同一 WiFi 网络。
+'''
+translate = '''
+Open the Panda Treat printing interface by scanning the QR code on its display or by opening the `.local` address that you saved earlier. The phone, tablet, or computer must be on the same WiFi network as Panda Treat.
+'''
+
+[[block]]
+key = "a4b6796195da2f1c"
+origin = '''
+:::info[Note]
+
+为了以后更快打开，可以将 `.local` 地址加入书签，或按照[将 Panda Treat 添加到主屏幕](#将-panda-treat-添加到主屏幕)中的步骤创建图标。
+
+:::
+'''
+translate = '''
+:::info[Note]
+
+For quicker access later, bookmark the `.local` address or follow [Add Panda Treat to your Home Screen](#add-panda-treat-to-your-home-screen).
+
+:::
+'''
+
+[[block]]
+key = "bc721c484ea90466"
+origin = '''
+<ImageView src={require('./img/qr-to-print-page.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/qr-to-print-page.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "db03dc43995df18d"
+origin = '''
+首页提供 `饼干 / 蛋糕`，`饮品` 和 `故障排查`。下面分别介绍两种打印流程。
+'''
+translate = '''
+The landing page offers `Cookie / Cake`, `Beverage`, and `Troubleshooting`. The following sections explain the two printing flows.
+'''
+
+[[block]]
+key = "f53dc15ecca7ee69"
+origin = '''
+<ImageView src={require('./img/item-type-selection.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/item-type-selection.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "607587a33c18fcaa"
+origin = '''
+### 饼干 / 蛋糕流程
+'''
+translate = '''
+### Cookie / Cake workflow
+'''
+
+[[block]]
+key = "c68177df6f69388d"
+origin = '''
+此流程适用于饼干，蛋糕以及其他顶部可打印的固体物品。
+'''
+translate = '''
+Use this flow for cookies, cakes, and other solid items with a printable top surface.
+'''
+
+[[block]]
+key = "4b55d8f7ad679c96"
+origin = '''
+1. 在首页选择 `饼干 / 蛋糕`。
+2. 在 `形状` 中选择 `方形` 或 `圆形`，使其与物品外形匹配。如果是不规则饼干，请使用[自定义形状准备工作流](#自定义形状准备工作流)。
+3. 在 `网格` 中选择列数和行数。第一次打印建议保留 `1 × 1`。批量打印时可增加行数或列数，并选择 `预览网格` 检查间距和物品最大尺寸。
+4. 在 `尺寸` 中输入物品完整的宽度，长度和最高点。即使图稿只覆盖较小区域，也应测量整个物品，这样更容易将物品放进打印出的标记内。如果可打印区域需要避开物品外边缘，请使用 `内缩边框`。
+'''
+translate = '''
+1. Select `Cookie / Cake` on the landing page.
+2. In `Shape`, select `Square` or `Round` to match the outside of the item. For an irregular cookie, use the [Custom shape preparation workflow](#custom-shape-preparation-workflow).
+3. In `Grid`, choose the number of columns and rows. Leave the grid at `1 × 1` for a first print. For a batch, increase the rows or columns and select `Preview grid` to check the spacing and maximum item size.
+4. In `Dimensions`, enter the item's full width, length, and highest point. Measuring the full item makes it easier to place within the printed marker, even when the artwork covers only a smaller area. Use `Inset Border` if the printable area should remain inside the outside edge.
+'''
+
+[[block]]
+key = "acc8559ced07d8dd"
+origin = '''
+:::warning[测量最高点]
+
+高度不正确可能导致打印头拖过物品。如果表面不平整，请在测量高度上增加 1 mm。
+
+:::
+'''
+translate = '''
+:::warning[Measure the highest point]
+
+An incorrect height can cause the printhead to drag across the item. Add 1 mm to the measured height when the surface is uneven.
+
+:::
+'''
+
+[[block]]
+key = "53b79eb7513cc267"
+origin = '''
+5. 在 `图稿` 中点击预览区域或 `更换图片`，选择要打印的图片。拖动图片进行定位，并使用滑块或双指手势调整缩放。红色轮廓表示测量后的物品外形，蓝色内缩线表示可选的内缩边框。
+6. 需要无障碍查看图稿时选择 `隐藏标记`，需要恢复参考线时选择 `显示标记`。`重新居中` 只会清除图片移动量，并保留当前缩放。`全部重置` 会让图片回到中心和 100% 缩放；不会更改形状，网格或尺寸。
+'''
+translate = '''
+5. In `Artwork`, select the preview or `Change image` and choose the image to print. Drag the image to position it and use the slider or a pinch gesture to change its scale. The red outline represents the measured item, and the blue inset guide represents the optional inset border.
+6. Select `Hide marker` when you want an unobstructed artwork preview and `Show marker` to restore the guides. `Recenter` removes only the artwork's movement and keeps its scale. `Reset All` returns the artwork to the centre at 100% scale; it does not change the selected shape, grid, or dimensions.
+'''
+
+[[block]]
+key = "14ecb1cf54545bbc"
+origin = '''
+<ImageView src={require('./img/print-workflow-a-to-e.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/print-workflow-a-to-e.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "941fbc050f60969d"
+origin = '''
+7. 在 `发送` 中选择适合当前任务的打印选项：
+    - `草稿模式` 会准备速度更快的预览质量打印。
+    - 只有受支持的打印机才会显示 `高墨量模式`。它会喷涂更多食用墨水，可用于普通打印颜色过浅的情况。
+    - `设为收藏` 会用你提供的名称保留该打印任务，避免被下一次发送的打印任务替换。请输入 3 到 18 个受支持的字符。只要继续使用相同的 SD 卡，收藏任务就会保持可用。
+8. 需要放置参考时，选择 `将标记文件发送到机器`。标记会直接打印到食品安全表面上，显示每件物品的放置位置。
+9. 选择 `将图像文件发送到机器` 以发送全彩图稿。如果已经有可靠的物品定位方式，可以不发送标记文件。
+'''
+translate = '''
+7. In `Send`, choose the print options that suit the job:
+    - `Draft Mode` prepares a quicker preview-quality print.
+    - `High Ink Intensity` is shown only on supported printers. It lays down more edible ink and can help when an ordinary print is too pale.
+    - `Make favorite` keeps the print under a name you choose instead of allowing the next sent print to replace it. Enter a supported name containing 3 to 18 characters. The favorite remains available while the same SD cards remain installed.
+8. Send the marker file when you need a placement guide. It prints directly onto the food-safe sheet and shows where each item belongs.
+9. Send the image file for the full-colour artwork. If you already have a reliable way to place the item, the marker file is optional.
+'''
+
+[[block]]
+key = "9225f029ad10802a"
+origin = '''
+设置尚未完成时，发送操作仍会显示，但外观会变淡。选择被阻止的操作后，页面会短暂显示具体缺少的项目。选择其中任一原因即可返回需要补充的图稿或尺寸。只有图稿，宽度和长度全部有效后，Panda Treat 才会准备文件。
+'''
+translate = '''
+The actions remain visible while setup is incomplete, but they have a muted appearance. Selecting a blocked action briefly displays the exact missing items. Select any displayed reason to return to the artwork or dimension that needs attention. No file is prepared until all required artwork, width, and length information is valid.
+'''
+
+[[block]]
+key = "92ffd037a499399d"
+origin = '''
+<ImageView src={require('./img/print-workflow-f-to-g.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/print-workflow-f-to-g.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "21ca41c086d325a1"
+origin = '''
+确认任一发送操作后，请保持页面打开，等待 Panda Treat 完成文件准备和上传。
+'''
+translate = '''
+After confirming either send action, keep the page open while Panda Treat prepares and uploads the files.
+'''
+
+[[block]]
+key = "fff1bf3405216026"
+origin = '''
+<ImageView src={require('./img/uploading-print.webp').default} width="35%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/uploading-print.webp').default} width="35%"/>
+'''
+
+[[block]]
+key = "5e6f021ba1951e98"
+origin = '''
+### 饮品流程
+'''
+translate = '''
+### Beverage workflow
+'''
+
+[[block]]
+key = "b5d3f2b4b9eae0d0"
+origin = '''
+此流程用于将图稿打印到平滑，稳定的饮品表面，例如拿铁或啤酒泡沫。请在即将打印时再准备饮品，避免打印机设置期间泡沫塌陷。
+'''
+translate = '''
+Use this flow for artwork printed onto a smooth, stable drink surface such as latte or beer foam. Prepare the drink shortly before printing so the foam does not collapse while the printer is being set up.
+'''
+
+[[block]]
+key = "7cbaa6909e74cc5e"
+origin = '''
+1. 在首页选择 `饮品`。
+2. 在 `形状` 中选择 `圆形` 或 `方形`，使其与可用顶部表面匹配。
+3. 在 `网格` 中选择要放在打印表面上的饮品数量。建议先使用 `1 × 1`；批量打印前请选择 `预览网格`。
+4. 测量泡沫可用表面的完整宽度和长度。高度应从食品安全表面量到泡沫最高可打印位置，并包含杯子或玻璃杯本身。将这些数值输入 `尺寸`。
+5. 如果 Panda Treat 提示饮品高度较低，请重新测量。只有当输入值确实是从食品安全表面到泡沫表面的距离时才继续。
+6. 在 `图稿` 中点击预览区域或 `更换图片`，然后定位并缩放图片。重要细节应避开不平整，气泡较多或靠近杯沿的泡沫。
+7. 需要时，可按照饼干 / 蛋糕流程使用 `草稿模式`，受支持打印机显示的 `高墨量模式` 或 `设为收藏`。
+8. 在成型板上没有饮品时发送并打印标记文件。标记会显示杯子或玻璃杯的放置位置。
+9. 将饮品稳固放入标记内，不要移动食品安全表面。确认容器稳定，泡沫仍然平滑，并且任何部分都不会碰到移动的打印头。
+10. 发送图像文件，然后继续下方的[打印工作流](#打印工作流)。
+'''
+translate = '''
+1. Select `Beverage` on the landing page.
+2. In `Shape`, select `Round` or `Square` to match the usable top surface.
+3. In `Grid`, choose how many drinks will be placed on the print surface. Start with `1 × 1`, and select `Preview grid` before attempting a batch.
+4. Measure the complete usable width and length of the foam surface. Measure the height from the food-safe sheet to the highest printable part of the foam, including the cup or glass. Enter these values in `Dimensions`.
+5. If Panda Treat warns that the beverage height is unusually low, measure it again. Continue only when the entered value really is the distance from the food-safe sheet to the foam surface.
+6. In `Artwork`, select the preview or `Change image`, then position and scale the image. Keep important detail away from foam that is uneven, bubbly, or close to the rim.
+7. Choose `Draft Mode`, conditional `High Ink Intensity`, or `Make favorite` in the same way as the Cookie/Cake flow when they suit the job.
+8. Send and print the marker file with no drink on the build plate. The marker shows where the cup or glass must stand.
+9. Place the drink securely inside the marker without moving the sheet. Make sure the container is stable, the foam is still smooth, and no part of it will contact the moving printhead.
+10. Send the image file, then continue with the [Printing workflow](#printing-workflow).
+'''
+
+[[block]]
+key = "2e9d38df47b1f1d4"
+origin = '''
+### 自定义形状准备工作流
+'''
+translate = '''
+### Custom shape preparation workflow
+'''
+
+[[block]]
+key = "bd5819ee3ffc42ff"
+origin = '''
+当饼干外形不是简单的圆形或方形时，请使用此工作流。你可以让 Panda Treat 从图片中识别外轮廓，也可以使用 Cookiecad 创建更复杂的模具。
+'''
+translate = '''
+Use this workflow when the outside of a cookie is not a simple circle or square. `Custom` is available only in the `Cookie / Cake` flow. Panda Treat can detect the outside edge from an image, or you can use Cookiecad to create a more complex cutter.
+'''
+
+[[block]]
+key = "0c7decae680cdc89"
+origin = '''
+无论选择哪种方式，都先完成以下操作：
+'''
+translate = '''
+Start both routes in the same way:
+'''
+
+[[block]]
+key = "a312c1af1828fadf"
+origin = '''
+1. 在打印机成型板范围内铺好食品安全的硅胶烘焙垫或烘焙纸。
+2. 确认操作设备与 Panda Treat 位于同一 WiFi 网络，然后扫描 Panda Treat 显示屏上的 QR code，或打开之前保存的 Panda Treat 页面。
+3. 在首页选择 `饼干 / 蛋糕`，然后在 `形状` 步骤选择 `自定义`。
+4. 在弹出的窗口中选择 `Panda Treat 流程` 或 `Cookiecad 流程`。
+'''
+translate = '''
+1. Cover the area inside the printer build plate with a food-safe silicone baking sheet or parchment paper.
+2. Make sure your device is on the same WiFi network as the Panda Treat, then scan the QR code on the Panda Treat display or open the Panda Treat page that you saved earlier.
+3. Choose `Cookie / Cake` on the landing page, then choose `Custom` in the `Shape` step.
+4. Choose either `Panda Treat flow` or `Cookiecad flow` in the window that opens.
+'''
+
+[[block]]
+key = "af01ea72d6cb1034"
+origin = '''
+<ImageView src={require('./img/panda-treat-custom-workflow-chooser.webp').default} width="70%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-custom-workflow-chooser.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "0a34707b3b41cae5"
+origin = '''
+#### Panda Treat 流程
+'''
+translate = '''
+#### Panda Treat flow
+'''
+
+[[block]]
+key = "19dd2e191dc58a8c"
+origin = '''
+如果图片中的物体具有清晰，连续的外轮廓，并且背景简单，请使用此流程。Panda Treat 会从图片中找到主要物体，并让饼干模具，放置标记和最终打印图案保持匹配。
+'''
+translate = '''
+Use this route when the object in your image has one clear, unbroken outside edge and a simple background. Panda Treat finds the main object and keeps the cookie cutter, placement marker, and final printed artwork matched to one another.
+'''
+
+[[block]]
+key = "f48362c49513d76f"
+origin = '''
+1. 选择 `Panda Treat 流程`。
+2. 在 `网格` 步骤选择一次要打印的饼干数量。第一次使用时，建议保留 `1 × 1`。如果要一次打印多块饼干，请增加行数或列数，然后选择 `预览网格` 检查布局。如果 Panda Treat 显示较小的最大值，请使用它允许的值。
+3. 点击图稿预览区域或 `更换图片`，选择要印在饼干上的图片。效果最好的是背景颜色均匀，只包含一个主要物体且完整外边缘清晰可见的图片。尽量避免杂乱背景和明显阴影。
+4. 等待 Panda Treat 处理图片。红色线条应沿着物体完整的外边缘，既不能包住不需要的背景，也不能切进物体本身。请逐步调节 `背景灵敏度`，使用能够去除多余背景，同时保留完整物体的最低数值。可以选择 `隐藏标记` 暂时隐藏红线检查图稿，再选择 `显示标记` 恢复红线。
+'''
+translate = '''
+1. Choose `Panda Treat flow`.
+2. In the `Grid` step, choose how many cookies you want to print at once. Leave this at `1 × 1` for your first attempt. For a batch, increase the rows or columns and select `Preview grid` to check the layout. If Panda Treat shows a smaller maximum, use the value it allows.
+3. Select the artwork preview or `Change image`, then choose the image that you want to print on the cookie. An image works best when it has an even, plain background, one main object, and a complete outside edge that is easy to see. Avoid busy backgrounds and strong shadows where possible.
+4. Wait while Panda Treat prepares the image. The red line should follow the complete outside edge of the object without surrounding unwanted background or cutting into the object itself. Adjust `Background Sensitivity` gradually. Use the lowest value that removes the unwanted background while preserving the complete object. You can select `Hide marker` to check the artwork without the red line and `Show marker` to bring it back.
+'''
+
+[[block]]
+key = "b6f794fc8ae95f67"
+origin = '''
+下面的橄榄球展示了为什么需要仔细调整。数值为 `17` 时，红线能完整，干净地沿着橄榄球外缘：
+'''
+translate = '''
+The football below shows why this adjustment matters. At `17`, the red line cleanly follows the complete football:
+'''
+
+[[block]]
+key = "c2330a3e558bf36f"
+origin = '''
+<ImageView
+    src={require('./img/panda-treat-custom-background-sensitivity-17.webp').default}
+    alt="Panda Treat 自定义形状编辑器在背景灵敏度 17 时显示完整的橄榄球轮廓"
+    width="70%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-custom-background-sensitivity-17.webp').default}
+    alt="Panda Treat custom-shape editor showing a complete football outline at Background Sensitivity 17"
+    width="70%"
+/>
+'''
+
+[[block]]
+key = "11147139b65e91b1"
+origin = '''
+背景灵敏度 17 保留了完整橄榄球，包括两端的浅色条纹。
+'''
+translate = '''
+Background Sensitivity 17 keeps the complete football, including both pale stripes.
+'''
+
+[[block]]
+key = "3e04afb5f99b4c77"
+origin = '''
+数值为 `48` 时，灵敏度对浅色区域过高。部分白色条纹和上方边缘被当成背景，因此红线切进了橄榄球：
+'''
+translate = '''
+At `48`, the setting is too sensitive to the pale colours. Parts of the white stripe and upper edge are treated as background, so the red line cuts into the football:
+'''
+
+[[block]]
+key = "30f0a95028769351"
+origin = '''
+<ImageView
+    src={require('./img/panda-treat-custom-background-sensitivity-48.webp').default}
+    alt="Panda Treat 自定义形状编辑器在背景灵敏度 48 时，轮廓切入橄榄球浅色区域"
+    width="70%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-custom-background-sensitivity-48.webp').default}
+    alt="Panda Treat custom-shape editor showing the outline cutting into pale areas of a football at Background Sensitivity 48"
+    width="70%"
+/>
+'''
+
+[[block]]
+key = "bf8cdded9b053ecc"
+origin = '''
+背景灵敏度 48 去掉了物体的一部分，不适合这张图片。
+'''
+translate = '''
+Background Sensitivity 48 removes part of the object and should not be used for this image.
+'''
+
+[[block]]
+key = "1c8db79af8b197f2"
+origin = '''
+如果较低数值仍然包住一些背景，请每次只把滑块向上移动一点。背景刚好消失时就应停止；如果红线开始切进物体，请把滑块调低。
+'''
+translate = '''
+If a low setting still surrounds some background, move the slider upward a little at a time. Stop as soon as the background is gone; if the line begins cutting into the object, move the slider back down.
+'''
+
+[[block]]
+key = "0ee2db3c7a0f9952"
+origin = '''
+Panda Treat 自定义形状编辑器中的 `重新居中` 处于不可用状态，因为检测到的轮廓必须与图稿保持对齐。`全部重置` 只会将 `背景灵敏度` 恢复为默认值；不会清除图片，尺寸，网格或检测到的形状。
+'''
+translate = '''
+`Recenter` is inactive in the Panda Treat custom-shape editor because the detected outline and artwork must remain aligned. `Reset All` restores only `Background Sensitivity` to its default value; it does not clear the image, dimensions, grid, or detected shape.
+'''
+
+[[block]]
+key = "406b956d672a39af"
+origin = '''
+5. 在 `尺寸` 步骤输入计划制作的饼干宽度或长度。Panda Treat 会根据检测到的形状自动调整另一项尺寸，因此宽度和长度不能分别拉伸。自定义形状不使用内缩边框。
+6. 再次检查网格和尺寸。如果出现尺寸警告，请减少网格数量或缩小饼干，直到警告消失。
+7. 选择 `创建模具`。模具准备完成后，可以拖动 3D 预览来旋转，并使用滚轮缩放。确认外形正确，然后选择 `下载 STL`。STL 是供 3D 打印机使用的模具模型文件。无需手动镜像图片；下载的模具已经为翻转后压入面团的使用方式做好了方向处理。
+'''
+translate = '''
+5. In the `Dimensions` step, enter either the width or the length that you want for the finished cookie. Panda Treat changes the other measurement automatically to keep the detected shape in proportion. The width and length therefore cannot be stretched separately, and custom shapes do not use an inset border.
+6. Check the grid and dimensions again. If a size warning appears, use fewer grid positions or a smaller cookie until the warning clears.
+7. Select `Create cutter`. When the cutter is ready, drag the 3D preview to rotate it and use the scroll wheel to zoom. Check the shape, then select `Download STL`. An STL is the model file used by a 3D printer. Do not mirror the image yourself; the downloaded cutter is already prepared for being turned over and pressed into the dough.
+'''
+
+[[block]]
+key = "10c95a8f83f38659"
+origin = '''
+如果 Panda Treat 无法制作模具，请尝试使用外轮廓更简单，背景更干净的图片。
+'''
+translate = '''
+If Panda Treat cannot make the cutter, try an image with a simpler outside edge and a cleaner background.
+'''
+
+[[block]]
+key = "9de45b0471787996"
+origin = '''
+:::tip[此时可以暂停]
+
+下载 STL 后，你可以暂停 Panda Treat 流程，3D 打印模具，用它切出并烘烤饼干，等饼干准备好后再回来继续。
+
+请关闭模具预览，但保持当前 Panda Treat 标签页打开，不要刷新页面，也不要点击离开此页面。当前自定义设置不会保存为可重新打开的项目。如果浏览器刷新或关闭了该标签页，你需要使用相同图片和设置重新完成自定义形状步骤。建议同时记下尺寸和 `背景灵敏度`，或截一张图作为备份。
+
+:::
+'''
+translate = '''
+:::tip[You can pause here]
+
+After downloading the STL, you can pause the Panda Treat workflow, 3D print the cutter, use it to cut and bake the cookies, and return when the cookies are ready.
+
+Close the cutter preview, but keep this Panda Treat tab open. Do not refresh the page or navigate away from it. The current custom setup is not saved as a project that you can reopen. If the browser reloads or closes the tab, repeat the custom-shape steps with the same image and settings. As a backup, write down the dimensions and `Background Sensitivity`, or take a screenshot.
+
+:::
+'''
+
+[[block]]
+key = "e77fb06aefde4a99"
+origin = '''
+8. 饼干烘烤并冷却后，返回保持打开的 Panda Treat 页面。测量实际饼干最高点，并在 `点心高度` 中输入该高度。如果表面不平整，请在测量值上增加 1 mm。
+9. 最后检查红色轮廓，尺寸和网格预览，确保它们与已经烤好的饼干一致。
+'''
+translate = '''
+8. After the cookies have baked and cooled, return to the Panda Treat page that you left open. Measure the highest point of an actual cookie and enter it as the `Treat height`. Add 1 mm if the surface is uneven.
+9. Check the red outline, dimensions, and grid preview one final time against the baked cookies.
+'''
+
+[[block]]
+key = "f11a3135971967c9"
+origin = '''
+#### Cookiecad 流程
+'''
+translate = '''
+#### Cookiecad flow
+'''
+
+[[block]]
+key = "cf2aa6f5fbd15a41"
+origin = '''
+如果需要的模具比 Panda Treat 能从简单图片中识别的外形更复杂，请使用此流程。你需要互联网连接和 Cookiecad 帐户。Cookiecad 设计器会在 Panda Treat 页面内打开。
+'''
+translate = '''
+Use this route when the cutter is more complex than the kind of outline Panda Treat can detect from a simple image. It requires an internet connection and a Cookiecad account. The Cookiecad Designer opens inside the Panda Treat page.
+'''
+
+[[block]]
+key = "91efc2155bb6b7cd"
+origin = '''
+1. 选择 `Cookiecad 流程`，并在 Cookiecad 提示时登录或创建帐户。
+2. 在 Cookiecad 中选择一个现有形状，或上传自己的图片。使用图片时，请尽量选择主要形状清晰，外边缘完整的图案；过小的细节可能很难 3D 打印，也可能无法在面团上清楚成形。
+3. 设置成品模具的实际尺寸。Cookiecad 返回的宽度和长度将成为 Panda Treat 中使用的饼干尺寸，因此应在继续前确认大小正确。
+4. 检查外轮廓和任何需要切出的内部孔洞。Panda Treat 稍后会将彩色图稿印到饼干上，因此一般应让饼干顶部保持平整，除非你特意希望模具压出内部细节。
+5. 旋转 Cookiecad 的 3D 预览，从各个角度检查模具。确认切割边缘连续，重要部分相互连接，并避免过细或孤立的细节。如果内部部分需要支撑，可以使用 Cookiecad 的 center bar 功能连接它们。
+6. 对设计满意后，按照 Cookiecad 屏幕上的提示为 Panda Treat 准备并返回设计。
+7. 等待设计返回 Panda Treat。Panda Treat 会接收相互匹配的图稿，外轮廓，宽度，长度和模具文件。如果出现错误，请按屏幕提示在 Cookiecad 中调整设计，然后重新导出。过小或超出打印机可打印范围的设计不会被接受。
+8. 当 Panda Treat 显示 `Cookiecad 模具已就绪` 时，返回的图稿，外轮廓，宽度和长度会锁定在一起。选择 `下载 STL` 保存模具文件。
+'''
+translate = '''
+1. Choose `Cookiecad flow`, then sign in or create an account if Cookiecad asks you to.
+2. In Cookiecad, choose an existing shape or upload your own image. For an uploaded image, use a design with a clear main shape and a complete outside edge. Very small details may be difficult to 3D print or may not show clearly in the dough.
+3. Set the real-world size of the finished cutter. The width and length returned by Cookiecad become the cookie dimensions used by Panda Treat, so check the size before continuing.
+4. Check the outside edge and any inner holes that need to be cut out. Panda Treat will add the full-colour artwork later, so it is usually best to keep the top of the cookie smooth unless you deliberately want the cutter to press inner details into it.
+5. Rotate Cookiecad's 3D preview and inspect the cutter from several angles. Make sure the cutting edge is continuous, important parts are connected, and details are not too thin or isolated. If an inner part needs support, Cookiecad's center bar option can connect it.
+6. When you are happy with the design, follow Cookiecad's on-screen prompt to prepare and return it to Panda Treat.
+7. Wait for the design to return to Panda Treat. Panda Treat receives matching artwork, outline, width, length, and cutter file. If an error appears, follow the message, adjust the design in Cookiecad, and export it again. A design that is too small or too large for the printer's printable area will not be accepted.
+8. When Panda Treat shows `Cookiecad cutter ready`, the returned artwork, outline, width, and length are locked together. Select `Download STL` to save the cutter file.
+'''
+
+[[block]]
+key = "090b44cbb688547b"
+origin = '''
+如需了解 Cookiecad 自身的设计选项，请参阅 [Cookiecad Designer features overview](https://docs.cookiecad.com/cookiecad-designer/features-overview/)。
+'''
+translate = '''
+For more help with Cookiecad's design options, see the [Cookiecad Designer features overview](https://docs.cookiecad.com/cookiecad-designer/features-overview/).
+'''
+
+[[block]]
+key = "dff2dcf97ab330a3"
+origin = '''
+如果在设计完成前选择 `返回 Panda Treat`，未完成的设计不会传回。之后再次选择 Cookiecad 时，将开始一个新会话。
+'''
+translate = '''
+If you select `Back to Panda Treat` before the design is complete, the unfinished design is not transferred. Selecting Cookiecad again later starts a new session.
+'''
+
+[[block]]
+key = "db445e7d1c6d0e7a"
+origin = '''
+:::tip[此时可以暂停]
+
+下载 STL 后，你可以暂停流程，3D 打印模具，用它切出并烘烤饼干，等饼干准备好后再返回。
+
+请保持当前 Panda Treat 标签页打开，不要刷新或离开页面。Cookiecad 返回到 Panda Treat 的设置不会保存为可重新打开的项目。如果标签页被关闭或重新加载，你需要再次从 Cookiecad 将设计返回 Panda Treat。
+
+:::
+'''
+translate = '''
+:::tip[You can pause here]
+
+After downloading the STL, you can pause the workflow, 3D print the cutter, use it to cut and bake the cookies, and return when they are ready.
+
+Keep the current Panda Treat tab open and do not refresh it or navigate away. The setup returned from Cookiecad is not saved as a project that Panda Treat can reopen. If the tab closes or reloads, return the design from Cookiecad to Panda Treat again.
+
+:::
+'''
+
+[[block]]
+key = "0018d7f5b1503623"
+origin = '''
+9. 饼干烘烤并冷却后，返回 Panda Treat，测量最高点并填写 `点心高度`。如果表面不平整，请增加 1 mm。
+10. 在 `网格` 步骤选择要同时打印的饼干数量，并选择 `预览网格` 检查布局。Panda Treat 会根据 Cookiecad 返回的模具尺寸限制可用的行数和列数。
+11. Cookiecad 返回的宽度，长度，图稿和外轮廓不能在 Panda Treat 中单独更改。加载锁定设计后，`重新居中` 和 `全部重置` 均处于不可用状态。如需其他设计，请再次选择 `自定义`，重新打开工作流选择器，然后重新开始需要的 Panda Treat 或 Cookiecad 流程。
+'''
+translate = '''
+9. After the cookies have baked and cooled, return to Panda Treat, measure the highest point, and enter it as the `Treat height`. Add 1 mm if the surface is uneven.
+10. In the `Grid` step, choose how many cookies to print at once and select `Preview grid` to check the layout. Panda Treat limits the available rows and columns to suit the cutter size returned by Cookiecad.
+11. The width, length, artwork, and outline returned by Cookiecad cannot be changed separately in Panda Treat. `Recenter` and `Reset All` are inactive while this locked design is loaded. To use another design, select `Custom` again, reopen the workflow chooser, and start the required Panda Treat or Cookiecad route again.
+'''
+
+[[block]]
+key = "6eb621a55e72f991"
+origin = '''
+#### 完成并发送打印文件
+'''
+translate = '''
+#### Finish and send the print files
+'''
+
+[[block]]
+key = "604994e9d7083934"
+origin = '''
+无论使用哪种自定义流程，最后的发送步骤都相同：
+'''
+translate = '''
+The final send steps are the same for both custom routes:
+'''
+
+[[block]]
+key = "3802aaf1bde49d27"
+origin = '''
+1. 确认 `点心高度` 是烘烤后饼干的实际高度，并最后检查网格。
+2. 如果希望以后从打印机再次使用此打印，可以启用 `设为收藏` 并为它命名。
+3. 建议先选择 `将标记文件发送到机器`。它会在食品安全表面上显示每块饼干的准确放置位置。
+4. 选择 `将图像文件发送到机器`。发送任一打印任务时，所需的准备文件都会自动包含。
+5. 文件上传完成后，请继续按照下方的打印工作流操作。先在表面上没有饼干的情况下运行标记打印，再将烤好的饼干放入轮廓内，最后运行图像打印。
+'''
+translate = '''
+1. Confirm that `Treat height` is the actual height of the baked cookies and check the grid one last time.
+2. If you want to use this print again from the printer, turn on `Make favorite` and give it a name.
+3. It is recommended to send the marker file first. It shows the exact position of every cookie on the food-safe surface.
+4. Send the image file. The required preparation file is included automatically when you send either print.
+5. When the uploads finish, continue with the Printing workflow below. Run the marker print with no cookies on the surface, place the baked cookies inside the outlines, and then run the image print.
+'''
+
+[[block]]
+key = "be23aa22ed9904b5"
+origin = '''
+### 打印工作流
+'''
+translate = '''
+### Printing workflow
+'''
+
+[[block]]
+key = "0f8bc99f1cd65cf3"
+origin = '''
+图像以及可选的标记文件准备好并发送到打印机后，就可以开始打印了。请按照此流程操作，以确保打印成功。
+'''
+translate = '''
+Once the image and optionally the marker files have been prepared and sent to the printer, you are ready to start printing. Follow this workflow to make sure that you get successful prints.
+'''
+
+[[block]]
+key = "4ae970a2438e6814"
+origin = '''
+1. 使用墨盒维护和护理部分中提到的方法擦拭墨盒底部。
+'''
+translate = '''
+1. Wipe the bottom of your cartridge using the method mentioned in the cartridge maintenance and care section.
+'''
+
+[[block]]
+key = "b08c11ddbb6ddc1b"
+origin = '''
+    <ImageView src={require('./img/wiping-cartridge.webp').default} width="50%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/wiping-cartridge.webp').default} width="50%"/>
+'''
+
+[[block]]
+key = "f463fc4054ea4132"
+origin = '''
+2. 进入打印机的打印菜单，你会看到每张发送图像最多对应三种不同打印文件。
+'''
+translate = '''
+2. Navigate to the print menu of your printer where you will see up to three different prints for each image that you send.
+'''
+
+[[block]]
+key = "7d144394f84296c7"
+origin = '''
+    <ImageView src={require('./img/print-files-on-printer.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/print-files-on-printer.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "a3d97a56587fe9f3"
+origin = '''
+    - `准备打印`：此文件会让打印机归位，并将热床移动到可以放置物体的位置。如果你在过去 15 分钟内没有准备过打印机，则在执行第一次图像打印之前必须先运行它。
+    - `标记打印`：此文件会准备打印机，并在食品安全表面上打印标记，用来指示物体的放置位置。
+    - `图像打印`：这是最终打印到物体上的打印文件。只有在打印机已经完成准备后才应运行它。
+'''
+translate = '''
+    - `Preparation print`: This will home the printer and move the bed to a position where you can place the object on it. It is required before you perform the first image print if you have not prepared the printer in the last 15 minutes.
+    - `Marker print`: This will prepare the printer and print markers onto your food-safe surface to show you where to position your object.
+    - `Image print`: This is the print that will ultimately go onto your object. It should only ever be run after you have prepared the printer.
+'''
+
+[[block]]
+key = "fb1c2ff2463368e0"
+origin = '''
+    :::info[Note]
+
+    运行标记打印时，表面上绝不能放置物体，否则物体会与打印头碰撞。
+
+    :::
+'''
+translate = '''
+    :::info[Note]
+
+    Never have the object on the surface when you run the marker print as it will collide with the printhead.
+
+    :::
+'''
+
+[[block]]
+key = "8b5ea6c1929f7d05"
+origin = '''
+3. 如果需要打印标记文件，请选择该选项，并确保右侧所有选项都处于禁用状态：选择它们，并确认任何选项周围都没有绿色轮廓。
+'''
+translate = '''
+3. If you need to print the marker file, tap that option and make sure that all of the options on the right-hand side are disabled by tapping them and ensuring that there is no green outline around any of them.
+'''
+
+[[block]]
+key = "eeb4ba46d0c0e57a"
+origin = '''
+    <ImageView src={require('./img/disable-options.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/disable-options.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "9fc985809831d54e"
+origin = '''
+4. 如果正在打印标记文件或准备文件，请趁此机会确认打印表面上完全没有任何物体。确认后，选择打印。
+'''
+translate = '''
+4. If you are printing the marker file or the preparation file, take this chance to make sure that there is no object at all on the print surface. Once you are sure, tap print.
+'''
+
+[[block]]
+key = "b63c7055e7bb99f1"
+origin = '''
+    <ImageView src={require('./img/filament-review-screen.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/filament-review-screen.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "d22f8896bcac5cf1"
+origin = '''
+5. 打印机会执行一些准备步骤，然后打印所选文件。如果在准备过程中任何时候听到 Panda Treat 发出响亮蜂鸣声，这是警告你尚未运行所需的准备打印文件。你应立即停止打印，并运行所需的准备文件。如果打印机尚未准备好，你会在 Panda Treat 屏幕上看到提示。
+'''
+translate = '''
+5. The printer will perform some preparation steps and then print the desired file. If you hear loud beeping coming from the Panda Treat at any point during the preparation then this is a warning that you have not run the required preparation print file and you should stop the print immediately and run the required preparation file. If the printer has not been prepared, you will see this on the Panda Treat screen.
+'''
+
+[[block]]
+key = "4261740d7fc494e3"
+origin = '''
+    <ImageView src={require('./img/not-prepared-rounded.webp').default} width="15%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/not-prepared-rounded.webp').default} width="15%"/>
+'''
+
+[[block]]
+key = "2f62ffcf3db47727"
+origin = '''
+6. 如果文件成功打印，你将得到以下结果之一：
+'''
+translate = '''
+6. If the file prints successfully, you will either have:
+'''
+
+[[block]]
+key = "03838512ad730c52"
+origin = '''
+    - 打印表面上的标记。
+    - 处于已准备状态的打印机。
+    - 已打印图像的物体。
+'''
+translate = '''
+    - A marker on the print surface.
+    - A printer in a prepared state.
+    - An object with your image printed onto it.
+'''
+
+[[block]]
+key = "25220f824a2f2a87"
+origin = '''
+7. 如果刚才打印的是标记文件，那么打印表面上会出现如下所示的红色标记。
+'''
+translate = '''
+7. Assuming that you simply printed the marker file, you will have a marker in red on your print surface that looks like this.
+'''
+
+[[block]]
+key = "fd3ea746cf2d3dfc"
+origin = '''
+    <ImageView src={require('./img/marker-outline.webp').default} width="45%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/marker-outline.webp').default} width="45%"/>
+'''
+
+[[block]]
+key = "372eda074bd18d88"
+origin = '''
+8. 如下图所示，将物体放入轮廓内。
+'''
+translate = '''
+8. Place the object within the outline as shown below.
+'''
+
+[[block]]
+key = "f31e0f2f427405a9"
+origin = '''
+    <ImageView src={require('./img/object-on-plate.webp').default} width="45%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/object-on-plate.webp').default} width="45%"/>
+'''
+
+[[block]]
+key = "96b1d54c602ca311"
+origin = '''
+9. 打印图像文件，并观察点心接收打印图案。
+'''
+translate = '''
+9. Print the image file and watch as your treat receives the print.
+'''
+
+[[block]]
+key = "3dd0e8454d72b721"
+origin = '''
+    <ImageView src={require('./img/printed-object.webp').default} width="45%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/printed-object.webp').default} width="45%"/>
+'''
+
+[[block]]
+key = "f78ddeed2c438fb7"
+origin = '''
+如果希望颜色更加饱和，请保持点心位置不变，并在打印机屏幕上选择 `重新打印`。
+'''
+translate = '''
+If you want the colours to be more saturated, leave your treat in position and tap `Reprint` on the printer screen.
+'''
+
+[[block]]
+key = "73b45885ed92f2ea"
+origin = '''
+## 故障排查
+'''
+translate = '''
+## Troubleshooting
+'''
+
+[[block]]
+key = "92e3a291ca26ae97"
+origin = '''
+Panda Treat 首页包含完整的 `故障排查` 部分，并通过图示说明常见打印质量和连接问题。下方也汇总了主要恢复步骤，便于快速查阅。
+'''
+translate = '''
+The Panda Treat home page contains a comprehensive `Troubleshooting` section with illustrated checks for common print-quality and connection problems. The key recovery steps are also included below for easy reference.
+'''
+
+[[block]]
+key = "4c6d740bf25d1533"
+origin = '''
+### 墨盒喷嘴堵塞
+'''
+translate = '''
+### Clogged ink nozzles
+'''
+
+[[block]]
+key = "e46c05436c32744d"
+origin = '''
+随机出现白色条纹，缺色或覆盖不均，通常表示一个或多个喷嘴出墨不顺畅。食用墨水干燥很快，因此墨盒长时间暴露时喷嘴可能堵塞。
+'''
+translate = '''
+Random white streaks, missing colours, or patchy coverage usually mean that one or more nozzles are not flowing cleanly. Edible ink dries quickly, so nozzles can clog when the cartridge is left exposed.
+'''
+
+[[block]]
+key = "ef7c4d13c7af31b4"
+origin = '''
+<ImageView
+    src={require('./img/panda-treat-troubleshooting-clogged-ink-nozzles.webp').default}
+    alt="喷嘴堵塞时可能出现的缺色和颜色条带不均示例"
+    width="50%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-troubleshooting-clogged-ink-nozzles.webp').default}
+    alt="Example print with missing and uneven colour bands associated with clogged ink nozzles"
+    width="50%"
+/>
+'''
+
+[[block]]
+key = "6e6e4d30076ce048"
+origin = '''
+缺色和颜色条带不均，通常表示一个或多个喷嘴出墨不顺畅。
+'''
+translate = '''
+Missing and uneven colour bands are common signs that one or more nozzles are not flowing correctly.
+'''
+
+[[block]]
+key = "f7311f5567d7932a"
+origin = '''
+1. 取下墨盒，将干净纸巾折成柔软的垫状。
+2. 使用快速，均匀的动作，从喷头后方向前平稳擦拭。不要左右来回摩擦。
+3. 重复数次。纸巾上应清楚出现三条颜色线。
+4. 重新安装墨盒并再次尝试打印。
+'''
+translate = '''
+1. Remove the cartridge and fold a clean paper towel into a soft pad.
+2. Wipe the printhead smoothly from back to front using quick, even strokes. Do not scrub from side to side.
+3. Repeat several times. All three colour lines should become clearly visible on the paper towel.
+4. Reinstall the cartridge and try the print again.
+'''
+
+[[block]]
+key = "978527d387c5461f"
+origin = '''
+<ImageView
+    src={require('./img/panda-treat-troubleshooting-wipe-cartridge.webp').default}
+    alt="演示如何从后向前擦拭墨盒喷头的动画"
+    width="45%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-troubleshooting-wipe-cartridge.webp').default}
+    alt="Animation demonstrating how to wipe the cartridge printhead from back to front"
+    width="45%"
+/>
+'''
+
+[[block]]
+key = "b253dfa9948beb87"
+origin = '''
+从喷头后方向前平稳擦拭。
+'''
+translate = '''
+Wipe smoothly from the back of the printhead towards the front.
+'''
+
+[[block]]
+key = "d5c1378ee68a323f"
+origin = '''
+如果普通擦拭仍无法恢复全部三种颜色：
+'''
+translate = '''
+If ordinary wiping does not restore all three colours:
+'''
+
+[[block]]
+key = "fa3fb65240f73c29"
+origin = '''
+1. 将纸巾折好并用水打湿。纸巾只能微湿，不能滴水。
+2. 将墨盒直立放置，让只有喷嘴的部分接触湿纸巾。如有需要，垫高纸巾，使其始终与喷嘴接触。
+3. 保持五分钟。
+4. 在湿润区域擦拭喷头数次，彻底擦干墨盒外部，然后在干燥区域从后向前擦拭。
+'''
+translate = '''
+1. Fold a paper towel and dampen it with water. It should be slightly damp, not dripping.
+2. Stand the cartridge upright with only the nozzles resting on the damp towel. Support the towel if necessary so it remains in contact with the nozzles.
+3. Leave it for five minutes.
+4. Wipe the printhead several times on the damp section, dry the outside thoroughly, and then wipe it on a dry section from back to front.
+'''
+
+[[block]]
+key = "921440b00d817065"
+origin = '''
+请勿浸泡墨盒，也不要让水接触电气触点。
+'''
+translate = '''
+Do not soak the cartridge or allow water to reach the electrical contacts.
+'''
+
+[[block]]
+key = "bcb3dda668002005"
+origin = '''
+### 间隙与深色线条
+'''
+translate = '''
+### Gaps and dark lines
+'''
+
+[[block]]
+key = "026d21950806c478"
+origin = '''
+打印走线之间规则出现白色间隙或深色条带，可能由打印机运动的细微差异引起。请先清洁墨盒，然后打开 `设置` 并找到 `墨条间距`。
+'''
+translate = '''
+Regular white gaps or dark bands between printed passes can be caused by small differences in printer movement. Clean the cartridge first, then open `Settings` and find `Ink strip spacing`.
+'''
+
+[[block]]
+key = "bd1b08d2dad47a45"
+origin = '''
+<ImageView
+    src={require('./img/panda-treat-troubleshooting-lines-and-streaks.webp').default}
+    alt="打印走线之间出现规则浅色间隙和深色条带的示例"
+    width="50%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-troubleshooting-lines-and-streaks.webp').default}
+    alt="Example print with regular light gaps and dark bands between printed passes"
+    width="50%"
+/>
+'''
+
+[[block]]
+key = "cdd81c9aa7de4098"
+origin = '''
+规则的浅色间隙和深色条带，可能表示相邻打印走线没有正确衔接。
+'''
+translate = '''
+Regular light gaps and dark bands can indicate that adjacent printed passes are not meeting correctly.
+'''
+
+[[block]]
+key = "aa474be23ac89385"
+origin = '''
+1. 确认数值为 `8.40`。如果不是，请选择 `恢复默认值`，保存设置后再次测试。
+2. 如果深色条带发生重叠，请将数值增加 `0.01`，保存后测试。
+3. 如果出现浅色或白色间隙，请将数值减少 `0.01`，保存后测试。
+4. 只有结果持续改善时，才继续每次调整一个小步。
+5. 如果多次调整都没有改善，请恢复 `8.40`；问题很可能不是由墨条间距引起。
+'''
+translate = '''
+1. Confirm that the value is `8.40`. If it is not, select `Reset to default`, save the setting, and test again.
+2. If dark strips overlap, increase the value by `0.01`, save it, and test.
+3. If light or white gaps appear, decrease the value by `0.01`, save it, and test.
+4. Repeat one small step at a time only while the result is improving.
+5. If several adjustments make no improvement, restore `8.40`; strip spacing is probably not the cause.
+'''
+
+[[block]]
+key = "e6e7d495c5bd6ad4"
+origin = '''
+### 墨水飞散或边缘模糊
+'''
+translate = '''
+### Overspray or fuzzy edges
+'''
+
+[[block]]
+key = "4f026e1ad83e6d95"
+origin = '''
+墨水在空气中飞行时会扩散。如果打印头距离物品过高，图稿和文字边缘可能出现云雾状或模糊效果。
+'''
+translate = '''
+Ink spreads as it travels through the air. If the printhead is too far above the item, artwork and text can develop cloudy or fuzzy edges.
+'''
+
+[[block]]
+key = "aa563beaa81632c0"
+origin = '''
+<ImageView
+    src={require('./img/panda-treat-troubleshooting-overspray.webp').default}
+    alt="墨水飞散造成图稿周围云雾状色斑和模糊边缘的示例"
+    width="50%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-troubleshooting-overspray.webp').default}
+    alt="Example artwork with a cloudy halo and fuzzy edges caused by overspray"
+    width="50%"
+/>
+'''
+
+[[block]]
+key = "0686b7e444bbf9ca"
+origin = '''
+清晰图稿周围出现云雾状颜色，是墨水飞散的典型表现。
+'''
+translate = '''
+Cloudy colour around otherwise sharp artwork is a typical sign of overspray.
+'''
+
+[[block]]
+key = "d8fdf680e8c69a03"
+origin = '''
+1. 重新测量最高可打印位置，并确认输入的高度。
+2. 观察打印头经过物品上方时的间隙。打印头距离目标表面不超过 `2 mm`（`0.079 in`）时，Panda Treat 的效果最佳。
+3. 如果物品表面高低不平，可在适合的位置增加填充或糖霜来抬高低处。
+4. 关闭附近的风扇，关闭会产生气流的窗户，或将打印机移到空气静止的位置。
+'''
+translate = '''
+1. Measure the highest printable point again and confirm the entered height.
+2. Watch the clearance as the printhead passes over the item. Panda Treat works best when the printhead is no more than `2 mm` (`0.079 in`) above the target.
+3. If the item has high and low areas, add filling or icing to raise the low areas where practical.
+4. Turn off nearby fans, close windows that create a breeze, or move the printer to an area with still air.
+'''
+
+[[block]]
+key = "2965f1b82d307573"
+origin = '''
+切勿把间隙减小到打印头可能接触物品的程度。
+'''
+translate = '''
+Never reduce the clearance so far that the printhead can touch the item.
+'''
+
+[[block]]
+key = "f664b221f502c9b5"
+origin = '''
+### 图像异常或出现意外颜色
+'''
+translate = '''
+### Corrupted images or unexpected colours
+'''
+
+[[block]]
+key = "cf7a6b6db4589121"
+origin = '''
+额外颜色，雾状痕迹，颜色极浅或随机线条，可能是墨盒与 Panda Treat 之间电气接触不良造成的。
+'''
+translate = '''
+Extra colours, haze, extremely pale output, or random lines can be caused by poor electrical contact between the cartridge and Panda Treat.
+'''
+
+[[block]]
+key = "4e20de2c4ce25a20"
+origin = '''
+<ImageView
+    src={require('./img/panda-treat-troubleshooting-corrupted-images.webp').default}
+    alt="墨盒接触不良时可能出现的意外颜色和断裂条带示例"
+    width="50%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-troubleshooting-corrupted-images.webp').default}
+    alt="Example print with unexpected colours and broken bands associated with poor cartridge contact"
+    width="50%"
+/>
+'''
+
+[[block]]
+key = "2c3ecdead154be7a"
+origin = '''
+意外颜色和断裂条带可能表示墨盒电气接触不良。
+'''
+translate = '''
+Unexpected colours and broken bands can indicate poor electrical contact with the cartridge.
+'''
+
+[[block]]
+key = "666e3f0ceef6e786"
+origin = '''
+1. 关闭打印机电源并取下墨盒。
+2. 用干净的铅笔橡皮轻轻擦拭墨盒铜触点。
+3. 检查 Panda Treat PCB 的下边缘是否完全贴合打印支架。如果存在间隙，请松开安装螺丝，均匀向下按压 PCB，然后重新拧紧螺丝。
+4. 重新安装墨盒，确保铜触点与 Panda Treat 铜针牢固，均匀接触。
+5. 按照上方喷嘴堵塞流程擦拭喷嘴，然后再次测试。
+'''
+translate = '''
+1. Power off the printer and remove the cartridge.
+2. Gently clean the cartridge's copper pads with a clean pencil eraser.
+3. Check that the lower edge of the Panda Treat PCB sits fully against the printed mount. If there is a gap, loosen the mounting screws, press the PCB down evenly, and retighten the screws.
+4. Reinstall the cartridge so its copper pads make firm, even contact with the Panda Treat pins.
+5. Wipe the nozzles using the clogged-nozzle process above, then test again.
+'''
+
+[[block]]
+key = "ae0583a27007ca9e"
+origin = '''
+请勿使用金属工具刮擦铜触点，也不要用手指触摸触点。
+'''
+translate = '''
+Do not scrape the copper pads with metal tools and do not touch them with your fingers.
+'''
+
+[[block]]
+key = "a6acadc1c2d7266d"
+origin = '''
+### 墨盒存放
+'''
+translate = '''
+### Cartridge storage
+'''
+
+[[block]]
+key = "84063875d879dd27"
+origin = '''
+不使用墨盒时，请始终将它直立放入装有硅胶密封件的随附墨盒支架中。不要侧放或倒置，也不要让喷嘴暴露超过必要时间。完整的存放，密封件更换和维护说明请参阅[墨盒处理](./panda-treat-hardware#墨盒处理)。
+'''
+translate = '''
+Store the cartridge upright in the supplied holder with the silicone seal installed whenever it is not being used. Do not store it on its side or upside down, and do not leave the nozzles exposed longer than necessary. See [Ink cartridge handling](./panda-treat-hardware#ink-cartridge-handling) for the complete storage, seal-replacement, and maintenance instructions.
+'''
+
+[[block]]
+key = "36d00c71b40f2e19"
+origin = '''
+<ImageView
+    src={require('./img/panda-treat-troubleshooting-cartridge-storage.webp').default}
+    alt="显示直立存放密封区域的 Panda Treat 墨盒支架"
+    width="50%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-troubleshooting-cartridge-storage.webp').default}
+    alt="Panda Treat cartridge holder showing the sealing area for upright cartridge storage"
+    width="50%"
+/>
+'''
+
+[[block]]
+key = "2778c5ed26198b65"
+origin = '''
+将墨盒直立存放在装有硅胶密封件的支架中。
+'''
+translate = '''
+Store the cartridge upright in its holder with the silicone seal fitted.
+'''
+
+[[block]]
+key = "3b3f8c39c940359f"
+origin = '''
+### 恢复缺失或损坏的打印界面
+'''
+translate = '''
+### Restore a missing or damaged printing interface
+'''
+
+[[block]]
+key = "7bd8a83fbc7e39ce"
+origin = '''
+如果正常的饼干 / 蛋糕，饮品和故障排查首页为空白或缺失，但设置站点仍能打开，则用户界面文件可能缺失或损坏。此时固件和设置站点仍可能正常工作。
+'''
+translate = '''
+If the normal Cookie/Cake, Beverage, and Troubleshooting landing page is blank or missing but the settings site still opens, the user-interface files may be absent or damaged. The firmware and settings portal can remain operational in this state.
+'''
+
+[[block]]
+key = "548038ed28618f8c"
+origin = '''
+如果 Panda Treat 可以访问互联网：
+'''
+translate = '''
+If Panda Treat has internet access:
+'''
+
+[[block]]
+key = "36c014fee9981df4"
+origin = '''
+1. 打开设置站点并进入 `设置和更新`。
+2. 选择 `检查更新`。
+3. 如果页面提供用户界面修复或更新，请确认操作，并保持 Panda Treat 通电和联网，直到更新完成。
+4. Panda Treat 重启后，选择 `犒劳自己` 或重新打开其 `.local` 地址。
+'''
+translate = '''
+1. Open the settings site and go to `Settings & Updates`.
+2. Select `Check for updates`.
+3. If a user-interface repair or update is offered, confirm it and keep Panda Treat powered on and connected until it completes.
+4. After Panda Treat restarts, select `Treat Yourself` or reopen its `.local` address.
+'''
+
+[[block]]
+key = "e78ad67bc57cdff5"
+origin = '''
+如果 Panda Treat 无法访问互联网：
+'''
+translate = '''
+If Panda Treat does not have internet access:
+'''
+
+[[block]]
+key = "0a0f5532a36c0140"
+origin = '''
+1. 在其他设备上从 [CMYLabs/PandaTreat releases](https://github.com/CMYLabs/PandaTreat/releases) 下载兼容的 Panda Treat 版本。
+2. 在设置站点中打开 `手动更新`。
+3. 选择文件名标明为 **UI** 更新并以 `.bin` 结尾的文件。
+4. 开始用户界面更新，并保持电源连接，直到 Panda Treat 报告完成并重启。
+5. 重新打开 `.local` 地址并选择 `犒劳自己`。
+'''
+translate = '''
+1. On another device, download the compatible Panda Treat release from [CMYLabs/PandaTreat releases](https://github.com/CMYLabs/PandaTreat/releases).
+2. Open `Manual update` in the settings site.
+3. Choose the file whose name identifies it as the **UI** update and ends in `.bin`.
+4. Start the user-interface update and keep power connected until Panda Treat reports completion and restarts.
+5. Reopen the `.local` address and select `Treat Yourself`.
+'''
+
+[[block]]
+key = "d59dc93b4019b8f4"
+origin = '''
+固件和 UI 文件不能互换。切勿将标有 `firmware` 的文件上传到用户界面更新控件，也不要将标有 `UI` 的文件上传到固件更新控件。
+'''
+translate = '''
+Firmware and UI files are not interchangeable. Never upload a file marked `firmware` into the UI update control, or a file marked `UI` into the firmware update control.
+'''
+
+[[block]]
+key = "b5c8a51ddc523408"
+origin = '''
+### 为技术支持准备信息
+'''
+translate = '''
+### Preparing information for support
+'''
+
+[[block]]
+key = "e46259d33d4fb0ce"
+origin = '''
+完成相关故障排查步骤后问题仍然存在时，请记录：
+'''
+translate = '''
+If a problem remains after following the relevant topic, record:
+'''
+
+[[block]]
+key = "9b7a52d861457ebe"
+origin = '''
+- 打印瑕疵和墨盒触点区域的清晰照片；
+- 打印机型号；
+- Panda Treat 固件和用户界面版本；
+- 输入的尺寸和选中的打印选项；
+- 当前墨条间距数值；以及
+- 已经尝试过的步骤。
+'''
+translate = '''
+- clear photographs of the printed fault and cartridge contact area;
+- the printer model;
+- the Panda Treat firmware and user-interface versions;
+- the entered dimensions and selected print options;
+- the current `Ink strip spacing` value; and
+- the steps already attempted.
+'''
+
+[[block]]
+key = "96660d5feab42270"
+origin = '''
+这些信息能帮助技术支持更快确定原因，避免要求你重复相同检查。
+'''
+translate = '''
+This information helps support identify the cause without asking you to repeat the same checks.
+'''

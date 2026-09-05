@@ -1,0 +1,1202 @@
+[metadata]
+
+[[block]]
+key = "7b4ca3d90a09d50d"
+origin = '''
+---
+sidebar_position: 2
+description: Panda Treat Hardware/Installation
+---
+'''
+translate = '''
+---
+sidebar_position: 2
+description: Panda Treat Hardware/Installation
+---
+'''
+
+[[block]]
+key = "254a29362a61700f"
+origin = '''
+# Panda Treat 硬件/安装
+'''
+translate = '''
+# Panda Treat Hardware/Installation
+'''
+
+[[block]]
+key = "bb439b8560361930"
+origin = '''
+## 包装内容
+'''
+translate = '''
+## What's in the box?
+'''
+
+[[block]]
+key = "4f93292800ae47b8"
+origin = '''
+Panda Treat 套件包含组装和连接食用墨水适配器所需的硬件。
+'''
+translate = '''
+A Panda Treat kit contains the hardware needed to assemble and connect the edible ink adapter.
+'''
+
+[[block]]
+key = "06859100e1dc43ed"
+origin = '''
+:::info[安装前打印安装件]
+
+包装盒中不包含安装件，因为每个受支持的打印机型号都需要不同的安装件。Panda Treat 支持多种 3D 打印机型号，因此你可以为自己的机器打印所需的安装件。安装前，请下载并打印为你的打印机型号指定的官方安装件。
+
+:::
+'''
+translate = '''
+:::info[Print the mounting parts before installation]
+
+Mounting parts are not included because each supported printer model requires a different mount. Panda Treat supports multiple 3D printer models, so you can print the exact mounting parts required for your machine. Before installation, download and print the official mounting parts specified for your printer model.
+
+:::
+'''
+
+[[block]]
+key = "d879dc5addbbe022"
+origin = '''
+<ImageView src={require('./img/whats-in-the-box.webp').default} width="50%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/whats-in-the-box.webp').default} width="50%"/>
+'''
+
+[[block]]
+key = "0155b1271c194ca2"
+origin = '''
+盒内包含：
+'''
+translate = '''
+The box includes:
+'''
+
+[[block]]
+key = "a1118bef765f3d5b"
+origin = '''
+- Panda Treat PCB (A)
+- 官方食用墨水墨盒 (B)
+- 适用于 A1，A1 mini，P1 和 X1C 的打印机接口线缆套件：共 2 条线缆 (C)
+- M3 x 6 mm 低头内六角自攻螺丝：14 颗 (D)
+- 硅胶墨盒密封垫 x 1 (E)
+- SD card x 1 (F)
+- Allen key x 1 (G)
+- P1S / X1C 安装用磁铁 x 4 (H)
+- Quick start card x 1 (I)
+'''
+translate = '''
+- Panda Treat PCB (A)
+- Official edible ink cartridge (B)
+- Printer interface cable set for A1, A1 mini, P1, and X1C: 2 cables in total (C)
+- M3 x 6 mm low-profile, hex socket, self-tapping screws: 14 pieces (D)
+- Silicone cartridge seal x 1 (E)
+- SD card x 1 (F)
+- Allen key x 1 (G)
+- Magnets for P1S / X1C installations x 4 (H)
+- Quick start card x 1 (I)
+'''
+
+[[block]]
+key = "01fee3051ef7ef86"
+origin = '''
+:::info[Note]
+
+请使用适用于你具体打印机的安装指南中提到的安装说明，零件和工具。上图展示的是 Panda Treat 套件通常随附的零件。随着产品更新，零件可能会有所变化。
+
+:::
+'''
+translate = '''
+:::info[Note]
+
+Use the installation instructions, parts, and tools mentioned in the installation guide for your specific printer. Typical parts that ship with a Panda Treat kit are shown above. Parts may vary as updates are made.
+
+:::
+'''
+
+[[block]]
+key = "22a93631846f434a"
+origin = '''
+## 接口
+'''
+translate = '''
+## Interfaces
+'''
+
+[[block]]
+key = "c047df1fbcca74bc"
+origin = '''
+在安装和维护过程中，说明中可能会提到某些 Panda Treat 接口。此处展示并说明这些接口，便于读者在后续使用这些名称时理解它们指的是什么。
+'''
+translate = '''
+During installation and maintenance, reference may be made to certain Panda Treat interfaces. These interfaces are shown and described here so that the reader has an understanding of what is being referenced later when this naming convention is used.
+'''
+
+[[block]]
+key = "630490a247f48fc6"
+origin = '''
+<ImageView src={require('./img/hw-interfaces.webp').default} width="50%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/hw-interfaces.webp').default} width="50%"/>
+'''
+
+[[block]]
+key = "41bd289a3302095b"
+origin = '''
+- `USB-C`: 用于手动更新等固件支持的维护任务。安装时不需要使用此接口。
+- `Printer interface connector`: 使用随附的特定机型线缆将 Panda Treat 连接到打印机。安装时需要使用此接口。
+- `Cartridge contacts and pins`: 为食用墨水墨盒提供电气连接。
+- `SD card slot`: 存储 Panda Treat 打印过程中使用的文件。
+'''
+translate = '''
+- `USB-C`: Used for service tasks such as manual updates where supported by the firmware. This interface is not required for installation.
+- `Printer interface connector`: Connects the Panda Treat to the printer using the supplied model-specific cable. This interface is required for installation.
+- `Cartridge contacts and pins`: Provide the electrical connection to the edible ink cartridge.
+- `SD card slot`: Stores the files used by the Panda Treat during printing.
+'''
+
+[[block]]
+key = "a4405eb6487501d2"
+origin = '''
+:::info[Note]
+
+请勿触摸墨盒电气触点。手指油脂以及触点区域损伤可能导致打印效果不佳或墨盒故障。
+
+:::
+'''
+translate = '''
+:::info[Note]
+
+Do not touch the cartridge electrical contacts. Oils from fingers and damage to the contact area can cause poor prints or cartridge faults.
+
+:::
+'''
+
+[[block]]
+key = "524104a98753e867"
+origin = '''
+## 重要安装注意事项
+'''
+translate = '''
+## Important installation notes
+'''
+
+[[block]]
+key = "f6041312ef5da715"
+origin = '''
+:::info[Important]
+
+连接或断开 Panda Treat 线缆或墨盒之前，请务必关闭打印机电源。
+
+:::
+'''
+translate = '''
+:::info[Important]
+
+Always power off the printer before connecting or disconnecting the Panda Treat cable or cartridge.
+
+:::
+'''
+
+[[block]]
+key = "a5b4767aaf7e697f"
+origin = '''
+- 请勿直接拉拽小线缆。请握住连接器本体，并用指甲或合适的塑料工具（例如 [JST connector removal tool](https://makerworld.com/en/models/1169414-jst-connector-removal-tool)）轻轻将其松开。
+- 将线缆较小的一端安装到 Panda Treat 后，请尽量避免拆下它，以防损坏线缆。需要拆卸时，请使用上述方法从打印机端拆下线缆。
+- 不要强行将墨盒压入安装座。它应通过设计好的拨杆和支撑点卡入到位。
+'''
+translate = '''
+- Never tug directly on small cables. Hold the connector body and gently work it loose using fingernails or a suitable plastic tool such as the [JST connector removal tool](https://makerworld.com/en/models/1169414-jst-connector-removal-tool).
+- Once the smaller end of the cable has been installed into the Panda Treat, avoid removing it to prevent cable damage. Instead, remove the cable on the printer end using the method mentioned above.
+- Do not force the cartridge into the mount. It should clip into position using the intended lever and support points.
+'''
+
+[[block]]
+key = "dbcceaeb661df368"
+origin = '''
+## 安装到 A1
+'''
+translate = '''
+## Installation onto an A1
+'''
+
+[[block]]
+key = "7b08a8dea95527fe"
+origin = '''
+### 所需组件
+'''
+translate = '''
+### Required components
+'''
+
+[[block]]
+key = "ad9b260949e5abb2"
+origin = '''
+本安装需要以下零件。如果需要帮助识别其中某个零件，请参考 [包装内容](#包装内容) 和 [接口](#接口) 部分。
+'''
+translate = '''
+For this installation you will require the parts below. Please reference the [What's in the box?](#whats-in-the-box) and [Interfaces](#interfaces) sections if you need help identifying one of them.
+'''
+
+[[block]]
+key = "6e680eec279715f1"
+origin = '''
+- Panda Treat PCB x 1
+- A1 打印安装件 x 1 full set: [panda-treat-a1-a1-mini-mount](https://makerworld.com/en/models/2963559-biqu-x-cmy-labs-panda-treat-a1-a1-mini-mount)
+- A1 打印废墨容器 x 1: [panda-treat-a1-purge-bucket](https://makerworld.com/en/models/2963618-biqu-x-cmy-labs-panda-treat-a1-purge-bucket)
+- SD card
+- A1 interface cable
+- M3 x 6 mm self-tapping screws x 8
+- Allen key
+- 可选但强烈推荐：[JST detachment tool](https://makerworld.com/en/models/1169414-jst-connector-removal-tool)
+- 可选：[replacement rear toolhead cover with wire opening](https://makerworld.com/en/models/2967583-biqu-x-cmy-labs-panda-treat-a1-a1-mini-rear-cover)
+'''
+translate = '''
+- Panda Treat PCB x 1
+- Printed mounts for the A1 x 1 full set: [panda-treat-a1-a1-mini-mount](https://makerworld.com/en/models/2963559-biqu-x-cmy-labs-panda-treat-a1-a1-mini-mount)
+- Printed purge container for A1 x 1: [panda-treat-a1-purge-bucket](https://makerworld.com/en/models/2963618-biqu-x-cmy-labs-panda-treat-a1-purge-bucket)
+- SD card
+- A1 interface cable
+- M3 x 6 mm self-tapping screws x 8
+- Allen key
+- Optional but highly recommended: [JST detachment tool](https://makerworld.com/en/models/1169414-jst-connector-removal-tool)
+- Optional: [replacement rear toolhead cover with wire opening](https://makerworld.com/en/models/2967583-biqu-x-cmy-labs-panda-treat-a1-a1-mini-rear-cover)
+'''
+
+[[block]]
+key = "d0d9f268dd26b7ae"
+origin = '''
+### 打印零件
+'''
+translate = '''
+### Printing parts
+'''
+
+[[block]]
+key = "c04dca8875cb85e2"
+origin = '''
+首先打印链接中的 A1 安装件。请使用提供的 3MF 文件，除非更新后的官方说明要求这样做，否则不要更改零件方向或支撑设置。
+'''
+translate = '''
+Begin by printing the linked A1 mounting parts. Use the provided 3MF file and do not change the part orientation or support settings unless updated official instructions say to do so.
+'''
+
+[[block]]
+key = "ee53d7ab1d4ea163"
+origin = '''
+PLA 适用于打印安装件。打印完成后，请确认包含以下零件：
+'''
+translate = '''
+PLA is suitable for the printed mounting parts. Once printing is complete, confirm that the following parts are present:
+'''
+
+[[block]]
+key = "2c24627c891c250c"
+origin = '''
+- Panda Treat A1 / A1 Mini Mount - Front x 1
+- Panda Treat A1 / A1 Mini Mount - Rear x 1
+- Panda Treat A1 Purge Bucket x 1
+- JST detachment tool x 1
+- 可选：Panda Treat A1 / A1 Mini Toolhead Rear Cover x 1
+'''
+translate = '''
+- Panda Treat A1 / A1 Mini Mount - Front x 1
+- Panda Treat A1 / A1 Mini Mount - Rear x 1
+- Panda Treat A1 Purge Bucket x 1
+- JST detachment tool x 1
+- Optional: Panda Treat A1 / A1 Mini Toolhead Rear Cover x 1
+'''
+
+[[block]]
+key = "6ce73128f3ac1806"
+origin = '''
+### 组装
+'''
+translate = '''
+### Assembly
+'''
+
+[[block]]
+key = "66a364d338972c52"
+origin = '''
+请按照以下步骤组装 Panda Treat。
+'''
+translate = '''
+To assemble the Panda Treat, complete the following steps.
+'''
+
+[[block]]
+key = "01cac01c12d01a04"
+origin = '''
+1. 将 PCB 放入后部安装件中，并使显示屏朝上。将 PCB 朝后部安装件底部按压，使后部安装件底部与 PCB 之间没有间隙。这样可以让安装孔与后部安装件中的螺丝孔对齐。使用随附螺丝固定 PCB，但不要过度拧紧。
+'''
+translate = '''
+1. Place the PCB into the rear mount with the display facing upward. Press the PCB towards the base of the rear mount so that there is no gap between the bottom of the rear mount and the PCB. This will align the mounting holes with the screw holes in the rear mount. Fasten the PCB using the supplied screws but do not over-tighten.
+'''
+
+[[block]]
+key = "0e7096c1e823c770"
+origin = '''
+    <ImageView src={require('./img/pcb-to-rear-mount.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/pcb-to-rear-mount.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "8dd8f48e7b6cc351"
+origin = '''
+2. 将安装件前部套到后部上方，确保侧面的定位凸台完全插入，并确保显示屏没有被夹在前后两部分之间，否则可能损坏显示屏。
+'''
+translate = '''
+2. Insert the front part of the mount over the rear part, ensuring that the alignment tabs on the side are fully inserted and that the display is not pinched between the front and rear parts as this could cause damage to the display.
+'''
+
+[[block]]
+key = "6a78903e7bc5c2d0"
+origin = '''
+    <ImageView src={require('./img/front-and-rear-alignment.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/front-and-rear-alignment.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "85e6b1bd99ef1961"
+origin = '''
+3. 将四颗 M3 x 6 mm 自攻螺丝插入后部安装件背面的孔中并拧紧。不要过度拧紧，否则会滑牙并损坏塑料安装件。
+'''
+translate = '''
+3. Insert four of the M3 x 6 mm self-tapping screws into the rear holes of the rear mount and tighten them. Do not over-tighten them as you will strip the plastic of the mount.
+'''
+
+[[block]]
+key = "e99c0c9fa8d3e2f2"
+origin = '''
+    <ImageView src={require('./img/a1-mount-rear-screws.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/a1-mount-rear-screws.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "f3a21419f306128e"
+origin = '''
+4. 插入 Panda Treat 随附的 SD card。
+'''
+translate = '''
+4. Insert the SD card supplied with the Panda Treat.
+'''
+
+[[block]]
+key = "dc56cd4bb9550a38"
+origin = '''
+    <ImageView src={require('./img/sd-inserted-a1.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/sd-inserted-a1.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "fef8ad88246274d1"
+origin = '''
+5. 将 A1 线缆的小端插入 Panda Treat power connector。请注意安装方向。
+'''
+translate = '''
+5. Insert the small end of the A1 cable into the Panda Treat power connector. Take note of the orientation of installation.
+'''
+
+[[block]]
+key = "b650c7a5eabbbd74"
+origin = '''
+    <ImageView src={require('./img/a1-connector.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/a1-connector.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "f2f6ae93208b6bc6"
+origin = '''
+组装过程到此完成。对于你计划搭配 Panda Treat 使用的每台打印机，此过程只需要执行一次。以下安装流程说明了如果你计划反复在打印机上安装和拆卸 Panda Treat，需要重复执行的步骤。
+'''
+translate = '''
+The assembly process is now complete. This process only needs to be performed on a one-time basis for any given printer that you plan to use the Panda Treat with. The following installation process details the procedure that you would need to perform repeatedly if you plan on installing and removing the Panda Treat from your printer.
+'''
+
+[[block]]
+key = "b632925729b637c1"
+origin = '''
+### 安装
+'''
+translate = '''
+### Installation
+'''
+
+[[block]]
+key = "64275e676c7c2979"
+origin = '''
+以下步骤说明如何将已完全组装的 Panda Treat 安装到 A1 打印机上，或从 A1 打印机上拆下。执行这些步骤时，请始终关闭打印机电源。
+'''
+translate = '''
+The following steps document what you need to do to take a fully assembled Panda Treat and install it onto or remove it from an A1 printer. Always perform them with the power to the printer switched off.
+'''
+
+[[block]]
+key = "be217d42c9290353"
+origin = '''
+1. 将食用墨水废墨桶卡到 A1 现有废料桶区域。请注意，废墨桶底部有两个柱子，需要与 A1 废料塑料底座底部的孔对齐。确保食用墨水废墨桶一直向前推，直到这些柱子卡入到位。拆下食用墨水废墨桶时，请先向下拉这部分以释放柱子。
+'''
+translate = '''
+1. Clip the edible ink purge bucket onto the existing purge bucket area of the A1. Note that there are two posts on the bottom of the part of the purge bucket that align with holes in the bottom of the A1 purge plastic base. Ensure that the edible ink purge bucket is pushed all the way forward until these click into place. When removing the edible ink purge bucket, pull this part of it down first to release the posts.
+'''
+
+[[block]]
+key = "9ce118871d9a6aa8"
+origin = '''
+    <ImageView src={require('./img/a1-purge.webp').default} width="50%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/a1-purge.webp').default} width="50%"/>
+'''
+
+[[block]]
+key = "6372ea87a341b678"
+origin = '''
+2. 拆下 A1 工具头前盖。前盖下方的黄色和灰色挤出轮可以保留，也可以拆下。Panda Treat 安装对此没有要求。
+'''
+translate = '''
+2. Remove the front cover of the A1 toolhead. You can leave the yellow and grey extruder wheel beneath the cover in place or remove it. There is no requirement from the Panda Treat installation either way.
+'''
+
+[[block]]
+key = "1215a3bae6563d85"
+origin = '''
+    <ImageView src={require('./img/remove-front-cover-a1.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/remove-front-cover-a1.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "158fb5b2bb2d8d14"
+origin = '''
+3. 先对齐并扣住顶部，再按压底部，将 Panda Treat 卡到工具头前方。正确卡入时，你会感觉到底部区域咔哒一声。确保 Panda Treat 与工具头之间的配合面平整，以保证可靠固定。
+'''
+translate = '''
+3. Clip the Panda Treat onto the front of the toolhead by first aligning and latching the top into place and then pressing in at the base. You will feel it click on the lower section when it has clipped in properly. Ensure that the mating surface between the Panda Treat and the toolhead is flat to guarantee proper attachment.
+'''
+
+[[block]]
+key = "e2c0996a7b1f465e"
+origin = '''
+    <ImageView src={require('./img/a1-clipped-in.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/a1-clipped-in.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "325f41d2d6975377"
+origin = '''
+4. 从底部中央的缝隙处撬开后部工具头盖。使用工具通常会更容易。
+'''
+translate = '''
+4. Remove the rear toolhead cover by prying at the gap in the bottom, centre. Using a tool can often make this easier.
+'''
+
+[[block]]
+key = "15a254846bb745f8"
+origin = '''
+    <ImageView src={require('./img/pry-rear-cover-a1.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/pry-rear-cover-a1.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "9e1a0aa8226313f1"
+origin = '''
+5. 使用 JST removal tool 拔下红色标记的连接器。切勿直接拉扯线材本身，否则很容易造成损坏。
+'''
+translate = '''
+5. Use the JST removal tool to unplug the connector marked in red. Never pull directly on the wires themselves as this can easily result in damage.
+'''
+
+[[block]]
+key = "7ac24cbb4f6944e6"
+origin = '''
+    <ImageView src={require('./img/a1-jst-connector-removal.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/a1-jst-connector-removal.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "876d86f62ff2336d"
+origin = '''
+6. 将断开的连接器折入其左侧的开放区域中。
+'''
+translate = '''
+6. Fold the disconnected connector into the open area to the left of it.
+'''
+
+[[block]]
+key = "519d26c47c16390e"
+origin = '''
+    <ImageView src={require('./img/a1-jst-fold-connector.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/a1-jst-fold-connector.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "0016cafe94808809"
+origin = '''
+7. 按图示方向插入 Panda Treat connector。
+'''
+translate = '''
+7. Plug in the Panda Treat connector using the orientation shown.
+'''
+
+[[block]]
+key = "4e349ec7030b6e9b"
+origin = '''
+    <ImageView src={require('./img/a1-jst-insert-pt.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/a1-jst-insert-pt.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "13130ab82f509d98"
+origin = '''
+8. 此时可以安装由 K2 Kevin 设计的后部工具头盖。
+'''
+translate = '''
+8. At this point, you can install the rear toolhead cover designed by K2 Kevin.
+'''
+
+[[block]]
+key = "f9f7dd2d5dc559e3"
+origin = '''
+    <ImageView src={require('./img/a1-rear-cover.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/a1-rear-cover.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "9776948720ad68d0"
+origin = '''
+9. 确认已经从食用墨水墨盒上取下蓝色密封胶带，然后安装墨盒：先将墨盒底部插入墨盒安装座，再将顶部旋入拨杆卡扣，直到固定到位。如果拨杆比较紧，可能需要用手指抬起拨杆才能将墨盒放入。
+'''
+translate = '''
+9. Ensure that the blue sealing tape has been removed from the edible ink cartridge and then install the cartridge by inserting the bottom of it into the cartridge mount and rotating the top into the lever arm clip until it is secured. You may need to lift the arm using your fingers to get it in place if the lever arm is particularly stiff.
+'''
+
+[[block]]
+key = "51c4969379ae3386"
+origin = '''
+    <ImageView src={require('./img/a1-cart-insertion-process.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/a1-cart-insertion-process.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "e800ba6379745698"
+origin = '''
+硬件已安装，线缆已连接，SD card 已插入且墨盒已安装后，A1 安装即完成。
+'''
+translate = '''
+The A1 installation is complete once the hardware is mounted, the cable is connected, the SD card is installed, and the cartridge is inserted.
+'''
+
+[[block]]
+key = "ca7b015615ea6e7b"
+origin = '''
+:::info[Important]
+
+为了确保墨盒的使用寿命，在开始软件设置之前，务必阅读并遵循 [墨盒处理](#墨盒处理) 部分中的指导。
+
+:::
+'''
+translate = '''
+:::info[Important]
+
+In order to ensure longevity of the ink cartridge it is critical to read and follow the guidance in the [Ink cartridge handling](#ink-cartridge-handling) section before starting the software setup.
+
+:::
+'''
+
+[[block]]
+key = "1e41334068dd2683"
+origin = '''
+## 安装到 A1 mini
+'''
+translate = '''
+## Installation onto an A1 mini
+'''
+
+[[block]]
+key = "7b08a8dea95527fe"
+origin = '''
+### 所需组件
+'''
+translate = '''
+### Required components
+'''
+
+[[block]]
+key = "ad9b260949e5abb2"
+origin = '''
+本安装需要以下零件。如果需要帮助识别其中某个零件，请参考 [包装内容](#包装内容) 和 [接口](#接口) 部分。
+'''
+translate = '''
+For this installation you will require the parts below. Please reference the [What's in the box?](#whats-in-the-box) and [Interfaces](#interfaces) sections if you need help identifying one of them.
+'''
+
+[[block]]
+key = "f1b82722fad76dd5"
+origin = '''
+- Panda Treat PCB x 1
+- A1 / A1 mini 打印安装件 x 1 full set: [panda-treat-a1-a1-mini-mount](https://makerworld.com/en/models/2963559-biqu-x-cmy-labs-panda-treat-a1-a1-mini-mount)
+- A1 mini 打印废墨容器 x 1: [panda-treat-a1-mini-purge-bucket](https://makerworld.com/en/models/2964696-biqu-x-cmy-labs-panda-treat-a1-mini-purge-bucket)
+- SD card
+- A1 interface cable
+- M3 x 6 mm self-tapping screws x 8
+- Allen key
+- 可选但强烈推荐：[JST detachment tool](https://makerworld.com/en/models/1169414-jst-connector-removal-tool)
+- 可选：[replacement rear toolhead cover with wire opening](https://makerworld.com/en/models/2967583-biqu-x-cmy-labs-panda-treat-a1-a1-mini-rear-cover)
+'''
+translate = '''
+- Panda Treat PCB x 1
+- Printed mounts for the A1 / A1 mini x 1 full set: [panda-treat-a1-a1-mini-mount](https://makerworld.com/en/models/2963559-biqu-x-cmy-labs-panda-treat-a1-a1-mini-mount)
+- Printed purge container for A1 mini x 1: [panda-treat-a1-mini-purge-bucket](https://makerworld.com/en/models/2964696-biqu-x-cmy-labs-panda-treat-a1-mini-purge-bucket)
+- SD card
+- A1 interface cable
+- M3 x 6 mm self-tapping screws x 8
+- Allen key
+- Optional but highly recommended: [JST detachment tool](https://makerworld.com/en/models/1169414-jst-connector-removal-tool)
+- Optional: [replacement rear toolhead cover with wire opening](https://makerworld.com/en/models/2967583-biqu-x-cmy-labs-panda-treat-a1-a1-mini-rear-cover)
+'''
+
+[[block]]
+key = "d0d9f268dd26b7ae"
+origin = '''
+### 打印零件
+'''
+translate = '''
+### Printing parts
+'''
+
+[[block]]
+key = "011514166a39e8a9"
+origin = '''
+首先打印链接中的 A1 / A1 mini 安装件。请使用提供的 3MF 文件，除非更新后的官方说明要求这样做，否则不要更改零件方向或支撑设置。
+'''
+translate = '''
+Begin by printing the linked A1 / A1 mini mounting parts. Use the provided 3MF file and do not change the part orientation or support settings unless updated official instructions say to do so.
+'''
+
+[[block]]
+key = "ee53d7ab1d4ea163"
+origin = '''
+PLA 适用于打印安装件。打印完成后，请确认包含以下零件：
+'''
+translate = '''
+PLA is suitable for the printed mounting parts. Once printing is complete, confirm that the following parts are present:
+'''
+
+[[block]]
+key = "e41d99cfad74687d"
+origin = '''
+- Panda Treat A1 / A1 Mini Mount - Front x 1
+- Panda Treat A1 / A1 Mini Mount - Rear x 1
+- Panda Treat A1 mini Purge Bucket x 1
+- JST detachment tool x 1
+- 可选：Panda Treat A1 / A1 Mini Toolhead Rear Cover x 1
+'''
+translate = '''
+- Panda Treat A1 / A1 Mini Mount - Front x 1
+- Panda Treat A1 / A1 Mini Mount - Rear x 1
+- Panda Treat A1 mini Purge Bucket x 1
+- JST detachment tool x 1
+- Optional: Panda Treat A1 / A1 Mini Toolhead Rear Cover x 1
+'''
+
+[[block]]
+key = "6ce73128f3ac1806"
+origin = '''
+### 组装
+'''
+translate = '''
+### Assembly
+'''
+
+[[block]]
+key = "2657ad7c3470fafe"
+origin = '''
+为 A1 mini 组装 Panda Treat 时，请按照 A1 使用的相同组装步骤进行。将 A1 / A1 mini 线缆的小端插入 Panda Treat power connector，并注意安装方向。
+'''
+translate = '''
+To assemble the Panda Treat for an A1 mini, follow the same assembly steps used for the A1. Insert the small end of the A1 / A1 mini cable into the Panda Treat power connector and take note of the orientation of installation.
+'''
+
+[[block]]
+key = "b632925729b637c1"
+origin = '''
+### 安装
+'''
+translate = '''
+### Installation
+'''
+
+[[block]]
+key = "7e775ebad08a633a"
+origin = '''
+以下步骤说明如何将已完全组装的 Panda Treat 安装到 A1 mini 打印机上，或从 A1 mini 打印机上拆下。执行这些步骤时，请始终关闭打印机电源。
+'''
+translate = '''
+The following steps document what you need to do to take a fully assembled Panda Treat and install it onto or remove it from an A1 mini printer. Always perform them with the power to the printer switched off.
+'''
+
+[[block]]
+key = "b372b6496bb702d6"
+origin = '''
+1. 将食用墨水废墨桶卡到 A1 mini 现有废料桶区域。请注意，废墨桶底部有两个柱子，需要与 A1 mini 废料塑料底座底部的孔对齐。确保食用墨水废墨桶一直向前推，直到这些柱子卡入到位。拆下食用墨水废墨桶时，请先向下拉这部分以释放柱子。
+'''
+translate = '''
+1. Clip the edible ink purge bucket onto the existing purge bucket area of the A1 mini. Note that there are two posts on the bottom of the part of the purge bucket that align with holes in the bottom of the A1 mini purge plastic base. Ensure that the edible ink purge bucket is pushed all the way forward until these click into place. When removing the edible ink purge bucket, pull this part of it down first to release the posts.
+'''
+
+[[block]]
+key = "ebd3ce5f0f825864"
+origin = '''
+    <ImageView src={require('./img/a1-mini-purge.webp').default} width="50%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/a1-mini-purge.webp').default} width="50%"/>
+'''
+
+[[block]]
+key = "a081b110c392140f"
+origin = '''
+2. 拆下 A1 mini 工具头前盖。前盖下方的黄色和灰色挤出轮可以保留，也可以拆下。Panda Treat 安装对此没有要求。
+'''
+translate = '''
+2. Remove the front cover of the A1 mini toolhead. You can leave the yellow and grey extruder wheel beneath the cover in place or remove it. There is no requirement from the Panda Treat installation either way.
+'''
+
+[[block]]
+key = "1215a3bae6563d85"
+origin = '''
+    <ImageView src={require('./img/remove-front-cover-a1.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/remove-front-cover-a1.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "158fb5b2bb2d8d14"
+origin = '''
+3. 先对齐并扣住顶部，再按压底部，将 Panda Treat 卡到工具头前方。正确卡入时，你会感觉到底部区域咔哒一声。确保 Panda Treat 与工具头之间的配合面平整，以保证可靠固定。
+'''
+translate = '''
+3. Clip the Panda Treat onto the front of the toolhead by first aligning and latching the top into place and then pressing in at the base. You will feel it click on the lower section when it has clipped in properly. Ensure that the mating surface between the Panda Treat and the toolhead is flat to guarantee proper attachment.
+'''
+
+[[block]]
+key = "e2c0996a7b1f465e"
+origin = '''
+    <ImageView src={require('./img/a1-clipped-in.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/a1-clipped-in.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "325f41d2d6975377"
+origin = '''
+4. 从底部中央的缝隙处撬开后部工具头盖。使用工具通常会更容易。
+'''
+translate = '''
+4. Remove the rear toolhead cover by prying at the gap in the bottom, centre. Using a tool can often make this easier.
+'''
+
+[[block]]
+key = "15a254846bb745f8"
+origin = '''
+    <ImageView src={require('./img/pry-rear-cover-a1.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/pry-rear-cover-a1.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "9e1a0aa8226313f1"
+origin = '''
+5. 使用 JST removal tool 拔下红色标记的连接器。切勿直接拉扯线材本身，否则很容易造成损坏。
+'''
+translate = '''
+5. Use the JST removal tool to unplug the connector marked in red. Never pull directly on the wires themselves as this can easily result in damage.
+'''
+
+[[block]]
+key = "7ac24cbb4f6944e6"
+origin = '''
+    <ImageView src={require('./img/a1-jst-connector-removal.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/a1-jst-connector-removal.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "876d86f62ff2336d"
+origin = '''
+6. 将断开的连接器折入其左侧的开放区域中。
+'''
+translate = '''
+6. Fold the disconnected connector into the open area to the left of it.
+'''
+
+[[block]]
+key = "519d26c47c16390e"
+origin = '''
+    <ImageView src={require('./img/a1-jst-fold-connector.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/a1-jst-fold-connector.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "0016cafe94808809"
+origin = '''
+7. 按图示方向插入 Panda Treat connector。
+'''
+translate = '''
+7. Plug in the Panda Treat connector using the orientation shown.
+'''
+
+[[block]]
+key = "4e349ec7030b6e9b"
+origin = '''
+    <ImageView src={require('./img/a1-jst-insert-pt.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/a1-jst-insert-pt.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "13130ab82f509d98"
+origin = '''
+8. 此时可以安装由 K2 Kevin 设计的后部工具头盖。
+'''
+translate = '''
+8. At this point, you can install the rear toolhead cover designed by K2 Kevin.
+'''
+
+[[block]]
+key = "f9f7dd2d5dc559e3"
+origin = '''
+    <ImageView src={require('./img/a1-rear-cover.webp').default} width="30%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/a1-rear-cover.webp').default} width="30%"/>
+'''
+
+[[block]]
+key = "9776948720ad68d0"
+origin = '''
+9. 确认已经从食用墨水墨盒上取下蓝色密封胶带，然后安装墨盒：先将墨盒底部插入墨盒安装座，再将顶部旋入拨杆卡扣，直到固定到位。如果拨杆比较紧，可能需要用手指抬起拨杆才能将墨盒放入。
+'''
+translate = '''
+9. Ensure that the blue sealing tape has been removed from the edible ink cartridge and then install the cartridge by inserting the bottom of it into the cartridge mount and rotating the top into the lever arm clip until it is secured. You may need to lift the arm using your fingers to get it in place if the lever arm is particularly stiff.
+'''
+
+[[block]]
+key = "51c4969379ae3386"
+origin = '''
+    <ImageView src={require('./img/a1-cart-insertion-process.webp').default} width="70%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/a1-cart-insertion-process.webp').default} width="70%"/>
+'''
+
+[[block]]
+key = "d6c2523e1f9e9bad"
+origin = '''
+硬件已安装，线缆已连接，SD card 已插入且墨盒已安装后，A1 mini 安装即完成。
+'''
+translate = '''
+The A1 mini installation is complete once the hardware is mounted, the cable is connected, the SD card is installed, and the cartridge is inserted.
+'''
+
+[[block]]
+key = "ca7b015615ea6e7b"
+origin = '''
+:::info[Important]
+
+为了确保墨盒的使用寿命，在开始软件设置之前，务必阅读并遵循 [墨盒处理](#墨盒处理) 部分中的指导。
+
+:::
+'''
+translate = '''
+:::info[Important]
+
+In order to ensure longevity of the ink cartridge it is critical to read and follow the guidance in the [Ink cartridge handling](#ink-cartridge-handling) section before starting the software setup.
+
+:::
+'''
+
+[[block]]
+key = "7d25480d0d266306"
+origin = '''
+## 将 A1 或 A1 mini 恢复为普通 3D 打印
+'''
+translate = '''
+## Returning an A1 or A1 mini to ordinary 3D printing
+'''
+
+[[block]]
+key = "d05aa8c8de6c1f4e"
+origin = '''
+不再使用 Panda Treat，需要让打印机恢复普通耗材打印时，请按照以下步骤操作。
+'''
+translate = '''
+Use the steps below when Panda Treat is no longer needed and you want to return the printer to ordinary filament printing.
+'''
+
+[[block]]
+key = "7f1c67ca1f90c153"
+origin = '''
+:::warning[关闭打印机电源]
+
+完成或取消当前任务，等待打印机进入空闲状态，然后在接触打印头连接器前关闭电源。继续操作前，请让所有高温部件冷却。
+
+:::
+'''
+translate = '''
+:::warning[Switch the printer off]
+
+Finish or cancel the active job, wait until the printer is idle, and switch off its power before touching the toolhead connectors. Allow any hot parts to cool before continuing.
+
+:::
+'''
+
+[[block]]
+key = "122b3bb11bc29069"
+origin = '''
+1. 从成型板上取走所有点心和食品安全表面。
+2. 从 Panda Treat 中取出食用墨盒。按照[维护与保养](#维护与保养)中的说明擦拭喷头，将墨盒放入装有硅胶密封件的墨盒支架中，并保持直立存放。
+3. 从打印头前方释放 Panda Treat 时，请托住整个组件。小心反向执行安装动作：先松开下方连接，再将上方连接抬起并移开。不要拉扯 PCB，墨盒压杆或线缆。
+4. 取下打印头后盖以接触连接器。使用 JST 拆卸工具握住塑料外壳，拔下 Panda Treat 连接器。切勿直接拉扯导线。
+5. 从安装时折入的空间中取出打印机原装打印头连接器。按照安装步骤中所示的相同方向，将它完全插回原插座。
+6. 整理线缆，避免夹住或过度弯折。重新安装适用的打印头前盖和后盖，并确认所有卡扣都已固定。
+7. 取下 Panda Treat 接墨桶。对于 A1 mini，请按照安装步骤先松开定位柱，不要强行向上抬起接墨桶。用水冲洗接墨桶以去除排出的食用墨水，然后晾干。
+8. 如果食品安全表面是硅胶垫，可以清洗并晾干后再存放或重复使用。使用后的烘焙纸应丢弃。
+9. 检查原装打印头线缆是否牢固连接，外盖是否固定，打印头移动时是否会勾住线缆，并确认打印机运动范围内没有遗留任何 Panda Treat 部件。
+10. 恢复电源，并在开始耗材打印前确认打印头工作正常。
+'''
+translate = '''
+1. Remove all treats and the food-safe surface from the build plate.
+2. Remove the edible ink cartridge from Panda Treat. Wipe the printhead as described in [Maintenance and care](#maintenance-and-care), place the cartridge in its holder with the silicone seal fitted, and store it upright.
+3. Support the Panda Treat assembly while releasing it from the front of the toolhead. Reverse the installation movement carefully: release the lower attachment first, then lift the upper attachment away. Do not pull on the PCB, cartridge lever, or cable.
+4. Remove the rear toolhead cover to reach the connectors. Use the JST removal tool to unplug the Panda Treat connector by its plastic housing. Never pull directly on the wires.
+5. Retrieve the printer's original toolhead connector from the space where it was folded during installation. Insert it fully in the original socket using the same orientation shown in the installation steps.
+6. Route the cable without trapping or sharply bending it. Refit the applicable front and rear toolhead covers and confirm that every clip is secure.
+7. Remove the Panda Treat purge bucket. On the A1 mini, release the locating posts as described in the installation step instead of forcing the bucket upward. Rinse the bucket with water to remove purged edible ink, then allow it to dry.
+8. If the food-safe surface is a silicone mat, wash it and allow it to dry before storage or reuse. Discard parchment paper after use.
+9. Check that the original toolhead cable is firmly connected, the covers are secure, the toolhead can move without catching a cable, and no Panda Treat part remains in the printer's movement area.
+10. Restore power and confirm normal toolhead operation before starting a filament print.
+'''
+
+[[block]]
+key = "b5bf3d73c4214b6e"
+origin = '''
+## 安装到 P1S
+'''
+translate = '''
+## Installation onto P1S
+'''
+
+[[block]]
+key = "bff5b23fe46bcb6f"
+origin = '''
+P1S 支持计划通过匹配的固件，安装件和安装说明发布。在官方 P1S 安装件，说明和固件可用之前，请勿尝试将 Panda Treat 安装到 P1S 上。
+'''
+translate = '''
+P1S support is planned for release through the matching firmware, mounting parts, and installation instructions. Do not attempt to install the Panda Treat onto a P1S until the official P1S installation mounts, instructions, and firmware are available.
+'''
+
+[[block]]
+key = "aac7d7b653a76f68"
+origin = '''
+## 安装到 X1C
+'''
+translate = '''
+## Installation onto X1C
+'''
+
+[[block]]
+key = "b775352d6440901c"
+origin = '''
+X1C 支持计划通过匹配的固件，安装件和安装说明发布。在官方 X1C 安装件，说明和固件可用之前，请勿尝试将 Panda Treat 安装到 X1C 上。
+'''
+translate = '''
+X1C support is planned for release through the matching firmware, mounting parts, and installation instructions. Do not attempt to install the Panda Treat onto an X1C until the official X1C installation mounts, instructions, and firmware are available.
+'''
+
+[[block]]
+key = "959f212de76a23d9"
+origin = '''
+## 墨盒处理
+'''
+translate = '''
+## Ink cartridge handling
+'''
+
+[[block]]
+key = "5e0a5609f3533837"
+origin = '''
+打印质量在很大程度上取决于食用墨水墨盒的处理方式。打印头损坏或存储不当可能导致缺线，颜色偏移和明显打印瑕疵。本节说明如何存储和处理 Panda Treat 墨盒，以获得最佳性能和使用寿命。
+'''
+translate = '''
+Print quality depends heavily on how the edible ink cartridge is handled. Damage to the printhead or poor storage can cause missing lines, colour shifts, and visible print artefacts. This section describes how to store and handle your Panda Treat ink cartridges to get the best performance and life out of them.
+'''
+
+[[block]]
+key = "7cef2f4636dfab78"
+origin = '''
+下图显示了 Panda Treat 墨盒的主要结构，并会在后续小节中反复引用。建议同时阅读下方关于墨盒工作原理的简要说明，因为它有助于理解许多存储和维护任务的必要性。
+'''
+translate = '''
+The image below shows the main anatomy of your Panda Treat ink cartridge and will be referenced extensively in the sub-headings that follow. It is also beneficial to read the brief description of how the cartridge works below, as this helps to explain the need for many of the storage and maintenance tasks.
+'''
+
+[[block]]
+key = "c77a7a1ed6d4a610"
+origin = '''
+<ImageView src={require('./img/print-cartridge-anatomy.webp').default} width="50%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/print-cartridge-anatomy.webp').default} width="50%"/>
+'''
+
+[[block]]
+key = "9be34fc27d2e466b"
+origin = '''
+打印墨盒内部有三个食用色素储液仓。其中一个包含青色（蓝色），一个包含品红色（红色），一个包含黄色色素。每个储液仓都会向打印头上的微小喷嘴供墨。墨盒打印时，这些微小喷嘴会向下将墨水喷到物体上，而无需接触物体本身。该墨水设计为快速干燥，因此打印后不易涂抹晕开。因此，墨水也可能在喷嘴内快速干燥，从而导致堵塞和打印缺陷。下面的存储，处理和维护任务说明了如何防止堵塞，以及如果出现堵塞应如何清除。
+'''
+translate = '''
+The print cartridge has three internal food colouring reservoirs. One contains cyan (blue), one contains magenta (red), and one contains yellow colouring. Each of these feeds tiny nozzles that are on the printhead. When the cartridge is printing, these tiny nozzles spray ink downwards onto your object without having to touch the object itself. That ink is designed to dry rapidly so that it does not smudge easily after printing. As a result, the ink can also dry rapidly within the nozzles, which can cause clogs and print defects. The storage, handling, and maintenance tasks explain how to prevent clogging and how to remove clogs if they form.
+'''
+
+[[block]]
+key = "40dad85438162f5e"
+origin = '''
+### 存储
+'''
+translate = '''
+### Storage
+'''
+
+[[block]]
+key = "22a959627111c816"
+origin = '''
+由于食用墨水干燥很快，因此不使用时，需要确保打印头周围有密封，以防空气将其吹干。
+'''
+translate = '''
+Since the edible ink dries rapidly, it is important to ensure that there is a seal around the printhead that prevents air from drying it out when it is not in use.
+'''
+
+[[block]]
+key = "fe1e0feb0def7eb4"
+origin = '''
+Panda Treat 墨盒出厂时，墨盒托架上贴有泡棉密封垫。当蓝色密封胶带仍贴在打印头上时，此泡棉密封垫非常适合固定墨盒；但取下蓝色胶带后，如果将墨盒重新插入墨盒托架，泡棉密封垫可能导致墨水混色。因此，在首次使用墨盒前取下蓝色密封胶带后，应缓慢揭起并移除泡棉密封垫，然后用硅胶密封垫替换。
+'''
+translate = '''
+Your Panda Treat ink cartridge ships with a foam seal stuck onto the cartridge holder. This foam seal is ideal for securing the cartridge while the blue sealing tape is still stuck over the printhead, but once the blue tape is removed, the foam seal can result in inks mixing if the cartridge is re-inserted into the cartridge holder. Therefore, after removing the blue sealing tape before the first cartridge use, you should remove the foam seal by slowly peeling it up and then replace it with the silicone seal.
+'''
+
+[[block]]
+key = "b622c8dfe5e48f83"
+origin = '''
+粘贴前，将硅胶密封垫与墨盒托架背面对齐，并确保硅胶密封垫右边缘与沿墨盒托架长度方向延伸的加强筋对齐。安装硅胶密封垫后，不使用墨盒时应将墨盒存放在墨盒托架中。存放墨盒时，请保持其直立，避免倒置或侧放。
+'''
+translate = '''
+Before sticking it down, align the silicone seal with the back of the cartridge holder and make sure that the right edge of the silicone seal aligns with the rib that runs down the length of the cartridge holder. After you have installed the silicone seal, the cartridge holder should be used to store the cartridge when it is not in use. When storing the cartridge, keep it standing upright and avoid placing it upside down or lying on its side.
+'''
+
+[[block]]
+key = "b62cebce5564e898"
+origin = '''
+<ImageView src={require('./img/cartridge-seal-replacement.webp').default} width="50%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/cartridge-seal-replacement.webp').default} width="50%"/>
+'''
+
+[[block]]
+key = "03690602665b4f39"
+origin = '''
+### 维护与保养
+'''
+translate = '''
+### Maintenance and care
+'''
+
+[[block]]
+key = "37d6a52cbd2e0d91"
+origin = '''
+为了获得高质量打印效果，墨盒需要正确维护和护理。请按照以下步骤操作，确保它在整个使用寿命内表现良好。
+'''
+translate = '''
+Your ink cartridge requires proper maintenance and care to produce high quality prints. Follow the steps below to ensure that it performs well for the full service life.
+'''
+
+[[block]]
+key = "c506edb5a42e3c25"
+origin = '''
+- 不使用时，请始终将墨盒存放在已安装硅胶密封垫的墨盒托架中。
+- 如果墨盒超过 15 分钟未使用，请用干净的纸巾从后向前轻轻擦拭打印头。当它可以使用时，你会看到三条清晰的颜色线。颜色线出现后，请再重复擦拭几次。
+'''
+translate = '''
+- Always store the cartridge in the cartridge holder with the silicone seal installed when it is not in use.
+- If the cartridge has not been used for more than 15 minutes, gently wipe the printhead with a clean paper towel starting from the back and moving towards the front. You will see three distinct colour lines appear when it is ready to be used. Repeat the wipe a few times after the colour lines are visible.
+'''
+
+[[block]]
+key = "b08c11ddbb6ddc1b"
+origin = '''
+    <ImageView src={require('./img/wiping-cartridge.webp').default} width="50%"/>
+'''
+translate = '''
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/wiping-cartridge.webp').default} width="50%"/>
+'''
+
+[[block]]
+key = "c743e2d2b086be06"
+origin = '''
+- 如果墨盒已经数天未使用，请先将湿纸巾贴在打印头上几秒钟，然后再擦拭。不要浸泡整个墨盒。
+- 切勿让墨盒直接以打印头朝下站立，也不要用手指触摸打印头。打印头是墨盒底部的亮色条带。
+- 切勿使用酒精清洁打印头。只有当后部接触焊盘变色时，才可以在该位置使用酒精。
+- 切勿侧放存储墨盒。请直立存放，以免墨水在各墨仓之间移动或从打印头处泄漏。
+- 确保墨盒通气孔没有被灰尘或墨水堵塞。墨盒通气孔是通气标签边缘周围的小孔。
+- 避免触摸接触焊盘，因为手指油脂可能导致其腐蚀。
+'''
+translate = '''
+- If the cartridge has not been used for several days, hold a damp paper towel against the printhead for a few seconds before wiping. Do not soak the whole cartridge.
+- Never stand the cartridge directly on the printhead or touch the printhead with your fingers. The printhead is the shiny strip at the base of the cartridge.
+- Never clean the printhead with alcohol. Alcohol may be used only on the rear contact pads if they tarnish.
+- Never store the cartridge on its side. Store it upright so ink does not move between wells or leak across the printhead.
+- Make sure that the cartridge vents are not blocked with dirt or ink. The cartridge vents are the small holes around the edge of the vent label.
+- Avoid touching the contact pads as finger grease can cause them to corrode.
+'''

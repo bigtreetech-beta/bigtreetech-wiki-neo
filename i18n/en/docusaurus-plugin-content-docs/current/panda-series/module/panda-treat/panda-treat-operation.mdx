@@ -15,17 +15,17 @@ This section assumes that you have already assembled and installed the Panda Tre
 
 After the Panda Treat has been installed and the printer has been turned on, the Panda Treat displays a QR code for first-time setup.
 
-<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/factory-reset-lcd-pixel-circle.webp').default} width="120"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/factory-reset-lcd-pixel-circle.webp').default} width="15%"/>
 
 Scan the QR code with a phone or computer to connect to the WiFi hotspot that the Panda Treat hosts for the setup process. You may need to tap on a pop-up when scanning the QR code to get your device to act on it. It may take up to 30 seconds to connect to the Panda Treat hotspot, and you may need to open the browser on your device to prompt your device to automatically navigate to the Panda Treat setup page.
 
 The browser may show `No internet connection` during setup; this is normal because the device is connected directly to the Panda Treat access point. When the setup page loads, it should look like the image below. If this has not loaded within 60 seconds of scanning the QR code, you can access the configuration page directly by going to your web browser, typing `192.168.254.1`, and pressing enter.
 
-<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/captive-portal.webp').default} width="256"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/captive-portal.webp').default} width="30%"/>
 
 Select the preferred language and press `Next`. On the WiFi page, tap `Scan` and once the scan is complete, select the same local WiFi network that the printer uses, enter the WiFi password, and press `Connect`.
 
-<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/wifi-selection.webp').default} width="256"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/wifi-selection.webp').default} width="30%"/>
 
 Leave the browser page open while the Panda Treat connects to the selected network. If you close the page by mistake at any point or if you disconnect from the Panda Treat hotspot, you can get back to the WiFi setup page by scanning the QR code on the screen again. When the connection is successful, press `Binding` to continue to the printer binding page, or press `Cancel` if you need to remain on the WiFi & IP page.
 
@@ -37,13 +37,59 @@ If all of these are true and the printer is still not found, you will need to en
 
 <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/find-access-code.webp').default} width="70%"/>
 
-<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/binding-to-printer.webp').default} width="256"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/binding-to-printer.webp').default} width="70%"/>
 
 Press `Bind` once the printer details are correct. When `Binding successful` appears, the Panda Treat has been bound to the designated printer. The display on the Panda Treat will then be animated according to the printer status.
 
-<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/bound-to-printer.webp').default} width="256"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/bound-to-printer.webp').default} width="50%"/>
 
 After WiFi and printer binding are complete, use `pandatreat.local` from a device on the same network for normal Panda Treat operation.
+
+### Add Panda Treat to your Home Screen
+
+For the most reliable shortcut, first open Panda Treat using its stable `.local` address, such as `http://pandatreat.local`. Unlike a numbered IP address, this address normally continues to work when your router gives Panda Treat a different IP address.
+
+Open the hamburger menu and select `Add to Home Screen`. This menu option is shown on supported iPhone, iPad, and Android browsers when Panda Treat is not already running from a Home Screen icon. It is not shown on desktop computers.
+
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-add-to-home-screen-menu.webp').default}
+    alt="Panda Treat hamburger menu showing the Add to Home Screen option between Settings and About"
+    width="40%"
+/>
+
+Open the hamburger menu and select `Add to Home Screen`.
+
+If you opened Panda Treat through an IP address, the guide asks you to select `Open .local Address`. Panda Treat then opens its stable address and displays the guide again automatically.
+
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-home-screen-local-address-guide.webp').default}
+    alt="Panda Treat Home Screen guide asking the user to open the stable local address"
+    width="40%"
+/>
+
+When prompted, select `Open .local Address` to continue from Panda Treat's stable address.
+
+#### iPhone or iPad
+
+1. In Safari or Chrome, tap the browser's Share button.
+2. Select `Add to Home Screen`.
+3. Confirm the name `Panda Treat`, then tap `Add`.
+
+#### Android phone or tablet
+
+If Panda Treat displays an `Install app` button, select it and confirm the browser's prompt. If the button is not shown, open Chrome's three-dot menu, select `Add to Home screen`, and then use `Install app` when it is offered. Otherwise select `Create shortcut` and confirm `Add`. Menu wording may vary in other Android browsers.
+
+`Install app` opens Panda Treat in an app-style window when the browser supports it. `Create shortcut` still provides quick access, but may open Panda Treat in a normal browser tab.
+
+#### If the Home Screen icon will not open
+
+1. Make sure Panda Treat is turned on.
+2. Make sure the phone or tablet is connected to the same WiFi network as Panda Treat.
+3. If necessary, connect the phone or tablet directly to Panda Treat's own WiFi network.
+4. Open a browser and visit `http://192.168.254.1`.
+5. If the Panda Treat hostname was changed, remove the old Home Screen icon, open the new `.local` address, and add the icon again.
+
+Removing a Home Screen icon does not erase any Panda Treat settings.
 
 ## Software updates
 
@@ -51,7 +97,7 @@ The Panda Treat will receive software updates from time to time which will add g
 
 The easiest way to check for software updates is to allow the Panda Treat to automatically check. It will do this whenever it is connected to a WiFi network that has an internet connection. If an update is available, the display will show an image like the one below. Scan the QR code with your device that is on the same WiFi network as the Panda Treat and it will take you to the page that allows you to install the update.
 
-<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/update-rounded.webp').default} width="120"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/update-rounded.webp').default} width="15%"/>
 
 You can also access the page manually by clicking on the settings option from the hamburger menu in the top right.
 
@@ -59,7 +105,7 @@ You can also access the page manually by clicking on the settings option from th
 
 When the page loads, you should be presented with a pop-up that informs you that an update is available. Select `Confirm` to proceed with the update. During the update, the Panda Treat should remain connected to the internet and you should not remove power. Updates will often occur in two stages with progress indicators being provided via the web UI as well as via the Panda Treat display.
 
-<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/update-available-popup.webp').default} width="360"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/update-available-popup.webp').default} width="40%"/>
 
 If your Panda Treat is not connected to the internet, you can still download and install update files manually. To apply an update manually first download the latest software from [CMYLabs/PandaTreat releases](https://github.com/CMYLabs/PandaTreat/releases).
 
@@ -71,19 +117,63 @@ Once the update has been installed, the Panda Treat will reboot and reconnect to
 
 ## Settings
 
-The Panda Treat has various settings that allow you to adjust the print quality and other important functions.
+Panda Treat settings cover network access, printer binding, language and units, software updates, the idle display image, ink-strip spacing, and recovery functions.
 
-Access the settings menu by clicking on the settings option from the hamburger menu in the top right and then navigating to the settings tab on the bottom right of the page that is shown.
+Open the hamburger menu in the upper-right corner of the printing interface and select `Settings`. When the settings site opens, select `Settings` again in the navigation. On phones and tablets, this tab is in the lower-right corner; on desktop, it is in the left navigation rail. The image below shows both steps.
 
 <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/access-settings-menu.webp').default} width="70%"/>
 
-The software versions and updates are covered in the software updates section. The other available settings are:
+### WiFi and network
 
-- `Ink Strip Spacing`: Adjusts the spacing used between print passes. This allows you to increase or decrease the spacing between each line that is printed. It is useful if you notice overlaps or gaps between the printed lines even after cleaning the cartridge. The troubleshooting section contains more information about how to use this setting.
-- `Set Emergency Stop`: Should remain enabled unless instructed otherwise for a specific diagnostic procedure.
-- `Factory Reset`: Restores the Panda Treat to factory settings.
+Open `Wi-Fi & Network` to see the network that Panda Treat is using, copy its current IP address, or view and change its stable hostname. Prefer the displayed `.local` address for bookmarks and Home Screen icons because it remains useful when the numbered IP address changes.
 
-<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/settings-page.webp').default} width="70%"/>
+Use `Configure Wi-Fi` if Panda Treat needs to join another network. Keep the page open while the connection is being changed. Your phone or computer may temporarily lose contact with Panda Treat and may need to join the new network before the page can be opened again.
+
+`Panda Treat Access Point` controls the private WiFi network created by Panda Treat. You can keep the access point enabled, change its name or password, and change its direct-connection IP address. Changing these details while using the access point can disconnect the device that is displaying the page. Review the changes carefully before selecting `Save Access Point`; use `Discard changes` to restore the latest values shown by Panda Treat.
+
+### Printer connection
+
+Open `Bind to Printer` to view or change the connected printer. Select `Scan` and wait for the search to finish, then choose a supported printer from the list. If the printer is not found, enter its serial number, access code, and IP address manually.
+
+When a printer is already bound, it remains selected in the list and the action is `Unbind`. You may still select a different printer. Once the new printer has a supported model and valid serial number, access code, and IP address, the action changes to `Bind`. Selecting it replaces the old binding with the new one.
+
+### Language, units, and returning to the print interface
+
+Use `Language & units` and `Interface language` to change between English and Simplified Chinese. Use `Dimension units` to display dimensions in millimetres or inches. Select `Treat Yourself` in the navigation to return to the main printing interface.
+
+### Idle display image
+
+`Idle display image` controls the image shown on the Panda Treat screen while it is idle. The built-in Panda image is used by default.
+
+- Select `Change image`, then choose a still JPEG, PNG, WebP, HEIC, or HEIF image supported by the browser. GIF and animated images are not supported.
+- Drag to reposition the image. Pinch, use the mouse wheel, or move the zoom slider to resize it. The circular mask shows the part that will be visible on the round display.
+- After selecting `Install image`, keep the page open and do not remove the SD card until saving and verification are complete.
+- To use the built-in Panda image again, select `Restore default`, then confirm the restoration.
+
+### Updates and print spacing
+
+Firmware and user-interface versions, online update checks, and manual updates are described in [Software updates](#software-updates).
+
+`Ink strip spacing` changes the distance between adjacent printed passes:
+
+- Select `Reset to default` to restore `8.40`.
+- If dark strips overlap, increase the value by `0.01`.
+- If light or white gaps appear, decrease the value by `0.01`.
+- If several small adjustments do not improve the print, restore `8.40` because strip spacing is probably not the cause.
+
+Select `Save adjustment` after making a change. Clean and check the cartridge before changing this setting.
+
+### Safety and factory reset
+
+`Emergency stop` should remain enabled during normal use. If it is disabled, Panda Treat can no longer request an immediate printer stop in the usual way. On printers that are not using LAN Developer Mode, Panda Treat instead sounds a warning and displays a stop message; the process can take about eight seconds longer. Disable this feature only when a specific diagnostic procedure requires it.
+
+`Factory reset Panda Treat` erases saved WiFi networks, printer binding details, and Panda Treat preferences. Use it only when you intend to set up the product again from the beginning.
+
+<ImageView
+  src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-settings-page.webp').default}
+  alt="Panda Treat Settings & Updates page including the Idle display image setting"
+  width="70%"
+/>
 
 ## Printing onto items
 
@@ -100,55 +190,177 @@ To measure the height, we recommend using the printable tool shown below. The ar
 - Printable height measurement tool with instructions - Coming soon
 - Printable vernier callipers: [vernier-caliper-ruler-two-lengths](https://makerworld.com/en/models/198362-vernier-caliper-ruler-two-lengths)
 
-### Non-custom shape preparation workflow
+### Prepare the print surface and open Panda Treat
 
-You are now at the stage when you get to print onto an object. The following steps guide you through the printing process for a non-custom shape.
-
-First, make sure that your print surface has been made food-safe. Do this by laying down a piece of silicone baking sheet or parchment paper that fits within the boundary of the printer build plate.
+Before preparing any print, cover the area inside the printer build plate with a clean food-safe silicone baking sheet or parchment paper. The sheet must lie flat and remain inside the plate boundary.
 
 <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/prepared-surface.webp').default} width="45%"/>
 
-Next, access the printing interface on the Panda Treat. You can do this by scanning the QR code on the Panda Treat display using your device. You should always be on the same WiFi network as the Panda Treat when doing this.
+Open the Panda Treat printing interface by scanning the QR code on its display or by opening the `.local` address that you saved earlier. The phone, tablet, or computer must be on the same WiFi network as Panda Treat.
 
 :::info[Note]
 
-After you scan the code, it is recommended that you bookmark the page and add it to your home screen as a shortcut so that you can get quick access to it whenever you need it.
+For quicker access later, bookmark the `.local` address or follow [Add Panda Treat to your Home Screen](#add-panda-treat-to-your-home-screen).
 
 :::
 
 <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/qr-to-print-page.webp').default} width="70%"/>
 
-From the landing page, choose the type of item you want to print onto. `Cookie / Cake` is used for solid items and `Beverage` is used for drinks or surfaces such as foam.
+The landing page offers `Cookie / Cake`, `Beverage`, and `Troubleshooting`. The following sections explain the two printing flows.
 
 <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/item-type-selection.webp').default} width="70%"/>
 
-Choose the shape that best matches the item (A). For a simple cookie, cake, or drink surface, use the circular or square options. The custom shape workflow is covered in another part of this guide.
+### Cookie / Cake workflow
 
-Enter the dimensions of the object that you are printing onto (B). Even if you will only be printing onto a smaller part of the object, it is recommended to measure the dimensions of the full object and then scale the image using the zoom slider (E) so that it fits to the smaller area that you plan to print onto. If you enter dimensions that are smaller than the object, you may find it difficult to place the object within the alignment markers that are printed at a later step.
+Use this flow for cookies, cakes, and other solid items with a printable top surface.
 
-:::info[Height]
+1. Select `Cookie / Cake` on the landing page.
+2. In `Shape`, select `Square` or `Round` to match the outside of the item. For an irregular cookie, use the [Custom shape preparation workflow](#custom-shape-preparation-workflow).
+3. In `Grid`, choose the number of columns and rows. Leave the grid at `1 × 1` for a first print. For a batch, increase the rows or columns and select `Preview grid` to check the spacing and maximum item size.
+4. In `Dimensions`, enter the item's full width, length, and highest point. Measuring the full item makes it easier to place within the printed marker, even when the artwork covers only a smaller area. Use `Inset Border` if the printable area should remain inside the outside edge.
 
-The height is the most important value because an incorrect height can cause the printhead to drag across the object. Measure the item carefully and add a small safety margin if the surface is uneven.
+:::warning[Measure the highest point]
+
+An incorrect height can cause the printhead to drag across the item. Add 1 mm to the measured height when the surface is uneven.
 
 :::
 
+5. In `Artwork`, select the preview or `Change image` and choose the image to print. Drag the image to position it and use the slider or a pinch gesture to change its scale. The red outline represents the measured item, and the blue inset guide represents the optional inset border.
+6. Select `Hide marker` when you want an unobstructed artwork preview and `Show marker` to restore the guides. `Recenter` removes only the artwork's movement and keeps its scale. `Reset All` returns the artwork to the centre at 100% scale; it does not change the selected shape, grid, or dimensions.
+
 <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/print-workflow-a-to-e.webp').default} width="70%"/>
 
-Click on the image box (C) to upload the image that you want to print. Once the image is uploaded, you can move it around and scale it so that it is positioned correctly on the object. The red outline represents the outline of the object according to the dimensions that you entered earlier.
+7. In `Send`, choose the print options that suit the job:
+    - `Draft Mode` prepares a quicker preview-quality print.
+    - `High Ink Intensity` is shown only on supported printers. It lays down more edible ink and can help when an ordinary print is too pale.
+    - `Make favorite` keeps the print under a name you choose instead of allowing the next sent print to replace it. Enter a supported name containing 3 to 18 characters. The favorite remains available while the same SD cards remain installed.
+8. Send the marker file when you need a placement guide. It prints directly onto the food-safe sheet and shows where each item belongs.
+9. Send the image file for the full-colour artwork. If you already have a reliable way to place the item, the marker file is optional.
 
-If you plan to print this repeatedly, you can opt to make it one of your favourite prints (D). This will keep it permanently stored within the printer memory instead of overwriting it with the next print that you send. Selecting this option will require you to provide a name for the favourite so that you can identify the file on the printer using that name in the future.
-
-Next, you need to send the files to the printer. There are two types of files that you can send: marker files (F) and image files (G). Marker files print directly onto your food-safe surface to show you where to place the object. Print files are printed after the object has been placed on the surface. If you already know where to place the object then there is no need to send the marker file and you can proceed directly to sending the image file.
+The actions remain visible while setup is incomplete, but they have a muted appearance. Selecting a blocked action briefly displays the exact missing items. Select any displayed reason to return to the artwork or dimension that needs attention. No file is prepared until all required artwork, width, and length information is valid.
 
 <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/print-workflow-f-to-g.webp').default} width="70%"/>
 
-After selecting either file type to send to the printer, you will see a small pop-up that provides you with the upload status.
+After confirming either send action, keep the page open while Panda Treat prepares and uploads the files.
 
-<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/uploading-print.webp').default} width="300"/>
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/uploading-print.webp').default} width="35%"/>
+
+### Beverage workflow
+
+Use this flow for artwork printed onto a smooth, stable drink surface such as latte or beer foam. Prepare the drink shortly before printing so the foam does not collapse while the printer is being set up.
+
+1. Select `Beverage` on the landing page.
+2. In `Shape`, select `Round` or `Square` to match the usable top surface.
+3. In `Grid`, choose how many drinks will be placed on the print surface. Start with `1 × 1`, and select `Preview grid` before attempting a batch.
+4. Measure the complete usable width and length of the foam surface. Measure the height from the food-safe sheet to the highest printable part of the foam, including the cup or glass. Enter these values in `Dimensions`.
+5. If Panda Treat warns that the beverage height is unusually low, measure it again. Continue only when the entered value really is the distance from the food-safe sheet to the foam surface.
+6. In `Artwork`, select the preview or `Change image`, then position and scale the image. Keep important detail away from foam that is uneven, bubbly, or close to the rim.
+7. Choose `Draft Mode`, conditional `High Ink Intensity`, or `Make favorite` in the same way as the Cookie/Cake flow when they suit the job.
+8. Send and print the marker file with no drink on the build plate. The marker shows where the cup or glass must stand.
+9. Place the drink securely inside the marker without moving the sheet. Make sure the container is stable, the foam is still smooth, and no part of it will contact the moving printhead.
+10. Send the image file, then continue with the [Printing workflow](#printing-workflow).
 
 ### Custom shape preparation workflow
 
-Coming soon.
+Use this workflow when the outside of a cookie is not a simple circle or square. `Custom` is available only in the `Cookie / Cake` flow. Panda Treat can detect the outside edge from an image, or you can use Cookiecad to create a more complex cutter.
+
+Start both routes in the same way:
+
+1. Cover the area inside the printer build plate with a food-safe silicone baking sheet or parchment paper.
+2. Make sure your device is on the same WiFi network as the Panda Treat, then scan the QR code on the Panda Treat display or open the Panda Treat page that you saved earlier.
+3. Choose `Cookie / Cake` on the landing page, then choose `Custom` in the `Shape` step.
+4. Choose either `Panda Treat flow` or `Cookiecad flow` in the window that opens.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-custom-workflow-chooser.webp').default} width="70%"/>
+
+#### Panda Treat flow
+
+Use this route when the object in your image has one clear, unbroken outside edge and a simple background. Panda Treat finds the main object and keeps the cookie cutter, placement marker, and final printed artwork matched to one another.
+
+1. Choose `Panda Treat flow`.
+2. In the `Grid` step, choose how many cookies you want to print at once. Leave this at `1 × 1` for your first attempt. For a batch, increase the rows or columns and select `Preview grid` to check the layout. If Panda Treat shows a smaller maximum, use the value it allows.
+3. Select the artwork preview or `Change image`, then choose the image that you want to print on the cookie. An image works best when it has an even, plain background, one main object, and a complete outside edge that is easy to see. Avoid busy backgrounds and strong shadows where possible.
+4. Wait while Panda Treat prepares the image. The red line should follow the complete outside edge of the object without surrounding unwanted background or cutting into the object itself. Adjust `Background Sensitivity` gradually. Use the lowest value that removes the unwanted background while preserving the complete object. You can select `Hide marker` to check the artwork without the red line and `Show marker` to bring it back.
+
+The football below shows why this adjustment matters. At `17`, the red line cleanly follows the complete football:
+
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-custom-background-sensitivity-17.webp').default}
+    alt="Panda Treat custom-shape editor showing a complete football outline at Background Sensitivity 17"
+    width="70%"
+/>
+
+Background Sensitivity 17 keeps the complete football, including both pale stripes.
+
+At `48`, the setting is too sensitive to the pale colours. Parts of the white stripe and upper edge are treated as background, so the red line cuts into the football:
+
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-custom-background-sensitivity-48.webp').default}
+    alt="Panda Treat custom-shape editor showing the outline cutting into pale areas of a football at Background Sensitivity 48"
+    width="70%"
+/>
+
+Background Sensitivity 48 removes part of the object and should not be used for this image.
+
+If a low setting still surrounds some background, move the slider upward a little at a time. Stop as soon as the background is gone; if the line begins cutting into the object, move the slider back down.
+
+`Recenter` is inactive in the Panda Treat custom-shape editor because the detected outline and artwork must remain aligned. `Reset All` restores only `Background Sensitivity` to its default value; it does not clear the image, dimensions, grid, or detected shape.
+
+5. In the `Dimensions` step, enter either the width or the length that you want for the finished cookie. Panda Treat changes the other measurement automatically to keep the detected shape in proportion. The width and length therefore cannot be stretched separately, and custom shapes do not use an inset border.
+6. Check the grid and dimensions again. If a size warning appears, use fewer grid positions or a smaller cookie until the warning clears.
+7. Select `Create cutter`. When the cutter is ready, drag the 3D preview to rotate it and use the scroll wheel to zoom. Check the shape, then select `Download STL`. An STL is the model file used by a 3D printer. Do not mirror the image yourself; the downloaded cutter is already prepared for being turned over and pressed into the dough.
+
+If Panda Treat cannot make the cutter, try an image with a simpler outside edge and a cleaner background.
+
+:::tip[You can pause here]
+
+After downloading the STL, you can pause the Panda Treat workflow, 3D print the cutter, use it to cut and bake the cookies, and return when the cookies are ready.
+
+Close the cutter preview, but keep this Panda Treat tab open. Do not refresh the page or navigate away from it. The current custom setup is not saved as a project that you can reopen. If the browser reloads or closes the tab, repeat the custom-shape steps with the same image and settings. As a backup, write down the dimensions and `Background Sensitivity`, or take a screenshot.
+
+:::
+
+8. After the cookies have baked and cooled, return to the Panda Treat page that you left open. Measure the highest point of an actual cookie and enter it as the `Treat height`. Add 1 mm if the surface is uneven.
+9. Check the red outline, dimensions, and grid preview one final time against the baked cookies.
+
+#### Cookiecad flow
+
+Use this route when the cutter is more complex than the kind of outline Panda Treat can detect from a simple image. It requires an internet connection and a Cookiecad account. The Cookiecad Designer opens inside the Panda Treat page.
+
+1. Choose `Cookiecad flow`, then sign in or create an account if Cookiecad asks you to.
+2. In Cookiecad, choose an existing shape or upload your own image. For an uploaded image, use a design with a clear main shape and a complete outside edge. Very small details may be difficult to 3D print or may not show clearly in the dough.
+3. Set the real-world size of the finished cutter. The width and length returned by Cookiecad become the cookie dimensions used by Panda Treat, so check the size before continuing.
+4. Check the outside edge and any inner holes that need to be cut out. Panda Treat will add the full-colour artwork later, so it is usually best to keep the top of the cookie smooth unless you deliberately want the cutter to press inner details into it.
+5. Rotate Cookiecad's 3D preview and inspect the cutter from several angles. Make sure the cutting edge is continuous, important parts are connected, and details are not too thin or isolated. If an inner part needs support, Cookiecad's center bar option can connect it.
+6. When you are happy with the design, follow Cookiecad's on-screen prompt to prepare and return it to Panda Treat.
+7. Wait for the design to return to Panda Treat. Panda Treat receives matching artwork, outline, width, length, and cutter file. If an error appears, follow the message, adjust the design in Cookiecad, and export it again. A design that is too small or too large for the printer's printable area will not be accepted.
+8. When Panda Treat shows `Cookiecad cutter ready`, the returned artwork, outline, width, and length are locked together. Select `Download STL` to save the cutter file.
+
+For more help with Cookiecad's design options, see the [Cookiecad Designer features overview](https://docs.cookiecad.com/cookiecad-designer/features-overview/).
+
+If you select `Back to Panda Treat` before the design is complete, the unfinished design is not transferred. Selecting Cookiecad again later starts a new session.
+
+:::tip[You can pause here]
+
+After downloading the STL, you can pause the workflow, 3D print the cutter, use it to cut and bake the cookies, and return when they are ready.
+
+Keep the current Panda Treat tab open and do not refresh it or navigate away. The setup returned from Cookiecad is not saved as a project that Panda Treat can reopen. If the tab closes or reloads, return the design from Cookiecad to Panda Treat again.
+
+:::
+
+9. After the cookies have baked and cooled, return to Panda Treat, measure the highest point, and enter it as the `Treat height`. Add 1 mm if the surface is uneven.
+10. In the `Grid` step, choose how many cookies to print at once and select `Preview grid` to check the layout. Panda Treat limits the available rows and columns to suit the cutter size returned by Cookiecad.
+11. The width, length, artwork, and outline returned by Cookiecad cannot be changed separately in Panda Treat. `Recenter` and `Reset All` are inactive while this locked design is loaded. To use another design, select `Custom` again, reopen the workflow chooser, and start the required Panda Treat or Cookiecad route again.
+
+#### Finish and send the print files
+
+The final send steps are the same for both custom routes:
+
+1. Confirm that `Treat height` is the actual height of the baked cookies and check the grid one last time.
+2. If you want to use this print again from the printer, turn on `Make favorite` and give it a name.
+3. It is recommended to send the marker file first. It shows the exact position of every cookie on the food-safe surface.
+4. Send the image file. The required preparation file is included automatically when you send either print.
+5. When the uploads finish, continue with the Printing workflow below. Run the marker print with no cookies on the surface, place the baked cookies inside the outlines, and then run the image print.
 
 ### Printing workflow
 
@@ -182,7 +394,7 @@ Once the image and optionally the marker files have been prepared and sent to th
 
 5. The printer will perform some preparation steps and then print the desired file. If you hear loud beeping coming from the Panda Treat at any point during the preparation then this is a warning that you have not run the required preparation print file and you should stop the print immediately and run the required preparation file. If the printer has not been prepared, you will see this on the Panda Treat screen.
 
-    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/not-prepared-rounded.webp').default} width="120"/>
+    <ImageView src={require('@site/docs/panda-series/module/panda-treat/img/not-prepared-rounded.webp').default} width="15%"/>
 
 6. If the file prints successfully, you will either have:
 
@@ -204,13 +416,143 @@ Once the image and optionally the marker files have been prepared and sent to th
 
 If you want the colours to be more saturated, leave your treat in position and tap `Reprint` on the printer screen.
 
-## Print quality
+## Troubleshooting
 
-Panda Treat print quality depends on cartridge condition, object placement, printer motion, and ink strip spacing. If print quality is poor, check the simple causes first before changing settings.
+The Panda Treat home page contains a comprehensive `Troubleshooting` section with illustrated checks for common print-quality and connection problems. The key recovery steps are also included below for easy reference.
 
-- Missing colours or broken lines usually indicate that the cartridge needs to be wiped or has been stored incorrectly. See the section on cartridge care.
-- Large placement errors usually indicate that the marker was not printed first or the object moved after placement.
-- Very obvious gaps or dark lines between passes may indicate Y-axis movement or strip spacing issues. Re-check belt tension and then adjust `Ink Strip Spacing` in small `0.01` increments if needed. See the settings section.
-- If the printhead drags across the item, stop and re-measure the object height. Increase the height value slightly before trying again.
-- Use `Troubleshooting` from the landing page for guided checks when available.
-- If a problem repeats after the cartridge has been cleaned, the printer has been prepared, and the object height is correct, record a clear photo of the artefact and the settings used so support can diagnose the issue.
+### Clogged ink nozzles
+
+Random white streaks, missing colours, or patchy coverage usually mean that one or more nozzles are not flowing cleanly. Edible ink dries quickly, so nozzles can clog when the cartridge is left exposed.
+
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-troubleshooting-clogged-ink-nozzles.webp').default}
+    alt="Example print with missing and uneven colour bands associated with clogged ink nozzles"
+    width="50%"
+/>
+
+Missing and uneven colour bands are common signs that one or more nozzles are not flowing correctly.
+
+1. Remove the cartridge and fold a clean paper towel into a soft pad.
+2. Wipe the printhead smoothly from back to front using quick, even strokes. Do not scrub from side to side.
+3. Repeat several times. All three colour lines should become clearly visible on the paper towel.
+4. Reinstall the cartridge and try the print again.
+
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-troubleshooting-wipe-cartridge.webp').default}
+    alt="Animation demonstrating how to wipe the cartridge printhead from back to front"
+    width="45%"
+/>
+
+Wipe smoothly from the back of the printhead towards the front.
+
+If ordinary wiping does not restore all three colours:
+
+1. Fold a paper towel and dampen it with water. It should be slightly damp, not dripping.
+2. Stand the cartridge upright with only the nozzles resting on the damp towel. Support the towel if necessary so it remains in contact with the nozzles.
+3. Leave it for five minutes.
+4. Wipe the printhead several times on the damp section, dry the outside thoroughly, and then wipe it on a dry section from back to front.
+
+Do not soak the cartridge or allow water to reach the electrical contacts.
+
+### Gaps and dark lines
+
+Regular white gaps or dark bands between printed passes can be caused by small differences in printer movement. Clean the cartridge first, then open `Settings` and find `Ink strip spacing`.
+
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-troubleshooting-lines-and-streaks.webp').default}
+    alt="Example print with regular light gaps and dark bands between printed passes"
+    width="50%"
+/>
+
+Regular light gaps and dark bands can indicate that adjacent printed passes are not meeting correctly.
+
+1. Confirm that the value is `8.40`. If it is not, select `Reset to default`, save the setting, and test again.
+2. If dark strips overlap, increase the value by `0.01`, save it, and test.
+3. If light or white gaps appear, decrease the value by `0.01`, save it, and test.
+4. Repeat one small step at a time only while the result is improving.
+5. If several adjustments make no improvement, restore `8.40`; strip spacing is probably not the cause.
+
+### Overspray or fuzzy edges
+
+Ink spreads as it travels through the air. If the printhead is too far above the item, artwork and text can develop cloudy or fuzzy edges.
+
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-troubleshooting-overspray.webp').default}
+    alt="Example artwork with a cloudy halo and fuzzy edges caused by overspray"
+    width="50%"
+/>
+
+Cloudy colour around otherwise sharp artwork is a typical sign of overspray.
+
+1. Measure the highest printable point again and confirm the entered height.
+2. Watch the clearance as the printhead passes over the item. Panda Treat works best when the printhead is no more than `2 mm` (`0.079 in`) above the target.
+3. If the item has high and low areas, add filling or icing to raise the low areas where practical.
+4. Turn off nearby fans, close windows that create a breeze, or move the printer to an area with still air.
+
+Never reduce the clearance so far that the printhead can touch the item.
+
+### Corrupted images or unexpected colours
+
+Extra colours, haze, extremely pale output, or random lines can be caused by poor electrical contact between the cartridge and Panda Treat.
+
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-troubleshooting-corrupted-images.webp').default}
+    alt="Example print with unexpected colours and broken bands associated with poor cartridge contact"
+    width="50%"
+/>
+
+Unexpected colours and broken bands can indicate poor electrical contact with the cartridge.
+
+1. Power off the printer and remove the cartridge.
+2. Gently clean the cartridge's copper pads with a clean pencil eraser.
+3. Check that the lower edge of the Panda Treat PCB sits fully against the printed mount. If there is a gap, loosen the mounting screws, press the PCB down evenly, and retighten the screws.
+4. Reinstall the cartridge so its copper pads make firm, even contact with the Panda Treat pins.
+5. Wipe the nozzles using the clogged-nozzle process above, then test again.
+
+Do not scrape the copper pads with metal tools and do not touch them with your fingers.
+
+### Cartridge storage
+
+Store the cartridge upright in the supplied holder with the silicone seal installed whenever it is not being used. Do not store it on its side or upside down, and do not leave the nozzles exposed longer than necessary. See [Ink cartridge handling](./panda-treat-hardware#ink-cartridge-handling) for the complete storage, seal-replacement, and maintenance instructions.
+
+<ImageView
+    src={require('@site/docs/panda-series/module/panda-treat/img/panda-treat-troubleshooting-cartridge-storage.webp').default}
+    alt="Panda Treat cartridge holder showing the sealing area for upright cartridge storage"
+    width="50%"
+/>
+
+Store the cartridge upright in its holder with the silicone seal fitted.
+
+### Restore a missing or damaged printing interface
+
+If the normal Cookie/Cake, Beverage, and Troubleshooting landing page is blank or missing but the settings site still opens, the user-interface files may be absent or damaged. The firmware and settings portal can remain operational in this state.
+
+If Panda Treat has internet access:
+
+1. Open the settings site and go to `Settings & Updates`.
+2. Select `Check for updates`.
+3. If a user-interface repair or update is offered, confirm it and keep Panda Treat powered on and connected until it completes.
+4. After Panda Treat restarts, select `Treat Yourself` or reopen its `.local` address.
+
+If Panda Treat does not have internet access:
+
+1. On another device, download the compatible Panda Treat release from [CMYLabs/PandaTreat releases](https://github.com/CMYLabs/PandaTreat/releases).
+2. Open `Manual update` in the settings site.
+3. Choose the file whose name identifies it as the **UI** update and ends in `.bin`.
+4. Start the user-interface update and keep power connected until Panda Treat reports completion and restarts.
+5. Reopen the `.local` address and select `Treat Yourself`.
+
+Firmware and UI files are not interchangeable. Never upload a file marked `firmware` into the UI update control, or a file marked `UI` into the firmware update control.
+
+### Preparing information for support
+
+If a problem remains after following the relevant topic, record:
+
+- clear photographs of the printed fault and cartridge contact area;
+- the printer model;
+- the Panda Treat firmware and user-interface versions;
+- the entered dimensions and selected print options;
+- the current `Ink strip spacing` value; and
+- the steps already attempted.
+
+This information helps support identify the cause without asking you to repeat the same checks.
