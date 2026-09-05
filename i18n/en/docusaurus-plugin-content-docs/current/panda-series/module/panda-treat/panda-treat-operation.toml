@@ -883,17 +883,17 @@ Use this flow for cookies, cakes, and other solid items with a printable top sur
 '''
 
 [[block]]
-key = "4b55d8f7ad679c96"
+key = "1df3b26ab5e7dd25"
 origin = '''
 1. 在首页选择 `饼干 / 蛋糕`。
 2. 在 `形状` 中选择 `方形` 或 `圆形`，使其与物品外形匹配。如果是不规则饼干，请使用[自定义形状准备工作流](#自定义形状准备工作流)。
-3. 在 `网格` 中选择列数和行数。第一次打印建议保留 `1 × 1`。批量打印时可增加行数或列数，并选择 `预览网格` 检查间距和物品最大尺寸。
+3. 在 `网格` 中选择列数和行数。第一次打印建议保留 `1 x 1`。批量打印时可增加行数或列数，并选择 `预览网格` 检查间距和物品最大尺寸。
 4. 在 `尺寸` 中输入物品完整的宽度，长度和最高点。即使图稿只覆盖较小区域，也应测量整个物品，这样更容易将物品放进打印出的标记内。如果可打印区域需要避开物品外边缘，请使用 `内缩边框`。
 '''
 translate = '''
 1. Select `Cookie / Cake` on the landing page.
 2. In `Shape`, select `Square` or `Round` to match the outside of the item. For an irregular cookie, use the [Custom shape preparation workflow](#custom-shape-preparation-workflow).
-3. In `Grid`, choose the number of columns and rows. Leave the grid at `1 × 1` for a first print. For a batch, increase the rows or columns and select `Preview grid` to check the spacing and maximum item size.
+3. In `Grid`, choose the number of columns and rows. Leave the grid at `1 x 1` for a first print. For a batch, increase the rows or columns and select `Preview grid` to check the spacing and maximum item size.
 4. In `Dimensions`, enter the item's full width, length, and highest point. Measuring the full item makes it easier to place within the printed marker, even when the artwork covers only a smaller area. Use `Inset Border` if the printable area should remain inside the outside edge.
 '''
 
@@ -1008,11 +1008,11 @@ Use this flow for artwork printed onto a smooth, stable drink surface such as la
 '''
 
 [[block]]
-key = "7cbaa6909e74cc5e"
+key = "6ea9dacafcd7527c"
 origin = '''
 1. 在首页选择 `饮品`。
 2. 在 `形状` 中选择 `圆形` 或 `方形`，使其与可用顶部表面匹配。
-3. 在 `网格` 中选择要放在打印表面上的饮品数量。建议先使用 `1 × 1`；批量打印前请选择 `预览网格`。
+3. 在 `网格` 中选择要放在打印表面上的饮品数量。建议先使用 `1 x 1`；批量打印前请选择 `预览网格`。
 4. 测量泡沫可用表面的完整宽度和长度。高度应从食品安全表面量到泡沫最高可打印位置，并包含杯子或玻璃杯本身。将这些数值输入 `尺寸`。
 5. 如果 Panda Treat 提示饮品高度较低，请重新测量。只有当输入值确实是从食品安全表面到泡沫表面的距离时才继续。
 6. 在 `图稿` 中点击预览区域或 `更换图片`，然后定位并缩放图片。重要细节应避开不平整，气泡较多或靠近杯沿的泡沫。
@@ -1024,7 +1024,7 @@ origin = '''
 translate = '''
 1. Select `Beverage` on the landing page.
 2. In `Shape`, select `Round` or `Square` to match the usable top surface.
-3. In `Grid`, choose how many drinks will be placed on the print surface. Start with `1 × 1`, and select `Preview grid` before attempting a batch.
+3. In `Grid`, choose how many drinks will be placed on the print surface. Start with `1 x 1`, and select `Preview grid` before attempting a batch.
 4. Measure the complete usable width and length of the foam surface. Measure the height from the food-safe sheet to the highest printable part of the foam, including the cup or glass. Enter these values in `Dimensions`.
 5. If Panda Treat warns that the beverage height is unusually low, measure it again. Continue only when the entered value really is the distance from the food-safe sheet to the foam surface.
 6. In `Artwork`, select the preview or `Change image`, then position and scale the image. Keep important detail away from foam that is uneven, bubbly, or close to the rim.
@@ -1104,16 +1104,16 @@ Use this route when the object in your image has one clear, unbroken outside edg
 '''
 
 [[block]]
-key = "f48362c49513d76f"
+key = "b15e8d4dcfa7e3db"
 origin = '''
 1. 选择 `Panda Treat 流程`。
-2. 在 `网格` 步骤选择一次要打印的饼干数量。第一次使用时，建议保留 `1 × 1`。如果要一次打印多块饼干，请增加行数或列数，然后选择 `预览网格` 检查布局。如果 Panda Treat 显示较小的最大值，请使用它允许的值。
+2. 在 `网格` 步骤选择一次要打印的饼干数量。第一次使用时，建议保留 `1 x 1`。如果要一次打印多块饼干，请增加行数或列数，然后选择 `预览网格` 检查布局。如果 Panda Treat 显示较小的最大值，请使用它允许的值。
 3. 点击图稿预览区域或 `更换图片`，选择要印在饼干上的图片。效果最好的是背景颜色均匀，只包含一个主要物体且完整外边缘清晰可见的图片。尽量避免杂乱背景和明显阴影。
 4. 等待 Panda Treat 处理图片。红色线条应沿着物体完整的外边缘，既不能包住不需要的背景，也不能切进物体本身。请逐步调节 `背景灵敏度`，使用能够去除多余背景，同时保留完整物体的最低数值。可以选择 `隐藏标记` 暂时隐藏红线检查图稿，再选择 `显示标记` 恢复红线。
 '''
 translate = '''
 1. Choose `Panda Treat flow`.
-2. In the `Grid` step, choose how many cookies you want to print at once. Leave this at `1 × 1` for your first attempt. For a batch, increase the rows or columns and select `Preview grid` to check the layout. If Panda Treat shows a smaller maximum, use the value it allows.
+2. In the `Grid` step, choose how many cookies you want to print at once. Leave this at `1 x 1` for your first attempt. For a batch, increase the rows or columns and select `Preview grid` to check the layout. If Panda Treat shows a smaller maximum, use the value it allows.
 3. Select the artwork preview or `Change image`, then choose the image that you want to print on the cookie. An image works best when it has an even, plain background, one main object, and a complete outside edge that is easy to see. Avoid busy backgrounds and strong shadows where possible.
 4. Wait while Panda Treat prepares the image. The red line should follow the complete outside edge of the object without surrounding unwanted background or cutting into the object itself. Adjust `Background Sensitivity` gradually. Use the lowest value that removes the unwanted background while preserving the complete object. You can select `Hide marker` to check the artwork without the red line and `Show marker` to bring it back.
 '''
