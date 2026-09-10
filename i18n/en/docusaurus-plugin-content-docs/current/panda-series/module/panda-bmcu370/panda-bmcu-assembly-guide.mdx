@@ -1,0 +1,388 @@
+---
+sidebar_position: 2
+description: This guide explains how to assemble the BMCU DIY kit. Before you begin, 3D-print the required parts. You will assemble them with the components included in the kit.
+---
+
+# Panda BMCU-370 DIY Kit Assembly Guide
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-5.webp').default} width="40%" class="right-image"/>
+
+:::info[Note]
+
+Additional tools required: 3mm Phillips screwdriver, 1.5mm hex key, soldering iron and soldering tools, tweezers, double-sided tape and grease.
+
+:::
+
+## Product Overview
+
+The BMCU is a multi-material control system based on open-source designs, engineered to replicate AMS functionality. It is compatible with Bambu Lab A-series, X-series, and P-series printers (Note: The P2S is not currently supported). Designed as a 4-channel system, the BMCU utilizes a CH32 microcontroller. Please note that RFID material identification is not currently supported.
+
+As a third-party DIY accessory, the BMCU's stability may differ from the official AMS Lite, and future official printer firmware updates may impact compatibility. The BMCU is under active development; subsequent releases of firmware or structural parts may require manual user upgrades.
+
+The BMCU is intended for DIY enthusiasts and educational purposes. Special thanks to the original creator, 4061N. BIQU is the exclusive authorized commercial manufacturer for the BMCU project.
+
+## Product Features
+
+- Faster Filament Switching: Unlike the AMCU, filament unloading does not require full retraction back to the runout sensor. It only needs to retract to the 5-way connector, significantly speeding up the switching process.
+- Direct Dry Box Feeding: The parallel design operates without a built-in spool holder, allowing you to feed filament directly from a sealed dry box to the printer.
+- Active Filament Buffering: An integrated buffer mechanism actively feeds filament before the printer detects a tangle, preventing extrusion issues caused by excessive pulling resistance.
+- Standardized Hardware: The design utilizes standardized components with unified specifications for many mechanical parts. This reduces additional costs and ensures a high success rate for one-time DIY assembly.
+- Advanced Photoelectric Detection: The BMCU features a photoelectric detection system capable of sensing transparent filaments. This eliminates the drag and instability commonly associated with microswitch sensors. This photoelectric module will also be released separately under an open-source license.
+
+</div>
+
+## About this guide
+
+This guide provides step-by-step instructions for assembling the Panda BMCU-370 DIY kit. Before you begin, ensure you have 3D-printed all the necessary parts as outlined in the product documentation.This guide explains how to assemble the BMCU DIY kit. Before you begin, 3D-print the required parts. You will assemble them with the components included in the kit.
+
+## Assembly requirements
+
+The parts are small. Work on a large, empty table to avoid losing them. Some soldering is required, so basic soldering experience is necessary.
+
+## Assemble the modules
+
+1. Prepare the printed rear cover.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-1.webp').default} width="50%"/>
+
+2. Install the three 62B bushings. Feed a short piece of clear 1.75mm filament or light pipe in from the top, then trim it flush with the rear cover.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-2.webp').default} width="50%"/>
+
+3.  Prepare the printed middle frame.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-3.webp').default} width="50%"/>
+
+4. Install the three 62B bushings.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-4.webp').default} width="50%"/>
+
+5. Prepare two 182A gears and two 2*20mm shafts. Install each gear onto a shaft.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-5.webp').default} width="50%"/>
+
+6. Prepare the BMG gear with a set screw and the 5mm shaft. Slide the BMG gear onto the shaft.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-6.webp').default} width="50%"/>
+
+7. Prepare two MR85 bearings.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-7.webp').default} width="50%"/>
+
+8. Fit the bearings onto the 5x22mm shaft. Make sure the bearing on the BMG gear side is flush with the end of the shaft.9.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-8.webp').default} width="50%"/>
+
+9. Once the end is flush, tighten the BMG set screw.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-9.webp').default} width="50%"/>
+
+10. Attach the radial magnet to the top of the gear, keeping it roughly centered.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-10.webp').default} width="50%"/>
+
+11. Prepare the buffer slider and one 3*20mm magnet. Alternatively, stack two 3*10mm magnets together.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-11.webp').default} width="50%"/>
+
+12. Press the magnet into the printed buffer slider with the S pole facing upward. To identify the S pole, float the magnet on water and allow it to rotate freely; the end that turns to point toward geographic south is the S pole. Alternatively, the S pole is the one that attracts the north‑pointing end of a compass needle (the red or marked end).
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-12.webp').default} width="50%"/>
+
+13. After pressing the magnet in, tighten the M2x8 screw.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-13.webp').default} width="50%"/>
+
+14. Prepare the printed lever, the BMG gear without a set screw, two needle bearings, and the 3mm shaft from the BMG kit.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-14.webp').default} width="50%"/>
+
+15. Insert the two needle bearings into the BMG gear.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-15.webp').default} width="50%"/>
+
+16. Place the assembled BMG gear into the lever.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-16.webp').default} width="50%"/>
+
+17. Press the 3mm shaft into the lever from one side. Make sure the holes in the lever and BMG gear remain aligned.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-17.webp').default} width="50%"/>
+
+Press the shaft in until it is approximately flush.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-18.webp').default} width="50%"/>
+
+18. Prepare the worm gear and the 370 motor. Press the worm gear onto the motor shaft, taking care not to damage it. After installation, apply grease to the worm gear to reduce wear during operation.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-19.webp').default} width="50%"/>
+
+19. Tin the ends of two wires, then solder them to the terminals at the rear of the 370 motor.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-20.webp').default} width="50%"/>
+
+20. Install the 370 motor into the rear cover. Align the M3 threaded hole with the corresponding hole in the rear cover, then insert an M3*8mm screw from below.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-21.webp').default} width="50%"/>
+
+Make sure the holes are aligned.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-22.webp').default} width="50%"/>
+
+After installation, the assembly should look as shown.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-23.webp').default} width="50%"/>
+
+21. Install the two previously assembled 182A gears and the BMG gear with the set screw. Make sure the magnet on the BMG gear faces upward. If the 182A gears are not fully seated against the stops in the rear cover, press them down until fully seated.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-24.webp').default} width="50%"/>
+
+22. Prepare the 5mm steel ball and the printed filament runout optical flag, then install them into the rear cover in sequence.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-25.webp').default} width="50%"/>
+
+23. First, insert the 5 mm steel ball into its designated position. Then, attach the optical flag so that the end with the hole faces the direction shown in the diagram (or matches the orientation in the illustration).
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-26.webp').default} width="50%"/>
+
+After installation, the assembly should look as shown.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-27.webp').default} width="50%"/>
+
+24. Prepare two 0.8*12*15mm springs, the assembled buffer slider, and the pneumatic fitting.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-28.webp').default} width="50%"/>
+
+25. Install one spring over the upper end of the buffer slider.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-29.webp').default} width="50%"/>
+
+26. Screw the pneumatic fitting into the upper end of the buffer slider.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-30.webp').default} width="50%"/>
+
+27. Fit the second spring beneath the buffer slider, then press the slider assembly into position on the rear cover.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-31.webp').default} width="50%"/>
+
+28. Arrange the motor wires so they point straight up (away from the worktable). Keep the rear cover underneath, with its bottom side resting on the worktable—this is just a reference position; the final assembly doesn't have to match the picture exactly. While pressing and holding the pneumatic fitting downward to compress its internal spring, lower the entire middle‑frame assembly vertically from above onto the rear cover. Move slowly and carefully so that any small, loose components inside do not shift or fall out during the process.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-32.webp').default} width="50%"/>
+
+Make sure the motor wires are not pinched while installing the middle frame. After installation, the assembly should look as shown.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-33.webp').default} width="50%"/>
+
+29. Prepare the 0.3x4x5mm spring and install it at the location shown. Tweezers or a similar tool may help.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-34.webp').default} width="50%"/>
+
+After installation, the assembly should look as shown.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-35.webp').default} width="50%"/>
+
+30. Hold the printed assembly firmly to prevent the middle frame and rear cover from separating. Install an M2*8mm screw in the hole on the back of the assembly.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-36.webp').default} width="50%"/>
+
+There are five screw locations, as shown. Tighten the screws until no visible gap remains between the middle frame and rear cover.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-37.webp').default} width="50%"/>
+
+31. Prepare the previously assembled lever, the 0.6*4*10mm spring, and the 2*20mm shaft.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-38.webp').default} width="50%"/>
+
+32. Position the 0.6*4*10mm spring as shown, then press and hold the lever in place.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-39.webp').default} width="50%"/>
+
+Check that the spring is correctly positioned.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-40.webp').default} width="50%"/>
+
+33. While holding the lever down, insert the 2*20mm shaft from the side shown. Adjust the pressure on the lever until its hole aligns with the hole in the printed assembly.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-41.webp').default} width="50%"/>
+
+34. Keep the lever pressed down and insert the shaft as far as possible. Use a tool to press it in fully if needed.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-42.webp').default} width="50%"/>
+
+The shaft should sit flush, as shown.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-43.webp').default} width="50%"/>
+
+35. Inject grease through the grease port on the back of the printed assembly.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-44.webp').default} width="50%"/>
+
+Continue injecting grease until a small amount becomes visible through the cutout in the rear cover, as shown in the red circle. This indicates that the grease has been applied successfully. Applying an adequate amount of grease helps reduce gear wear. Wipe away any excess grease to prevent it from getting onto other parts.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-45.webp').default} width="50%"/>
+
+36. Prepare the M3 nut and the printed nut retainer, then install them into the printed assembly in the following order:
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-46.webp').default} width="50%"/>
+
+Install the M3 nut first, followed by the nut retainer.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-47.webp').default} width="50%"/>
+
+The installed assembly should look as shown. Verify that all parts have been installed.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-48.webp').default} width="50%"/>
+
+37. Prepare the module PCB.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-49.webp').default} width="50%"/>
+
+38. Install the module PCB at the location shown.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-50.webp').default} width="50%"/>
+
+39. Install an M2*8mm screw at the location shown and tighten it until the PCB is secure and does not wobble.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-51.webp').default} width="50%"/>
+
+40. Trim the motor wires to the appropriate length, then solder them to the pads shown. Avoid creating solder bridges.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-52.webp').default} width="50%"/>
+
+41. Prepare the top cover.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-53.webp').default} width="50%"/>
+
+42. Fit the top cover onto the module assembly.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-54.webp').default} width="50%"/>
+
+43. Use four M2*8mm screws to secure the top cover at the locations shown.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-55.webp').default} width="50%"/>
+
+Assemble the remaining three modules by following the same steps. The completed modules should look as shown.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-56.webp').default} width="50%"/>
+
+## Install the modules on the base
+
+1. Identify the 15-pin cable.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-57.webp').default} width="50%"/>
+
+2. Insert the cable through the bottom of the module, making sure the connector is oriented as shown.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-58.webp').default} width="50%"/>
+
+The fully inserted cable should look as shown.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-59.webp').default} width="50%"/>
+
+3. Identify the printed BMCU module base.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-60.webp').default} width="50%"/>
+
+4. Start with Module 4. Feed the cable through the opening shown.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-61.webp').default} width="50%"/>
+
+After feeding the cable through, lower the BMCU module onto the locating posts in the base. Make sure the holes are aligned.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-62.webp').default} width="50%"/>
+
+5. Install an M3*14mm screw at the location shown.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-63.webp').default} width="50%"/>
+
+Tighten the screw to secure the module, as shown.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-64.webp').default} width="50%"/>
+
+6. Install the remaining modules in sequence.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-65.webp').default} width="50%"/>
+
+The completed assembly should look as shown.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-66.webp').default} width="50%"/>
+
+## Install the mainboard
+
+1. Identify the BMCU mainboard.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-67.webp').default} width="50%"/>
+
+2. Place the mainboard with the back facing upward, then connect the cables in sequence.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-68.webp').default} width="50%"/>
+
+3. Flip the mainboard over and place it into the BMCU base.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-69.webp').default} width="50%"/>
+
+4. Align the mainboard, then install three M2*8mm screws at the locations shown to secure it.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-70.webp').default} width="50%"/>
+
+5. Route and arrange the cables neatly inside the base.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-71.webp').default} width="50%"/>
+
+6. Take the printed cover plate and install it onto the base.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-72.webp').default} width="50%"/>
+
+7. Install M2*8mm screws at the locations shown to secure the cover plate.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-73.webp').default} width="50%"/>
+
+## Install decorative parts
+
+The decorative parts can be printed and installed later. They do not affect BMCU operation.
+
+1. Attach the BMCU channel labels with double-sided tape. The labels may also be printed and installed later.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-74.webp').default} width="50%"/>
+
+2. Position the printed retaining strip, then secure it with M2*8mm screws.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-75.webp').default} width="50%"/>
+
+Identify the eight mounting locations.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-76.webp').default} width="50%"/>
+
+3. Identify the decorative strip.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-77.webp').default} width="50%"/>
+
+Secure the decorative strip with M2*8mm screws.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-78.webp').default} width="50%"/>
+
+Identify the four mounting locations.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-79.webp').default} width="50%"/>
+
+## Completed assembly
+
+The completed BMCU should look as shown.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-80.webp').default} width="50%"/>
+
+Before using the BMCU, install the pneumatic fittings in the bottom ports shown.
+
+<ImageView src={require('@site/docs/panda-series/module/panda-bmcu370/img/panda-bmcu370-kit-81.webp').default} width="50%"/>

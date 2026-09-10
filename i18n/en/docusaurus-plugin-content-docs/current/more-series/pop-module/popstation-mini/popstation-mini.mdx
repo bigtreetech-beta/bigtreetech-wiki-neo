@@ -36,7 +36,7 @@ import TabItem from "@theme/TabItem";
 | Item     | Specification                    |
 | -------- | -----------------------------   |
 | Product Name | PopStation mini                  |
-| Dimensions     | 459 * 422 * 428 mm (height with standard rubber feet installed) / 459 * 422 * 489 mm (height with optional leveling casters installed) |
+| Dimensions     | 456 * 422 * 428 mm (height with standard rubber feet installed) / 456 * 422 * 489 mm (height with optional leveling casters installed) |
 | Net Weight     | 19 kg                             |
 | Gross Weight     | 22.3 kg                           |
 | Material     | Sheet-metal body + PC viewing window  |
@@ -57,7 +57,7 @@ import TabItem from "@theme/TabItem";
 | 4-Pin Port       | Connect products that use a 4-Pin interface, such as AMS/AMS 2 Pro/BMCU-370. |
 | Panda Breath Port  | Supplies power to Panda Breath |
 
-<ImageView src={require("@site/docs/more-series/pop-module/popstation-mini/img/popstation-mini-installation-0.webp").default} width="75%" />
+<ImageView src={require("./img/popstation-mini-installation-0.webp").default} width="75%" />
 
 ## Unboxing
 
@@ -218,7 +218,7 @@ Still under "Maintenance", tap "Root Access", scroll through all the content, th
 
 <ImageView src={require("@site/docs/more-series/pop-module/popstation-mini/img/popstation-mini-installation-29.webp").default} width="40%" />
 
-On your computer, connect to the same Wi-Fi network as the Snapmaker U1. Open a terminal. Enter: **ssh root@192.168.1.156** and press Enter.
+Turn on your computer and connect to the same Wi-Fi network as the Snapmaker U1. Open a terminal. Enter: **ssh root@192.168.1.156** and press Enter.(replacing this with the wifi IP address shown on your U1),then press Enter. If this is your first time connecting,type"yes" when prompted.This will not be required on future attempts. Then enter the password: **snapmaker** and press Enter to enter root mode.
 
 :::info[Note]
 
@@ -294,11 +294,11 @@ Note: The following installation requires the printed parts shown below. Please 
 
 <ImageView src={require("@site/docs/more-series/pop-module/popstation-mini/img/popstation-mini-installation-40.webp").default} width="60%" />
 
-Take the M3x10 self-tapping screws from the Panda RGB Controller kit, and install the Panda RGB Controller onto the support.
+Take the M3×10 self-tapping screws from the Panda RGB Controller kit, and install the Panda RGB Controller onto the support.
 
 <ImageView src={require("@site/docs/more-series/pop-module/popstation-mini/img/popstation-mini-installation-41.webp").default} width="60%" />
 
-Then align the cutout in the protective cover with the Panda RGB Controller connector, and use the M3x10 self-tapping screws to secure the support to the mounting holes.
+Then align the cutout in the protective cover with the Panda RGB Controller connector, and use the M3×10 self-tapping screws to secure the support to the mounting holes.
 
 <ImageView src={require("@site/docs/more-series/pop-module/popstation-mini/img/popstation-mini-installation-42.webp").default} width="60%" />
 
@@ -587,10 +587,8 @@ For Panda RGB Controller firmware updates, refer to: [Panda RGB Controller](http
 
 **Solution:**
 
-- Make sure the Panda RGB Controller and printer are on the **same local network**.
 - Make sure the printer is powered on and connected to the network.
-- Try manually entering the printer IP and SN code to bind the printer.
-- Check whether the printer Access Code is correct (view it in the printer settings).
+- Make sure the Panda RGB Controller and printer are on the **same local network**.
 
 ### Q6: Panda RGB Controller settings are lost after a restart?
 

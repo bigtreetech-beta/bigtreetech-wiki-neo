@@ -1,0 +1,384 @@
+---
+sidebar_position: 2
+description: 本文主要描述了BMCU-370 DIY 套装组装过程,您需要首先自行打印相关模型,与 DIY 套件内零件共同组装。
+---
+
+# Panda BMCU-370 DIY 套装组装指南
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView src={require("./img/panda-bmcu370-5.webp").default} alt="" width="45%" class="right-image" />
+
+:::info[注意]
+
+需要额外准备的工具:3mm 直径十字螺丝刀,1.5mm 内六角扳手,烙铁等焊接工具,镊子,润滑脂。
+
+:::
+
+## 产品简介
+
+Panda BMCU-370 是根据开源资料设计的模拟 AMS 运行的多材料控制系统,适用于 Bambu Lab A系列/X系列/P系列(P2S暂未适配)。BMCU 设计为四通道单元,目前设计方案以CH32微控制器为主控制单元。暂不支持 RFID 材料识别。Panda BMCU-370 的稳定性不如 AMS Lite,作为第三方DIY配件,后续可能因为官方更新适配的打印机固件而无法使用。BMCU 仍然在不断更新迭代中,在后续的使用过程中可能会发布新的固件或者结构件,您可能需要自行升级。同时,Panda BMCU-370 仅供 DIY 学习使用,非常感谢原作者 4061N。BIQU 是 Panda BMCU-370 项目原作者唯一官方合作伙伴。
+
+## 产品特点
+
+- 退料不需要像AMCU一样退到断料检测,而是退出五通即可,切换耗材速度较快。
+- 并排式结构,不包含料架,这意味着你可以将耗材放在密封箱中,由它来给你的打印机供料。
+- 具有一个缓冲器,在打印机触发缠料之前就可以主动送料,防止耗材阻力过大导致的问题。
+- 器件标准化,我们在设计机械时,将许多部件确定为统一参数,这使得一次性DIY成功率得以提高,防止成本增加。
+- BMCU探索出了光电探测设计,允许光电开关探测透明耗材,杜绝了微动探测方式造成的耗材阻力和其不稳定性。光电的设计将另行使用其他开源协议,允许借用。
+
+</div>
+
+## 文档简介
+
+本文主要描述了BMCU的DIY套装组装过程,您需要首先自行打印相关模型,与DIY套件内零件共同组装。
+
+## 组装要求
+
+零件较为细小,为避免损失应尽量在宽阔的桌子上安装。组装时存在少量焊接工作,因此您需要具备焊接经验。
+
+## 组件的组装
+
+1. 取出组件后盖。
+
+<ImageView src={require('./img/panda-bmcu370-kit-1.webp').default} width="50%"/>
+
+2. 将三个62B轴套装入。取1.75mm透明耗材或一段导光条,从顶部塞入,在与模型齐平位置剪断。
+
+<ImageView src={require('./img/panda-bmcu370-kit-2.webp').default} width="50%"/>
+
+3. 取出中框。
+
+<ImageView src={require('./img/panda-bmcu370-kit-3.webp').default} width="50%"/>
+
+4. 取三个62B轴套装入。
+
+<ImageView src={require('./img/panda-bmcu370-kit-4.webp').default} width="50%"/>
+
+5. 取两只182A齿轮,两只2 * 20mm轴,将齿轮安装到轴上。
+
+<ImageView src={require('./img/panda-bmcu370-kit-5.webp').default} width="50%"/>
+
+6. 取带顶丝的BMG和5mm轴,将BMG套到5mm轴上。
+
+<ImageView src={require('./img/panda-bmcu370-kit-6.webp').default} width="50%"/>
+
+7. 取两只 MR85 轴承。
+
+<ImageView src={require('./img/panda-bmcu370-kit-7.webp').default} width="50%"/>
+
+8. 将轴承套到5 * 22mm轴上,确保BMG齿轮方向一端为齐平。
+
+<ImageView src={require('./img/panda-bmcu370-kit-8.webp').default} width="50%"/>
+
+9. 确定齐平后拧紧BMG的顶丝。
+
+<ImageView src={require('./img/panda-bmcu370-kit-9.webp').default} width="50%"/>
+
+10. 将径向磁铁吸到齿轮上端,基本同心即可。
+
+<ImageView src={require('./img/panda-bmcu370-kit-10.webp').default} width="50%"/>
+
+11. 取缓冲器滑块和3 * 20mm磁铁(也可以将两颗3 * 10mm磁铁吸在一起)。
+
+<ImageView src={require('./img/panda-bmcu370-kit-11.webp').default} width="50%"/>
+
+12. 将磁铁压入缓冲器滑块中,朝上的一极为S极(将其浮在水上,将会指向南方；将指南针靠近它,将吸引指南针的N极)。
+
+<ImageView src={require('./img/panda-bmcu370-kit-12.webp').default} width="50%"/>
+
+13. 压入后拧紧螺丝(M2 * 8)。
+
+<ImageView src={require('./img/panda-bmcu370-kit-13.webp').default} width="50%"/>
+
+14. 取出打印的扳手,不带顶丝的BMG,滚针轴承两只,BMG套装中的3mm轴。
+
+<ImageView src={require('./img/panda-bmcu370-kit-14.webp').default} width="50%"/>
+
+15. 将两只滚针轴承依次装入BMG中。
+
+<ImageView src={require('./img/panda-bmcu370-kit-15.webp').default} width="50%"/>
+
+16. 将装好后的BMG放入扳手中。
+
+<ImageView src={require('./img/panda-bmcu370-kit-16.webp').default} width="50%"/>
+
+17. 将3mm轴从一端压入扳手,注意BMG要同心放置。
+
+<ImageView src={require('./img/panda-bmcu370-kit-17.webp').default} width="50%"/>
+
+压入后基本齐平即可。
+
+<ImageView src={require('./img/panda-bmcu370-kit-18.webp').default} width="50%"/>
+
+18. 取蜗杆齿轮和370电机,将蜗杆齿轮压入370电机,注意不要损伤蜗杆。装好后涂润滑脂在蜗杆上,防止使用过程中磨损。
+
+<ImageView src={require('./img/panda-bmcu370-kit-19.webp').default} width="50%"/>
+
+19. 取两节导线,用烙铁镀锡。将导线焊接在370电机尾端。
+
+<ImageView src={require('./img/panda-bmcu370-kit-20.webp').default} width="50%"/>
+
+20. 将370电机装入后盖,注意将3mm螺纹孔对齐后盖的对应孔。取M3 * 8螺丝,将其从下方装入。
+
+<ImageView src={require('./img/panda-bmcu370-kit-21.webp').default} width="50%"/>
+
+注意孔位对齐。
+
+<ImageView src={require('./img/panda-bmcu370-kit-22.webp').default} width="50%"/>
+
+装好后如图所示。
+
+<ImageView src={require('./img/panda-bmcu370-kit-23.webp').default} width="50%"/>
+
+21. 将之前装好的两只182A齿轮,和带顶丝的BMG装入,注意BMG的磁铁朝向上方。182A齿轮如果没有沿轴安装到底盖限位,可以按压到底。
+
+<ImageView src={require('./img/panda-bmcu370-kit-24.webp').default} width="50%"/>
+
+22. 取5mm钢珠,断料光电挡片,依次装入后盖。
+
+<ImageView src={require('./img/panda-bmcu370-kit-25.webp').default} width="50%"/>
+
+23. 先放入5mm钢珠,装入光电挡片时注意有孔一端朝下。
+
+<ImageView src={require('./img/panda-bmcu370-kit-26.webp').default} width="50%"/>
+
+装好后如图所示。
+
+<ImageView src={require('./img/panda-bmcu370-kit-27.webp').default} width="50%"/>
+
+24. 取两只0.8 * 12 * 15mm弹簧,之前安装好的缓冲器滑块,气动接头。
+
+<ImageView src={require('./img/panda-bmcu370-kit-28.webp').default} width="50%"/>
+
+25. 先将一个弹簧装入缓冲器滑块上端。
+
+<ImageView src={require('./img/panda-bmcu370-kit-29.webp').default} width="50%"/>
+
+26. 将气动接头拧入缓冲器滑块上端。
+
+<ImageView src={require('./img/panda-bmcu370-kit-30.webp').default} width="50%"/>
+
+27. 在缓冲器滑块下方套入弹簧,并按压到后盖上。
+
+<ImageView src={require('./img/panda-bmcu370-kit-31.webp').default} width="50%"/>
+
+28. 整理电机导线,保持朝上。接下来保持后盖在下(可以在桌面上,演示图仅供参考),用手按压住气动接头位置,使得弹簧压紧,取中框组件从上方盖入。需小心操作以防止零件散落。
+
+<ImageView src={require('./img/panda-bmcu370-kit-32.webp').default} width="50%"/>
+
+盖入时注意不要压到电机导线。装好后如图所示。
+
+<ImageView src={require('./img/panda-bmcu370-kit-33.webp').default} width="50%"/>
+
+29. 取0.3 * 4 * 5mm弹簧,从图示位置装入,可以使用镊子等辅助工具。
+
+<ImageView src={require('./img/panda-bmcu370-kit-34.webp').default} width="50%"/>
+
+装好后如图所示。
+
+<ImageView src={require('./img/panda-bmcu370-kit-35.webp').default} width="50%"/>
+
+30. 用手握住模型,防止中框和后盖分离,找到模型后方的M2螺丝孔,拧入M2 * 8mm螺丝。
+
+<ImageView src={require('./img/panda-bmcu370-kit-36.webp').default} width="50%"/>
+
+一共有如下五个螺丝位置。拧紧至中框与后盖之间没有明显缝隙即可。
+
+<ImageView src={require('./img/panda-bmcu370-kit-37.webp').default} width="50%"/>
+
+31. 取之前安装好的扳手,0.6 * 4 * 10mm弹簧,2 * 20mm轴
+
+<ImageView src={require('./img/panda-bmcu370-kit-38.webp').default} width="50%"/>
+
+32. 将0.6 * 4 * 10mm弹簧放置在如图所示位置,按紧扳手。
+
+<ImageView src={require('./img/panda-bmcu370-kit-39.webp').default} width="50%"/>
+
+检查弹簧位置正确。
+
+<ImageView src={require('./img/panda-bmcu370-kit-40.webp').default} width="50%"/>
+
+33. 在保持按压的同时,将2 * 20mm轴从如图所示位置装入,注意按压力度,使得扳手上的孔位刚好对准模型上的孔位。
+
+<ImageView src={require('./img/panda-bmcu370-kit-41.webp').default} width="50%"/>
+
+34. 保持按压,将轴完全装入后可以使用工具将剩余部分压入。
+
+<ImageView src={require('./img/panda-bmcu370-kit-42.webp').default} width="50%"/>
+
+压入后齐平,如图所示。
+
+<ImageView src={require('./img/panda-bmcu370-kit-43.webp').default} width="50%"/>
+
+35. 从模型背面的注油孔处注入润滑脂。
+
+<ImageView src={require('./img/panda-bmcu370-kit-44.webp').default} width="50%"/>
+
+注意观察润滑脂完全溢出后,表明成功注入,较多的润滑脂有利于防止齿轮磨损。注入后擦掉孔外多余润滑脂,防止沾染其他部分。
+
+<ImageView src={require('./img/panda-bmcu370-kit-45.webp').default} width="50%"/>
+
+36. 取M3螺母,螺母挡块,依次装入模型。
+
+<ImageView src={require('./img/panda-bmcu370-kit-46.webp').default} width="50%"/>
+
+先装入M3螺母再装入螺母挡块。
+
+<ImageView src={require('./img/panda-bmcu370-kit-47.webp').default} width="50%"/>
+
+装好后如图所示,检查所有零件安装完毕。
+
+<ImageView src={require('./img/panda-bmcu370-kit-48.webp').default} width="50%"/>
+
+37. 取组件PCB板。
+
+<ImageView src={require('./img/panda-bmcu370-kit-49.webp').default} width="50%"/>
+
+38. 将组件PCB板装入如图所示位置。
+
+<ImageView src={require('./img/panda-bmcu370-kit-50.webp').default} width="50%"/>
+
+39. 取M2 * 8mm螺丝拧入图示位置,拧紧使得PCB无法晃动。
+
+<ImageView src={require('./img/panda-bmcu370-kit-51.webp').default} width="50%"/>
+
+40. 将电机连接线裁剪到合适长度后焊接在如图所示焊盘上,注意避免连锡。
+
+<ImageView src={require('./img/panda-bmcu370-kit-52.webp').default} width="50%"/>
+
+41. 取上盖。
+
+<ImageView src={require('./img/panda-bmcu370-kit-53.webp').default} width="50%"/>
+
+42. 将上盖扣到组件模型上。
+
+<ImageView src={require('./img/panda-bmcu370-kit-54.webp').default} width="50%"/>
+
+43. 取M2 * 8mm螺丝将上盖固定,一共有四处位置。
+
+<ImageView src={require('./img/panda-bmcu370-kit-55.webp').default} width="50%"/>
+
+按以上教程组装其余三份组件。组装好后如图所示。
+
+<ImageView src={require('./img/panda-bmcu370-kit-56.webp').default} width="50%"/>
+
+## 将组件安装到底座
+
+1. 取15pin连接线。
+
+<ImageView src={require('./img/panda-bmcu370-kit-57.webp').default} width="50%"/>
+
+2. 将连接线从组件下方插入,注意方向。
+
+<ImageView src={require('./img/panda-bmcu370-kit-58.webp').default} width="50%"/>
+
+插紧后如图所示。
+
+<ImageView src={require('./img/panda-bmcu370-kit-59.webp').default} width="50%"/>
+
+3. 取BMCU组件底座。
+
+<ImageView src={require('./img/panda-bmcu370-kit-60.webp').default} width="50%"/>
+
+4. 从4号组件开始安装,将连接线从图示位置穿入。
+
+<ImageView src={require('./img/panda-bmcu370-kit-61.webp').default} width="50%"/>
+
+连接线穿入后,将BMCU组件沿孔安装到底座的销位置,注意孔位对齐。
+
+<ImageView src={require('./img/panda-bmcu370-kit-62.webp').default} width="50%"/>
+
+5. 取M3 * 14mm螺丝,沿图示位置拧入。
+
+<ImageView src={require('./img/panda-bmcu370-kit-63.webp').default} width="50%"/>
+
+拧紧后如图所示,即固定好一个组件。
+
+<ImageView src={require('./img/panda-bmcu370-kit-64.webp').default} width="50%"/>
+
+6. 将其余组件依次安装上去。
+
+<ImageView src={require('./img/panda-bmcu370-kit-65.webp').default} width="50%"/>
+
+安装好后如图所示。
+
+<ImageView src={require('./img/panda-bmcu370-kit-66.webp').default} width="50%"/>
+
+## 安装主板
+
+1. 取BMCU主板。
+
+<ImageView src={require('./img/panda-bmcu370-kit-67.webp').default} width="50%"/>
+
+2. 将主板背面朝上,依次插入连接线。
+
+<ImageView src={require('./img/panda-bmcu370-kit-68.webp').default} width="50%"/>
+
+3. 将主板翻转,放入BMCU底座。
+
+<ImageView src={require('./img/panda-bmcu370-kit-69.webp').default} width="50%"/>
+
+4. 主板对准位置后,取三颗M2 * 8螺丝,拧入如图所示位置,固定好主板。
+
+<ImageView src={require('./img/panda-bmcu370-kit-70.webp').default} width="50%"/>
+
+5. 整理连接线到底座内。
+
+<ImageView src={require('./img/panda-bmcu370-kit-71.webp').default} width="50%"/>
+
+6. 取盖板,将其安装到底座上。
+
+<ImageView src={require('./img/panda-bmcu370-kit-72.webp').default} width="50%"/>
+
+7. 取M2 * 8螺丝拧入如图所示位置,固定好盖板。
+
+<ImageView src={require('./img/panda-bmcu370-kit-73.webp').default} width="50%"/>
+
+## 装饰件安装
+
+装饰件可在后续打印再安装,对BMCU整体的功能无影响。
+
+1. 用双面胶贴上BMCU通道卡(可后续打印好再安装)。
+
+<ImageView src={require('./img/panda-bmcu370-kit-74.webp').default} width="50%"/>
+
+2. 取固定条,使用M2 * 8螺丝将其固定。
+
+<ImageView src={require('./img/panda-bmcu370-kit-75.webp').default} width="50%"/>
+
+一共有8处位置。
+
+<ImageView src={require('./img/panda-bmcu370-kit-76.webp').default} width="50%"/>
+
+3. 取装饰条。
+
+<ImageView src={require('./img/panda-bmcu370-kit-77.webp').default} width="50%"/>
+
+将装饰条用M2 * 8螺丝固定。
+
+<ImageView src={require('./img/panda-bmcu370-kit-78.webp').default} width="50%"/>
+
+一共有4处位置。
+
+<ImageView src={require('./img/panda-bmcu370-kit-79.webp').default} width="50%"/>
+
+## 组装完成后
+
+组装好后如图所示。
+
+<ImageView src={require('./img/panda-bmcu370-kit-80.webp').default} width="50%"/>
+
+BMCU使用时,气动接头安装在底部如图所示位置即可。
+
+<ImageView src={require('./img/panda-bmcu370-kit-81.webp').default} width="50%"/>

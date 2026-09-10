@@ -1,0 +1,218 @@
+---
+sidebar_position: 3
+description: 本文主要描述了BMCU的DIY套件中回卷轴配件的组装过程,您需要首先自行打印相关模型,与DIY套件内零件共同组装。
+---
+
+# Panda BMCU-370 回卷轴配件组装指南
+
+<div class="div-table">
+
+<ImageView src={require('./img/panda-bmcu370-auto-43.webp').default} width="40%" class="right-image"/>
+
+:::info[注意]
+
+需要额外准备的工具：钢丝钳,镊子,胶水,润滑脂。
+
+:::
+
+## 产品简介
+
+BMCU 是根据开源资料设计的模拟 AMS 运行的多材料控制系统,适用于 Bambu Lab A系列/X系列/P系列(P2S暂未适配)。BMCU 设计为四通道单元,目前设计方案以CH32微控制器为主控制单元。暂不支持 RFID 材料识别。
+
+BMCU 的稳定性不如 AMS Lite,作为第三方DIY配件,后续可能因为官方更新适配的打印机固件而无法使用。BMCU仍然在不断更新迭代中,在后续的使用过程中可能会发布新的固件或者结构件,您可能需要自行升级。
+
+同时,BMCU 仅供 DIY 学习使用,非常感谢原作者 4061N。BIQU是BMCU项目原作者唯一官方合作伙伴。
+
+## 产品特点
+
+- 退料不需要像AMCU一样退到断料检测,而是退出五通即可,切换耗材速度较快。
+- 并排式结构,不包含料架,这意味着你可以将耗材放在密封箱中,由它来给你的打印机供料。
+- 具有一个缓冲器,在打印机触发缠料之前就可以主动送料,防止耗材阻力过大导致的问题。
+- 器件标准化,我们在设计机械时,将许多部件确定为统一参数,这使得一次性DIY成功率得以提高,防止成本增加。
+- BMCU探索出了光电探测设计,允许光电开关探测透明耗材,杜绝了微动探测方式造成的耗材阻力和其不稳定性。光电的设计将另行使用其他开源协议,允许借用。
+
+</div>
+
+## 文档简介
+
+本文主要描述了BMCU的DIY套件中回卷轴配件的组装过程,您需要首先自行打印相关模型,与DIY套件内零件共同组装。
+
+## 组装要求
+
+零件较为细小,为避免零件损失,应尽量在宽阔的桌子上安装。组装时存在需要折弯及剪断钢丝的工作,为避免误伤,请在这些阶段戴手套操作。
+
+## 单个回转轴的组装
+
+如图所示为单个回卷轴所需的打印零件(①处旋转核心具有原版和镜像两种版本,组装过程中注意区分)。
+
+<ImageView src={require('./img/panda-bmcu370-auto-1.webp').default} width="50%"/>
+
+1. 取出如图所示的夹紧臂及其底座打印件。
+
+:::info[注意]
+
+注意：夹紧臂分为大,小两种规格,通常使用较小规格的夹紧臂；若耗材盘孔径较大,则需使用较大规格的夹紧臂。
+
+:::
+
+<ImageView src={require('./img/panda-bmcu370-auto-2.webp').default} width="50%"/>
+
+2. 在夹紧臂底座上涂胶水。
+
+<ImageView src={require('./img/panda-bmcu370-auto-3.webp').default} width="50%"/>
+
+3. 将夹紧臂与底座组装在一起,等待胶水干燥。
+
+<ImageView src={require('./img/panda-bmcu370-auto-4.webp').default} width="50%"/>
+
+4. 如图所示,组装三份夹紧臂。
+
+<ImageView src={require('./img/panda-bmcu370-auto-5.webp').default} width="50%"/>
+
+5. 取出辅助折弯块,扭簧及钢丝钳。
+
+<ImageView src={require('./img/panda-bmcu370-auto-6.webp').default} width="50%"/>
+
+6. 将辅助折弯块套在扭簧上,在扭簧穿出辅助块的长度位置做标记。
+
+<ImageView src={require('./img/panda-bmcu370-auto-7.webp').default} width="50%"/>
+
+7. 从标记处剪断扭簧。
+
+<ImageView src={require('./img/panda-bmcu370-auto-8.webp').default} width="50%"/>
+
+8. 通过同样的操作,剪断扭簧的另一端。
+
+<ImageView src={require('./img/panda-bmcu370-auto-9.webp').default} width="50%"/>
+
+9. 剪断后如图所示,扭簧两端的钢丝长度一致。
+
+<ImageView src={require('./img/panda-bmcu370-auto-10.webp').default} width="50%"/>
+
+10. 将裁剪好的扭簧从图示位置安装到辅助折弯块中。
+
+<ImageView src={require('./img/panda-bmcu370-auto-11.webp').default} width="50%"/>
+
+11. 如图所示,从边缘处折弯扭簧。
+
+<ImageView src={require('./img/panda-bmcu370-auto-12.webp').default} width="50%"/>
+
+12. 将折弯的钢丝继续往回折弯,直到难以继续弯折为止。
+
+<ImageView src={require('./img/panda-bmcu370-auto-13.webp').default} width="50%"/>
+
+13. 扭簧的另一端做同样的折弯处理。
+
+<ImageView src={require('./img/panda-bmcu370-auto-14.webp').default} width="50%"/>
+
+14. 取下扭簧,采用钢丝钳整理扭簧上的钢丝,使钢丝在钳子释放后可以保持U形。
+
+<ImageView src={require('./img/panda-bmcu370-auto-15.webp').default} width="50%"/>
+
+15. 将扭簧另一端做同样弯折处理,处理后如图所示。
+
+<ImageView src={require('./img/panda-bmcu370-auto-16.webp').default} width="50%"/>
+
+16. 取出旋转核心及夹紧块。
+
+<ImageView src={require('./img/panda-bmcu370-auto-17.webp').default} width="50%"/>
+
+17. 将夹紧块从一端塞入旋转核心。
+
+<ImageView src={require('./img/panda-bmcu370-auto-18.webp').default} width="50%"/>
+
+18. 塞入后保持底部六边形外形对称,如图所示。
+
+<ImageView src={require('./img/panda-bmcu370-auto-19.webp').default} width="50%"/>
+
+19. 取出旋转轴,扭簧及旋转核心。
+
+<ImageView src={require('./img/panda-bmcu370-auto-20.webp').default} width="50%"/>
+
+20. 如图所示,将旋转核心从有限位柱一端装入旋转轴中。
+
+<ImageView src={require('./img/panda-bmcu370-auto-21.webp').default} width="50%"/>
+
+21. 将扭簧从图示位置装入。
+
+<ImageView src={require('./img/panda-bmcu370-auto-22.webp').default} width="50%"/>
+
+22. 原版和镜像版装好的效果分别如图所示。
+
+<ImageView src={require('./img/panda-bmcu370-auto-23.webp').default} width="50%"/>
+<ImageView src={require('./img/panda-bmcu370-auto-24.webp').default} width="50%"/>
+
+23. 在旋转轴图示位置涂上润滑脂（也可在下一步装好盖子后再涂）。
+
+<ImageView src={require('./img/panda-bmcu370-auto-25.webp').default} width="50%"/>
+
+24. 取出旋转轴盖子。
+
+<ImageView src={require('./img/panda-bmcu370-auto-26.webp').default} width="50%"/>
+
+25. 将盖子从装有旋转核心一端装入,逆时针拧紧。
+
+<ImageView src={require('./img/panda-bmcu370-auto-27.webp').default} width="50%"/>
+<ImageView src={require('./img/panda-bmcu370-auto-28.webp').default} width="50%"/>
+
+26. 取出旋转轴套壳。
+
+<ImageView src={require('./img/panda-bmcu370-auto-29.webp').default} width="50%"/>
+
+27. 将旋转轴装入旋转轴套壳内。
+
+<ImageView src={require('./img/panda-bmcu370-auto-30.webp').default} width="50%"/>
+
+28. 装好后齐平,如图所示。
+
+<ImageView src={require('./img/panda-bmcu370-auto-31.webp').default} width="50%"/>
+
+29. 取出弹垫压圈及波形弹垫,将波形弹垫装入压圈中。
+
+<ImageView src={require('./img/panda-bmcu370-auto-32.webp').default} width="50%"/>
+
+30. 弹垫装入后如图所示。
+
+<ImageView src={require('./img/panda-bmcu370-auto-33.webp').default} width="50%"/>
+
+31. 将装好弹垫的压圈安装到有套壳的旋转轴上,过程中保持压紧。
+
+<ImageView src={require('./img/panda-bmcu370-auto-34.webp').default} width="50%"/>
+
+32. 在保持压紧的状态下逆时针旋转压圈,使得压圈被锁定。
+
+<ImageView src={require('./img/panda-bmcu370-auto-35.webp').default} width="50%"/>
+
+33. 将夹紧臂装入旋转轴套壳的三个槽位中,方向如图所示。
+
+<ImageView src={require('./img/panda-bmcu370-auto-36.webp').default} width="50%"/>
+
+34. 三个夹紧臂安装好后如图所示。
+
+<ImageView src={require('./img/panda-bmcu370-auto-37.webp').default} width="50%"/>
+
+35. 取出固定轴座。
+
+<ImageView src={require('./img/panda-bmcu370-auto-38.webp').default} width="50%"/>
+
+36. 将固定轴座从旋转轴的底部装入,注意需对齐内部的六边形才可以安装到位。
+
+<ImageView src={require('./img/panda-bmcu370-auto-39.webp').default} width="50%"/>
+
+## 总装
+
+1. 组装两份回卷轴,分别采用原版和镜像版旋转核心。
+
+<ImageView src={require('./img/panda-bmcu370-auto-40.webp').default} width="50%"/>
+
+2. 取出回卷轴底座。
+
+<ImageView src={require('./img/panda-bmcu370-auto-41.webp').default} width="50%"/>
+
+3. 将回卷轴从图示位置安装到底座上,左右两边采用不同的回卷轴。如果回卷扭力方向与预期相反,可以交换两者的位置。
+
+<ImageView src={require('./img/panda-bmcu370-auto-42.webp').default} width="50%"/>
+
+4. 组装好后如图所示。
+
+<ImageView src={require('./img/panda-bmcu370-auto-43.webp').default} width="50%"/>
