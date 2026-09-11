@@ -2,7 +2,6 @@ declare const en: {
     title: string;
     name: string;
     email: string;
-    link: string;
     placeholder: string;
     send: string;
     sending: string;
