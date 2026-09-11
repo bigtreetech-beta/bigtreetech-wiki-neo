@@ -74,7 +74,7 @@ Panda BMCU-370 的稳定性不如 AMS Lite,作为第三方DIY配件,后续可能
 
     <ImageView src={require('./img/panda-bmcu370-7.webp').default} width="70%"/>
 
-- 第四步:打开Bambu Lab电源开关。在操作屏幕首页点击“设置”(若有外挂耗材还未退料,需要先退料),然后选择“AMS选项”,最后点击“AMS类型”设置为“AMS/AMS 2 Pro/AMS HT”模式,最后将Bambu Lab A1 重新开机即可。
+- 第四步:打开Bambu Lab电源开关。在操作屏幕首页点击"设置"(若有外挂耗材还未退料,需要先退料),然后选择"AMS选项",最后点击"AMS类型"设置为"AMS/AMS 2 Pro/AMS HT"模式,最后将Bambu Lab A1 重新开机即可。
 
 :::info[注意]
 
@@ -93,7 +93,7 @@ Panda BMCU-370 的稳定性不如 AMS Lite,作为第三方DIY配件,后续可能
 
 ## BMCU-370 Bambu Lab P/X 安装指南
 
-- 第一步:参考下方“BMCU-370 固件烧录指南”烧录适配P/X的固件版本。
+- 第一步:参考下方"BMCU-370 固件烧录指南"烧录适配P/X的固件版本。
 - 第二步:需要准备适配 P/X 的五通结构件,可自行在makerworld平台寻找心怡的方案或者购买。(推荐购买成品,3D打印件内部摩檫力较大,影响打印,可能会造成耗材进出出问题。)
 - 第三步:准备 BMCU-370 安装到 P/X 的安装支架和零件,同样在makerworld平台有很多优秀的方案。
 - 第四步:准备耗材收纳支架,推荐下载链接:[料架收纳](https://makerworld.com/zh/models/2472284-rotary-spool-holder-for-bmcu-370#profileId-2714571)
@@ -123,25 +123,25 @@ Panda BMCU-370 的稳定性不如 AMS Lite,作为第三方DIY配件,后续可能
     <ImageView src={require('./img/panda-bmcu370-1.webp').default} width="70%"/>
 
 - 安装 [WCHISPTool_Setup.exe](https://www.wch.cn/downloads/WCHISPTool_Setup_exe.html)
-- 打开 WCHISPTool_Setup ,如果出现如下图弹窗,只需要点击“确定”或右上角的“X”关闭此弹窗即可。
+- 打开 WCHISPTool_Setup ,如果出现如下图弹窗,只需要点击"确定"或右上角的"X"关闭此弹窗即可。
 
     <ImageView src={require('./img/panda-bmcu370-9.webp').default} width="70%"/>
 
 - 烧录准备:
 
-    1. 点击“通用RISC-V系列 CH32Vxxx”
+    1. 点击"通用RISC-V系列 CH32Vxxx"
 
-    2. 选择“芯片系列”为“CH32V20x”
+    2. 选择"芯片系列"为"CH32V20x"
 
-    3. 选择“芯片型号”为“CH32V203C8T”
+    3. 选择"芯片型号"为"CH32V203C8T"
 
-    4. 选择“下载接口”为“串口”
+    4. 选择"下载接口"为"串口"
 
-    5. 点击“搜索”,搜索烧录串口
+    5. 点击"搜索",搜索烧录串口
 
     6. 将COM端口设置为烧录串口的端口号
 
-    7. “下载配置”,默认即为如下图中的配置无需修改,如果不小心修改过了,请按照图片中的配置设置回来。
+    7. "下载配置",默认即为如下图中的配置无需修改,如果不小心修改过了,请按照图片中的配置设置回来。
 
     <ImageView src={require('./img/panda-bmcu370-10.webp').default} width="70%"/>
 
@@ -153,10 +153,10 @@ Panda BMCU-370 的稳定性不如 AMS Lite,作为第三方DIY配件,后续可能
 
     <ImageView src={require('./img/panda-bmcu370-8.webp').default} width="70%"/>
 
-- 点击“解除代码保护”。
+- 点击"解除代码保护"。
 
     <ImageView src={require('./img/panda-bmcu370-12.webp').default} width="70%"/>
 
-- 再次按住BOOT不松,点击一下RESET之后,松开BOOT按键。再次进入烧录模式。点击“下载”开始烧录固件,等待烧录完成即可。
+- 再次按住BOOT不松,点击一下RESET之后,松开BOOT按键。再次进入烧录模式。点击"下载"开始烧录固件,等待烧录完成即可。
 
     <ImageView src={require('./img/panda-bmcu370-13.webp').default} width="70%"/>
