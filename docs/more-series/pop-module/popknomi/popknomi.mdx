@@ -1,0 +1,497 @@
+---
+description: PopKnomi是一款打印状态交互模块，将实时状态显示，动态动画效果结合，为3D打印机带来更直观，更个性化的交互体验。让用户快速了解打印状态，同时赋予设备独特的视觉表达。
+---
+
+# PopKnomi
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView
+	src={require("./img/popknomi-title.webp").default}
+	alt=""
+	width="45%"
+	class="right-image"
+/>
+
+## 产品简介
+
+**PopKnomi —— 为 Snapmaker U1 打造的智能状态显示屏，让打印机"会表达"**
+
+    PopKnomi 是一款专为 Snapmaker U1 设计的智能打印状态显示配件，可通过丰富的动态 UI 实时呈现打印，加热，调平，异常提醒等设备状态。无需频繁查看电脑或控制界面，只需一眼即可掌握打印进程，同时为设备增添更具个性化的视觉体验。
+
+- **实时状态显示**
+
+    通过直观的动画界面实时反馈打印机状态，覆盖打印，加热，调平，异常等关键流程；同时支持 Knomi 动画，环形进度，交替显示等多种打印进度界面。
+
+- **个性化UI与GIF**
+
+    支持自定义界面颜色及上传 GIF 动画，可根据个人喜好打造专属显示效果，让打印机拥有更鲜明的个性与互动感。
+
+- **灵活安装，多场景使用**
+
+    支持安装于 Snapmaker U1，搭配 PopCap 使用或独立放置于桌面，可根据使用环境自由调整显示位置，方便随时查看打印状态。
+
+- **全视域显示 · OTA 升级**
+
+    宽视角彩色屏幕让不同角度都能清晰查看状态信息，同时支持 OTA 固件升级，方便持续获得功能与体验优化。
+
+## 技术规格
+
+| 产品参数        | PopKnomi                                  |
+| -------------- | ----------------------------------------- |
+| 微处理器        | Xtensa双核32位LX6，ESP32                   |
+| 时钟频率        | 240MHz                                    |
+| 存储器          | PSRAM-8MB(4MB RAM + 4MB Himem), Flash-16MB|
+| 逻辑电压        | 3.3V                                      |
+| 输入电压        | 5V or 24V                                 |
+| 额定功率        | 0.65W                                     |
+| 屏幕外型尺寸    | 34.6mm x 37.9mm x 3.5mm                   |
+| 屏幕尺寸        | 1.28"                                     |
+| 分辨率          | 240 x 240                                 |
+| 显示区域        | 32.4（H）mm x 32.4（V）mm                  |
+| 屏幕驱动芯片    | GC9A01                                     |
+| 可视角度        | 全视域（All View）                         |
+
+</div>
+
+## 接口示意图
+
+<ImageView src={require("./img/popknomi-connector.webp").default} alt="" width="45%" />
+
+## 尺寸
+
+<ImageView src={require("./img/popknomi-size.webp").default} alt="" width="45%" />
+
+## 安装说明
+
+### 打印件外壳组装
+
+- 从[MakerWorld](https://makerworld.com.cn/zh/models/2838136-popknomi-3dda-yin-de-wai-ke#profileId-3314248)获取下载打印件文件并使用自己喜欢的颜色将其打印出来
+
+    1. 机器固定款组装步骤
+
+        <ImageView src={require("./img/popknomi-assembly.webp").default} alt="" width="45%" />
+
+    2. 摆放款组装步骤
+
+        <ImageView src={require("./img/popknomi-assembly.webp").default} alt="" width="45%" />
+
+- 安装屏幕与供电（所有款式外壳屏幕安装方式相同）
+
+    1. 先将供电线 C 口从打印件预留孔位穿出并插至屏幕背面供电口上
+
+        <ImageView src={require("./img/popknomi-pcb.webp").default} alt="" width="45%" />
+
+        <ImageView src={require("./img/popknomi-pcb-1.webp").default} alt="" width="45%" />
+
+    2. 随后将屏幕安装至打印件内，将屏幕盖板插入后向下推动卡住即可
+
+        <ImageView src={require("./img/popknomi-pcb-2.webp").default} alt="" width="45%" />
+
+        <ImageView src={require("./img/popknomi-pcb-3.webp").default} alt="" width="45%" />
+
+    3. 机器固定教程（ SnapMaker U1 需要搭配 Panda Hub V2 使用，[点击获取打印件](https://makerworld.com.cn/zh/models/264313-bigtreetech-panda-ji-xian-qi-an-zhuang-he#profileId-3310009)）
+
+        <ImageView src={require("./img/popknomi-fixed.webp").default} alt="" width="45%" />
+
+- PopCap 固定步骤
+
+    - 当需要安装至 PopCap 时，使用包装内背胶贴至打印件底部，直接粘在 PopCap 顶部即可
+
+        <ImageView src={require("./img/popknomi-fixed-1.webp").default} alt="" width="45%" />
+
+    - 根据使用场景，使用 5V USB 供电头供电即可，同时包装内配有理线扣，可按实际需要进行固定
+
+:::tip
+
+注：机器固定安装款需与包装内 Panda Hub V2 搭配才可使用机器背部 USB 口供电，否则会占用 U 盘读取口，同时 Panda Hub V2 靠近 PCB 板侧的输出口可支持数据传输，实现供电+U 盘读取。其它款式可直接使用5V 供电头供电。
+
+:::
+
+## 首次使用软件操作指南
+
+### 访问 Web UI
+
+- 连接 PopKnomi 的 AP 热点
+
+    首次启动后或执行 `恢复出厂设置` 命令后, 您将看到下面的屏幕。
+
+    <ImageView src={require('./img/popknomi-ap-qr-code.webp').default} width="30%"/>
+
+    扫描 PopKnomi 上的二维码(如上图所示), 获取 PopKnomi 自身开启的 AP 热点的名称和密码, 点击连接。出厂默认的 AP 信息如下：
+
+    ```text
+    Wi-Fi名称: Pop_Knomi_xxxxxxxxxxxx
+    Wi-Fi密码: 987654321
+    ```
+
+    如果无法扫码连接, 请到设备的 `设置` 菜单中手动连接热点。
+
+- 连接上 AP 后, 理应有 `已连接（需登录/认证）` 的提示, 并且点击会进入 Web UI 配置界面。有时因为网络原因, 需要等待 10~20 秒, 如果等待后仍然无法进入 Web UI 配置界面, 可以在浏览器中手动输入 [192.168.254.1](http://192.168.254.1) 访问 Web UI 配置界面。
+
+### 连接 Wi-Fi
+
+- 首次配置会自动进入 `选择语言` 界面, 设置完语言后, 点击 `下一步`。
+
+    <ImageView src={require('./img/popknomi-language.webp').default} width="30%"/>
+
+- 进入连接 Wi-Fi 界面, PopKnomi 会自动扫描环境中的 Wi-Fi, 请选择打印机所连接的 Wi-Fi 进行连接。如果没有扫描到打印机连接的 Wi-Fi, 可以点击 "扫描" 按钮重新扫描。
+
+    <ImageView src={require('./img/popknomi-wifi.webp').default} width="30%"/>
+
+- 等待连接成功, 连接成功后会弹出如下图中的弹窗, 点击 `绑定打印机` 可以跳转到 `打印机` 界面绑定打印机。
+
+    <ImageView src={require('./img/popknomi-goto-printer.webp').default} width="30%"/>
+
+### 绑定打印机
+
+#### 自动扫描
+
+- Web UI 进入 `打印机` 界面, 点击 `扫描` 会扫描同一局域网下的打印机, 一次完整的扫描大概需要 30 秒左右。如果此次扫描未能识别到想要连接的打印机, 可以点击 `扫描` 按钮重新扫描, 或者 `手动输入` 所有的信息
+
+    <ImageView src={require('./img/popknomi-printer.webp').default} width="30%"/>
+
+- 扫描完成后, 选择想要连接的打印机(正常情况下, 打印机默认名称为 `lava`), 选择后打印机的 `IP` 会自动填充
+
+- 点击 `绑定`, 开始连接打印机, 出现 `绑定成功` 的弹窗意味着 PopKnomi 已经成功连接到打印机了。
+
+    <ImageView src={require('./img/popknomi-bind-ok.webp').default} width="30%"/>
+
+- 恭喜您！现在可以尽情的享用您的 PopKnomi 了。
+
+#### 手动输入
+
+:::info
+
+如果无法扫描到要绑定的打印机, 可以先尝试 `手动输入` 绑定打印机所需要的所有信息。如果 PopKnomi 无法连接到打印机, 可能是您路由器的一些安全特性, 禁止了局域网内的设备互相通信, 请联系客服协助您做进一步的排查。
+
+:::
+
+- 在打印机上找到 `IP`
+
+    - `设置`
+
+        <ImageView src={require('./img/popknomi-u1-1.webp').default} width="30%"/>
+
+    - `Wi-Fi`
+
+        <ImageView src={require('./img/popknomi-u1-2.webp').default} width="30%"/>
+
+    - `IP`
+
+        <ImageView src={require('./img/popknomi-u1-3.webp').default} width="30%"/>
+
+- 将 `IP` 输入到 Web UI 对应的输入栏中。
+
+- 点击 `绑定`, 开始连接打印机, 出现 `绑定成功` 的弹窗意味着 PopKnomi 已经成功连接到打印机了。
+
+    <ImageView src={require('./img/popknomi-bind-ok.webp').default} width="30%"/>
+
+- 恭喜您！现在可以尽情的享用您的 PopKnomi 了。
+
+### 各 GIF 状态说明
+
+:::info[提示]
+
+由于硬件的限制, PopKnomi 规定单个 GIF 大小不能超过 1.5MB(1536KB, 1MB=1024KB), 并且所有的 GIF 大小之和不能超过 3MB(3072KB,1MB=1024KB)。
+
+:::
+
+| | Web UI 中的文件名称 | GIF 效果 | 出现的条件（需已绑定上打印机） | 出厂 GIF 的大小 | 出厂 GIF 的分辨率（宽 x 高） |
+| :-----| :-----| :----: | :----: | :----: | :----: |
+| 1 | 待机状态.gif  | <ImageView src={require('./img/popknomi-standby.webp').default} width="30%"/> | 打印机处于空闲状态 | 36.3KB | 240 x 240 |
+| 2 | 喷嘴加热.gif  | <ImageView src={require('./img/popknomi-nozzle-heating.webp').default} width="30%"/> | 喷嘴正在加热 | 99.29KB | 240 x 240 |
+| 3 | 热床加热.gif  | <ImageView src={require('./img/popknomi-bed-heating.webp').default} width="30%"/> | 热床正在加热 | 89.34KB | 240 x 240 |
+| 4 | 调平.gif  | <ImageView src={require('./img/popknomi-bed-leveling.webp').default} width="30%"/> | 正在自动调平 | 84.78KB | 240 x 240 |
+| 5 | 流量校准.gif  | <ImageView src={require('./img/popknomi-calibrating-flow.webp').default} width="30%"/> | 正在校准挤出流量 | 53.6KB | 240 x 240 |
+| 6 | XY轴共振补偿.gif  | <ImageView src={require('./img/popknomi-xy-input-shaper.webp').default} width="30%"/> | 正在校准共振补偿 | 84.9KB | 240 x 240 |
+| 7 | 回抽耗材.gif  | <ImageView src={require('./img/popknomi-filament-pull-back-cur.webp').default} width="30%"/> | 正在抽回当前的耗材 | 109.07KB | 240 x 240 |
+| 8 | 挤出旧耗材.gif  | <ImageView src={require('./img/popknomi-filament-purge-old.webp').default} width="30%"/> | 正在冲刷旧的耗材 | 29.26KB | 240 x 240 |
+| 9 | 打印成功.gif  | <ImageView src={require('./img/popknomi-printing-ok.webp').default} width="30%"/> | 打印已完成 | 113.99KB | 240 x 240 |
+| 10 | 正在打印.gif  | <ImageView src={require('./img/popknomi-printing.webp').default} width="30%"/> | 正在打印中 | 142.8KB | 240 x 240 |
+| 11 | 打印错误.gif  | <ImageView src={require('./img/popknomi-print-error.webp').default} width="30%"/> | 打印机有报错码 | 133.71KB | 240 x 240 |
+| 12 | 热床检测中.gif  | <ImageView src={require('./img/popknomi-plate-detecting.webp').default} width="30%"/> | 正在检测热床平台 | 144.54KB | 240 x 240 |
+
+### 屏幕保护
+
+:::info[提示]
+
+为避免屏幕长时间显示同一个静态画面导致的烧屏, PopKnomi 内置了屏幕保护的逻辑, 在显示静态画面时, 每隔 15s 显示一次内置的屏保 GIF(此 GIF 不支持自定义), 屏保 GIF 显示时间为 3.5s。
+
+:::
+
+- 屏保 GIF 的效果如下：
+
+    <ImageView src={require('./img/popknomi-screen-saver.webp').default} width="30%"/>
+
+- 以下静态界面中具有屏保逻辑：
+
+    - 无效的 IMG 界面
+
+    - 出厂时的 Hello 界面
+
+    - Wi-Fi 扫描完成界面
+
+    - Wi-Fi 连接失败界面
+
+    - Wi-Fi 密码错误界面
+
+    - 绑定打印机界面
+
+    - 打印机扫描完成界面
+
+    - 打印机有报错码界面
+
+    - 打印机 Moonraker 报错界面
+
+## Web UI 说明
+
+### Wi-Fi & IP
+
+<ImageView src={require('./img/popknomi-wifi-ip.webp').default} width="30%"/>
+
+1. 如果您想要重新配置 PopKnomi 要连接的 Wi-Fi, 可以点击 `Wi-Fi 网络配置` 按钮再次进入配置 Wi-Fi 的界面重新配置要连接的 Wi-Fi。
+
+    :::info[提示]
+
+    PopKnomi 更换所连接的 Wi-Fi 后, PopKnomi 所在的局域网和 IP 地址会发生改变, 推荐将设备连接到 PopKnomi 的 AP 热点修改此配置, 否则在 PopKnomi 更换 Wi-Fi 网络的过程中, 设备与 PopKnomi 的连接会断开。
+
+    :::
+
+2. 配网完成后, 推荐客户将手机, 电脑等设备连接到与 PopKnomi 所连接的 Wi-Fi 相同的局域网下, 并通过在浏览器地址栏输入 IP 地址访问 Web UI。为避免遗忘 IP 地址, 可利用手机主屏幕书签功能, 方便快速访问。
+
+3. 若设备连接到与 PopKnomi 所连接的 Wi-Fi 相同的局域网下, 用户可以通过主机名直接访问 Web UI, 例如出厂默认的主机名是 `PopKnomi`, 我们可以直接访问 [http://popknomi.local](http://popknomi.local) , 不区分大小写。如果设备开了 VPN, 那么通过主机名访问的方式可能会失效, 此时请直接使用 IP 访问。
+
+    用户可以自定义主机名, 但是请遵守以下规则：
+
+    - 只能由字母（a-z, A-Z）, 数字（0-9）, 以及连接符（-）组成,  并且首字符必须是字母。
+
+    - 长度不低于 8 个字符, 不超过 32 个字符。
+
+    修改完成后, 点击 `设置主机名` 将设置的主机名发送给 PopKnomi, 若出现如下图中的弹窗, 说明主机名已经重新设置成功, 主机名修改后需要重新启动才可以生效, 直接点击弹窗中的 `OK` 按钮, PopKnomi 会 `立刻重启`, 若我们不想立刻重启, 可以点击弹窗右上角的 `x` 按钮关闭弹窗。
+
+    <ImageView src={require('./img/popknomi-hostname.webp').default} width="30%"/>
+
+### AP
+
+:::info[提示]
+
+- AP 是 PopKnomi 广播的 WiFi 热点, 允许手机/电脑直接连接到它。如果您不希望广播此热点, 则可以将其关闭, 但 PopKnomi 会在无法连接到您设置的 WiFi 时自动重新打开此热点。这提供了一种故障保护方式, 可以在设置的 WiFi 网络不可用的情况下重新连接到 PopKnomi。
+
+- 若设备是连接到 PopKnomi 的 AP 热点访问的 Web UI, 关闭或者修改 PopKnomi 的 AP 信息都会导致设备与 PopKnomi 断开通信连接。为避免此类情况, 建议将设备连接到与 PopKnomi 所连接的 Wi-Fi 相同的局域网下, 并通过在浏览器地址栏输入 IP 地址访问 Web UI, 再修改此配置。
+
+:::
+
+<ImageView src={require('./img/popknomi-ap.webp').default} width="30%"/>
+
+1. 打开/关闭 PopKnomi 的 AP 热点。关闭 AP 热点后将无法连接到 PopKnomi 的热点去访问 Web UI, 关闭前请务必记录 PopKnomi 在其所处的 Wi-Fi 的 IP, 以便使用同一 Wi-Fi 的设备通过 IP 访问 Web UI。
+
+2. 修改 PopKnomi 的 AP 热点, 默认配置为：
+
+    ```text
+    Wi-Fi名称: Pop_Knomi_xxxxxxxxxxxx
+    Wi-Fi密码: 987654321
+    ```
+
+    修改完成后不用重启, PopKnomi 会在后台重新创建新的 AP 热点
+
+3. PopKnomi 自身在该热点网络中的 IP 地址, 此 IP 修改后需要重启才生效
+
+### 主题
+
+<ImageView src={require('./img/popknomi-theme-1.webp').default} width="30%"/>
+
+1. `打印进度显示选择`
+
+    - `仅显示打印数据`：打印机打印时, 屏幕上显示实时的打印进度, 剩余时间, 打印层高
+
+    - `仅显示 GIF`：打印机打印时, 屏幕上显示代表打印中的 GIF
+
+    - `打印数据和 GIF 交替显示`：打印机打印时, 屏幕上交替显示实时的打印信息和 GIF, 并且每隔 10s 切换一次显示
+
+    - `百分比叠加 GIF 上`：打印机打印时, 屏幕上显示代表打印中的 GIF, 并且在特定位置显示打印进度的百分比
+
+2. `报错显示模式`
+
+    - `禁用报错显示`: 不捕获打印的此状态
+
+    - `报错显示二维码`: 打印机有报错码时, 屏幕显示报错码对应的 wiki 地址二维码
+
+    - `报错显示GIF`: 打印机有报错码时, 屏幕显示打印错误 GIF
+
+3. `息屏`
+
+    - `禁用`: 不关闭屏幕背光
+
+    - `待机时息屏`: 打印机空闲时, 不显示待机状态 GIF 而是直接关闭屏幕背光
+
+    - `半小时无状态改变时息屏`: GIF 状态半小时内都没有改变, 则关闭屏幕背光
+
+4. `全部动图颜色修改`: 一键修改所有 GIF 的颜色
+
+5. `打印进度颜色`: 修改实时的打印进度, 剩余时间, 打印层高等信息的颜色
+
+<ImageView src={require('./img/popknomi-theme-2.webp').default} width="30%"/>
+
+1. 查看 GIF 储存空间用量, 由于 PopKnomi 硬件的限制, 所有的 GIF 大小之和不能超过 3MB (3072KB,1MB=1024KB), 超出此大小 Web UI 会阻止更新并弹窗提醒。
+
+2. 每个 GIF 图片单独设置, 包括颜色和自定义 GIF 图片
+
+    可以打开/关闭 `预览` 开关来显示/隐藏 `预览此GIF` 按钮。点击 `预览此GIF` 可以使 PopKnomi 进入预览模式, 屏幕上将显示 `预览此GIF` 字样, 在屏幕上可查看到自定义 GIF 的效果, 若想退出预览模式, 请关闭 `预览` 开关, 或者直接跳转到除 `主题` 界面之外的其他界面。
+
+    自定义 GIF 注意
+
+    - PopKnomi 所使用的屏幕分辨率 `宽 x 高` 为 `240 x 240` 像素, 超过此分辨率的图片无法完整显示在屏幕上, 所以只允许使用小于或等于此分辨率的 GIF。超出此限制的 GIF, 推荐使用工具重新调整 GIF 的分辨率, 使其符合要求。（例如：[https://ezgif.com/resize](https://ezgif.com/resize)）
+
+    - 单个 GIF 的尺寸不能超过 1.5MB(1536KB, 1MB=1024KB), 所有 GIF 一起的尺寸不能超过 3MB(3072KB,1MB=1024KB)
+
+    - 新的 GIF 的大小不能超过被替换的 GIF 大小与剩余空间之和, 否则 Web UI 会拒绝替换并弹窗提醒大小超出容量限制。在 `1` 中可以查看剩余空间, 在 `2` 中可以查看每个 GIF 的大小。
+
+<ImageView src={require('./img/popknomi-theme-3.webp').default} width="30%"/>
+
+1. 点击此按钮, 弹出设置 GIF 颜色的界面
+
+2. HSL 取色盘（[HSL 是什么？](https://zh.wikipedia.org/wiki/HSL%E5%92%8CHSV%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4)）
+
+3. HSL 的 H 色相参数, 范围值为：0~360度
+
+4. HSL 的 S 饱和度参数, 范围值为：0~100%
+
+5. HSL 的 L 亮度参数, 范围值为：0~100%
+
+6. 预览所设置颜色的区域
+
+7. 颜色对应的 RGB 的 16 进制值, 每个通道的十进制范围为 0～255，对应十六进制 0x00～0xFF, 可以直接修改此处的值来得到想要的颜色。 如图中所示的 #FF7300 意味着：
+
+    - R（红色）：0xFF (255/255)
+
+    - G（绿色）：0x73 (115/255)
+
+    - B（蓝色）：0x00 (0/255)
+
+8. 颜色对应的 HSL 的值, H 色相的范围为：0~360度,  S 饱和度的范围为：0~100%, L 亮度的范围为：0~100%, 可以直接修改此处的值来得到想要的颜色。如图中所示的 hsl(27, 100%, 50%) 意味着：
+
+    - H（色相）：27度
+
+    - S（饱和度）：100%
+
+    - L（亮度）：50%
+
+9. 点击清除设置的颜色, GIF 会显示原本的颜色
+
+
+<ImageView src={require('./img/popknomi-theme-4.webp').default} width="30%"/>
+
+1. 将自定义的 GIF 下载导出成 IMG 文件, 方便备份或者分享您的自定义 GIF 设计。
+
+### 设置
+
+<ImageView src={require('./img/popknomi-settings.webp').default} width="30%"/>
+
+1. 设置 Web UI 和屏幕上的语言
+
+    - English
+
+    - 简体中文
+
+2. 应用 IMG 文件到 PopKnomi
+
+    可以下载社区中其他用户分享的 PopKnomi 的 `.img` 文件并应用到 PopKnomi 中
+
+3. OTA 更新固件
+
+4. 恢复出厂设置
+
+## 恢复出厂设置
+
+:::warning
+
+PopKnomi 恢复出厂设置会清空所有的配置, 包括语言, 连接的 WiFi, 自定义的主机名, 自定义的 AP 热点名称和密码, 绑定的打印机等信息。但是无法将自定义的 GIF 恢复为出厂 GIF, GIF 只能通过上传 GIF 或者更新 IMG 修改。
+
+:::
+
+### 通过 Web UI 恢复出厂设置
+
+- 进入 `设置` 界面, 点击 `恢复出厂设置` 会出现确认的弹窗, 确认恢复出厂设置, PopKnomi 会恢复出厂设置并重新启动。
+
+    <ImageView src={require('./img/popknomi-factory-1.webp').default} width="30%"/>
+
+    <ImageView src={require('./img/popknomi-factory-2.webp').default} width="30%"/>
+
+### 通过按键恢复出厂设置
+
+长按 PopKnomi 上的 Boot 按键 5 秒后, PopKnomi 会恢复出厂设置并重新启动。
+
+<ImageView src={require('./img/popknomi-boot.webp').default} width="30%"/>
+
+## 固件
+
+### 功能请求
+
+如果您希望在即将发布的 PopKnomi 固件中增加产品需求, 请在官方 PopKnomi github repo 上提交请求, 让我们知道。
+
+[请求功能](https://github.com/bigtreetech/PopKnomi/issues)
+
+### 如何更新固件
+
+#### OTA
+
+- 在 Web UI 进入 `设置` 界面, 点击 `选择 .bin 文件`, 然后选择要更新的固件(例如: pop_knomi_01.00.00.01.bin), 更新完成后设备会自动重启。
+
+    <ImageView src={require('./img/popknomi-fw.webp').default} width="30%"/>
+
+#### flash_download_tool (Type-C 线刷)
+
+:::info
+
+PopKnomi 理应可以自由的 OTA, 此步骤仅在无法 OTA 时使用
+
+:::
+
+- 如果电脑上没有 CH340 的驱动, 请先下载安装驱动 [CH341SER.EXE](https://www.wch.cn/downloads/CH341SER_EXE.html)
+
+- 下载 [Flash 下载工具](https://www.espressif.com/zh-hans/support/download/other-tools)
+
+- 下载 [PopKnomi 的固件](https://github.com/bigtreetech/PopKnomi)
+
+- 按住 PopKnomi 上的 `Boot` 按键, 然后通过 `Type-C` 插到电脑上, 电脑的设备管理器中理应识别出一个新的 COM 端口
+
+    <ImageView src={require('./img/popknomi-boot.webp').default} width="30%"/>
+
+- 打开 `flash_download_tool_3.9.8_6.exe`, 在弹窗中按照下图配置
+
+    <ImageView src={require('./img/popknomi-open-esp-tool.webp').default} width="30%"/>
+
+- 烧录软件的配置如下图
+
+    <ImageView src={require('./img/popknomi-set-esp-tool.webp').default} width="30%"/>
+
+    1. 设置 .bin 文件的烧录地址, 并且前面的复选框都勾选上
+
+        - `pop_knomi_bootloader.bin` 写入到 `0x1000`
+
+        - `pop_knomi_partitions.bin` 写入到 `0x8000`
+
+        - `pop_knomi_01.00.00.01.bin` 写入到 `0x10000`
+
+        - `pop_knomi_01.00.00.01.img` 写入到 `0x910000`
+
+    2. 设置 COM 端口为 PopKnomi 实际的端口（可在电脑的 `设备管理器` -> `端口` 中查看）, 并且设置一个合适的波特率, 我们推荐使用 `460800`
+
+    3. 点击 `START` 开始烧录, 等待烧录完成, 断电重启即可。
+
+## 固件历史记录
+
+### [01.00.00.01](https://github.com/bigtreetech/PopKnomi/releases/tag/01.00.00.01)
+
+- 首次发布的出厂固件。

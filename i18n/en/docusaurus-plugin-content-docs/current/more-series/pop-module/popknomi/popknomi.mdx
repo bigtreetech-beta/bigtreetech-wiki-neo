@@ -1,0 +1,497 @@
+---
+description: PopKnomi is an interactive print-status module that pairs real-time status display with dynamic animations, delivering a more intuitive and personalized experience for 3D printers. It lets users check print status at a glance while giving the printer a distinctive visual presence.
+---
+
+# PopKnomi
+
+{/* import lib start */}
+
+import Tabs from "@theme/Tabs";
+
+import TabItem from "@theme/TabItem";
+
+{/* import lib end */}
+
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView
+	src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-title.webp').default}
+	alt=""
+	width="45%"
+	class="right-image"
+/>
+
+## Overview
+
+**PopKnomi — Status with Personality, for Snapmaker U1**
+
+    PopKnomi is a smart print-status display built for the Snapmaker U1. Its dynamic UI delivers real-time updates on printing, heating, leveling, error states, and more. You can track print progress and printer status at a glance without repeatedly checking your computer, phone, or the printer's touchscreen — all while adding a more distinctive visual touch to your setup.
+
+- **Real-Time Status**
+
+    Knomi UI brings printer status to life with real-time updates for printing, heating, leveling, errors, and more. Three progress views are available: Knomi Animation, Ring Progress, and Alternating Mode.
+
+- **Custom UI and GIFs**
+
+    Personalize interface colors and upload GIF animations to create a display that matches your preferences, giving your printer a more distinctive and interactive look.
+
+- **Multiple Mounting Options**
+
+    Install PopKnomi on the Snapmaker U1, pair it with PopCap, or place it on your desk. Position it wherever it works best for your setup and check printer status at a glance.
+
+- **Wide Viewing Angle and OTA Updates**
+
+    The wide-view color display keeps printer status clear from nearly any angle, while OTA support makes firmware updates quick and convenient, helping you stay current with the latest fixes and improvements.
+
+## Specifications
+
+| Specification        | PopKnomi                                  |
+| -------------- | ----------------------------------------- |
+| Microprocessor        | Xtensa dual-core 32-bit LX6 ESP32                   |
+| Clock Frequency        | 240 MHz                                    |
+| Memory          | PSRAM: 8 MB (4 MB RAM + 4 MB Himem), Flash: 16 MB|
+| Logic Voltage        | 3.3 V                                      |
+| Input Voltage        | 5 V or 24 V                                 |
+| Rated Power        | 0.65 W                                     |
+| Display Dimensions    | 34.6 mm x 37.9 mm x 3.5 mm                   |
+| Display Size        | 1.28 in.                                     |
+| Resolution          | 240 x 240                                 |
+| Active Display Area        | 32.4 (H) mm x 32.4 (V) mm                  |
+| Display Driver IC    | GC9A01                                     |
+| Viewing Angle        | Full view (≈178 degree)                         |
+
+</div>
+
+## Connectors
+
+<ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-connector.webp').default} alt="" width="45%" />
+
+## Dimensions
+
+<ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-size.webp').default} alt="" width="45%" />
+
+## Assembly Guide
+
+### Print the Housing
+
+- Download the housing files from [MakerWorld](https://makerworld.com/en/models/3162514-popknomi-3d-printed-case#profileId-3574292), choose the version you prefer, then print it in your preferred color.
+
+    1. Install the printer-mounted version as shown below.
+
+        <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-assembly.webp').default} alt="" width="45%" />
+
+    2. Install the desktop version as shown below.
+
+        <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-assembly.webp').default} alt="" width="45%" />
+
+- Install the display and connect the power. (The display installs the same way across all housing versions.)
+
+    1. Route the USB-C power cable through the opening in the printed housing, then connect it to the power port on the back of the display.
+
+        <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-pcb.webp').default} alt="" width="45%" />
+
+        <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-pcb-1.webp').default} alt="" width="45%" />
+
+    2. Fit the display into the printed housing. Insert the display cover, then push it downward until it locks into place.
+
+        <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-pcb-2.webp').default} alt="" width="45%" />
+
+        <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-pcb-3.webp').default} alt="" width="45%" />
+
+    3. The printer-mounted version requires Panda Hub V2 for the Snapmaker U1. [Download the print file](https://makerworld.com/en/models/502942-bigtreetech-panda-hub-mounting-case#profileId-3569951) and print the part before installation.
+
+        <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-fixed.webp').default} alt="" width="45%" />
+
+- Install on PopCap
+
+    - To install PopKnomi on PopCap, apply the included adhesive pad to the bottom of the 3D-printed housing, then attach it to the top of PopCap.
+
+        <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-fixed-1.webp').default} alt="" width="45%" />
+
+- Power PopKnomi with a 5V USB power adapter suitable for your setup. Use the included cable clips as needed to secure the cable.
+
+:::tip
+
+Note: The printer-mounted version must be used with the included Panda Hub V2 to draw power from the USB port on the back of the printer. Otherwise, it will occupy the USB flash drive port. The Panda Hub V2 output port closest to the PCB supports both power and data, allowing USB flash drive access. Other versions can be powered directly with a 5V power adapter.
+
+:::
+
+## Initial Setup Guide
+
+### Access Web UI
+
+- Connect to the PopKnomi AP hotspot.
+
+    After first startup or after running the `Restore Factory Settings` command, the following screen appears.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-ap-qr-code.webp').default} width="30%"/>
+
+    Scan the QR code displayed on PopKnomi, as shown above, to obtain the name and password of its AP hotspot, then connect to it. The factory-default AP information is:
+
+    ```text
+    Wi-Fi Name: Pop_Knomi_xxxxxxxxxxxx
+    Wi-Fi Password: 987654321
+    ```
+
+    If you cannot connect by scanning the QR code, manually connect to the hotspot from your device's `Settings` menu.
+
+- After connecting to the AP, a `Connected (login/authentication required)` notification should appear. Tap it to open the Web UI configuration page. If the page does not open due to network conditions, wait 10–20 seconds. If it still does not open, enter [192.168.254.1](http://192.168.254.1) in a browser to access the Web UI.
+
+### Connect Wi-Fi
+
+- During initial setup, the `Select Language` page opens automatically. Set the language, then tap `Next`.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-language.webp').default} width="30%"/>
+
+- On the Wi-Fi connection page, PopKnomi automatically scans for nearby Wi-Fi networks. Select the Wi-Fi network used by the printer. If the printer's Wi-Fi network is not listed, tap `Scan` to scan again.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-wifi.webp').default} width="30%"/>
+
+- Wait for the connection to complete. When the dialog shown below appears, tap `Binding` to open the `Printer` page and bind a printer.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-goto-printer.webp').default} width="30%"/>
+
+### Bind Printer
+
+#### Automatic Scan
+
+- On the Web UI `Printer` page, tap `Scan` to scan for printers on the same local network. A full scan takes about 30 seconds. If the desired printer is not found, tap `Scan` again or use `Manual Entry` to enter all information manually.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-printer.webp').default} width="30%"/>
+
+- After the scan is complete, select the printer to connect to. Under normal conditions, the printer's default name is `lava`. Its `IP` address is filled in automatically after selection.
+
+- Tap `Bind` to connect to the printer. A `Binding Successful` dialog confirms that PopKnomi has connected successfully.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-bind-ok.webp').default} width="30%"/>
+
+- Your PopKnomi is now ready to use.
+
+#### Manual Entry
+
+:::info
+
+If the printer you want to bind cannot be found, first try `Manual Entry` to enter all required printer information. If PopKnomi cannot connect to the printer, certain router security features may be preventing devices on the local network from communicating with one another. Contact customer support for further troubleshooting.
+
+:::
+
+- Find the printer's `IP`.
+
+    - `Settings`
+
+        <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-u1-1.webp').default} width="30%"/>
+
+    - `Wi-Fi`
+
+        <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-u1-2.webp').default} width="30%"/>
+
+    - `IP`
+
+        <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-u1-3.webp').default} width="30%"/>
+
+- Enter the `IP` address in the corresponding Web UI field.
+
+- Tap `Bind` to connect to the printer. A `Binding Successful` dialog confirms that PopKnomi has connected successfully.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-bind-ok.webp').default} width="30%"/>
+
+- Your PopKnomi is now ready to use.
+
+### GIF Statuses
+
+:::info[Note]
+
+Due to hardware limitations, each GIF must be no larger than 1.5 MB (1536 KB, 1 MB = 1024 KB), and the combined size of all GIFs must not exceed 3 MB (3072 KB, 1 MB = 1024 KB).
+
+:::
+
+| | File Name in Web UI | GIF Preview | Display Condition (printer must be bound) | Factory GIF Size | Factory GIF Resolution (W x H) |
+| :-----| :-----| :----: | :----: | :----: | :----: |
+| 1 | Standby.gif  | <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-standby.webp').default} width="30%"/> | The printer is idle. | 36.3 KB | 240 x 240 |
+| 2 | Nozzle-Heating.gif  | <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-nozzle-heating.webp').default} width="30%"/> | The nozzle is heating. | 99.29 KB | 240 x 240 |
+| 3 | Bed-Heating.gif  | <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-bed-heating.webp').default} width="30%"/> | The heated bed is heating. | 89.34 KB | 240 x 240 |
+| 4 | Bed-Leveling.gif  | <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-bed-leveling.webp').default} width="30%"/> | Automatic bed leveling is in progress. | 84.78 KB | 240 x 240 |
+| 5 | Calibrating-Flow.gif  | <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-calibrating-flow.webp').default} width="30%"/> | Extrusion flow calibration is in progress. | 53.6 KB | 240 x 240 |
+| 6 | XY-Mesh-Mode-Sweep.gif  | <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-xy-input-shaper.webp').default} width="30%"/> | Resonance compensation calibration is in progress. | 84.9 KB | 240 x 240 |
+| 7 | Filament-Pull-Back.gif  | <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-filament-pull-back-cur.webp').default} width="30%"/> | The current filament is being retracted. | 109.07 KB | 240 x 240 |
+| 8 | Filament-Purge-Old.gif  | <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-filament-purge-old.webp').default} width="30%"/> | Old filament is being purged. | 29.26 KB | 240 x 240 |
+| 9 | Printing-OK.gif  | <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-printing-ok.webp').default} width="30%"/> | Printing is complete. | 113.99 KB | 240 x 240 |
+| 10 | Printing.gif  | <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-printing.webp').default} width="30%"/> | Printing is in progress. | 142.8 KB | 240 x 240 |
+| 11 | Print-Error.gif  | <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-print-error.webp').default} width="30%"/> | The printer has an error code. | 133.71 KB | 240 x 240 |
+| 12 | Bed-Surface-Foreign-Object-Detection.gif  | <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-plate-detecting.webp').default} width="30%"/> | Heated bed detection is in progress. | 144.54 KB | 240 x 240 |
+
+### Screen Saver
+
+:::info[Note]
+
+To prevent burn-in caused by displaying the same static image for extended periods, PopKnomi includes a screen saver. When a static screen is displayed, the built-in screen-saver GIF appears every 15 seconds for a duration of 3.5 seconds. This GIF cannot be customized.
+
+:::
+
+- The screensaver GIF is shown below.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-screen-saver.webp').default} width="30%"/>
+
+- The screensaver is active on the following static screens.
+
+    - Invalid IMG screen
+
+    - Factory-default Hello screen
+
+    - Wi-Fi scan complete screen
+
+    - Wi-Fi connection failed screen
+
+    - Incorrect Wi-Fi password screen
+
+    - Printer binding screen
+
+    - Printer scan complete screen
+
+    - Printer error code screen
+
+    - Printer Moonraker error screen
+
+## Web UI Guide
+
+### Wi-Fi & IP
+
+<ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-wifi-ip.webp').default} width="30%"/>
+
+1. To reconfigure the Wi-Fi network used by PopKnomi, tap `Configure Wi-Fi` to open the Wi-Fi setup page.
+
+    :::info[Note]
+
+    After changing the Wi-Fi network, PopKnomi's local network and IP address will change. We recommend connecting your device to the PopKnomi AP hotspot before changing this setting. Otherwise, the connection between your device and PopKnomi will be interrupted while PopKnomi switches Wi-Fi networks.
+
+    :::
+
+2. After Wi-Fi setup is complete, connect your phone, computer, or other device to the same local network as PopKnomi. Enter the IP address in a browser's address bar to access the Web UI. To avoid forgetting the IP address, you can add it as a bookmark on your phone's home screen for quick access.
+
+3. When your device is connected to the same local network as PopKnomi, you can access the Web UI by hostname. For example, the factory-default hostname is `PopKnomi`; enter [http://popknomi.local](http://popknomi.local) directly. Hostnames are not case-sensitive. If your device is using a VPN, hostname access may not work; use the IP address instead.
+
+    You can customize the hostname, subject to the following rules:
+
+    - It may contain only letters (a-z, A-Z), numbers (0-9), and hyphens (-), and the first character must be a letter.
+
+    - It must be 8–32 characters long.
+
+    After editing the hostname, tap `Set Hostname` to send the new hostname to PopKnomi. If the dialog shown below appears, the hostname has been updated successfully. A restart is required for the new hostname to take effect. Tap `OK` in the dialog to restart PopKnomi immediately. To postpone the restart, tap the `x` button in the upper-right corner of the dialog to close it.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-hostname.webp').default} width="30%"/>
+
+### AP
+
+:::info[Note]
+
+- The AP is the Wi-Fi hotspot broadcast by PopKnomi, allowing phones and computers to connect directly to it. You can disable this hotspot if you do not want it to be broadcast. However, PopKnomi automatically re-enables it when it cannot connect to the configured Wi-Fi network. This provides a fallback connection method when the configured Wi-Fi network is unavailable.
+
+- If your device accesses the Web UI through the PopKnomi AP hotspot, disabling the AP or changing its information disconnects the device from PopKnomi. To avoid this, connect your device to the same local network as PopKnomi, enter its IP address in a browser's address bar to access the Web UI, and then change this setting.
+
+:::
+
+<ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-ap.webp').default} width="30%"/>
+
+1. Enable or disable the PopKnomi AP hotspot. After disabling the AP hotspot, you cannot use it to access the Web UI. Before disabling it, record PopKnomi's IP address on its current Wi-Fi network so a device on the same Wi-Fi network can access the Web UI by IP address.
+
+2. Modify the PopKnomi AP hotspot. The default settings are:
+
+    ```text
+    Wi-Fi Name: Pop_Knomi_xxxxxxxxxxxx
+    Wi-Fi Password: 987654321
+    ```
+
+    No restart is required after making changes. PopKnomi recreates the new AP hotspot in the background.
+
+3. This is PopKnomi's IP address on the AP hotspot network. Restart PopKnomi in order for changes to this IP address to take effect.
+
+### Theme
+
+<ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-theme-1.webp').default} width="30%"/>
+
+1. `Print Progress`
+
+    - `Display only Printing Data`: During printing, the display shows real-time print progress ring, remaining time, and print layer height.
+
+    - `Display only GIF`: During printing, the display shows the Knomi animation only.
+
+    - `Display Printing Data and GIF alternately`: During printing, the display alternates between real-time print information and the Knomi animation every 10 seconds.
+
+    - `Percentage Overlay on GIF`: During printing, the display shows the Knomi animation with the print-progress percentage at a specified position.
+
+2. `Error Display Mode`
+
+    - `Error Display Off`: Do not capture this printer status.
+
+    - `Error Display QR`: When the printer has an error code, the display shows a QR code for the corresponding wiki page.
+
+    - `Error Display GIF`: When the printer has an error code, the display shows the print-error GIF.
+
+3. `Screen Off`
+
+    - `Disabled`: Do not turn off the display backlight.
+
+    - `Screen off on standby`: When the printer is idle, turn off the display backlight instead of showing the standby GIF.
+
+    - `Screen off after 30 minutes on inactivity`: Turn off the display backlight if the printer status has not changed for 30 minutes.
+
+4. `All GIF Colors`: Change the color of all Knomi animations at once.
+
+5. `Progress Color`: Change the color of real-time print progress ring, remaining time, print layer height, and other information.
+
+<ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-theme-2.webp').default} width="30%"/>
+
+1. View GIF storage usage. Due to PopKnomi hardware limitations, the combined size of all GIFs cannot exceed 3 MB (3072 KB, 1 MB = 1024 KB). If this limit is exceeded, the Web UI prevents the update and displays a notification.
+
+2. Configure each GIF individually, including its color and custom GIF image.
+
+    Enable `Preview Mode`, then tap `Preview GIF` to preview the GIF. To exit, disable `Preview Mode` or leave the `Theme` page.
+
+    Custom GIF notes.
+
+    - The PopKnomi display resolution is `240 x 240` pixels (W x H). Images exceeding this resolution cannot be shown in full, so only GIFs at or below this resolution are supported. For GIFs above this limit, use a tool to resize the GIF to a supported resolution. For example: [https://ezgif.com/resize](https://ezgif.com/resize).
+
+    - Each GIF must be no larger than 1.5 MB (1536 KB, 1 MB = 1024 KB), and the combined size of all GIFs must not exceed 3 MB (3072 KB, 1 MB = 1024 KB).
+
+    - The new GIF cannot exceed the size of the GIF it replaces plus the remaining storage space. Otherwise, the Web UI rejects the replacement and displays a capacity-limit notification. Refer to number `1` for the remaining storage space and number `2` for the size of each GIF.
+
+<ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-theme-3.webp').default} width="30%"/>
+
+1. Tap this button to open the GIF color settings page.
+
+2. HSL color picker ([What is HSL?](https://zh.wikipedia.org/wiki/HSL%E5%92%8CHSV%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4))
+
+3. HSL hue (H) value range: 0–360 degree.
+
+4. HSL saturation (S) value range: 0–100%.
+
+5. HSL lightness (L) value range: 0–100%.
+
+6. Preview area for the selected color.
+
+7. The color's RGB hexadecimal value. Each channel ranges from 0 to 255 in decimal, corresponding to 0x00–0xFF in hexadecimal. Edit these values directly to obtain the desired color. As shown in the image, #FF7300 means:
+
+    - R (red): 0xFF (255/255).
+
+    - G (green): 0x73 (115/255).
+
+    - B (blue): 0x00 (0/255).
+
+8. The color's HSL value. H (hue) ranges from 0–360 degree, S (saturation) ranges from 0–100%, and L (lightness) ranges from 0–100%. Edit these values directly to obtain the desired color. As shown in the image, hsl(27, 100%, 50%) means:
+
+    - H (hue): 27 degree.
+
+    - S (saturation): 100%.
+
+    - L (lightness): 50%.
+
+9. Tap to clear the configured color and restore the GIF's original color.
+
+
+<ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-theme-4.webp').default} width="30%"/>
+
+1. Download custom GIFs as IMG files for backup or to share your custom GIF designs.
+
+### Settings
+
+<ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-settings.webp').default} width="30%"/>
+
+1. Set the language used by the Web UI and display.
+
+    - English
+
+    - Simplified Chinese
+
+2. Apply an IMG file to PopKnomi.
+
+    Download a `.img` file shared by another PopKnomi community user and apply it to PopKnomi.
+
+3. Update firmware over OTA.
+
+4. Restore factory settings.
+
+## Restore Factory Settings
+
+:::warning
+
+Restoring PopKnomi to factory settings clears all configuration, including the language, connected Wi-Fi network, custom hostname, custom AP hotspot name and password, and bound printer information. However, custom GIFs cannot be restored to factory GIFs. GIFs can only be changed by uploading GIFs or updating an IMG file.
+
+:::
+
+### Restore via Web UI
+
+- Open the `Settings` page and tap `Factory Reset`. A confirmation dialog appears. Confirm the factory reset, and PopKnomi restores factory settings and restarts.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-factory-1.webp').default} width="30%"/>
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-factory-2.webp').default} width="30%"/>
+
+### Restore via Button
+
+Press and hold the Boot button on PopKnomi for 5 seconds. PopKnomi restores factory settings and restarts.
+
+<ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-boot.webp').default} width="30%"/>
+
+## Firmware
+
+### Feature Requests
+
+If you would like to request a feature for an upcoming PopKnomi firmware release, submit a request in the official PopKnomi GitHub repository.
+
+[Request a Feature](https://github.com/bigtreetech/PopKnomi/issues)
+
+### Update Firmware
+
+#### OTA
+
+- On the Web UI `Settings` page, tap `Select .bin File`, then select the firmware to update, for example: pop_knomi_01.00.00.01.bin. The device restarts automatically after the update is complete.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-fw.webp').default} width="30%"/>
+
+#### flash_download_tool (Type-C Flashing)
+
+:::info
+
+PopKnomi should normally be updated over OTA. Use this method only when the OTA update is unavailable.
+
+:::
+
+- If the CH340 driver is not installed on your computer, download and install [CH341SER.EXE](https://www.wch.cn/downloads/CH341SER_EXE.html).
+
+- Download the [Flash Download Tool](https://www.espressif.com/zh-hans/support/download/other-tools).
+
+- Download the [PopKnomi firmware](https://github.com/bigtreetech/PopKnomi).
+
+- Press and hold the `Boot` button on PopKnomi, then connect it to your computer using Type-C. A new COM port should appear in Device Manager.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-boot.webp').default} width="30%"/>
+
+- Open `flash_download_tool_3.9.8_6.exe` and configure the dialog as shown below.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-open-esp-tool.webp').default} width="30%"/>
+
+- Configure the flashing tool as shown below.
+
+    <ImageView src={require('@site/docs/more-series/pop-module/popknomi/img/popknomi-set-esp-tool.webp').default} width="30%"/>
+
+    1. Set the flash address for each .bin file and select all preceding checkboxes.
+
+        - Write `pop_knomi_bootloader.bin` to `0x1000`.
+
+        - Write `pop_knomi_partitions.bin` to `0x8000`.
+
+        - Write `pop_knomi_01.00.00.01.bin` to `0x10000`.
+
+        - Write `pop_knomi_01.00.00.01.img` to `0x910000`.
+
+    2. Set the COM port to the PopKnomi port shown in `Device Manager` -> `Ports`, then select an appropriate baud rate. We recommend `460800`.
+
+    3. Tap `START` to begin flashing. Wait for flashing to complete, then disconnect and restart the device.
+
+## Firmware History
+
+### [01.00.00.01](https://github.com/bigtreetech/PopKnomi/releases/tag/01.00.00.01)
+
+- Initial factory firmware release.
