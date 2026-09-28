@@ -156,7 +156,7 @@ Before selecting a voltage, please confirm the fan's operating voltage.
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/M5P_BLTouch_Wiring.png').default} width="80%"/>
 
-### 100K NTC Or PT1000 Setup
+### Temperature Sensor Setup (100K NTC or PT1000)
 
 When using a 100K NTC thermistor, there is no need to insert a jumper cap; the pull-up resistors for `TH0` and `TH1` are 4.7K 0.1%.
 

@@ -111,7 +111,7 @@ M4P 开机后，主板右下侧的红色 LED1 会亮起，表示电源正常。�
 
 <ImageView src={require('./img/M4P_TYPE_C.webp').default} width="45%"/>
 
-### 40 Pin GPIO
+### GPIO（40 Pin）
 
 <ImageView src={require('./img/m4p-40pin-gpio.webp').default} width="50%"/>
 

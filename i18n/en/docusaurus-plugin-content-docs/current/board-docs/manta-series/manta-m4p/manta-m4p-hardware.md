@@ -111,7 +111,7 @@ After powering on the M4P, the red LED1 in the lower-right corner of the motherb
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m4p/img/M4P_TYPE_C.webp').default} width="45%"/>
 
-### 40 Pin GPIO
+### GPIO (40 Pin)
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m4p/img/m4p-40pin-gpio.webp').default} width="50%"/>
 

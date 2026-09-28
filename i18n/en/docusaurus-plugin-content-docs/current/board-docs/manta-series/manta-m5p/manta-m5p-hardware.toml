@@ -522,12 +522,12 @@ translate = '''
 '''
 
 [[block]]
-key = "b1e9f52837719268"
+key = "a6d5d9bccd04af94"
 origin = '''
-### 100K NTC 或 PT1000 设置
+### 温度传感器设置（100K NTC 或 PT1000）
 '''
 translate = '''
-### 100K NTC Or PT1000 Setup
+### Temperature Sensor Setup (100K NTC or PT1000)
 '''
 
 [[block]]

@@ -372,12 +372,12 @@ translate = '''
 '''
 
 [[block]]
-key = "ca8b5f3a55405790"
+key = "a62d8ea83468b386"
 origin = '''
-### 40 Pin GPIO
+### GPIO（40 Pin）
 '''
 translate = '''
-### 40 Pin GPIO
+### GPIO (40 Pin)
 '''
 
 [[block]]

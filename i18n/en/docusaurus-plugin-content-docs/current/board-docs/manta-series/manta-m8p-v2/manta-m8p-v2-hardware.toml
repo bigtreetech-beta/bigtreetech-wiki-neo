@@ -163,8 +163,11 @@ origin = '''
         A4988 / DRV8825 使用跳线帽短接 MS0-MS2 以调整细分
 
         :::info[已知问题]
+
         如果使用 `A4988` 或 `DRV8825` 需要短接 `RST` 和 `SLP` 才能正常工作
+
         :::
+
         <ImageView src={require('./img/m8p_v2_0_step-dir.png').default} width="100%"/>
     </TabItem>
 </Tabs>
@@ -189,8 +192,11 @@ translate = '''
         For A4988 / DRV8825 drivers, use jumper caps to short MS0-MS2 as needed to set the microstepping mode.
 
         :::info[Known Issues]
+
         When using `A4988` or `DRV8825`, short `RST` and `SLP` for the driver to work properly.
+
         :::
+
         <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v2/img/m8p_v2_0_step-dir.png').default} width="100%"/>
     </TabItem>
 </Tabs>
@@ -468,12 +474,12 @@ translate = '''
 '''
 
 [[block]]
-key = "b65657a741f3f2ac"
+key = "6d46e984466769da"
 origin = '''
-### 4Pin PWM 风扇接线
+### PWM 风扇接线（4Pin）
 '''
 translate = '''
-### 4-Pin PWM Fan Wiring
+### PWM Fan Wiring (4-Pin)
 '''
 
 [[block]]
@@ -495,12 +501,12 @@ translate = '''
 '''
 
 [[block]]
-key = "b1e9f52837719268"
+key = "a6d5d9bccd04af94"
 origin = '''
-### 100K NTC 或 PT1000 设置
+### 温度传感器设置（100K NTC 或 PT1000）
 '''
 translate = '''
-### 100K NTC or PT1000 Settings
+### Temperature Sensor Settings (100K NTC or PT1000)
 '''
 
 [[block]]
@@ -509,7 +515,7 @@ origin = '''
 当使用100K NTC热敏电阻时，无需插入跳线帽 `TH0` `TH1` `TH2` `TH3` 的上拉电阻为 4.7K 0.1%。
 '''
 translate = '''
-When using a 100K NTC thermistor, no jumper cap is required. The pull-up resistors for `TH0`, `TH1`, `TH2`, and `TH3` are 4.7 kΩ with a tolerance of 0.1%.
+When using a 100K NTC thermistor, no jumper cap is required. The pull-up resistors for `TH0`, `TH1`, `TH2`, and `TH3` are $4.7\,\mathrm{k}\Omega$ with a tolerance of 0.1%.
 '''
 
 [[block]]
@@ -528,7 +534,7 @@ origin = '''
 translate = '''
 :::info
 
-When using a PT1000, install the PT jumper cap. The pull-up resistance for `TH0`, `TH1`, `TH2`, and `TH3` is then 2.2 kΩ.
+When using a PT1000, install the PT jumper cap. The pull-up resistance for `TH0`, `TH1`, `TH2`, and `TH3` is then $2.2\,\mathrm{k}\Omega$.
 
 Temperature readings obtained this way are significantly less accurate than those obtained with a MAX31865.
 

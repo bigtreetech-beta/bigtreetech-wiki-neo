@@ -90,7 +90,9 @@ M8P主板通电后，MCU左侧的D32红灯亮起，表示电源正常。电路�
 A4988 / DRV8825 使用跳线帽短接 MS0-MS2 以调整细分
 
 :::info[已知问题]
+
 如果使用 `A4988` 或 `DRV8825` 需要短接 `RST` 和 `SLP` 才能正常工作
+
 :::
 
 <ImageView src={require('./img/M8P_Dri_Step.png').default} width="80%"/>
@@ -149,11 +151,11 @@ M8P V1.0 与 V1.1 均设有两个用途不同的 microSD 卡槽，且卡槽位�
 
 <ImageView src={require('./img/M8P_fan.png').default} width="60%"/>
 
-### 4Pin PWM 风扇接线
+### PWM 风扇接线（4Pin）
 
 <ImageView src={require('./img/M8P_4_pin_pwm.png').default} width="60%"/>
 
-### 100K NTC 或 PT1000 设置
+### 温度传感器设置（100K NTC 或 PT1000）
 
 当使用100K NTC热敏电阻时，无需插入跳线帽 `TH0` `TH1` `TH2` `TH3` 的上拉电阻为 4.7K 0.1%。
 
@@ -202,7 +204,7 @@ Manta M8P ADXL 345 配置文件参考 [Manta M8P ADXL 配置文件](./manta-m8p-
 
 <ImageView src={require('./img/M8P_Filament.png').default} width="80%"/>
 
-### 40 Pin GPIO
+### GPIO（40 Pin）
 
 <ImageView src={require('./img/M8P_40_Pin.png').default} width="60%"/>
 

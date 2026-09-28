@@ -55,8 +55,11 @@ Manta M8P v2 Schematic [BIGTREETECH MANTA M8P V2.0-SCH.pdf](https://github.com/b
         For A4988 / DRV8825 drivers, use jumper caps to short MS0-MS2 as needed to set the microstepping mode.
 
         :::info[Known Issues]
+
         When using `A4988` or `DRV8825`, short `RST` and `SLP` for the driver to work properly.
+
         :::
+
         <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v2/img/m8p_v2_0_step-dir.png').default} width="100%"/>
     </TabItem>
 </Tabs>
@@ -139,19 +142,19 @@ Check the fan's operating voltage before selecting the supply voltage.
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v2/img/m8p_v2_0_cnc.png').default} width="100%"/>
 
-### 4-Pin PWM Fan Wiring
+### PWM Fan Wiring (4-Pin)
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v2/img/m8p_v2_0_4pin_fan.png').default} width="60%"/>
 
 ## Sensors
 
-### 100K NTC or PT1000 Settings
+### Temperature Sensor Settings (100K NTC or PT1000)
 
-When using a 100K NTC thermistor, no jumper cap is required. The pull-up resistors for `TH0`, `TH1`, `TH2`, and `TH3` are 4.7 kΩ with a tolerance of 0.1%.
+When using a 100K NTC thermistor, no jumper cap is required. The pull-up resistors for `TH0`, `TH1`, `TH2`, and `TH3` are $4.7\,\mathrm{k}\Omega$ with a tolerance of 0.1%.
 
 :::info
 
-When using a PT1000, install the PT jumper cap. The pull-up resistance for `TH0`, `TH1`, `TH2`, and `TH3` is then 2.2 kΩ.
+When using a PT1000, install the PT jumper cap. The pull-up resistance for `TH0`, `TH1`, `TH2`, and `TH3` is then $2.2\,\mathrm{k}\Omega$.
 
 Temperature readings obtained this way are significantly less accurate than those obtained with a MAX31865.
 

@@ -156,7 +156,7 @@ DSI / CSI 需要核心板硬件支持
 
 <ImageView src={require('./img/M5P_BLTouch_Wiring.png').default} width="80%"/>
 
-### 100K NTC 或 PT1000 设置
+### 温度传感器设置（100K NTC 或 PT1000）
 
 当使用100K NTC热敏电阻时，无需插入跳线帽 `TH0` `TH1` 的上拉电阻为 4.7K 0.1%。
 
