@@ -1,0 +1,173 @@
+[metadata]
+
+[[block]]
+key = "69f06ea5d1bfac29"
+origin = '''
+---
+sidebar_position: 10
+---
+'''
+translate = '''
+---
+sidebar_position: 10
+---
+'''
+
+[[block]]
+key = "ca46912b29356138"
+origin = '''
+# Manta M4P 系列固件 (STM32G0B1)
+'''
+translate = '''
+# Manta M4P Series Firmware (STM32G0B1)
+'''
+
+[[block]]
+key = "d7ee15c0497cc2da"
+origin = '''
+使用 `STM32G0B1` MCU 的 Manta M4P
+'''
+translate = '''
+Manta M4P using the `STM32G0B1` MCU
+'''
+
+[[block]]
+key = "9e2c16dcc92bf7ce"
+origin = '''
+{/* import lib start */}
+'''
+translate = '''
+{/* import lib start */}
+'''
+
+[[block]]
+key = "c012cc6c2fca315b"
+origin = '''
+{/* import lib end */}
+'''
+translate = '''
+{/* import lib end */}
+'''
+
+[[block]]
+key = "5a72024383e0747b"
+origin = '''
+## 构建固件
+'''
+translate = '''
+## Build Firmware
+'''
+
+[[block]]
+key = "1b4a9a91ac4d0d89"
+origin = '''
+使用 ssh 连接到 Klipper Host. 然后使用以下命令进入 Klipper 目录。并且使用 `make menuconfig` 配置固件。
+'''
+translate = '''
+Use SSH to connect to the Klipper Host. Then use the following command to enter the Klipper directory and use `make menuconfig` to configure the firmware.
+'''
+
+[[block]]
+key = "a18bfc19c771a8e5"
+origin = '''
+``` shell
+cd ~/klipper
+make menuconfig
+```
+'''
+translate = '''
+``` shell
+cd ~/klipper
+make menuconfig
+```
+'''
+
+[[block]]
+key = "e57f463d21c83242"
+origin = '''
+按照以下选项构建使用 `STM32G0B1` 为 `MCU` 的 `Manta M4P` USB 串口固件
+'''
+translate = '''
+Build the USB serial firmware for `Manta M4P` using `STM32G0B1` as the `MCU` according to the following options.
+'''
+
+[[block]]
+key = "048d9bfdbe53d393"
+origin = '''
+<ImageView src={require('./img/manta-m4p-make-usb.png').default} alt="manta m4p with g0b1 usb"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/board-docs/manta-series/img/manta-m4p-make-usb.png').default} alt="manta m4p with g0b1 usb"/>
+'''
+
+[[block]]
+key = "0dfc9894b0cc8781"
+origin = '''
+当配置完成使用 `q` 来退出。使用 `y` 来保存编译选项。
+'''
+translate = '''
+After configuration, use `q` to exit and `y` to save the build options.
+'''
+
+[[block]]
+key = "50157bdc559de387"
+origin = '''
+然后使用 `make` 命令来开始编译 Klipper 固件
+'''
+translate = '''
+Then use the `make` command to start compiling the Klipper firmware.
+'''
+
+[[block]]
+key = "06b3664e30aa8376"
+origin = '''
+``` shell
+make
+```
+'''
+translate = '''
+``` shell
+make
+```
+'''
+
+[[block]]
+key = "37344220685b1b0e"
+origin = '''
+## 写入固件 (Via SD card)
+'''
+translate = '''
+## Flash Firmware (Via SD card)
+'''
+
+[[block]]
+key = "3e8e61d102c70216"
+origin = '''
+:::warning[MCU-Card 使用条件]
+
+通过 MCU-Card 更新固件，要求主板保留出厂自带的 Bootloader。若 Bootloader 被擦除或覆盖，该卡槽便无法执行固件更新；须先通过其他烧录方式恢复适用于此型号及硬件版本的出厂 Bootloader。
+
+:::
+'''
+translate = '''
+:::warning[MCU-Card Requirements]
+
+Updating firmware through the MCU-Card requires the factory-installed bootloader to remain on the motherboard. If the bootloader is erased or overwritten, this slot cannot perform firmware updates. First restore the factory bootloader for this board model and hardware revision by another flashing method.
+
+:::
+'''
+
+[[block]]
+key = "ca62b22a1e1a7a7d"
+origin = '''
+1. 从 `~/klipper/out/` 中复制 `klipper.bin` 并且改名为 `firmware.bin`
+2. 复制 `firmware.bin` 到 SD 卡的根目录中
+3. 将 SD 卡插入主板的 MCU-Card 卡槽，不要插入 SOC-Card 卡槽
+4. 给主板通电
+'''
+translate = '''
+1. Copy `klipper.bin` from `~/klipper/out/` and rename it to `firmware.bin`
+2. Copy `firmware.bin` to the root directory of the SD card
+3. Insert the SD card into the motherboard's MCU-Card slot, not the SOC-Card slot
+4. Power on the mainboard
+'''

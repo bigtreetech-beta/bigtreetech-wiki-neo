@@ -85,13 +85,33 @@ Manta M4P v2 原理图 [bigtreetech_manta_m4p_v2.1_220608_SCH.pdf](https://githu
     </TabItem>
 </Tabs>
 
+### SD 卡接口
+
+M4P 主板设有两个用途不同的 SD 卡槽。下图标注主板背面的卡槽位置，SOC-Card 与 MCU-Card 相邻；不同硬件版本请以实物丝印为准。
+
+<ImageView
+    src={require('./img/manta-m4p-sd-cards.webp').default}
+    width="100%"
+/>
+
+| 卡槽 | 用途 |
+| --- | --- |
+| SOC-Card | 供使用 microSD 卡的核心板存放系统镜像，不用于更新主板 MCU 固件。 |
+| MCU-Card | 用于更新主板 MCU 固件，不是核心板的系统卡槽。 |
+
+:::warning[MCU-Card 使用条件]
+
+通过 MCU-Card 更新固件，要求主板保留出厂自带的 Bootloader。若 Bootloader 被擦除或覆盖，该卡槽便无法执行固件更新；须先通过其他烧录方式恢复适用于此型号及硬件版本的出厂 Bootloader。
+
+:::
+
 ### USB 供电
 
 M4P 开机后，主板右下侧的红色 LED1 会亮起，表示电源正常。板中间的 J8 是电源选择端子，只有当type-C USB用于向主板供电或USB用于外部供电时，才需要短接。type-C的信号连接到 SoC，仅在写入 CM4 eMMC 版本的操作系统映像时使用。
 
 <ImageView src={require('./img/M4P_TYPE_C.webp').default} width="45%"/>
 
-### 40 Pin GPIO
+### GPIO（40 Pin）
 
 <ImageView src={require('./img/m4p-40pin-gpio.webp').default} width="50%"/>
 

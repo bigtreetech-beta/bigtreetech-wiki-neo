@@ -280,6 +280,71 @@ translate = '''
 '''
 
 [[block]]
+key = "843b31d6625103f4"
+origin = '''
+### SD 卡接口
+'''
+translate = '''
+### SD Card Slots
+'''
+
+[[block]]
+key = "0a6eb7048b5f7683"
+origin = '''
+M4P 主板设有两个用途不同的 SD 卡槽。下图标注主板背面的卡槽位置，SOC-Card 与 MCU-Card 相邻；不同硬件版本请以实物丝印为准。
+'''
+translate = '''
+The M4P motherboard has two SD card slots with different purposes. The image below marks the slots on the back of the board, where SOC-Card and MCU-Card are next to each other. Refer to the silkscreen on your board for different hardware revisions.
+'''
+
+[[block]]
+key = "fcbd6e82f043dfd1"
+origin = '''
+<ImageView
+    src={require('./img/manta-m4p-sd-cards.webp').default}
+    width="100%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/manta-series/manta-m4p/img/manta-m4p-sd-cards.webp').default}
+    width="100%"
+/>
+'''
+
+[[block]]
+key = "aecc69e4d412c78f"
+origin = '''
+| 卡槽 | 用途 |
+| --- | --- |
+| SOC-Card | 供使用 microSD 卡的核心板存放系统镜像，不用于更新主板 MCU 固件。 |
+| MCU-Card | 用于更新主板 MCU 固件，不是核心板的系统卡槽。 |
+'''
+translate = '''
+| Slot | Purpose |
+| --- | --- |
+| SOC-Card | Stores the system image for compute modules that use a microSD card. It is not used to update the motherboard MCU firmware. |
+| MCU-Card | Updates the motherboard MCU firmware. It is not the compute module's system card slot. |
+'''
+
+[[block]]
+key = "3e8e61d102c70216"
+origin = '''
+:::warning[MCU-Card 使用条件]
+
+通过 MCU-Card 更新固件，要求主板保留出厂自带的 Bootloader。若 Bootloader 被擦除或覆盖，该卡槽便无法执行固件更新；须先通过其他烧录方式恢复适用于此型号及硬件版本的出厂 Bootloader。
+
+:::
+'''
+translate = '''
+:::warning[MCU-Card Requirements]
+
+Updating firmware through the MCU-Card requires the factory-installed bootloader to remain on the motherboard. If the bootloader is erased or overwritten, this slot cannot perform firmware updates. First restore the factory bootloader for this board model and hardware revision by another flashing method.
+
+:::
+'''
+
+[[block]]
 key = "c7d9300721ad6579"
 origin = '''
 ### USB 供电
@@ -307,12 +372,12 @@ translate = '''
 '''
 
 [[block]]
-key = "ca8b5f3a55405790"
+key = "a62d8ea83468b386"
 origin = '''
-### 40 Pin GPIO
+### GPIO（40 Pin）
 '''
 translate = '''
-### 40 Pin GPIO
+### GPIO (40 Pin)
 '''
 
 [[block]]

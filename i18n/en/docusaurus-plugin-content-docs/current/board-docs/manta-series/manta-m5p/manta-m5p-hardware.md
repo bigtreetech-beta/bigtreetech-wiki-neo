@@ -95,6 +95,31 @@ Manta M5P Schematic [BIGTREETECH MANTA M5P V1.0-SCH.pdf](https://github.com/bigt
     </TabItem>
 </Tabs>
 
+### SD Card Slots
+
+The M5P motherboard has two SD card slots with different purposes: SOC-Card is on the front, and MCU-Card is on the back. The straight-on product photos below show the slot locations on the front and back of the M5P V1.0.
+
+<ImageView
+    src={require('@site/docs/board-docs/manta-series/manta-m5p/img/manta-m5p-soc-card.webp').default}
+    width="100%"
+/>
+
+<ImageView
+    src={require('@site/docs/board-docs/manta-series/manta-m5p/img/manta-m5p-mcu-card.webp').default}
+    width="100%"
+/>
+
+| Slot | Purpose |
+| --- | --- |
+| SOC-Card | Stores the system image for compute modules that use a microSD card. It is not used to update the motherboard MCU firmware. |
+| MCU-Card | Updates the motherboard MCU firmware. It is not the compute module's system card slot. |
+
+:::warning[MCU-Card Requirements]
+
+Updating firmware through the MCU-Card requires the factory-installed bootloader to remain on the motherboard. If the bootloader is erased or overwritten, this slot cannot perform firmware updates. First restore the factory bootloader for this board model and hardware revision by another flashing method.
+
+:::
+
 ### USB Power
 
 When the MANTA M5P is powered on, the red LED D22 on the left side of the MCU will light up, indicating that power is on. When powering the board via USB only, or when using USB as the power source, please insert the jumper cap into VUSB.
@@ -131,7 +156,7 @@ Before selecting a voltage, please confirm the fan's operating voltage.
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m5p/img/M5P_BLTouch_Wiring.png').default} width="80%"/>
 
-### 100K NTC Or PT1000 Setup
+### Temperature Sensor Setup (100K NTC or PT1000)
 
 When using a 100K NTC thermistor, there is no need to insert a jumper cap; the pull-up resistors for `TH0` and `TH1` are 4.7K 0.1%.
 
