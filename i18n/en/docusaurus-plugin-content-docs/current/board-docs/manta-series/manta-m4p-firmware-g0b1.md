@@ -16,7 +16,7 @@ Use SSH to connect to the Klipper Host. Then use the following command to enter 
 
 ``` shell
 cd ~/klipper
-make menuconfig 
+make menuconfig
 ```
 
 Build the USB serial firmware for `Manta M4P` using `STM32G0B1` as the `MCU` according to the following options.
@@ -33,7 +33,13 @@ make
 
 ## Flash Firmware (Via SD card)
 
+:::warning[MCU-Card Requirements]
+
+Updating firmware through the MCU-Card requires the factory-installed bootloader to remain on the motherboard. If the bootloader is erased or overwritten, this slot cannot perform firmware updates. First restore the factory bootloader for this board model and hardware revision by another flashing method.
+
+:::
+
 1. Copy `klipper.bin` from `~/klipper/out/` and rename it to `firmware.bin`
-2. Copy `firmware.bin` to the root directory of the MCU SD card
-3. Insert the MCU SD card
+2. Copy `firmware.bin` to the root directory of the SD card
+3. Insert the SD card into the motherboard's MCU-Card slot, not the SOC-Card slot
 4. Power on the mainboard

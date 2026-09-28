@@ -300,6 +300,86 @@ translate = '''
 '''
 
 [[block]]
+key = "843b31d6625103f4"
+origin = '''
+### SD 卡接口
+'''
+translate = '''
+### SD Card Slots
+'''
+
+[[block]]
+key = "808c5dc0f90c49e5"
+origin = '''
+M5P 主板设有两个用途不同的 SD 卡槽：SOC-Card 位于正面，MCU-Card 位于背面。下方分别使用 M5P V1.0 的正面和背面正视商品图标注卡槽位置。
+'''
+translate = '''
+The M5P motherboard has two SD card slots with different purposes: SOC-Card is on the front, and MCU-Card is on the back. The straight-on product photos below show the slot locations on the front and back of the M5P V1.0.
+'''
+
+[[block]]
+key = "9d94f3c966fbca53"
+origin = '''
+<ImageView
+    src={require('./img/manta-m5p-soc-card.webp').default}
+    width="100%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/manta-series/manta-m5p/img/manta-m5p-soc-card.webp').default}
+    width="100%"
+/>
+'''
+
+[[block]]
+key = "6d2dc7ce5eedb32c"
+origin = '''
+<ImageView
+    src={require('./img/manta-m5p-mcu-card.webp').default}
+    width="100%"
+/>
+'''
+translate = '''
+<ImageView
+    src={require('@site/docs/board-docs/manta-series/manta-m5p/img/manta-m5p-mcu-card.webp').default}
+    width="100%"
+/>
+'''
+
+[[block]]
+key = "aecc69e4d412c78f"
+origin = '''
+| 卡槽 | 用途 |
+| --- | --- |
+| SOC-Card | 供使用 microSD 卡的核心板存放系统镜像，不用于更新主板 MCU 固件。 |
+| MCU-Card | 用于更新主板 MCU 固件，不是核心板的系统卡槽。 |
+'''
+translate = '''
+| Slot | Purpose |
+| --- | --- |
+| SOC-Card | Stores the system image for compute modules that use a microSD card. It is not used to update the motherboard MCU firmware. |
+| MCU-Card | Updates the motherboard MCU firmware. It is not the compute module's system card slot. |
+'''
+
+[[block]]
+key = "3e8e61d102c70216"
+origin = '''
+:::warning[MCU-Card 使用条件]
+
+通过 MCU-Card 更新固件，要求主板保留出厂自带的 Bootloader。若 Bootloader 被擦除或覆盖，该卡槽便无法执行固件更新；须先通过其他烧录方式恢复适用于此型号及硬件版本的出厂 Bootloader。
+
+:::
+'''
+translate = '''
+:::warning[MCU-Card Requirements]
+
+Updating firmware through the MCU-Card requires the factory-installed bootloader to remain on the motherboard. If the bootloader is erased or overwritten, this slot cannot perform firmware updates. First restore the factory bootloader for this board model and hardware revision by another flashing method.
+
+:::
+'''
+
+[[block]]
 key = "c7d9300721ad6579"
 origin = '''
 ### USB 供电

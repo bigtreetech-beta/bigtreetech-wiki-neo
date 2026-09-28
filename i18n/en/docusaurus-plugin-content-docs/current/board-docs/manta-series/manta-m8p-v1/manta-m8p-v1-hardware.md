@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Manta M8P v1 硬件功能
+# Manta M8P v1 Hardware
 
 {/* import lib start */}
 
@@ -11,32 +11,32 @@ import TabItem from '@theme/TabItem';
 
 {/* import lib end */}
 
-## 外观尺寸
+## Hardware Dimensions
 
-:::info[STEP 模型]
+:::info[STEP Models]
 
-Manta M8P v1.0 模型 [BIGTREETECH MANTA M8P V1.0.step](https://github.com/bigtreetech/Manta-M8P/blob/master/V1.0_V1.1/3D/BIGTREETECH%20MANTA%20M8P%20V1.0.step)
+Manta M8P v1.0 Model [BIGTREETECH MANTA M8P V1.0.step](https://github.com/bigtreetech/Manta-M8P/blob/master/V1.0_V1.1/3D/BIGTREETECH%20MANTA%20M8P%20V1.0.step)
 
-Manta M8P v1.1 模型 [BIGTREETECH MANTA M8P V1.1.step.zip](https://github.com/bigtreetech/Manta-M8P/blob/master/V1.0_V1.1/3D/BIGTREETECH%20MANTA%20M8P%20V1.1.step.zip)
+Manta M8P v1.1 Model [BIGTREETECH MANTA M8P V1.1.step.zip](https://github.com/bigtreetech/Manta-M8P/blob/master/V1.0_V1.1/3D/BIGTREETECH%20MANTA%20M8P%20V1.1.step.zip)
 
 :::
 
 <Tabs groupId="m8p-dim">
-    <TabItem value="m8p-dim-1" label="正面尺寸" default>
+    <TabItem value="m8p-dim-1" label="Front Dimensions" default>
         <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_dimensions_1.png').default} width="100%"/>
     </TabItem>
-    <TabItem value="m8p-dim-2" label="反面尺寸">
+    <TabItem value="m8p-dim-2" label="Rear Dimensions">
         <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_dimensions_2.png').default} width="100%"/>
     </TabItem>
 </Tabs>
 
 ## Pinout
 
-:::info[原理图 / Schematic]
+:::info[Schematic]
 
-Manta M8P v1.0 原理图 [BIGTREETECH MANTA M8P V1.0-SCH.pdf](https://github.com/bigtreetech/Manta-M8P/blob/master/V1.0_V1.1/Hardware/BIGTREETECH%20MANTA%20M8P%20V1.0-SCH.pdf)
+Manta M8P v1.0 Schematic [BIGTREETECH MANTA M8P V1.0-SCH.pdf](https://github.com/bigtreetech/Manta-M8P/blob/master/V1.0_V1.1/Hardware/BIGTREETECH%20MANTA%20M8P%20V1.0-SCH.pdf)
 
-Manta M8P v1.1 原理图 [BIGTREETECH MANTA M8P V1.1-SCH.pdf](https://github.com/bigtreetech/Manta-M8P/blob/master/V1.0_V1.1/Hardware/BIGTREETECH%20MANTA%20M8P%20V1.1-SCH.pdf)
+Manta M8P v1.1 Schematic [BIGTREETECH MANTA M8P V1.1-SCH.pdf](https://github.com/bigtreetech/Manta-M8P/blob/master/V1.0_V1.1/Hardware/BIGTREETECH%20MANTA%20M8P%20V1.1-SCH.pdf)
 
 :::
 
@@ -49,35 +49,35 @@ Manta M8P v1.1 原理图 [BIGTREETECH MANTA M8P V1.1-SCH.pdf](https://github.com
     </TabItem>
 </Tabs>
 
-:::info[Manta M8P V1.1 增加了功能]
+:::info[Features Added in Manta M8P V1.1]
 
-CAN接口（2引脚*2 XH2.54）
+CAN interface (two 2-pin XH2.54 connectors)
 
-USB端口功能选择（UART到USB，USB OTG）
+USB port function selection (UART-to-USB or USB OTG)
 
-Pi FAN（由GPIO26控制）
+Pi FAN (controlled by GPIO26)
 
-FAN4成为2线CNC风扇。
+FAN4 is changed to a two-wire controllable fan.
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_Add_Func1.png').default} width="80%"/>
 
 :::
 
-## 硬件功能配置
+## Hardware Configuration
 
-### USB 供电
+### USB Power
 
-M8P主板通电后，MCU左侧的D32红灯亮起，表示电源正常。电路板中间的VUSB是电源选择端子。只有在使用USB向主板供电或需要通过USB供电时，才需要使用跳线将其短路。
+After powering on the M8P motherboard, the red D32 LED to the left of the MCU lights up to indicate normal power. VUSB, located in the middle of the board, is the power selection header. Short it with a jumper only when USB is used to power the motherboard or to supply power through USB.
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_USB_PS.png').default} width="80%"/>
 
-### 步进电机驱动
+### Stepper Motor Drivers
 
-#### TMC 2208 / TMC 2209 UART 模式
+#### TMC 2208 / TMC 2209 UART Mode
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_uart.png').default} width="80%"/>
 
-#### TMC 2130 / TMC 5160 SPI 模式
+#### TMC 2130 / TMC 5160 SPI Mode
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_spi.png').default} width="80%"/>
 
@@ -85,63 +85,83 @@ M8P主板通电后，MCU左侧的D32红灯亮起，表示电源正常。电路�
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_Dri_sensorless.png').default} width="80%"/>
 
-#### 仅使用 STEP/DIR 驱动
+#### STEP/DIR-Only Drivers
 
-A4988 / DRV8825 使用跳线帽短接 MS0-MS2 以调整细分
+For A4988 / DRV8825 drivers, use jumper caps to short MS0-MS2 as needed to set the microstepping mode.
 
-:::info[已知问题]
-如果使用 `A4988` 或 `DRV8825` 需要短接 `RST` 和 `SLP` 才能正常工作
+:::info[Known Issues]
+When using `A4988` or `DRV8825`, short `RST` and `SLP` for the driver to work properly.
 :::
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_Dri_Step.png').default} width="80%"/>
 
-### 驱动电压选择
+### Driver Voltage Selection
 
 <Tabs groupId="m8p-driver-power">
-    <TabItem value="m8p-power-24" label="使用 24V 电源" default>
+    <TabItem value="m8p-power-24" label="Using a 24V Power Supply" default>
         <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_driver_24.png').default} width="80%"/>
     </TabItem>
-    <TabItem value="m8p-power-48" label="使用 48V 电源">
+    <TabItem value="m8p-power-48" label="Using a 48V Power Supply">
         <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_driver_48.png').default} width="80%"/>
     </TabItem>
 </Tabs>
 
-### 核心板安装
+### Compute Module Installation
 
 <Tabs groupId="m8p-cm">
-    <TabItem value="m8p-cm-rpi" label="使用树莓派 CM4/CM5" default>
+    <TabItem value="m8p-cm-rpi" label="Using Raspberry Pi CM4/CM5" default>
         <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_cm_rpi.png').default} width="80%"/>
     </TabItem>
-    <TabItem value="m8p-cm-cb" label="使用 CB1/CB2">
+    <TabItem value="m8p-cm-cb" label="Using CB1/CB2">
         <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_cm_cb.png').default} width="80%"/>
     </TabItem>
 </Tabs>
 
-### 风扇电压选择
+### SD Card Slots
 
-使用跳线帽配置输出电压
+Both the M8P V1.0 and V1.1 have two microSD card slots with different purposes, in the same locations. The image below shows the back of the V1.1; the slot locations also apply to V1.0. Do not mix up the system card and the MCU firmware card.
+
+<ImageView
+    src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/manta-m8p-v1-sd-cards.webp').default}
+    width="100%"
+/>
+
+| Slot | Purpose |
+| --- | --- |
+| SOC-Card | Stores the system image for compute modules that use a microSD card. It is not used to update the motherboard MCU firmware. |
+| MCU-Card | Updates the motherboard MCU firmware. It is not the compute module's system card slot. |
+
+:::warning[MCU-Card Requirements]
+
+Updating firmware through the MCU-Card requires the factory-installed bootloader to remain on the motherboard. If the bootloader is erased or overwritten, this slot cannot perform firmware updates. First restore the factory bootloader for this board model and hardware revision by another flashing method.
+
+:::
+
+### Fan Voltage Selection
+
+Use jumper caps to configure the output voltage.
 
 :::warning
 
-在选择电压之前，请确认风扇的工作电压
+Check the fan's operating voltage before selecting the supply voltage.
 
 :::
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_fan.png').default} width="60%"/>
 
-### 4Pin PWM 风扇接线
+### 4-Pin PWM Fan Wiring
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_4_pin_pwm.png').default} width="60%"/>
 
-### 100K NTC 或 PT1000 设置
+### 100K NTC or PT1000 Settings
 
-当使用100K NTC热敏电阻时，无需插入跳线帽 `TH0` `TH1` `TH2` `TH3` 的上拉电阻为 4.7K 0.1%。
+When using a 100K NTC thermistor, no jumper cap is required. The pull-up resistors for `TH0`, `TH1`, `TH2`, and `TH3` are 4.7 kΩ with a tolerance of 0.1%.
 
 :::info
 
-使用PT1000时，需要插入 PT 的跳线帽。此时 `TH0` `TH1` `TH2` `TH3` 的上拉电阻为2.2K。
+When using a PT1000, install the PT jumper cap. The pull-up resistance for `TH0`, `TH1`, `TH2`, and `TH3` is then 2.2 kΩ.
 
-这样读取的温度精度将远不如MAX31865读取的精度
+Temperature readings obtained this way are significantly less accurate than those obtained with a MAX31865.
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_pt1000.png').default} width="30%"/>
 
@@ -151,34 +171,34 @@ A4988 / DRV8825 使用跳线帽短接 MS0-MS2 以调整细分
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_BLTouch.png').default} width="80%"/>
 
-### 接近开关接线
+### Proximity Switch Wiring
 
 <Tabs groupId="m8p-proximity">
-    <TabItem value="m8p-proximity-npn" label="NPN 接近开关" default>
+    <TabItem value="m8p-proximity-npn" label="NPN Proximity Switch" default>
         <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_Proximity_npn.png').default} width="80%"/>
     </TabItem>
-    <TabItem value="m8p-proximity-pnp" label="PNP 接近开关">
+    <TabItem value="m8p-proximity-pnp" label="PNP Proximity Switch">
         <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_Proximity_pnp.png').default} width="80%"/>
     </TabItem>
 </Tabs>
 
-### ADXL345 加速计
+### ADXL345 Accelerometer
 
 :::info
 
-使用加速度计参考 Klipper [Measuring_Resonances](https://www.klipper3d.org/Measuring_Resonances.html)
+For accelerometer usage, refer to Klipper's [Measuring_Resonances](https://www.klipper3d.org/Measuring_Resonances.html)
 
-Manta M8P ADXL 345 配置文件参考 [Manta M8P ADXL 配置文件](./manta-m8p-v1-firmware.md)
+For the Manta M8P ADXL345 configuration, refer to [Manta M8P ADXL Configuration](./manta-m8p-v1-firmware.md)
 
 :::
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_ADXL345.png').default} width="80%"/>
 
-### Neopixel 
+### Neopixel
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_RGB.png').default} width="80%"/>
 
-### 断料检测
+### Filament Runout Detection
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_Filament.png').default} width="80%"/>
 
@@ -186,11 +206,11 @@ Manta M8P ADXL 345 配置文件参考 [Manta M8P ADXL 配置文件](./manta-m8p-
 
 <ImageView src={require('@site/docs/board-docs/manta-series/manta-m8p-v1/img/M8P_40_Pin.png').default} width="60%"/>
 
-### DSI/CSI 接线
+### DSI/CSI Wiring
 
 :::info
 
-DSI/CSI 需要核心板硬件支持
+DSI/CSI requires hardware support from the compute module.
 
 :::
 

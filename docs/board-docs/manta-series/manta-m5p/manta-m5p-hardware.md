@@ -95,6 +95,31 @@ Manta M5P 原理图 [BIGTREETECH MANTA M5P V1.0-SCH.pdf](https://github.com/bigt
     </TabItem>
 </Tabs>
 
+### SD 卡接口
+
+M5P 主板设有两个用途不同的 SD 卡槽：SOC-Card 位于正面，MCU-Card 位于背面。下方分别使用 M5P V1.0 的正面和背面正视商品图标注卡槽位置。
+
+<ImageView
+    src={require('./img/manta-m5p-soc-card.webp').default}
+    width="100%"
+/>
+
+<ImageView
+    src={require('./img/manta-m5p-mcu-card.webp').default}
+    width="100%"
+/>
+
+| 卡槽 | 用途 |
+| --- | --- |
+| SOC-Card | 供使用 microSD 卡的核心板存放系统镜像，不用于更新主板 MCU 固件。 |
+| MCU-Card | 用于更新主板 MCU 固件，不是核心板的系统卡槽。 |
+
+:::warning[MCU-Card 使用条件]
+
+通过 MCU-Card 更新固件，要求主板保留出厂自带的 Bootloader。若 Bootloader 被擦除或覆盖，该卡槽便无法执行固件更新；须先通过其他烧录方式恢复适用于此型号及硬件版本的出厂 Bootloader。
+
+:::
+
 ### USB 供电
 
 MANTA M5P通电后，MCU左侧的红灯D22将亮起，表示已通电。当仅使用USB为板供电或通过USB供电时，请将跳线帽插入VUSB。

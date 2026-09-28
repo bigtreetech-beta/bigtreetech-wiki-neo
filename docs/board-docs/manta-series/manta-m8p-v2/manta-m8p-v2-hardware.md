@@ -89,6 +89,26 @@ Manta M8P v2 原理图 [BIGTREETECH MANTA M8P V2.0-SCH.pdf](https://github.com/b
     </TabItem>
 </Tabs>
 
+### SD 卡接口
+
+M8P V2.0 主板设有两个用途不同的 microSD 卡槽。下图使用 V2.0 的商品背面图标注 SOC-Card 与 MCU-Card 的位置；勿将系统卡与 MCU 固件卡混用。
+
+<ImageView
+    src={require('./img/manta-m8p-v2-sd-cards.webp').default}
+    width="100%"
+/>
+
+| 卡槽 | 用途 |
+| --- | --- |
+| SOC-Card | 供使用 microSD 卡的核心板存放系统镜像，不用于更新主板 MCU 固件。 |
+| MCU-Card | 用于更新主板 MCU 固件，不是核心板的系统卡槽。 |
+
+:::warning[MCU-Card 使用条件]
+
+通过 MCU-Card 更新固件，要求主板保留出厂自带的 Bootloader。若 Bootloader 被擦除或覆盖，该卡槽便无法执行固件更新；须先通过其他烧录方式恢复适用于此型号及硬件版本的出厂 Bootloader。
+
+:::
+
 ### USB 供电
 
 M8P主板上电之后，板子左下角的灯会亮起，表示供电正常。板子中部的VUSB是电源选择端，仅当使用USB给主板供电或需通过USB向外供电时，才需要使用跳帽将它短接。
@@ -160,11 +180,10 @@ DSI / CSI 需要核心板硬件支持
 
 ## 其他硬件
 
-### Neopixel 
+### Neopixel
 
 <ImageView src={require('./img/m8p_v2_0_rgb.png').default} width="80%"/>
 
 ### 舵机接线
 
 <ImageView src={require('./img/m8p_v2_0_servo.png').default} width="80%"/>
-

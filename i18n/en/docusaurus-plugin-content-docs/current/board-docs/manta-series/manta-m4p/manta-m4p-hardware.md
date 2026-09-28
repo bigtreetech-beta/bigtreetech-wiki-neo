@@ -85,6 +85,26 @@ Manta M4P v2 Schematic [bigtreetech_manta_m4p_v2.1_220608_SCH.pdf](https://githu
     </TabItem>
 </Tabs>
 
+### SD Card Slots
+
+The M4P motherboard has two SD card slots with different purposes. The image below marks the slots on the back of the board, where SOC-Card and MCU-Card are next to each other. Refer to the silkscreen on your board for different hardware revisions.
+
+<ImageView
+    src={require('@site/docs/board-docs/manta-series/manta-m4p/img/manta-m4p-sd-cards.webp').default}
+    width="100%"
+/>
+
+| Slot | Purpose |
+| --- | --- |
+| SOC-Card | Stores the system image for compute modules that use a microSD card. It is not used to update the motherboard MCU firmware. |
+| MCU-Card | Updates the motherboard MCU firmware. It is not the compute module's system card slot. |
+
+:::warning[MCU-Card Requirements]
+
+Updating firmware through the MCU-Card requires the factory-installed bootloader to remain on the motherboard. If the bootloader is erased or overwritten, this slot cannot perform firmware updates. First restore the factory bootloader for this board model and hardware revision by another flashing method.
+
+:::
+
 ### USB Power
 
 After powering on the M4P, the red LED1 in the lower-right corner of the motherboard will light up, indicating that the power supply is functioning normally. J8, located in the center of the board, is the power selection terminal; it needs to be shorted only when the Type-C USB port is used to power the motherboard or when an external power supply is used. The Type-C signal connects to the SoC and is used only when writing the operating system image to the CM4 eMMC.

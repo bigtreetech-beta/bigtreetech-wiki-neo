@@ -117,6 +117,26 @@ A4988 / DRV8825 使用跳线帽短接 MS0-MS2 以调整细分
     </TabItem>
 </Tabs>
 
+### SD 卡接口
+
+M8P V1.0 与 V1.1 均设有两个用途不同的 microSD 卡槽，且卡槽位置相同。下图使用 V1.1 的商品背面图，卡槽位置说明同样适用于 V1.0；勿将系统卡与 MCU 固件卡混用。
+
+<ImageView
+    src={require('./img/manta-m8p-v1-sd-cards.webp').default}
+    width="100%"
+/>
+
+| 卡槽 | 用途 |
+| --- | --- |
+| SOC-Card | 供使用 microSD 卡的核心板存放系统镜像，不用于更新主板 MCU 固件。 |
+| MCU-Card | 用于更新主板 MCU 固件，不是核心板的系统卡槽。 |
+
+:::warning[MCU-Card 使用条件]
+
+通过 MCU-Card 更新固件，要求主板保留出厂自带的 Bootloader。若 Bootloader 被擦除或覆盖，该卡槽便无法执行固件更新；须先通过其他烧录方式恢复适用于此型号及硬件版本的出厂 Bootloader。
+
+:::
+
 ### 风扇电压选择
 
 使用跳线帽配置输出电压
@@ -174,7 +194,7 @@ Manta M8P ADXL 345 配置文件参考 [Manta M8P ADXL 配置文件](./manta-m8p-
 
 <ImageView src={require('./img/M8P_ADXL345.png').default} width="80%"/>
 
-### Neopixel 
+### Neopixel
 
 <ImageView src={require('./img/M8P_RGB.png').default} width="80%"/>
 
