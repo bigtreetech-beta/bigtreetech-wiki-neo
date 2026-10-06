@@ -80,22 +80,22 @@ translate = '''
 '''
 
 [[block]]
-key = "d6178f3eb6bf294a"
+key = "5c048ffa16cbee94"
 origin = '''
 - **AMS 内嵌式升级**：控制模块与输出模块安装在 AMS 内部，尽可能保持原有设备外观与使用方式。
 - **无损安装**：无需对 AMS 外壳进行不可恢复的打孔或切割改造。
 - **边烘边打**：BQDry Mini 采用独立电源，可在 AMS 正常供料和打印过程中持续烘干耗材。
-- **35–60°C 温度控制**：支持 35°C～60°C 加热温度设置。
+- **35–60$^{\circ}\mathrm{C}$ 温度控制**：支持 35$^{\circ}\mathrm{C}$～60$^{\circ}\mathrm{C}$ 加热温度设置。
 - **快捷实体控制**：支持一键启动 / 暂停 / 恢复 / 停止，并提供 4H / 8H / 12H / 24H / 不限时五档快捷时间选择。
 - **Web UI 控制**：可通过浏览器完成网络配置/烘干参数设置/设备状态查看和打印机绑定。
 - **可调排湿**：通过 AMS 替换把手形成可调排湿通道，帮助烘干过程中释放湿气并降低凝露风险。
-- **打印任务联动**：绑定兼容打印机后，可开启“打印时启动”，在打印任务开始时自动烘干，并在打印结束后停止加热。
+- **打印任务联动**：绑定兼容打印机后，可开启"打印时启动"，在打印任务开始时自动烘干，并在打印结束后停止加热。
 '''
 translate = '''
 - **AMS-Embedded Upgrade**: The control module and output modules are installed inside the AMS to maintain the original device appearance and usage as much as possible.
 - **Non-Destructive Installation**: No irreversible drilling, cutting, or modifications to the AMS shell are required.
 - **Dry While Printing**: Powered by an independent power supply, BQDry Mini can dry filaments continuously during normal AMS feeding and printing processes.
-- **35–60°C Temperature Control**: Supports heating temperature settings from 35°C to 60°C.
+- **35–60$^{\circ}\mathrm{C}$ Temperature Control**: Supports heating temperature settings from 35$^{\circ}\mathrm{C}$ to 60$^{\circ}\mathrm{C}$.
 - **Quick Physical Control**: Supports one-button start/pause/resume/stop, and provides five quick-select timer options: 4H, 8H, 12H, 24H, or continuous.
 - **Web UI Control**: Allows users to configure network settings, adjust drying parameters, view device status, and bind printers via a web browser.
 - **Adjustable Dehumidification**: Uses a replacement AMS handle to create an adjustable dehumidification channel, helping release moisture during the drying process and reducing condensation risks.
@@ -112,7 +112,7 @@ translate = '''
 '''
 
 [[block]]
-key = "696a6acddb597939"
+key = "c9fd8360b58f634b"
 origin = '''
 | 项目 | 参数 |
 | :--- | :--- |
@@ -120,9 +120,9 @@ origin = '''
 | 产品型号 | BQDry Mini |
 | 输入 | DC 24V ⎓ 5A |
 | 额定功率 | 116W |
-| 工作环境 | 环境温度 10～35°C；相对湿度 ＜95% |
-| 温度设置范围 | 35°C～60°C |
-| 加热能力说明 | 35°C～60°C（26°C 标准室温环境） |
+| 工作环境 | 环境温度 10～35$^{\circ}\mathrm{C}$；相对湿度 ＜95% |
+| 温度设置范围 | 35$^{\circ}\mathrm{C}$～60$^{\circ}\mathrm{C}$ |
+| 加热能力说明 | 35$^{\circ}\mathrm{C}$～60$^{\circ}\mathrm{C}$（26$^{\circ}\mathrm{C}$ 标准室温环境） |
 | Web UI 时间控制 | 1～99H，另有不限时档位 |
 | 实体快捷时间 | 4H / 8H / 12H / 24H / 不限时 |
 | 控制方式 | 实体按键 + Web UI |
@@ -135,9 +135,9 @@ translate = '''
 | Product Model | BQDry Mini |
 | Input | DC 24V ⎓ 5A |
 | Rated Power | 116W |
-| Operating Environment | Ambient Temperature: 10–35°C; Relative Humidity: < 95% |
-| Temperature Setting Range | 35°C～60°C |
-| Heating Capability Note | 35°C～60°C (Tested in a 26°C standard room temperature environment) |
+| Operating Environment | Ambient Temperature: 10–35$^{\circ}\mathrm{C}$; Relative Humidity: < 95% |
+| Temperature Setting Range | 35$^{\circ}\mathrm{C}$～60$^{\circ}\mathrm{C}$ |
+| Heating Capability Note | 35$^{\circ}\mathrm{C}$～60$^{\circ}\mathrm{C}$ (Tested in a 26$^{\circ}\mathrm{C}$ standard room temperature environment) |
 | Web UI Time Control | 1–99 Hours, plus a continuous (unlimited) mode |
 | Physical Quick Timers | 4H / 8H / 12H / 24H / Continuous |
 | Control Methods | Physical Buttons + Web UI |
@@ -219,12 +219,12 @@ translate = '''
 '''
 
 [[block]]
-key = "8646f39134a285df"
+key = "ada34b22ecc8b1b0"
 origin = '''
-### 1. 拆除 AMS 主框架
+### 拆除 AMS 主框架
 '''
 translate = '''
-### 1. Removing the AMS Main Frame
+### Removing the AMS Main Frame
 '''
 
 [[block]]
@@ -318,12 +318,12 @@ translate = '''
 '''
 
 [[block]]
-key = "468acae1c4590f78"
+key = "5355fa7407691a6c"
 origin = '''
-### 2. 安装 AMS 替换主板
+### 安装 AMS 替换主板
 '''
 translate = '''
-### 2. Installing the Replacement AMS Motherboard
+### Installing the Replacement AMS Motherboard
 '''
 
 [[block]]
@@ -363,12 +363,12 @@ Place the stock motherboard back into the anti-static bag for safe keeping.
 '''
 
 [[block]]
-key = "1cf10c66db1b9a76"
+key = "a796a65efb78067b"
 origin = '''
-### 3. 布置控制模块供电线
+### 布置控制模块供电线
 '''
 translate = '''
-### 3. Routing the Control Module Power Cable
+### Routing the Control Module Power Cable
 '''
 
 [[block]]
@@ -461,12 +461,12 @@ Cable Routing Clearance: Wires must not enter the area of the AMS gear sets or a
 '''
 
 [[block]]
-key = "7181ab4c0b003fd0"
+key = "2ea6c86c505e4204"
 origin = '''
-### 4. 安装控制模块与输出模块
+### 安装控制模块与输出模块
 '''
 translate = '''
-### 4. Installing the Control and Output Modules
+### Installing the Control and Output Modules
 '''
 
 [[block]]
@@ -541,12 +541,12 @@ translate = '''
 '''
 
 [[block]]
-key = "f21d3914a1baab28"
+key = "16f8742dcfb98429"
 origin = '''
-### 5. 复原 AMS
+### 复原 AMS
 '''
 translate = '''
-### 5. Reassembling the AMS
+### Reassembling the AMS
 '''
 
 [[block]]
@@ -622,12 +622,12 @@ translate = '''
 '''
 
 [[block]]
-key = "cdb42e85e7d30ac1"
+key = "3eeb645bd7d66c4a"
 origin = '''
-### 6. 连接外部供电
+### 连接外部供电
 '''
 translate = '''
-### 6. Connecting the External Power Supply
+### Connecting the External Power Supply
 '''
 
 [[block]]
@@ -677,12 +677,12 @@ The heating power supply of the BQDry Mini operates independently from the origi
 '''
 
 [[block]]
-key = "e8c7d74d8ca624c0"
+key = "621d84ccff7ef077"
 origin = '''
-### 7. 安装可调排湿把手
+### 安装可调排湿把手
 '''
 translate = '''
-### 7. Installing the Adjustable Dehumidification Handle
+### Installing the Adjustable Dehumidification Handle
 '''
 
 [[block]]
@@ -972,12 +972,12 @@ translate = '''
 '''
 
 [[block]]
-key = "97b5af9d12d93443"
+key = "f4778f8d0646918a"
 origin = '''
-### 1. 连接设备 AP 热点
+### 连接设备 AP 热点
 '''
 translate = '''
-### 1. Connect to the Device AP Hotspot
+### Connect to the Device AP Hotspot
 '''
 
 [[block]]
@@ -1001,12 +1001,12 @@ translate = '''
 '''
 
 [[block]]
-key = "d9b525b7ab38a019"
+key = "4d53cb6cb4050af0"
 origin = '''
-### 2. 访问 Web UI
+### 访问 Web UI
 '''
 translate = '''
-### 2. Access the Web UI
+### Access the Web UI
 '''
 
 [[block]]
@@ -1047,12 +1047,12 @@ Default Hotspot IP: 192.168.254.1, if your home router also uses the IP range 19
 '''
 
 [[block]]
-key = "37ce5e8f4bd6c8ce"
+key = "3ebb0631eb9d7c8b"
 origin = '''
-### 3. 配置 Wi-Fi
+### 配置 Wi-Fi
 '''
 translate = '''
-### 3. Wi-Fi Configuration
+### Wi-Fi Configuration
 '''
 
 [[block]]
@@ -1444,9 +1444,9 @@ translate = '''
 '''
 
 [[block]]
-key = "f7093f8c50cb8606"
+key = "a8a3d88f2b01eb1e"
 origin = '''
-当选择“不限时”档位时，产品仍会执行内部温控保护逻辑，但为确保安全，建议设备仅在 **可观察/可监控的环境** 中运行，避免长时间无人看管。
+当选择"不限时"档位时，产品仍会执行内部温控保护逻辑，但为确保安全，建议设备仅在 **可观察/可监控的环境** 中运行，避免长时间无人看管。
 '''
 translate = '''
 When the Continuous (Unlimited) stage is selected, the device will still execute its internal thermal protection logic. However, for maximum safety, it is highly recommended to operate the equipment only in an observable and monitored environment. Avoid leaving the device running unattended for extended periods.
@@ -1541,7 +1541,7 @@ origin = '''
 **警告：** 未经合规责任方明确批准而对本设备进行更改或改装，可能导致用户失去操作本设备的授权。
 '''
 translate = '''
-**Warning:** Changes or modifications to this unit not expressly approved by the party responsible for compliance could void the user’s authority to operate the equipment.
+**Warning:** Changes or modifications to this unit not expressly approved by the party responsible for compliance could void the user's authority to operate the equipment.
 '''
 
 [[block]]
