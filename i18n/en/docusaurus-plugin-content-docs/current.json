@@ -267,6 +267,10 @@
     "message": "Panda Status P2",
     "description": "The label for category 'Panda Status P2' in sidebar 'pandaSidebar'"
   },
+  "sidebar.moreSidebar.category.BQDry-Module": {
+    "message": "BQDry-Module",
+    "description": "The label for category 'BQDry-Module' in sidebar 'moreSidebar'"
+  },
   "sidebar.pandaSidebar.category.Panda Vent": {
     "message": "Panda Vent",
     "description": "The label for category 'Panda Vent' in sidebar 'pandaSidebar'"

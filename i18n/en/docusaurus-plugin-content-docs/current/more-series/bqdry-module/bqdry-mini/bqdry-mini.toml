@@ -1,0 +1,1571 @@
+[metadata]
+
+[[block]]
+key = "a3fce07b3516013c"
+origin = '''
+---
+sidebar_position: 1
+description: BIQU BQDry Mini
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: BIQU BQDry Mini
+---
+'''
+
+[[block]]
+key = "0d0ab2d4bc4a2061"
+origin = '''
+# BQDry Mini
+'''
+translate = '''
+# BQDry Mini
+'''
+
+[[block]]
+key = "a9ce3fb1797135b1"
+origin = '''
+<div class="div-table">
+
+<ImageView src={require('./img/bqdry-mini-title.webp').default}  width="45%" class="right-image"/>
+
+## 产品简介
+
+BQDry Mini 是一款面向 3D 打印耗材管理场景的模块化加热与烘干系统，当前以 **Bambu Lab AMS（第一代）** 为主要官方适配对象。产品由控制模块与两个加热输出模块组成，可安装在 AMS 内部，为原本没有主动加热能力的 AMS 增加主动烘干功能。
+
+BQDry Mini 采用独立 24V 供电，在 AMS 正常供料和打印过程中也可持续工作；同时支持实体按键和 Web UI 控制，可设置烘干温度/时间，并支持与打印任务联动，实现打印开始时自动启动烘干/打印结束时自动停止。
+
+</div>
+'''
+translate = '''
+<div class="div-table">
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/bqdry-mini-title.webp').default}  width="45%" class="right-image"/>
+
+## Product Overview
+
+BQDry Mini is a modular heating and drying system designed specifically for 3D printing filament management, with the first-generation Bambu Lab AMS as its primary officially supported platform. The system consists of a control module and two heating output modules. It can be installed directly inside the AMS to add active drying capabilities to a system that originally lacked active heating.
+
+Powered by an independent 24V power supply, the BQDry Mini can operate continuously during normal AMS feeding and printing processes. It supports both physical buttons and a Web UI for control, allowing users to configure drying temperatures and duration. Additionally, it features print job linkage, which automatically starts drying when a print begins and stops it when the print finishes.
+
+</div>
+'''
+
+[[block]]
+key = "c1b670e675831ab7"
+origin = '''
+:::warning
+
+BQDry Mini 当前官方安装方案适用于 **Bambu Lab AMS（第一代）**，不适用于 AMS 2 Pro。其他封闭加热场景需要根据实际空间/布线/供电与热安全条件单独评估，本 Wiki 不提供通用安装保证。
+
+:::
+'''
+translate = '''
+:::warning
+
+The official installation guide for BQDry Mini currently applies only to the first-generation Bambu Lab AMS and is not compatible with the AMS 2 Pro. For any other enclosed heating applications, a separate evaluation regarding physical space, wiring, power supply, and thermal safety requirements is necessary. This Wiki does not provide a universal installation guarantee for other setups.
+
+:::
+'''
+
+[[block]]
+key = "c63454864ae0c430"
+origin = '''
+## 产品特点
+'''
+translate = '''
+## Key Features
+'''
+
+[[block]]
+key = "5c048ffa16cbee94"
+origin = '''
+- **AMS 内嵌式升级**：控制模块与输出模块安装在 AMS 内部，尽可能保持原有设备外观与使用方式。
+- **无损安装**：无需对 AMS 外壳进行不可恢复的打孔或切割改造。
+- **边烘边打**：BQDry Mini 采用独立电源，可在 AMS 正常供料和打印过程中持续烘干耗材。
+- **35–60$^{\circ}\mathrm{C}$ 温度控制**：支持 35$^{\circ}\mathrm{C}$～60$^{\circ}\mathrm{C}$ 加热温度设置。
+- **快捷实体控制**：支持一键启动 / 暂停 / 恢复 / 停止，并提供 4H / 8H / 12H / 24H / 不限时五档快捷时间选择。
+- **Web UI 控制**：可通过浏览器完成网络配置/烘干参数设置/设备状态查看和打印机绑定。
+- **可调排湿**：通过 AMS 替换把手形成可调排湿通道，帮助烘干过程中释放湿气并降低凝露风险。
+- **打印任务联动**：绑定兼容打印机后，可开启"打印时启动"，在打印任务开始时自动烘干，并在打印结束后停止加热。
+'''
+translate = '''
+- **AMS-Embedded Upgrade**: The control module and output modules are installed inside the AMS to maintain the original device appearance and usage as much as possible.
+- **Non-Destructive Installation**: No irreversible drilling, cutting, or modifications to the AMS shell are required.
+- **Dry While Printing**: Powered by an independent power supply, BQDry Mini can dry filaments continuously during normal AMS feeding and printing processes.
+- **35–60$^{\circ}\mathrm{C}$ Temperature Control**: Supports heating temperature settings from 35$^{\circ}\mathrm{C}$ to 60$^{\circ}\mathrm{C}$.
+- **Quick Physical Control**: Supports one-button start/pause/resume/stop, and provides five quick-select timer options: 4H, 8H, 12H, 24H, or continuous.
+- **Web UI Control**: Allows users to configure network settings, adjust drying parameters, view device status, and bind printers via a web browser.
+- **Adjustable Dehumidification**: Uses a replacement AMS handle to create an adjustable dehumidification channel, helping release moisture during the drying process and reducing condensation risks.
+- **Print Job Linkage**: After binding with a compatible printer, the "Auto-Dry During Print" feature can be enabled to automatically start drying when a print job begins and stop heating when it ends.
+'''
+
+[[block]]
+key = "7554d0bfb86d8e33"
+origin = '''
+## 产品参数
+'''
+translate = '''
+## Product Specifications
+'''
+
+[[block]]
+key = "c9fd8360b58f634b"
+origin = '''
+| 项目 | 参数 |
+| :--- | :--- |
+| 产品名称 | 耗材烘干器 |
+| 产品型号 | BQDry Mini |
+| 输入 | DC 24V ⎓ 5A |
+| 额定功率 | 116W |
+| 工作环境 | 环境温度 10～35$^{\circ}\mathrm{C}$；相对湿度 ＜95% |
+| 温度设置范围 | 35$^{\circ}\mathrm{C}$～60$^{\circ}\mathrm{C}$ |
+| 加热能力说明 | 35$^{\circ}\mathrm{C}$～60$^{\circ}\mathrm{C}$（26$^{\circ}\mathrm{C}$ 标准室温环境） |
+| Web UI 时间控制 | 1～99H，另有不限时档位 |
+| 实体快捷时间 | 4H / 8H / 12H / 24H / 不限时 |
+| 控制方式 | 实体按键 + Web UI |
+| 主要适配 | Bambu Lab AMS（第一代） |
+'''
+translate = '''
+| Item | Specifications |
+| :--- | :--- |
+| Product Name | Filament Dryer |
+| Product Model | BQDry Mini |
+| Input | DC 24V ⎓ 5A |
+| Rated Power | 116W |
+| Operating Environment | Ambient Temperature: 10–35$^{\circ}\mathrm{C}$; Relative Humidity: < 95% |
+| Temperature Setting Range | 35$^{\circ}\mathrm{C}$～60$^{\circ}\mathrm{C}$ |
+| Heating Capability Note | 35$^{\circ}\mathrm{C}$～60$^{\circ}\mathrm{C}$ (Tested in a 26$^{\circ}\mathrm{C}$ standard room temperature environment) |
+| Web UI Time Control | 1–99 Hours, plus a continuous (unlimited) mode |
+| Physical Quick Timers | 4H / 8H / 12H / 24H / Continuous |
+| Control Methods | Physical Buttons + Web UI |
+| Primary Compatibility | Bambu Lab AMS (First Generation) |
+'''
+
+[[block]]
+key = "6f1f9a92e55df19e"
+origin = '''
+## 包装清单
+'''
+translate = '''
+## Package Contents
+'''
+
+[[block]]
+key = "560b6df55fc1e200"
+origin = '''
+| 名称 | 数量 |
+| :--- | :---: |
+| 控制模块 | 1 |
+| 输出模块 | 2 |
+| 24V / 5A DC 电源 | 1 |
+| DC 接口转接线 | 1 |
+| 控制模块供电线 | 1 |
+| AMS 替换主板 | 1 |
+| Y 形线 | 1 |
+| AMS 替换把手 | 1 |
+| 产品信息卡 | 1 |
+| 螺丝和胶布等安装工具 | / |
+'''
+translate = '''
+| Item | Quantity |
+| :--- | :---: |
+| Control Module | 1 |
+| Output Module | 2 |
+| 24V / 5A DC Power Adapter | 1 |
+| DC Interface Adapter Cable | 1 |
+| Control Module Power Cable | 1 |
+| Replacement AMS Motherboard | 1 |
+| Y-Splitter Cable | 1 |
+| Replacement AMS Handle | 1 |
+| Product Information Card | 1 |
+| Installation Tools (screws, tape, etc.) | / |
+'''
+
+[[block]]
+key = "8fc1d1b763531d42"
+origin = '''
+## AMS 安装指南
+'''
+translate = '''
+## AMS Installation Guide
+'''
+
+[[block]]
+key = "0b1febe8875b48e8"
+origin = '''
+:::warning
+
+1. 关闭打印机并断开 AMS 与打印机之间的连接线。
+2. 拔下 AMS 的 PTFE 管，并将 AMS 内耗材取出。
+3. 安装过程中请勿强拉 AMS 内部连接线。
+4. 所有供电线和连接线必须避开 AMS 齿轮组/滚轮和线轴活动区域。
+5. 建议保留拆下的 AMS 原装电源主板，以便后续恢复原始状态。
+
+:::
+'''
+translate = '''
+:::warning
+
+1. Power Off: Turn off the printer and disconnect the connecting cable between the AMS and the printer.
+2. Clear Filament & Tubes: Disconnect the AMS PTFE tube and remove all filaments from inside the AMS.
+3. Handle with Care: Do not pull or strain the internal wiring of the AMS during the installation process.
+4. Cable Clearance: All power cords and connecting wires must be kept clear of the AMS gears, rollers, and spool moving areas to avoid interference.
+5. Keep Original Parts: It is highly recommended to keep the original AMS power motherboard after removal, in case you need to restore the device to its original factory state in the future.
+
+:::
+'''
+
+[[block]]
+key = "ada34b22ecc8b1b0"
+origin = '''
+### 拆除 AMS 主框架
+'''
+translate = '''
+### Removing the AMS Main Frame
+'''
+
+[[block]]
+key = "88316f8999d3b37a"
+origin = '''
+打开 AMS 上盖，按住内部 PTFE 管释放装置，将 AMS 后方 PTFE 管拔出。
+'''
+translate = '''
+Open the AMS top cover, press and hold the internal PTFE tube release mechanism (coupler button), and pull out the PTFE tube from the rear of the AMS.
+'''
+
+[[block]]
+key = "ba7f36f8e8c3ebb9"
+origin = '''
+<ImageView src={require('./img/install01-ptfe-release.webp').default} width="35%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install01-ptfe-release.webp').default}  width="35%" />
+'''
+
+[[block]]
+key = "f9c7bebead829137"
+origin = '''
+<ImageView src={require('./img/install02-ptfe-out.webp').default}  width="30%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install02-ptfe-out.webp').default}  width="30%" />
+'''
+
+[[block]]
+key = "1ea02ad2315dd635"
+origin = '''
+拆下 AMS 主框架上的 2 颗固定螺丝。
+'''
+translate = '''
+Remove the 2 securing screws on the AMS main frame.
+'''
+
+[[block]]
+key = "1504f8181ee4d3b8"
+origin = '''
+<ImageView src={require('./img/install03-frame-screws.webp').default} width="45%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install03-frame-screws.webp').default}  width="45%" />
+'''
+
+[[block]]
+key = "04ba73e924a1347e"
+origin = '''
+按压五通组件上的释放按钮，将主框架后部缓慢抬起。注意内部仍有线缆连接，请勿用力拉扯。
+'''
+translate = '''
+Press the release button on the hub assembly (multi-way connector) and slowly lift the rear of the main frame. Note: Internal cables are still connected—do not pull with force.
+'''
+
+[[block]]
+key = "b1efeddb1b784437"
+origin = '''
+<ImageView src={require('./img/install04-release-button.webp').default} width="30%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install04-release-button.webp').default}  width="30%" />
+'''
+
+[[block]]
+key = "23031407594b4af2"
+origin = '''
+<ImageView src={require('./img/install05-lift-frame.webp').default}  width="30%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install05-lift-frame.webp').default}  width="30%" />
+'''
+
+[[block]]
+key = "6a242b3d0b712df8"
+origin = '''
+断开 485 连接线与电源连接线，随后取出 AMS 主框架组件。
+'''
+translate = '''
+Disconnect the RS485 cable and the power cable, then completely remove the AMS main frame assembly.
+'''
+
+[[block]]
+key = "d0ef5e753208927c"
+origin = '''
+<ImageView src={require('./img/install06-disconnect-cables.webp').default}  width="50%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install06-disconnect-cables.webp').default}  width="50%" />
+'''
+
+[[block]]
+key = "5355fa7407691a6c"
+origin = '''
+### 安装 AMS 替换主板
+'''
+translate = '''
+### Installing the Replacement AMS Motherboard
+'''
+
+[[block]]
+key = "bf5b9bdd8d6f46ea"
+origin = '''
+拆下原厂 AMS 电源主板，安装包装内的 **AMS 替换主板**。固定替换主板时，请在螺帽一侧加入尼龙垫片，避免过度拧紧导致主板损伤。
+'''
+translate = '''
+Remove the stock AMS power motherboard and install the Replacement AMS Motherboard included in the package. When securing the replacement motherboard, place a nylon washer on the nut/screw head side to prevent damage to the board caused by over tightening.
+'''
+
+[[block]]
+key = "816d116ed29df2f5"
+origin = '''
+<ImageView src={require('./img/install07-original-board.webp').default}  width="32%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install07-original-board.webp').default}  width="32%" />
+'''
+
+[[block]]
+key = "61bc5fea86b93943"
+origin = '''
+<ImageView src={require('./img/install08-replacement-board.webp').default}  width="32%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install08-replacement-board.webp').default}  width="32%" />
+'''
+
+[[block]]
+key = "a8799438fad5e5e8"
+origin = '''
+将原厂主板放回防静电袋妥善保管。
+'''
+translate = '''
+Place the stock motherboard back into the anti-static bag for safe keeping.
+'''
+
+[[block]]
+key = "a796a65efb78067b"
+origin = '''
+### 布置控制模块供电线
+'''
+translate = '''
+### Routing the Control Module Power Cable
+'''
+
+[[block]]
+key = "e10d9656559447fb"
+origin = '''
+将供电线插到控制模块上并压入背部的理线槽中，使用1片双面胶贴在模块的中下位置。
+'''
+translate = '''
+Plug the power cable into the control module and press it into the cable management slot on the back. Then, apply a piece of double-sided tape to the lower-middle section of the module.
+'''
+
+[[block]]
+key = "64c76f5a0dbd36a8"
+origin = '''
+<ImageView src={require('./img/install09.webp').default} width="50%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install09.webp').default}  width="50%" />
+'''
+
+[[block]]
+key = "000ef2b826c1d3a2"
+origin = '''
+撕下双面胶离型纸，将供电线从滚轴下方位置穿过，并将控制模块通过双面胶临时固定在 AMS 中间的凹槽中。
+'''
+translate = '''
+Peel off the protective backing of the double-sided tape, route the power cable underneath the roller position, and temporarily secure the control module into the middle recess of the AMS using the tape.
+'''
+
+[[block]]
+key = "d8c884d295c58f97"
+origin = '''
+<ImageView src={require('./img/install09-2.webp').default} width="50%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install09-2.webp').default}  width="50%" />
+'''
+
+[[block]]
+key = "796ae34357e930da"
+origin = '''
+将供电线从中间的孔中穿过 AMS，并使用醋酸布胶带将凸起的线路贴紧 AMS 壳体，以避免影响到滚轴的转动
+'''
+translate = '''
+Route the power cable through the center hole into the AMS. Use acetate cloth tape to flatten and secure any protruding wires tightly against the AMS shell, ensuring they do not interfere with the roller rotation.
+'''
+
+[[block]]
+key = "9577a3e11e2b765e"
+origin = '''
+<ImageView src={require('./img/install09-3.webp').default} width="50%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install09-3.webp').default}  width="50%" />
+'''
+
+[[block]]
+key = "8f6a99e621fc4157"
+origin = '''
+参考图示位置在壳体背面中下位置使用布线扣或者醋酸布固定供电线
+'''
+translate = '''
+Secure the power cable to the lower-middle section on the back of the shell using cable clips or acetate cloth tape, referring to the positions shown in the diagram.
+'''
+
+[[block]]
+key = "f4b4186fab61464a"
+origin = '''
+<ImageView src={require('./img/install09-4.webp').default} width="50%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install09-4.webp').default}  width="50%" />
+'''
+
+[[block]]
+key = "43d99cca18212a37"
+origin = '''
+:::warning
+
+走线不得侵入 AMS 齿轮组或其他运动部件区域，避免使用过程中发生夹线/磨线或拉扯。
+
+:::
+'''
+translate = '''
+:::warning
+
+Cable Routing Clearance: Wires must not enter the area of the AMS gear sets or any other moving parts to prevent them from being pinched, frayed, or strained during operation.
+
+:::
+'''
+
+[[block]]
+key = "2ea6c86c505e4204"
+origin = '''
+### 安装控制模块与输出模块
+'''
+translate = '''
+### Installing the Control and Output Modules
+'''
+
+[[block]]
+key = "be16de9f2c9d36eb"
+origin = '''
+在两个输出模块背面的中下部位贴上双面胶。
+'''
+translate = '''
+Apply double-sided tape to the lower-middle section on the back of both output modules.
+'''
+
+[[block]]
+key = "b663d1c3b7e6831d"
+origin = '''
+<ImageView src={require('./img/install13-adhesive.webp').default}  width="50%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install13-adhesive.webp').default}  width="50%" />
+'''
+
+[[block]]
+key = "cb41e0226f7369b8"
+origin = '''
+重新扣下控制模块，如图所示将两个输出模块连接到控制模块上。
+'''
+translate = '''
+Re-snap the control module into place, then connect both output modules to the control module as shown in the diagram.
+'''
+
+[[block]]
+key = "f6b0e947b019ef83"
+origin = '''
+<ImageView src={require('./img/install14-module-connect.webp').default}  width="50%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install14-module-connect.webp').default}  width="50%" />
+'''
+
+[[block]]
+key = "9721d616e3a5e29d"
+origin = '''
+:::tip
+
+控制模块上的 3 个输出接口功能一致，选择其中任意两个即可。
+
+:::
+'''
+translate = '''
+:::tip
+
+The 3 output ports on the control module function identically; you can choose any two of them to connect the modules.
+
+:::
+'''
+
+[[block]]
+key = "17ad2243255ef793"
+origin = '''
+撕开双面胶离型膜，将控制模块与两个输出模块固定在 AMS 主框架对应位置
+'''
+translate = '''
+Peel off the protective backing of the double-sided tape, then secure the control module and the two output modules into their corresponding positions on the AMS main frame.
+'''
+
+[[block]]
+key = "5b87c0c13c15d878"
+origin = '''
+<ImageView src={require('./img/install15-module-position.webp').default} width="50%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install15-module-position.webp').default}  width="50%" />
+'''
+
+[[block]]
+key = "16f8742dcfb98429"
+origin = '''
+### 复原 AMS
+'''
+translate = '''
+### Reassembling the AMS
+'''
+
+[[block]]
+key = "3f45c6bb672a55e6"
+origin = '''
+将 AMS 中框放到如图大概位置，重新连接 485 连接线/电源连接线，并将 **控制模块供电线** 接入替换主板。
+'''
+translate = '''
+Place the AMS middle frame roughly in the position shown in the diagram. Reconnect the RS485 cable and the power cable, then plug the **control module power cable** into the replacement motherboard.
+'''
+
+[[block]]
+key = "20fef36b7da8c3e1"
+origin = '''
+<ImageView src={require('./img/install16.webp').default} width="28%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install16.webp').default}  width="28%" />
+'''
+
+[[block]]
+key = "616439554afb961a"
+origin = '''
+<ImageView src={require('./img/install17.webp').default}  width="45%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install17.webp').default}  width="45%" />
+'''
+
+[[block]]
+key = "028b4f4196a6191b"
+origin = '''
+将 AMS 中框架按照倾斜的方式重新装回 AMS 外壳。
+'''
+translate = '''
+Tilt the AMS main frame and carefully reinstall it back into the AMS shell.
+'''
+
+[[block]]
+key = "56b9af2379931ac3"
+origin = '''
+<ImageView src={require('./img/install19-reinstall-frame.webp').default}  width="50%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install19-reinstall-frame.webp').default}  width="50%" />
+'''
+
+[[block]]
+key = "d5fffe488af91953"
+origin = '''
+重新装回此前拆下的两颗固定螺丝和 PTFE 管。
+'''
+translate = '''
+Reinstall the two securing screws and the PTFE tube that were removed earlier.
+'''
+
+[[block]]
+key = "a2c982a6c3ec531f"
+origin = '''
+<ImageView src={require('./img/install20-frame-screws.webp').default}  width="42%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install20-frame-screws.webp').default}  width="42%" />
+'''
+
+[[block]]
+key = "13da798a07f803f2"
+origin = '''
+<ImageView src={require('./img/install21-ptfe.webp').default}  width="30%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install21-ptfe.webp').default}  width="30%" />
+'''
+
+[[block]]
+key = "3eeb645bd7d66c4a"
+origin = '''
+### 连接外部供电
+'''
+translate = '''
+### Connecting the External Power Supply
+'''
+
+[[block]]
+key = "5791f8f075c72080"
+origin = '''
+连接 **Y 形线** 与 **DC 接口转接线**。
+'''
+translate = '''
+Connect the Y-splitter cable to the DC interface adapter cable.
+'''
+
+[[block]]
+key = "9b9d04b8bdf4c932"
+origin = '''
+- Y 形线用于保留 AMS 原有级联使用能力；如没有级联 AMS 的需求，可不连接 Y 形线。
+- DC 接口转接线用于连接 24V DC 电源，为 BQDry Mini 独立供电。
+'''
+translate = '''
+- The Y-splitter cable is used to retain the original cascading capabilities of the AMS. If you do not need to cascade multiple AMS units, you may skip the Y-splitter cable.
+- The DC interface adapter cable is used to connect the 24V DC power adapter, providing an independent power supply for the BQDry Mini.
+'''
+
+[[block]]
+key = "d225f316b3554eb3"
+origin = '''
+<ImageView src={require('./img/install22-y-cable.webp').default}  width="40%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install22-y-cable.webp').default}  width="40%" />
+'''
+
+[[block]]
+key = "bf5c91675522c977"
+origin = '''
+:::tip
+
+BQDry Mini 的加热供电与 AMS 原有供电相互独立。即使不连接 BQDry Mini 的 24V DC 电源，AMS 仍应通过打印机原有供电正常工作。
+
+:::
+'''
+translate = '''
+:::tip
+
+The heating power supply of the BQDry Mini operates independently from the original AMS power supply. Even if the BQDry Mini's 24V DC power adapter is not connected, the AMS will still function normally through the printer's original power source.
+
+:::
+'''
+
+[[block]]
+key = "621d84ccff7ef077"
+origin = '''
+### 安装可调排湿把手
+'''
+translate = '''
+### Installing the Adjustable Dehumidification Handle
+'''
+
+[[block]]
+key = "3845af886c931e5e"
+origin = '''
+使用随附的 1.5mm L 型内六角扳手拆下 AMS 原把手并安装 BQDry Mini 替换把手。
+'''
+translate = '''
+Use the included 1.5mm L-shaped Allen key to remove the stock AMS handle, then install the BQDry Mini replacement handle.
+'''
+
+[[block]]
+key = "3451fc8d2a594769"
+origin = '''
+<ImageView src={require('./img/install23-handle-mount.webp').default}  width="35%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install23-handle-mount.webp').default}  width="35%" />
+'''
+
+[[block]]
+key = "b944eb48d366c040"
+origin = '''
+<ImageView src={require('./img/install24-handle.webp').default}  width="30%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install24-handle.webp').default}  width="30%" />
+'''
+
+[[block]]
+key = "07fd522c2d23bdcf"
+origin = '''
+替换把手可以切换到支撑方式，为烘干过程提供排湿通道。
+'''
+translate = '''
+The replacement handle can be moved into a support position, creating a venting path for moisture during drying.
+'''
+
+[[block]]
+key = "c28f0335e11bdc29"
+origin = '''
+<ImageView src={require('./img/install25-gap.webp').default} width="50%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install25-gap.webp').default} width="50%" />
+'''
+
+[[block]]
+key = "1fbe4fccb4862b5c"
+origin = '''
+:::tip
+
+烘干时建议打开排湿通道，帮助湿气排出并减少内部凝露；烘干结束后，可根据存储需要恢复较密闭状态。
+
+:::
+'''
+translate = '''
+:::tip
+
+It is recommended to open the venting path during drying to help release moisture and reduce internal condensation. After drying, you can return it to a more enclosed state as needed for storage.
+
+:::
+'''
+
+[[block]]
+key = "a299218f25581fe1"
+origin = '''
+至此，BQDry Mini 安装完成，可连接电源开始使用。
+'''
+translate = '''
+This completes the installation of the BQDry Mini. You may now connect the power supply and begin using it.
+'''
+
+[[block]]
+key = "1ac24aa60a40afe3"
+origin = '''
+## 按键与显示
+'''
+translate = '''
+## Buttons and Indicators
+'''
+
+[[block]]
+key = "76f41d4d29260f9a"
+origin = '''
+<ImageView src={require('./img/control-module.webp').default}  width="100%" />
+'''
+translate = '''
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/control-module.webp').default}  width="100%" />
+'''
+
+[[block]]
+key = "a4e47e5ec7ccd0d8"
+origin = '''
+控制模块顶部设有两个实体按键：
+'''
+translate = '''
+There are two physical buttons located on the top of the control module:
+'''
+
+[[block]]
+key = "27286db5a8b5cc7f"
+origin = '''
+| 按键 / 显示 | 功能 |
+| :--- | :--- |
+| 时间选择按钮 | 待机时循环选择 4H / 8H / 12H / 24H / 不限时 |
+| 启动 / 暂停按钮 | 待机时启动；工作时短按暂停 / 恢复；长按停止 |
+| 时间档位指示灯 | 显示当前选中的快捷时间档位 |
+| 工作倒计时 | 显示当前烘干剩余时间；不限时模式按固件定义显示 |
+| 湿度档位 | 显示 H1～H5 环境湿度等级 |
+| 加热状态指示 | 加热运行时显示工作状态 |
+'''
+translate = '''
+| Button / Indicator | Function |
+| :--- | :--- |
+| Timer Selection Button | In standby mode, press to cycle through the quick timers (4H / 8H / 12H / 24H / Continuous). |
+| Start / Pause Button | In standby mode, press to start. During operation, short press to pause/resume, and long press to stop. |
+| Timer Stage Indicators | Displays the currently selected quick-select timer stage. |
+| Countdown Timer | Displays the remaining drying time; displays according to firmware definitions in continuous (unlimited) mode. |
+| Humidity Level | Displays the ambient humidity level from H1 to H5. |
+| Heating Status Indicator | Displays the current operating status when heating is actively running. |
+'''
+
+[[block]]
+key = "1dd376a1bdc74faf"
+origin = '''
+### 一键启动
+'''
+translate = '''
+### One-Click Start
+'''
+
+[[block]]
+key = "3c355d39fd901dd8"
+origin = '''
+在未选择快捷时间档位时，按下 **启动 / 暂停** 按钮，设备按照上一次 Web UI 保存的温度和时间开始加热；倒计时结束后自动停止。
+'''
+translate = '''
+When no quick-select timer stage is chosen, pressing the Start / Pause button will cause the device to begin heating using the temperature and duration settings last saved via the Web UI. The system will automatically stop heating once the countdown finishes.
+'''
+
+[[block]]
+key = "b3942ab5bd19fb85"
+origin = '''
+加热过程中：
+'''
+translate = '''
+During the heating process:
+'''
+
+[[block]]
+key = "2d9ba68795fedf0d"
+origin = '''
+- 短按 **启动 / 暂停**：暂停或恢复加热，倒计时同步暂停 / 恢复。
+- 长按 **启动 / 暂停**：停止本次加热。
+'''
+translate = '''
+- Short Press **Start / Pause**: Pause or resume heating; the countdown timer will pause or resume simultaneously.
+- Long Press **Start / Pause**: Stop the current heating session.
+'''
+
+[[block]]
+key = "afb316c6ee107f49"
+origin = '''
+### 快捷定时烘干
+'''
+translate = '''
+### Quick-Timer Drying
+'''
+
+[[block]]
+key = "f8a0216b2b482bf9"
+origin = '''
+待机状态下按 **时间选择** 按钮，可在以下五档间循环切换：
+'''
+translate = '''
+In standby mode, press the **Timer Selection** button to cycle through the following five stages:
+'''
+
+[[block]]
+key = "cf660b8a06b8584a"
+origin = '''
+`4H → 8H → 12H → 24H → 不限时`
+'''
+translate = '''
+`4H → 8H → 12H → 24H → Continuous (Unlimited)`
+'''
+
+[[block]]
+key = "fc6deedab2996839"
+origin = '''
+选中时间后按 **启动 / 暂停**，设备按照 Web UI 中设定的目标温度和当前快捷时间启动加热。
+'''
+translate = '''
+After selecting a duration, press the Start / Pause button. The device will begin heating according to the target temperature set in the Web UI and the currently selected quick-timer duration.
+'''
+
+[[block]]
+key = "4f6a1df17c5ae985"
+origin = '''
+## 湿度档位说明
+'''
+translate = '''
+## Humidity Level Description
+'''
+
+[[block]]
+key = "643d467341f30a9a"
+origin = '''
+BQDry Mini 使用 **H1～H5** 表示当前环境的湿度状态。档位越高，表示环境越潮湿。
+'''
+translate = '''
+BQDry Mini uses H1 to H5 to indicate the current ambient humidity status. A higher level indicates a more humid environment.
+'''
+
+[[block]]
+key = "00218918edc3cdd0"
+origin = '''
+<ImageView src={require('./img/humidity-level-guide.webp').default}  width="75%" />
+'''
+translate = '''
+<ImageView src={require('./img/humidity-level-guide.webp').default}  width="75%" />
+'''
+
+[[block]]
+key = "fa6fbf37cbbceabb"
+origin = '''
+| 湿度档位 | 环境状态 | 使用建议 |
+| :---: | :--- | :--- |
+| H1 | 干燥 | 适合耗材存储与使用 |
+| H2 | 较干 | 可正常存储与使用 |
+| H3 | 偏湿 | 建议启动耗材烘干 |
+| H4 | 潮湿 | 建议进行耗材烘干 |
+| H5 | 高湿 | 建议尽快进行耗材烘干 |
+'''
+translate = '''
+| Humidity Level | Ambient Condition | Usage Recommendation |
+| :---: | :--- | :--- |
+| H1 | Dry | Ideal for filament storage and printing. |
+| H2 | Relatively Dry | Suitable for normal storage and printing. |
+| H3 | Slightly Humid | Recommended to start a filament drying session. |
+| H4 | Humid | High recommendation to dry the filament. |
+| H5 | Highly Humid | Strongly advised to dry the filament as soon as possible. |
+'''
+
+[[block]]
+key = "90dde0ef48bac0b9"
+origin = '''
+:::warning
+
+湿度档位仅在已绑定拓竹打印机且连接 AMS 时生效
+
+:::
+'''
+translate = '''
+:::warning
+
+Humidity Level Availability: The humidity level readings are only functional when a compatible Bambu Lab printer is bound and the AMS is connected.
+
+:::
+'''
+
+[[block]]
+key = "9898d4816fb2cb99"
+origin = '''
+:::info
+
+湿度档位用于反映当前环境的干湿趋势，并非精确的相对湿度百分比，也不直接代表耗材内部的实际含水量。当显示 **H3/H4 或 H5** 时，建议启动 BQDry Mini 对耗材进行烘干。
+
+:::
+'''
+translate = '''
+:::info
+
+Humidity Level Reference: The humidity levels reflect the general wetting or drying trend of the current environment. They do not represent precise relative humidity percentages (%) or the actual moisture content inside the filament. When H3, H4, or H5 is displayed, it is highly recommended to start a drying session with the BQDry Mini.
+
+:::
+'''
+
+[[block]]
+key = "ee85e86be6dcc666"
+origin = '''
+## Web UI 首次连接指南
+'''
+translate = '''
+## Web UI Initial Connection Guide
+'''
+
+[[block]]
+key = "f4778f8d0646918a"
+origin = '''
+### 连接设备 AP 热点
+'''
+translate = '''
+### Connect to the Device AP Hotspot
+'''
+
+[[block]]
+key = "e37f4b16b8b24023"
+origin = '''
+设备上电后，在手机或电脑的 Wi-Fi 列表中连接 BQDry Mini 发出的 AP 热点：
+'''
+translate = '''
+After powering on the device, open the Wi-Fi settings on your phone or computer and connect to the AP hotspot broadcasted by the BQDry Mini:
+'''
+
+[[block]]
+key = "88c01879cd618b9f"
+origin = '''
+- 热点名称：`BQDry_Mini_XXXXXXXXXX`
+- 默认密码：`987654321`
+'''
+translate = '''
+- Hot spot Name (SSID): `BQDry_Mini_XXXXXXXXXX`
+- Default Password: `987654321`
+'''
+
+[[block]]
+key = "4d53cb6cb4050af0"
+origin = '''
+### 访问 Web UI
+'''
+translate = '''
+### Access the Web UI
+'''
+
+[[block]]
+key = "fcae1236ce5ba143"
+origin = '''
+连接 AP 后：
+'''
+translate = '''
+Once connected to the AP hotspot:
+'''
+
+[[block]]
+key = "edf5f28d8262191f"
+origin = '''
+- 手机端可能会自动弹出 BQDry Mini Web UI；
+- 也可以在浏览器中输入默认 IP：`192.168.254.1`。
+'''
+translate = '''
+- Mobile Devices: The BQDry Mini Web UI may automatically pop up via a captive portal.
+- Manual Access: Alternatively, you can open a web browser and input the default IP address: `192.168.254.1`.
+'''
+
+[[block]]
+key = "3a2458e3feb2c31e"
+origin = '''
+:::info
+
+热点IP(默认的热点 IP 为: 192.168.254.1, 如果您自己路由器的 IP 号段也为 192.168.254.xxx, BQDry Mini与路由器的 IP 号段相同就会产生冲突, 并且导致 BQDry Mini无法正常绑定到打印机, 请手动修改 BQDry Mini 的热点 IP 使其与路由器使用不同的 IP 号段)
+
+:::
+'''
+translate = '''
+:::info
+
+Default Hotspot IP: 192.168.254.1, if your home router also uses the IP range 192.168.254.xxx, a subnet conflict will occur because the BQDry Mini shares the same network segment. This conflict will prevent the BQDry Mini from successfully binding to your printer. To resolve this, please manually modify the Hotspot IP of the BQDry Mini to a different subnet range (e.g., changing it to 192.168.253.1) so that it does not overlap with your router's network settings.
+
+:::
+'''
+
+[[block]]
+key = "3ebb0631eb9d7c8b"
+origin = '''
+### 配置 Wi-Fi
+'''
+translate = '''
+### Wi-Fi Configuration
+'''
+
+[[block]]
+key = "fc615c1bdac40b6b"
+origin = '''
+首次出厂或恢复出厂设置后，进入 Wi-Fi 配置页面会自动扫描周围网络，也可手动重新扫描。
+'''
+translate = '''
+Upon first boot from the factory or after a factory reset, entering the Wi-Fi configuration page will automatically scan for nearby networks. You can also trigger a rescan manually by clicking the refresh button.
+'''
+
+[[block]]
+key = "789df5083f8a86f2"
+origin = '''
+:::warning
+
+设备仅支持2.4GHz WiFi
+
+:::
+'''
+translate = '''
+:::warning
+
+Wi-Fi Compatibility: The device only supports 2.4GHz Wi-Fi networks. 5GHz Wi-Fi networks are not supported.
+
+:::
+'''
+
+[[block]]
+key = "99c82330edde6ffd"
+origin = '''
+选择需要连接的 Wi-Fi，并输入密码。
+'''
+translate = '''
+Select the Wi-Fi network you want to join, and input the password.
+'''
+
+[[block]]
+key = "df76f07127ec1021"
+origin = '''
+<ImageView src={require('./img/wifi-scan.webp').default}  width="25%" />
+'''
+translate = '''
+<ImageView src={require('./img/wifi-scan.webp').default}  width="25%" />
+'''
+
+[[block]]
+key = "a388489008eadecb"
+origin = '''
+点击连接后，页面会显示 Wi-Fi 连接状态。
+'''
+translate = '''
+After clicking Connect, the page will display the current Wi-Fi connection status.
+'''
+
+[[block]]
+key = "4e3b892ca4320b3d"
+origin = '''
+<ImageView src={require('./img/wifi-connecting.webp').default}  width="25%" />
+'''
+translate = '''
+<ImageView src={require('./img/wifi-connecting.webp').default}  width="25%" />
+'''
+
+[[block]]
+key = "d9d6af1d04d025de"
+origin = '''
+连接成功后，可在 Web UI 中使用烘干控制/打印机绑定等功能。
+'''
+translate = '''
+Once successfully connected, you can access features such as drying control and printer binding directly through the Web UI.
+'''
+
+[[block]]
+key = "aa9c0f360959b62d"
+origin = '''
+## Web UI 烘干控制
+'''
+translate = '''
+## Web UI Drying Control
+'''
+
+[[block]]
+key = "ef52f8b7171b5ac6"
+origin = '''
+在控制面板中，可选择耗材烘干配置，也可自定义目标温度与烘干时间。
+'''
+translate = '''
+In the dashboard panel, you can either select a pre-configured filament drying profile or customize your own target temperature and drying duration.
+'''
+
+[[block]]
+key = "bbd63f1205087489"
+origin = '''
+<ImageView src={require('./img/control-panel.webp').default}  width="28%" />
+'''
+translate = '''
+<ImageView src={require('./img/control-panel.webp').default}  width="28%" />
+'''
+
+[[block]]
+key = "a84748f79f3c87c9"
+origin = '''
+主要功能包括：
+'''
+translate = '''
+The main features include:
+'''
+
+[[block]]
+key = "5251f99b4fe8fb34"
+origin = '''
+- 查看当前设备状态；
+- 选择耗材烘干配置；
+- 设置目标温度；
+- 设置烘干时间；
+- 启动 / 停止烘干；
+- 开启打印任务联动。
+'''
+translate = '''
+- View current device status
+- Select filament drying profiles
+- Set target temperature
+- Set drying duration
+- Start / Stop drying
+- Enable print job linkage
+'''
+
+[[block]]
+key = "ea3f97e51a3a6a06"
+origin = '''
+:::tip
+
+实体快捷时间档位与 Web UI 设置相互配合：选择实体时间档位后，设备使用 Web UI 中保存的目标温度，并以实体按键选择的时间启动。
+
+:::
+'''
+translate = '''
+:::tip
+
+Physical Timers & Web UI Integration: The physical quick-timer stages work seamlessly with the Web UI settings. When a physical timer stage is selected on the device, it will initiate the drying process using the target temperature saved in the Web UI combined with the duration selected via the physical button.
+
+:::
+'''
+
+[[block]]
+key = "f7585682a9364020"
+origin = '''
+## 打印时自动启动
+'''
+translate = '''
+## Auto-Start on Print
+'''
+
+[[block]]
+key = "6322c0434f61d487"
+origin = '''
+BQDry Mini 支持绑定兼容打印机。完成绑定并打开 **打印时启动** 后，BQDry Mini 会在下一次打印任务开始时自动启动加热，并在打印结束后自动停止。
+'''
+translate = '''
+BQDry Mini supports binding with compatible printers. Once successfully bound and the "Auto-Dry During Print" (or Auto-Start on Print) feature is enabled, the BQDry Mini will automatically start heating when the next print job begins and automatically stop heating when the print job finishes.
+'''
+
+[[block]]
+key = "75b435630fcacc44"
+origin = '''
+### 绑定打印机
+'''
+translate = '''
+### Binding the Printer
+'''
+
+[[block]]
+key = "b89a7849729ea9a3"
+origin = '''
+进入 Web UI 的打印机页面：
+'''
+translate = '''
+Navigate to the Printer page within the Web UI:
+'''
+
+[[block]]
+key = "82f6863b325ae1d2"
+origin = '''
+<ImageView src={require('./img/printer.webp').default}  width="28%" />
+'''
+translate = '''
+<ImageView src={require('./img/printer.webp').default}  width="28%" />
+'''
+
+[[block]]
+key = "79ac72ef2c0c7ae7"
+origin = '''
+1. 扫描同一局域网内的打印机。
+2. 选择扫描到的打印机。
+3. 确认打印机 SN 与 IP。
+4. 输入打印机访问码 / 配对码。
+5. 点击绑定。
+'''
+translate = '''
+1. Scan for printers within the same local area network (LAN).
+2. Select the discovered printer from the scanned list.
+3. Verify the printer's Serial Number (SN) and IP address to ensure accuracy.
+4. Input the printer's Access Code / Pairing Code.
+5. Click Bind to complete the connection.
+'''
+
+[[block]]
+key = "dedba05831231af7"
+origin = '''
+<ImageView src={require('./img/printer-list.webp').default}  width="28%" />
+'''
+translate = '''
+<ImageView src={require('./img/printer-list.webp').default}  width="28%" />
+'''
+
+[[block]]
+key = "915a445e4af5bfba"
+origin = '''
+以 Bambu Lab P1 系列为例，可在打印机界面中查找配对码：
+'''
+translate = '''
+Taking the Bambu Lab P1 Series as an example, you can find the access code on the printer screen through the following path:
+'''
+
+[[block]]
+key = "d1f237c723d330f5"
+origin = '''
+<ImageView src={require('./img/printer-code-1.webp').default}  width="38%" />
+'''
+translate = '''
+<ImageView src={require('./img/printer-code-1.webp').default}  width="38%" />
+'''
+
+[[block]]
+key = "ed7852ce15d3804d"
+origin = '''
+<ImageView src={require('./img/printer-code-2.webp').default}  width="38%" />
+'''
+translate = '''
+<ImageView src={require('./img/printer-code-2.webp').default}  width="38%" />
+'''
+
+[[block]]
+key = "8e779f27ea5a9514"
+origin = '''
+将配对码输入访问码栏并完成绑定。
+'''
+translate = '''
+Input the pairing code into the Access Code field and complete the binding process.
+'''
+
+[[block]]
+key = "c3d9bc7504120199"
+origin = '''
+<ImageView src={require('./img/printer-bind-form.webp').default}  width="28%" />
+'''
+translate = '''
+<ImageView src={require('./img/printer-bind-form.webp').default}  width="28%" />
+'''
+
+[[block]]
+key = "89c9e054592541f3"
+origin = '''
+绑定完成后开启 **打印时启动**：
+'''
+translate = '''
+Once the binding is complete, enable the Auto-Dry During Print feature:
+'''
+
+[[block]]
+key = "8b0a4f635167f1a3"
+origin = '''
+<ImageView src={require('./img/auto-dry.webp').default} width="28%" />
+'''
+translate = '''
+<ImageView src={require('./img/auto-dry.webp').default}  width="28%" />
+'''
+
+[[block]]
+key = "3f7d029fcc4ddbea"
+origin = '''
+## 固件升级
+'''
+translate = '''
+## Firmware Update
+'''
+
+[[block]]
+key = "844baebb73dc2044"
+origin = '''
+BQDry Mini 支持通过 Web UI 进行固件升级。发布新固件后，从以下链接下载固件到电脑，在Web UI中请按照对应固件页面的升级说明操作。
+'''
+translate = '''
+BQDry Mini supports firmware updates directly via the Web UI. When a new firmware version is released, download the firmware file to your computer from the link below, and then follow the update instructions on the corresponding firmware page within the Web UI.
+'''
+
+[[block]]
+key = "e3198640fb10ce01"
+origin = '''
+固件下载地址：https://github.com/bigtreetech/BQDry_Mini/tree/master/Firmware
+'''
+translate = '''
+Firmware Download Link: https://github.com/bigtreetech/BQDry_Mini/tree/master/Firmware
+'''
+
+[[block]]
+key = "c50999996b5703f6"
+origin = '''
+:::warning
+
+升级固件过程中请保持设备持续供电，不要关闭页面或断开电源或强制重启设备。
+
+:::
+'''
+translate = '''
+:::warning
+
+Firmware Update Safety: Please ensure the device remains continuously powered during the firmware update process. Do not close the browser page, disconnect the power supply, or force restart the device.
+
+:::
+'''
+
+[[block]]
+key = "998f2a1d897d7ceb"
+origin = '''
+## 恢复出厂设置
+'''
+translate = '''
+## Factory Reset
+'''
+
+[[block]]
+key = "58194f4fe502806c"
+origin = '''
+同时长按控制模块上的两个实体按键 **5 秒以上**，可触发恢复出厂设置。
+'''
+translate = '''
+Press and hold both physical buttons on the control module simultaneously for **more than 5 seconds** to trigger a factory reset.
+'''
+
+[[block]]
+key = "f11ab3b44d2b1a96"
+origin = '''
+恢复出厂设置后将清除或恢复以下内容：
+'''
+translate = '''
+A factory reset will clear or restore the following:
+'''
+
+[[block]]
+key = "7fcbb4303296a390"
+origin = '''
+- Wi-Fi 网络连接信息；
+- 已绑定的打印机；
+- 相关设备参数和 Web UI 设置。
+'''
+translate = '''
+- Wi-Fi network connection information
+- Bound printers
+- Related device parameters and Web UI settings
+'''
+
+[[block]]
+key = "cfd5944a69dd4c3e"
+origin = '''
+恢复完成后，请重新按照 [Web UI 首次连接指南](#web-ui-首次连接指南) 配置设备。
+'''
+translate = '''
+Once the reset is complete, please reconfigure the device by following the [Web UI Initial Connection Guide](#web-ui-initial-connection-guide)
+'''
+
+[[block]]
+key = "e42a0ec591670eb0"
+origin = '''
+## 特别说明
+'''
+translate = '''
+## Special Notes
+'''
+
+[[block]]
+key = "37a33bb1945e0439"
+origin = '''
+### 不限时加热模式
+'''
+translate = '''
+### Continuous Heating Mode (Unlimited)
+'''
+
+[[block]]
+key = "a8a3d88f2b01eb1e"
+origin = '''
+当选择"不限时"档位时，产品仍会执行内部温控保护逻辑，但为确保安全，建议设备仅在 **可观察/可监控的环境** 中运行，避免长时间无人看管。
+'''
+translate = '''
+When the Continuous (Unlimited) stage is selected, the device will still execute its internal thermal protection logic. However, for maximum safety, it is highly recommended to operate the equipment only in an observable and monitored environment. Avoid leaving the device running unattended for extended periods.
+'''
+
+[[block]]
+key = "74e900f8ce29460b"
+origin = '''
+### 排湿与凝露
+'''
+translate = '''
+### Dehumidification & Condensation
+'''
+
+[[block]]
+key = "25bc72322ffbd75a"
+origin = '''
+加热过程中，耗材中的水分会逐渐释放至空气中。建议根据实际烘干状态使用 AMS 替换把手打开适当排湿通道，帮助湿气排出并降低内部水汽凝结的可能。
+'''
+translate = '''
+During the heating process, moisture from the filament will gradually be released into the air. It is advised to open an appropriate dehumidification channel using the AMS replacement handle based on the actual drying status to help expel moisture and reduce the risk of internal condensation.
+'''
+
+[[block]]
+key = "d18282d659701248"
+origin = '''
+### 高温表面
+'''
+translate = '''
+### Hot Surfaces
+'''
+
+[[block]]
+key = "cab149e1731cecf9"
+origin = '''
+设备加热运行期间，输出模块出风口及附近区域可能处于较高温度。请勿遮挡出风口，也不要在工作期间直接触摸高温区域。
+'''
+translate = '''
+While the heating system is running, the air outlets of the output modules and their surrounding areas may reach elevated temperatures. Do not block the air outlets, and avoid touching these high-temperature areas directly during operation.
+'''
+
+[[block]]
+key = "aacbc9f64fb078e6"
+origin = '''
+### 外壳表面纹理
+'''
+translate = '''
+### Shell Surface Texture
+'''
+
+[[block]]
+key = "4ebcac9d6e6021ca"
+origin = '''
+BQDry Mini 外壳采用 **尼龙 + 玻璃纤维（PA-GF）** 复合材料。该材料可能呈现类似细小划痕或纤维的表面纹理，这是材料本身的正常特性，并非产品瑕疵。
+'''
+translate = '''
+The shell of the BQDry Mini is made of a Nylon + Glass Fiber (PA-GF) composite material. This material may naturally exhibit surface textures resembling fine scratches or visible fibers. This is a normal and inherent characteristic of the material itself and not a product defect.
+'''
+
+[[block]]
+key = "cb8b9f87f384e245"
+origin = '''
+### FCC 合规声明
+'''
+translate = '''
+### FCC Compliance Statement
+'''
+
+[[block]]
+key = "cbabb58846b181a4"
+origin = '''
+本设备符合 FCC（美国联邦通信委员会）规则第 15 部分的要求。设备运行须满足以下两个条件：
+'''
+translate = '''
+This device complies with Part 15 of the FCC Rules. Operation is subject to the following two conditions:
+'''
+
+[[block]]
+key = "92dde3728f0bbd4c"
+origin = '''
+1. 本设备不得产生有害干扰。
+2. 本设备必须能够承受接收到的任何干扰，包括可能导致设备异常运行的干扰。
+'''
+translate = '''
+1. This device may not cause harmful interference.
+2. This device must accept any interference received, including interference that may cause undesired operation.
+'''
+
+[[block]]
+key = "dd979f5d98bb0c6a"
+origin = '''
+**警告：** 未经合规责任方明确批准而对本设备进行更改或改装，可能导致用户失去操作本设备的授权。
+'''
+translate = '''
+**Warning:** Changes or modifications to this unit not expressly approved by the party responsible for compliance could void the user's authority to operate the equipment.
+'''
+
+[[block]]
+key = "0822fe247de4d558"
+origin = '''
+## 重要声明
+'''
+translate = '''
+## Important Declarations
+'''
+
+[[block]]
+key = "9ad836e5c4601973"
+origin = '''
+- 请仅使用符合产品规格要求的 24V DC 电源及配件。
+- 安装和走线必须避开 AMS 内部运动机构。
+- 请勿堵塞输出模块进风 / 出风位置。
+- 不限时加热模式下，请确保设备处于可观察/可监控环境。
+- 如因错误安装/错误供电/私自改装或未按说明使用导致设备损坏，可能影响产品保修。
+'''
+translate = '''
+- Power Compatibility: Please only use 24V DC power adapters and accessories that comply with the product specifications.
+- Mechanism Clearance: Cable routing and module installation must be kept completely clear of the internal moving mechanisms of the AMS.
+- Airflow Obstruction: Do not block or obstruct the air inlet or outlet positions of the output modules.
+- Monitored Operation: Under the Continuous (Unlimited) heating mode, always ensure the device is operated in an observable and monitored environment.
+- Warranty Disclaimer: Damage to the equipment caused by improper installation, incorrect power supply, unauthorized modifications, or failure to follow the instruction manual may void the product warranty.
+'''
