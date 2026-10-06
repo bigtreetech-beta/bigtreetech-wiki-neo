@@ -1,0 +1,415 @@
+---
+sidebar_position: 1
+description: BIQU BQDry Mini
+---
+
+# BQDry Mini
+
+<div class="div-table">
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/bqdry-mini-title.webp').default}  width="45%" class="right-image"/>
+
+## Product Overview
+
+BQDry Mini is a modular heating and drying system designed specifically for 3D printing filament management, with the first-generation Bambu Lab AMS as its primary officially supported platform. The system consists of a control module and two heating output modules. It can be installed directly inside the AMS to add active drying capabilities to a system that originally lacked active heating.
+
+Powered by an independent 24V power supply, the BQDry Mini can operate continuously during normal AMS feeding and printing processes. It supports both physical buttons and a Web UI for control, allowing users to configure drying temperatures and duration. Additionally, it features print job linkage, which automatically starts drying when a print begins and stops it when the print finishes.
+
+</div>
+
+:::warning
+
+The official installation guide for BQDry Mini currently applies only to the first-generation Bambu Lab AMS and is not compatible with the AMS 2 Pro. For any other enclosed heating applications, a separate evaluation regarding physical space, wiring, power supply, and thermal safety requirements is necessary. This Wiki does not provide a universal installation guarantee for other setups.
+
+:::
+
+## Key Features
+
+- **AMS-Embedded Upgrade**: The control module and output modules are installed inside the AMS to maintain the original device appearance and usage as much as possible.
+- **Non-Destructive Installation**: No irreversible drilling, cutting, or modifications to the AMS shell are required.
+- **Dry While Printing**: Powered by an independent power supply, BQDry Mini can dry filaments continuously during normal AMS feeding and printing processes.
+- **35–60°C Temperature Control**: Supports heating temperature settings from 35°C to 60°C.
+- **Quick Physical Control**: Supports one-button start/pause/resume/stop, and provides five quick-select timer options: 4H, 8H, 12H, 24H, or continuous.
+- **Web UI Control**: Allows users to configure network settings, adjust drying parameters, view device status, and bind printers via a web browser.
+- **Adjustable Dehumidification**: Uses a replacement AMS handle to create an adjustable dehumidification channel, helping release moisture during the drying process and reducing condensation risks.
+- **Print Job Linkage**: After binding with a compatible printer, the "Auto-Dry During Print" feature can be enabled to automatically start drying when a print job begins and stop heating when it ends.
+
+## Product Specifications
+
+| Item | Specifications |
+| :--- | :--- |
+| Product Name | Filament Dryer |
+| Product Model | BQDry Mini |
+| Input | DC 24V ⎓ 5A |
+| Rated Power | 116W |
+| Operating Environment | Ambient Temperature: 10–35°C; Relative Humidity: < 95% |
+| Temperature Setting Range | 35°C～60°C |
+| Heating Capability Note | 35°C～60°C (Tested in a 26°C standard room temperature environment) |
+| Web UI Time Control | 1–99 Hours, plus a continuous (unlimited) mode |
+| Physical Quick Timers | 4H / 8H / 12H / 24H / Continuous |
+| Control Methods | Physical Buttons + Web UI |
+| Primary Compatibility | Bambu Lab AMS (First Generation) |
+
+## Package Contents
+
+| Item | Quantity |
+| :--- | :---: |
+| Control Module | 1 |
+| Output Module | 2 |
+| 24V / 5A DC Power Adapter | 1 |
+| DC Interface Adapter Cable | 1 |
+| Control Module Power Cable | 1 |
+| Replacement AMS Motherboard | 1 |
+| Y-Splitter Cable | 1 |
+| Replacement AMS Handle | 1 |
+| Product Information Card | 1 |
+| Installation Tools (screws, tape, etc.) | / |
+
+## AMS Installation Guide
+
+:::warning
+
+1. Power Off: Turn off the printer and disconnect the connecting cable between the AMS and the printer.
+2. Clear Filament & Tubes: Disconnect the AMS PTFE tube and remove all filaments from inside the AMS.
+3. Handle with Care: Do not pull or strain the internal wiring of the AMS during the installation process.
+4. Cable Clearance: All power cords and connecting wires must be kept clear of the AMS gears, rollers, and spool moving areas to avoid interference.
+5. Keep Original Parts: It is highly recommended to keep the original AMS power motherboard after removal, in case you need to restore the device to its original factory state in the future.
+
+:::
+
+### 1. Removing the AMS Main Frame
+
+Open the AMS top cover, press and hold the internal PTFE tube release mechanism (coupler button), and pull out the PTFE tube from the rear of the AMS.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install01-ptfe-release.webp').default}  width="35%" />
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install02-ptfe-out.webp').default}  width="30%" />
+
+Remove the 2 securing screws on the AMS main frame.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install03-frame-screws.webp').default}  width="45%" />
+
+Press the release button on the hub assembly (multi-way connector) and slowly lift the rear of the main frame. Note: Internal cables are still connected—do not pull with force.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install04-release-button.webp').default}  width="30%" />
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install05-lift-frame.webp').default}  width="30%" />
+
+Disconnect the RS485 cable and the power cable, then completely remove the AMS main frame assembly.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install06-disconnect-cables.webp').default}  width="50%" />
+
+### 2. Installing the Replacement AMS Motherboard
+
+Remove the stock AMS power motherboard and install the Replacement AMS Motherboard included in the package. When securing the replacement motherboard, place a nylon washer on the nut/screw head side to prevent damage to the board caused by over tightening.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install07-original-board.webp').default}  width="32%" />
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install08-replacement-board.webp').default}  width="32%" />
+
+Place the stock motherboard back into the anti-static bag for safe keeping.
+
+### 3. Routing the Control Module Power Cable
+
+Plug the power cable into the control module and press it into the cable management slot on the back. Then, apply a piece of double-sided tape to the lower-middle section of the module.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install09.webp').default}  width="50%" />
+
+Peel off the protective backing of the double-sided tape, route the power cable underneath the roller position, and temporarily secure the control module into the middle recess of the AMS using the tape.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install09-2.webp').default}  width="50%" />
+
+Route the power cable through the center hole into the AMS. Use acetate cloth tape to flatten and secure any protruding wires tightly against the AMS shell, ensuring they do not interfere with the roller rotation.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install09-3.webp').default}  width="50%" />
+
+Secure the power cable to the lower-middle section on the back of the shell using cable clips or acetate cloth tape, referring to the positions shown in the diagram.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install09-4.webp').default}  width="50%" />
+
+:::warning
+
+Cable Routing Clearance: Wires must not enter the area of the AMS gear sets or any other moving parts to prevent them from being pinched, frayed, or strained during operation.
+
+:::
+
+### 4. Installing the Control and Output Modules
+
+Apply double-sided tape to the lower-middle section on the back of both output modules.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install13-adhesive.webp').default}  width="50%" />
+
+
+Re-snap the control module into place, then connect both output modules to the control module as shown in the diagram.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install14-module-connect.webp').default}  width="50%" />
+
+:::tip
+
+The 3 output ports on the control module function identically; you can choose any two of them to connect the modules.
+
+:::
+
+Peel off the protective backing of the double-sided tape, then secure the control module and the two output modules into their corresponding positions on the AMS main frame.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install15-module-position.webp').default}  width="50%" />
+
+
+### 5. Reassembling the AMS
+
+Place the AMS middle frame roughly in the position shown in the diagram. Reconnect the RS485 cable and the power cable, then plug the **control module power cable** into the replacement motherboard.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install16.webp').default}  width="28%" />
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install17.webp').default}  width="45%" />
+
+Tilt the AMS main frame and carefully reinstall it back into the AMS shell.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install19-reinstall-frame.webp').default}  width="50%" />
+
+Reinstall the two securing screws and the PTFE tube that were removed earlier.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install20-frame-screws.webp').default}  width="42%" />
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install21-ptfe.webp').default}  width="30%" />
+
+### 6. Connecting the External Power Supply
+
+Connect the Y-splitter cable to the DC interface adapter cable.
+
+- The Y-splitter cable is used to retain the original cascading capabilities of the AMS. If you do not need to cascade multiple AMS units, you may skip the Y-splitter cable.
+- The DC interface adapter cable is used to connect the 24V DC power adapter, providing an independent power supply for the BQDry Mini.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install22-y-cable.webp').default}  width="40%" />
+
+:::tip
+
+The heating power supply of the BQDry Mini operates independently from the original AMS power supply. Even if the BQDry Mini's 24V DC power adapter is not connected, the AMS will still function normally through the printer's original power source.
+
+:::
+
+### 7. Installing the Adjustable Dehumidification Handle
+
+Use the included 1.5mm L-shaped Allen key to remove the stock AMS handle, then install the BQDry Mini replacement handle.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install23-handle-mount.webp').default}  width="35%" />
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install24-handle.webp').default}  width="30%" />
+
+The replacement handle can be moved into a support position, creating a venting path for moisture during drying.
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/install25-gap.webp').default} width="50%" />
+
+:::tip
+
+It is recommended to open the venting path during drying to help release moisture and reduce internal condensation. After drying, you can return it to a more enclosed state as needed for storage.
+
+:::
+
+This completes the installation of the BQDry Mini. You may now connect the power supply and begin using it.
+
+## Buttons and Indicators
+
+<ImageView src={require('@site/docs/more-series/bqdry-module/bqdry-mini/img/control-module.webp').default}  width="100%" />
+
+There are two physical buttons located on the top of the control module:
+
+| Button / Indicator | Function |
+| :--- | :--- |
+| Timer Selection Button | In standby mode, press to cycle through the quick timers (4H / 8H / 12H / 24H / Continuous). |
+| Start / Pause Button | In standby mode, press to start. During operation, short press to pause/resume, and long press to stop. |
+| Timer Stage Indicators | Displays the currently selected quick-select timer stage. |
+| Countdown Timer | Displays the remaining drying time; displays according to firmware definitions in continuous (unlimited) mode. |
+| Humidity Level | Displays the ambient humidity level from H1 to H5. |
+| Heating Status Indicator | Displays the current operating status when heating is actively running. |
+
+### One-Click Start
+
+When no quick-select timer stage is chosen, pressing the Start / Pause button will cause the device to begin heating using the temperature and duration settings last saved via the Web UI. The system will automatically stop heating once the countdown finishes.
+
+During the heating process:
+
+- Short Press **Start / Pause**: Pause or resume heating; the countdown timer will pause or resume simultaneously.
+- Long Press **Start / Pause**: Stop the current heating session.
+
+### Quick-Timer Drying
+
+In standby mode, press the **Timer Selection** button to cycle through the following five stages:
+
+`4H → 8H → 12H → 24H → Continuous (Unlimited)`
+
+After selecting a duration, press the Start / Pause button. The device will begin heating according to the target temperature set in the Web UI and the currently selected quick-timer duration.
+
+## Humidity Level Description
+
+BQDry Mini uses H1 to H5 to indicate the current ambient humidity status. A higher level indicates a more humid environment.
+
+<ImageView src={require('./img/humidity-level-guide.webp').default}  width="75%" />
+
+| Humidity Level | Ambient Condition | Usage Recommendation |
+| :---: | :--- | :--- |
+| H1 | Dry | Ideal for filament storage and printing. |
+| H2 | Relatively Dry | Suitable for normal storage and printing. |
+| H3 | Slightly Humid | Recommended to start a filament drying session. |
+| H4 | Humid | High recommendation to dry the filament. |
+| H5 | Highly Humid | Strongly advised to dry the filament as soon as possible. |
+
+:::warning
+
+Humidity Level Availability: The humidity level readings are only functional when a compatible Bambu Lab printer is bound and the AMS is connected.
+
+:::
+
+:::info
+
+Humidity Level Reference: The humidity levels reflect the general wetting or drying trend of the current environment. They do not represent precise relative humidity percentages (%) or the actual moisture content inside the filament. When H3, H4, or H5 is displayed, it is highly recommended to start a drying session with the BQDry Mini.
+
+:::
+
+## Web UI Initial Connection Guide
+
+### 1. Connect to the Device AP Hotspot
+
+After powering on the device, open the Wi-Fi settings on your phone or computer and connect to the AP hotspot broadcasted by the BQDry Mini:
+
+- Hot spot Name (SSID): `BQDry_Mini_XXXXXXXXXX`
+- Default Password: `987654321`
+
+### 2. Access the Web UI
+
+Once connected to the AP hotspot:
+
+- Mobile Devices: The BQDry Mini Web UI may automatically pop up via a captive portal.
+- Manual Access: Alternatively, you can open a web browser and input the default IP address: `192.168.254.1`.
+
+:::info
+
+Default Hotspot IP: 192.168.254.1, if your home router also uses the IP range 192.168.254.xxx, a subnet conflict will occur because the BQDry Mini shares the same network segment. This conflict will prevent the BQDry Mini from successfully binding to your printer. To resolve this, please manually modify the Hotspot IP of the BQDry Mini to a different subnet range (e.g., changing it to 192.168.253.1) so that it does not overlap with your router's network settings.
+
+:::
+
+### 3. Wi-Fi Configuration
+
+Upon first boot from the factory or after a factory reset, entering the Wi-Fi configuration page will automatically scan for nearby networks. You can also trigger a rescan manually by clicking the refresh button.
+
+:::warning
+
+Wi-Fi Compatibility: The device only supports 2.4GHz Wi-Fi networks. 5GHz Wi-Fi networks are not supported.
+
+:::
+
+Select the Wi-Fi network you want to join, and input the password.
+
+<ImageView src={require('./img/wifi-scan.webp').default}  width="25%" />
+
+After clicking Connect, the page will display the current Wi-Fi connection status.
+
+<ImageView src={require('./img/wifi-connecting.webp').default}  width="25%" />
+
+Once successfully connected, you can access features such as drying control and printer binding directly through the Web UI.
+
+## Web UI Drying Control
+
+In the dashboard panel, you can either select a pre-configured filament drying profile or customize your own target temperature and drying duration.
+
+<ImageView src={require('./img/control-panel.webp').default}  width="28%" />
+
+The main features include:
+
+- View current device status
+- Select filament drying profiles
+- Set target temperature
+- Set drying duration
+- Start / Stop drying
+- Enable print job linkage
+
+:::tip
+
+Physical Timers & Web UI Integration: The physical quick-timer stages work seamlessly with the Web UI settings. When a physical timer stage is selected on the device, it will initiate the drying process using the target temperature saved in the Web UI combined with the duration selected via the physical button.
+
+:::
+
+## Auto-Start on Print
+
+BQDry Mini supports binding with compatible printers. Once successfully bound and the "Auto-Dry During Print" (or Auto-Start on Print) feature is enabled, the BQDry Mini will automatically start heating when the next print job begins and automatically stop heating when the print job finishes.
+
+### Binding the Printer
+
+Navigate to the Printer page within the Web UI:
+
+<ImageView src={require('./img/printer.webp').default}  width="28%" />
+
+1. Scan for printers within the same local area network (LAN).
+2. Select the discovered printer from the scanned list.
+3. Verify the printer's Serial Number (SN) and IP address to ensure accuracy.
+4. Input the printer's Access Code / Pairing Code.
+5. Click Bind to complete the connection.
+
+<ImageView src={require('./img/printer-list.webp').default}  width="28%" />
+
+Taking the Bambu Lab P1 Series as an example, you can find the access code on the printer screen through the following path:
+
+<ImageView src={require('./img/printer-code-1.webp').default}  width="38%" />
+<ImageView src={require('./img/printer-code-2.webp').default}  width="38%" />
+
+Input the pairing code into the Access Code field and complete the binding process.
+
+<ImageView src={require('./img/printer-bind-form.webp').default}  width="28%" />
+
+Once the binding is complete, enable the Auto-Dry During Print feature:
+
+<ImageView src={require('./img/auto-dry.webp').default}  width="28%" />
+
+## Firmware Update
+
+BQDry Mini supports firmware updates directly via the Web UI. When a new firmware version is released, download the firmware file to your computer from the link below, and then follow the update instructions on the corresponding firmware page within the Web UI.
+
+Firmware Download Link: https://github.com/bigtreetech/BQDry_Mini/tree/master/Firmware
+
+:::warning
+
+Firmware Update Safety: Please ensure the device remains continuously powered during the firmware update process. Do not close the browser page, disconnect the power supply, or force restart the device.
+
+:::
+
+## Factory Reset
+
+Press and hold both physical buttons on the control module simultaneously for **more than 5 seconds** to trigger a factory reset.
+
+A factory reset will clear or restore the following:
+
+- Wi-Fi network connection information
+- Bound printers
+- Related device parameters and Web UI settings
+
+Once the reset is complete, please reconfigure the device by following the [Web UI Initial Connection Guide](#web-ui-initial-connection-guide)
+
+## Special Notes
+
+### Continuous Heating Mode (Unlimited)
+
+When the Continuous (Unlimited) stage is selected, the device will still execute its internal thermal protection logic. However, for maximum safety, it is highly recommended to operate the equipment only in an observable and monitored environment. Avoid leaving the device running unattended for extended periods.
+
+### Dehumidification & Condensation
+
+During the heating process, moisture from the filament will gradually be released into the air. It is advised to open an appropriate dehumidification channel using the AMS replacement handle based on the actual drying status to help expel moisture and reduce the risk of internal condensation.
+
+### Hot Surfaces
+
+While the heating system is running, the air outlets of the output modules and their surrounding areas may reach elevated temperatures. Do not block the air outlets, and avoid touching these high-temperature areas directly during operation.
+
+### Shell Surface Texture
+
+The shell of the BQDry Mini is made of a Nylon + Glass Fiber (PA-GF) composite material. This material may naturally exhibit surface textures resembling fine scratches or visible fibers. This is a normal and inherent characteristic of the material itself and not a product defect.
+
+### FCC Compliance Statement
+
+This device complies with Part 15 of the FCC Rules. Operation is subject to the following two conditions:
+
+1. This device may not cause harmful interference.
+2. This device must accept any interference received, including interference that may cause undesired operation.
+
+**Warning:** Changes or modifications to this unit not expressly approved by the party responsible for compliance could void the user’s authority to operate the equipment.
+
+## Important Declarations
+
+- Power Compatibility: Please only use 24V DC power adapters and accessories that comply with the product specifications.
+- Mechanism Clearance: Cable routing and module installation must be kept completely clear of the internal moving mechanisms of the AMS.
+- Airflow Obstruction: Do not block or obstruct the air inlet or outlet positions of the output modules.
+- Monitored Operation: Under the Continuous (Unlimited) heating mode, always ensure the device is operated in an observable and monitored environment.
+- Warranty Disclaimer: Damage to the equipment caused by improper installation, incorrect power supply, unauthorized modifications, or failure to follow the instruction manual may void the product warranty.
+

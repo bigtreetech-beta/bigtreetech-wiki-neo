@@ -254,5 +254,9 @@
   "sidebar.moreSidebar.category.Pop Series Module.link.generated-index.description": {
     "message": "Pop 系列模块",
     "description": "The generated-index page description for category 'Pop Series Module' in sidebar 'moreSidebar'"
+  },
+  "sidebar.moreSidebar.category.BQDry-Module": {
+    "message": "BQDry 系列",
+    "description": "The label for category 'BQDry-Module' in sidebar 'moreSidebar'"
   }
 }
