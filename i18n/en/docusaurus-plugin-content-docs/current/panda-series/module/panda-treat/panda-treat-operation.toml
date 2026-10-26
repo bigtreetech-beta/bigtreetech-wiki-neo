@@ -1956,12 +1956,12 @@ translate = '''
 '''
 
 [[block]]
-key = "84063875d879dd27"
+key = "a91ffd8f661a359e"
 origin = '''
-不使用墨盒时，请始终将它直立放入装有硅胶密封件的随附墨盒支架中。不要侧放或倒置，也不要让喷嘴暴露超过必要时间。完整的存放，密封件更换和维护说明请参阅[墨盒处理](./panda-treat-hardware#墨盒处理)。
+不使用墨盒时，请始终将它直立放入装有硅胶密封件的随附墨盒支架中。不要侧放或倒置，也不要让喷嘴暴露超过必要时间。完整的存放，密封件更换和维护说明请参阅[墨盒处理](./panda-treat-hardware.mdx#墨盒处理)。
 '''
 translate = '''
-Store the cartridge upright in the supplied holder with the silicone seal installed whenever it is not being used. Do not store it on its side or upside down, and do not leave the nozzles exposed longer than necessary. See [Ink cartridge handling](./panda-treat-hardware#ink-cartridge-handling) for the complete storage, seal-replacement, and maintenance instructions.
+Store the cartridge upright in the supplied holder with the silicone seal installed whenever it is not being used. Do not store it on its side or upside down, and do not leave the nozzles exposed longer than necessary. See [Ink cartridge handling](./panda-treat-hardware.mdx#ink-cartridge-handling) for the complete storage, seal-replacement, and maintenance instructions.
 '''
 
 [[block]]

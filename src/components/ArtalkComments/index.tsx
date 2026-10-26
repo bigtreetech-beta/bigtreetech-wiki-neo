@@ -23,7 +23,8 @@ export default function ArtalkComments() {
 
         const artalk = MeowCommentsUI.init({
             el: '#artalk-container',
-            pageKey: location.pathname,
+            // Keep comment keys compatible with existing URLs without a trailing slash.
+            pageKey: location.pathname.replace(/\/+$/, '') || '/',
             pageTitle: document.title,
             baseUrl: 'https://artcdn.bttwiki.com',
             darkMode: colorMode === 'dark',

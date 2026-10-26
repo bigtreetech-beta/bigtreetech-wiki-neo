@@ -134,10 +134,10 @@ When using Pad5's USB OTG flash system to eMMC version hardware, please refer to
         </Tabs>
     </TabItem>
     <TabItem value="cb2" label="BIGTREETECH CB2">
-        - [Refer to CB2 manual](../iot-cb2/iot-cb2-firmware)
+        - [Refer to CB2 manual](../iot-cb2/iot-cb2-firmware.md)
     </TabItem>
     <TabItem value="cb1" label="BIGTREETECH CB1">
-        - [Refer to CB1 manual](../iot-cb1/iot-cb1-firmware)
+        - [Refer to CB1 manual](../iot-cb1/iot-cb1-firmware.md)
     </TabItem>
 </Tabs>
 

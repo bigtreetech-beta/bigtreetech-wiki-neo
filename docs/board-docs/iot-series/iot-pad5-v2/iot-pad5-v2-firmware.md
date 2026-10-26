@@ -134,10 +134,10 @@ import TabItem from '@theme/TabItem';
         </Tabs>
     </TabItem>
     <TabItem value="cb2" label="BIGTREETECH CB2">
-        - [参考CB2使用手册](../iot-cb2/iot-cb2-firmware)
+        - [参考CB2使用手册](../iot-cb2/iot-cb2-firmware.md)
     </TabItem>
     <TabItem value="cb1" label="BIGTREETECH CB1">
-        - [参考CB1使用手册](../iot-cb1/iot-cb1-firmware)
+        - [参考CB1使用手册](../iot-cb1/iot-cb1-firmware.md)
     </TabItem>
 </Tabs>
 
