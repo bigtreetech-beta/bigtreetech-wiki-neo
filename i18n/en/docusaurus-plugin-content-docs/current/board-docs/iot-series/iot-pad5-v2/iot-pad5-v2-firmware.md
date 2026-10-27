@@ -31,6 +31,7 @@ When using Pad5's USB OTG flash system to eMMC version hardware, please refer to
         On eMMC versions, the system cannot boot from the Micro SD card. So we have to write the system into eMMC to run.
 
         :::
+
         <Tabs groupId="rpi-emmc-sd">
             <TabItem value="rpi-sd" label="SD Card Version" default>
                 1. Download and install the official Raspberry Pi flashing tool from the Raspberry Pi website: https://www.raspberrypi.com/software/
@@ -182,7 +183,7 @@ Set both 2-pin I2C DIP switches to ON; this enables the touch signal line for th
 
                 <ImageView src={require('@site/docs/board-docs/iot-series/iot-pad5-v2/img/dsi.webp').default} width="60%"/>
 
-            2. Drag and arrange “DSI-1”, “DSI-2”, “HDMI-A-1” and “HDMI-A-2” as needed; the physical display layout will follow this arrangement, and the displays can also be fully overlapped to show identical content.
+            2. Drag and arrange "DSI-1", "DSI-2", "HDMI-A-1" and "HDMI-A-2" as needed; the physical display layout will follow this arrangement, and the displays can also be fully overlapped to show identical content.
 
             3. Assign each touch device to its corresponding display so that, after configuration, each touch device controls only its assigned display.
 
