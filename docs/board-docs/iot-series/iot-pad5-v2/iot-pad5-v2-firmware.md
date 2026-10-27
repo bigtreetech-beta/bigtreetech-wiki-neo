@@ -31,6 +31,7 @@ import TabItem from '@theme/TabItem';
         eMMC版本的树莓派不会运行Micro SD卡中的系统, 必须要烧录系统到eMMC中运行。
 
         :::
+
         <Tabs groupId="rpi-emmc-sd">
             <TabItem value="rpi-sd" label="SD卡版本" default>
                 1. 下载并安装树莓派官方的烧录软件：https://www.raspberrypi.com/software/
@@ -49,7 +50,7 @@ import TabItem from '@theme/TabItem';
 
                     <ImageView src={require('./img/pi3.webp').default} width="60%"/>
 
-                6. 选择待烧录的Micro SD卡，然后点击“Next”下一步
+                6. 选择待烧录的Micro SD卡，然后点击"Next"下一步
 
                     :::warning
 
@@ -134,10 +135,10 @@ import TabItem from '@theme/TabItem';
         </Tabs>
     </TabItem>
     <TabItem value="cb2" label="BIGTREETECH CB2">
-        - [参考CB2使用手册](../iot-cb2/iot-cb2-firmware)
+        - [参考CB2使用手册](../iot-cb2/iot-cb2-firmware.md)
     </TabItem>
     <TabItem value="cb1" label="BIGTREETECH CB1">
-        - [参考CB1使用手册](../iot-cb1/iot-cb1-firmware)
+        - [参考CB1使用手册](../iot-cb1/iot-cb1-firmware.md)
     </TabItem>
 </Tabs>
 
@@ -182,7 +183,7 @@ import TabItem from '@theme/TabItem';
 
                 <ImageView src={require('./img/dsi.webp').default} width="60%"/>
 
-            2. 拖动 “DSI-1”,“DSI-2”,“HDMI-A-1”, “HDMI-A-2”随意的排列组合，显示屏实际显示的内容就会按照此布局显示，并且可以将所有的显示屏完全叠加重合起来，这样所有的显示屏显示的就会是完全一样的内容。
+            2. 拖动 "DSI-1","DSI-2","HDMI-A-1", "HDMI-A-2"随意的排列组合，显示屏实际显示的内容就会按照此布局显示，并且可以将所有的显示屏完全叠加重合起来，这样所有的显示屏显示的就会是完全一样的内容。
 
             3. 设置每个显示屏对应的触摸设备，设置完后对应的触摸设备就会仅作用于匹配的显示屏。
 
@@ -493,4 +494,4 @@ import TabItem from '@theme/TabItem';
         </TabItem>
     </Tabs>
 
-3. eMMC版本的Raspberry Pi CM4/CM5 仅支持系统运行在eMMC中，完全不支持从Micro SD卡启动。而 eMMC 版本的BIGTREETECH CB1/CB2 仍然支持并以 Micro SD 中的系统作为第一优先级启动。
+3. eMMC版本的Raspberry Pi CM4/CM5 仅支持系统运行在eMMC中，完全不支持从Micro SD卡启动。而 eMMC 版本的BIGTREETECH CB1/CB2 仍然支持并以 Micro SD 中的系统作为第一优先级启动。
