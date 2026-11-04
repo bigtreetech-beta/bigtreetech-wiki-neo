@@ -23,8 +23,8 @@
     "@docusaurus/preset-classic": "3.10.2",
     "@easyops-cn/docusaurus-search-local": "^0.55.2",
     "@mdx-js/react": "^3.0.0",
-    "meow-comment-ui": "file:./package/meow-comment-ui",
     "clsx": "^2.0.0",
+    "meow-comment-ui": "file:./package/meow-comment-ui",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -36,6 +36,7 @@
     "@docusaurus/module-type-aliases": "3.10.2",
     "@docusaurus/tsconfig": "3.10.2",
     "@docusaurus/types": "3.10.2",
+    "@neko_vecter/i18n-toolkit": "^1.0.2",
     "tsx": "^4.22.4",
     "typescript": "~6.0.2"
   },
