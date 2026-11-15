@@ -1,0 +1,665 @@
+---
+sidebar_position: 1
+description: Panda Knomi V2 improves on V1 while retaining its features, introducing new GIF animations and adding support for P2/X2/H2 series printers through Panda Hub K2 and new 3D-printed parts.
+---
+
+# Panda Knomi V2
+
+<div class="div-table">
+
+{/* main image */}
+
+<ImageView
+	src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-main.webp").default}
+	alt=""
+	width="45%"
+	class="right-image"
+/>
+
+## Important Notes
+
+1. Panda Knomi V2 only monitors printer status; it does not control the printer. Therefore, Bambu Lab firmware updates do not affect its functionality. For more information about affected and unaffected features, see the [official Bambu Lab announcement](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/).
+
+2. Make sure your Knomi is running the [latest firmware](https://github.com/bigtreetech/PandaKnomi/releases).
+
+3. You can find printable mounting brackets and cable-management accessories for the P1, X1, and A1 series on [GitHub](https://github.com/bigtreetech/PandaKnomi/tree/master/Print_Files).
+
+4. Panda Knomi V2 supports 2.4 GHz Wi-Fi only.
+
+5. If `Invalid IP, correcting automatically` remains on the screen for an extended period, try controlling the printer using `Bambu Handy` or `Bambu Studio`. If the printer does not respond or appears offline, check the printer's network connection. If the printer responds normally, power-cycle Panda Knomi V2. If the connection still fails, contact `support01@bigtree-tech.com`.
+
+6. After connecting to the Panda Knomi V2 AP in your device settings, some phones may automatically open the Web UI in a restricted captive-portal window. This window may not allow GIF, IMG, or firmware uploads. Open the Web UI in a regular browser to upload these files.
+
+7. If you encounter a problem or have suggestions for future hardware or firmware releases, please [submit an issue](https://github.com/bigtreetech/PandaKnomi/issues) on GitHub.
+
+8. If you need help with an issue not covered by this wiki, contact customer support at `support01@bigtree-tech.com`.
+
+## Specifications
+
+| Parameter | Specification |
+| :-----| :----: |
+| Microcontroller | Xtensa dual-core 32-bit LX6 ESP32; Clock speed up to 240 MHz |
+| Memory | PSRAM-8MB (4MB RAM + [4MB Himem](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/himem.html)), Flash-16MB |
+| Logic Voltage | 3.3V |
+| Input Voltage | 5V-24V |
+| Rated Power | 0.65W |
+| Display Module Dimensions | 34.6mm x 37.9mm x 3.5mm |
+| Screen Size | 1.28 in |
+| Resolution | 240 x 240 |
+| Active Display Area | 32.4 (H) mm x 32.4 (V) mm |
+| Display Driver IC | GC9A01 |
+| Viewing Angle | All View |
+| Backlight Brightness | 400 Cd/m² |
+| Connectivity | 2.4 GHz Wi-Fi (IEEE 802.11 b/g/n) |
+| Operating Temperature | Panda Knomi V2: $-20\,^{\circ}\mathrm{C}$ to $+70\,^{\circ}\mathrm{C}$ |
+| Storage Temperature | $-30\,^{\circ}\mathrm{C}$ to $+80\,^{\circ}\mathrm{C}$ |
+| Backlight Lifetime | Over 20,000 hours |
+
+</div>
+
+## Dimensions and Ports
+
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-size.webp").default} alt="" width="45%" />
+
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-port.webp").default} alt="" width="45%" />
+
+## Installation Guide
+
+Panda Knomi V2 can be installed on P2, X2, and H2 series printers.
+
+For installation on A1/P1/X1 printers, refer to the Panda Knomi V1 [installation guide](https://global.bttwiki.com/PandaKnomi.html).
+
+### Install on P2/X2 Series
+
+1. Download and print [all P2/X2 housing parts](https://makerworld.com/en/models/3470198-panda-knomi-v2-printed-enclosure#profileId-3960966).
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-print.webp").default} alt="" width="45%" />
+
+2. Gently peel the protective film off Panda Knomi V2.
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-film.webp").default} alt="" width="45%" />
+
+3. Connect the included MX1.25 cable to the connector on the back of the Knomi V2. Route the cable through the opening in the printed housing, then place Panda Knomi V2 into the base.
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-mx1-25.webp").default} alt="" width="45%" />
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-install.webp").default} alt="" width="45%" />
+
+4. Insert the front cover as shown.
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-install-1.webp").default} alt="" width="45%" />
+
+5. Pass two M3x6 self-tapping screws through the printed spacers and use them to secure the Panda Hub K2 PCB to the rear 3D-printed case. Connect the MX1.25 cable to the connector on the back of Panda Hub K2, then snap the rear case into the main body.
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-px2.webp").default} alt="" width="45%" />
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-px2-1.webp").default} alt="" width="45%" />
+
+6. Completed installation.
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-back.webp").default} alt="" width="45%" />
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2.webp").default} alt="" width="45%" />
+
+### Install on H2 Series
+
+1. Download and print [all H2 housing parts](https://makerworld.com/en/models/3470198-panda-knomi-v2-printed-enclosure#profileId-3960966).
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-print.webp").default} alt="" width="45%" />
+
+2. Gently peel the protective film off Panda Knomi V2.
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-film.webp").default} alt="" width="45%" />
+
+3. Connect the included MX1.25 cable to the connector on the back of the Knomi V2. Route the cable through the opening in the printed housing, then place Panda Knomi V2 into the base.
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-mx1-25.webp").default} alt="" width="45%" />
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-install.webp").default} alt="" width="45%" />
+
+4. Insert the front cover as shown.
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-install-1.webp").default} alt="" width="45%" />
+
+5. Connect the MX1.25 cable to the connector on the back of Panda Hub K2. Then secure the Panda Hub K2 PCB to the rear of the center main body using two M3x6 self-tapping screws.
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-h2.webp").default} alt="" width="45%" />
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-h2-1.webp").default} alt="" width="45%" />
+
+6. Completed installation.
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-back.webp").default} alt="" width="45%" />
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2.webp").default} alt="" width="45%" />
+
+### Install on the Printer
+
+Insert the assembled Panda Knomi V2 into the USB flash drive port on top of the printer. If you need to use a USB flash drive, plug it into the USB port on top of the 3D-printed case.
+
+## User Interface Guide
+
+### First-Time Setup
+
+#### Access the Web UI
+
+1. Connect to the Panda Knomi V2 AP hotspot.
+
+    After the first startup or after running `Factory Reset`, the following screen appears.
+
+    <ImageView src={require("./img/panda-knomi-v2-ap-qr-code-en.webp").default} alt="" width="45%" />
+
+    1. Scan the QR code shown on Panda Knomi V2 (as illustrated above) to obtain its AP hotspot name and password, then tap to connect. The default AP credentials are:
+
+        Wi-Fi Name: `Panda_Knomi_xxxxxxxxxxxx`
+
+        Wi-Fi Password: `987654321`
+
+        :::tip
+
+        Most modern smartphones support QR code scanning through the camera, particularly iPhones running iOS 11 or later and devices running Android 9.0 or later. Keep your operating system and camera app updated for best results. If your device does not support this feature, use Google Lens or another QR scanner, or connect manually to the Panda Knomi V2 hotspot (default password: `987654321`) to access the Web UI.
+
+        :::
+
+    2. If the QR code connection fails, manually connect to the hotspot from your device's `Settings` menu.
+
+        Using an `iPhone` as an example:
+
+        1. On the Home Screen, go to `Settings` -> `Wi-Fi`.
+
+        2. Turn on `Wi-Fi`. Your device will scan for available networks.
+
+            <ImageView src={require("./img/panda-knomi-v2-wlan-en.webp").default} alt="" width="45%" />
+
+        3. Tap the network name beginning with `Panda_Knomi_` and enter the default password: `987654321`.
+
+        4. Once connected, a blue checkmark appears beside the Panda Knomi V2 network, and the connected Wi-Fi icon appears in the upper-right corner of the screen.
+
+2. After connecting to the AP, you should see a `Connected (login/authentication required)` notification. Tap it to open the Web UI. It may take 10–20 seconds to appear due to network conditions. If it still does not open, enter [192.168.254.1](http://192.168.254.1) in your browser for firmware `V1.0.4.1` or later; use [192.168.4.1](http://192.168.4.1) for earlier firmware.
+
+#### Connect Panda Knomi V2 to the Printer's Wi-Fi
+
+1. During initial setup, the `Select Language` screen opens automatically. Select a language and tap `Next`.
+
+    <ImageView src={require("./img/panda-knomi-v2-language-en.webp").default} alt="" width="45%" />
+
+2. On the Wi-Fi setup screen, Panda Knomi V2 automatically scans for nearby networks. Select the same Wi-Fi network used by your printer. If it is not listed, tap `Scan` to search again.
+
+    <ImageView src={require("./img/panda-knomi-v2-wifi-en.webp").default} alt="" width="45%" />
+
+3. Wait for the connection to succeed. In the confirmation dialog shown below, tap `Bind Printer` to open the `Printer` page and bind your printer.
+
+    <ImageView src={require("./img/panda-knomi-v2-goto-printer-en.webp").default} alt="" width="45%" />
+
+#### Bind a Printer
+
+:::note
+
+If the Access Code field is blank, the printer may be in cloud mode without being linked to a cloud account. Enable `LAN Only Mode` on the printer, or use Bambu Handy/Bambu Studio to link it to a cloud account.
+
+:::
+
+##### Automatic Scan
+
+1. Open the `Printer` page in the Web UI and tap `Scan` to discover Bambu Lab printers on the same LAN. A complete scan takes approximately 30 seconds; each additional Bambu Lab printer may add up to 20 seconds. A scan can identify up to 20 printers, so some printers may not appear if there are more than 20 on your network. If your target printer is not found, tap `Scan` again or use `Manual Entry` to enter its details.
+
+    <ImageView src={require("./img/panda-knomi-v2-printer-ui-en.webp").default} alt="" width="45%" />
+
+2. After scanning, select the printer you want to connect. Its `Serial Number` and `IP` fields populate automatically. On the printer, go to Settings -> LAN Only Mode, find the `Access Code`, and enter it in the Web UI's `Printer Access Code` field.
+
+3. Tap `Bind` to connect. A `Binding Successful` dialog confirms that Panda Knomi V2 has connected to the printer.
+
+    <ImageView src={require("./img/panda-knomi-v2-bind-ok-en.webp").default} alt="" width="45%" />
+
+4. Congratulations! Your Panda Knomi V2 is ready to use.
+
+##### Manual Entry
+
+1. Each Panda Knomi V2 scan can identify up to 20 printers. If your LAN contains more than 20 Bambu Lab printers, some may not appear; use `Manual Entry` to enter all the information required to bind the printer.
+
+2. If only a few Bambu Lab printers are on your LAN but scanning still cannot find yours, try `Manual Entry` first. If Panda Knomi V2 cannot connect, your router may have security settings that prevent devices on the same LAN from communicating. Contact `support01@bigtree-tech.com` for further troubleshooting.
+
+3. Find the printer's `Serial Number`, `Access Code`, and `IP` under Settings -> LAN Only Mode, then enter them in the corresponding Web UI fields.
+
+4. Tap `Bind` to connect. A `Binding Successful` dialog confirms that Panda Knomi V2 has connected to the printer.
+
+5. Congratulations! Your Panda Knomi V2 is ready to use.
+
+### Wi-Fi & IP Page
+
+1. The first page shown in the Panda Knomi V2 Web UI is the Wi-Fi & IP settings page.
+
+    <ImageView src={require("./img/panda-knomi-v2-wifi-ip-en.webp").default} alt="" width="45%" />
+
+2. Open the `Wi-Fi&IP` page.
+
+3. To change the Wi-Fi network used by Panda Knomi V2, tap `Wi-Fi Network Configuration` and configure the new network.
+
+    :::warning
+
+    Changing the Wi-Fi network may also change the LAN and IP address used by Panda Knomi V2. If you change this setting while accessing the Web UI from another device on the current LAN, that device will lose its connection to Panda Knomi V2. Reconnect it to the new Wi-Fi network to restore access. To avoid interruption, connect to the Panda Knomi V2 AP hotspot before changing this setting.
+
+    :::
+
+4. After Wi-Fi setup, connect your phone or computer to the same LAN as Panda Knomi V2 and enter its IP address in your browser to access the Web UI. You can bookmark the address on your phone's Home Screen for quick access.
+
+5. When your device is on the same LAN as Panda Knomi V2, you can also access the Web UI using its hostname. The factory-default hostname is `PandaKnomi`, accessible at [http://pandaknomi.local](http://pandaknomi.local) (case-insensitive). A VPN may prevent hostname access; use the IP address instead.
+
+    You can customize the hostname, subject to the following rules:
+
+    1. Use only letters (a-z, A-Z), numbers (0-9), and hyphens (-). The first character must be a letter.
+
+    2. Use 8–32 characters. For firmware `V1.0.2` and earlier, do not exceed 15 characters; a longer hostname may prevent startup. Update to firmware `V1.0.3` or later if needed.
+
+    3. Tap `Set Hostname` to send the new hostname to Panda Knomi V2. When the confirmation dialog shown below appears, the hostname has been saved. A restart is required for it to take effect. Tap `OK` to restart Panda Knomi V2 immediately, or tap `x` in the upper-right corner to close the dialog and restart later.
+
+        <ImageView src={require("./img/panda-knomi-v2-hostname-en.webp").default} alt="" width="45%" />
+
+### AP Page
+
+1. The next Web UI page is `AP`. The Panda Knomi V2 AP is a Wi-Fi hotspot broadcast by Panda Knomi V2, allowing phones and computers to connect directly. You can disable it if you do not want the hotspot to be broadcast. However, if Panda Knomi V2 cannot connect to the configured Wi-Fi network, it automatically enables its AP again, providing a fallback connection for troubleshooting.
+
+2. :::warning
+
+    If you are accessing the Web UI through the Panda Knomi V2 AP, disabling the AP or changing its settings will disconnect your device. To avoid interruption, connect your device to the same LAN as Panda Knomi V2 before changing these settings.
+
+    :::
+
+    <ImageView src={require("./img/panda-knomi-v2-ap-en.webp").default} alt="" width="45%" />
+
+3. Open the `AP` page.
+
+4. Enable or disable the Panda Knomi V2 AP hotspot. Once disabled, you cannot access the Web UI through this hotspot. Before disabling it, record the IP address assigned to Panda Knomi V2 on its Wi-Fi network so you can access the Web UI from another device on the same LAN.
+
+5. Change the Panda Knomi V2 AP hotspot settings. The defaults are:
+
+    Wi-Fi Name: `Panda_Knomi_xxxxxxxxxxxx`
+
+    Wi-Fi Password: `987654321`
+
+    Changes take effect without restarting Panda Knomi V2; it recreates the AP hotspot in the background.
+
+## Theme Settings and IMG Sharing
+
+### GIF Status Reference
+
+1. Due to hardware limitations, each GIF must be no larger than 1.5MB (1536KB; 1MB = 1024KB), and all GIF files combined must not exceed 3MB (3072KB; 1MB = 1024KB).
+
+2. Factory GIFs occupy 2664.25KB in total (a slight difference from the sum in the table below due to rounding each GIF size to two decimal places), leaving 407.75KB available.
+
+| | Filename in Web UI | GIF Preview | Display Condition (printer must be bound) | Factory GIF Size | Factory GIF Resolution (W x H) |
+| :-----| :-----| :----: | :----: | :----: | :----: |
+| 1 | Standby.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-standby.webp").default} alt="" width="45%" /> | Printer is idle | 63.61KB | 240 x 240 |
+| 2 | Nozzle Heating.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-nozzle-heating.webp").default} alt="" width="45%" /> | Nozzle is heating | 135.7KB | 240 x 240 |
+| 3 | Bed Heating.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-bed-heating.webp").default} alt="" width="45%" /> | Heated bed is heating | 128.55KB | 240 x 240 |
+| 4 | Bed Leveling.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-bed-leveling.webp").default} alt="" width="45%" /> | Automatic bed leveling in progress | 111.28KB | 240 x 240 |
+| 5 | Homing.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-homing.webp").default} alt="" width="45%" /> | Printer is homing | 142.75KB | 240 x 240 |
+| 6 | Nozzle Cleaning.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-nozzle-cleaning.webp").default} alt="" width="45%" /> | Nozzle cleaning in progress | 164.02KB | 240 x 240 |
+| 7 | Flow Calibration.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-calibrating-flow.webp").default} alt="" width="45%" /> | Extrusion flow calibration in progress | 1023.41KB | 240 x 240 |
+| 8 | XY Resonance Compensation.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-xy-mesh-mode-sweep.webp").default} alt="" width="45%" /> | Resonance compensation calibration in progress | 78.45KB | 240 x 240 |
+| 9 | Filament Position Check.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-filament-check-location.webp").default} alt="" width="45%" /> | Checking filament position | 225.3KB | 240 x 240 |
+| 10 | Filament Cutting.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-filament-cut.webp").default} alt="" width="45%" /> | Cutting filament | 54.09KB | 240 x 240 |
+| 11 | Filament Retract.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-filament-pull-back-cur.webp").default} alt="" width="45%" /> | Retracting current filament | 139.41KB | 240 x 240 |
+| 12 | Load New Filament.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-filament-push-new.webp").default} alt="" width="45%" /> | Loading new filament | 164.94KB | 240 x 240 |
+| 13 | Purge Old Filament.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-filament-purge-old.webp").default} alt="" width="45%" /> | Purging old filament | 52.98KB | 240 x 240 |
+| 14 | Print Complete.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-printing-ok.webp").default} alt="" width="45%" /> | Print complete | 22.37KB | 240 x 240 |
+| 15 | Printing.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-printing.webp").default} alt="" width="45%" /> | Printing in progress | 157.41KB | 240 x 240 |
+
+### Screensaver
+
+1. To reduce the risk of screen burn-in from static images, Panda Knomi V2 displays a built-in screensaver GIF for 2 seconds every 15 seconds while a static screen is shown. This GIF cannot be customized.
+
+2. The screensaver animation is shown below:
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-screen-saver.webp").default} alt="" width="45%" />
+
+3. The following static screens use the screensaver:
+
+    1. Invalid IMG screen
+
+    2. Factory-default Hello screen
+
+    3. Wi-Fi scan completed screen
+
+    4. Wi-Fi connection failed screen
+
+    5. Incorrect Wi-Fi password screen
+
+    6. Bind printer screen
+
+    7. Printer scan completed screen
+
+    8. Invalid printer serial number screen
+
+    9. Incorrect printer Access Code screen
+
+    10. Single printer HMS QR code screen
+
+    11. Multiple printer HMS errors screen
+
+### Theme Settings
+
+<ImageView src={require("./img/panda-knomi-v2-theme-1-2-3-4-5-en.webp").default} alt="" width="45%" />
+
+<ImageView src={require("./img/panda-knomi-v2-theme-6-en.webp").default} alt="" width="45%" />
+
+<ImageView src={require("./img/panda-knomi-v2-settings-7-8-en.webp").default} alt="" width="45%" />
+
+1. Open the `Theme` page.
+
+2. Choose how print progress is displayed. Three options are available:
+
+    1. `Percentage Only`: Displays real-time print progress while the printer is printing.
+
+    2. `GIF Only`: Displays the printing-status GIF while the printer is printing.
+
+    3. `Alternate Percentage and GIF`: Alternates between real-time progress and the printing GIF every 10 seconds.
+
+3. Set the GIF color.
+
+    <ImageView src={require("./img/panda-knomi-v2-picker-en.webp").default} alt="" width="45%" />
+
+    1. a Tap this button to open the GIF color settings.
+
+    2. b HSL color picker ([What is HSL?](https://en.wikipedia.org/wiki/HSL_and_HSV))
+
+    3. c HSLA H (hue): $0\text{--}360^{\circ}$
+
+    4. d HSLA S (saturation): 0–100%
+
+    5. e HSLA L (lightness): 0–100%
+
+    6. f HSLA A (alpha/opacity): 0.00–1.00
+
+    7. g Hexadecimal RGBA value. Each channel ranges from 0 to 255 (0x00–0xFF). Edit the value directly to choose a color. For example, #FF5703FF means:
+
+        1. R (red): 0xFF (255/255)
+
+        2. G (green): 0x57 (87/255)
+
+        3. B (blue): 0x03 (3/255)
+
+        4. A (alpha): 0xFF (1.00/1.00)
+
+    8. h HSLA color value: H (hue) $0\text{--}360^{\circ}$, S (saturation) 0–100%, L (lightness) 0–100%, and A (alpha) 0.00–1.00. Edit these values directly to change the color. For example, hsla(20, 100%, 51%, 1) means:
+
+        1. H (hue): $20^{\circ}$
+
+        2. S (saturation): 100%
+
+        3. L (lightness): 51%
+
+        4. A (alpha): 1.00
+
+    9. i Clear the custom color to restore the GIF's original colors.
+
+    10. j Preview area for the selected color.
+
+4. Check GIF storage usage. Due to Panda Knomi V2 hardware limits, all GIFs combined must not exceed 3MB (3072KB; 1MB = 1024KB). If the limit is exceeded, the Web UI blocks the update and displays a warning.
+
+5. Configure each GIF individually, including its color and custom animation.
+
+    Toggle `Preview This GIF` to show or hide the `Preview` button. Tap `Preview This GIF` to enter preview mode. The Panda Knomi V2 screen displays `Preview This GIF` and plays the custom animation. To exit preview mode, turn off `Preview This GIF` or navigate to any page other than `Theme`.
+
+    Notes on custom GIFs
+
+    1. To use the recoloring feature, the GIF background must be transparent. Otherwise, the background is recolored too, potentially causing the entire display to appear as a nearly solid color.
+
+    2. Due to software decoder limitations, the last frame of a transparent GIF must match its first frame. Otherwise, the final and first frames may overlap. If you do not need dynamic recoloring, you can use a nontransparent GIF and this restriction does not apply.
+
+    3. Panda Knomi V2 has a `Width x Height` resolution of `240 x 240` pixels. Images larger than this cannot be displayed in full, so GIF dimensions must be no greater than 240 x 240. Resize oversized GIFs using a tool such as [https://www.iloveimg.com/resize-image/resize-gif](https://www.iloveimg.com/resize-image/resize-gif).
+
+        1. Click `Select images` on the website or drag your GIF onto the page.
+
+        2. Keep `Maintain aspect ratio` selected to avoid distorting the animation.
+
+        3. Change the larger of `Width (px):` and `Height (px):` to 240 or less. If both are equal, either field can be changed.
+
+        4. Click `Resize IMAGES`.
+
+        5. Wait for processing to finish, then click `Download resized IMAGES` to save the resized GIF.
+
+    4. Each GIF must be no larger than 1.5MB (1536KB; 1MB = 1024KB), and all GIFs combined must not exceed 3MB (3072KB; 1MB = 1024KB).
+
+    5. A replacement GIF must not exceed the size of the existing GIF plus the remaining free space. Otherwise, the Web UI rejects it and shows a capacity warning. Check free space under `4` and individual GIF sizes under `5`.
+
+        Example:
+
+        If you replace `Standby.gif`, the factory GIF is 63.61KB and the available space is 407.75KB, so the replacement can be no larger than 63.61KB + 407.75KB = 471.36KB.
+
+6. Export your custom GIF collection as an IMG file for backup or sharing.
+
+    :::note
+
+    On firmware V1.0.2 and earlier, IMG files contain only GIF data, not custom color settings. Firmware V1.0.3 and later includes custom color data.
+
+    :::
+
+7. Apply an IMG file shared by another user to Panda Knomi V2.
+
+### Apply an IMG File to Panda Knomi V2
+
+:::note
+
+On firmware V1.0.2 and earlier, IMG files contain only GIF data, not custom color settings. Firmware V1.0.3 and later includes custom color data.
+
+:::
+
+1. Download an IMG theme file.
+
+    1. Download a Panda Knomi V2 `.img` file shared by another community member.
+
+    2. Download a file from the Panda Knomi V2 GitHub repository.
+
+        1. Visit the [Panda Knomi V2 GitHub repository](https://github.com/bigtreetech/PandaKnomi).
+
+        2. Open the IMG folder and select a theme you like.
+
+            <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-github-path.webp").default} alt="" width="45%" />
+
+        3. Click Download to save the file locally.
+
+            <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-github-download.webp").default} alt="" width="45%" />
+
+2. In the Panda Knomi V2 Web UI, select 1 `Settings` -> 2 `Select .img File`, then choose the `.img` file you downloaded. Wait for the update to complete; Panda Knomi V2 automatically applies and displays the new IMG theme.
+
+    <ImageView src={require("./img/panda-knomi-v2-web-upload-en.webp").default} alt="" width="45%" />
+
+### Export and Share an IMG File
+
+:::note
+
+On firmware V1.0.2 and earlier, IMG files contain only GIF data, not custom color settings. Firmware V1.0.3 and later includes custom color data.
+
+:::
+
+1. Open the Panda Knomi V2 Web UI and select 1 `Theme` -> 2 `Export IMG`. Wait for the export to complete.
+
+    <ImageView src={require("./img/panda-knomi-v2-web-download-en.webp").default} alt="" width="45%" />
+
+2. Rename the exported IMG file using this format: `panda_knomi_diy_<theme_name>_<author_name>_YYYY_MM_DD.img`
+
+    1. `<theme_name>`: A name you choose for your IMG theme.
+
+    2. `<author_name>`: Your name or creator handle.
+
+    3. `YYYY_MM_DD`: Date of the IMG file, in year_month_day format.
+
+        Example: `panda_knomi_diy_theme_author_2025_02_22.img`.
+
+3. Share the .img file on GitHub.
+
+    1. If you do not have a GitHub account, [create one](https://docs.github.com/en/account-and-profile/how-tos/account-management/creating-an-account-on-github).
+
+    2. Visit the [Panda Knomi V2 GitHub repository](https://github.com/bigtreetech/PandaKnomi).
+
+    3. Click 1 `Fork`.
+
+        <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-fork-1.webp").default} alt="" width="45%" />
+
+    4. Click 2 `Create fork`.
+
+        <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-fork-2.webp").default} alt="" width="45%" />
+
+    5. Wait for the `fork` to complete.
+
+        <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-fork-3.webp").default} alt="" width="45%" />
+
+    6. After forking, open the IMG folder.
+
+        <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-pri-path.webp").default} alt="" width="45%" />
+
+    7. Drag the IMG file into the browser. The `Drop to upload your files` screen appears.
+
+        <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-drag.webp").default} alt="" width="45%" />
+
+        <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-drop.webp").default} alt="" width="45%" />
+
+    8. Enter 1 a `Title` for your custom IMG, 2 a `Detailed Description` of the theme, and 3 click `Commit files`.
+
+        <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-pri-commit.webp").default} alt="" width="45%" />
+
+    9. `Contribute` -> 2 `Open pull request`
+
+        <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-open-pr.webp").default} alt="" width="45%" />
+
+    10. Enter 1 a `Title` for your custom IMG, 2 a `Detailed Description`, 3 select `Allow edits by maintainers`, and 4 click `Create pull request`.
+
+        <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-create-pr.webp").default} alt="" width="45%" />
+
+    11. Your theme has been shared successfully!
+
+## Factory Reset
+
+:::warning
+
+A factory reset clears all Panda Knomi V2 settings, including language, connected Wi-Fi, custom hostname, custom AP hotspot name and password, bound printer, print-progress display preference, and theme color settings. It does not restore custom GIFs to the factory GIFs. GIFs can only be changed by uploading GIF files or applying an IMG file. Download the factory IMG from the [Panda Knomi V2 GitHub repository](https://github.com/bigtreetech/PandaKnomi/blob/master/IMG/panda_knomi_factory.img).
+
+:::
+
+### Reset Through the Web UI
+
+1. Open 1 `Settings` and click 2 `Factory Reset`.
+
+    <ImageView src={require("./img/panda-knomi-v2-factory-1-en.webp").default} alt="" width="45%" />
+
+2. In the confirmation dialog, click 3 `Yes`. Panda Knomi V2 restores factory settings and restarts.
+
+    <ImageView src={require("./img/panda-knomi-v2-factory-2-en.webp").default} alt="" width="45%" />
+
+### Reset Using the Button
+
+Press and hold the `Boot` button on Panda Knomi V2 for 5 seconds. The device restores factory settings and restarts.
+
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-boot.webp").default} alt="" width="45%" />
+
+## Firmware
+
+### Feature Requests
+
+To suggest features for a future Panda Knomi V2 firmware release, submit a request on the official GitHub repository.
+
+[Request a Feature](https://github.com/bigtreetech/PandaKnomi/issues)
+
+### Update the Firmware
+
+#### OTA
+
+1. Access the Web UI.
+
+    :::tip
+
+    If Panda Knomi V2 is already connected to Wi-Fi, you can access the Web UI by IP from any device on the same LAN. Alternatively, connect directly to the Panda Knomi V2 AP hotspot. Either method can be used to update the firmware.
+
+    :::
+
+    1. Connect through the same LAN as Panda Knomi V2.
+
+        1. Connect your device to the same LAN as Panda Knomi V2 (via Wi-Fi or Ethernet).
+
+        2. Enter the Panda Knomi V2 IP address or hostname in your browser. The factory-default hostname address is `http://pandaknomi.local`. If a VPN prevents hostname access, enter the IP address directly.
+
+    2. Update through the Panda Knomi V2 AP hotspot.
+
+        1. Connect your device to the Panda Knomi V2 AP hotspot. For example, on an iPhone:
+
+            1. On the Home Screen, go to `Settings` -> `Wi-Fi`.
+
+            2. Turn on `Wi-Fi`. Your device scans for available networks.
+
+                <ImageView src={require("./img/panda-knomi-v2-wlan-en.webp").default} alt="" width="45%" />
+
+            3. Tap the network beginning with `Panda_Knomi_` and enter the default password: `987654321`.
+
+            4. When connected, a blue checkmark appears next to the Panda Knomi V2 network, and a Wi-Fi icon appears in the upper-right corner.
+
+
+        2. Once connected to the AP, you should see `Connected (login/authentication required)`. Tap it to open the Web UI. Depending on network conditions, this may take 10–20 seconds. If the Web UI does not open, manually enter [192.168.254.1](http://192.168.254.1) for firmware `V1.0.4.1` and later, or [192.168.4.1](http://192.168.4.1) for earlier firmware.
+
+2. In the Web UI, open 1 `Settings`, click 2 `Select .bin File`, and select the firmware file. The device restarts automatically after the update.
+
+    <ImageView src={require("./img/panda-knomi-v2-firmware-en.webp").default} alt="" width="45%" />
+
+#### flash_download_tool (Type-C Flashing)
+
+:::warning
+
+Panda Knomi V2 normally supports OTA updates. Use this procedure only if OTA updating is unavailable.
+
+:::
+
+1. If the CH340 driver is not installed on your computer, download and install [CH341SER.EXE](https://www.wch.cn/downloads/CH341SER_EXE.html).
+
+2. Download the [Flash Download Tool](https://www.espressif.com/en/support/download/other-tools).
+
+    <ImageView src={require("./img/panda-knomi-v2-download-esp-tool-en.webp").default} alt="" width="45%" />
+
+3. Download the [Panda Knomi V2 firmware](https://github.com/bigtreetech/PandaKnomi).
+
+4. Press and hold the `Boot` button on Panda Knomi V2 while connecting it to your computer through the `Type-C` port. A new COM port should appear in Windows Device Manager.
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-boot-fw.webp").default} alt="" width="45%" />
+
+5. Open `flash_download_tool_3.9.8_6.exe` and configure the dialog as shown below.
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-open-esp-tool.webp").default} alt="" width="45%" />
+
+6. Configure the flashing tool as shown below.
+
+    <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-set-esp-tool.webp").default} alt="" width="45%" />
+
+    1. Set the flash addresses for the .bin files and select each checkbox.
+
+        1. Flash `panda_knomi_bootloader.bin` at `0x1000`.
+
+        2. Flash `panda_knomi_partitions.bin` at `0x8000`.
+
+        3. Flash `panda_knomi_v1.0.0.bin` at `0x10000`.
+
+        4. Flash `panda_knomi_v1.0.0.img` at `0x910000`.
+
+    2. Select the COM port used by Panda Knomi V2 (see `Device Manager` -> `Ports` on your computer), then set a suitable baud rate. We recommend `460800`.
+
+    3. Click `START` to flash the firmware. Once flashing is complete, disconnect power and restart the device.
+
+### Firmware History
+
+#### [V1.1.0](https://github.com/bigtreetech/PandaKnomi/releases/tag/V1.1.0)
+
+1. Fixed Web UI issues involving Wi-Fi connections, hyperlink redirects, and failed IMG downloads/exports.
+
+2. Added support for 18-byte serial numbers used by A2L.
+
+3. Changed `printing_ok.gif` from playing for only 2.5 seconds to playing continuously for 30 minutes (unless the print status changes).
+
+4. Added three new status GIFs:
+
+    1. `plate_type.gif` for detecting the build plate type.
+
+    2. `calibration_lines.gif` for printing calibration lines.
+
+    3. `chamber_cooling.gif` for waiting for the chamber to cool.
+
+## Technical Support
+
+Was this page helpful? If you have any further questions or encounter problems using the product, contact our support team at `support01@bigtree-tech.com`.
