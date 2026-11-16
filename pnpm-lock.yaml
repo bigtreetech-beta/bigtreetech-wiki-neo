@@ -190,6 +190,9 @@ importers:
       katex:
         specifier: ^0.19.0
         version: 0.19.0
+      meow-comment-ui:
+        specifier: file:./package/meow-comment-ui
+        version: file:package/meow-comment-ui
       prism-react-renderer:
         specifier: ^2.3.0
         version: 2.4.1(react@19.3.0)
@@ -4213,6 +4216,9 @@ packages:
 
   memfs@4.80.0:
     resolution: {integrity: sha512-N70W2isi44XdGn7uPo9NJ4zRukcdkwSFHlnYx42SWOH/+hzqNc8P7+tVoA2up4z7faHvNi1RSNCFjxoYQ71VPQ==}
+
+  meow-comment-ui@file:package/meow-comment-ui:
+    resolution: {directory: package/meow-comment-ui, type: directory}
 
   merge-descriptors@1.0.3:
     resolution: {integrity: sha512-gaNvAS7TZ897/rVaZ0nMtAyxNyi/pdbjbAwUpFQpN70GqnVfOiXpeUUMKRBmzXaSQ8DdTX4/0ms62r2K+hE6mQ==}
@@ -11437,6 +11443,8 @@ snapshots:
       thingies: 2.6.1(tslib@2.8.1)
       tree-dump: 1.1.0(tslib@2.8.1)
       tslib: 2.8.1
+
+  meow-comment-ui@file:package/meow-comment-ui: {}
 
   merge-descriptors@1.0.3: {}
 
