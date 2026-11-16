@@ -40,7 +40,7 @@ jobs:
         cache: pnpm
         cache-dependency-path: pnpm-lock.yaml
         
-      # init yarn 
+    # init 
     - name: Install dependencies
       run: pnpm install --frozen-lockfile
 
