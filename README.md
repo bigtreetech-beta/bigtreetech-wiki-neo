@@ -1,44 +1,33 @@
 # Bigtreetech WiKi NEO
 
-### install requirement 
+### requirement 
 
-#### ArchLinux
+- nodejs 24-26
+- git
+- corepack
+- pnpm
 
-``` shell
-sudo pacman -S yarn
-```
-
-#### Debian
-
-``` shell
-sudo apt install yarn
-```
-
-#### Windows
-
-First, download and install Node.js
-
-Then in PowerShell use following command install yarn
+#### enable corepack
 
 ``` shell
-npm install --global yarn
+corepack enbale
 ```
 
 ### Install Package 
 
 ``` shell
 cd ~/wiki-dev
-yarn install 
+pnpm install
 ```
 
 ### Run wiki
 
 ``` shell
-yarn run start
+pnpm start
 ```
 
 ### Build wiki
 
 ``` shell
-yarn run build
+pnpm build
 ```
