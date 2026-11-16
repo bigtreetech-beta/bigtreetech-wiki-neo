@@ -21,11 +21,15 @@
     "@docusaurus/core": "3.10.2",
     "@docusaurus/faster": "3.10.2",
     "@docusaurus/preset-classic": "3.10.2",
+    "@docusaurus/theme-common": "3.10.2",
     "@easyops-cn/docusaurus-search-local": "^0.55.2",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "meow-comment-ui": "file:./package/meow-comment-ui",
+    "clsx": "^2.0.0",
+    "katex": "^0.19.0",
     "prism-react-renderer": "^2.3.0",
+    "prismjs": "^1.30.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-photo-view": "^1.2.7",
@@ -37,6 +41,7 @@
     "@docusaurus/tsconfig": "3.10.2",
     "@docusaurus/types": "3.10.2",
     "@neko_vecter/i18n-toolkit": "^1.0.2",
+    "@types/react": "^19.3.0",
     "tsx": "^4.22.4",
     "typescript": "~6.0.2"
   },
@@ -54,5 +59,6 @@
   },
   "engines": {
     "node": ">=24.0"
-  }
+  },
+  "packageManager": "pnpm@12.9.1+sha512.06b055fff5cd20dc12781de173ced3310ce0951bf2ec620211a16045d5444d5c93a663210764ef29a653a610459ba0368f0e74f84d80c54723cf95aae7bc0d6d"
 }

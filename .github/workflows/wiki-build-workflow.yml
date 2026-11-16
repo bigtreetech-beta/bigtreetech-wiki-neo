@@ -26,16 +26,21 @@ jobs:
     steps:
     - uses: actions/checkout@v6
     
+    - name: Enable Corepack
+      run: corepack enable
+
     - name: Setup Environment
       uses: actions/setup-node@v6
       with:
         node-version: '24.x'
-        
+        cache: pnpm
+        cache-dependency-path: pnpm-lock.yaml
+
     - name: Install dependencies
-      run: yarn install
+      run: pnpm install --frozen-lockfile
       
     - name: build wiki 
-      run: yarn run build
+      run: pnpm build
 
     # config rclone
     - name: Install rclone
