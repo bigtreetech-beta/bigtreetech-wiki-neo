@@ -1,0 +1,6289 @@
+[metadata]
+
+[[block]]
+key = "92dd4e1f8c038a7a"
+type = "yaml"
+origin = '''
+---
+sidebar_position: 1
+description: Panda Knomi V2 是一款在 V1 版本上改进而来的产品，该型号在保留 V1 功能的同时，更新了新的 gif 表情，同时通过增加 Panda Hub K2 与新打印件实现 P2/X2/H2 系列机器的适配。
+---
+'''
+translate = '''
+---
+sidebar_position: 1
+description: Panda Knomi V2 improves on V1 while retaining its features, introducing new GIF animations and adding support for P2/X2/H2 series printers through Panda Hub K2 and new 3D-printed parts.
+---
+'''
+
+[[block]]
+key = "fd4ea78125f0247c"
+type = "heading"
+origin = '''
+# Panda Knomi V2
+'''
+translate = '''
+# Panda Knomi V2
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51"
+type = "mdxJsxFlowElement"
+composite = true
+origin = '''
+<div class="div-table">
+
+{{e8cafa51df8b8b51-08d861992297e76a}}
+
+{{e8cafa51df8b8b51-3df794f729a4dd70}}
+
+{{e8cafa51df8b8b51-294dfbe0335cbb5d}}
+
+{{e8cafa51df8b8b51-41cee495f733dbb0}}
+
+{{e8cafa51df8b8b51-feb7b0f2778857cf}}
+
+{{e8cafa51df8b8b51-5c87fbd75cc24f3c}}
+
+</div>
+'''
+translate = '''
+<div class="div-table">
+
+{{e8cafa51df8b8b51-08d861992297e76a}}
+
+{{e8cafa51df8b8b51-3df794f729a4dd70}}
+
+{{e8cafa51df8b8b51-294dfbe0335cbb5d}}
+
+{{e8cafa51df8b8b51-41cee495f733dbb0}}
+
+{{e8cafa51df8b8b51-feb7b0f2778857cf}}
+
+{{e8cafa51df8b8b51-5c87fbd75cc24f3c}}
+
+</div>
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-08d861992297e76a"
+type = "mdxFlowExpression"
+origin = '''
+{/* main image */}
+'''
+translate = '''
+{/* main image */}
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-3df794f729a4dd70"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView
+	src={require("./img/panda-knomi-v2-main.webp").default}
+	alt=""
+	width="45%"
+	class="right-image"
+/>
+'''
+translate = '''
+<ImageView
+	src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-main.webp").default}
+	alt=""
+	width="45%"
+	class="right-image"
+/>
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-294dfbe0335cbb5d"
+type = "heading"
+origin = '''
+## 重要提示
+'''
+translate = '''
+## Important Notes
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-41cee495f733dbb0"
+type = "list"
+composite = true
+origin = '''
+{{e8cafa51df8b8b51-41cee495f733dbb0-d4ea0529a196fc32}}
+
+{{e8cafa51df8b8b51-41cee495f733dbb0-09e34a9692845d63}}
+
+{{e8cafa51df8b8b51-41cee495f733dbb0-ffe47fa28011cbdb}}
+
+{{e8cafa51df8b8b51-41cee495f733dbb0-7b3e3aba1cdf01f3}}
+
+{{e8cafa51df8b8b51-41cee495f733dbb0-590307edb9071232}}
+
+{{e8cafa51df8b8b51-41cee495f733dbb0-174c91d60f21f211}}
+
+{{e8cafa51df8b8b51-41cee495f733dbb0-3ff61f1831b8a903}}
+
+{{e8cafa51df8b8b51-41cee495f733dbb0-0916897feac5e2af}}
+'''
+translate = '''
+{{e8cafa51df8b8b51-41cee495f733dbb0-d4ea0529a196fc32}}
+
+{{e8cafa51df8b8b51-41cee495f733dbb0-09e34a9692845d63}}
+
+{{e8cafa51df8b8b51-41cee495f733dbb0-ffe47fa28011cbdb}}
+
+{{e8cafa51df8b8b51-41cee495f733dbb0-7b3e3aba1cdf01f3}}
+
+{{e8cafa51df8b8b51-41cee495f733dbb0-590307edb9071232}}
+
+{{e8cafa51df8b8b51-41cee495f733dbb0-174c91d60f21f211}}
+
+{{e8cafa51df8b8b51-41cee495f733dbb0-3ff61f1831b8a903}}
+
+{{e8cafa51df8b8b51-41cee495f733dbb0-0916897feac5e2af}}
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-41cee495f733dbb0-d4ea0529a196fc32"
+type = "listItem"
+composite = true
+origin = '''
+1. {{e8cafa51df8b8b51-41cee495f733dbb0-d4ea0529a196fc32-1dea2ba55e454736}}
+'''
+translate = '''
+1. {{e8cafa51df8b8b51-41cee495f733dbb0-d4ea0529a196fc32-1dea2ba55e454736}}
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-41cee495f733dbb0-d4ea0529a196fc32-1dea2ba55e454736"
+type = "paragraph"
+origin = '''
+Panda Knomi V2 只监听打印机的状态，不控制打印机，所以 Panda Knomi V2 的功能不会受拓竹固件更新的影响。有关受影响和不受影响的更多信息，请参阅[Bambu Lab 官方公告](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/)。
+'''
+translate = '''
+Panda Knomi V2 only monitors printer status; it does not control the printer. Therefore, Bambu Lab firmware updates do not affect its functionality. For more information about affected and unaffected features, see the [official Bambu Lab announcement](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/).
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-41cee495f733dbb0-09e34a9692845d63"
+type = "listItem"
+composite = true
+origin = '''
+2. {{e8cafa51df8b8b51-41cee495f733dbb0-09e34a9692845d63-9928c1478b873ac7}}
+'''
+translate = '''
+2. {{e8cafa51df8b8b51-41cee495f733dbb0-09e34a9692845d63-9928c1478b873ac7}}
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-41cee495f733dbb0-09e34a9692845d63-9928c1478b873ac7"
+type = "paragraph"
+origin = '''
+确保您的设备运行了[最新版本的固件](https://github.com/bigtreetech/PandaKnomi/releases)。
+'''
+translate = '''
+Make sure your Knomi is running the [latest firmware](https://github.com/bigtreetech/PandaKnomi/releases).
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-41cee495f733dbb0-ffe47fa28011cbdb"
+type = "listItem"
+composite = true
+origin = '''
+3. {{e8cafa51df8b8b51-41cee495f733dbb0-ffe47fa28011cbdb-d7f5d17e5ff4d385}}
+'''
+translate = '''
+3. {{e8cafa51df8b8b51-41cee495f733dbb0-ffe47fa28011cbdb-d7f5d17e5ff4d385}}
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-41cee495f733dbb0-ffe47fa28011cbdb-d7f5d17e5ff4d385"
+type = "paragraph"
+origin = '''
+您可以在[Github](https://github.com/bigtreetech/PandaKnomi/tree/master/Print_Files)上找到 P1，X1 和 A1 系列的各种可打印支架以及整理线缆的工具。
+'''
+translate = '''
+You can find printable mounting brackets and cable-management accessories for the P1, X1, and A1 series on [GitHub](https://github.com/bigtreetech/PandaKnomi/tree/master/Print_Files).
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-41cee495f733dbb0-7b3e3aba1cdf01f3"
+type = "listItem"
+composite = true
+origin = '''
+4. {{e8cafa51df8b8b51-41cee495f733dbb0-7b3e3aba1cdf01f3-6509a1ad0627b300}}
+'''
+translate = '''
+4. {{e8cafa51df8b8b51-41cee495f733dbb0-7b3e3aba1cdf01f3-6509a1ad0627b300}}
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-41cee495f733dbb0-7b3e3aba1cdf01f3-6509a1ad0627b300"
+type = "paragraph"
+origin = '''
+Panda Knomi V2 仅支持连接到 2.4G Wi-Fi。
+'''
+translate = '''
+Panda Knomi V2 supports 2.4 GHz Wi-Fi only.
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-41cee495f733dbb0-590307edb9071232"
+type = "listItem"
+composite = true
+origin = '''
+5. {{e8cafa51df8b8b51-41cee495f733dbb0-590307edb9071232-27d61cc0812ff5f9}}
+'''
+translate = '''
+5. {{e8cafa51df8b8b51-41cee495f733dbb0-590307edb9071232-27d61cc0812ff5f9}}
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-41cee495f733dbb0-590307edb9071232-27d61cc0812ff5f9"
+type = "paragraph"
+origin = '''
+如出现长时间 `无效的IP，自动修正中`，请使用 `Bambu Handy` 或 `Bambu Studio` 尝试控制打印机，如果打印机无应答或显示不在线，可能是打印机所处的网络环境异常，请检查网络环境。如果可以正常控制打印机，请尝试断电重启 Panda Knomi V2，若重启后仍无法正常连接，请联系售后支持邮箱 `support01@bigtree-tech.com`
+'''
+translate = '''
+If `Invalid IP, correcting automatically` remains on the screen for an extended period, try controlling the printer using `Bambu Handy` or `Bambu Studio`. If the printer does not respond or appears offline, check the printer's network connection. If the printer responds normally, power-cycle Panda Knomi V2. If the connection still fails, contact `support01@bigtree-tech.com`.
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-41cee495f733dbb0-174c91d60f21f211"
+type = "listItem"
+composite = true
+origin = '''
+6. {{e8cafa51df8b8b51-41cee495f733dbb0-174c91d60f21f211-a6cd507265bd59dc}}
+'''
+translate = '''
+6. {{e8cafa51df8b8b51-41cee495f733dbb0-174c91d60f21f211-a6cd507265bd59dc}}
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-41cee495f733dbb0-174c91d60f21f211-a6cd507265bd59dc"
+type = "paragraph"
+origin = '''
+在设置界面连接 Panda Knomi V2 的 AP 热点后，直接跳转到的 Web UI 界面，部分手机由于权限的问题可能无法在此界面上传更新 GIF 图片，IMG 文件和固件，请到浏览器中访问 Web UI 再进行此类上传文件的操作。
+'''
+translate = '''
+After connecting to the Panda Knomi V2 AP in your device settings, some phones may automatically open the Web UI in a restricted captive-portal window. This window may not allow GIF, IMG, or firmware uploads. Open the Web UI in a regular browser to upload these files.
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-41cee495f733dbb0-3ff61f1831b8a903"
+type = "listItem"
+composite = true
+origin = '''
+7. {{e8cafa51df8b8b51-41cee495f733dbb0-3ff61f1831b8a903-b4eed5d28b8a232f}}
+'''
+translate = '''
+7. {{e8cafa51df8b8b51-41cee495f733dbb0-3ff61f1831b8a903-b4eed5d28b8a232f}}
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-41cee495f733dbb0-3ff61f1831b8a903-b4eed5d28b8a232f"
+type = "paragraph"
+origin = '''
+如果您在使用过程中遇到任何问题，或者对未来的硬件或固件版本有建议，欢迎前往 Github[提交 issues](https://github.com/bigtreetech/PandaKnomi/issues)与我们保持联系。
+'''
+translate = '''
+If you encounter a problem or have suggestions for future hardware or firmware releases, please [submit an issue](https://github.com/bigtreetech/PandaKnomi/issues) on GitHub.
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-41cee495f733dbb0-0916897feac5e2af"
+type = "listItem"
+composite = true
+origin = '''
+8. {{e8cafa51df8b8b51-41cee495f733dbb0-0916897feac5e2af-28bfbf80673d8bea}}
+'''
+translate = '''
+8. {{e8cafa51df8b8b51-41cee495f733dbb0-0916897feac5e2af-28bfbf80673d8bea}}
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-41cee495f733dbb0-0916897feac5e2af-28bfbf80673d8bea"
+type = "paragraph"
+origin = '''
+如果您有任何此 wiki 无法解决的问题，请通过以下方式联系客户支持：`support01@bigtree-tech.com`.
+'''
+translate = '''
+If you need help with an issue not covered by this wiki, contact customer support at `support01@bigtree-tech.com`.
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-feb7b0f2778857cf"
+type = "heading"
+origin = '''
+## 基本参数
+'''
+translate = '''
+## Specifications
+'''
+
+[[block]]
+key = "e8cafa51df8b8b51-5c87fbd75cc24f3c"
+type = "table"
+origin = '''
+| 参数 | 规格 |
+| :-----| :----: |
+| 微处理器 | Xtensa 双核 32 位 LX6 ESP32；时钟频率高达 240MHz。|
+| 存储器 | PSRAM-8MB(4MB RAM + [4MB Himem](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/himem.html)), Flash-16MB |
+| 逻辑电压 | 3.3V |
+| 输入电压 | 5V-24V |
+| 额定功率 | 0.65W |
+| 屏幕外型尺寸 | 34.6mm x 37.9mm x 3.5mm |
+| 屏幕尺寸 | 1.28 in |
+| 分辨率 | 240 x 240 |
+| 显示区域 | 32.4（H）mm x 32.4（V）mm |
+| 屏幕驱动芯片 | GC9A01 |
+| 可视角度 | 全视域（All View） |
+| 背光亮度 | 400 Cd/m² |
+| 通信方式 | 2.4G Wi-Fi (IEEE 802.11 b/g/n) |
+| 工作温度 | Panda Knomi V2：$-20\,^{\circ}\mathrm{C}$ 至 $+70\,^{\circ}\mathrm{C}$ |
+| 储存温度 | $-30\,^{\circ}\mathrm{C}$ 至 $+80\,^{\circ}\mathrm{C}$ |
+| 背光寿命 | 大于 20000hr |
+'''
+translate = '''
+| Parameter | Specification |
+| :-----| :----: |
+| Microcontroller | Xtensa dual-core 32-bit LX6 ESP32; Clock speed up to 240 MHz |
+| Memory | PSRAM-8MB (4MB RAM + [4MB Himem](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/himem.html)), Flash-16MB |
+| Logic Voltage | 3.3V |
+| Input Voltage | 5V-24V |
+| Rated Power | 0.65W |
+| Display Module Dimensions | 34.6mm x 37.9mm x 3.5mm |
+| Screen Size | 1.28 in |
+| Resolution | 240 x 240 |
+| Active Display Area | 32.4 (H) mm x 32.4 (V) mm |
+| Display Driver IC | GC9A01 |
+| Viewing Angle | All View |
+| Backlight Brightness | 400 Cd/m² |
+| Connectivity | 2.4 GHz Wi-Fi (IEEE 802.11 b/g/n) |
+| Operating Temperature | Panda Knomi V2: $-20\,^{\circ}\mathrm{C}$ to $+70\,^{\circ}\mathrm{C}$ |
+| Storage Temperature | $-30\,^{\circ}\mathrm{C}$ to $+80\,^{\circ}\mathrm{C}$ |
+| Backlight Lifetime | Over 20,000 hours |
+'''
+
+[[block]]
+key = "95d5646ccdc46657"
+type = "heading"
+origin = '''
+## 尺寸和接口
+'''
+translate = '''
+## Dimensions and Ports
+'''
+
+[[block]]
+key = "ca72a1f9a910b9dc"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-size.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-size.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "3950ffd75b59c518"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-port.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-port.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "714a9c2a85757002"
+type = "heading"
+origin = '''
+## 安装指南
+'''
+translate = '''
+## Installation Guide
+'''
+
+[[block]]
+key = "fbe49a2524eef410"
+type = "paragraph"
+origin = '''
+Panda Knomi V2 可以安装在 P2,X2 和 H2 系列机器上。
+'''
+translate = '''
+Panda Knomi V2 can be installed on P2, X2, and H2 series printers.
+'''
+
+[[block]]
+key = "e4e72e2128ba7e15"
+type = "paragraph"
+origin = '''
+当需要安装至 A1/P1/X1 机器上时，请参考 Panda Knomi V1 的[安装说明](https://global.bttwiki.com/zh/PandaKnomi.html)
+'''
+translate = '''
+For installation on A1/P1/X1 printers, refer to the Panda Knomi V1 [installation guide](https://global.bttwiki.com/PandaKnomi.html).
+'''
+
+[[block]]
+key = "bf4ab553d04fd23f"
+type = "heading"
+origin = '''
+### 安装到 P2/X2 系列
+'''
+translate = '''
+### Install on P2/X2 Series
+'''
+
+[[block]]
+key = "9898f4a72c922f4d"
+type = "list"
+composite = true
+origin = '''
+{{9898f4a72c922f4d-dcb8f0ce8767bd07}}
+
+{{9898f4a72c922f4d-5e11a73687d9eb8c}}
+
+{{9898f4a72c922f4d-cdbe6f313fa30da3}}
+
+{{9898f4a72c922f4d-2d9f43f258dc7a64}}
+
+{{9898f4a72c922f4d-53ea66f39c3a5f07}}
+
+{{9898f4a72c922f4d-b54d6a580230fdb2}}
+'''
+translate = '''
+{{9898f4a72c922f4d-dcb8f0ce8767bd07}}
+
+{{9898f4a72c922f4d-5e11a73687d9eb8c}}
+
+{{9898f4a72c922f4d-cdbe6f313fa30da3}}
+
+{{9898f4a72c922f4d-2d9f43f258dc7a64}}
+
+{{9898f4a72c922f4d-53ea66f39c3a5f07}}
+
+{{9898f4a72c922f4d-b54d6a580230fdb2}}
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-dcb8f0ce8767bd07"
+type = "listItem"
+composite = true
+origin = '''
+1. {{9898f4a72c922f4d-dcb8f0ce8767bd07-809be58b356d9994}}
+
+    {{9898f4a72c922f4d-dcb8f0ce8767bd07-3e19f90c2320390e}}
+'''
+translate = '''
+1. {{9898f4a72c922f4d-dcb8f0ce8767bd07-809be58b356d9994}}
+
+    {{9898f4a72c922f4d-dcb8f0ce8767bd07-3e19f90c2320390e}}
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-dcb8f0ce8767bd07-809be58b356d9994"
+type = "paragraph"
+origin = '''
+下载并打印[所有的 P2/X2 安装外壳](https://makerworld.com/zh/models/3470198-panda-knomi-v2-printed-enclosure#profileId-3960966)
+'''
+translate = '''
+Download and print [all P2/X2 housing parts](https://makerworld.com/en/models/3470198-panda-knomi-v2-printed-enclosure#profileId-3960966).
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-dcb8f0ce8767bd07-3e19f90c2320390e"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-print.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-print.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-5e11a73687d9eb8c"
+type = "listItem"
+composite = true
+origin = '''
+2. {{9898f4a72c922f4d-5e11a73687d9eb8c-0e11ea651817d065}}
+
+    {{9898f4a72c922f4d-5e11a73687d9eb8c-ad81837695900ffa}}
+'''
+translate = '''
+2. {{9898f4a72c922f4d-5e11a73687d9eb8c-0e11ea651817d065}}
+
+    {{9898f4a72c922f4d-5e11a73687d9eb8c-ad81837695900ffa}}
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-5e11a73687d9eb8c-0e11ea651817d065"
+type = "paragraph"
+origin = '''
+轻轻揭下 Panda Knomi V2 表面的保护膜。
+'''
+translate = '''
+Gently peel the protective film off Panda Knomi V2.
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-5e11a73687d9eb8c-ad81837695900ffa"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-film.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-film.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-cdbe6f313fa30da3"
+type = "listItem"
+composite = true
+origin = '''
+3. {{9898f4a72c922f4d-cdbe6f313fa30da3-a216308f0349eb22}}
+
+    {{9898f4a72c922f4d-cdbe6f313fa30da3-c7f17366c4188642}}
+
+    {{9898f4a72c922f4d-cdbe6f313fa30da3-a93584c8086338cc}}
+'''
+translate = '''
+3. {{9898f4a72c922f4d-cdbe6f313fa30da3-a216308f0349eb22}}
+
+    {{9898f4a72c922f4d-cdbe6f313fa30da3-c7f17366c4188642}}
+
+    {{9898f4a72c922f4d-cdbe6f313fa30da3-a93584c8086338cc}}
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-cdbe6f313fa30da3-a216308f0349eb22"
+type = "paragraph"
+origin = '''
+将包装内的 MX1.25 连接线插在屏幕背面插口上，随后将线从打印件走线孔穿出后将 Panda Knomi V2 放入底座中。
+'''
+translate = '''
+Connect the included MX1.25 cable to the connector on the back of the Knomi V2. Route the cable through the opening in the printed housing, then place Panda Knomi V2 into the base.
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-cdbe6f313fa30da3-c7f17366c4188642"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-mx1-25.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-mx1-25.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-cdbe6f313fa30da3-a93584c8086338cc"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-install.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-install.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-2d9f43f258dc7a64"
+type = "listItem"
+composite = true
+origin = '''
+4. {{9898f4a72c922f4d-2d9f43f258dc7a64-3feca38a170cf7bf}}
+
+    {{9898f4a72c922f4d-2d9f43f258dc7a64-4719d7e92964e75c}}
+'''
+translate = '''
+4. {{9898f4a72c922f4d-2d9f43f258dc7a64-3feca38a170cf7bf}}
+
+    {{9898f4a72c922f4d-2d9f43f258dc7a64-4719d7e92964e75c}}
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-2d9f43f258dc7a64-3feca38a170cf7bf"
+type = "paragraph"
+origin = '''
+将屏幕压盖按图示插入
+'''
+translate = '''
+Insert the front cover as shown.
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-2d9f43f258dc7a64-4719d7e92964e75c"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-install-1.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-install-1.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-53ea66f39c3a5f07"
+type = "listItem"
+composite = true
+origin = '''
+5. {{9898f4a72c922f4d-53ea66f39c3a5f07-75e3a0412f1dc4fe}}
+
+    {{9898f4a72c922f4d-53ea66f39c3a5f07-695320cefa7be20c}}
+
+    {{9898f4a72c922f4d-53ea66f39c3a5f07-f8f70a976df1f98c}}
+'''
+translate = '''
+5. {{9898f4a72c922f4d-53ea66f39c3a5f07-75e3a0412f1dc4fe}}
+
+    {{9898f4a72c922f4d-53ea66f39c3a5f07-695320cefa7be20c}}
+
+    {{9898f4a72c922f4d-53ea66f39c3a5f07-f8f70a976df1f98c}}
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-53ea66f39c3a5f07-75e3a0412f1dc4fe"
+type = "paragraph"
+origin = '''
+先使用打印的隔离柱穿过两颗 M3x6 自攻螺丝，随后将 Panda Hub K2 PCB 固定在打印件背壳上，在将 MX1.25 连接线背后插入 Panda Hub K2 的插口上，最后将背壳卡入主体即可
+'''
+translate = '''
+Pass two M3x6 self-tapping screws through the printed spacers and use them to secure the Panda Hub K2 PCB to the rear 3D-printed case. Connect the MX1.25 cable to the connector on the back of Panda Hub K2, then snap the rear case into the main body.
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-53ea66f39c3a5f07-695320cefa7be20c"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-px2.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-px2.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-53ea66f39c3a5f07-f8f70a976df1f98c"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-px2-1.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-px2-1.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-b54d6a580230fdb2"
+type = "listItem"
+composite = true
+origin = '''
+6. {{9898f4a72c922f4d-b54d6a580230fdb2-5a39367c3549e88d}}
+
+    {{9898f4a72c922f4d-b54d6a580230fdb2-5e1bf2c68fa44ea8}}
+
+    {{9898f4a72c922f4d-b54d6a580230fdb2-9951a02fd10cf988}}
+'''
+translate = '''
+6. {{9898f4a72c922f4d-b54d6a580230fdb2-5a39367c3549e88d}}
+
+    {{9898f4a72c922f4d-b54d6a580230fdb2-5e1bf2c68fa44ea8}}
+
+    {{9898f4a72c922f4d-b54d6a580230fdb2-9951a02fd10cf988}}
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-b54d6a580230fdb2-5a39367c3549e88d"
+type = "paragraph"
+origin = '''
+完成效果
+'''
+translate = '''
+Completed installation.
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-b54d6a580230fdb2-5e1bf2c68fa44ea8"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-back.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-back.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "9898f4a72c922f4d-b54d6a580230fdb2-9951a02fd10cf988"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "d10201e9fa75caba"
+type = "heading"
+origin = '''
+### 安装到 H2 系列
+'''
+translate = '''
+### Install on H2 Series
+'''
+
+[[block]]
+key = "4e0943f6277b0f41"
+type = "list"
+composite = true
+origin = '''
+{{4e0943f6277b0f41-76eac0ae4fc30b85}}
+
+{{4e0943f6277b0f41-5e11a73687d9eb8c}}
+
+{{4e0943f6277b0f41-cdbe6f313fa30da3}}
+
+{{4e0943f6277b0f41-2d9f43f258dc7a64}}
+
+{{4e0943f6277b0f41-45c861ef647773a1}}
+
+{{4e0943f6277b0f41-b54d6a580230fdb2}}
+'''
+translate = '''
+{{4e0943f6277b0f41-76eac0ae4fc30b85}}
+
+{{4e0943f6277b0f41-5e11a73687d9eb8c}}
+
+{{4e0943f6277b0f41-cdbe6f313fa30da3}}
+
+{{4e0943f6277b0f41-2d9f43f258dc7a64}}
+
+{{4e0943f6277b0f41-45c861ef647773a1}}
+
+{{4e0943f6277b0f41-b54d6a580230fdb2}}
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-76eac0ae4fc30b85"
+type = "listItem"
+composite = true
+origin = '''
+1. {{4e0943f6277b0f41-76eac0ae4fc30b85-45074bef6e5b78ea}}
+
+    {{4e0943f6277b0f41-76eac0ae4fc30b85-3e19f90c2320390e}}
+'''
+translate = '''
+1. {{4e0943f6277b0f41-76eac0ae4fc30b85-45074bef6e5b78ea}}
+
+    {{4e0943f6277b0f41-76eac0ae4fc30b85-3e19f90c2320390e}}
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-76eac0ae4fc30b85-45074bef6e5b78ea"
+type = "paragraph"
+origin = '''
+下载并打印[所有的 H2 安装外壳](https://makerworld.com/zh/models/3470198-panda-knomi-v2-printed-enclosure#profileId-3960966)
+'''
+translate = '''
+Download and print [all H2 housing parts](https://makerworld.com/en/models/3470198-panda-knomi-v2-printed-enclosure#profileId-3960966).
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-76eac0ae4fc30b85-3e19f90c2320390e"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-print.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-print.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-5e11a73687d9eb8c"
+type = "listItem"
+composite = true
+origin = '''
+2. {{4e0943f6277b0f41-5e11a73687d9eb8c-0e11ea651817d065}}
+
+    {{4e0943f6277b0f41-5e11a73687d9eb8c-ad81837695900ffa}}
+'''
+translate = '''
+2. {{4e0943f6277b0f41-5e11a73687d9eb8c-0e11ea651817d065}}
+
+    {{4e0943f6277b0f41-5e11a73687d9eb8c-ad81837695900ffa}}
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-5e11a73687d9eb8c-0e11ea651817d065"
+type = "paragraph"
+origin = '''
+轻轻揭下 Panda Knomi V2 表面的保护膜。
+'''
+translate = '''
+Gently peel the protective film off Panda Knomi V2.
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-5e11a73687d9eb8c-ad81837695900ffa"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-film.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-film.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-cdbe6f313fa30da3"
+type = "listItem"
+composite = true
+origin = '''
+3. {{4e0943f6277b0f41-cdbe6f313fa30da3-a216308f0349eb22}}
+
+    {{4e0943f6277b0f41-cdbe6f313fa30da3-c7f17366c4188642}}
+
+    {{4e0943f6277b0f41-cdbe6f313fa30da3-a93584c8086338cc}}
+'''
+translate = '''
+3. {{4e0943f6277b0f41-cdbe6f313fa30da3-a216308f0349eb22}}
+
+    {{4e0943f6277b0f41-cdbe6f313fa30da3-c7f17366c4188642}}
+
+    {{4e0943f6277b0f41-cdbe6f313fa30da3-a93584c8086338cc}}
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-cdbe6f313fa30da3-a216308f0349eb22"
+type = "paragraph"
+origin = '''
+将包装内的 MX1.25 连接线插在屏幕背面插口上，随后将线从打印件走线孔穿出后将 Panda Knomi V2 放入底座中。
+'''
+translate = '''
+Connect the included MX1.25 cable to the connector on the back of the Knomi V2. Route the cable through the opening in the printed housing, then place Panda Knomi V2 into the base.
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-cdbe6f313fa30da3-c7f17366c4188642"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-mx1-25.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-mx1-25.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-cdbe6f313fa30da3-a93584c8086338cc"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-install.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-install.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-2d9f43f258dc7a64"
+type = "listItem"
+composite = true
+origin = '''
+4. {{4e0943f6277b0f41-2d9f43f258dc7a64-3feca38a170cf7bf}}
+
+    {{4e0943f6277b0f41-2d9f43f258dc7a64-4719d7e92964e75c}}
+'''
+translate = '''
+4. {{4e0943f6277b0f41-2d9f43f258dc7a64-3feca38a170cf7bf}}
+
+    {{4e0943f6277b0f41-2d9f43f258dc7a64-4719d7e92964e75c}}
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-2d9f43f258dc7a64-3feca38a170cf7bf"
+type = "paragraph"
+origin = '''
+将屏幕压盖按图示插入
+'''
+translate = '''
+Insert the front cover as shown.
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-2d9f43f258dc7a64-4719d7e92964e75c"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-install-1.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-install-1.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-45c861ef647773a1"
+type = "listItem"
+composite = true
+origin = '''
+5. {{4e0943f6277b0f41-45c861ef647773a1-117f1f075910b893}}
+
+    {{4e0943f6277b0f41-45c861ef647773a1-386a1e4c66353b63}}
+
+    {{4e0943f6277b0f41-45c861ef647773a1-936713a2586c250d}}
+'''
+translate = '''
+5. {{4e0943f6277b0f41-45c861ef647773a1-117f1f075910b893}}
+
+    {{4e0943f6277b0f41-45c861ef647773a1-386a1e4c66353b63}}
+
+    {{4e0943f6277b0f41-45c861ef647773a1-936713a2586c250d}}
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-45c861ef647773a1-117f1f075910b893"
+type = "paragraph"
+origin = '''
+先将 MX1.25 连接线背后插入 Panda Hub K2 的插口上，随后将 Panda Hub K2 PCB 使用两颗 M3x6 自攻螺丝固定在中间主体背部
+'''
+translate = '''
+Connect the MX1.25 cable to the connector on the back of Panda Hub K2. Then secure the Panda Hub K2 PCB to the rear of the center main body using two M3x6 self-tapping screws.
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-45c861ef647773a1-386a1e4c66353b63"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-h2.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-h2.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-45c861ef647773a1-936713a2586c250d"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-h2-1.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-h2-1.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-b54d6a580230fdb2"
+type = "listItem"
+composite = true
+origin = '''
+6. {{4e0943f6277b0f41-b54d6a580230fdb2-5a39367c3549e88d}}
+
+    {{4e0943f6277b0f41-b54d6a580230fdb2-5e1bf2c68fa44ea8}}
+
+    {{4e0943f6277b0f41-b54d6a580230fdb2-9951a02fd10cf988}}
+'''
+translate = '''
+6. {{4e0943f6277b0f41-b54d6a580230fdb2-5a39367c3549e88d}}
+
+    {{4e0943f6277b0f41-b54d6a580230fdb2-5e1bf2c68fa44ea8}}
+
+    {{4e0943f6277b0f41-b54d6a580230fdb2-9951a02fd10cf988}}
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-b54d6a580230fdb2-5a39367c3549e88d"
+type = "paragraph"
+origin = '''
+完成效果
+'''
+translate = '''
+Completed installation.
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-b54d6a580230fdb2-5e1bf2c68fa44ea8"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-back.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-back.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "4e0943f6277b0f41-b54d6a580230fdb2-9951a02fd10cf988"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "3adb0e93e84938bd"
+type = "heading"
+origin = '''
+### 安装至机器
+'''
+translate = '''
+### Install on the Printer
+'''
+
+[[block]]
+key = "47b553d8cd5fec0e"
+type = "paragraph"
+origin = '''
+将安装完成的 Panda Knomi V2 主体直接插在打印机顶部 U 盘的 USB 插口即可，如果需要插 U 盘使用，可直接插在打印件顶部的 USB 口。
+'''
+translate = '''
+Insert the assembled Panda Knomi V2 into the USB flash drive port on top of the printer. If you need to use a USB flash drive, plug it into the USB port on top of the 3D-printed case.
+'''
+
+[[block]]
+key = "94ba409b28e2d9c6"
+type = "heading"
+origin = '''
+## 用户界面说明
+'''
+translate = '''
+## User Interface Guide
+'''
+
+[[block]]
+key = "d80d7233349a1f40"
+type = "heading"
+origin = '''
+### 首次使用指南
+'''
+translate = '''
+### First-Time Setup
+'''
+
+[[block]]
+key = "ca976cfdbcfe39b3"
+type = "heading"
+origin = '''
+#### 访问 Web UI 配置界面。
+'''
+translate = '''
+#### Access the Web UI
+'''
+
+[[block]]
+key = "fde539da43e6bbad"
+type = "list"
+composite = true
+origin = '''
+{{fde539da43e6bbad-ad17448e924919d6}}
+
+{{fde539da43e6bbad-0262daa7affe977f}}
+'''
+translate = '''
+{{fde539da43e6bbad-ad17448e924919d6}}
+
+{{fde539da43e6bbad-0262daa7affe977f}}
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6"
+type = "listItem"
+composite = true
+origin = '''
+1. {{fde539da43e6bbad-ad17448e924919d6-83234b9197f520d4}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-0fedd7cee00ec190}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-84a23501fc3f5d70}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f}}
+'''
+translate = '''
+1. {{fde539da43e6bbad-ad17448e924919d6-83234b9197f520d4}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-0fedd7cee00ec190}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-84a23501fc3f5d70}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f}}
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-83234b9197f520d4"
+type = "paragraph"
+origin = '''
+连接 Panda Knomi V2 的 AP 热点
+'''
+translate = '''
+Connect to the Panda Knomi V2 AP hotspot.
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-0fedd7cee00ec190"
+type = "paragraph"
+origin = '''
+首次启动后或执行 `恢复出厂设置` 命令后，您将看到下面的屏幕。
+'''
+translate = '''
+After the first startup or after running `Factory Reset`, the following screen appears.
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-84a23501fc3f5d70"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-ap-qr-code.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-ap-qr-code-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f"
+type = "list"
+composite = true
+origin = '''
+{{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33}}
+
+{{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965}}
+'''
+translate = '''
+{{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33}}
+
+{{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965}}
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33"
+type = "listItem"
+composite = true
+origin = '''
+1. {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33-9496b1f221258697}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33-359632f486a2e36f}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33-8432b19c8402ddd1}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33-e87c3e6a16f0f227}}
+'''
+translate = '''
+1. {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33-9496b1f221258697}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33-359632f486a2e36f}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33-8432b19c8402ddd1}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33-e87c3e6a16f0f227}}
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33-9496b1f221258697"
+type = "paragraph"
+origin = '''
+扫描 Panda Knomi V2 上的二维码(如上图所示), 获取 Panda Knomi V2 自身开启的 AP 热点的名称和密码, 点击连接。出厂默认的 AP 信息如下：
+'''
+translate = '''
+Scan the QR code shown on Panda Knomi V2 (as illustrated above) to obtain its AP hotspot name and password, then tap to connect. The default AP credentials are:
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33-359632f486a2e36f"
+type = "paragraph"
+origin = '''
+Wi-Fi 名称: `Panda_Knomi_xxxxxxxxxxxx`
+'''
+translate = '''
+Wi-Fi Name: `Panda_Knomi_xxxxxxxxxxxx`
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33-8432b19c8402ddd1"
+type = "paragraph"
+origin = '''
+Wi-Fi 密码: `987654321`
+'''
+translate = '''
+Wi-Fi Password: `987654321`
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33-e87c3e6a16f0f227"
+type = "admonition"
+composite = true
+origin = '''
+:::tip
+
+{{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33-e87c3e6a16f0f227-e5c831c1f092c33c}}
+
+:::
+'''
+translate = '''
+:::tip
+
+{{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33-e87c3e6a16f0f227-e5c831c1f092c33c}}
+
+:::
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-11a9805ad175be33-e87c3e6a16f0f227-e5c831c1f092c33c"
+type = "paragraph"
+origin = '''
+大多数现代智能手机都支持通过相机扫描二维码功能，尤其是搭载 iOS 11 及以上版本的 iPhone 和 Android 9.0 及以上系统的设备。请确保您的设备系统及相机应用为最新版本，以获得最佳的二维码扫描体验。如果您的设备不具备上述条件，可以使用 Google Lens 等外部应用，或直接手动连接 Panda Knomi V2 的热点（默认密码为：`987654321`）以访问 Web UI。
+'''
+translate = '''
+Most modern smartphones support QR code scanning through the camera, particularly iPhones running iOS 11 or later and devices running Android 9.0 or later. Keep your operating system and camera app updated for best results. If your device does not support this feature, use Google Lens or another QR scanner, or connect manually to the Panda Knomi V2 hotspot (default password: `987654321`) to access the Web UI.
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965"
+type = "listItem"
+composite = true
+origin = '''
+2. {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-1fb2b56894c69585}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-75bf592804cde246}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f}}
+'''
+translate = '''
+2. {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-1fb2b56894c69585}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-75bf592804cde246}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f}}
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-1fb2b56894c69585"
+type = "paragraph"
+origin = '''
+如果无法扫码连接，请到设备的 `设置` 菜单中手动连接热点。
+'''
+translate = '''
+If the QR code connection fails, manually connect to the hotspot from your device's `Settings` menu.
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-75bf592804cde246"
+type = "paragraph"
+origin = '''
+以 `iPhone` 为例：
+'''
+translate = '''
+Using an `iPhone` as an example:
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f"
+type = "list"
+composite = true
+origin = '''
+{{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-71e30e5df40aaf68}}
+
+{{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-792c96873c01d926}}
+
+{{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-983976aa3f33dfec}}
+
+{{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-f72a322468b06ca9}}
+'''
+translate = '''
+{{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-71e30e5df40aaf68}}
+
+{{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-792c96873c01d926}}
+
+{{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-983976aa3f33dfec}}
+
+{{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-f72a322468b06ca9}}
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-71e30e5df40aaf68"
+type = "listItem"
+composite = true
+origin = '''
+1. {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-71e30e5df40aaf68-ede5e0f289f3fef6}}
+'''
+translate = '''
+1. {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-71e30e5df40aaf68-ede5e0f289f3fef6}}
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-71e30e5df40aaf68-ede5e0f289f3fef6"
+type = "paragraph"
+origin = '''
+在你的主屏幕上，前往 `设置`-> `无线局域网`。
+'''
+translate = '''
+On the Home Screen, go to `Settings` -> `Wi-Fi`.
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-792c96873c01d926"
+type = "listItem"
+composite = true
+origin = '''
+2. {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-792c96873c01d926-a1b20f3010aa6a95}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-792c96873c01d926-b898fa9742efbc80}}
+'''
+translate = '''
+2. {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-792c96873c01d926-a1b20f3010aa6a95}}
+
+    {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-792c96873c01d926-b898fa9742efbc80}}
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-792c96873c01d926-a1b20f3010aa6a95"
+type = "paragraph"
+origin = '''
+打开 `无线局域网`。你的设备将自动搜索可供使用的无线局域网。
+'''
+translate = '''
+Turn on `Wi-Fi`. Your device will scan for available networks.
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-792c96873c01d926-b898fa9742efbc80"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-wlan.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-wlan-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-983976aa3f33dfec"
+type = "listItem"
+composite = true
+origin = '''
+3. {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-983976aa3f33dfec-965ceb046a4088db}}
+'''
+translate = '''
+3. {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-983976aa3f33dfec-965ceb046a4088db}}
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-983976aa3f33dfec-965ceb046a4088db"
+type = "paragraph"
+origin = '''
+轻点名称以 `Panda_Knomi_` 开头的无线局域网，输入默认密码：`987654321`。
+'''
+translate = '''
+Tap the network name beginning with `Panda_Knomi_` and enter the default password: `987654321`.
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-f72a322468b06ca9"
+type = "listItem"
+composite = true
+origin = '''
+4. {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-f72a322468b06ca9-5f04b0423e72d139}}
+'''
+translate = '''
+4. {{fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-f72a322468b06ca9-5f04b0423e72d139}}
+'''
+
+[[block]]
+key = "fde539da43e6bbad-ad17448e924919d6-e5bdba3ca4d5261f-753752cc481b8965-c7e96225a6182c0f-f72a322468b06ca9-5f04b0423e72d139"
+type = "paragraph"
+origin = '''
+连接上 Panda Knomi V2 的无线局域网后，你会在这个网络旁边看到蓝色勾号，并在显示屏右上方角落看到已连接的无线局域网图标。
+'''
+translate = '''
+Once connected, a blue checkmark appears beside the Panda Knomi V2 network, and the connected Wi-Fi icon appears in the upper-right corner of the screen.
+'''
+
+[[block]]
+key = "fde539da43e6bbad-0262daa7affe977f"
+type = "listItem"
+composite = true
+origin = '''
+2. {{fde539da43e6bbad-0262daa7affe977f-2c2076f4c1d2f596}}
+'''
+translate = '''
+2. {{fde539da43e6bbad-0262daa7affe977f-2c2076f4c1d2f596}}
+'''
+
+[[block]]
+key = "fde539da43e6bbad-0262daa7affe977f-2c2076f4c1d2f596"
+type = "paragraph"
+origin = '''
+接上 AP 后，理应有 `已连接（需登录/认证）` 的提示，并且点击会进入 Web UI 配置界面。有时因为网络原因，需要等待 10~20 秒, 如果等待后仍然无法进入 Web UI 配置界面, 当使用 `V1.0.4.1` 及其之后版本的固件, 可以在浏览器中手动输入 [192.168.254.1](http://192.168.254.1) (之前的版本请使用 [192.168.4.1](http://192.168.4.1)) 访问 Web UI 配置界面。
+'''
+translate = '''
+After connecting to the AP, you should see a `Connected (login/authentication required)` notification. Tap it to open the Web UI. It may take 10–20 seconds to appear due to network conditions. If it still does not open, enter [192.168.254.1](http://192.168.254.1) in your browser for firmware `V1.0.4.1` or later; use [192.168.4.1](http://192.168.4.1) for earlier firmware.
+'''
+
+[[block]]
+key = "a6142474d9725f3f"
+type = "heading"
+origin = '''
+#### 将 Panda Knomi V2 连接到打印机所在的 Wi-Fi 下
+'''
+translate = '''
+#### Connect Panda Knomi V2 to the Printer's Wi-Fi
+'''
+
+[[block]]
+key = "b00f56f6feada96c"
+type = "list"
+composite = true
+origin = '''
+{{b00f56f6feada96c-3029fe7d031cf394}}
+
+{{b00f56f6feada96c-20909c0d227c8273}}
+
+{{b00f56f6feada96c-3642b21b41e0cdf6}}
+'''
+translate = '''
+{{b00f56f6feada96c-3029fe7d031cf394}}
+
+{{b00f56f6feada96c-20909c0d227c8273}}
+
+{{b00f56f6feada96c-3642b21b41e0cdf6}}
+'''
+
+[[block]]
+key = "b00f56f6feada96c-3029fe7d031cf394"
+type = "listItem"
+composite = true
+origin = '''
+1. {{b00f56f6feada96c-3029fe7d031cf394-8cc21075f89cea98}}
+
+    {{b00f56f6feada96c-3029fe7d031cf394-798d47a043ea7f3d}}
+'''
+translate = '''
+1. {{b00f56f6feada96c-3029fe7d031cf394-8cc21075f89cea98}}
+
+    {{b00f56f6feada96c-3029fe7d031cf394-798d47a043ea7f3d}}
+'''
+
+[[block]]
+key = "b00f56f6feada96c-3029fe7d031cf394-8cc21075f89cea98"
+type = "paragraph"
+origin = '''
+首次配置会自动进入 `选择语言` 界面，设置完语言后，点击 `下一步`。
+'''
+translate = '''
+During initial setup, the `Select Language` screen opens automatically. Select a language and tap `Next`.
+'''
+
+[[block]]
+key = "b00f56f6feada96c-3029fe7d031cf394-798d47a043ea7f3d"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-language.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-language-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "b00f56f6feada96c-20909c0d227c8273"
+type = "listItem"
+composite = true
+origin = '''
+2. {{b00f56f6feada96c-20909c0d227c8273-60efe2b44aa3b043}}
+
+    {{b00f56f6feada96c-20909c0d227c8273-215ff97c9b97fc4d}}
+'''
+translate = '''
+2. {{b00f56f6feada96c-20909c0d227c8273-60efe2b44aa3b043}}
+
+    {{b00f56f6feada96c-20909c0d227c8273-215ff97c9b97fc4d}}
+'''
+
+[[block]]
+key = "b00f56f6feada96c-20909c0d227c8273-60efe2b44aa3b043"
+type = "paragraph"
+origin = '''
+进入连接 Wi-Fi 界面，Panda Knomi V2 会自动扫描环境中的 Wi-Fi，请选择打印机所连接的 Wi-Fi 进行连接。如果没有扫描到打印机连接的 Wi-Fi, 可以点击 "扫描" 按钮重新扫描。
+'''
+translate = '''
+On the Wi-Fi setup screen, Panda Knomi V2 automatically scans for nearby networks. Select the same Wi-Fi network used by your printer. If it is not listed, tap `Scan` to search again.
+'''
+
+[[block]]
+key = "b00f56f6feada96c-20909c0d227c8273-215ff97c9b97fc4d"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-wifi.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-wifi-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "b00f56f6feada96c-3642b21b41e0cdf6"
+type = "listItem"
+composite = true
+origin = '''
+3. {{b00f56f6feada96c-3642b21b41e0cdf6-e091c0f44f7e5ec2}}
+
+    {{b00f56f6feada96c-3642b21b41e0cdf6-a248aa4302856051}}
+'''
+translate = '''
+3. {{b00f56f6feada96c-3642b21b41e0cdf6-e091c0f44f7e5ec2}}
+
+    {{b00f56f6feada96c-3642b21b41e0cdf6-a248aa4302856051}}
+'''
+
+[[block]]
+key = "b00f56f6feada96c-3642b21b41e0cdf6-e091c0f44f7e5ec2"
+type = "paragraph"
+origin = '''
+等待连接成功，连接成功后会弹出如下图中的弹窗，点击 `绑定打印机` 可以跳转到 `打印机` 界面绑定打印机。
+'''
+translate = '''
+Wait for the connection to succeed. In the confirmation dialog shown below, tap `Bind Printer` to open the `Printer` page and bind your printer.
+'''
+
+[[block]]
+key = "b00f56f6feada96c-3642b21b41e0cdf6-a248aa4302856051"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-goto-printer.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-goto-printer-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "c2b6cf641126aa87"
+type = "heading"
+origin = '''
+#### 绑定打印机
+'''
+translate = '''
+#### Bind a Printer
+'''
+
+[[block]]
+key = "b4f473f9c8a6015b"
+type = "admonition"
+composite = true
+origin = '''
+:::note
+
+{{b4f473f9c8a6015b-2cd00b8f09ff54ea}}
+
+:::
+'''
+translate = '''
+:::note
+
+{{b4f473f9c8a6015b-2cd00b8f09ff54ea}}
+
+:::
+'''
+
+[[block]]
+key = "b4f473f9c8a6015b-2cd00b8f09ff54ea"
+type = "paragraph"
+origin = '''
+如果访问码的位置是空白的没有内容，可能是打印机处于云模式并且未绑定云账号，请打开打印机的 `仅局域网模式`，或者使用 Bambu Handy/Bambu Studio 将此打印机绑定到云账号上。
+'''
+translate = '''
+If the Access Code field is blank, the printer may be in cloud mode without being linked to a cloud account. Enable `LAN Only Mode` on the printer, or use Bambu Handy/Bambu Studio to link it to a cloud account.
+'''
+
+[[block]]
+key = "7a74d08fccf267ed"
+type = "heading"
+origin = '''
+##### 自动扫描
+'''
+translate = '''
+##### Automatic Scan
+'''
+
+[[block]]
+key = "ba8b5af6290b9fbe"
+type = "list"
+composite = true
+origin = '''
+{{ba8b5af6290b9fbe-886d2561e592be0d}}
+
+{{ba8b5af6290b9fbe-74d2a2ba46eb434f}}
+
+{{ba8b5af6290b9fbe-48638ab911441155}}
+
+{{ba8b5af6290b9fbe-5a018ae76da5350d}}
+'''
+translate = '''
+{{ba8b5af6290b9fbe-886d2561e592be0d}}
+
+{{ba8b5af6290b9fbe-74d2a2ba46eb434f}}
+
+{{ba8b5af6290b9fbe-48638ab911441155}}
+
+{{ba8b5af6290b9fbe-5a018ae76da5350d}}
+'''
+
+[[block]]
+key = "ba8b5af6290b9fbe-886d2561e592be0d"
+type = "listItem"
+composite = true
+origin = '''
+1. {{ba8b5af6290b9fbe-886d2561e592be0d-7a818f3afb0dac3a}}
+
+    {{ba8b5af6290b9fbe-886d2561e592be0d-732ff5eef661f3b7}}
+'''
+translate = '''
+1. {{ba8b5af6290b9fbe-886d2561e592be0d-7a818f3afb0dac3a}}
+
+    {{ba8b5af6290b9fbe-886d2561e592be0d-732ff5eef661f3b7}}
+'''
+
+[[block]]
+key = "ba8b5af6290b9fbe-886d2561e592be0d-7a818f3afb0dac3a"
+type = "paragraph"
+origin = '''
+Web UI 配置界面进入 `打印机` 界面, 点击 `扫描` 会扫描同一局域网下的拓竹打印机, 一次完整的扫描大概需要 30 秒左右。每多一台拓竹打印机最多增加 20 秒的扫描时间。Panda Knomi V2 每次扫描最多支持识别 20 台打印机，如果您局域网内的拓竹打印机数量较多超出了 20 台，可能无法扫描到所有的打印机。如果此次扫描未能识别到想要连接的打印机，可以点击 `扫描` 按钮重新扫描，或者 `手动输入` 所有的信息
+'''
+translate = '''
+Open the `Printer` page in the Web UI and tap `Scan` to discover Bambu Lab printers on the same LAN. A complete scan takes approximately 30 seconds; each additional Bambu Lab printer may add up to 20 seconds. A scan can identify up to 20 printers, so some printers may not appear if there are more than 20 on your network. If your target printer is not found, tap `Scan` again or use `Manual Entry` to enter its details.
+'''
+
+[[block]]
+key = "ba8b5af6290b9fbe-886d2561e592be0d-732ff5eef661f3b7"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-printer-ui.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-printer-ui-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "ba8b5af6290b9fbe-74d2a2ba46eb434f"
+type = "listItem"
+composite = true
+origin = '''
+2. {{ba8b5af6290b9fbe-74d2a2ba46eb434f-295af5737281bb46}}
+'''
+translate = '''
+2. {{ba8b5af6290b9fbe-74d2a2ba46eb434f-295af5737281bb46}}
+'''
+
+[[block]]
+key = "ba8b5af6290b9fbe-74d2a2ba46eb434f-295af5737281bb46"
+type = "paragraph"
+origin = '''
+扫描完成后, 选择想要连接的打印机, 选择后打印机的 `SN码` 和 `IP` 会自动填充。然后在打印机上点击设置-仅局域网-找到 `访问码`, 并手动输入到 Web UI 上的 `打印机访问码` 栏。
+'''
+translate = '''
+After scanning, select the printer you want to connect. Its `Serial Number` and `IP` fields populate automatically. On the printer, go to Settings -> LAN Only Mode, find the `Access Code`, and enter it in the Web UI's `Printer Access Code` field.
+'''
+
+[[block]]
+key = "ba8b5af6290b9fbe-48638ab911441155"
+type = "listItem"
+composite = true
+origin = '''
+3. {{ba8b5af6290b9fbe-48638ab911441155-d0bafd3731a27ead}}
+
+    {{ba8b5af6290b9fbe-48638ab911441155-0c28e3de805958bd}}
+'''
+translate = '''
+3. {{ba8b5af6290b9fbe-48638ab911441155-d0bafd3731a27ead}}
+
+    {{ba8b5af6290b9fbe-48638ab911441155-0c28e3de805958bd}}
+'''
+
+[[block]]
+key = "ba8b5af6290b9fbe-48638ab911441155-d0bafd3731a27ead"
+type = "paragraph"
+origin = '''
+点击 `绑定`, 开始连接打印机, 出现 `绑定成功` 的弹窗意味着 Panda Knomi V2 已经成功连接到打印机了。
+'''
+translate = '''
+Tap `Bind` to connect. A `Binding Successful` dialog confirms that Panda Knomi V2 has connected to the printer.
+'''
+
+[[block]]
+key = "ba8b5af6290b9fbe-48638ab911441155-0c28e3de805958bd"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-bind-ok.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-bind-ok-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "ba8b5af6290b9fbe-5a018ae76da5350d"
+type = "listItem"
+composite = true
+origin = '''
+4. {{ba8b5af6290b9fbe-5a018ae76da5350d-8c85d3f16673988e}}
+'''
+translate = '''
+4. {{ba8b5af6290b9fbe-5a018ae76da5350d-8c85d3f16673988e}}
+'''
+
+[[block]]
+key = "ba8b5af6290b9fbe-5a018ae76da5350d-8c85d3f16673988e"
+type = "paragraph"
+origin = '''
+恭喜您！现在可以尽情的享用您的 Panda Knomi V2 了。
+'''
+translate = '''
+Congratulations! Your Panda Knomi V2 is ready to use.
+'''
+
+[[block]]
+key = "48a143528029bff5"
+type = "heading"
+origin = '''
+##### 手动输入
+'''
+translate = '''
+##### Manual Entry
+'''
+
+[[block]]
+key = "6dcaa4575214e726"
+type = "list"
+composite = true
+origin = '''
+{{6dcaa4575214e726-b65adcfb99bbee5b}}
+
+{{6dcaa4575214e726-f10038988271d8fc}}
+
+{{6dcaa4575214e726-ba2a3078a6f44581}}
+
+{{6dcaa4575214e726-11d7446bb7007fe0}}
+
+{{6dcaa4575214e726-4563b8548a5553a0}}
+'''
+translate = '''
+{{6dcaa4575214e726-b65adcfb99bbee5b}}
+
+{{6dcaa4575214e726-f10038988271d8fc}}
+
+{{6dcaa4575214e726-ba2a3078a6f44581}}
+
+{{6dcaa4575214e726-11d7446bb7007fe0}}
+
+{{6dcaa4575214e726-4563b8548a5553a0}}
+'''
+
+[[block]]
+key = "6dcaa4575214e726-b65adcfb99bbee5b"
+type = "listItem"
+composite = true
+origin = '''
+1. {{6dcaa4575214e726-b65adcfb99bbee5b-b047082e8eb203bf}}
+'''
+translate = '''
+1. {{6dcaa4575214e726-b65adcfb99bbee5b-b047082e8eb203bf}}
+'''
+
+[[block]]
+key = "6dcaa4575214e726-b65adcfb99bbee5b-b047082e8eb203bf"
+type = "paragraph"
+origin = '''
+Panda Knomi V2 每次扫描最多支持识别 20 台打印机，如果您局域网内的拓竹打印机数量较多超出了 20 台，可能无法扫描到所有的打印机，我们可以 `手动输入` 绑定打印机所需要的所有信息。
+'''
+translate = '''
+Each Panda Knomi V2 scan can identify up to 20 printers. If your LAN contains more than 20 Bambu Lab printers, some may not appear; use `Manual Entry` to enter all the information required to bind the printer.
+'''
+
+[[block]]
+key = "6dcaa4575214e726-f10038988271d8fc"
+type = "listItem"
+composite = true
+origin = '''
+2. {{6dcaa4575214e726-f10038988271d8fc-c93325e310d2fb62}}
+'''
+translate = '''
+2. {{6dcaa4575214e726-f10038988271d8fc-c93325e310d2fb62}}
+'''
+
+[[block]]
+key = "6dcaa4575214e726-f10038988271d8fc-c93325e310d2fb62"
+type = "paragraph"
+origin = '''
+如果您局域网内的拓竹打印机数量不多，但是却仍然扫描不到打印机，我们可以先尝试 `手动输入` 绑定打印机所需要的所有信息。如果 Panda Knomi V2 无法连接到打印机，可能是您路由器的一些安全特性，禁止了局域网内的设备互相通信。请联系客服 support01@bigtree-tech.com 协助您做进一步的排查。
+'''
+translate = '''
+If only a few Bambu Lab printers are on your LAN but scanning still cannot find yours, try `Manual Entry` first. If Panda Knomi V2 cannot connect, your router may have security settings that prevent devices on the same LAN from communicating. Contact `support01@bigtree-tech.com` for further troubleshooting.
+'''
+
+[[block]]
+key = "6dcaa4575214e726-ba2a3078a6f44581"
+type = "listItem"
+composite = true
+origin = '''
+3. {{6dcaa4575214e726-ba2a3078a6f44581-82b8853c7134afb7}}
+'''
+translate = '''
+3. {{6dcaa4575214e726-ba2a3078a6f44581-82b8853c7134afb7}}
+'''
+
+[[block]]
+key = "6dcaa4575214e726-ba2a3078a6f44581-82b8853c7134afb7"
+type = "paragraph"
+origin = '''
+在打印机的设置 -> 仅局域网页面中找到 `SN码`，`访问码` 和 `IP`，并输入到 Web UI 上对应的输入栏中。
+'''
+translate = '''
+Find the printer's `Serial Number`, `Access Code`, and `IP` under Settings -> LAN Only Mode, then enter them in the corresponding Web UI fields.
+'''
+
+[[block]]
+key = "6dcaa4575214e726-11d7446bb7007fe0"
+type = "listItem"
+composite = true
+origin = '''
+4. {{6dcaa4575214e726-11d7446bb7007fe0-ea914b96544ed132}}
+'''
+translate = '''
+4. {{6dcaa4575214e726-11d7446bb7007fe0-ea914b96544ed132}}
+'''
+
+[[block]]
+key = "6dcaa4575214e726-11d7446bb7007fe0-ea914b96544ed132"
+type = "paragraph"
+origin = '''
+点击 `绑定` 开始连接打印机。出现 `绑定成功` 的弹窗后，表示 Panda Knomi V2 已成功连接到打印机。
+'''
+translate = '''
+Tap `Bind` to connect. A `Binding Successful` dialog confirms that Panda Knomi V2 has connected to the printer.
+'''
+
+[[block]]
+key = "6dcaa4575214e726-4563b8548a5553a0"
+type = "listItem"
+composite = true
+origin = '''
+5. {{6dcaa4575214e726-4563b8548a5553a0-8c85d3f16673988e}}
+'''
+translate = '''
+5. {{6dcaa4575214e726-4563b8548a5553a0-8c85d3f16673988e}}
+'''
+
+[[block]]
+key = "6dcaa4575214e726-4563b8548a5553a0-8c85d3f16673988e"
+type = "paragraph"
+origin = '''
+恭喜您！现在可以尽情的享用您的 Panda Knomi V2 了。
+'''
+translate = '''
+Congratulations! Your Panda Knomi V2 is ready to use.
+'''
+
+[[block]]
+key = "b70e1aad3ffd6689"
+type = "heading"
+origin = '''
+### Wi-Fi & IP 界面
+'''
+translate = '''
+### Wi-Fi & IP Page
+'''
+
+[[block]]
+key = "3fe16464c1d74b28"
+type = "list"
+composite = true
+origin = '''
+{{3fe16464c1d74b28-7b0fc507d7844b3f}}
+
+{{3fe16464c1d74b28-fe3a88c8466eda7d}}
+
+{{3fe16464c1d74b28-72eb814b3757d62f}}
+
+{{3fe16464c1d74b28-1c6acfbb33dab469}}
+
+{{3fe16464c1d74b28-eae47c4b0efdd7b4}}
+'''
+translate = '''
+{{3fe16464c1d74b28-7b0fc507d7844b3f}}
+
+{{3fe16464c1d74b28-fe3a88c8466eda7d}}
+
+{{3fe16464c1d74b28-72eb814b3757d62f}}
+
+{{3fe16464c1d74b28-1c6acfbb33dab469}}
+
+{{3fe16464c1d74b28-eae47c4b0efdd7b4}}
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-7b0fc507d7844b3f"
+type = "listItem"
+composite = true
+origin = '''
+1. {{3fe16464c1d74b28-7b0fc507d7844b3f-35f24107b3e00ffc}}
+
+    {{3fe16464c1d74b28-7b0fc507d7844b3f-798043afac656196}}
+'''
+translate = '''
+1. {{3fe16464c1d74b28-7b0fc507d7844b3f-35f24107b3e00ffc}}
+
+    {{3fe16464c1d74b28-7b0fc507d7844b3f-798043afac656196}}
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-7b0fc507d7844b3f-35f24107b3e00ffc"
+type = "paragraph"
+origin = '''
+连接到 Panda Knomi V2 WebUI 中出现的第一个界面是 WiFi&IP 设置界面。
+'''
+translate = '''
+The first page shown in the Panda Knomi V2 Web UI is the Wi-Fi & IP settings page.
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-7b0fc507d7844b3f-798043afac656196"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-wifi-ip.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-wifi-ip-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-fe3a88c8466eda7d"
+type = "listItem"
+composite = true
+origin = '''
+2. {{3fe16464c1d74b28-fe3a88c8466eda7d-44160f07fab1e5cf}}
+'''
+translate = '''
+2. {{3fe16464c1d74b28-fe3a88c8466eda7d-44160f07fab1e5cf}}
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-fe3a88c8466eda7d-44160f07fab1e5cf"
+type = "paragraph"
+origin = '''
+进入 `Wi-Fi&IP` 界面
+'''
+translate = '''
+Open the `Wi-Fi&IP` page.
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-72eb814b3757d62f"
+type = "listItem"
+composite = true
+origin = '''
+3. {{3fe16464c1d74b28-72eb814b3757d62f-4d1b6ea1d543e76f}}
+
+    {{3fe16464c1d74b28-72eb814b3757d62f-a1ef5833a5b070d6}}
+'''
+translate = '''
+3. {{3fe16464c1d74b28-72eb814b3757d62f-4d1b6ea1d543e76f}}
+
+    {{3fe16464c1d74b28-72eb814b3757d62f-a1ef5833a5b070d6}}
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-72eb814b3757d62f-4d1b6ea1d543e76f"
+type = "paragraph"
+origin = '''
+如果您想要重新配置 Panda Knomi V2 要连接的 Wi-Fi，可以点击 `Wi-Fi 网络配置` 按钮再次进入配置 Wi-Fi 的界面重新配置要连接的 Wi-Fi。
+'''
+translate = '''
+To change the Wi-Fi network used by Panda Knomi V2, tap `Wi-Fi Network Configuration` and configure the new network.
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-72eb814b3757d62f-a1ef5833a5b070d6"
+type = "admonition"
+composite = true
+origin = '''
+:::warning
+
+{{3fe16464c1d74b28-72eb814b3757d62f-a1ef5833a5b070d6-b1020cbec2b924b0}}
+
+:::
+'''
+translate = '''
+:::warning
+
+{{3fe16464c1d74b28-72eb814b3757d62f-a1ef5833a5b070d6-b1020cbec2b924b0}}
+
+:::
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-72eb814b3757d62f-a1ef5833a5b070d6-b1020cbec2b924b0"
+type = "paragraph"
+origin = '''
+Panda Knomi V2 更换所连接的 Wi-Fi 后，Panda Knomi V2 所在的局域网和 IP 地址可能发生改变，若在设备连接到与 Panda Knomi V2 所连接的 Wi-Fi 相同的局域网下改变此配置，则设备会与 Panda Knomi V2 断开通信连接，需要将设备也重新连接到 Panda Knomi V2 新连接的 Wi-Fi 网络下才可重新建立通信连接。为避免此类情况，建议将设备连接到 Panda Knomi V2 的 AP 热点，然后再修改此配置。
+'''
+translate = '''
+Changing the Wi-Fi network may also change the LAN and IP address used by Panda Knomi V2. If you change this setting while accessing the Web UI from another device on the current LAN, that device will lose its connection to Panda Knomi V2. Reconnect it to the new Wi-Fi network to restore access. To avoid interruption, connect to the Panda Knomi V2 AP hotspot before changing this setting.
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-1c6acfbb33dab469"
+type = "listItem"
+composite = true
+origin = '''
+4. {{3fe16464c1d74b28-1c6acfbb33dab469-4951fc6620c7c867}}
+'''
+translate = '''
+4. {{3fe16464c1d74b28-1c6acfbb33dab469-4951fc6620c7c867}}
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-1c6acfbb33dab469-4951fc6620c7c867"
+type = "paragraph"
+origin = '''
+配网完成后，推荐客户将手机，电脑等设备连接到与 Panda Knomi V2 所连接的 Wi-Fi 相同的局域网下，并通过在浏览器地址栏输入 IP 地址访问 Web UI。为避免遗忘 IP 地址，可利用手机主屏幕书签功能，方便快速访问。
+'''
+translate = '''
+After Wi-Fi setup, connect your phone or computer to the same LAN as Panda Knomi V2 and enter its IP address in your browser to access the Web UI. You can bookmark the address on your phone's Home Screen for quick access.
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-eae47c4b0efdd7b4"
+type = "listItem"
+composite = true
+origin = '''
+5. {{3fe16464c1d74b28-eae47c4b0efdd7b4-05a03dd17790d707}}
+
+    {{3fe16464c1d74b28-eae47c4b0efdd7b4-224f82ebf01a6a4e}}
+
+    {{3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab}}
+'''
+translate = '''
+5. {{3fe16464c1d74b28-eae47c4b0efdd7b4-05a03dd17790d707}}
+
+    {{3fe16464c1d74b28-eae47c4b0efdd7b4-224f82ebf01a6a4e}}
+
+    {{3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab}}
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-eae47c4b0efdd7b4-05a03dd17790d707"
+type = "paragraph"
+origin = '''
+若设备连接到与 Panda Knomi V2 所连接的 Wi-Fi 相同的局域网下，用户可以通过主机名直接访问 Web UI，例如出厂默认的主机名是 `PandaKnomi`，我们可以直接访问 [http://pandaknomi.local](http://pandaknomi.local) ，不区分大小写。如果设备开了 VPN, 那么通过主机名访问的方式可能会失效, 此时请直接使用 IP 访问。
+'''
+translate = '''
+When your device is on the same LAN as Panda Knomi V2, you can also access the Web UI using its hostname. The factory-default hostname is `PandaKnomi`, accessible at [http://pandaknomi.local](http://pandaknomi.local) (case-insensitive). A VPN may prevent hostname access; use the IP address instead.
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-eae47c4b0efdd7b4-224f82ebf01a6a4e"
+type = "paragraph"
+origin = '''
+用户可以自定义主机名，但是请遵守以下规则：
+'''
+translate = '''
+You can customize the hostname, subject to the following rules:
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab"
+type = "list"
+composite = true
+origin = '''
+{{3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-8d795d90c8c9b6a2}}
+
+{{3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-a3420854ff40f940}}
+
+{{3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-9daee6abb84e32da}}
+'''
+translate = '''
+{{3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-8d795d90c8c9b6a2}}
+
+{{3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-a3420854ff40f940}}
+
+{{3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-9daee6abb84e32da}}
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-8d795d90c8c9b6a2"
+type = "listItem"
+composite = true
+origin = '''
+1. {{3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-8d795d90c8c9b6a2-650ec17d83975fb1}}
+'''
+translate = '''
+1. {{3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-8d795d90c8c9b6a2-650ec17d83975fb1}}
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-8d795d90c8c9b6a2-650ec17d83975fb1"
+type = "paragraph"
+origin = '''
+只能由字母（a-z，A-Z），数字（0-9），以及连接符（-）组成， 并且首字符必须是字母。
+'''
+translate = '''
+Use only letters (a-z, A-Z), numbers (0-9), and hyphens (-). The first character must be a letter.
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-a3420854ff40f940"
+type = "listItem"
+composite = true
+origin = '''
+2. {{3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-a3420854ff40f940-4f0015343678ef92}}
+'''
+translate = '''
+2. {{3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-a3420854ff40f940-4f0015343678ef92}}
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-a3420854ff40f940-4f0015343678ef92"
+type = "paragraph"
+origin = '''
+长度不低于 8 个字符，不超过 32 个字符 (在 `V1.0.2` 及其之前版本的固件上, 请不要超过 15 个字符, 否则设备会无法启动，需要更新到 `V1.0.3` 及其之后版本的固件)。
+'''
+translate = '''
+Use 8–32 characters. For firmware `V1.0.2` and earlier, do not exceed 15 characters; a longer hostname may prevent startup. Update to firmware `V1.0.3` or later if needed.
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-9daee6abb84e32da"
+type = "listItem"
+composite = true
+origin = '''
+3. {{3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-9daee6abb84e32da-ad7af403b9d69631}}
+
+    {{3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-9daee6abb84e32da-b46b35c88e2e6841}}
+'''
+translate = '''
+3. {{3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-9daee6abb84e32da-ad7af403b9d69631}}
+
+    {{3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-9daee6abb84e32da-b46b35c88e2e6841}}
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-9daee6abb84e32da-ad7af403b9d69631"
+type = "paragraph"
+origin = '''
+修改完成后，点击 `设置主机名` 将设置的主机名发送给 Panda Knomi V2，若出现如下图中的弹窗，说明主机名已经重新设置成功，主机名修改后需要重新启动才可以生效，直接点击弹窗中的 `OK` 按钮，Panda Knomi V2 会 `立刻重启`，若我们不想立刻重启，可以点击弹窗右上角的 `x` 按钮关闭弹窗。
+'''
+translate = '''
+Tap `Set Hostname` to send the new hostname to Panda Knomi V2. When the confirmation dialog shown below appears, the hostname has been saved. A restart is required for it to take effect. Tap `OK` to restart Panda Knomi V2 immediately, or tap `x` in the upper-right corner to close the dialog and restart later.
+'''
+
+[[block]]
+key = "3fe16464c1d74b28-eae47c4b0efdd7b4-ce21d24d5f525bab-9daee6abb84e32da-b46b35c88e2e6841"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-hostname.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-hostname-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "9ca2a159cdbefc1e"
+type = "heading"
+origin = '''
+### AP 界面
+'''
+translate = '''
+### AP Page
+'''
+
+[[block]]
+key = "ce15a75f07618bc9"
+type = "list"
+composite = true
+origin = '''
+{{ce15a75f07618bc9-fe401ae994d3301f}}
+
+{{ce15a75f07618bc9-87aea81880f5bbd5}}
+
+{{ce15a75f07618bc9-d573f44ddf41445f}}
+
+{{ce15a75f07618bc9-5812cc322c09e66f}}
+
+{{ce15a75f07618bc9-870b15220eea49f8}}
+'''
+translate = '''
+{{ce15a75f07618bc9-fe401ae994d3301f}}
+
+{{ce15a75f07618bc9-87aea81880f5bbd5}}
+
+{{ce15a75f07618bc9-d573f44ddf41445f}}
+
+{{ce15a75f07618bc9-5812cc322c09e66f}}
+
+{{ce15a75f07618bc9-870b15220eea49f8}}
+'''
+
+[[block]]
+key = "ce15a75f07618bc9-fe401ae994d3301f"
+type = "listItem"
+composite = true
+origin = '''
+1. {{ce15a75f07618bc9-fe401ae994d3301f-1828f066ab677c82}}
+'''
+translate = '''
+1. {{ce15a75f07618bc9-fe401ae994d3301f-1828f066ab677c82}}
+'''
+
+[[block]]
+key = "ce15a75f07618bc9-fe401ae994d3301f-1828f066ab677c82"
+type = "paragraph"
+origin = '''
+Panda Knomi V2 WebUI 中出现的下一个界面是 AP 界面。Panda Knomi V2 AP 是 Panda Knomi V2 广播的 WiFi 热点，允许手机/电脑直接连接到它。如果您不希望广播此热点，则可以将其关闭，但 Panda Knomi V2 会在无法连接到您设置的 WiFi 时自动重新打开此热点。这提供了一种故障保护方式，可以在设置的 WiFi 网络不可用的情况下重新连接到 Panda Knomi V2。
+'''
+translate = '''
+The next Web UI page is `AP`. The Panda Knomi V2 AP is a Wi-Fi hotspot broadcast by Panda Knomi V2, allowing phones and computers to connect directly. You can disable it if you do not want the hotspot to be broadcast. However, if Panda Knomi V2 cannot connect to the configured Wi-Fi network, it automatically enables its AP again, providing a fallback connection for troubleshooting.
+'''
+
+[[block]]
+key = "ce15a75f07618bc9-87aea81880f5bbd5"
+type = "listItem"
+composite = true
+origin = '''
+2. {{ce15a75f07618bc9-87aea81880f5bbd5-25d1be7852c2d024}}
+
+    {{ce15a75f07618bc9-87aea81880f5bbd5-6d899b9a3a5e60b6}}
+'''
+translate = '''
+2. {{ce15a75f07618bc9-87aea81880f5bbd5-25d1be7852c2d024}}
+
+    {{ce15a75f07618bc9-87aea81880f5bbd5-6d899b9a3a5e60b6}}
+'''
+
+[[block]]
+key = "ce15a75f07618bc9-87aea81880f5bbd5-25d1be7852c2d024"
+type = "admonition"
+composite = true
+origin = '''
+:::warning
+
+    {{ce15a75f07618bc9-87aea81880f5bbd5-25d1be7852c2d024-d14d206e8f4e09f1}}
+
+    :::
+'''
+translate = '''
+:::warning
+
+    {{ce15a75f07618bc9-87aea81880f5bbd5-25d1be7852c2d024-d14d206e8f4e09f1}}
+
+    :::
+'''
+
+[[block]]
+key = "ce15a75f07618bc9-87aea81880f5bbd5-25d1be7852c2d024-d14d206e8f4e09f1"
+type = "paragraph"
+origin = '''
+若设备是连接到 Panda Knomi V2 的 AP 热点访问的 Web UI，关闭或者修改 Panda Knomi V2 的 AP 信息都会导致设备与 Panda Knomi V2 断开通信连接。为避免此类情况，建议将设备连接到与 Panda Knomi V2 所连接的 Wi-Fi 相同局域网下再修改此配置。
+'''
+translate = '''
+If you are accessing the Web UI through the Panda Knomi V2 AP, disabling the AP or changing its settings will disconnect your device. To avoid interruption, connect your device to the same LAN as Panda Knomi V2 before changing these settings.
+'''
+
+[[block]]
+key = "ce15a75f07618bc9-87aea81880f5bbd5-6d899b9a3a5e60b6"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-ap.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-ap-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "ce15a75f07618bc9-d573f44ddf41445f"
+type = "listItem"
+composite = true
+origin = '''
+3. {{ce15a75f07618bc9-d573f44ddf41445f-b47290663224ef62}}
+'''
+translate = '''
+3. {{ce15a75f07618bc9-d573f44ddf41445f-b47290663224ef62}}
+'''
+
+[[block]]
+key = "ce15a75f07618bc9-d573f44ddf41445f-b47290663224ef62"
+type = "paragraph"
+origin = '''
+进入 `AP` 界面
+'''
+translate = '''
+Open the `AP` page.
+'''
+
+[[block]]
+key = "ce15a75f07618bc9-5812cc322c09e66f"
+type = "listItem"
+composite = true
+origin = '''
+4. {{ce15a75f07618bc9-5812cc322c09e66f-1b5cb058fffdcc88}}
+'''
+translate = '''
+4. {{ce15a75f07618bc9-5812cc322c09e66f-1b5cb058fffdcc88}}
+'''
+
+[[block]]
+key = "ce15a75f07618bc9-5812cc322c09e66f-1b5cb058fffdcc88"
+type = "paragraph"
+origin = '''
+打开/关闭 Panda Knomi V2 的 AP 热点。关闭 AP 热点后将无法连接到 Panda Knomi V2 的热点去访问 Web UI，关闭前请务必记录 Panda Knomi V2 在其所处的 Wi-Fi 的 IP，以便使用同一 Wi-Fi 的设备通过 IP 访问 Web UI。
+'''
+translate = '''
+Enable or disable the Panda Knomi V2 AP hotspot. Once disabled, you cannot access the Web UI through this hotspot. Before disabling it, record the IP address assigned to Panda Knomi V2 on its Wi-Fi network so you can access the Web UI from another device on the same LAN.
+'''
+
+[[block]]
+key = "ce15a75f07618bc9-870b15220eea49f8"
+type = "listItem"
+composite = true
+origin = '''
+5. {{ce15a75f07618bc9-870b15220eea49f8-6e319b69a18e59fa}}
+
+    {{ce15a75f07618bc9-870b15220eea49f8-359632f486a2e36f}}
+
+    {{ce15a75f07618bc9-870b15220eea49f8-8432b19c8402ddd1}}
+
+    {{ce15a75f07618bc9-870b15220eea49f8-29519941937ea30f}}
+'''
+translate = '''
+5. {{ce15a75f07618bc9-870b15220eea49f8-6e319b69a18e59fa}}
+
+    {{ce15a75f07618bc9-870b15220eea49f8-359632f486a2e36f}}
+
+    {{ce15a75f07618bc9-870b15220eea49f8-8432b19c8402ddd1}}
+
+    {{ce15a75f07618bc9-870b15220eea49f8-29519941937ea30f}}
+'''
+
+[[block]]
+key = "ce15a75f07618bc9-870b15220eea49f8-6e319b69a18e59fa"
+type = "paragraph"
+origin = '''
+修改 Panda Knomi V2 的 AP 热点， 默认配置为：
+'''
+translate = '''
+Change the Panda Knomi V2 AP hotspot settings. The defaults are:
+'''
+
+[[block]]
+key = "ce15a75f07618bc9-870b15220eea49f8-359632f486a2e36f"
+type = "paragraph"
+origin = '''
+Wi-Fi 名称: `Panda_Knomi_xxxxxxxxxxxx`
+'''
+translate = '''
+Wi-Fi Name: `Panda_Knomi_xxxxxxxxxxxx`
+'''
+
+[[block]]
+key = "ce15a75f07618bc9-870b15220eea49f8-8432b19c8402ddd1"
+type = "paragraph"
+origin = '''
+Wi-Fi 密码: `987654321`
+'''
+translate = '''
+Wi-Fi Password: `987654321`
+'''
+
+[[block]]
+key = "ce15a75f07618bc9-870b15220eea49f8-29519941937ea30f"
+type = "paragraph"
+origin = '''
+修改完成后不用重启 Panda Knomi V2，Panda Knomi V2 会在后台重新创建新的 AP 热点。
+'''
+translate = '''
+Changes take effect without restarting Panda Knomi V2; it recreates the AP hotspot in the background.
+'''
+
+[[block]]
+key = "520be197ecffb59c"
+type = "heading"
+origin = '''
+## 主题设置和 IMG 分享
+'''
+translate = '''
+## Theme Settings and IMG Sharing
+'''
+
+[[block]]
+key = "eb37ecaaec8cb4a0"
+type = "heading"
+origin = '''
+### 各 GIF 状态说明
+'''
+translate = '''
+### GIF Status Reference
+'''
+
+[[block]]
+key = "2a4ac542844454f4"
+type = "list"
+composite = true
+origin = '''
+{{2a4ac542844454f4-0af179c8a2d7e9c4}}
+
+{{2a4ac542844454f4-b001abafd7881e0e}}
+'''
+translate = '''
+{{2a4ac542844454f4-0af179c8a2d7e9c4}}
+
+{{2a4ac542844454f4-b001abafd7881e0e}}
+'''
+
+[[block]]
+key = "2a4ac542844454f4-0af179c8a2d7e9c4"
+type = "listItem"
+composite = true
+origin = '''
+1. {{2a4ac542844454f4-0af179c8a2d7e9c4-30677676894e0c0f}}
+'''
+translate = '''
+1. {{2a4ac542844454f4-0af179c8a2d7e9c4-30677676894e0c0f}}
+'''
+
+[[block]]
+key = "2a4ac542844454f4-0af179c8a2d7e9c4-30677676894e0c0f"
+type = "paragraph"
+origin = '''
+由于硬件的限制，Panda Knomi V2 规定单个 GIF 大小不能超过 1.5MB(1536KB, 1MB=1024KB), 并且所有的 GIF 大小之和不能超过 3MB(3072KB,1MB=1024KB)。
+'''
+translate = '''
+Due to hardware limitations, each GIF must be no larger than 1.5MB (1536KB; 1MB = 1024KB), and all GIF files combined must not exceed 3MB (3072KB; 1MB = 1024KB).
+'''
+
+[[block]]
+key = "2a4ac542844454f4-b001abafd7881e0e"
+type = "listItem"
+composite = true
+origin = '''
+2. {{2a4ac542844454f4-b001abafd7881e0e-89d164f77e294b2e}}
+'''
+translate = '''
+2. {{2a4ac542844454f4-b001abafd7881e0e-89d164f77e294b2e}}
+'''
+
+[[block]]
+key = "2a4ac542844454f4-b001abafd7881e0e-89d164f77e294b2e"
+type = "paragraph"
+origin = '''
+出厂状态下所有的 GIF 占用的空间为 2664.25KB（与下表中所有的大小之和有细微的不同，这是由于每个 GIF 的大小数据只保留了小数点后两位），剩余 407.75KB 可用。
+'''
+translate = '''
+Factory GIFs occupy 2664.25KB in total (a slight difference from the sum in the table below due to rounding each GIF size to two decimal places), leaving 407.75KB available.
+'''
+
+[[block]]
+key = "22521231cd875522"
+type = "table"
+origin = '''
+| | Web UI 中的文件名称 | GIF 效果 | 出现的条件（需已绑定上打印机） | 出厂 GIF 的大小 | 出厂 GIF 的分辨率（宽 x 高） |
+| :-----| :-----| :----: | :----: | :----: | :----: |
+| 1 | 待机状态.gif  | <ImageView src={require("./img/panda-knomi-v2-standby.webp").default} alt="" width="45%" /> | 打印机处于空闲状态 | 63.61KB | 240 x 240 |
+| 2 | 喷嘴加热.gif  | <ImageView src={require("./img/panda-knomi-v2-nozzle-heating.webp").default} alt="" width="45%" /> | 喷嘴正在加热 | 135.7KB | 240 x 240 |
+| 3 | 热床加热.gif  | <ImageView src={require("./img/panda-knomi-v2-bed-heating.webp").default} alt="" width="45%" /> | 热床正在加热 | 128.55KB | 240 x 240 |
+| 4 | 调平.gif  | <ImageView src={require("./img/panda-knomi-v2-bed-leveling.webp").default} alt="" width="45%" /> | 正在自动调平 | 111.28KB | 240 x 240 |
+| 5 | 归零.gif  | <ImageView src={require("./img/panda-knomi-v2-homing.webp").default} alt="" width="45%" /> | 正在回原点 | 142.75KB | 240 x 240 |
+| 6 | 清洁喷嘴.gif  | <ImageView src={require("./img/panda-knomi-v2-nozzle-cleaning.webp").default} alt="" width="45%" /> | 正在清理喷嘴 | 164.02KB | 240 x 240 |
+| 7 | 流量校准.gif  | <ImageView src={require("./img/panda-knomi-v2-calibrating-flow.webp").default} alt="" width="45%" /> | 正在校准挤出流量 | 1023.41KB | 240 x 240 |
+| 8 | XY 轴共振补偿.gif  | <ImageView src={require("./img/panda-knomi-v2-xy-mesh-mode-sweep.webp").default} alt="" width="45%" /> | 正在校准共振补偿 | 78.45KB | 240 x 240 |
+| 9 | 耗材位置检查.gif  | <ImageView src={require("./img/panda-knomi-v2-filament-check-location.webp").default} alt="" width="45%" /> | 正在检查耗材的位置 | 225.3KB | 240 x 240 |
+| 10 | 切割耗材.gif  | <ImageView src={require("./img/panda-knomi-v2-filament-cut.webp").default} alt="" width="45%" /> | 正在切料 | 54.09KB | 240 x 240 |
+| 11 | 回抽耗材.gif  | <ImageView src={require("./img/panda-knomi-v2-filament-pull-back-cur.webp").default} alt="" width="45%" /> | 正在抽回当前的耗材 | 139.41KB | 240 x 240 |
+| 12 | 推入新耗材.gif  | <ImageView src={require("./img/panda-knomi-v2-filament-push-new.webp").default} alt="" width="45%" /> | 正在加载新的耗材 | 164.94KB | 240 x 240 |
+| 13 | 挤出旧耗材.gif  | <ImageView src={require("./img/panda-knomi-v2-filament-purge-old.webp").default} alt="" width="45%" /> | 正在冲刷旧的耗材 | 52.98KB | 240 x 240 |
+| 14 | 打印成功.gif  | <ImageView src={require("./img/panda-knomi-v2-printing-ok.webp").default} alt="" width="45%" /> | 打印已完成 | 22.37KB | 240 x 240 |
+| 15 | 正在打印.gif  | <ImageView src={require("./img/panda-knomi-v2-printing.webp").default} alt="" width="45%" /> | 正在打印中 | 157.41KB | 240 x 240 |
+'''
+translate = '''
+| | Filename in Web UI | GIF Preview | Display Condition (printer must be bound) | Factory GIF Size | Factory GIF Resolution (W x H) |
+| :-----| :-----| :----: | :----: | :----: | :----: |
+| 1 | Standby.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-standby.webp").default} alt="" width="45%" /> | Printer is idle | 63.61KB | 240 x 240 |
+| 2 | Nozzle Heating.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-nozzle-heating.webp").default} alt="" width="45%" /> | Nozzle is heating | 135.7KB | 240 x 240 |
+| 3 | Bed Heating.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-bed-heating.webp").default} alt="" width="45%" /> | Heated bed is heating | 128.55KB | 240 x 240 |
+| 4 | Bed Leveling.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-bed-leveling.webp").default} alt="" width="45%" /> | Automatic bed leveling in progress | 111.28KB | 240 x 240 |
+| 5 | Homing.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-homing.webp").default} alt="" width="45%" /> | Printer is homing | 142.75KB | 240 x 240 |
+| 6 | Nozzle Cleaning.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-nozzle-cleaning.webp").default} alt="" width="45%" /> | Nozzle cleaning in progress | 164.02KB | 240 x 240 |
+| 7 | Flow Calibration.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-calibrating-flow.webp").default} alt="" width="45%" /> | Extrusion flow calibration in progress | 1023.41KB | 240 x 240 |
+| 8 | XY Resonance Compensation.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-xy-mesh-mode-sweep.webp").default} alt="" width="45%" /> | Resonance compensation calibration in progress | 78.45KB | 240 x 240 |
+| 9 | Filament Position Check.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-filament-check-location.webp").default} alt="" width="45%" /> | Checking filament position | 225.3KB | 240 x 240 |
+| 10 | Filament Cutting.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-filament-cut.webp").default} alt="" width="45%" /> | Cutting filament | 54.09KB | 240 x 240 |
+| 11 | Filament Retract.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-filament-pull-back-cur.webp").default} alt="" width="45%" /> | Retracting current filament | 139.41KB | 240 x 240 |
+| 12 | Load New Filament.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-filament-push-new.webp").default} alt="" width="45%" /> | Loading new filament | 164.94KB | 240 x 240 |
+| 13 | Purge Old Filament.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-filament-purge-old.webp").default} alt="" width="45%" /> | Purging old filament | 52.98KB | 240 x 240 |
+| 14 | Print Complete.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-printing-ok.webp").default} alt="" width="45%" /> | Print complete | 22.37KB | 240 x 240 |
+| 15 | Printing.gif | <ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-printing.webp").default} alt="" width="45%" /> | Printing in progress | 157.41KB | 240 x 240 |
+'''
+
+[[block]]
+key = "033711b39ae5b8dc"
+type = "heading"
+origin = '''
+### 屏幕保护
+'''
+translate = '''
+### Screensaver
+'''
+
+[[block]]
+key = "5f7ed05228d2af61"
+type = "list"
+composite = true
+origin = '''
+{{5f7ed05228d2af61-294542e5ac1b6744}}
+
+{{5f7ed05228d2af61-aabe208c989ff233}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7}}
+'''
+translate = '''
+{{5f7ed05228d2af61-294542e5ac1b6744}}
+
+{{5f7ed05228d2af61-aabe208c989ff233}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7}}
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-294542e5ac1b6744"
+type = "listItem"
+composite = true
+origin = '''
+1. {{5f7ed05228d2af61-294542e5ac1b6744-ce7f087f8c69e112}}
+'''
+translate = '''
+1. {{5f7ed05228d2af61-294542e5ac1b6744-ce7f087f8c69e112}}
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-294542e5ac1b6744-ce7f087f8c69e112"
+type = "paragraph"
+origin = '''
+为避免屏幕长时间显示同一个静态画面导致的烧屏，Panda Knomi V2 内置了屏幕保护的逻辑，在显示静态画面时，每隔 15s 显示一次内置的屏保 GIF(此 GIF 不支持自定义)，屏保 GIF 显示时间为 2s。
+'''
+translate = '''
+To reduce the risk of screen burn-in from static images, Panda Knomi V2 displays a built-in screensaver GIF for 2 seconds every 15 seconds while a static screen is shown. This GIF cannot be customized.
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-aabe208c989ff233"
+type = "listItem"
+composite = true
+origin = '''
+2. {{5f7ed05228d2af61-aabe208c989ff233-0e52e4dabb97dc12}}
+
+    {{5f7ed05228d2af61-aabe208c989ff233-7761589bb824d90e}}
+'''
+translate = '''
+2. {{5f7ed05228d2af61-aabe208c989ff233-0e52e4dabb97dc12}}
+
+    {{5f7ed05228d2af61-aabe208c989ff233-7761589bb824d90e}}
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-aabe208c989ff233-0e52e4dabb97dc12"
+type = "paragraph"
+origin = '''
+屏保 GIF 的效果如下：
+'''
+translate = '''
+The screensaver animation is shown below:
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-aabe208c989ff233-7761589bb824d90e"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-screen-saver.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-screen-saver.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7"
+type = "listItem"
+composite = true
+origin = '''
+3. {{5f7ed05228d2af61-70e922aeb2f701f7-041e1b2a7172dbf0}}
+
+    {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4}}
+'''
+translate = '''
+3. {{5f7ed05228d2af61-70e922aeb2f701f7-041e1b2a7172dbf0}}
+
+    {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4}}
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-041e1b2a7172dbf0"
+type = "paragraph"
+origin = '''
+以下静态界面中具有屏保逻辑：
+'''
+translate = '''
+The following static screens use the screensaver:
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4"
+type = "list"
+composite = true
+origin = '''
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-7c66c336bc2d0783}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-301f458366030884}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-5fe73c592b78d1e5}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-6adfa9248426839e}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-2d658602c007c2bc}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-33624c95af71cdc8}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-feee582c79a08d82}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-171da0b090ccf800}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-d3709ceb0d8ca26b}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-5624581e46fb7781}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-8df4cd63afd935cb}}
+'''
+translate = '''
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-7c66c336bc2d0783}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-301f458366030884}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-5fe73c592b78d1e5}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-6adfa9248426839e}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-2d658602c007c2bc}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-33624c95af71cdc8}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-feee582c79a08d82}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-171da0b090ccf800}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-d3709ceb0d8ca26b}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-5624581e46fb7781}}
+
+{{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-8df4cd63afd935cb}}
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-7c66c336bc2d0783"
+type = "listItem"
+composite = true
+origin = '''
+1. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-7c66c336bc2d0783-069366626e931913}}
+'''
+translate = '''
+1. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-7c66c336bc2d0783-069366626e931913}}
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-7c66c336bc2d0783-069366626e931913"
+type = "paragraph"
+origin = '''
+无效的 IMG 界面
+'''
+translate = '''
+Invalid IMG screen
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-301f458366030884"
+type = "listItem"
+composite = true
+origin = '''
+2. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-301f458366030884-7575be013a185690}}
+'''
+translate = '''
+2. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-301f458366030884-7575be013a185690}}
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-301f458366030884-7575be013a185690"
+type = "paragraph"
+origin = '''
+出厂时的 Hello 界面
+'''
+translate = '''
+Factory-default Hello screen
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-5fe73c592b78d1e5"
+type = "listItem"
+composite = true
+origin = '''
+3. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-5fe73c592b78d1e5-ab8dfa6ddf92c41c}}
+'''
+translate = '''
+3. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-5fe73c592b78d1e5-ab8dfa6ddf92c41c}}
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-5fe73c592b78d1e5-ab8dfa6ddf92c41c"
+type = "paragraph"
+origin = '''
+Wi-Fi 扫描完成界面
+'''
+translate = '''
+Wi-Fi scan completed screen
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-6adfa9248426839e"
+type = "listItem"
+composite = true
+origin = '''
+4. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-6adfa9248426839e-550f86026227943a}}
+'''
+translate = '''
+4. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-6adfa9248426839e-550f86026227943a}}
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-6adfa9248426839e-550f86026227943a"
+type = "paragraph"
+origin = '''
+Wi-Fi 连接失败界面
+'''
+translate = '''
+Wi-Fi connection failed screen
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-2d658602c007c2bc"
+type = "listItem"
+composite = true
+origin = '''
+5. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-2d658602c007c2bc-dc82fd6bc95eb1e0}}
+'''
+translate = '''
+5. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-2d658602c007c2bc-dc82fd6bc95eb1e0}}
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-2d658602c007c2bc-dc82fd6bc95eb1e0"
+type = "paragraph"
+origin = '''
+Wi-Fi 密码错误界面
+'''
+translate = '''
+Incorrect Wi-Fi password screen
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-33624c95af71cdc8"
+type = "listItem"
+composite = true
+origin = '''
+6. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-33624c95af71cdc8-1dc7265ca84488f0}}
+'''
+translate = '''
+6. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-33624c95af71cdc8-1dc7265ca84488f0}}
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-33624c95af71cdc8-1dc7265ca84488f0"
+type = "paragraph"
+origin = '''
+绑定打印机界面
+'''
+translate = '''
+Bind printer screen
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-feee582c79a08d82"
+type = "listItem"
+composite = true
+origin = '''
+7. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-feee582c79a08d82-80f6bccb94b12c33}}
+'''
+translate = '''
+7. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-feee582c79a08d82-80f6bccb94b12c33}}
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-feee582c79a08d82-80f6bccb94b12c33"
+type = "paragraph"
+origin = '''
+打印机扫描完成界面
+'''
+translate = '''
+Printer scan completed screen
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-171da0b090ccf800"
+type = "listItem"
+composite = true
+origin = '''
+8. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-171da0b090ccf800-f034f899e4a90072}}
+'''
+translate = '''
+8. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-171da0b090ccf800-f034f899e4a90072}}
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-171da0b090ccf800-f034f899e4a90072"
+type = "paragraph"
+origin = '''
+打印机 SN 码错误界面
+'''
+translate = '''
+Invalid printer serial number screen
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-d3709ceb0d8ca26b"
+type = "listItem"
+composite = true
+origin = '''
+9. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-d3709ceb0d8ca26b-6cb209e1e1441417}}
+'''
+translate = '''
+9. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-d3709ceb0d8ca26b-6cb209e1e1441417}}
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-d3709ceb0d8ca26b-6cb209e1e1441417"
+type = "paragraph"
+origin = '''
+打印机 Access Code 错误界面
+'''
+translate = '''
+Incorrect printer Access Code screen
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-5624581e46fb7781"
+type = "listItem"
+composite = true
+origin = '''
+10. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-5624581e46fb7781-ee45d1dbd7f891d3}}
+'''
+translate = '''
+10. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-5624581e46fb7781-ee45d1dbd7f891d3}}
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-5624581e46fb7781-ee45d1dbd7f891d3"
+type = "paragraph"
+origin = '''
+打印机单个 HMS 二维码界面
+'''
+translate = '''
+Single printer HMS QR code screen
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-8df4cd63afd935cb"
+type = "listItem"
+composite = true
+origin = '''
+11. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-8df4cd63afd935cb-be83466e072b5524}}
+'''
+translate = '''
+11. {{5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-8df4cd63afd935cb-be83466e072b5524}}
+'''
+
+[[block]]
+key = "5f7ed05228d2af61-70e922aeb2f701f7-9c21c889006c11f4-8df4cd63afd935cb-be83466e072b5524"
+type = "paragraph"
+origin = '''
+打印机多个 HMS 错误界面
+'''
+translate = '''
+Multiple printer HMS errors screen
+'''
+
+[[block]]
+key = "3fb1db07d8012efe"
+type = "heading"
+origin = '''
+### 主题设置
+'''
+translate = '''
+### Theme Settings
+'''
+
+[[block]]
+key = "4a848e06772ceaa1"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-theme-1-2-3-4-5.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-theme-1-2-3-4-5-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "78fad061c5825f82"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-theme-6.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-theme-6-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "69948405908f41aa"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-settings-7-8.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-settings-7-8-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13"
+type = "list"
+composite = true
+origin = '''
+{{bfb39d90a9e23a13-6c107cb7fca33906}}
+
+{{bfb39d90a9e23a13-28ca8d26053c2372}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996}}
+
+{{bfb39d90a9e23a13-4ac2524fa1a179f6}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900}}
+
+{{bfb39d90a9e23a13-943085937ca47d93}}
+
+{{bfb39d90a9e23a13-00a3d7d4a37bd735}}
+'''
+translate = '''
+{{bfb39d90a9e23a13-6c107cb7fca33906}}
+
+{{bfb39d90a9e23a13-28ca8d26053c2372}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996}}
+
+{{bfb39d90a9e23a13-4ac2524fa1a179f6}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900}}
+
+{{bfb39d90a9e23a13-943085937ca47d93}}
+
+{{bfb39d90a9e23a13-00a3d7d4a37bd735}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-6c107cb7fca33906"
+type = "listItem"
+composite = true
+origin = '''
+1. {{bfb39d90a9e23a13-6c107cb7fca33906-9bc3d797a5ec12b1}}
+'''
+translate = '''
+1. {{bfb39d90a9e23a13-6c107cb7fca33906-9bc3d797a5ec12b1}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-6c107cb7fca33906-9bc3d797a5ec12b1"
+type = "paragraph"
+origin = '''
+进入 `主题` 界面
+'''
+translate = '''
+Open the `Theme` page.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-28ca8d26053c2372"
+type = "listItem"
+composite = true
+origin = '''
+2. {{bfb39d90a9e23a13-28ca8d26053c2372-1f86f3298f83ed2e}}
+
+    {{bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518}}
+'''
+translate = '''
+2. {{bfb39d90a9e23a13-28ca8d26053c2372-1f86f3298f83ed2e}}
+
+    {{bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-28ca8d26053c2372-1f86f3298f83ed2e"
+type = "paragraph"
+origin = '''
+打印进度显示选择，有以下 3 种选项：
+'''
+translate = '''
+Choose how print progress is displayed. Three options are available:
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518"
+type = "list"
+composite = true
+origin = '''
+{{bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-2c58f4c6524a72c9}}
+
+{{bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-f0cd9cc87171a0bb}}
+
+{{bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-9e839705739d7408}}
+'''
+translate = '''
+{{bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-2c58f4c6524a72c9}}
+
+{{bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-f0cd9cc87171a0bb}}
+
+{{bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-9e839705739d7408}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-2c58f4c6524a72c9"
+type = "listItem"
+composite = true
+origin = '''
+1. {{bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-2c58f4c6524a72c9-069b0913a6c76864}}
+'''
+translate = '''
+1. {{bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-2c58f4c6524a72c9-069b0913a6c76864}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-2c58f4c6524a72c9-069b0913a6c76864"
+type = "paragraph"
+origin = '''
+`仅显示百分比`：打印机打印时，屏幕上显示实时的打印进度
+'''
+translate = '''
+`Percentage Only`: Displays real-time print progress while the printer is printing.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-f0cd9cc87171a0bb"
+type = "listItem"
+composite = true
+origin = '''
+2. {{bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-f0cd9cc87171a0bb-54aa54e7c55b336c}}
+'''
+translate = '''
+2. {{bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-f0cd9cc87171a0bb-54aa54e7c55b336c}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-f0cd9cc87171a0bb-54aa54e7c55b336c"
+type = "paragraph"
+origin = '''
+`仅显示 GIF`：打印机打印时，屏幕上显示代表打印中的 GIF 图片
+'''
+translate = '''
+`GIF Only`: Displays the printing-status GIF while the printer is printing.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-9e839705739d7408"
+type = "listItem"
+composite = true
+origin = '''
+3. {{bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-9e839705739d7408-ea5a71bf54a419e2}}
+'''
+translate = '''
+3. {{bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-9e839705739d7408-ea5a71bf54a419e2}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-28ca8d26053c2372-6e6099e408075518-9e839705739d7408-ea5a71bf54a419e2"
+type = "paragraph"
+origin = '''
+`百分比和 GIF 交替显示`：打印机打印时，屏幕上交替显示实时的打印进度和 GIF 图片，并且每隔 10s 切换一次显示
+'''
+translate = '''
+`Alternate Percentage and GIF`: Alternates between real-time progress and the printing GIF every 10 seconds.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996"
+type = "listItem"
+composite = true
+origin = '''
+3. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-91164931d08dfae2}}
+
+    {{bfb39d90a9e23a13-ef5eab5e5c2e6996-f33280ad524a3c5e}}
+
+    {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47}}
+'''
+translate = '''
+3. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-91164931d08dfae2}}
+
+    {{bfb39d90a9e23a13-ef5eab5e5c2e6996-f33280ad524a3c5e}}
+
+    {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-91164931d08dfae2"
+type = "paragraph"
+origin = '''
+设置 GIF 的颜色
+'''
+translate = '''
+Set the GIF color.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-f33280ad524a3c5e"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-picker.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-picker-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47"
+type = "list"
+composite = true
+origin = '''
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-ce7d65fe70639a2f}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-faf1b8a4c9391b38}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-0aeffe60eeac5925}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-eb244185cb3b68eb}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-ea58822ee405a16d}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-32c09895fd2eb507}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-7d24c63105445ef3}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-b73d105638d4f520}}
+'''
+translate = '''
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-ce7d65fe70639a2f}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-faf1b8a4c9391b38}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-0aeffe60eeac5925}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-eb244185cb3b68eb}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-ea58822ee405a16d}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-32c09895fd2eb507}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-7d24c63105445ef3}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-b73d105638d4f520}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-ce7d65fe70639a2f"
+type = "listItem"
+composite = true
+origin = '''
+1. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-ce7d65fe70639a2f-8ef630d3a392e125}}
+'''
+translate = '''
+1. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-ce7d65fe70639a2f-8ef630d3a392e125}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-ce7d65fe70639a2f-8ef630d3a392e125"
+type = "paragraph"
+origin = '''
+a 点击此按钮，弹出设置 GIF 颜色的界面
+'''
+translate = '''
+a Tap this button to open the GIF color settings.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-faf1b8a4c9391b38"
+type = "listItem"
+composite = true
+origin = '''
+2. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-faf1b8a4c9391b38-095357b46491e33f}}
+'''
+translate = '''
+2. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-faf1b8a4c9391b38-095357b46491e33f}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-faf1b8a4c9391b38-095357b46491e33f"
+type = "paragraph"
+origin = '''
+b HSL 取色盘（[HSL 是什么？](https://zh.wikipedia.org/wiki/HSL%E5%92%8CHSV%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4)）
+'''
+translate = '''
+b HSL color picker ([What is HSL?](https://en.wikipedia.org/wiki/HSL_and_HSV))
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-0aeffe60eeac5925"
+type = "listItem"
+composite = true
+origin = '''
+3. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-0aeffe60eeac5925-d54e711bed61914d}}
+'''
+translate = '''
+3. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-0aeffe60eeac5925-d54e711bed61914d}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-0aeffe60eeac5925-d54e711bed61914d"
+type = "paragraph"
+origin = '''
+c HSLA 的 H 色相参数，范围值为：$0\text{--}360^{\circ}$
+'''
+translate = '''
+c HSLA H (hue): $0\text{--}360^{\circ}$
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-eb244185cb3b68eb"
+type = "listItem"
+composite = true
+origin = '''
+4. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-eb244185cb3b68eb-d0dd535481b1ec7d}}
+'''
+translate = '''
+4. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-eb244185cb3b68eb-d0dd535481b1ec7d}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-eb244185cb3b68eb-d0dd535481b1ec7d"
+type = "paragraph"
+origin = '''
+d HSLA 的 S 饱和度参数，范围值为：0~100%
+'''
+translate = '''
+d HSLA S (saturation): 0–100%
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-ea58822ee405a16d"
+type = "listItem"
+composite = true
+origin = '''
+5. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-ea58822ee405a16d-a5d050b6346bbd01}}
+'''
+translate = '''
+5. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-ea58822ee405a16d-a5d050b6346bbd01}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-ea58822ee405a16d-a5d050b6346bbd01"
+type = "paragraph"
+origin = '''
+e HSLA 的 L 亮度参数，范围值为：0~100%
+'''
+translate = '''
+e HSLA L (lightness): 0–100%
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-32c09895fd2eb507"
+type = "listItem"
+composite = true
+origin = '''
+6. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-32c09895fd2eb507-71fd5492d8a5aa65}}
+'''
+translate = '''
+6. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-32c09895fd2eb507-71fd5492d8a5aa65}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-32c09895fd2eb507-71fd5492d8a5aa65"
+type = "paragraph"
+origin = '''
+f HSLA 的 A 透明度参数，范围值为：0.00 ~ 1.00
+'''
+translate = '''
+f HSLA A (alpha/opacity): 0.00–1.00
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8"
+type = "listItem"
+composite = true
+origin = '''
+7. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-d7ed298735312959}}
+
+    {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3}}
+'''
+translate = '''
+7. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-d7ed298735312959}}
+
+    {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-d7ed298735312959"
+type = "paragraph"
+origin = '''
+g 颜色对应的 RGBA 的 16 进制值，16 进制下每个值的范围均为 0~255（0x00~0xFF）, 可以直接修改此处的值来得到想要的颜色。 如图中所示的 #FF5703FF 意味着：
+'''
+translate = '''
+g Hexadecimal RGBA value. Each channel ranges from 0 to 255 (0x00–0xFF). Edit the value directly to choose a color. For example, #FF5703FF means:
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3"
+type = "list"
+composite = true
+origin = '''
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-7b45fe3e899ed789}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-f02b97e68fd36a99}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-6e10d1ad3d5336ee}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-02efc3978344bf0f}}
+'''
+translate = '''
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-7b45fe3e899ed789}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-f02b97e68fd36a99}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-6e10d1ad3d5336ee}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-02efc3978344bf0f}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-7b45fe3e899ed789"
+type = "listItem"
+composite = true
+origin = '''
+1. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-7b45fe3e899ed789-63fe96d5e9204881}}
+'''
+translate = '''
+1. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-7b45fe3e899ed789-63fe96d5e9204881}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-7b45fe3e899ed789-63fe96d5e9204881"
+type = "paragraph"
+origin = '''
+R（红色）：0xFF (255/255)
+'''
+translate = '''
+R (red): 0xFF (255/255)
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-f02b97e68fd36a99"
+type = "listItem"
+composite = true
+origin = '''
+2. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-f02b97e68fd36a99-cf4ecd5ed49349c6}}
+'''
+translate = '''
+2. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-f02b97e68fd36a99-cf4ecd5ed49349c6}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-f02b97e68fd36a99-cf4ecd5ed49349c6"
+type = "paragraph"
+origin = '''
+G（绿色）：0x57 (87/255)
+'''
+translate = '''
+G (green): 0x57 (87/255)
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-6e10d1ad3d5336ee"
+type = "listItem"
+composite = true
+origin = '''
+3. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-6e10d1ad3d5336ee-831973068413e576}}
+'''
+translate = '''
+3. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-6e10d1ad3d5336ee-831973068413e576}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-6e10d1ad3d5336ee-831973068413e576"
+type = "paragraph"
+origin = '''
+B（蓝色）：0x03 (3/255)
+'''
+translate = '''
+B (blue): 0x03 (3/255)
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-02efc3978344bf0f"
+type = "listItem"
+composite = true
+origin = '''
+4. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-02efc3978344bf0f-7e636bf6c7a1284f}}
+'''
+translate = '''
+4. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-02efc3978344bf0f-7e636bf6c7a1284f}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-930100edb5231fa8-391ab616762527b3-02efc3978344bf0f-7e636bf6c7a1284f"
+type = "paragraph"
+origin = '''
+A（透明度）：0xFF (1.00/1.00)
+'''
+translate = '''
+A (alpha): 0xFF (1.00/1.00)
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d"
+type = "listItem"
+composite = true
+origin = '''
+8. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-eca3f9a17c7099ea}}
+
+    {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf}}
+'''
+translate = '''
+8. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-eca3f9a17c7099ea}}
+
+    {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-eca3f9a17c7099ea"
+type = "paragraph"
+origin = '''
+h 颜色对应的 HSLA 的值，H 色相的范围为：$0\text{--}360^{\circ}$， S 饱和度的范围为：0~100%，L 亮度的范围为：0~100%，A 透明度的范围为：0.00 ~ 1.00, 可以直接修改此处的值来得到想要的颜色。如图中所示的 hsla(20, 100%, 51%, 1) 意味着：
+'''
+translate = '''
+h HSLA color value: H (hue) $0\text{--}360^{\circ}$, S (saturation) 0–100%, L (lightness) 0–100%, and A (alpha) 0.00–1.00. Edit these values directly to change the color. For example, hsla(20, 100%, 51%, 1) means:
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf"
+type = "list"
+composite = true
+origin = '''
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-de03e758007fb130}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-478a722861cc3a94}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-ad9ae02231043614}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-3f315fd73b5d34c6}}
+'''
+translate = '''
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-de03e758007fb130}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-478a722861cc3a94}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-ad9ae02231043614}}
+
+{{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-3f315fd73b5d34c6}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-de03e758007fb130"
+type = "listItem"
+composite = true
+origin = '''
+1. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-de03e758007fb130-5b114bedb18fd2a2}}
+'''
+translate = '''
+1. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-de03e758007fb130-5b114bedb18fd2a2}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-de03e758007fb130-5b114bedb18fd2a2"
+type = "paragraph"
+origin = '''
+H（色相）：$20^{\circ}$
+'''
+translate = '''
+H (hue): $20^{\circ}$
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-478a722861cc3a94"
+type = "listItem"
+composite = true
+origin = '''
+2. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-478a722861cc3a94-d1f3bb934e50f358}}
+'''
+translate = '''
+2. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-478a722861cc3a94-d1f3bb934e50f358}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-478a722861cc3a94-d1f3bb934e50f358"
+type = "paragraph"
+origin = '''
+S（饱和度）：100%
+'''
+translate = '''
+S (saturation): 100%
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-ad9ae02231043614"
+type = "listItem"
+composite = true
+origin = '''
+3. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-ad9ae02231043614-6475bbed1e2b25f8}}
+'''
+translate = '''
+3. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-ad9ae02231043614-6475bbed1e2b25f8}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-ad9ae02231043614-6475bbed1e2b25f8"
+type = "paragraph"
+origin = '''
+L（亮度）：51%
+'''
+translate = '''
+L (lightness): 51%
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-3f315fd73b5d34c6"
+type = "listItem"
+composite = true
+origin = '''
+4. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-3f315fd73b5d34c6-82dfa1a0a630f016}}
+'''
+translate = '''
+4. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-3f315fd73b5d34c6-82dfa1a0a630f016}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-a1f7a135c2ab9a9d-702f47417ab301bf-3f315fd73b5d34c6-82dfa1a0a630f016"
+type = "paragraph"
+origin = '''
+A（透明度）：1.00
+'''
+translate = '''
+A (alpha): 1.00
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-7d24c63105445ef3"
+type = "listItem"
+composite = true
+origin = '''
+9. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-7d24c63105445ef3-f6be2f91217c3f9a}}
+'''
+translate = '''
+9. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-7d24c63105445ef3-f6be2f91217c3f9a}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-7d24c63105445ef3-f6be2f91217c3f9a"
+type = "paragraph"
+origin = '''
+i 点击清除设置的颜色，GIF 会显示原本的颜色
+'''
+translate = '''
+i Clear the custom color to restore the GIF's original colors.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-b73d105638d4f520"
+type = "listItem"
+composite = true
+origin = '''
+10. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-b73d105638d4f520-d38ce669671cd078}}
+'''
+translate = '''
+10. {{bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-b73d105638d4f520-d38ce669671cd078}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-ef5eab5e5c2e6996-e407c3cf1542af47-b73d105638d4f520-d38ce669671cd078"
+type = "paragraph"
+origin = '''
+j 预览所设置颜色的区域
+'''
+translate = '''
+j Preview area for the selected color.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-4ac2524fa1a179f6"
+type = "listItem"
+composite = true
+origin = '''
+4. {{bfb39d90a9e23a13-4ac2524fa1a179f6-2e268a34469a7432}}
+'''
+translate = '''
+4. {{bfb39d90a9e23a13-4ac2524fa1a179f6-2e268a34469a7432}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-4ac2524fa1a179f6-2e268a34469a7432"
+type = "paragraph"
+origin = '''
+查看 GIF 储存空间用量，由于 Panda Knomi V2 硬件的限制，所有的 GIF 大小之和不能超过 3MB (3072KB,1MB=1024KB)，超出此大小 Web UI 会阻止更新并弹窗提醒。
+'''
+translate = '''
+Check GIF storage usage. Due to Panda Knomi V2 hardware limits, all GIFs combined must not exceed 3MB (3072KB; 1MB = 1024KB). If the limit is exceeded, the Web UI blocks the update and displays a warning.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900"
+type = "listItem"
+composite = true
+origin = '''
+5. {{bfb39d90a9e23a13-855f4b591c9f7900-7e9ad75528765dc1}}
+
+    {{bfb39d90a9e23a13-855f4b591c9f7900-a8920d0cc42ea342}}
+
+    {{bfb39d90a9e23a13-855f4b591c9f7900-08988bea4be44033}}
+
+    {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c}}
+'''
+translate = '''
+5. {{bfb39d90a9e23a13-855f4b591c9f7900-7e9ad75528765dc1}}
+
+    {{bfb39d90a9e23a13-855f4b591c9f7900-a8920d0cc42ea342}}
+
+    {{bfb39d90a9e23a13-855f4b591c9f7900-08988bea4be44033}}
+
+    {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-7e9ad75528765dc1"
+type = "paragraph"
+origin = '''
+每个 GIF 图片单独设置，包括颜色和自定义 GIF 图片。
+'''
+translate = '''
+Configure each GIF individually, including its color and custom animation.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-a8920d0cc42ea342"
+type = "paragraph"
+origin = '''
+可以打开/关闭 `预览此GIF` 开关来显示/隐藏 `预览` 按钮，点击 `预览此GIF` 可以使 Panda Knomi V2 进入预览模式，屏幕上将显示 `预览此GIF` 字样，在屏幕上可查看到自定义 GIF 的效果，若想退出预览模式，请关闭 `预览此GIF` 开关，或者直接跳转到除 `主题` 界面之外的其他界面。
+'''
+translate = '''
+Toggle `Preview This GIF` to show or hide the `Preview` button. Tap `Preview This GIF` to enter preview mode. The Panda Knomi V2 screen displays `Preview This GIF` and plays the custom animation. To exit preview mode, turn off `Preview This GIF` or navigate to any page other than `Theme`.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-08988bea4be44033"
+type = "paragraph"
+origin = '''
+自定义 GIF 注意
+'''
+translate = '''
+Notes on custom GIFs
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c"
+type = "list"
+composite = true
+origin = '''
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-925223e7f0babba6}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-efa13c7b9805e201}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-1ebfa1fe956ba7df}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-0a6863e1f096c256}}
+'''
+translate = '''
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-925223e7f0babba6}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-efa13c7b9805e201}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-1ebfa1fe956ba7df}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-0a6863e1f096c256}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-925223e7f0babba6"
+type = "listItem"
+composite = true
+origin = '''
+1. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-925223e7f0babba6-de46497d63f7a4d4}}
+'''
+translate = '''
+1. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-925223e7f0babba6-de46497d63f7a4d4}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-925223e7f0babba6-de46497d63f7a4d4"
+type = "paragraph"
+origin = '''
+如果想要使用修改颜色的功能，对应的 GIF 图片的底色必须是透明的，否则修改颜色会连带着背景一起变为设置的颜色，屏幕会满屏显示类似纯颜色的界面。
+'''
+translate = '''
+To use the recoloring feature, the GIF background must be transparent. Otherwise, the background is recolored too, potentially causing the entire display to appear as a nearly solid color.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-efa13c7b9805e201"
+type = "listItem"
+composite = true
+origin = '''
+2. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-efa13c7b9805e201-5a056fd338961303}}
+'''
+translate = '''
+2. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-efa13c7b9805e201-5a056fd338961303}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-efa13c7b9805e201-5a056fd338961303"
+type = "paragraph"
+origin = '''
+并且由于软件解码存在一些限制，透明的 GIF 的最后一帧必须要与第一帧内容一样，否则会存在最后一帧与第一帧同时覆盖显示在一起的问题。如果您不使用动态修改颜色的功能，则不需要使用透明的 GIF，就不存在此限制了。
+'''
+translate = '''
+Due to software decoder limitations, the last frame of a transparent GIF must match its first frame. Otherwise, the final and first frames may overlap. If you do not need dynamic recoloring, you can use a nontransparent GIF and this restriction does not apply.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f"
+type = "listItem"
+composite = true
+origin = '''
+3. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-de4b119a72c3c873}}
+
+    {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8}}
+'''
+translate = '''
+3. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-de4b119a72c3c873}}
+
+    {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-de4b119a72c3c873"
+type = "paragraph"
+origin = '''
+Panda Knomi V2 所使用的屏幕分辨率 `宽 x 高` 为 `240 x 240` 像素，超过此分辨率的图片无法完整显示在屏幕上，所以只允许使用小于或等于此分辨率的 GIF。超出此限制的 GIF，推荐使用工具重新调整 GIF 的分辨率，使其符合要求。（例如： [https://www.iloveimg.com/resize-image/resize-gif](https://www.iloveimg.com/resize-image/resize-gif)）。
+'''
+translate = '''
+Panda Knomi V2 has a `Width x Height` resolution of `240 x 240` pixels. Images larger than this cannot be displayed in full, so GIF dimensions must be no greater than 240 x 240. Resize oversized GIFs using a tool such as [https://www.iloveimg.com/resize-image/resize-gif](https://www.iloveimg.com/resize-image/resize-gif).
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8"
+type = "list"
+composite = true
+origin = '''
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-e10c7891dfbf197c}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-a03fb24736c2901f}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-ed2245acf4b56093}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-8537b1ce9185c32a}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-7f0217caa8149a95}}
+'''
+translate = '''
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-e10c7891dfbf197c}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-a03fb24736c2901f}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-ed2245acf4b56093}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-8537b1ce9185c32a}}
+
+{{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-7f0217caa8149a95}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-e10c7891dfbf197c"
+type = "listItem"
+composite = true
+origin = '''
+1. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-e10c7891dfbf197c-7b18e0064c001c3e}}
+'''
+translate = '''
+1. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-e10c7891dfbf197c-7b18e0064c001c3e}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-e10c7891dfbf197c-7b18e0064c001c3e"
+type = "paragraph"
+origin = '''
+点击网页中的 `Select images` 按钮选择 GIF 图片，或者直接将 GIF 图片拖到此界面中
+'''
+translate = '''
+Click `Select images` on the website or drag your GIF onto the page.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-a03fb24736c2901f"
+type = "listItem"
+composite = true
+origin = '''
+2. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-a03fb24736c2901f-37f57bf6ae6320df}}
+'''
+translate = '''
+2. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-a03fb24736c2901f-37f57bf6ae6320df}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-a03fb24736c2901f-37f57bf6ae6320df"
+type = "paragraph"
+origin = '''
+确保勾选了网页右侧的 `Maintain aspect ratio`，避免改变长宽比例导致画面效果不协调
+'''
+translate = '''
+Keep `Maintain aspect ratio` selected to avoid distorting the animation.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-ed2245acf4b56093"
+type = "listItem"
+composite = true
+origin = '''
+3. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-ed2245acf4b56093-5cd9894ce62dd191}}
+'''
+translate = '''
+3. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-ed2245acf4b56093-5cd9894ce62dd191}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-ed2245acf4b56093-5cd9894ce62dd191"
+type = "paragraph"
+origin = '''
+修改 `Width (px):` 和 `Height (px):` 中较大的参数到不超过 240, 如果 `Width (px):` 和 `Height (px):` 参数是一样的，随便修改任意个即可
+'''
+translate = '''
+Change the larger of `Width (px):` and `Height (px):` to 240 or less. If both are equal, either field can be changed.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-8537b1ce9185c32a"
+type = "listItem"
+composite = true
+origin = '''
+4. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-8537b1ce9185c32a-b5f37399cb646252}}
+'''
+translate = '''
+4. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-8537b1ce9185c32a-b5f37399cb646252}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-8537b1ce9185c32a-b5f37399cb646252"
+type = "paragraph"
+origin = '''
+点击 `Resize IMAGES` 按钮
+'''
+translate = '''
+Click `Resize IMAGES`.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-7f0217caa8149a95"
+type = "listItem"
+composite = true
+origin = '''
+5. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-7f0217caa8149a95-d6688a6cc884cbd5}}
+'''
+translate = '''
+5. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-7f0217caa8149a95-d6688a6cc884cbd5}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-171168fa75fd5c7f-c7418902953efdb8-7f0217caa8149a95-d6688a6cc884cbd5"
+type = "paragraph"
+origin = '''
+等待调整完成，然后点击 `Download resized IMAGES` 按钮下载调整后的 GIF.
+'''
+translate = '''
+Wait for processing to finish, then click `Download resized IMAGES` to save the resized GIF.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-1ebfa1fe956ba7df"
+type = "listItem"
+composite = true
+origin = '''
+4. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-1ebfa1fe956ba7df-cd0c6c55bd0d8580}}
+'''
+translate = '''
+4. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-1ebfa1fe956ba7df-cd0c6c55bd0d8580}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-1ebfa1fe956ba7df-cd0c6c55bd0d8580"
+type = "paragraph"
+origin = '''
+单个 GIF 的尺寸不能超过 1.5MB(1536KB, 1MB=1024KB)，所有 GIF 一起的尺寸不能超过 3MB(3072KB,1MB=1024KB)。
+'''
+translate = '''
+Each GIF must be no larger than 1.5MB (1536KB; 1MB = 1024KB), and all GIFs combined must not exceed 3MB (3072KB; 1MB = 1024KB).
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-0a6863e1f096c256"
+type = "listItem"
+composite = true
+origin = '''
+5. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-0a6863e1f096c256-93f1372a8036e76d}}
+
+    {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-0a6863e1f096c256-2eeeceff78bfedeb}}
+
+    {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-0a6863e1f096c256-d5bdf2c8b87c58d5}}
+'''
+translate = '''
+5. {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-0a6863e1f096c256-93f1372a8036e76d}}
+
+    {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-0a6863e1f096c256-2eeeceff78bfedeb}}
+
+    {{bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-0a6863e1f096c256-d5bdf2c8b87c58d5}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-0a6863e1f096c256-93f1372a8036e76d"
+type = "paragraph"
+origin = '''
+新的 GIF 的大小不能超过被替换的 GIF 大小与剩余空间之和，否则 Web UI 会拒绝替换并弹窗提醒大小超出容量限制。在 `4` 中可以查看剩余空间，在 `5` 中可以查看每个 GIF 的大小。
+'''
+translate = '''
+A replacement GIF must not exceed the size of the existing GIF plus the remaining free space. Otherwise, the Web UI rejects it and shows a capacity warning. Check free space under `4` and individual GIF sizes under `5`.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-0a6863e1f096c256-2eeeceff78bfedeb"
+type = "paragraph"
+origin = '''
+例如：
+'''
+translate = '''
+Example:
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-855f4b591c9f7900-d31691dab897800c-0a6863e1f096c256-d5bdf2c8b87c58d5"
+type = "paragraph"
+origin = '''
+使用新的 GIF 替换 `待机状态.gif`，出厂的 GIF 大小为 63.61KB，出厂剩余的容量为 407.75KB，所以新的 GIF 大小不能超过 63.61KB + 407.75KB = 471.36KB。
+'''
+translate = '''
+If you replace `Standby.gif`, the factory GIF is 63.61KB and the available space is 407.75KB, so the replacement can be no larger than 63.61KB + 407.75KB = 471.36KB.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-943085937ca47d93"
+type = "listItem"
+composite = true
+origin = '''
+6. {{bfb39d90a9e23a13-943085937ca47d93-bfe3bb069407946d}}
+
+    {{bfb39d90a9e23a13-943085937ca47d93-6ff5c3b008c270da}}
+'''
+translate = '''
+6. {{bfb39d90a9e23a13-943085937ca47d93-bfe3bb069407946d}}
+
+    {{bfb39d90a9e23a13-943085937ca47d93-6ff5c3b008c270da}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-943085937ca47d93-bfe3bb069407946d"
+type = "paragraph"
+origin = '''
+将自定义的 GIF 下载导出成 IMG 文件，方便备份或者分享您的自定义 GIF 设计。
+'''
+translate = '''
+Export your custom GIF collection as an IMG file for backup or sharing.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-943085937ca47d93-6ff5c3b008c270da"
+type = "admonition"
+composite = true
+origin = '''
+:::note
+
+{{bfb39d90a9e23a13-943085937ca47d93-6ff5c3b008c270da-5ab764bd33f42cad}}
+
+:::
+'''
+translate = '''
+:::note
+
+{{bfb39d90a9e23a13-943085937ca47d93-6ff5c3b008c270da-5ab764bd33f42cad}}
+
+:::
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-943085937ca47d93-6ff5c3b008c270da-5ab764bd33f42cad"
+type = "paragraph"
+origin = '''
+V1.0.2 及其之前版本的固件，IMG 中不包括自定义颜色的数据信息，仅包含 GIF 图片数据。V1.0.3 及其之后的固件包含自定义颜色数据。
+'''
+translate = '''
+On firmware V1.0.2 and earlier, IMG files contain only GIF data, not custom color settings. Firmware V1.0.3 and later includes custom color data.
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-00a3d7d4a37bd735"
+type = "listItem"
+composite = true
+origin = '''
+7. {{bfb39d90a9e23a13-00a3d7d4a37bd735-51878b4555469ff9}}
+'''
+translate = '''
+7. {{bfb39d90a9e23a13-00a3d7d4a37bd735-51878b4555469ff9}}
+'''
+
+[[block]]
+key = "bfb39d90a9e23a13-00a3d7d4a37bd735-51878b4555469ff9"
+type = "paragraph"
+origin = '''
+将别人分享的 IMG 文件更新到 Panda Knomi V2 中
+'''
+translate = '''
+Apply an IMG file shared by another user to Panda Knomi V2.
+'''
+
+[[block]]
+key = "a52b6cdcb43bd256"
+type = "heading"
+origin = '''
+### 应用 IMG 文件到 Panda Knomi V2
+'''
+translate = '''
+### Apply an IMG File to Panda Knomi V2
+'''
+
+[[block]]
+key = "6ff5c3b008c270da"
+type = "admonition"
+composite = true
+origin = '''
+:::note
+
+{{6ff5c3b008c270da-5ab764bd33f42cad}}
+
+:::
+'''
+translate = '''
+:::note
+
+{{6ff5c3b008c270da-5ab764bd33f42cad}}
+
+:::
+'''
+
+[[block]]
+key = "6ff5c3b008c270da-5ab764bd33f42cad"
+type = "paragraph"
+origin = '''
+V1.0.2 及其之前版本的固件，IMG 中不包括自定义颜色的数据信息，仅包含 GIF 图片数据。V1.0.3 及其之后的固件包含自定义颜色数据。
+'''
+translate = '''
+On firmware V1.0.2 and earlier, IMG files contain only GIF data, not custom color settings. Firmware V1.0.3 and later includes custom color data.
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a"
+type = "list"
+composite = true
+origin = '''
+{{bd4b65d88c1bd83a-e19c7a03b37a60ea}}
+
+{{bd4b65d88c1bd83a-bf8d62656fbdcc06}}
+'''
+translate = '''
+{{bd4b65d88c1bd83a-e19c7a03b37a60ea}}
+
+{{bd4b65d88c1bd83a-bf8d62656fbdcc06}}
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-e19c7a03b37a60ea"
+type = "listItem"
+composite = true
+origin = '''
+1. {{bd4b65d88c1bd83a-e19c7a03b37a60ea-203e7ddeef09767b}}
+
+    {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85}}
+'''
+translate = '''
+1. {{bd4b65d88c1bd83a-e19c7a03b37a60ea-203e7ddeef09767b}}
+
+    {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85}}
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-e19c7a03b37a60ea-203e7ddeef09767b"
+type = "paragraph"
+origin = '''
+下载 IMG 主题文件
+'''
+translate = '''
+Download an IMG theme file.
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85"
+type = "list"
+composite = true
+origin = '''
+{{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-dbb6e798867a2da7}}
+
+{{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43}}
+'''
+translate = '''
+{{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-dbb6e798867a2da7}}
+
+{{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43}}
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-dbb6e798867a2da7"
+type = "listItem"
+composite = true
+origin = '''
+1. {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-dbb6e798867a2da7-e9a18ef2f0309daa}}
+'''
+translate = '''
+1. {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-dbb6e798867a2da7-e9a18ef2f0309daa}}
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-dbb6e798867a2da7-e9a18ef2f0309daa"
+type = "paragraph"
+origin = '''
+下载社区中其他用户分享的 Panda Knomi V2 的 `.img` 文件
+'''
+translate = '''
+Download a Panda Knomi V2 `.img` file shared by another community member.
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43"
+type = "listItem"
+composite = true
+origin = '''
+2. {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-828c43f7bc6a8df5}}
+
+    {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164}}
+'''
+translate = '''
+2. {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-828c43f7bc6a8df5}}
+
+    {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164}}
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-828c43f7bc6a8df5"
+type = "paragraph"
+origin = '''
+从 Panda Knomi V2 的 Github 上下载
+'''
+translate = '''
+Download a file from the Panda Knomi V2 GitHub repository.
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164"
+type = "list"
+composite = true
+origin = '''
+{{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-5d7060b452a34c64}}
+
+{{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-afa6d61f9ba465af}}
+
+{{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-69acf6c398aa073d}}
+'''
+translate = '''
+{{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-5d7060b452a34c64}}
+
+{{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-afa6d61f9ba465af}}
+
+{{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-69acf6c398aa073d}}
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-5d7060b452a34c64"
+type = "listItem"
+composite = true
+origin = '''
+1. {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-5d7060b452a34c64-4d4f47a359356f58}}
+'''
+translate = '''
+1. {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-5d7060b452a34c64-4d4f47a359356f58}}
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-5d7060b452a34c64-4d4f47a359356f58"
+type = "paragraph"
+origin = '''
+访问[Panda Knomi V2 的 Github 地址](https://github.com/bigtreetech/PandaKnomi)
+'''
+translate = '''
+Visit the [Panda Knomi V2 GitHub repository](https://github.com/bigtreetech/PandaKnomi).
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-afa6d61f9ba465af"
+type = "listItem"
+composite = true
+origin = '''
+2. {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-afa6d61f9ba465af-e39250565f808a03}}
+
+    {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-afa6d61f9ba465af-cccb511b965caae6}}
+'''
+translate = '''
+2. {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-afa6d61f9ba465af-e39250565f808a03}}
+
+    {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-afa6d61f9ba465af-cccb511b965caae6}}
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-afa6d61f9ba465af-e39250565f808a03"
+type = "paragraph"
+origin = '''
+到 IMG 文件夹中，挑选自己喜欢的 IMG 主题
+'''
+translate = '''
+Open the IMG folder and select a theme you like.
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-afa6d61f9ba465af-cccb511b965caae6"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-github-path.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-github-path.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-69acf6c398aa073d"
+type = "listItem"
+composite = true
+origin = '''
+3. {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-69acf6c398aa073d-d6bd2b5837756b3f}}
+
+    {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-69acf6c398aa073d-a47ae104f2a4593a}}
+'''
+translate = '''
+3. {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-69acf6c398aa073d-d6bd2b5837756b3f}}
+
+    {{bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-69acf6c398aa073d-a47ae104f2a4593a}}
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-69acf6c398aa073d-d6bd2b5837756b3f"
+type = "paragraph"
+origin = '''
+点击下载，保存到本地
+'''
+translate = '''
+Click Download to save the file locally.
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-e19c7a03b37a60ea-5f724b8293aa3f85-addb1789d8bd5a43-57b0e886cf8f4164-69acf6c398aa073d-a47ae104f2a4593a"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-github-download.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-github-download.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-bf8d62656fbdcc06"
+type = "listItem"
+composite = true
+origin = '''
+2. {{bd4b65d88c1bd83a-bf8d62656fbdcc06-253884c8d7587485}}
+
+    {{bd4b65d88c1bd83a-bf8d62656fbdcc06-8f09fd95ef88b551}}
+'''
+translate = '''
+2. {{bd4b65d88c1bd83a-bf8d62656fbdcc06-253884c8d7587485}}
+
+    {{bd4b65d88c1bd83a-bf8d62656fbdcc06-8f09fd95ef88b551}}
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-bf8d62656fbdcc06-253884c8d7587485"
+type = "paragraph"
+origin = '''
+进入 Panda Knomi V2 的 Web UI，1 `设置` -> 2 `选择.img文件`，然后选择刚才下载的 `.img` 文件，等待更新完成后，Panda Knomi V2 会自动应用并显示新的 IMG 文件。
+'''
+translate = '''
+In the Panda Knomi V2 Web UI, select 1 `Settings` -> 2 `Select .img File`, then choose the `.img` file you downloaded. Wait for the update to complete; Panda Knomi V2 automatically applies and displays the new IMG theme.
+'''
+
+[[block]]
+key = "bd4b65d88c1bd83a-bf8d62656fbdcc06-8f09fd95ef88b551"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-web-upload.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-web-upload-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "93a9ee4cafe14023"
+type = "heading"
+origin = '''
+### 从 Panda Knomi V2 导出 IMG 分享
+'''
+translate = '''
+### Export and Share an IMG File
+'''
+
+[[block]]
+key = "76540ac71ea03431"
+type = "list"
+composite = true
+origin = '''
+{{76540ac71ea03431-207806a147ae7e5f}}
+
+{{76540ac71ea03431-7089a8ce8ebffa61}}
+
+{{76540ac71ea03431-d2a91188fba43c62}}
+'''
+translate = '''
+{{76540ac71ea03431-207806a147ae7e5f}}
+
+{{76540ac71ea03431-7089a8ce8ebffa61}}
+
+{{76540ac71ea03431-d2a91188fba43c62}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-207806a147ae7e5f"
+type = "listItem"
+composite = true
+origin = '''
+1. {{76540ac71ea03431-207806a147ae7e5f-8ced3f6d140f7000}}
+
+    {{76540ac71ea03431-207806a147ae7e5f-c8395646e1ff7d24}}
+'''
+translate = '''
+1. {{76540ac71ea03431-207806a147ae7e5f-8ced3f6d140f7000}}
+
+    {{76540ac71ea03431-207806a147ae7e5f-c8395646e1ff7d24}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-207806a147ae7e5f-8ced3f6d140f7000"
+type = "paragraph"
+origin = '''
+进入 Panda Knomi V2 的 Web UI。1 `主题` -> 2 `导出IMG`，等待 IMG 文件导出完成
+'''
+translate = '''
+Open the Panda Knomi V2 Web UI and select 1 `Theme` -> 2 `Export IMG`. Wait for the export to complete.
+'''
+
+[[block]]
+key = "76540ac71ea03431-207806a147ae7e5f-c8395646e1ff7d24"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-web-download.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-web-download-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "76540ac71ea03431-7089a8ce8ebffa61"
+type = "listItem"
+composite = true
+origin = '''
+2. {{76540ac71ea03431-7089a8ce8ebffa61-38de26582849756b}}
+
+    {{76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193}}
+'''
+translate = '''
+2. {{76540ac71ea03431-7089a8ce8ebffa61-38de26582849756b}}
+
+    {{76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-7089a8ce8ebffa61-38de26582849756b"
+type = "paragraph"
+origin = '''
+将导出的 IMG 文件重命名，命名规则为：`panda_knomi_diy_<theme_name>_<author_name>_YYYY_MM_DD.img`
+'''
+translate = '''
+Rename the exported IMG file using this format: `panda_knomi_diy_<theme_name>_<author_name>_YYYY_MM_DD.img`
+'''
+
+[[block]]
+key = "76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193"
+type = "list"
+composite = true
+origin = '''
+{{76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-732e90abbf8ac35a}}
+
+{{76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-f69cec122be8966e}}
+
+{{76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-d8278a52c097fc86}}
+'''
+translate = '''
+{{76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-732e90abbf8ac35a}}
+
+{{76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-f69cec122be8966e}}
+
+{{76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-d8278a52c097fc86}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-732e90abbf8ac35a"
+type = "listItem"
+composite = true
+origin = '''
+1. {{76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-732e90abbf8ac35a-96f85f1b57abaaab}}
+'''
+translate = '''
+1. {{76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-732e90abbf8ac35a-96f85f1b57abaaab}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-732e90abbf8ac35a-96f85f1b57abaaab"
+type = "paragraph"
+origin = '''
+`<theme_name>`: 自己为此 IMG 取一个主题名字
+'''
+translate = '''
+`<theme_name>`: A name you choose for your IMG theme.
+'''
+
+[[block]]
+key = "76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-f69cec122be8966e"
+type = "listItem"
+composite = true
+origin = '''
+2. {{76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-f69cec122be8966e-821f61147a3a16c5}}
+'''
+translate = '''
+2. {{76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-f69cec122be8966e-821f61147a3a16c5}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-f69cec122be8966e-821f61147a3a16c5"
+type = "paragraph"
+origin = '''
+`<author_name>`: 作者的代号或者名字
+'''
+translate = '''
+`<author_name>`: Your name or creator handle.
+'''
+
+[[block]]
+key = "76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-d8278a52c097fc86"
+type = "listItem"
+composite = true
+origin = '''
+3. {{76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-d8278a52c097fc86-e364edd0ee3c1263}}
+
+    {{76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-d8278a52c097fc86-2140294b2ababb21}}
+'''
+translate = '''
+3. {{76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-d8278a52c097fc86-e364edd0ee3c1263}}
+
+    {{76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-d8278a52c097fc86-2140294b2ababb21}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-d8278a52c097fc86-e364edd0ee3c1263"
+type = "paragraph"
+origin = '''
+`YYYY_MM_DD`: IMG 的日期，年_月_日
+'''
+translate = '''
+`YYYY_MM_DD`: Date of the IMG file, in year_month_day format.
+'''
+
+[[block]]
+key = "76540ac71ea03431-7089a8ce8ebffa61-9b34fb8b70e1c193-d8278a52c097fc86-2140294b2ababb21"
+type = "paragraph"
+origin = '''
+例如：`panda_knomi_diy_theme_author_2025_02_22.img`。
+'''
+translate = '''
+Example: `panda_knomi_diy_theme_author_2025_02_22.img`.
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62"
+type = "listItem"
+composite = true
+origin = '''
+3. {{76540ac71ea03431-d2a91188fba43c62-8480f94e2295066d}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa}}
+'''
+translate = '''
+3. {{76540ac71ea03431-d2a91188fba43c62-8480f94e2295066d}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-8480f94e2295066d"
+type = "paragraph"
+origin = '''
+将 .img 文件分享到 Github
+'''
+translate = '''
+Share the .img file on GitHub.
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa"
+type = "list"
+composite = true
+origin = '''
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-a2fd411c8641dea2}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-4b6d678b34b1c0b6}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-0bc64e19fa8edcb2}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-95ca1c4c35e4a873}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-fd29f13b1e85d25e}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-f9c9ac9e80e64390}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6eabd2d4623d8bf9}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-664fd37c21cce264}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2cabf4798128acfd}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2ce339491fb4dcb5}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6ff39c33f18ebd37}}
+'''
+translate = '''
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-a2fd411c8641dea2}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-4b6d678b34b1c0b6}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-0bc64e19fa8edcb2}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-95ca1c4c35e4a873}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-fd29f13b1e85d25e}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-f9c9ac9e80e64390}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6eabd2d4623d8bf9}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-664fd37c21cce264}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2cabf4798128acfd}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2ce339491fb4dcb5}}
+
+{{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6ff39c33f18ebd37}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-a2fd411c8641dea2"
+type = "listItem"
+composite = true
+origin = '''
+1. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-a2fd411c8641dea2-9552eda2c8bc8808}}
+'''
+translate = '''
+1. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-a2fd411c8641dea2-9552eda2c8bc8808}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-a2fd411c8641dea2-9552eda2c8bc8808"
+type = "paragraph"
+origin = '''
+如果您没有 Github 账号，请首先[注册一个账号](https://docs.github.com/zh/get-started/start-your-journey/creating-an-account-on-github)。
+'''
+translate = '''
+If you do not have a GitHub account, [create one](https://docs.github.com/en/account-and-profile/how-tos/account-management/creating-an-account-on-github).
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-4b6d678b34b1c0b6"
+type = "listItem"
+composite = true
+origin = '''
+2. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-4b6d678b34b1c0b6-4d4f47a359356f58}}
+'''
+translate = '''
+2. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-4b6d678b34b1c0b6-4d4f47a359356f58}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-4b6d678b34b1c0b6-4d4f47a359356f58"
+type = "paragraph"
+origin = '''
+访问[Panda Knomi V2 的 Github 地址](https://github.com/bigtreetech/PandaKnomi)
+'''
+translate = '''
+Visit the [Panda Knomi V2 GitHub repository](https://github.com/bigtreetech/PandaKnomi).
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-0bc64e19fa8edcb2"
+type = "listItem"
+composite = true
+origin = '''
+3. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-0bc64e19fa8edcb2-4f89f326fc0b6a64}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-0bc64e19fa8edcb2-3d162d385fe99cf3}}
+'''
+translate = '''
+3. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-0bc64e19fa8edcb2-4f89f326fc0b6a64}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-0bc64e19fa8edcb2-3d162d385fe99cf3}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-0bc64e19fa8edcb2-4f89f326fc0b6a64"
+type = "paragraph"
+origin = '''
+点击 1 `Fork`
+'''
+translate = '''
+Click 1 `Fork`.
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-0bc64e19fa8edcb2-3d162d385fe99cf3"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-fork-1.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-fork-1.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-95ca1c4c35e4a873"
+type = "listItem"
+composite = true
+origin = '''
+4. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-95ca1c4c35e4a873-b5038438733a663e}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-95ca1c4c35e4a873-b0009f494b0862d0}}
+'''
+translate = '''
+4. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-95ca1c4c35e4a873-b5038438733a663e}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-95ca1c4c35e4a873-b0009f494b0862d0}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-95ca1c4c35e4a873-b5038438733a663e"
+type = "paragraph"
+origin = '''
+点击 2 `Create fork`
+'''
+translate = '''
+Click 2 `Create fork`.
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-95ca1c4c35e4a873-b0009f494b0862d0"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-fork-2.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-fork-2.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-fd29f13b1e85d25e"
+type = "listItem"
+composite = true
+origin = '''
+5. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-fd29f13b1e85d25e-e4171de1a1a48599}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-fd29f13b1e85d25e-a686040e340bf798}}
+'''
+translate = '''
+5. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-fd29f13b1e85d25e-e4171de1a1a48599}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-fd29f13b1e85d25e-a686040e340bf798}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-fd29f13b1e85d25e-e4171de1a1a48599"
+type = "paragraph"
+origin = '''
+等待 `fork` 完成
+'''
+translate = '''
+Wait for the `fork` to complete.
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-fd29f13b1e85d25e-a686040e340bf798"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-fork-3.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-fork-3.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-f9c9ac9e80e64390"
+type = "listItem"
+composite = true
+origin = '''
+6. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-f9c9ac9e80e64390-6adc74d0978f5f4d}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-f9c9ac9e80e64390-24296df6dd935baa}}
+'''
+translate = '''
+6. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-f9c9ac9e80e64390-6adc74d0978f5f4d}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-f9c9ac9e80e64390-24296df6dd935baa}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-f9c9ac9e80e64390-6adc74d0978f5f4d"
+type = "paragraph"
+origin = '''
+`fork` 完成后，进入 IMG 文件夹
+'''
+translate = '''
+After forking, open the IMG folder.
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-f9c9ac9e80e64390-24296df6dd935baa"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-pri-path.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-pri-path.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6eabd2d4623d8bf9"
+type = "listItem"
+composite = true
+origin = '''
+7. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6eabd2d4623d8bf9-a5581192c63fc67e}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6eabd2d4623d8bf9-4cc7a91b24116f2b}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6eabd2d4623d8bf9-3e2f0150d438aee9}}
+'''
+translate = '''
+7. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6eabd2d4623d8bf9-a5581192c63fc67e}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6eabd2d4623d8bf9-4cc7a91b24116f2b}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6eabd2d4623d8bf9-3e2f0150d438aee9}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6eabd2d4623d8bf9-a5581192c63fc67e"
+type = "paragraph"
+origin = '''
+将 IMG 文件拖到浏览器中，然后浏览器会出现 `Drop to upload your files` 的界面。
+'''
+translate = '''
+Drag the IMG file into the browser. The `Drop to upload your files` screen appears.
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6eabd2d4623d8bf9-4cc7a91b24116f2b"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-drag.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-drag.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6eabd2d4623d8bf9-3e2f0150d438aee9"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-drop.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-drop.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-664fd37c21cce264"
+type = "listItem"
+composite = true
+origin = '''
+8. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-664fd37c21cce264-9ce43588e3dbc461}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-664fd37c21cce264-067f180b5479b252}}
+'''
+translate = '''
+8. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-664fd37c21cce264-9ce43588e3dbc461}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-664fd37c21cce264-067f180b5479b252}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-664fd37c21cce264-9ce43588e3dbc461"
+type = "paragraph"
+origin = '''
+写自定义 IMG 的 `标题`，2 写入自定义主题的 `详细描述`，3 `提交文件`
+'''
+translate = '''
+Enter 1 a `Title` for your custom IMG, 2 a `Detailed Description` of the theme, and 3 click `Commit files`.
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-664fd37c21cce264-067f180b5479b252"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-pri-commit.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-pri-commit.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2cabf4798128acfd"
+type = "listItem"
+composite = true
+origin = '''
+9. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2cabf4798128acfd-0903a8fb05778f55}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2cabf4798128acfd-9740309d47ab6b7c}}
+'''
+translate = '''
+9. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2cabf4798128acfd-0903a8fb05778f55}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2cabf4798128acfd-9740309d47ab6b7c}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2cabf4798128acfd-0903a8fb05778f55"
+type = "paragraph"
+origin = '''
+`Contribute` -> 2 `Open pull request`
+'''
+translate = '''
+`Contribute` -> 2 `Open pull request`
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2cabf4798128acfd-9740309d47ab6b7c"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-open-pr.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-open-pr.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2ce339491fb4dcb5"
+type = "listItem"
+composite = true
+origin = '''
+10. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2ce339491fb4dcb5-9f3f2e613aa4575f}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2ce339491fb4dcb5-45d94be32839ea1b}}
+'''
+translate = '''
+10. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2ce339491fb4dcb5-9f3f2e613aa4575f}}
+
+    {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2ce339491fb4dcb5-45d94be32839ea1b}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2ce339491fb4dcb5-9f3f2e613aa4575f"
+type = "paragraph"
+origin = '''
+写自定义 IMG 的 `标题`，2 写入自定义主题的 `详细描述`，3 勾选 `Allow edits by maintainers`，4 `Create pull request`
+'''
+translate = '''
+Enter 1 a `Title` for your custom IMG, 2 a `Detailed Description`, 3 select `Allow edits by maintainers`, and 4 click `Create pull request`.
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-2ce339491fb4dcb5-45d94be32839ea1b"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-create-pr.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-create-pr.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6ff39c33f18ebd37"
+type = "listItem"
+composite = true
+origin = '''
+11. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6ff39c33f18ebd37-f1e3cb84d406ea8a}}
+'''
+translate = '''
+11. {{76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6ff39c33f18ebd37-f1e3cb84d406ea8a}}
+'''
+
+[[block]]
+key = "76540ac71ea03431-d2a91188fba43c62-6724317c64e895fa-6ff39c33f18ebd37-f1e3cb84d406ea8a"
+type = "paragraph"
+origin = '''
+恭喜你已经完成分享！
+'''
+translate = '''
+Your theme has been shared successfully!
+'''
+
+[[block]]
+key = "998f2a1d897d7ceb"
+type = "heading"
+origin = '''
+## 恢复出厂设置
+'''
+translate = '''
+## Factory Reset
+'''
+
+[[block]]
+key = "42c01b3903c0e557"
+type = "admonition"
+composite = true
+origin = '''
+:::warning
+
+{{42c01b3903c0e557-254c430007b82a92}}
+
+:::
+'''
+translate = '''
+:::warning
+
+{{42c01b3903c0e557-254c430007b82a92}}
+
+:::
+'''
+
+[[block]]
+key = "42c01b3903c0e557-254c430007b82a92"
+type = "paragraph"
+origin = '''
+Panda Knomi V2 恢复出厂设置会清空所有的配置，包括语言，连接的 WiFi，自定义的主机名，自定义的 AP 热点名称和密码，绑定的打印机，打印进度显示选择，主题配色信息。但是无法将自定义的 GIF 恢复为出厂 GIF，GIF 只能通过上传 GIF 或者更新 IMG 修改，出厂的 IMG 文件可从[Panda Knomi V2 的 Github](https://github.com/bigtreetech/PandaKnomi/blob/master/IMG/panda_knomi_factory.img)上面下载。
+'''
+translate = '''
+A factory reset clears all Panda Knomi V2 settings, including language, connected Wi-Fi, custom hostname, custom AP hotspot name and password, bound printer, print-progress display preference, and theme color settings. It does not restore custom GIFs to the factory GIFs. GIFs can only be changed by uploading GIF files or applying an IMG file. Download the factory IMG from the [Panda Knomi V2 GitHub repository](https://github.com/bigtreetech/PandaKnomi/blob/master/IMG/panda_knomi_factory.img).
+'''
+
+[[block]]
+key = "ad9b6020a1fbf10b"
+type = "heading"
+origin = '''
+### 通过 Web UI 恢复出厂设置
+'''
+translate = '''
+### Reset Through the Web UI
+'''
+
+[[block]]
+key = "79cfe3013997e95e"
+type = "list"
+composite = true
+origin = '''
+{{79cfe3013997e95e-b04532e104ab44c1}}
+
+{{79cfe3013997e95e-9a977524d993b4bc}}
+'''
+translate = '''
+{{79cfe3013997e95e-b04532e104ab44c1}}
+
+{{79cfe3013997e95e-9a977524d993b4bc}}
+'''
+
+[[block]]
+key = "79cfe3013997e95e-b04532e104ab44c1"
+type = "listItem"
+composite = true
+origin = '''
+1. {{79cfe3013997e95e-b04532e104ab44c1-98cc580179a89dae}}
+
+    {{79cfe3013997e95e-b04532e104ab44c1-5333ec8a2c242799}}
+'''
+translate = '''
+1. {{79cfe3013997e95e-b04532e104ab44c1-98cc580179a89dae}}
+
+    {{79cfe3013997e95e-b04532e104ab44c1-5333ec8a2c242799}}
+'''
+
+[[block]]
+key = "79cfe3013997e95e-b04532e104ab44c1-98cc580179a89dae"
+type = "paragraph"
+origin = '''
+进入 1 `设置` 界面，点击 2 `恢复出厂设置` 按钮
+'''
+translate = '''
+Open 1 `Settings` and click 2 `Factory Reset`.
+'''
+
+[[block]]
+key = "79cfe3013997e95e-b04532e104ab44c1-5333ec8a2c242799"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-factory-1.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-factory-1-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "79cfe3013997e95e-9a977524d993b4bc"
+type = "listItem"
+composite = true
+origin = '''
+2. {{79cfe3013997e95e-9a977524d993b4bc-634390c5915dd648}}
+
+    {{79cfe3013997e95e-9a977524d993b4bc-d073d173ace0333c}}
+'''
+translate = '''
+2. {{79cfe3013997e95e-9a977524d993b4bc-634390c5915dd648}}
+
+    {{79cfe3013997e95e-9a977524d993b4bc-d073d173ace0333c}}
+'''
+
+[[block]]
+key = "79cfe3013997e95e-9a977524d993b4bc-634390c5915dd648"
+type = "paragraph"
+origin = '''
+会出现确认的弹窗，点击 3 `是` 确认恢复出厂设置，Panda Knomi V2 会恢复出厂设置并重新启动。
+'''
+translate = '''
+In the confirmation dialog, click 3 `Yes`. Panda Knomi V2 restores factory settings and restarts.
+'''
+
+[[block]]
+key = "79cfe3013997e95e-9a977524d993b4bc-d073d173ace0333c"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-factory-2.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-factory-2-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "7e0e27d944172f75"
+type = "heading"
+origin = '''
+### 通过按键恢复出厂设置
+'''
+translate = '''
+### Reset Using the Button
+'''
+
+[[block]]
+key = "90cc988c0617a566"
+type = "paragraph"
+origin = '''
+长按 Panda Knomi V2 上的 Boot 按键 5 秒后，Panda Knomi V2 会恢复出厂设置并重新启动。
+'''
+translate = '''
+Press and hold the `Boot` button on Panda Knomi V2 for 5 seconds. The device restores factory settings and restarts.
+'''
+
+[[block]]
+key = "a7d5b81be3605836"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-boot.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-boot.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "1caad5f080ad6273"
+type = "heading"
+origin = '''
+## 固件
+'''
+translate = '''
+## Firmware
+'''
+
+[[block]]
+key = "420059d45eaa585c"
+type = "heading"
+origin = '''
+### 功能请求
+'''
+translate = '''
+### Feature Requests
+'''
+
+[[block]]
+key = "b91eb15bd8b70e0e"
+type = "paragraph"
+origin = '''
+如果您希望在即将发布的 Panda Knomi V2 固件中增加产品需求，请在官方 Panda Knomi V2 github repo 上提交请求，让我们知道。
+'''
+translate = '''
+To suggest features for a future Panda Knomi V2 firmware release, submit a request on the official GitHub repository.
+'''
+
+[[block]]
+key = "906379578dd3f78f"
+type = "paragraph"
+origin = '''
+[请求功能](https://github.com/bigtreetech/PandaKnomi/issues)
+'''
+translate = '''
+[Request a Feature](https://github.com/bigtreetech/PandaKnomi/issues)
+'''
+
+[[block]]
+key = "b9dce24630e2800d"
+type = "heading"
+origin = '''
+### 如何更新固件
+'''
+translate = '''
+### Update the Firmware
+'''
+
+[[block]]
+key = "9bf7d512360d0ae4"
+type = "heading"
+origin = '''
+#### OTA
+'''
+translate = '''
+#### OTA
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421"
+type = "list"
+composite = true
+origin = '''
+{{0cdd4d0a09ef7421-604f9e28909d55e0}}
+
+{{0cdd4d0a09ef7421-4a24397090aa75c7}}
+'''
+translate = '''
+{{0cdd4d0a09ef7421-604f9e28909d55e0}}
+
+{{0cdd4d0a09ef7421-4a24397090aa75c7}}
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0"
+type = "listItem"
+composite = true
+origin = '''
+1. {{0cdd4d0a09ef7421-604f9e28909d55e0-625c718116349a07}}
+
+    {{0cdd4d0a09ef7421-604f9e28909d55e0-db07ac42f3f31bf9}}
+
+    {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71}}
+'''
+translate = '''
+1. {{0cdd4d0a09ef7421-604f9e28909d55e0-625c718116349a07}}
+
+    {{0cdd4d0a09ef7421-604f9e28909d55e0-db07ac42f3f31bf9}}
+
+    {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71}}
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-625c718116349a07"
+type = "paragraph"
+origin = '''
+访问 Web UI 配置界面。
+'''
+translate = '''
+Access the Web UI.
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-db07ac42f3f31bf9"
+type = "admonition"
+composite = true
+origin = '''
+:::tip
+
+{{0cdd4d0a09ef7421-604f9e28909d55e0-db07ac42f3f31bf9-2637bf38db57d435}}
+
+:::
+'''
+translate = '''
+:::tip
+
+{{0cdd4d0a09ef7421-604f9e28909d55e0-db07ac42f3f31bf9-2637bf38db57d435}}
+
+:::
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-db07ac42f3f31bf9-2637bf38db57d435"
+type = "paragraph"
+origin = '''
+如果 Panda Knomi V2 已经连接到 Wi-Fi 中了，可以将设备连接到此 Wi-Fi 相同的局域网下直接通过 IP 访问 Web UI 更新固件。也可以将设备连接到 Panda Knomi V2 的 AP 热点上访问 WebUI 更新固件。这两种途径任选其一即可
+'''
+translate = '''
+If Panda Knomi V2 is already connected to Wi-Fi, you can access the Web UI by IP from any device on the same LAN. Alternatively, connect directly to the Panda Knomi V2 AP hotspot. Either method can be used to update the firmware.
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71"
+type = "list"
+composite = true
+origin = '''
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617}}
+
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd}}
+'''
+translate = '''
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617}}
+
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd}}
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617"
+type = "listItem"
+composite = true
+origin = '''
+1. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-f8bcd250127fb4d8}}
+
+    {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-32e8d0d12b4e8595}}
+'''
+translate = '''
+1. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-f8bcd250127fb4d8}}
+
+    {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-32e8d0d12b4e8595}}
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-f8bcd250127fb4d8"
+type = "paragraph"
+origin = '''
+连接到 Panda Knomi V2 所在 Wi-Fi 的局域网下
+'''
+translate = '''
+Connect through the same LAN as Panda Knomi V2.
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-32e8d0d12b4e8595"
+type = "list"
+composite = true
+origin = '''
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-32e8d0d12b4e8595-b573e85bd513dc09}}
+
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-32e8d0d12b4e8595-713655a48c4d3ab3}}
+'''
+translate = '''
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-32e8d0d12b4e8595-b573e85bd513dc09}}
+
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-32e8d0d12b4e8595-713655a48c4d3ab3}}
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-32e8d0d12b4e8595-b573e85bd513dc09"
+type = "listItem"
+composite = true
+origin = '''
+1. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-32e8d0d12b4e8595-b573e85bd513dc09-e759d2cc283e38c1}}
+'''
+translate = '''
+1. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-32e8d0d12b4e8595-b573e85bd513dc09-e759d2cc283e38c1}}
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-32e8d0d12b4e8595-b573e85bd513dc09-e759d2cc283e38c1"
+type = "paragraph"
+origin = '''
+将设备连接到 Panda Knomi V2 所在 Wi-Fi 的局域网下（Wi-Fi，以太网均可）
+'''
+translate = '''
+Connect your device to the same LAN as Panda Knomi V2 (via Wi-Fi or Ethernet).
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-32e8d0d12b4e8595-713655a48c4d3ab3"
+type = "listItem"
+composite = true
+origin = '''
+2. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-32e8d0d12b4e8595-713655a48c4d3ab3-d01ad7da07c94452}}
+'''
+translate = '''
+2. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-32e8d0d12b4e8595-713655a48c4d3ab3-d01ad7da07c94452}}
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-ff1dc4d4935e7617-32e8d0d12b4e8595-713655a48c4d3ab3-d01ad7da07c94452"
+type = "paragraph"
+origin = '''
+在设备的浏览器中输入 Panda Knomi V2 的 IP 或者主机名，主机名出厂默认为：`http://pandaknomi.local`，如果设备开了 VPN, 那么通过主机名访问的方式可能会失效, 此时请直接使用 IP 访问 Web UI 配置界面。
+'''
+translate = '''
+Enter the Panda Knomi V2 IP address or hostname in your browser. The factory-default hostname address is `http://pandaknomi.local`. If a VPN prevents hostname access, enter the IP address directly.
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd"
+type = "listItem"
+composite = true
+origin = '''
+2. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-8a75cf77d5027dd8}}
+
+    {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0}}
+'''
+translate = '''
+2. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-8a75cf77d5027dd8}}
+
+    {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0}}
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-8a75cf77d5027dd8"
+type = "paragraph"
+origin = '''
+连接 Panda Knomi V2 的 AP 热点更新
+'''
+translate = '''
+Update through the Panda Knomi V2 AP hotspot.
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0"
+type = "list"
+composite = true
+origin = '''
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466}}
+
+
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-2abc5f1542bdabe1}}
+'''
+translate = '''
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466}}
+
+
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-2abc5f1542bdabe1}}
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466"
+type = "listItem"
+composite = true
+origin = '''
+1. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-b0071875349154ae}}
+
+    {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f}}
+'''
+translate = '''
+1. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-b0071875349154ae}}
+
+    {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f}}
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-b0071875349154ae"
+type = "paragraph"
+origin = '''
+将设备连接到 Panda Knomi V2 的 AP 热点。以 iPhone 为例：
+'''
+translate = '''
+Connect your device to the Panda Knomi V2 AP hotspot. For example, on an iPhone:
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f"
+type = "list"
+composite = true
+origin = '''
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-71e30e5df40aaf68}}
+
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-792c96873c01d926}}
+
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-983976aa3f33dfec}}
+
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-f72a322468b06ca9}}
+'''
+translate = '''
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-71e30e5df40aaf68}}
+
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-792c96873c01d926}}
+
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-983976aa3f33dfec}}
+
+{{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-f72a322468b06ca9}}
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-71e30e5df40aaf68"
+type = "listItem"
+composite = true
+origin = '''
+1. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-71e30e5df40aaf68-ede5e0f289f3fef6}}
+'''
+translate = '''
+1. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-71e30e5df40aaf68-ede5e0f289f3fef6}}
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-71e30e5df40aaf68-ede5e0f289f3fef6"
+type = "paragraph"
+origin = '''
+在你的主屏幕上，前往 `设置`-> `无线局域网`。
+'''
+translate = '''
+On the Home Screen, go to `Settings` -> `Wi-Fi`.
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-792c96873c01d926"
+type = "listItem"
+composite = true
+origin = '''
+2. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-792c96873c01d926-a1b20f3010aa6a95}}
+
+    {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-792c96873c01d926-b898fa9742efbc80}}
+'''
+translate = '''
+2. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-792c96873c01d926-a1b20f3010aa6a95}}
+
+    {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-792c96873c01d926-b898fa9742efbc80}}
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-792c96873c01d926-a1b20f3010aa6a95"
+type = "paragraph"
+origin = '''
+打开 `无线局域网`。你的设备将自动搜索可供使用的无线局域网。
+'''
+translate = '''
+Turn on `Wi-Fi`. Your device scans for available networks.
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-792c96873c01d926-b898fa9742efbc80"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-wlan.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-wlan-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-983976aa3f33dfec"
+type = "listItem"
+composite = true
+origin = '''
+3. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-983976aa3f33dfec-965ceb046a4088db}}
+'''
+translate = '''
+3. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-983976aa3f33dfec-965ceb046a4088db}}
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-983976aa3f33dfec-965ceb046a4088db"
+type = "paragraph"
+origin = '''
+轻点名称以 `Panda_Knomi_` 开头的无线局域网，输入默认密码：`987654321`。
+'''
+translate = '''
+Tap the network beginning with `Panda_Knomi_` and enter the default password: `987654321`.
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-f72a322468b06ca9"
+type = "listItem"
+composite = true
+origin = '''
+4. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-f72a322468b06ca9-5f04b0423e72d139}}
+'''
+translate = '''
+4. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-f72a322468b06ca9-5f04b0423e72d139}}
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-bd5f9f70120e3466-c7e96225a6182c0f-f72a322468b06ca9-5f04b0423e72d139"
+type = "paragraph"
+origin = '''
+连接上 Panda Knomi V2 的无线局域网后，你会在这个网络旁边看到蓝色勾号，并在显示屏右上方角落看到已连接的无线局域网图标。
+'''
+translate = '''
+When connected, a blue checkmark appears next to the Panda Knomi V2 network, and a Wi-Fi icon appears in the upper-right corner.
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-2abc5f1542bdabe1"
+type = "listItem"
+composite = true
+origin = '''
+2. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-2abc5f1542bdabe1-5b6259ec357725a0}}
+'''
+translate = '''
+2. {{0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-2abc5f1542bdabe1-5b6259ec357725a0}}
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-604f9e28909d55e0-a8d26fc45b12dc71-d5c377dadb43f5cd-639d080b352bc8c0-2abc5f1542bdabe1-5b6259ec357725a0"
+type = "paragraph"
+origin = '''
+连接上 AP 后，理应有 `已连接（需登录/认证）` 的提示，并且点击会进入 Web UI 配置界面。有时因为网络原因，需要等待 10~20 秒, 如果等待后仍然无法进入 Web UI 配置界面, 当使用 `V1.0.4.1` 及其之后版本的固件, 可以在浏览器中手动输入 [192.168.254.1](http://192.168.254.1) (之前的版本请使用 [192.168.4.1](http://192.168.4.1)) 访问 Web UI 配置界面。
+'''
+translate = '''
+Once connected to the AP, you should see `Connected (login/authentication required)`. Tap it to open the Web UI. Depending on network conditions, this may take 10–20 seconds. If the Web UI does not open, manually enter [192.168.254.1](http://192.168.254.1) for firmware `V1.0.4.1` and later, or [192.168.4.1](http://192.168.4.1) for earlier firmware.
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-4a24397090aa75c7"
+type = "listItem"
+composite = true
+origin = '''
+2. {{0cdd4d0a09ef7421-4a24397090aa75c7-149e48d9f3ed1cec}}
+
+    {{0cdd4d0a09ef7421-4a24397090aa75c7-ade97cefdb2b83c6}}
+'''
+translate = '''
+2. {{0cdd4d0a09ef7421-4a24397090aa75c7-149e48d9f3ed1cec}}
+
+    {{0cdd4d0a09ef7421-4a24397090aa75c7-ade97cefdb2b83c6}}
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-4a24397090aa75c7-149e48d9f3ed1cec"
+type = "paragraph"
+origin = '''
+在 Web UI 配置界面中，进入 1 `设置` 界面, 点击 2 `选择 .bin 文件`, 然后选择要更新的固件, 更新完成后设备会自动重启。
+'''
+translate = '''
+In the Web UI, open 1 `Settings`, click 2 `Select .bin File`, and select the firmware file. The device restarts automatically after the update.
+'''
+
+[[block]]
+key = "0cdd4d0a09ef7421-4a24397090aa75c7-ade97cefdb2b83c6"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-firmware.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-firmware-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "fe6de1bf6d81b812"
+type = "heading"
+origin = '''
+#### flash_download_tool (Type-C 线刷)
+'''
+translate = '''
+#### flash_download_tool (Type-C Flashing)
+'''
+
+[[block]]
+key = "3c380f5a6f2a1af9"
+type = "admonition"
+composite = true
+origin = '''
+:::warning
+
+{{3c380f5a6f2a1af9-0ce1f72ac1abf168}}
+
+:::
+'''
+translate = '''
+:::warning
+
+{{3c380f5a6f2a1af9-0ce1f72ac1abf168}}
+
+:::
+'''
+
+[[block]]
+key = "3c380f5a6f2a1af9-0ce1f72ac1abf168"
+type = "paragraph"
+origin = '''
+Panda Knomi V2 理应可以自由的 OTA，此步骤仅在无法 OTA 时使用。
+'''
+translate = '''
+Panda Knomi V2 normally supports OTA updates. Use this procedure only if OTA updating is unavailable.
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd"
+type = "list"
+composite = true
+origin = '''
+{{d19a5783ee8ab9cd-4632e8f8dc87f5da}}
+
+{{d19a5783ee8ab9cd-f9e64a578d857f0b}}
+
+{{d19a5783ee8ab9cd-ff2bff296e3a4834}}
+
+{{d19a5783ee8ab9cd-37200e1f04e4b5e8}}
+
+{{d19a5783ee8ab9cd-bbc98d37217fc522}}
+
+{{d19a5783ee8ab9cd-26708ce23c77e9ec}}
+'''
+translate = '''
+{{d19a5783ee8ab9cd-4632e8f8dc87f5da}}
+
+{{d19a5783ee8ab9cd-f9e64a578d857f0b}}
+
+{{d19a5783ee8ab9cd-ff2bff296e3a4834}}
+
+{{d19a5783ee8ab9cd-37200e1f04e4b5e8}}
+
+{{d19a5783ee8ab9cd-bbc98d37217fc522}}
+
+{{d19a5783ee8ab9cd-26708ce23c77e9ec}}
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-4632e8f8dc87f5da"
+type = "listItem"
+composite = true
+origin = '''
+1. {{d19a5783ee8ab9cd-4632e8f8dc87f5da-ebdac2e4eb9fd0fe}}
+'''
+translate = '''
+1. {{d19a5783ee8ab9cd-4632e8f8dc87f5da-ebdac2e4eb9fd0fe}}
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-4632e8f8dc87f5da-ebdac2e4eb9fd0fe"
+type = "paragraph"
+origin = '''
+如果电脑上没有 CH340 的驱动，请先下载安装驱动 [CH341SER.EXE](https://www.wch.cn/downloads/CH341SER_EXE.html)
+'''
+translate = '''
+If the CH340 driver is not installed on your computer, download and install [CH341SER.EXE](https://www.wch.cn/downloads/CH341SER_EXE.html).
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-f9e64a578d857f0b"
+type = "listItem"
+composite = true
+origin = '''
+2. {{d19a5783ee8ab9cd-f9e64a578d857f0b-15d66c2b6d2233df}}
+
+    {{d19a5783ee8ab9cd-f9e64a578d857f0b-86aff4bd4b3c5b02}}
+'''
+translate = '''
+2. {{d19a5783ee8ab9cd-f9e64a578d857f0b-15d66c2b6d2233df}}
+
+    {{d19a5783ee8ab9cd-f9e64a578d857f0b-86aff4bd4b3c5b02}}
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-f9e64a578d857f0b-15d66c2b6d2233df"
+type = "paragraph"
+origin = '''
+下载 [Flash 下载工具](https://www.espressif.com/zh-hans/support/download/other-tools)
+'''
+translate = '''
+Download the [Flash Download Tool](https://www.espressif.com/en/support/download/other-tools).
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-f9e64a578d857f0b-86aff4bd4b3c5b02"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-download-esp-tool.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("./img/panda-knomi-v2-download-esp-tool-en.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-ff2bff296e3a4834"
+type = "listItem"
+composite = true
+origin = '''
+3. {{d19a5783ee8ab9cd-ff2bff296e3a4834-4dc9366d7d11831a}}
+'''
+translate = '''
+3. {{d19a5783ee8ab9cd-ff2bff296e3a4834-4dc9366d7d11831a}}
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-ff2bff296e3a4834-4dc9366d7d11831a"
+type = "paragraph"
+origin = '''
+下载 [Panda Knomi V2 的固件](https://github.com/bigtreetech/PandaKnomi)
+'''
+translate = '''
+Download the [Panda Knomi V2 firmware](https://github.com/bigtreetech/PandaKnomi).
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-37200e1f04e4b5e8"
+type = "listItem"
+composite = true
+origin = '''
+4. {{d19a5783ee8ab9cd-37200e1f04e4b5e8-53da3b9f01e73d5b}}
+
+    {{d19a5783ee8ab9cd-37200e1f04e4b5e8-c3d851d96264745d}}
+'''
+translate = '''
+4. {{d19a5783ee8ab9cd-37200e1f04e4b5e8-53da3b9f01e73d5b}}
+
+    {{d19a5783ee8ab9cd-37200e1f04e4b5e8-c3d851d96264745d}}
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-37200e1f04e4b5e8-53da3b9f01e73d5b"
+type = "paragraph"
+origin = '''
+按住 Panda Knomi V2 上的 `Boot` 按键, 然后通过 `Type-C` 插到电脑上，电脑的设备管理器中理应识别出一个新的 COM 端口
+'''
+translate = '''
+Press and hold the `Boot` button on Panda Knomi V2 while connecting it to your computer through the `Type-C` port. A new COM port should appear in Windows Device Manager.
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-37200e1f04e4b5e8-c3d851d96264745d"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-boot-fw.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-boot-fw.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-bbc98d37217fc522"
+type = "listItem"
+composite = true
+origin = '''
+5. {{d19a5783ee8ab9cd-bbc98d37217fc522-d2777c3b60f3c66a}}
+
+    {{d19a5783ee8ab9cd-bbc98d37217fc522-a86e2e5c76e7395f}}
+'''
+translate = '''
+5. {{d19a5783ee8ab9cd-bbc98d37217fc522-d2777c3b60f3c66a}}
+
+    {{d19a5783ee8ab9cd-bbc98d37217fc522-a86e2e5c76e7395f}}
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-bbc98d37217fc522-d2777c3b60f3c66a"
+type = "paragraph"
+origin = '''
+打开 `flash_download_tool_3.9.8_6.exe`, 在弹窗中按照下图配置
+'''
+translate = '''
+Open `flash_download_tool_3.9.8_6.exe` and configure the dialog as shown below.
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-bbc98d37217fc522-a86e2e5c76e7395f"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-open-esp-tool.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-open-esp-tool.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec"
+type = "listItem"
+composite = true
+origin = '''
+6. {{d19a5783ee8ab9cd-26708ce23c77e9ec-ef8875b26c25f92c}}
+
+    {{d19a5783ee8ab9cd-26708ce23c77e9ec-f2843ecb51a0b0fc}}
+
+    {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff}}
+'''
+translate = '''
+6. {{d19a5783ee8ab9cd-26708ce23c77e9ec-ef8875b26c25f92c}}
+
+    {{d19a5783ee8ab9cd-26708ce23c77e9ec-f2843ecb51a0b0fc}}
+
+    {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff}}
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-ef8875b26c25f92c"
+type = "paragraph"
+origin = '''
+烧录软件的配置如下图
+'''
+translate = '''
+Configure the flashing tool as shown below.
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-f2843ecb51a0b0fc"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require("./img/panda-knomi-v2-set-esp-tool.webp").default} alt="" width="45%" />
+'''
+translate = '''
+<ImageView src={require("@site/docs/panda-series/module/panda-knomi-v2/img/panda-knomi-v2-set-esp-tool.webp").default} alt="" width="45%" />
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff"
+type = "list"
+composite = true
+origin = '''
+{{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148}}
+
+{{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-7cadb1eb5dabdddb}}
+
+{{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-174533d0414d58ef}}
+'''
+translate = '''
+{{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148}}
+
+{{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-7cadb1eb5dabdddb}}
+
+{{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-174533d0414d58ef}}
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148"
+type = "listItem"
+composite = true
+origin = '''
+1. {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-97ebce077c21f7f0}}
+
+    {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4}}
+'''
+translate = '''
+1. {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-97ebce077c21f7f0}}
+
+    {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4}}
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-97ebce077c21f7f0"
+type = "paragraph"
+origin = '''
+设置.bin 文件的烧录地址, 并且前面的复选框都勾选上
+'''
+translate = '''
+Set the flash addresses for the .bin files and select each checkbox.
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4"
+type = "list"
+composite = true
+origin = '''
+{{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-95aed8add021ce86}}
+
+{{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-3100572dcf76953c}}
+
+{{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-2efaf12d98f05181}}
+
+{{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-f25882f2340bc04c}}
+'''
+translate = '''
+{{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-95aed8add021ce86}}
+
+{{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-3100572dcf76953c}}
+
+{{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-2efaf12d98f05181}}
+
+{{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-f25882f2340bc04c}}
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-95aed8add021ce86"
+type = "listItem"
+composite = true
+origin = '''
+1. {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-95aed8add021ce86-e0f540b81deace2a}}
+'''
+translate = '''
+1. {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-95aed8add021ce86-e0f540b81deace2a}}
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-95aed8add021ce86-e0f540b81deace2a"
+type = "paragraph"
+origin = '''
+`panda_knomi_bootloader.bin` 写入到 `0x1000`
+'''
+translate = '''
+Flash `panda_knomi_bootloader.bin` at `0x1000`.
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-3100572dcf76953c"
+type = "listItem"
+composite = true
+origin = '''
+2. {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-3100572dcf76953c-26097cefffc63f7c}}
+'''
+translate = '''
+2. {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-3100572dcf76953c-26097cefffc63f7c}}
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-3100572dcf76953c-26097cefffc63f7c"
+type = "paragraph"
+origin = '''
+`panda_knomi_partitions.bin` 写入到 `0x8000`
+'''
+translate = '''
+Flash `panda_knomi_partitions.bin` at `0x8000`.
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-2efaf12d98f05181"
+type = "listItem"
+composite = true
+origin = '''
+3. {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-2efaf12d98f05181-b5598cef1066e50d}}
+'''
+translate = '''
+3. {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-2efaf12d98f05181-b5598cef1066e50d}}
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-2efaf12d98f05181-b5598cef1066e50d"
+type = "paragraph"
+origin = '''
+`panda_knomi_v1.0.0.bin` 写入到 `0x10000`
+'''
+translate = '''
+Flash `panda_knomi_v1.0.0.bin` at `0x10000`.
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-f25882f2340bc04c"
+type = "listItem"
+composite = true
+origin = '''
+4. {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-f25882f2340bc04c-24cb267b24213fd0}}
+'''
+translate = '''
+4. {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-f25882f2340bc04c-24cb267b24213fd0}}
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-c0cc763263cf1148-ae6e61b0c8f894d4-f25882f2340bc04c-24cb267b24213fd0"
+type = "paragraph"
+origin = '''
+`panda_knomi_v1.0.0.img` 写入到 `0x910000`
+'''
+translate = '''
+Flash `panda_knomi_v1.0.0.img` at `0x910000`.
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-7cadb1eb5dabdddb"
+type = "listItem"
+composite = true
+origin = '''
+2. {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-7cadb1eb5dabdddb-3925298d4f4161d1}}
+'''
+translate = '''
+2. {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-7cadb1eb5dabdddb-3925298d4f4161d1}}
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-7cadb1eb5dabdddb-3925298d4f4161d1"
+type = "paragraph"
+origin = '''
+设置 COM 端口为 Panda Knomi V2 实际的端口（可在电脑的 `设备管理器`->`端口` 中查看）, 并且设置一个合适的波特率, 我们推荐使用 `460800`
+'''
+translate = '''
+Select the COM port used by Panda Knomi V2 (see `Device Manager` -> `Ports` on your computer), then set a suitable baud rate. We recommend `460800`.
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-174533d0414d58ef"
+type = "listItem"
+composite = true
+origin = '''
+3. {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-174533d0414d58ef-7c8d4161bc0a7296}}
+'''
+translate = '''
+3. {{d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-174533d0414d58ef-7c8d4161bc0a7296}}
+'''
+
+[[block]]
+key = "d19a5783ee8ab9cd-26708ce23c77e9ec-ea9604f49aa948ff-174533d0414d58ef-7c8d4161bc0a7296"
+type = "paragraph"
+origin = '''
+点击 `START` 开始烧录，等待烧录完成, 断电重启即可。
+'''
+translate = '''
+Click `START` to flash the firmware. Once flashing is complete, disconnect power and restart the device.
+'''
+
+[[block]]
+key = "baef8282f6ebe78a"
+type = "heading"
+origin = '''
+### 固件历史记录
+'''
+translate = '''
+### Firmware History
+'''
+
+[[block]]
+key = "c3e7c1ed46fa33d8"
+type = "heading"
+origin = '''
+#### [V1.1.0](https://github.com/bigtreetech/PandaKnomi/releases/tag/V1.1.0)
+'''
+translate = '''
+#### [V1.1.0](https://github.com/bigtreetech/PandaKnomi/releases/tag/V1.1.0)
+'''
+
+[[block]]
+key = "6a5c35d9caab7b7a"
+type = "list"
+composite = true
+origin = '''
+{{6a5c35d9caab7b7a-0a934c88ce29b563}}
+
+{{6a5c35d9caab7b7a-8e76696b2eaef871}}
+
+{{6a5c35d9caab7b7a-ecea2eca396389bd}}
+
+{{6a5c35d9caab7b7a-093a21ec55a5cc1e}}
+'''
+translate = '''
+{{6a5c35d9caab7b7a-0a934c88ce29b563}}
+
+{{6a5c35d9caab7b7a-8e76696b2eaef871}}
+
+{{6a5c35d9caab7b7a-ecea2eca396389bd}}
+
+{{6a5c35d9caab7b7a-093a21ec55a5cc1e}}
+'''
+
+[[block]]
+key = "6a5c35d9caab7b7a-0a934c88ce29b563"
+type = "listItem"
+composite = true
+origin = '''
+1. {{6a5c35d9caab7b7a-0a934c88ce29b563-078ad2afab97af71}}
+'''
+translate = '''
+1. {{6a5c35d9caab7b7a-0a934c88ce29b563-078ad2afab97af71}}
+'''
+
+[[block]]
+key = "6a5c35d9caab7b7a-0a934c88ce29b563-078ad2afab97af71"
+type = "paragraph"
+origin = '''
+修复了 WebUI 中连接 wifi，超链接重定向，下载/导出 img 失败等问题。
+'''
+translate = '''
+Fixed Web UI issues involving Wi-Fi connections, hyperlink redirects, and failed IMG downloads/exports.
+'''
+
+[[block]]
+key = "6a5c35d9caab7b7a-8e76696b2eaef871"
+type = "listItem"
+composite = true
+origin = '''
+2. {{6a5c35d9caab7b7a-8e76696b2eaef871-6b03c7be9c0b3d92}}
+'''
+translate = '''
+2. {{6a5c35d9caab7b7a-8e76696b2eaef871-6b03c7be9c0b3d92}}
+'''
+
+[[block]]
+key = "6a5c35d9caab7b7a-8e76696b2eaef871-6b03c7be9c0b3d92"
+type = "paragraph"
+origin = '''
+添加了兼容 A2L 的 18 字节 SN 码
+'''
+translate = '''
+Added support for 18-byte serial numbers used by A2L.
+'''
+
+[[block]]
+key = "6a5c35d9caab7b7a-ecea2eca396389bd"
+type = "listItem"
+composite = true
+origin = '''
+3. {{6a5c35d9caab7b7a-ecea2eca396389bd-a0a4449bab2441db}}
+'''
+translate = '''
+3. {{6a5c35d9caab7b7a-ecea2eca396389bd-a0a4449bab2441db}}
+'''
+
+[[block]]
+key = "6a5c35d9caab7b7a-ecea2eca396389bd-a0a4449bab2441db"
+type = "paragraph"
+origin = '''
+`printing_ok.gif` 将从仅播放 2.5 秒变为连续播放 30 分钟(除非打印状态有新的变化)
+'''
+translate = '''
+Changed `printing_ok.gif` from playing for only 2.5 seconds to playing continuously for 30 minutes (unless the print status changes).
+'''
+
+[[block]]
+key = "6a5c35d9caab7b7a-093a21ec55a5cc1e"
+type = "listItem"
+composite = true
+origin = '''
+4. {{6a5c35d9caab7b7a-093a21ec55a5cc1e-a5ebc567f197113e}}
+
+    {{6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297}}
+'''
+translate = '''
+4. {{6a5c35d9caab7b7a-093a21ec55a5cc1e-a5ebc567f197113e}}
+
+    {{6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297}}
+'''
+
+[[block]]
+key = "6a5c35d9caab7b7a-093a21ec55a5cc1e-a5ebc567f197113e"
+type = "paragraph"
+origin = '''
+新增 3 个状态 GIF
+'''
+translate = '''
+Added three new status GIFs:
+'''
+
+[[block]]
+key = "6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297"
+type = "list"
+composite = true
+origin = '''
+{{6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-6df278bc564a033b}}
+
+{{6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-565739bc56c55844}}
+
+{{6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-b4b6c6b3213c42e2}}
+'''
+translate = '''
+{{6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-6df278bc564a033b}}
+
+{{6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-565739bc56c55844}}
+
+{{6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-b4b6c6b3213c42e2}}
+'''
+
+[[block]]
+key = "6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-6df278bc564a033b"
+type = "listItem"
+composite = true
+origin = '''
+1. {{6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-6df278bc564a033b-b9089d8133b0cb00}}
+'''
+translate = '''
+1. {{6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-6df278bc564a033b-b9089d8133b0cb00}}
+'''
+
+[[block]]
+key = "6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-6df278bc564a033b-b9089d8133b0cb00"
+type = "paragraph"
+origin = '''
+`plate_type.gif` 用于识别打印板类型。
+'''
+translate = '''
+`plate_type.gif` for detecting the build plate type.
+'''
+
+[[block]]
+key = "6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-565739bc56c55844"
+type = "listItem"
+composite = true
+origin = '''
+2. {{6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-565739bc56c55844-5cd4b7a04f8d0d86}}
+'''
+translate = '''
+2. {{6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-565739bc56c55844-5cd4b7a04f8d0d86}}
+'''
+
+[[block]]
+key = "6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-565739bc56c55844-5cd4b7a04f8d0d86"
+type = "paragraph"
+origin = '''
+`calibration_lines.gif` 用于打印校准标定线
+'''
+translate = '''
+`calibration_lines.gif` for printing calibration lines.
+'''
+
+[[block]]
+key = "6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-b4b6c6b3213c42e2"
+type = "listItem"
+composite = true
+origin = '''
+3. {{6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-b4b6c6b3213c42e2-6028b31c2cd8e17b}}
+'''
+translate = '''
+3. {{6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-b4b6c6b3213c42e2-6028b31c2cd8e17b}}
+'''
+
+[[block]]
+key = "6a5c35d9caab7b7a-093a21ec55a5cc1e-09831cd280d8e297-b4b6c6b3213c42e2-6028b31c2cd8e17b"
+type = "paragraph"
+origin = '''
+`chamber_cooling.gif` 用于等待腔室温度冷却
+'''
+translate = '''
+`chamber_cooling.gif` for waiting for the chamber to cool.
+'''
+
+[[block]]
+key = "fb21342689f11866"
+type = "heading"
+origin = '''
+## 技术支持
+'''
+translate = '''
+## Technical Support
+'''
+
+[[block]]
+key = "8ed7e4ed8ef6eabf"
+type = "paragraph"
+origin = '''
+这个页面对你有帮助吗？如果您对产品使用有任何进一步的问题或遇到其他问题，请随时联系我们的售后电子邮件：`support01@bigtree-tech.com`
+'''
+translate = '''
+Was this page helpful? If you have any further questions or encounter problems using the product, contact our support team at `support01@bigtree-tech.com`.
+'''
