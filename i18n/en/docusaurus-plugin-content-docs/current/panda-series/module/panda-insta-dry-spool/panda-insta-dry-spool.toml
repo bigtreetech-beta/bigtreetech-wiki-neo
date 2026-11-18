@@ -1,0 +1,1664 @@
+[metadata]
+
+[[block]]
+key = "ed21a59243a57290"
+type = "yaml"
+origin = '''
+---
+description: Panda Insta-Dry Spool是一款为全金属设计的可拆卸料盘，具有结实耐用和使用便捷等特点。
+---
+'''
+translate = '''
+---
+description: Panda Insta-Dry Spool is a durable, easy-to-use detachable all-metal filament spool.
+---
+'''
+
+[[block]]
+key = "ef08b90189297562"
+type = "heading"
+origin = '''
+# Panda Insta-Dry Spool
+'''
+translate = '''
+# Panda Insta-Dry Spool
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec"
+type = "mdxJsxFlowElement"
+composite = true
+origin = '''
+<div class="div-table">
+
+{{c494ce8acde3e4ec-08d861992297e76a}}
+
+{{c494ce8acde3e4ec-e8d43e43beaffb4f}}
+
+{{c494ce8acde3e4ec-9c3aaedc83e362c7}}
+
+{{c494ce8acde3e4ec-4ef996c7a01f32ab}}
+
+    {{c494ce8acde3e4ec-1f1bb008b13381d6}}
+
+    {{c494ce8acde3e4ec-7a59e21d77fd37e8}}
+
+{{c494ce8acde3e4ec-5c5a22ebd12bee77}}
+
+{{c494ce8acde3e4ec-d8d41aeac0e74401}}
+
+</div>
+'''
+translate = '''
+<div class="div-table">
+
+{{c494ce8acde3e4ec-08d861992297e76a}}
+
+{{c494ce8acde3e4ec-e8d43e43beaffb4f}}
+
+{{c494ce8acde3e4ec-9c3aaedc83e362c7}}
+
+{{c494ce8acde3e4ec-4ef996c7a01f32ab}}
+
+    {{c494ce8acde3e4ec-1f1bb008b13381d6}}
+
+    {{c494ce8acde3e4ec-7a59e21d77fd37e8}}
+
+{{c494ce8acde3e4ec-5c5a22ebd12bee77}}
+
+{{c494ce8acde3e4ec-d8d41aeac0e74401}}
+
+</div>
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-08d861992297e76a"
+type = "mdxFlowExpression"
+origin = '''
+{/* main image */}
+'''
+translate = '''
+{/* main image */}
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-e8d43e43beaffb4f"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView
+	src={require("./img/panda-insta-dry-spool-title.webp").default}
+	alt=""
+	width="45%"
+	class="right-image"
+/>
+'''
+translate = '''
+<ImageView
+	src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-title.webp').default}
+	alt=""
+	width="45%"
+	class="right-image"
+/>
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-9c3aaedc83e362c7"
+type = "heading"
+origin = '''
+## 产品简介
+'''
+translate = '''
+## Overview
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-4ef996c7a01f32ab"
+type = "paragraph"
+origin = '''
+**Panda Insta-Dry Spool —— 面向日常打印与高性能耗材的全金属料盘**
+'''
+translate = '''
+**Panda Insta-Dry Spool — All-Metal Filament Spool**
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-1f1bb008b13381d6"
+type = "paragraph"
+origin = '''
+Panda Insta-Dry Spool 是一款兼顾日常使用与高温烘干需求的全金属可拆卸料盘，适用于 PLA，PETG，ABS，ASA，TPU 等常用耗材，同时能够满足 PA，PC，PPA 等高性能耗材的高温烘干场景。它集耐高温，快速拆装，芯片识别，低阻力拓展与轻量化设计于一体，让日常换料，耗材烘干和打印使用更加灵活便捷。
+'''
+translate = '''
+Panda Insta-Dry Spool is a detachable all-metal filament spool designed for both everyday printing and high-temperature filament drying. It supports common materials such as PLA, PETG, ABS, ASA, and TPU, as well as high-performance materials such as PA, PC, and PPA that demand higher drying temperatures. Its heat-resistant construction, quick-release design, filament identification support, optional low-resistance bearing, and lightweight open-frame structure make filament changes, drying, and printing more flexible and convenient.
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8"
+type = "list"
+composite = true
+origin = '''
+{{c494ce8acde3e4ec-7a59e21d77fd37e8-5855539cf3bd8a0f}}
+
+{{c494ce8acde3e4ec-7a59e21d77fd37e8-8d7b6f9cca8db04a}}
+
+{{c494ce8acde3e4ec-7a59e21d77fd37e8-e50cd1ad100decf8}}
+
+{{c494ce8acde3e4ec-7a59e21d77fd37e8-7c6f3edd3c0c00b9}}
+
+{{c494ce8acde3e4ec-7a59e21d77fd37e8-42171d490bf709b7}}
+
+{{c494ce8acde3e4ec-7a59e21d77fd37e8-798262b99c559f86}}
+
+{{c494ce8acde3e4ec-7a59e21d77fd37e8-589dccb082ccc847}}
+'''
+translate = '''
+{{c494ce8acde3e4ec-7a59e21d77fd37e8-5855539cf3bd8a0f}}
+
+{{c494ce8acde3e4ec-7a59e21d77fd37e8-8d7b6f9cca8db04a}}
+
+{{c494ce8acde3e4ec-7a59e21d77fd37e8-e50cd1ad100decf8}}
+
+{{c494ce8acde3e4ec-7a59e21d77fd37e8-7c6f3edd3c0c00b9}}
+
+{{c494ce8acde3e4ec-7a59e21d77fd37e8-42171d490bf709b7}}
+
+{{c494ce8acde3e4ec-7a59e21d77fd37e8-798262b99c559f86}}
+
+{{c494ce8acde3e4ec-7a59e21d77fd37e8-589dccb082ccc847}}
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-5855539cf3bd8a0f"
+type = "listItem"
+composite = true
+origin = '''
+- {{c494ce8acde3e4ec-7a59e21d77fd37e8-5855539cf3bd8a0f-b725843717cb57db}}
+
+    {{c494ce8acde3e4ec-7a59e21d77fd37e8-5855539cf3bd8a0f-7dfd99fb40e02d67}}
+'''
+translate = '''
+- {{c494ce8acde3e4ec-7a59e21d77fd37e8-5855539cf3bd8a0f-b725843717cb57db}}
+
+    {{c494ce8acde3e4ec-7a59e21d77fd37e8-5855539cf3bd8a0f-7dfd99fb40e02d67}}
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-5855539cf3bd8a0f-b725843717cb57db"
+type = "paragraph"
+origin = '''
+**耐高温设计**
+'''
+translate = '''
+**High-Temperature Design**
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-5855539cf3bd8a0f-7dfd99fb40e02d67"
+type = "paragraph"
+origin = '''
+全金属结构可承受更高的烘干温度，适用于需要高温干燥的工程级耗材，减少传统塑料料盘在高温环境下软化或变形的风险。
+'''
+translate = '''
+The all-metal construction tolerates higher drying temperatures, making it suitable for engineering-grade filaments that demand high-temperature drying. It also reduces the risk of softening or deformation associated with conventional plastic spools.
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-8d7b6f9cca8db04a"
+type = "listItem"
+composite = true
+origin = '''
+- {{c494ce8acde3e4ec-7a59e21d77fd37e8-8d7b6f9cca8db04a-2a0d4b1883e49ad1}}
+
+    {{c494ce8acde3e4ec-7a59e21d77fd37e8-8d7b6f9cca8db04a-9d9d32d60e91d7d4}}
+'''
+translate = '''
+- {{c494ce8acde3e4ec-7a59e21d77fd37e8-8d7b6f9cca8db04a-2a0d4b1883e49ad1}}
+
+    {{c494ce8acde3e4ec-7a59e21d77fd37e8-8d7b6f9cca8db04a-9d9d32d60e91d7d4}}
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-8d7b6f9cca8db04a-2a0d4b1883e49ad1"
+type = "paragraph"
+origin = '''
+**可选低阻力轴承**
+'''
+translate = '''
+**Optional Low-Resistance Bearing**
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-8d7b6f9cca8db04a-9d9d32d60e91d7d4"
+type = "paragraph"
+origin = '''
+支持选配安装轴承，有效降低料盘转动阻力，使送料过程更加顺畅，尤其适合TPU等柔性耗材及对送料阻力较为敏感的打印场景。
+'''
+translate = '''
+An optional bearing, sold separately, can be installed to reduce spool rotation resistance and provide smoother filament feeding. This is especially useful for flexible materials such as TPU and other printing scenarios that are sensitive to feed resistance.
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-e50cd1ad100decf8"
+type = "listItem"
+composite = true
+origin = '''
+- {{c494ce8acde3e4ec-7a59e21d77fd37e8-e50cd1ad100decf8-548e006f2b680f2f}}
+
+    {{c494ce8acde3e4ec-7a59e21d77fd37e8-e50cd1ad100decf8-43f37d60aab85dc4}}
+'''
+translate = '''
+- {{c494ce8acde3e4ec-7a59e21d77fd37e8-e50cd1ad100decf8-548e006f2b680f2f}}
+
+    {{c494ce8acde3e4ec-7a59e21d77fd37e8-e50cd1ad100decf8-43f37d60aab85dc4}}
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-e50cd1ad100decf8-548e006f2b680f2f"
+type = "paragraph"
+origin = '''
+**快速拆卸设计**
+'''
+translate = '''
+**Quick-Release Design**
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-e50cd1ad100decf8-43f37d60aab85dc4"
+type = "paragraph"
+origin = '''
+采用便捷的旋转解锁结构，无需复杂工具即可快速完成料盘拆卸和耗材安装与更换，让日常使用更加高效
+'''
+translate = '''
+The twist-lock mechanism allows the spool to be opened quickly for filament installation or replacement without complicated tools, making routine use more efficient.
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-7c6f3edd3c0c00b9"
+type = "listItem"
+composite = true
+origin = '''
+- {{c494ce8acde3e4ec-7a59e21d77fd37e8-7c6f3edd3c0c00b9-041139ec5300bbf5}}
+
+    {{c494ce8acde3e4ec-7a59e21d77fd37e8-7c6f3edd3c0c00b9-15d279668b3e4d42}}
+'''
+translate = '''
+- {{c494ce8acde3e4ec-7a59e21d77fd37e8-7c6f3edd3c0c00b9-041139ec5300bbf5}}
+
+    {{c494ce8acde3e4ec-7a59e21d77fd37e8-7c6f3edd3c0c00b9-15d279668b3e4d42}}
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-7c6f3edd3c0c00b9-041139ec5300bbf5"
+type = "paragraph"
+origin = '''
+**常用耗材广泛适配**
+'''
+translate = '''
+**Broad Filament Compatibility**
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-7c6f3edd3c0c00b9-15d279668b3e4d42"
+type = "paragraph"
+origin = '''
+不局限于高性能工程耗材，同样适用于 PLA，PETG，ABS，ASA，TPU 等日常常用耗材，覆盖更广泛的打印与烘干需求。
+'''
+translate = '''
+In addition to high-performance engineering filaments, the spool supports common materials such as PLA, PETG, ABS, ASA, and TPU, covering a wide range of printing and drying needs.
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-42171d490bf709b7"
+type = "listItem"
+composite = true
+origin = '''
+- {{c494ce8acde3e4ec-7a59e21d77fd37e8-42171d490bf709b7-b1baafbeeac16880}}
+
+    {{c494ce8acde3e4ec-7a59e21d77fd37e8-42171d490bf709b7-2844db37f8e297ff}}
+'''
+translate = '''
+- {{c494ce8acde3e4ec-7a59e21d77fd37e8-42171d490bf709b7-b1baafbeeac16880}}
+
+    {{c494ce8acde3e4ec-7a59e21d77fd37e8-42171d490bf709b7-2844db37f8e297ff}}
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-42171d490bf709b7-b1baafbeeac16880"
+type = "paragraph"
+origin = '''
+**支持耗材识别芯片替换**
+'''
+translate = '''
+**Replaceable Filament ID Chip Support**
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-42171d490bf709b7-2844db37f8e297ff"
+type = "paragraph"
+origin = '''
+兼容无盘耗材芯片适配方案，可将Bambu Lab料盘芯片拆下，安装至配套打印件后固定在料盘上，实现在AMS中使用其他品牌耗材时的信息识别与自动匹配。
+'''
+translate = '''
+The spool supports RFID chip adaptation for refill filament. A Bambu Lab spool chip can be removed, installed in the matching printed part, and secured to the spool so the AMS can read and automatically match the filament information when third-party filament is used.
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-798262b99c559f86"
+type = "listItem"
+composite = true
+origin = '''
+- {{c494ce8acde3e4ec-7a59e21d77fd37e8-798262b99c559f86-08f8a93ea19a18ca}}
+
+    {{c494ce8acde3e4ec-7a59e21d77fd37e8-798262b99c559f86-a5190bc00aaf4333}}
+'''
+translate = '''
+- {{c494ce8acde3e4ec-7a59e21d77fd37e8-798262b99c559f86-08f8a93ea19a18ca}}
+
+    {{c494ce8acde3e4ec-7a59e21d77fd37e8-798262b99c559f86-a5190bc00aaf4333}}
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-798262b99c559f86-08f8a93ea19a18ca"
+type = "paragraph"
+origin = '''
+**辅助提升烘干效率**
+'''
+translate = '''
+**Improved Drying Efficiency**
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-798262b99c559f86-a5190bc00aaf4333"
+type = "paragraph"
+origin = '''
+铝合金具备良好的导热性能，配合镂空设计可更快地将烘干设备产生的热量传递至料盘及耗材内外，有助于改善耗材受热均匀性与烘干效率。实际效果会受到耗材类型，烘干设备及环境条件影响。
+'''
+translate = '''
+The aluminum alloy provides good thermal conductivity, while the open-frame design helps transfer heat from the dryer more quickly to the spool and filament. This can help improve heating uniformity and drying efficiency. Actual results vary depending on filament type, drying equipment, and environmental conditions.
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-589dccb082ccc847"
+type = "listItem"
+composite = true
+origin = '''
+- {{c494ce8acde3e4ec-7a59e21d77fd37e8-589dccb082ccc847-6f3f08dc15e3d011}}
+
+    {{c494ce8acde3e4ec-7a59e21d77fd37e8-589dccb082ccc847-2087d2847e42008c}}
+'''
+translate = '''
+- {{c494ce8acde3e4ec-7a59e21d77fd37e8-589dccb082ccc847-6f3f08dc15e3d011}}
+
+    {{c494ce8acde3e4ec-7a59e21d77fd37e8-589dccb082ccc847-2087d2847e42008c}}
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-589dccb082ccc847-6f3f08dc15e3d011"
+type = "paragraph"
+origin = '''
+**轻量化镂空结构**
+'''
+translate = '''
+**Lightweight Open-Frame Design**
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-7a59e21d77fd37e8-589dccb082ccc847-2087d2847e42008c"
+type = "paragraph"
+origin = '''
+采用轻量化镂空设计，在兼顾结构强度的同时降低整体重量，呈现更具机械感与科技感的外观。
+'''
+translate = '''
+The lightweight open-frame structure reduces overall weight while maintaining structural strength and gives the spool a distinctive mechanical, technical appearance.
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-5c5a22ebd12bee77"
+type = "heading"
+origin = '''
+## 参数信息
+'''
+translate = '''
+## Specifications
+'''
+
+[[block]]
+key = "c494ce8acde3e4ec-d8d41aeac0e74401"
+type = "table"
+origin = '''
+| Panda Insta-Dry Spool | Specifications         |
+| -------------- | ---------------------- |
+| 材质 | 铝合金+铜+硅胶 |
+| 外尺寸 | 200mmX68mm |
+| 内径 | 无轴承65mm，有轴承55mm          |
+| 适配无盘耗材尺寸 | 内径82mm及以上 |
+| 耐温 | 盘体300度，硅胶圈200度 |
+| 扩展 | 支持选配安装55X71mm不锈钢轴承 |
+'''
+translate = '''
+| Panda Insta-Dry Spool | Specifications         |
+| -------------- | ---------------------- |
+| Material | Aluminum alloy + copper + silicone |
+| Overall Dimensions | 200 mm $\times$ 68 mm |
+| Inner Diameter | 65 mm without bearing, 55 mm with bearing          |
+| Compatible Refill Filament Size | inner diameter 82 mm or larger |
+| Temperature Resistance | Spool body: 300 $^\circ\mathrm{C}$; silicone rings: 200 $^\circ\mathrm{C}$ |
+| Optional Accessory | 55 $\times$ 71 mm stainless-steel bearing (sold separately) |
+'''
+
+[[block]]
+key = "f3acddb3bc4a957f"
+type = "heading"
+origin = '''
+## 使用指南
+'''
+translate = '''
+## Installation & Use
+'''
+
+[[block]]
+key = "0d066f0b1b3f18a6"
+type = "heading"
+origin = '''
+### 料盘的解锁与安装
+'''
+translate = '''
+### Unlock and Assemble
+'''
+
+[[block]]
+key = "1b0da8018167631f"
+type = "list"
+composite = true
+origin = '''
+{{1b0da8018167631f-c189d81dd6dfa03e}}
+
+{{1b0da8018167631f-8af4d0e24e12dde2}}
+'''
+translate = '''
+{{1b0da8018167631f-c189d81dd6dfa03e}}
+
+{{1b0da8018167631f-8af4d0e24e12dde2}}
+'''
+
+[[block]]
+key = "1b0da8018167631f-c189d81dd6dfa03e"
+type = "listItem"
+composite = true
+origin = '''
+- {{1b0da8018167631f-c189d81dd6dfa03e-3594dd60b8e5866d}}
+
+    {{1b0da8018167631f-c189d81dd6dfa03e-de9773f085961eb2}}
+'''
+translate = '''
+- {{1b0da8018167631f-c189d81dd6dfa03e-3594dd60b8e5866d}}
+
+    {{1b0da8018167631f-c189d81dd6dfa03e-de9773f085961eb2}}
+'''
+
+[[block]]
+key = "1b0da8018167631f-c189d81dd6dfa03e-3594dd60b8e5866d"
+type = "paragraph"
+origin = '''
+解锁料盘
+'''
+translate = '''
+Unlock the Spool
+'''
+
+[[block]]
+key = "1b0da8018167631f-c189d81dd6dfa03e-de9773f085961eb2"
+type = "list"
+composite = true
+origin = '''
+{{1b0da8018167631f-c189d81dd6dfa03e-de9773f085961eb2-de9773f085961eb2}}
+'''
+translate = '''
+{{1b0da8018167631f-c189d81dd6dfa03e-de9773f085961eb2-de9773f085961eb2}}
+'''
+
+[[block]]
+key = "1b0da8018167631f-c189d81dd6dfa03e-de9773f085961eb2-de9773f085961eb2"
+type = "listItem"
+composite = true
+origin = '''
+- {{1b0da8018167631f-c189d81dd6dfa03e-de9773f085961eb2-de9773f085961eb2-40dbe2dee863d454}}
+
+    {{1b0da8018167631f-c189d81dd6dfa03e-de9773f085961eb2-de9773f085961eb2-89b9b3bf04005a75}}
+
+    {{1b0da8018167631f-c189d81dd6dfa03e-de9773f085961eb2-de9773f085961eb2-fcb770335ae2fde1}}
+'''
+translate = '''
+- {{1b0da8018167631f-c189d81dd6dfa03e-de9773f085961eb2-de9773f085961eb2-40dbe2dee863d454}}
+
+    {{1b0da8018167631f-c189d81dd6dfa03e-de9773f085961eb2-de9773f085961eb2-89b9b3bf04005a75}}
+
+    {{1b0da8018167631f-c189d81dd6dfa03e-de9773f085961eb2-de9773f085961eb2-fcb770335ae2fde1}}
+'''
+
+[[block]]
+key = "1b0da8018167631f-c189d81dd6dfa03e-de9773f085961eb2-de9773f085961eb2-40dbe2dee863d454"
+type = "paragraph"
+origin = '''
+按图示找到料盘有黄色滑块的位置，将其向料盘外侧拉住，打开锁止装置，按照盘片内侧解锁丝印标识旋转即可打开料盘
+'''
+translate = '''
+Locate the yellow slider on the reel as shown in the diagram. Pull it outward—away from the center of the reel—to disengage the locking mechanism; then, rotate the reel in the direction indicated by the "unlock" markings printed on its inner surface to open it.
+'''
+
+[[block]]
+key = "1b0da8018167631f-c189d81dd6dfa03e-de9773f085961eb2-de9773f085961eb2-89b9b3bf04005a75"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-unlock.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-unlock.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "1b0da8018167631f-c189d81dd6dfa03e-de9773f085961eb2-de9773f085961eb2-fcb770335ae2fde1"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-unlock-1.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-unlock-1.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "1b0da8018167631f-8af4d0e24e12dde2"
+type = "listItem"
+composite = true
+origin = '''
+- {{1b0da8018167631f-8af4d0e24e12dde2-f4a5fa763409d3de}}
+
+    {{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929}}
+'''
+translate = '''
+- {{1b0da8018167631f-8af4d0e24e12dde2-f4a5fa763409d3de}}
+
+    {{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929}}
+'''
+
+[[block]]
+key = "1b0da8018167631f-8af4d0e24e12dde2-f4a5fa763409d3de"
+type = "paragraph"
+origin = '''
+安装锁止料盘（未装耗材时）
+'''
+translate = '''
+Assemble and Lock the Empty Spool
+'''
+
+[[block]]
+key = "1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929"
+type = "list"
+composite = true
+origin = '''
+{{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933}}
+
+{{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-82f80f5aed199024}}
+'''
+translate = '''
+{{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933}}
+
+{{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-82f80f5aed199024}}
+'''
+
+[[block]]
+key = "1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933"
+type = "listItem"
+composite = true
+origin = '''
+- {{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933-4c983f01bb3491df}}
+
+    {{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933-756deed8c7f28092}}
+
+    {{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933-8caa9d9f9ed7cba3}}
+
+    {{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933-51e4fd03429cfc71}}
+
+    {{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933-bff0381213d45b89}}
+'''
+translate = '''
+- {{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933-4c983f01bb3491df}}
+
+    {{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933-756deed8c7f28092}}
+
+    {{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933-8caa9d9f9ed7cba3}}
+
+    {{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933-51e4fd03429cfc71}}
+
+    {{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933-bff0381213d45b89}}
+'''
+
+[[block]]
+key = "1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933-4c983f01bb3491df"
+type = "paragraph"
+origin = '''
+按照图示将两侧盘体内轴的凸起与凹陷处对齐卡入，按住两侧盘体后沿内侧丝印标识旋转至无法转动时完成上锁
+'''
+translate = '''
+As shown in the illustration, align the protrusions and recesses on the inner hubs of both spool halves and snap them together. Hold both halves firmly and rotate them in the direction indicated by the markings on the inner hub until they stop turning. The spool is now locked in place.
+'''
+
+[[block]]
+key = "1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933-756deed8c7f28092"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-lock-1.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-lock-1.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933-8caa9d9f9ed7cba3"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-lock-2.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-lock-2.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933-51e4fd03429cfc71"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-lock.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-lock.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-92ed9dbb6ee8b933-bff0381213d45b89"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-lock-3.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-lock-3.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-82f80f5aed199024"
+type = "listItem"
+composite = true
+origin = '''
+- {{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-82f80f5aed199024-9b43d3d3abba09bf}}
+
+    {{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-82f80f5aed199024-288b3260b7e43c3d}}
+'''
+translate = '''
+- {{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-82f80f5aed199024-9b43d3d3abba09bf}}
+
+    {{1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-82f80f5aed199024-288b3260b7e43c3d}}
+'''
+
+[[block]]
+key = "1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-82f80f5aed199024-9b43d3d3abba09bf"
+type = "paragraph"
+origin = '''
+安装完成效果
+'''
+translate = '''
+Installed Position
+'''
+
+[[block]]
+key = "1b0da8018167631f-8af4d0e24e12dde2-cdd48c275e430929-82f80f5aed199024-288b3260b7e43c3d"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-lock-4.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-lock-4.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "8610611de030cb85"
+type = "heading"
+origin = '''
+### 耗材的安装
+'''
+translate = '''
+### Install Filament
+'''
+
+[[block]]
+key = "b1e73ec009a8172b"
+type = "list"
+composite = true
+origin = '''
+{{b1e73ec009a8172b-b8c2ed98e80e2a03}}
+
+{{b1e73ec009a8172b-dc1a691a39ba25e6}}
+
+{{b1e73ec009a8172b-334163319609c6c6}}
+'''
+translate = '''
+{{b1e73ec009a8172b-b8c2ed98e80e2a03}}
+
+{{b1e73ec009a8172b-dc1a691a39ba25e6}}
+
+{{b1e73ec009a8172b-334163319609c6c6}}
+'''
+
+[[block]]
+key = "b1e73ec009a8172b-b8c2ed98e80e2a03"
+type = "listItem"
+composite = true
+origin = '''
+- {{b1e73ec009a8172b-b8c2ed98e80e2a03-14ef00e94d0fde36}}
+
+    {{b1e73ec009a8172b-b8c2ed98e80e2a03-679685bb17e0aa21}}
+
+    {{b1e73ec009a8172b-b8c2ed98e80e2a03-f7fb55575e787ae5}}
+'''
+translate = '''
+- {{b1e73ec009a8172b-b8c2ed98e80e2a03-14ef00e94d0fde36}}
+
+    {{b1e73ec009a8172b-b8c2ed98e80e2a03-679685bb17e0aa21}}
+
+    {{b1e73ec009a8172b-b8c2ed98e80e2a03-f7fb55575e787ae5}}
+'''
+
+[[block]]
+key = "b1e73ec009a8172b-b8c2ed98e80e2a03-14ef00e94d0fde36"
+type = "paragraph"
+origin = '''
+将料盘解锁打开后，找到盘体带有限位凸起的一面，将无盘耗材的限位凹槽处对准卡入，按压到位后耗材的RFID识别区会刚好位于镂空区域，否则有金属遮挡会影响AMS的耗材信息读取功能
+'''
+translate = '''
+Open the spool. Align the positioning tab with the refill notch and press the refill into place. Keep the RFID area exposed through the window marked for remaining filament so the AMS can read it properly.
+'''
+
+[[block]]
+key = "b1e73ec009a8172b-b8c2ed98e80e2a03-679685bb17e0aa21"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-install-consumables-4.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-install-consumables-4.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "b1e73ec009a8172b-b8c2ed98e80e2a03-f7fb55575e787ae5"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-install-consumables.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-install-consumables.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "b1e73ec009a8172b-dc1a691a39ba25e6"
+type = "listItem"
+composite = true
+origin = '''
+- {{b1e73ec009a8172b-dc1a691a39ba25e6-5a336eab322d7c99}}
+
+    {{b1e73ec009a8172b-dc1a691a39ba25e6-4a401ec58910116f}}
+'''
+translate = '''
+- {{b1e73ec009a8172b-dc1a691a39ba25e6-5a336eab322d7c99}}
+
+    {{b1e73ec009a8172b-dc1a691a39ba25e6-4a401ec58910116f}}
+'''
+
+[[block]]
+key = "b1e73ec009a8172b-dc1a691a39ba25e6-5a336eab322d7c99"
+type = "paragraph"
+origin = '''
+耗材装入带限位的盘体后，使用另一侧盘体，将内轴放入无盘耗材纸轴中，将该侧盘体内侧丝印A点对准另一侧有耗材余量标识镂空的位置
+'''
+translate = '''
+After loading the filament onto the spool half with the retaining stop, take the other spool half and insert its inner hub into the cardboard core of the spool-less filament. Align the A mark printed on the inside of this spool half with the cutout for the filament remaining indicator on the opposite spool half.
+'''
+
+[[block]]
+key = "b1e73ec009a8172b-dc1a691a39ba25e6-4a401ec58910116f"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-install-consumables-1.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-install-consumables-1.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "b1e73ec009a8172b-334163319609c6c6"
+type = "listItem"
+composite = true
+origin = '''
+- {{b1e73ec009a8172b-334163319609c6c6-3486ab9b21853373}}
+
+    {{b1e73ec009a8172b-334163319609c6c6-34cdc03ce0994b20}}
+
+    {{b1e73ec009a8172b-334163319609c6c6-85080558e024089b}}
+
+    {{b1e73ec009a8172b-334163319609c6c6-2d1343d9e0a559ba}}
+
+    {{b1e73ec009a8172b-334163319609c6c6-bff0381213d45b89}}
+'''
+translate = '''
+- {{b1e73ec009a8172b-334163319609c6c6-3486ab9b21853373}}
+
+    {{b1e73ec009a8172b-334163319609c6c6-34cdc03ce0994b20}}
+
+    {{b1e73ec009a8172b-334163319609c6c6-85080558e024089b}}
+
+    {{b1e73ec009a8172b-334163319609c6c6-2d1343d9e0a559ba}}
+
+    {{b1e73ec009a8172b-334163319609c6c6-bff0381213d45b89}}
+'''
+
+[[block]]
+key = "b1e73ec009a8172b-334163319609c6c6-3486ab9b21853373"
+type = "paragraph"
+origin = '''
+随后按照丝印的锁止箭头旋转直到无法转动时完成锁止，同时锁止后两侧盘体内侧的丝印应为A点刚好与C点对齐，并且轴体内部锁止装置处于图示位置
+'''
+translate = '''
+Rotate the spool in the **LOCK** direction until it stops. Check that **A** and **C** align as shown.
+'''
+
+[[block]]
+key = "b1e73ec009a8172b-334163319609c6c6-34cdc03ce0994b20"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-install-consumables-2.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-install-consumables-2.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "b1e73ec009a8172b-334163319609c6c6-85080558e024089b"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-install-consumables-5.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-install-consumables-5.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "b1e73ec009a8172b-334163319609c6c6-2d1343d9e0a559ba"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-install-consumables-3.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-install-consumables-3.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "b1e73ec009a8172b-334163319609c6c6-bff0381213d45b89"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-lock-3.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-lock-3.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "a01acd373228ecff"
+type = "heading"
+origin = '''
+### 低阻力选配轴承安装指南
+'''
+translate = '''
+### Install Optional Bearing
+'''
+
+[[block]]
+key = "e0ff260ba9c80262"
+type = "list"
+composite = true
+origin = '''
+{{e0ff260ba9c80262-968971f86bb5471b}}
+
+{{e0ff260ba9c80262-fb8911bd2650740d}}
+
+{{e0ff260ba9c80262-d5fefc333bf9ecda}}
+'''
+translate = '''
+{{e0ff260ba9c80262-968971f86bb5471b}}
+
+{{e0ff260ba9c80262-fb8911bd2650740d}}
+
+{{e0ff260ba9c80262-d5fefc333bf9ecda}}
+'''
+
+[[block]]
+key = "e0ff260ba9c80262-968971f86bb5471b"
+type = "listItem"
+composite = true
+origin = '''
+- {{e0ff260ba9c80262-968971f86bb5471b-66806a616a7db6fc}}
+
+    {{e0ff260ba9c80262-968971f86bb5471b-0a851061bb1ca7ee}}
+
+    {{e0ff260ba9c80262-968971f86bb5471b-86aeac59890afac1}}
+'''
+translate = '''
+- {{e0ff260ba9c80262-968971f86bb5471b-66806a616a7db6fc}}
+
+    {{e0ff260ba9c80262-968971f86bb5471b-0a851061bb1ca7ee}}
+
+    {{e0ff260ba9c80262-968971f86bb5471b-86aeac59890afac1}}
+'''
+
+[[block]]
+key = "e0ff260ba9c80262-968971f86bb5471b-66806a616a7db6fc"
+type = "paragraph"
+origin = '''
+将料盘两侧螺丝全部拆下后便可拿下盘片
+'''
+translate = '''
+Remove all screws from both sides of the spool, then remove the spool plates.
+'''
+
+[[block]]
+key = "e0ff260ba9c80262-968971f86bb5471b-0a851061bb1ca7ee"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-bearing.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-bearing.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "e0ff260ba9c80262-968971f86bb5471b-86aeac59890afac1"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-bearing-1.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-bearing-1.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "e0ff260ba9c80262-fb8911bd2650740d"
+type = "listItem"
+composite = true
+origin = '''
+- {{e0ff260ba9c80262-fb8911bd2650740d-8accefa67a8c578f}}
+
+    {{e0ff260ba9c80262-fb8911bd2650740d-074407791c203cac}}
+
+    {{e0ff260ba9c80262-fb8911bd2650740d-b0de58b3487e962c}}
+'''
+translate = '''
+- {{e0ff260ba9c80262-fb8911bd2650740d-8accefa67a8c578f}}
+
+    {{e0ff260ba9c80262-fb8911bd2650740d-074407791c203cac}}
+
+    {{e0ff260ba9c80262-fb8911bd2650740d-b0de58b3487e962c}}
+'''
+
+[[block]]
+key = "e0ff260ba9c80262-fb8911bd2650740d-8accefa67a8c578f"
+type = "paragraph"
+origin = '''
+拿下盘片后将轴承对准内轴外侧安装槽向内压入
+'''
+translate = '''
+Align each bearing with the groove on its side, then press it into place.
+'''
+
+[[block]]
+key = "e0ff260ba9c80262-fb8911bd2650740d-074407791c203cac"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-bearing-3.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-bearing-3.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "e0ff260ba9c80262-fb8911bd2650740d-b0de58b3487e962c"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-bearing-4.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-bearing-4.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "e0ff260ba9c80262-d5fefc333bf9ecda"
+type = "listItem"
+composite = true
+origin = '''
+- {{e0ff260ba9c80262-d5fefc333bf9ecda-ee55ad84deab291c}}
+
+    {{e0ff260ba9c80262-d5fefc333bf9ecda-ddf26408e6c9009d}}
+
+    {{e0ff260ba9c80262-d5fefc333bf9ecda-740a280e964a1461}}
+
+    {{e0ff260ba9c80262-d5fefc333bf9ecda-0a851061bb1ca7ee}}
+'''
+translate = '''
+- {{e0ff260ba9c80262-d5fefc333bf9ecda-ee55ad84deab291c}}
+
+    {{e0ff260ba9c80262-d5fefc333bf9ecda-ddf26408e6c9009d}}
+
+    {{e0ff260ba9c80262-d5fefc333bf9ecda-740a280e964a1461}}
+
+    {{e0ff260ba9c80262-d5fefc333bf9ecda-0a851061bb1ca7ee}}
+'''
+
+[[block]]
+key = "e0ff260ba9c80262-d5fefc333bf9ecda-ee55ad84deab291c"
+type = "paragraph"
+origin = '''
+确认轴承边缘与内轴边缘齐平后，将带有限位凸起的一侧盘片安装于带有解锁按键的一侧轴体，对准孔位锁紧螺丝即可
+'''
+translate = '''
+Make sure the bearings are flush with the inner hubs. Install the positioning-tab plate on the yellow copper latch side and tighten the screws. Then install the plate on the opposite side and tighten its screws.
+'''
+
+[[block]]
+key = "e0ff260ba9c80262-d5fefc333bf9ecda-ddf26408e6c9009d"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-bearing-5.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-bearing-5.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "e0ff260ba9c80262-d5fefc333bf9ecda-740a280e964a1461"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-bearing-2.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-bearing-2.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "e0ff260ba9c80262-d5fefc333bf9ecda-0a851061bb1ca7ee"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-bearing.webp').default} width="40%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-bearing.webp').default} width="40%"/>
+'''
+
+[[block]]
+key = "a1a55c6840e19b9c"
+type = "heading"
+origin = '''
+### 耗材类型标识及RFID替换打印件安装与调整([点击获取打印件](https://makerworld.com/zh/models/3461654-panda-insta-dry-spool-rfid-print#profileId-3950083))
+'''
+translate = '''
+### Filament Label/RFID Setup ([Get the Printable Part](https://makerworld.com/zh/models/3461654-panda-insta-dry-spool-rfid-print#profileId-3950083))
+'''
+
+[[block]]
+key = "37dd12a00430ad33"
+type = "paragraph"
+origin = '''
+当需要明确标识出当前料盘所装载的耗材类型或需要使用拓竹RFID适配其它三方耗材时，可以使用多色打印该配件安装于Panda Insta-Dry Spool盘片两侧镂空处，可根据实际耗材类型自定义表面文字信息。
+'''
+translate = '''
+When you need to clearly identify the filament loaded on the spool or use a Bambu Lab RFID chip with third-party filament, you can multicolor-print this accessory and install it in the remaining-filament windows on both sides of the Panda Insta-Dry Spool. The surface text can be customized to match the filament type.
+'''
+
+[[block]]
+key = "a60154bfb69d811c"
+type = "list"
+composite = true
+origin = '''
+{{a60154bfb69d811c-009010ee9d4a3c21}}
+
+{{a60154bfb69d811c-83b1f12e270d8881}}
+
+{{a60154bfb69d811c-72254f16e6e5fc92}}
+'''
+translate = '''
+{{a60154bfb69d811c-009010ee9d4a3c21}}
+
+{{a60154bfb69d811c-83b1f12e270d8881}}
+
+{{a60154bfb69d811c-72254f16e6e5fc92}}
+'''
+
+[[block]]
+key = "a60154bfb69d811c-009010ee9d4a3c21"
+type = "listItem"
+composite = true
+origin = '''
+- {{a60154bfb69d811c-009010ee9d4a3c21-1c530e98fe21ecc0}}
+
+    {{a60154bfb69d811c-009010ee9d4a3c21-83751669f013d2fc}}
+
+    {{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86}}
+
+    {{a60154bfb69d811c-009010ee9d4a3c21-636141157fbd76d9}}
+'''
+translate = '''
+- {{a60154bfb69d811c-009010ee9d4a3c21-1c530e98fe21ecc0}}
+
+    {{a60154bfb69d811c-009010ee9d4a3c21-83751669f013d2fc}}
+
+    {{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86}}
+
+    {{a60154bfb69d811c-009010ee9d4a3c21-636141157fbd76d9}}
+'''
+
+[[block]]
+key = "a60154bfb69d811c-009010ee9d4a3c21-1c530e98fe21ecc0"
+type = "paragraph"
+origin = '''
+自定义耗材信息步骤
+'''
+translate = '''
+Customize Filament Information
+'''
+
+[[block]]
+key = "a60154bfb69d811c-009010ee9d4a3c21-83751669f013d2fc"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-print.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-print.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86"
+type = "list"
+composite = true
+origin = '''
+{{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-64a326d8fc4edd40}}
+
+{{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-59ddc445b07142c7}}
+
+{{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-130f0e9f1f7509e3}}
+
+{{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-ff49d9a1142edada}}
+'''
+translate = '''
+{{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-64a326d8fc4edd40}}
+
+{{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-59ddc445b07142c7}}
+
+{{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-130f0e9f1f7509e3}}
+
+{{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-ff49d9a1142edada}}
+'''
+
+[[block]]
+key = "a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-64a326d8fc4edd40"
+type = "listItem"
+composite = true
+origin = '''
+1. {{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-64a326d8fc4edd40-35b34750730042d3}}
+'''
+translate = '''
+1. {{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-64a326d8fc4edd40-35b34750730042d3}}
+'''
+
+[[block]]
+key = "a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-64a326d8fc4edd40-35b34750730042d3"
+type = "paragraph"
+origin = '''
+选中打印件后，点击顶部工具栏中的文字选项
+'''
+translate = '''
+Select the printable model, then select the **text shape** from the top toolbar.
+'''
+
+[[block]]
+key = "a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-59ddc445b07142c7"
+type = "listItem"
+composite = true
+origin = '''
+2. {{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-59ddc445b07142c7-5b34d98067806632}}
+'''
+translate = '''
+2. {{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-59ddc445b07142c7-5b34d98067806632}}
+'''
+
+[[block]]
+key = "a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-59ddc445b07142c7-5b34d98067806632"
+type = "paragraph"
+origin = '''
+文字工具栏弹出后，将底部模式切换为**负零件**
+'''
+translate = '''
+When the text toolbar appears, set **Operation** to **Cut**.
+'''
+
+[[block]]
+key = "a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-130f0e9f1f7509e3"
+type = "listItem"
+composite = true
+origin = '''
+3. {{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-130f0e9f1f7509e3-364c9ff8d0cf9142}}
+'''
+translate = '''
+3. {{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-130f0e9f1f7509e3-364c9ff8d0cf9142}}
+'''
+
+[[block]]
+key = "a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-130f0e9f1f7509e3-364c9ff8d0cf9142"
+type = "paragraph"
+origin = '''
+在输入框中输入自己需要的文字内容，拖动文字至合适位置即可
+'''
+translate = '''
+Enter your text in the input field, then drag it to the desired position.
+'''
+
+[[block]]
+key = "a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-ff49d9a1142edada"
+type = "listItem"
+composite = true
+origin = '''
+4. {{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-ff49d9a1142edada-f32ca821968a034e}}
+'''
+translate = '''
+4. {{a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-ff49d9a1142edada-f32ca821968a034e}}
+'''
+
+[[block]]
+key = "a60154bfb69d811c-009010ee9d4a3c21-faa032242f640b86-ff49d9a1142edada-f32ca821968a034e"
+type = "paragraph"
+origin = '''
+选中打印物体后点击顶部工具栏中的底面选择，将带有文字的此面置于热床
+'''
+translate = '''
+Select the model, then choose **Lay on Face** from the top toolbar to place the text face on the build plate.
+'''
+
+[[block]]
+key = "a60154bfb69d811c-009010ee9d4a3c21-636141157fbd76d9"
+type = "admonition"
+composite = true
+origin = '''
+:::tip
+
+{{a60154bfb69d811c-009010ee9d4a3c21-636141157fbd76d9-913bfba6aa7d3f04}}
+
+:::
+'''
+translate = '''
+:::tip
+
+{{a60154bfb69d811c-009010ee9d4a3c21-636141157fbd76d9-913bfba6aa7d3f04}}
+
+:::
+'''
+
+[[block]]
+key = "a60154bfb69d811c-009010ee9d4a3c21-636141157fbd76d9-913bfba6aa7d3f04"
+type = "paragraph"
+origin = '''
+不需要自定义文字时，请直接进行第四步
+'''
+translate = '''
+Note: If you do not need custom text, proceed directly to Step 4.
+'''
+
+[[block]]
+key = "a60154bfb69d811c-83b1f12e270d8881"
+type = "listItem"
+composite = true
+origin = '''
+- {{a60154bfb69d811c-83b1f12e270d8881-08c2f0afcffb3431}}
+
+    {{a60154bfb69d811c-83b1f12e270d8881-48b2ad6b4de3781d}}
+
+    {{a60154bfb69d811c-83b1f12e270d8881-6a12bca86a06e539}}
+
+    {{a60154bfb69d811c-83b1f12e270d8881-ee5b47b84c05c2b6}}
+'''
+translate = '''
+- {{a60154bfb69d811c-83b1f12e270d8881-08c2f0afcffb3431}}
+
+    {{a60154bfb69d811c-83b1f12e270d8881-48b2ad6b4de3781d}}
+
+    {{a60154bfb69d811c-83b1f12e270d8881-6a12bca86a06e539}}
+
+    {{a60154bfb69d811c-83b1f12e270d8881-ee5b47b84c05c2b6}}
+'''
+
+[[block]]
+key = "a60154bfb69d811c-83b1f12e270d8881-08c2f0afcffb3431"
+type = "paragraph"
+origin = '''
+RFID芯片替换安装步骤
+'''
+translate = '''
+Install the RFID Chip
+'''
+
+[[block]]
+key = "a60154bfb69d811c-83b1f12e270d8881-48b2ad6b4de3781d"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-print-1.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-print-1.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "a60154bfb69d811c-83b1f12e270d8881-6a12bca86a06e539"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-print-3.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-print-3.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "a60154bfb69d811c-83b1f12e270d8881-ee5b47b84c05c2b6"
+type = "list"
+composite = true
+origin = '''
+{{a60154bfb69d811c-83b1f12e270d8881-ee5b47b84c05c2b6-e7ce7cc2ca732234}}
+
+{{a60154bfb69d811c-83b1f12e270d8881-ee5b47b84c05c2b6-a58c1b510934f4f0}}
+'''
+translate = '''
+{{a60154bfb69d811c-83b1f12e270d8881-ee5b47b84c05c2b6-e7ce7cc2ca732234}}
+
+{{a60154bfb69d811c-83b1f12e270d8881-ee5b47b84c05c2b6-a58c1b510934f4f0}}
+'''
+
+[[block]]
+key = "a60154bfb69d811c-83b1f12e270d8881-ee5b47b84c05c2b6-e7ce7cc2ca732234"
+type = "listItem"
+composite = true
+origin = '''
+1. {{a60154bfb69d811c-83b1f12e270d8881-ee5b47b84c05c2b6-e7ce7cc2ca732234-b56a0e541e68adb7}}
+'''
+translate = '''
+1. {{a60154bfb69d811c-83b1f12e270d8881-ee5b47b84c05c2b6-e7ce7cc2ca732234-b56a0e541e68adb7}}
+'''
+
+[[block]]
+key = "a60154bfb69d811c-83b1f12e270d8881-ee5b47b84c05c2b6-e7ce7cc2ca732234-b56a0e541e68adb7"
+type = "paragraph"
+origin = '''
+按使用需要沿箭头将芯片剪下，当两侧同时安装时需要将两个芯片都剪下
+'''
+translate = '''
+Cut out one chip along the arrow. If installing adapters on both sides, cut out both chips.
+'''
+
+[[block]]
+key = "a60154bfb69d811c-83b1f12e270d8881-ee5b47b84c05c2b6-a58c1b510934f4f0"
+type = "listItem"
+composite = true
+origin = '''
+2. {{a60154bfb69d811c-83b1f12e270d8881-ee5b47b84c05c2b6-a58c1b510934f4f0-fc014564a3797ed4}}
+'''
+translate = '''
+2. {{a60154bfb69d811c-83b1f12e270d8881-ee5b47b84c05c2b6-a58c1b510934f4f0-fc014564a3797ed4}}
+'''
+
+[[block]]
+key = "a60154bfb69d811c-83b1f12e270d8881-ee5b47b84c05c2b6-a58c1b510934f4f0-fc014564a3797ed4"
+type = "paragraph"
+origin = '''
+将打印件背面向上，按照图示将芯片卡入卡槽，完成后确认其是否会掉，如长时间使用可使用胶带或背胶固定
+'''
+translate = '''
+Place the printed part with its back side facing up. Insert the chip into the slot as shown in the illustration. Once installed, check that the chip stays securely in place and does not fall out. For long-term use, you can secure it with tape or adhesive backing.
+'''
+
+[[block]]
+key = "a60154bfb69d811c-72254f16e6e5fc92"
+type = "listItem"
+composite = true
+origin = '''
+- {{a60154bfb69d811c-72254f16e6e5fc92-1ee8084fa62a9186}}
+
+    {{a60154bfb69d811c-72254f16e6e5fc92-7210e66b7f0660e2}}
+
+    {{a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9}}
+'''
+translate = '''
+- {{a60154bfb69d811c-72254f16e6e5fc92-1ee8084fa62a9186}}
+
+    {{a60154bfb69d811c-72254f16e6e5fc92-7210e66b7f0660e2}}
+
+    {{a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9}}
+'''
+
+[[block]]
+key = "a60154bfb69d811c-72254f16e6e5fc92-1ee8084fa62a9186"
+type = "paragraph"
+origin = '''
+安装至Panda Insta-Dry Spool步骤
+'''
+translate = '''
+Install on Panda Insta-Dry Spool
+'''
+
+[[block]]
+key = "a60154bfb69d811c-72254f16e6e5fc92-7210e66b7f0660e2"
+type = "mdxJsxFlowElement"
+origin = '''
+<ImageView src={require('./img/panda-insta-dry-spool-print-2.webp').default} width="80%"/>
+'''
+translate = '''
+<ImageView src={require('@site/docs/panda-series/module/panda-insta-dry-spool/img/panda-insta-dry-spool-print-2.webp').default} width="80%"/>
+'''
+
+[[block]]
+key = "a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9"
+type = "list"
+composite = true
+origin = '''
+{{a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-ce6bbcbcca8d5ab2}}
+
+{{a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-1594fb3fc6c61f56}}
+
+{{a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-2f134945da560192}}
+'''
+translate = '''
+{{a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-ce6bbcbcca8d5ab2}}
+
+{{a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-1594fb3fc6c61f56}}
+
+{{a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-2f134945da560192}}
+'''
+
+[[block]]
+key = "a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-ce6bbcbcca8d5ab2"
+type = "listItem"
+composite = true
+origin = '''
+1. {{a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-ce6bbcbcca8d5ab2-d69e8951d4911105}}
+'''
+translate = '''
+1. {{a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-ce6bbcbcca8d5ab2-d69e8951d4911105}}
+'''
+
+[[block]]
+key = "a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-ce6bbcbcca8d5ab2-d69e8951d4911105"
+type = "paragraph"
+origin = '''
+料盘两侧图示位置皆可用于安装RFID芯片卡件（仅支持同时安装一种芯片）
+'''
+translate = '''
+The positions shown on both sides of the spool can be used to install the RFID chip holder. Only one chip type can be installed at a time.
+'''
+
+[[block]]
+key = "a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-1594fb3fc6c61f56"
+type = "listItem"
+composite = true
+origin = '''
+2. {{a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-1594fb3fc6c61f56-bce7633ead3748a4}}
+'''
+translate = '''
+2. {{a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-1594fb3fc6c61f56-bce7633ead3748a4}}
+'''
+
+[[block]]
+key = "a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-1594fb3fc6c61f56-bce7633ead3748a4"
+type = "paragraph"
+origin = '''
+按图示将打印件对齐料盘边缘
+'''
+translate = '''
+Align the printed part with the edge of the spool as shown.
+'''
+
+[[block]]
+key = "a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-2f134945da560192"
+type = "listItem"
+composite = true
+origin = '''
+3. {{a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-2f134945da560192-2a60fcf8fea1dbe9}}
+'''
+translate = '''
+3. {{a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-2f134945da560192-2a60fcf8fea1dbe9}}
+'''
+
+[[block]]
+key = "a60154bfb69d811c-72254f16e6e5fc92-50641cd6e21bf0d9-2f134945da560192-2a60fcf8fea1dbe9"
+type = "paragraph"
+origin = '''
+随后按压下方使打印件卡入料盘边缘即可
+'''
+translate = '''
+Press the printed part until it snaps into place.
+'''
+
+[[block]]
+key = "ccaafc5515143c92"
+type = "heading"
+origin = '''
+### 使用料盘时的注意事项
+'''
+translate = '''
+### Important Notes
+'''
+
+[[block]]
+key = "a37879e09bc448db"
+type = "list"
+composite = true
+origin = '''
+{{a37879e09bc448db-f87c180466800566}}
+
+{{a37879e09bc448db-d8a32e66074b434b}}
+
+{{a37879e09bc448db-e090035e68a7bcc1}}
+
+{{a37879e09bc448db-7650ff4a597b6d03}}
+'''
+translate = '''
+{{a37879e09bc448db-f87c180466800566}}
+
+{{a37879e09bc448db-d8a32e66074b434b}}
+
+{{a37879e09bc448db-e090035e68a7bcc1}}
+
+{{a37879e09bc448db-7650ff4a597b6d03}}
+'''
+
+[[block]]
+key = "a37879e09bc448db-f87c180466800566"
+type = "listItem"
+composite = true
+origin = '''
+- {{a37879e09bc448db-f87c180466800566-543b809f8ea6ae7d}}
+'''
+translate = '''
+- {{a37879e09bc448db-f87c180466800566-543b809f8ea6ae7d}}
+'''
+
+[[block]]
+key = "a37879e09bc448db-f87c180466800566-543b809f8ea6ae7d"
+type = "paragraph"
+origin = '''
+当使用Panda Insta-Dry Spool打印时，外挂耗材打印时可直接将料盘安装于料架，放入**AMS打印时**需拆下料盘两侧盘体边缘的硅胶圈
+'''
+translate = '''
+When printing with Panda Insta-Dry Spool using an external spool holder, install the spool directly on the holder. When using the spool in the **AMS**, remove the silicone rings from the outer edges of both spool halves.
+'''
+
+[[block]]
+key = "a37879e09bc448db-d8a32e66074b434b"
+type = "listItem"
+composite = true
+origin = '''
+- {{a37879e09bc448db-d8a32e66074b434b-4993c1296e54ad36}}
+'''
+translate = '''
+- {{a37879e09bc448db-d8a32e66074b434b-4993c1296e54ad36}}
+'''
+
+[[block]]
+key = "a37879e09bc448db-d8a32e66074b434b-4993c1296e54ad36"
+type = "paragraph"
+origin = '''
+当使用Panda Insta-Dry Spool烘干时，若烘干温度**大于200摄氏度**时，需要拆下料盘两侧盘体边缘的硅胶圈，并且烘干完成后拿出时需要注意**防烫**。
+'''
+translate = '''
+When drying filament with Panda Insta-Dry Spool at temperatures **above 200 $^\circ\mathrm{C}$**, remove the silicone rings from the outer edges of both spool halves. After drying, use caution when removing the spool because it may be **hot**.
+'''
+
+[[block]]
+key = "a37879e09bc448db-e090035e68a7bcc1"
+type = "listItem"
+composite = true
+origin = '''
+- {{a37879e09bc448db-e090035e68a7bcc1-ee1d9f73df721908}}
+'''
+translate = '''
+- {{a37879e09bc448db-e090035e68a7bcc1-ee1d9f73df721908}}
+'''
+
+[[block]]
+key = "a37879e09bc448db-e090035e68a7bcc1-ee1d9f73df721908"
+type = "paragraph"
+origin = '''
+如不使用Panda Insta-Dry Spool时，建议将料盘两侧盘体边缘的硅胶圈安装回料盘，防止料盘意外坠落磕伤盘体边缘导致影响AMS正常运行
+'''
+translate = '''
+When Panda Insta-Dry Spool is not in use, reinstall the silicone rings on the outer edges of both spool halves. This helps protect the spool edges from damage if the spool is accidentally dropped, as this could affect normal AMS operation.
+'''
+
+[[block]]
+key = "a37879e09bc448db-7650ff4a597b6d03"
+type = "listItem"
+composite = true
+origin = '''
+- {{a37879e09bc448db-7650ff4a597b6d03-b529ae0221a44430}}
+'''
+translate = '''
+- {{a37879e09bc448db-7650ff4a597b6d03-b529ae0221a44430}}
+'''
+
+[[block]]
+key = "a37879e09bc448db-7650ff4a597b6d03-b529ae0221a44430"
+type = "paragraph"
+origin = '''
+当没有无盘耗材又要使用Panda Insta-Dry Spool时，需要将耗材绕至Panda Insta-Dry Spool上使用，缠绕时需要使用一个无盘耗材的纸质内轴安装在料盘上（耗材起始段可使用胶带固定于纸质内轴），不建议直接将耗材固定在Panda Insta-Dry Spool内轴上；尤其是在用到高温烘干时，由于内轴为全金属且无镂空，导热较快有概率造成耗材粘连。
+'''
+translate = '''
+If you are using loose filament, first place a cardboard core on the spool, then wind the filament onto it. **Note:** You can secure the filament end to the cardboard core with tape. Do not attach the filament directly to the metal inner hub, especially during high-temperature drying, as the heat may cause the filament to stick together.
+'''
